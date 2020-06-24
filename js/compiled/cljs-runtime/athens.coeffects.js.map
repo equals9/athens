@@ -1,0 +1,1 @@
+{"version":3,"sources":["athens/coeffects.cljs"],"mappings":"","names":[],"sourcesContent":["(ns athens.coeffects)\n\n\n;;; Coeffects\n\n;;\n;;(r/reg-cofx\n;;  :ds\n;;  (fn [coeffects _]\n;;    (assoc coeffects :ds @@store)))\n"]}
