@@ -110,9 +110,9 @@ if((function (){var i__65577 = (0);
 while(true){
 if((i__65577 < size__4581__auto__)){
 var child = cljs.core._nth.cljs$core$IFn$_invoke$arity$2(c__4580__auto__,i__65577);
-cljs.core.chunk_append(b__65578,(function (){var map__65579 = child;
-var map__65579__$1 = (((((!((map__65579 == null))))?(((((map__65579.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__65579.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__65579):map__65579);
-var id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__65579__$1,new cljs.core.Keyword("db","id","db/id",-1388397098));
+cljs.core.chunk_append(b__65578,(function (){var map__65580 = child;
+var map__65580__$1 = (((((!((map__65580 == null))))?(((((map__65580.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__65580.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__65580):map__65580);
+var id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__65580__$1,new cljs.core.Keyword("db","id","db/id",-1388397098));
 return cljs.core.with_meta(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [athens.devcards.blocks.block_el,child], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),id], null));
 })());
 
