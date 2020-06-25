@@ -79,10 +79,10 @@ while(true){
 if(cljs.core.truth_(new cljs.core.Keyword("node","title","node/title",628940777).cljs$core$IFn$_invoke$arity$1(b))){
 return cljs.core.conj.cljs$core$IFn$_invoke$arity$2(res,b);
 } else {
-var G__32840 = cljs.core.first(new cljs.core.Keyword("block","_children","block/_children",1128070632).cljs$core$IFn$_invoke$arity$1(b));
-var G__32841 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(res,cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(b,new cljs.core.Keyword("block","_children","block/_children",1128070632)));
-b = G__32840;
-res = G__32841;
+var G__32845 = cljs.core.first(new cljs.core.Keyword("block","_children","block/_children",1128070632).cljs$core$IFn$_invoke$arity$1(b));
+var G__32846 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(res,cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(b,new cljs.core.Keyword("block","_children","block/_children",1128070632)));
+b = G__32845;
+res = G__32846;
 continue;
 }
 break;
@@ -108,6 +108,67 @@ if((typeof athens !== 'undefined') && (typeof athens.db !== 'undefined') && (typ
 athens.db.dsdb = datascript.core.create_conn.cljs$core$IFn$_invoke$arity$1(athens.db.schema);
 }
 (posh.reagent.posh_BANG_.cljs$core$IFn$_invoke$arity$1 ? posh.reagent.posh_BANG_.cljs$core$IFn$_invoke$arity$1(athens.db.dsdb) : posh.reagent.posh_BANG_.call(null,athens.db.dsdb));
+if((typeof athens !== 'undefined') && (typeof athens.db !== 'undefined') && (typeof athens.db.history !== 'undefined')){
+} else {
+athens.db.history = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentVector.EMPTY);
+}
+athens.db.history_limit = (10);
+athens.db.drop_tail = (function athens$db$drop_tail(xs,pred){
+var acc = cljs.core.PersistentVector.EMPTY;
+var xs__$1 = xs;
+while(true){
+var x = cljs.core.first(xs__$1);
+if((x == null)){
+return acc;
+} else {
+if(cljs.core.truth_((pred.cljs$core$IFn$_invoke$arity$1 ? pred.cljs$core$IFn$_invoke$arity$1(x) : pred.call(null,x)))){
+return cljs.core.conj.cljs$core$IFn$_invoke$arity$2(acc,x);
+} else {
+var G__32847 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(acc,x);
+var G__32848 = cljs.core.next(xs__$1);
+acc = G__32847;
+xs__$1 = G__32848;
+continue;
+
+}
+}
+break;
+}
+});
+athens.db.trim_head = (function athens$db$trim_head(xs,n){
+return cljs.core.vec(cljs.core.drop.cljs$core$IFn$_invoke$arity$2((cljs.core.count(xs) - n),xs));
+});
+athens.db.find_prev = (function athens$db$find_prev(xs,pred){
+return cljs.core.last(cljs.core.take_while.cljs$core$IFn$_invoke$arity$2((function (p1__32840_SHARP_){
+return cljs.core.not((pred.cljs$core$IFn$_invoke$arity$1 ? pred.cljs$core$IFn$_invoke$arity$1(p1__32840_SHARP_) : pred.call(null,p1__32840_SHARP_)));
+}),xs));
+});
+athens.db.find_next = (function athens$db$find_next(xs,pred){
+return cljs.core.fnext(cljs.core.drop_while.cljs$core$IFn$_invoke$arity$2((function (p1__32841_SHARP_){
+return cljs.core.not((pred.cljs$core$IFn$_invoke$arity$1 ? pred.cljs$core$IFn$_invoke$arity$1(p1__32841_SHARP_) : pred.call(null,p1__32841_SHARP_)));
+}),xs));
+});
+datascript.core.listen_BANG_.cljs$core$IFn$_invoke$arity$3(athens.db.dsdb,new cljs.core.Keyword(null,"history","history",-247395220),(function (tx_report){
+var map__32843 = tx_report;
+var map__32843__$1 = (((((!((map__32843 == null))))?(((((map__32843.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__32843.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__32843):map__32843);
+var db_before = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__32843__$1,new cljs.core.Keyword(null,"db-before","db-before",-553691536));
+var db_after = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__32843__$1,new cljs.core.Keyword(null,"db-after","db-after",-571884666));
+if(cljs.core.truth_((function (){var and__4174__auto__ = db_before;
+if(cljs.core.truth_(and__4174__auto__)){
+return db_after;
+} else {
+return and__4174__auto__;
+}
+})())){
+return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(athens.db.history,(function (h){
+return athens.db.trim_head(cljs.core.conj.cljs$core$IFn$_invoke$arity$2(athens.db.drop_tail(h,(function (p1__32842_SHARP_){
+return (p1__32842_SHARP_ === db_before);
+})),db_after),(10));
+}));
+} else {
+return null;
+}
+}));
 if((typeof athens !== 'undefined') && (typeof athens.db !== 'undefined') && (typeof athens.db.rfdb !== 'undefined')){
 } else {
 athens.db.rfdb = new cljs.core.PersistentArrayMap(null, 8, [new cljs.core.Keyword(null,"user","user",1532431356),"Jeff",new cljs.core.Keyword(null,"current-route","current-route",2067529448),null,new cljs.core.Keyword(null,"loading","loading",-737050189),true,new cljs.core.Keyword(null,"errors","errors",-908790718),cljs.core.PersistentArrayMap.EMPTY,new cljs.core.Keyword(null,"athena","athena",-1523991628),false,new cljs.core.Keyword(null,"editing-uid","editing-uid",1372614377),null,new cljs.core.Keyword(null,"drag-bullet","drag-bullet",441161411),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"uid","uid",-1447769400),null,new cljs.core.Keyword(null,"x","x",2099068185),null,new cljs.core.Keyword(null,"y","y",-1757859776),null,new cljs.core.Keyword("closest","uid","closest/uid",-582260451),null,new cljs.core.Keyword("closest","kind","closest/kind",429209294),null], null),new cljs.core.Keyword(null,"tooltip-uid","tooltip-uid",-1719650452),null], null);
