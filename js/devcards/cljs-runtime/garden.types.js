@@ -105,10 +105,10 @@ var h__4297__auto__ = self__.__hash;
 if((!((h__4297__auto__ == null)))){
 return h__4297__auto__;
 } else {
-var h__4297__auto____$1 = (function (){var fexpr__39606 = (function (coll__4436__auto__){
+var h__4297__auto____$1 = (function (){var fexpr__39607 = (function (coll__4436__auto__){
 return (70281654 ^ cljs.core.hash_unordered_coll(coll__4436__auto__));
 });
-return fexpr__39606(this__4435__auto____$1);
+return fexpr__39607(this__4435__auto____$1);
 })();
 (self__.__hash = h__4297__auto____$1);
 
@@ -135,17 +135,17 @@ return (new garden.types.CSSUnit(self__.unit,self__.magnitude,self__.__meta,cljs
 (garden.types.CSSUnit.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__4446__auto__,k__4447__auto__,G__39596){
 var self__ = this;
 var this__4446__auto____$1 = this;
-var pred__39607 = cljs.core.keyword_identical_QMARK_;
-var expr__39608 = k__4447__auto__;
-if(cljs.core.truth_((function (){var G__39610 = new cljs.core.Keyword(null,"unit","unit",375175175);
-var G__39611 = expr__39608;
-return (pred__39607.cljs$core$IFn$_invoke$arity$2 ? pred__39607.cljs$core$IFn$_invoke$arity$2(G__39610,G__39611) : pred__39607.call(null,G__39610,G__39611));
+var pred__39608 = cljs.core.keyword_identical_QMARK_;
+var expr__39609 = k__4447__auto__;
+if(cljs.core.truth_((function (){var G__39611 = new cljs.core.Keyword(null,"unit","unit",375175175);
+var G__39612 = expr__39609;
+return (pred__39608.cljs$core$IFn$_invoke$arity$2 ? pred__39608.cljs$core$IFn$_invoke$arity$2(G__39611,G__39612) : pred__39608.call(null,G__39611,G__39612));
 })())){
 return (new garden.types.CSSUnit(G__39596,self__.magnitude,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((function (){var G__39612 = new cljs.core.Keyword(null,"magnitude","magnitude",1924274222);
-var G__39613 = expr__39608;
-return (pred__39607.cljs$core$IFn$_invoke$arity$2 ? pred__39607.cljs$core$IFn$_invoke$arity$2(G__39612,G__39613) : pred__39607.call(null,G__39612,G__39613));
+if(cljs.core.truth_((function (){var G__39613 = new cljs.core.Keyword(null,"magnitude","magnitude",1924274222);
+var G__39614 = expr__39609;
+return (pred__39608.cljs$core$IFn$_invoke$arity$2 ? pred__39608.cljs$core$IFn$_invoke$arity$2(G__39613,G__39614) : pred__39608.call(null,G__39613,G__39614));
 })())){
 return (new garden.types.CSSUnit(self__.unit,G__39596,self__.__meta,self__.__extmap,null));
 } else {
@@ -527,10 +527,10 @@ var h__4297__auto__ = self__.__hash;
 if((!((h__4297__auto__ == null)))){
 return h__4297__auto__;
 } else {
-var h__4297__auto____$1 = (function (){var fexpr__39645 = (function (coll__4436__auto__){
+var h__4297__auto____$1 = (function (){var fexpr__39647 = (function (coll__4436__auto__){
 return (-1632374092 ^ cljs.core.hash_unordered_coll(coll__4436__auto__));
 });
-return fexpr__39645(this__4435__auto____$1);
+return fexpr__39647(this__4435__auto____$1);
 })();
 (self__.__hash = h__4297__auto____$1);
 
@@ -557,17 +557,17 @@ return (new garden.types.CSSAtRule(self__.identifier,self__.value,self__.__meta,
 (garden.types.CSSAtRule.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__4446__auto__,k__4447__auto__,G__39635){
 var self__ = this;
 var this__4446__auto____$1 = this;
-var pred__39646 = cljs.core.keyword_identical_QMARK_;
-var expr__39647 = k__4447__auto__;
-if(cljs.core.truth_((function (){var G__39649 = new cljs.core.Keyword(null,"identifier","identifier",-805503498);
-var G__39650 = expr__39647;
-return (pred__39646.cljs$core$IFn$_invoke$arity$2 ? pred__39646.cljs$core$IFn$_invoke$arity$2(G__39649,G__39650) : pred__39646.call(null,G__39649,G__39650));
+var pred__39653 = cljs.core.keyword_identical_QMARK_;
+var expr__39654 = k__4447__auto__;
+if(cljs.core.truth_((function (){var G__39656 = new cljs.core.Keyword(null,"identifier","identifier",-805503498);
+var G__39657 = expr__39654;
+return (pred__39653.cljs$core$IFn$_invoke$arity$2 ? pred__39653.cljs$core$IFn$_invoke$arity$2(G__39656,G__39657) : pred__39653.call(null,G__39656,G__39657));
 })())){
 return (new garden.types.CSSAtRule(G__39635,self__.value,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((function (){var G__39651 = new cljs.core.Keyword(null,"value","value",305978217);
-var G__39652 = expr__39647;
-return (pred__39646.cljs$core$IFn$_invoke$arity$2 ? pred__39646.cljs$core$IFn$_invoke$arity$2(G__39651,G__39652) : pred__39646.call(null,G__39651,G__39652));
+if(cljs.core.truth_((function (){var G__39660 = new cljs.core.Keyword(null,"value","value",305978217);
+var G__39661 = expr__39654;
+return (pred__39653.cljs$core$IFn$_invoke$arity$2 ? pred__39653.cljs$core$IFn$_invoke$arity$2(G__39660,G__39661) : pred__39653.call(null,G__39660,G__39661));
 })())){
 return (new garden.types.CSSAtRule(self__.identifier,G__39635,self__.__meta,self__.__extmap,null));
 } else {
@@ -623,11 +623,11 @@ return (new garden.types.CSSAtRule(identifier,value,null,null,null));
  * Factory function for garden.types/CSSAtRule, taking a map of keywords to field values.
  */
 garden.types.map__GT_CSSAtRule = (function garden$types$map__GT_CSSAtRule(G__39639){
-var extmap__4478__auto__ = (function (){var G__39653 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$variadic(G__39639,new cljs.core.Keyword(null,"identifier","identifier",-805503498),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"value","value",305978217)], 0));
+var extmap__4478__auto__ = (function (){var G__39668 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$variadic(G__39639,new cljs.core.Keyword(null,"identifier","identifier",-805503498),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"value","value",305978217)], 0));
 if(cljs.core.record_QMARK_(G__39639)){
-return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__39653);
+return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__39668);
 } else {
-return G__39653;
+return G__39668;
 }
 })();
 return (new garden.types.CSSAtRule(new cljs.core.Keyword(null,"identifier","identifier",-805503498).cljs$core$IFn$_invoke$arity$1(G__39639),new cljs.core.Keyword(null,"value","value",305978217).cljs$core$IFn$_invoke$arity$1(G__39639),null,cljs.core.not_empty(extmap__4478__auto__),null));

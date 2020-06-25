@@ -52,13 +52,13 @@ return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dis
 });
 athens.listeners.mouse_up_bullet = (function athens$listeners$mouse_up_bullet(on_move){
 return (function (_evt){
-var map__54569 = cljs.core.deref((function (){var G__54570 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"drag-bullet","drag-bullet",441161411)], null);
-return (re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(G__54570) : re_frame.core.subscribe.call(null,G__54570));
+var map__54568 = cljs.core.deref((function (){var G__54569 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"drag-bullet","drag-bullet",441161411)], null);
+return (re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(G__54569) : re_frame.core.subscribe.call(null,G__54569));
 })());
-var map__54569__$1 = (((((!((map__54569 == null))))?(((((map__54569.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__54569.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__54569):map__54569);
-var target_uid = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54569__$1,new cljs.core.Keyword("closest","uid","closest/uid",-582260451));
-var uid = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54569__$1,new cljs.core.Keyword(null,"uid","uid",-1447769400));
-var kind = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54569__$1,new cljs.core.Keyword("closest","kind","closest/kind",429209294));
+var map__54568__$1 = (((((!((map__54568 == null))))?(((((map__54568.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__54568.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__54568):map__54568);
+var target_uid = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54568__$1,new cljs.core.Keyword("closest","uid","closest/uid",-582260451));
+var uid = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54568__$1,new cljs.core.Keyword(null,"uid","uid",-1447769400));
+var kind = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54568__$1,new cljs.core.Keyword("closest","kind","closest/kind",429209294));
 if(cljs.core.truth_(target_uid)){
 var G__54572_54584 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"drop-bullet","drop-bullet",1177869489),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"source","source",-433931539),uid,new cljs.core.Keyword(null,"target","target",253001721),target_uid,new cljs.core.Keyword(null,"kind","kind",-717265803),kind], null)], null);
 (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__54572_54584) : re_frame.core.dispatch.call(null,G__54572_54584));

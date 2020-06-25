@@ -39,8 +39,8 @@ return (((beginning <= new cljs.core.Keyword(null,"id","id",-1388402092).cljs$co
 }));
 });
 day8.re_frame_10x.utils.utils.spy = (function day8$re_frame_10x$utils$utils$spy(var_args){
-var G__26938 = arguments.length;
-switch (G__26938) {
+var G__26940 = arguments.length;
+switch (G__26940) {
 case 1:
 return day8.re_frame_10x.utils.utils.spy.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -98,9 +98,9 @@ var argseq__4796__auto__ = ((((2) < args__4795__auto__.length))?(new cljs.core.I
 return day8.re_frame_10x.utils.utils.pluralize.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)]),(arguments[(1)]),argseq__4796__auto__);
 });
 
-(day8.re_frame_10x.utils.utils.pluralize.cljs$core$IFn$_invoke$arity$variadic = (function (num,singular,p__26942){
-var vec__26943 = p__26942;
-var plural = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__26943,(0),null);
+(day8.re_frame_10x.utils.utils.pluralize.cljs$core$IFn$_invoke$arity$variadic = (function (num,singular,p__26945){
+var vec__26946 = p__26945;
+var plural = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__26946,(0),null);
 return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(num)," ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2((1),num))?singular:(function (){var or__4185__auto__ = plural;
 if(cljs.core.truth_(or__4185__auto__)){
 return or__4185__auto__;
@@ -113,13 +113,13 @@ return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(singular),"s"].join('');
 (day8.re_frame_10x.utils.utils.pluralize.cljs$lang$maxFixedArity = (2));
 
 /** @this {Function} */
-(day8.re_frame_10x.utils.utils.pluralize.cljs$lang$applyTo = (function (seq26939){
-var G__26940 = cljs.core.first(seq26939);
-var seq26939__$1 = cljs.core.next(seq26939);
-var G__26941 = cljs.core.first(seq26939__$1);
-var seq26939__$2 = cljs.core.next(seq26939__$1);
+(day8.re_frame_10x.utils.utils.pluralize.cljs$lang$applyTo = (function (seq26942){
+var G__26943 = cljs.core.first(seq26942);
+var seq26942__$1 = cljs.core.next(seq26942);
+var G__26944 = cljs.core.first(seq26942__$1);
+var seq26942__$2 = cljs.core.next(seq26942__$1);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__26940,G__26941,seq26939__$2);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__26943,G__26944,seq26942__$2);
 }));
 
 /**

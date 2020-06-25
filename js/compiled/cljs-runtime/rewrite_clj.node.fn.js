@@ -69,8 +69,8 @@ var base = ((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(i,(0)))?"rest__":["p",
 var s = cljs.core.name(cljs.core.gensym.cljs$core$IFn$_invoke$arity$1(base));
 cljs.core.chunk_append(b__30039,cljs.core.symbol.cljs$core$IFn$_invoke$arity$1([s,"#"].join('')));
 
-var G__30068 = (i__30038 + (1));
-i__30038 = G__30068;
+var G__30069 = (i__30038 + (1));
+i__30038 = G__30069;
 continue;
 } else {
 return true;
@@ -299,11 +299,11 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(this$__$1,new cljs.core.Key
 (rewrite_clj.node.fn.FnNode.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__4446__auto__,k__4447__auto__,G__30040){
 var self__ = this;
 var this__4446__auto____$1 = this;
-var pred__30056 = cljs.core.keyword_identical_QMARK_;
-var expr__30057 = k__4447__auto__;
-if(cljs.core.truth_((function (){var G__30059 = new cljs.core.Keyword(null,"children","children",-940561982);
-var G__30060 = expr__30057;
-return (pred__30056.cljs$core$IFn$_invoke$arity$2 ? pred__30056.cljs$core$IFn$_invoke$arity$2(G__30059,G__30060) : pred__30056.call(null,G__30059,G__30060));
+var pred__30057 = cljs.core.keyword_identical_QMARK_;
+var expr__30058 = k__4447__auto__;
+if(cljs.core.truth_((function (){var G__30060 = new cljs.core.Keyword(null,"children","children",-940561982);
+var G__30061 = expr__30058;
+return (pred__30057.cljs$core$IFn$_invoke$arity$2 ? pred__30057.cljs$core$IFn$_invoke$arity$2(G__30060,G__30061) : pred__30057.call(null,G__30060,G__30061));
 })())){
 return (new rewrite_clj.node.fn.FnNode(G__30040,self__.__meta,self__.__extmap,null));
 } else {

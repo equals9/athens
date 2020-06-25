@@ -688,12 +688,12 @@ return tick.core._LT_(x,y);
 while(true){
 if(cljs.core.truth_(tick.core._LT_(x,y))){
 if(cljs.core.next(more)){
-var G__63270 = y;
-var G__63271 = cljs.core.first(more);
-var G__63272 = cljs.core.next(more);
-x = G__63270;
-y = G__63271;
-more = G__63272;
+var G__63269 = y;
+var G__63270 = cljs.core.first(more);
+var G__63271 = cljs.core.next(more);
+x = G__63269;
+y = G__63270;
+more = G__63271;
 continue;
 } else {
 return tick.core._LT_(y,cljs.core.first(more));
@@ -730,14 +730,14 @@ return tick.alpha.api._LT__EQ_.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(a
 break;
 default:
 var args_arr__4810__auto__ = [];
-var len__4789__auto___63274 = arguments.length;
-var i__4790__auto___63275 = (0);
+var len__4789__auto___63273 = arguments.length;
+var i__4790__auto___63274 = (0);
 while(true){
-if((i__4790__auto___63275 < len__4789__auto___63274)){
-args_arr__4810__auto__.push((arguments[i__4790__auto___63275]));
+if((i__4790__auto___63274 < len__4789__auto___63273)){
+args_arr__4810__auto__.push((arguments[i__4790__auto___63274]));
 
-var G__63276 = (i__4790__auto___63275 + (1));
-i__4790__auto___63275 = G__63276;
+var G__63276 = (i__4790__auto___63274 + (1));
+i__4790__auto___63274 = G__63276;
 continue;
 } else {
 }
