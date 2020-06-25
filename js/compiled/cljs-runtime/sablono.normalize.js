@@ -8,10 +8,10 @@ goog.require('sablono.util');
  */
 sablono.normalize.compact_map = (function sablono$normalize$compact_map(m){
 if(cljs.core.truth_(m)){
-return cljs.core.into.cljs$core$IFn$_invoke$arity$3(cljs.core.PersistentArrayMap.EMPTY,cljs.core.remove.cljs$core$IFn$_invoke$arity$1((function (p__48497){
-var vec__48498 = p__48497;
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__48498,(0),null);
-var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__48498,(1),null);
+return cljs.core.into.cljs$core$IFn$_invoke$arity$3(cljs.core.PersistentArrayMap.EMPTY,cljs.core.remove.cljs$core$IFn$_invoke$arity$1((function (p__48494){
+var vec__48495 = p__48494;
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__48495,(0),null);
+var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__48495,(1),null);
 return cljs.core.empty_QMARK_(v);
 })),m);
 } else {

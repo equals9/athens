@@ -30,8 +30,8 @@ var server_name = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__51807__$1,new
 var server_port = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__51807__$1,new cljs.core.Keyword(null,"server-port","server-port",663745648));
 var uri = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__51807__$1,new cljs.core.Keyword(null,"uri","uri",-774711847));
 var query_string = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__51807__$1,new cljs.core.Keyword(null,"query-string","query-string",-1018845061));
-return cljs.core.str.cljs$core$IFn$_invoke$arity$1((function (){var G__51812 = (new goog.Uri());
-G__51812.setScheme(cljs.core.name((function (){var or__4185__auto__ = scheme;
+return cljs.core.str.cljs$core$IFn$_invoke$arity$1((function (){var G__51810 = (new goog.Uri());
+G__51810.setScheme(cljs.core.name((function (){var or__4185__auto__ = scheme;
 if(cljs.core.truth_(or__4185__auto__)){
 return or__4185__auto__;
 } else {
@@ -39,15 +39,15 @@ return new cljs.core.Keyword(null,"http","http",382524695);
 }
 })()));
 
-G__51812.setDomain(server_name);
+G__51810.setDomain(server_name);
 
-G__51812.setPort(server_port);
+G__51810.setPort(server_port);
 
-G__51812.setPath(uri);
+G__51810.setPath(uri);
 
-G__51812.setQuery(query_string,true);
+G__51810.setQuery(query_string,true);
 
-return G__51812;
+return G__51810;
 })());
 });
 /**

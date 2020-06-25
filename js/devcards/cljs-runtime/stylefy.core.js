@@ -178,11 +178,11 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(stylefy.impl.styles.sub_sty
 (stylefy.core.sub_style.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(stylefy.core.sub_style.cljs$lang$applyTo = (function (seq42155){
-var G__42156 = cljs.core.first(seq42155);
-var seq42155__$1 = cljs.core.next(seq42155);
+(stylefy.core.sub_style.cljs$lang$applyTo = (function (seq42152){
+var G__42153 = cljs.core.first(seq42152);
+var seq42152__$1 = cljs.core.next(seq42152);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__42156,seq42155__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__42153,seq42152__$1);
 }));
 
 /**
@@ -309,11 +309,11 @@ return null;
 (stylefy.core.keyframes.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(stylefy.core.keyframes.cljs$lang$applyTo = (function (seq42168){
-var G__42169 = cljs.core.first(seq42168);
-var seq42168__$1 = cljs.core.next(seq42168);
+(stylefy.core.keyframes.cljs$lang$applyTo = (function (seq42172){
+var G__42173 = cljs.core.first(seq42172);
+var seq42172__$1 = cljs.core.next(seq42172);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__42169,seq42168__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__42173,seq42172__$1);
 }));
 
 /**
