@@ -77,22 +77,22 @@ return day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.component.extr
 }
 });
 day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.component.reagent_class_QMARK_ = (function day8$re_frame_10x$inlined_deps$reagent$v0v9v1$reagent$impl$component$reagent_class_QMARK_(c){
-return ((cljs.core.fn_QMARK_(c)) && ((!(((function (){var G__27000 = c;
-var G__27000__$1 = (((G__27000 == null))?null:G__27000.prototype);
-if((G__27000__$1 == null)){
-return null;
-} else {
-return G__27000__$1.reagentRender;
-}
-})() == null)))));
-});
-day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.component.react_class_QMARK_ = (function day8$re_frame_10x$inlined_deps$reagent$v0v9v1$reagent$impl$component$react_class_QMARK_(c){
 return ((cljs.core.fn_QMARK_(c)) && ((!(((function (){var G__27002 = c;
 var G__27002__$1 = (((G__27002 == null))?null:G__27002.prototype);
 if((G__27002__$1 == null)){
 return null;
 } else {
-return G__27002__$1.render;
+return G__27002__$1.reagentRender;
+}
+})() == null)))));
+});
+day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.component.react_class_QMARK_ = (function day8$re_frame_10x$inlined_deps$reagent$v0v9v1$reagent$impl$component$react_class_QMARK_(c){
+return ((cljs.core.fn_QMARK_(c)) && ((!(((function (){var G__27004 = c;
+var G__27004__$1 = (((G__27004 == null))?null:G__27004.prototype);
+if((G__27004__$1 == null)){
+return null;
+} else {
+return G__27004__$1.render;
 }
 })() == null)))));
 });
@@ -238,9 +238,9 @@ return rat._run(false);
 }
 })], null);
 day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.component.custom_wrapper = (function day8$re_frame_10x$inlined_deps$reagent$v0v9v1$reagent$impl$component$custom_wrapper(key,f){
-var G__27016 = key;
-var G__27016__$1 = (((G__27016 instanceof cljs.core.Keyword))?G__27016.fqn:null);
-switch (G__27016__$1) {
+var G__27017 = key;
+var G__27017__$1 = (((G__27017 instanceof cljs.core.Keyword))?G__27017.fqn:null);
+switch (G__27017__$1) {
 case "getDefaultProps":
 throw (new Error("getDefaultProps not supported"));
 

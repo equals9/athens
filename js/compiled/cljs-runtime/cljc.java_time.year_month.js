@@ -24,8 +24,8 @@ cljc.java_time.year_month.get_year = (function cljc$java_time$year_month$get_yea
 return this4577.year();
 });
 cljc.java_time.year_month.plus = (function cljc$java_time$year_month$plus(var_args){
-var G__58301 = arguments.length;
-switch (G__58301) {
+var G__58303 = arguments.length;
+switch (G__58303) {
 case 3:
 return cljc.java_time.year_month.plus.cljs$core$IFn$_invoke$arity$3((arguments[(0)]),(arguments[(1)]),(arguments[(2)]));
 
@@ -69,8 +69,8 @@ cljc.java_time.year_month.minus_months = (function cljc$java_time$year_month$min
 return this4591.minusMonths(long4592);
 });
 cljc.java_time.year_month.minus = (function cljc$java_time$year_month$minus(var_args){
-var G__58305 = arguments.length;
-switch (G__58305) {
+var G__58307 = arguments.length;
+switch (G__58307) {
 case 3:
 return cljc.java_time.year_month.minus.cljs$core$IFn$_invoke$arity$3((arguments[(0)]),(arguments[(1)]),(arguments[(2)]));
 
@@ -123,8 +123,8 @@ cljc.java_time.year_month.minus_years = (function cljc$java_time$year_month$minu
 return this4612.minusYears(long4613);
 });
 cljc.java_time.year_month.parse = (function cljc$java_time$year_month$parse(var_args){
-var G__58309 = arguments.length;
-switch (G__58309) {
+var G__58310 = arguments.length;
+switch (G__58310) {
 case 2:
 return cljc.java_time.year_month.parse.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 

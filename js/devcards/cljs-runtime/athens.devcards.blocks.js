@@ -107,8 +107,8 @@ var order__$1 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__58038__$1,new c
 return new cljs.core.PersistentVector(null, 7, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"span","span",1394872991),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"style","style",-496642736),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"margin-left","margin-left",2015598377),"20px"], null),new cljs.core.Keyword(null,"key","key",-1516042587),uid__$1], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"b","b",1482224470),"order: "], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"span","span",1394872991),order__$1], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"span","span",1394872991)," | "], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"b","b",1482224470),"uid: "], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"span","span",1394872991),uid__$1], null)], null);
 })());
 
-var G__58057 = (i__58036 + (1));
-i__58036 = G__58057;
+var G__58077 = (i__58036 + (1));
+i__58036 = G__58077;
 continue;
 } else {
 return true;
@@ -163,8 +163,8 @@ if((i__58049 < size__4581__auto__)){
 var child = cljs.core._nth.cljs$core$IFn$_invoke$arity$2(c__4580__auto__,i__58049);
 cljs.core.chunk_append(b__58050,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"style","style",-496642736),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"margin-left","margin-left",2015598377),"32px"], null),new cljs.core.Keyword(null,"key","key",-1516042587),new cljs.core.Keyword("db","id","db/id",-1388397098).cljs$core$IFn$_invoke$arity$1(child)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [athens.devcards.blocks.block_el,child], null)], null));
 
-var G__58068 = (i__58049 + (1));
-i__58049 = G__58068;
+var G__58082 = (i__58049 + (1));
+i__58049 = G__58082;
 continue;
 } else {
 return true;

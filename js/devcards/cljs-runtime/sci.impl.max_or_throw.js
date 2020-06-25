@@ -36,10 +36,10 @@ if((n > (0))){
 var temp__5735__auto__ = cljs.core.seq(coll);
 if(temp__5735__auto__){
 var s = temp__5735__auto__;
-return cljs.core.cons(cljs.core.first(s),(function (){var G__58390 = (n - (1));
-var G__58391 = cljs.core.rest(s);
-var G__58392 = err_val;
-return (sci.impl.max_or_throw.take_STAR_.cljs$core$IFn$_invoke$arity$3 ? sci.impl.max_or_throw.take_STAR_.cljs$core$IFn$_invoke$arity$3(G__58390,G__58391,G__58392) : sci.impl.max_or_throw.take_STAR_.call(null,G__58390,G__58391,G__58392));
+return cljs.core.cons(cljs.core.first(s),(function (){var G__58407 = (n - (1));
+var G__58408 = cljs.core.rest(s);
+var G__58409 = err_val;
+return (sci.impl.max_or_throw.take_STAR_.cljs$core$IFn$_invoke$arity$3 ? sci.impl.max_or_throw.take_STAR_.cljs$core$IFn$_invoke$arity$3(G__58407,G__58408,G__58409) : sci.impl.max_or_throw.take_STAR_.call(null,G__58407,G__58408,G__58409));
 })());
 } else {
 return null;
@@ -56,21 +56,21 @@ return coll;
 });
 goog.object.set(sci.impl.max_or_throw.MaxOrThrow,"null",true);
 
-var G__58399_58416 = sci.impl.max_or_throw.max_or_throw;
-var G__58400_58417 = "null";
-var G__58401_58418 = (function (this$,ctx,n){
+var G__58416_58440 = sci.impl.max_or_throw.max_or_throw;
+var G__58417_58441 = "null";
+var G__58418_58442 = (function (this$,ctx,n){
 return this$;
 });
-goog.object.set(G__58399_58416,G__58400_58417,G__58401_58418);
+goog.object.set(G__58416_58440,G__58417_58441,G__58418_58442);
 
 goog.object.set(sci.impl.max_or_throw.MaxOrThrow,"_",true);
 
-var G__58405_58419 = sci.impl.max_or_throw.max_or_throw;
-var G__58406_58420 = "_";
-var G__58407_58421 = (function (this$,ctx,n){
+var G__58420_58443 = sci.impl.max_or_throw.max_or_throw;
+var G__58421_58444 = "_";
+var G__58422_58445 = (function (this$,ctx,n){
 return this$;
 });
-goog.object.set(G__58405_58419,G__58406_58420,G__58407_58421);
+goog.object.set(G__58420_58443,G__58421_58444,G__58422_58445);
 
 (cljs.core.LazySeq.prototype.sci$impl$max_or_throw$MaxOrThrow$ = cljs.core.PROTOCOL_SENTINEL);
 

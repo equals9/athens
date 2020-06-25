@@ -40,9 +40,9 @@ return cljs.core.not_empty(cljs.core.into.cljs$core$IFn$_invoke$arity$3(cljs.cor
 (sci.impl.opts.process_permissions.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(sci.impl.opts.process_permissions.cljs$lang$applyTo = (function (seq59076){
+(sci.impl.opts.process_permissions.cljs$lang$applyTo = (function (seq59079){
 var self__4777__auto__ = this;
-return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq59076));
+return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq59079));
 }));
 
 sci.impl.opts.default_classes = new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Symbol(null,"Error","Error",-1692662047,null),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"class","class",-2030961996),Error,new cljs.core.Keyword(null,"constructor","constructor",-1953928811),(function() {
@@ -84,9 +84,9 @@ var kvs = classes;
 while(true){
 var temp__5733__auto__ = cljs.core.first(kvs);
 if(cljs.core.truth_(temp__5733__auto__)){
-var vec__59082 = temp__5733__auto__;
-var sym = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59082,(0),null);
-var class_opts = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59082,(1),null);
+var vec__59083 = temp__5733__auto__;
+var sym = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59083,(0),null);
+var class_opts = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59083,(1),null);
 var G__59105 = cljs.core.assoc_BANG_.cljs$core$IFn$_invoke$arity$3(class__GT_opts,sym,((cljs.core.map_QMARK_(class_opts))?class_opts:new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"class","class",-2030961996),class_opts], null)));
 var G__59106 = cljs.core.rest(kvs);
 class__GT_opts = G__59105;
@@ -101,23 +101,23 @@ break;
 /**
  * Initializes options
  */
-sci.impl.opts.init = (function sci$impl$opts$init(p__59086){
-var map__59087 = p__59086;
-var map__59087__$1 = (((((!((map__59087 == null))))?(((((map__59087.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__59087.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__59087):map__59087);
-var features = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59087__$1,new cljs.core.Keyword(null,"features","features",-1146962336));
-var namespaces = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59087__$1,new cljs.core.Keyword(null,"namespaces","namespaces",-1444157469));
-var bindings = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59087__$1,new cljs.core.Keyword(null,"bindings","bindings",1271397192));
-var readers = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59087__$1,new cljs.core.Keyword(null,"readers","readers",-2118263030));
-var env = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59087__$1,new cljs.core.Keyword(null,"env","env",-1815813235));
-var imports = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59087__$1,new cljs.core.Keyword(null,"imports","imports",-1249933394));
-var allow = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59087__$1,new cljs.core.Keyword(null,"allow","allow",-1857325745));
-var preset = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59087__$1,new cljs.core.Keyword(null,"preset","preset",777387345));
-var realize_max = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59087__$1,new cljs.core.Keyword(null,"realize-max","realize-max",-1846442543));
-var load_fn = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59087__$1,new cljs.core.Keyword(null,"load-fn","load-fn",-2121144334));
-var dry_run = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59087__$1,new cljs.core.Keyword(null,"dry-run","dry-run",-1102788647));
-var aliases = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59087__$1,new cljs.core.Keyword(null,"aliases","aliases",1346874714));
-var deny = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59087__$1,new cljs.core.Keyword(null,"deny","deny",1589338523));
-var classes = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59087__$1,new cljs.core.Keyword(null,"classes","classes",2037804510));
+sci.impl.opts.init = (function sci$impl$opts$init(p__59087){
+var map__59089 = p__59087;
+var map__59089__$1 = (((((!((map__59089 == null))))?(((((map__59089.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__59089.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__59089):map__59089);
+var features = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59089__$1,new cljs.core.Keyword(null,"features","features",-1146962336));
+var namespaces = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59089__$1,new cljs.core.Keyword(null,"namespaces","namespaces",-1444157469));
+var bindings = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59089__$1,new cljs.core.Keyword(null,"bindings","bindings",1271397192));
+var readers = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59089__$1,new cljs.core.Keyword(null,"readers","readers",-2118263030));
+var env = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59089__$1,new cljs.core.Keyword(null,"env","env",-1815813235));
+var imports = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59089__$1,new cljs.core.Keyword(null,"imports","imports",-1249933394));
+var allow = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59089__$1,new cljs.core.Keyword(null,"allow","allow",-1857325745));
+var preset = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59089__$1,new cljs.core.Keyword(null,"preset","preset",777387345));
+var realize_max = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59089__$1,new cljs.core.Keyword(null,"realize-max","realize-max",-1846442543));
+var load_fn = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59089__$1,new cljs.core.Keyword(null,"load-fn","load-fn",-2121144334));
+var dry_run = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59089__$1,new cljs.core.Keyword(null,"dry-run","dry-run",-1102788647));
+var aliases = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59089__$1,new cljs.core.Keyword(null,"aliases","aliases",1346874714));
+var deny = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59089__$1,new cljs.core.Keyword(null,"deny","deny",1589338523));
+var classes = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59089__$1,new cljs.core.Keyword(null,"classes","classes",2037804510));
 var preset__$1 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(sci.impl.opts.presets,preset);
 var env__$1 = (function (){var or__4185__auto__ = env;
 if(cljs.core.truth_(or__4185__auto__)){

@@ -24,14 +24,14 @@ instaparse.abnf.abnf_grammar_cljs_only = "\n<rulename> = #'[a-zA-Z][-a-zA-Z0-9]*
 instaparse.abnf.abnf_parser = cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"neg","neg",1800032960),new cljs.core.Keyword(null,"group","group",582596132),new cljs.core.Keyword(null,"hide-tag","hide-tag",1347642501),new cljs.core.Keyword(null,"whitespace","whitespace",-1340035483),new cljs.core.Keyword(null,"element","element",1974019749),new cljs.core.Keyword(null,"hide-tag-rule","hide-tag-rule",150267589),new cljs.core.Keyword(null,"look","look",-539441433),new cljs.core.Keyword(null,"bin-char","bin-char",-1662780697),new cljs.core.Keyword(null,"rule","rule",729973257),new cljs.core.Keyword(null,"rulename-right","rulename-right",1125609193),new cljs.core.Keyword(null,"DIGIT","DIGIT",341251338),new cljs.core.Keyword(null,"NUM","NUM",-218662260),new cljs.core.Keyword(null,"char-val","char-val",1408617933),new cljs.core.Keyword(null,"num-val","num-val",1497434478),new cljs.core.Keyword(null,"hide","hide",-596913169),new cljs.core.Keyword(null,"defined-as","defined-as",-474679152),new cljs.core.Keyword(null,"HEXDIG","HEXDIG",-200221072),new cljs.core.Keyword(null,"option","option",65132272),new cljs.core.Keyword(null,"hex-char","hex-char",764443568),new cljs.core.Keyword(null,"rulename","rulename",948914160),new cljs.core.Keyword(null,"bin-val","bin-val",1705209105),new cljs.core.Keyword(null,"dec-val","dec-val",-1263870894),new cljs.core.Keyword(null,"concatenation","concatenation",-951369614),new cljs.core.Keyword(null,"alternation","alternation",-1162147630),new cljs.core.Keyword(null,"regexp","regexp",-541372782),new cljs.core.Keyword(null,"repetition","repetition",1938392115),new cljs.core.Keyword(null,"rulename-left","rulename-left",-1824251564),new cljs.core.Keyword(null,"rulelist","rulelist",-1871218473),new cljs.core.Keyword(null,"opt-whitespace","opt-whitespace",1115207927),new cljs.core.Keyword(null,"repeat","repeat",832692087),new cljs.core.Keyword(null,"hex-val","hex-val",1267737401),new cljs.core.Keyword(null,"dec-char","dec-char",-646625154),new cljs.core.Keyword(null,"rules-or-parser","rules-or-parser",-314380386)],[new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"string","string",-1989541586),"!"], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"opt-whitespace","opt-whitespace",1115207927)], null),null,(1),null)),(2),null)),new cljs.core.Keyword(null,"hide","hide",-596913169),true], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"element","element",1974019749)], null),null,(1),null)),(2),null)),new cljs.core.Keyword(null,"red","red",-969428204),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"reduction-type","reduction-type",-488293450),new cljs.core.Keyword(null,"hiccup","hiccup",1218876238),new cljs.core.Keyword(null,"key","key",-1516042587),new cljs.core.Keyword(null,"neg","neg",1800032960)], null)], null),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"string","string",-1989541586),"("], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"opt-whitespace","opt-whitespace",1115207927)], null),null,(1),null)),(2),null)),new cljs.core.Keyword(null,"hide","hide",-596913169),true], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"alternation","alternation",-1162147630)], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"opt-whitespace","opt-whitespace",1115207927)], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"string","string",-1989541586),")"], null),null,(1),null)),(2),null)),new cljs.core.Keyword(null,"hide","hide",-596913169),true], null),null,(1),null)),(2),null)),(3),null)),new cljs.core.Keyword(null,"red","red",-969428204),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"reduction-type","reduction-type",-488293450),new cljs.core.Keyword(null,"raw","raw",1604651272)], null)], null),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"string","string",-1989541586),"<"], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"opt-whitespace","opt-whitespace",1115207927)], null),null,(1),null)),(2),null)),new cljs.core.Keyword(null,"hide","hide",-596913169),true], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"rulename-left","rulename-left",-1824251564)], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"opt-whitespace","opt-whitespace",1115207927)], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"string","string",-1989541586),">"], null),null,(1),null)),(2),null)),new cljs.core.Keyword(null,"hide","hide",-596913169),true], null),null,(1),null)),(2),null)),(3),null)),new cljs.core.Keyword(null,"red","red",-969428204),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"reduction-type","reduction-type",-488293450),new cljs.core.Keyword(null,"raw","raw",1604651272)], null)], null),cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([instaparse.combinators_source.regexp("\\s+(?:;.*?\\u000D?\\u000A\\s*)*"),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"red","red",-969428204),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"reduction-type","reduction-type",-488293450),new cljs.core.Keyword(null,"hiccup","hiccup",1218876238),new cljs.core.Keyword(null,"key","key",-1516042587),new cljs.core.Keyword(null,"whitespace","whitespace",-1340035483)], null)], null)], 0)),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"alt","alt",-3214426),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"rulename-right","rulename-right",1125609193)], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"group","group",582596132)], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"hide","hide",-596913169)], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"option","option",65132272)], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"char-val","char-val",1408617933)], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"num-val","num-val",1497434478)], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"look","look",-539441433)], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"neg","neg",1800032960)], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"regexp","regexp",-541372782)], null),null,(1),null)),(2),null)),(3),null)),(4),null)),(5),null)),(6),null)),(7),null)),(8),null)),(9),null)),new cljs.core.Keyword(null,"red","red",-969428204),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"reduction-type","reduction-type",-488293450),new cljs.core.Keyword(null,"raw","raw",1604651272)], null)], null),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"hide-tag","hide-tag",1347642501)], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"defined-as","defined-as",-474679152),new cljs.core.Keyword(null,"hide","hide",-596913169),true], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"alternation","alternation",-1162147630)], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"opt-whitespace","opt-whitespace",1115207927),new cljs.core.Keyword(null,"hide","hide",-596913169),true], null),null,(1),null)),(2),null)),(3),null)),(4),null)),new cljs.core.Keyword(null,"red","red",-969428204),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"reduction-type","reduction-type",-488293450),new cljs.core.Keyword(null,"hiccup","hiccup",1218876238),new cljs.core.Keyword(null,"key","key",-1516042587),new cljs.core.Keyword(null,"hide-tag-rule","hide-tag-rule",150267589)], null)], null),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"string","string",-1989541586),"&"], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"opt-whitespace","opt-whitespace",1115207927)], null),null,(1),null)),(2),null)),new cljs.core.Keyword(null,"hide","hide",-596913169),true], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"element","element",1974019749)], null),null,(1),null)),(2),null)),new cljs.core.Keyword(null,"red","red",-969428204),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"reduction-type","reduction-type",-488293450),new cljs.core.Keyword(null,"hiccup","hiccup",1218876238),new cljs.core.Keyword(null,"key","key",-1516042587),new cljs.core.Keyword(null,"look","look",-539441433)], null)], null),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"plus","plus",211540661),new cljs.core.Keyword(null,"parser","parser",-1543495310),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"alt","alt",-3214426),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"string","string",-1989541586),"0"], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"string","string",-1989541586),"1"], null),null,(1),null)),(2),null))], null),new cljs.core.Keyword(null,"red","red",-969428204),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"reduction-type","reduction-type",-488293450),new cljs.core.Keyword(null,"hiccup","hiccup",1218876238),new cljs.core.Keyword(null,"key","key",-1516042587),new cljs.core.Keyword(null,"bin-char","bin-char",-1662780697)], null)], null),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"rulename-left","rulename-left",-1824251564)], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"defined-as","defined-as",-474679152),new cljs.core.Keyword(null,"hide","hide",-596913169),true], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"alternation","alternation",-1162147630)], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"opt-whitespace","opt-whitespace",1115207927),new cljs.core.Keyword(null,"hide","hide",-596913169),true], null),null,(1),null)),(2),null)),(3),null)),(4),null)),new cljs.core.Keyword(null,"red","red",-969428204),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"reduction-type","reduction-type",-488293450),new cljs.core.Keyword(null,"hiccup","hiccup",1218876238),new cljs.core.Keyword(null,"key","key",-1516042587),new cljs.core.Keyword(null,"rule","rule",729973257)], null)], null),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"rulename","rulename",948914160),new cljs.core.Keyword(null,"red","red",-969428204),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"reduction-type","reduction-type",-488293450),new cljs.core.Keyword(null,"hiccup","hiccup",1218876238),new cljs.core.Keyword(null,"key","key",-1516042587),new cljs.core.Keyword(null,"rulename-right","rulename-right",1125609193)], null)], null),cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([instaparse.combinators_source.regexp("[0-9]"),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"red","red",-969428204),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"reduction-type","reduction-type",-488293450),new cljs.core.Keyword(null,"raw","raw",1604651272)], null)], null)], 0)),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"plus","plus",211540661),new cljs.core.Keyword(null,"parser","parser",-1543495310),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"DIGIT","DIGIT",341251338)], null),new cljs.core.Keyword(null,"red","red",-969428204),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"reduction-type","reduction-type",-488293450),new cljs.core.Keyword(null,"hiccup","hiccup",1218876238),new cljs.core.Keyword(null,"key","key",-1516042587),new cljs.core.Keyword(null,"NUM","NUM",-218662260)], null)], null),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"alt","alt",-3214426),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"string","string",-1989541586),"\"",new cljs.core.Keyword(null,"hide","hide",-596913169),true], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"star","star",279424429),new cljs.core.Keyword(null,"parser","parser",-1543495310),cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([instaparse.combinators_source.regexp("[\\u0020-\\u0021\\u0023-\\u007E]"),cljs.core.PersistentArrayMap.EMPTY], 0))], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"string","string",-1989541586),"\"",new cljs.core.Keyword(null,"hide","hide",-596913169),true], null),null,(1),null)),(2),null)),(3),null))], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"string","string",-1989541586),"'",new cljs.core.Keyword(null,"hide","hide",-596913169),true], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"star","star",279424429),new cljs.core.Keyword(null,"parser","parser",-1543495310),cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([instaparse.combinators_source.regexp("[\\u0020-\\u0026(-~]"),cljs.core.PersistentArrayMap.EMPTY], 0))], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"string","string",-1989541586),"'",new cljs.core.Keyword(null,"hide","hide",-596913169),true], null),null,(1),null)),(2),null)),(3),null))], null),null,(1),null)),(2),null)),new cljs.core.Keyword(null,"red","red",-969428204),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"reduction-type","reduction-type",-488293450),new cljs.core.Keyword(null,"hiccup","hiccup",1218876238),new cljs.core.Keyword(null,"key","key",-1516042587),new cljs.core.Keyword(null,"char-val","char-val",1408617933)], null)], null),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"string","string",-1989541586),"%",new cljs.core.Keyword(null,"hide","hide",-596913169),true], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"alt","alt",-3214426),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"bin-val","bin-val",1705209105)], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"dec-val","dec-val",-1263870894)], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"hex-val","hex-val",1267737401)], null),null,(1),null)),(2),null)),(3),null))], null),null,(1),null)),(2),null)),new cljs.core.Keyword(null,"red","red",-969428204),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"reduction-type","reduction-type",-488293450),new cljs.core.Keyword(null,"raw","raw",1604651272)], null)], null),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"string","string",-1989541586),"<"], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"opt-whitespace","opt-whitespace",1115207927)], null),null,(1),null)),(2),null)),new cljs.core.Keyword(null,"hide","hide",-596913169),true], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"alternation","alternation",-1162147630)], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"opt-whitespace","opt-whitespace",1115207927)], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"string","string",-1989541586),">"], null),null,(1),null)),(2),null)),new cljs.core.Keyword(null,"hide","hide",-596913169),true], null),null,(1),null)),(2),null)),(3),null)),new cljs.core.Keyword(null,"red","red",-969428204),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"reduction-type","reduction-type",-488293450),new cljs.core.Keyword(null,"hiccup","hiccup",1218876238),new cljs.core.Keyword(null,"key","key",-1516042587),new cljs.core.Keyword(null,"hide","hide",-596913169)], null)], null),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"opt-whitespace","opt-whitespace",1115207927),new cljs.core.Keyword(null,"hide","hide",-596913169),true], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"alt","alt",-3214426),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"string","string",-1989541586),"="], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"string","string",-1989541586),"=/"], null),null,(1),null)),(2),null))], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"opt-whitespace","opt-whitespace",1115207927),new cljs.core.Keyword(null,"hide","hide",-596913169),true], null),null,(1),null)),(2),null)),(3),null)),new cljs.core.Keyword(null,"red","red",-969428204),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"reduction-type","reduction-type",-488293450),new cljs.core.Keyword(null,"hiccup","hiccup",1218876238),new cljs.core.Keyword(null,"key","key",-1516042587),new cljs.core.Keyword(null,"defined-as","defined-as",-474679152)], null)], null),cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([instaparse.combinators_source.regexp("[0-9a-fA-F]"),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"red","red",-969428204),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"reduction-type","reduction-type",-488293450),new cljs.core.Keyword(null,"raw","raw",1604651272)], null)], null)], 0)),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"string","string",-1989541586),"["], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"opt-whitespace","opt-whitespace",1115207927)], null),null,(1),null)),(2),null)),new cljs.core.Keyword(null,"hide","hide",-596913169),true], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"alternation","alternation",-1162147630)], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"opt-whitespace","opt-whitespace",1115207927)], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"string","string",-1989541586),"]"], null),null,(1),null)),(2),null)),new cljs.core.Keyword(null,"hide","hide",-596913169),true], null),null,(1),null)),(2),null)),(3),null)),new cljs.core.Keyword(null,"red","red",-969428204),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"reduction-type","reduction-type",-488293450),new cljs.core.Keyword(null,"hiccup","hiccup",1218876238),new cljs.core.Keyword(null,"key","key",-1516042587),new cljs.core.Keyword(null,"option","option",65132272)], null)], null),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"plus","plus",211540661),new cljs.core.Keyword(null,"parser","parser",-1543495310),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"HEXDIG","HEXDIG",-200221072)], null),new cljs.core.Keyword(null,"red","red",-969428204),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"reduction-type","reduction-type",-488293450),new cljs.core.Keyword(null,"hiccup","hiccup",1218876238),new cljs.core.Keyword(null,"key","key",-1516042587),new cljs.core.Keyword(null,"hex-char","hex-char",764443568)], null)], null),cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([instaparse.combinators_source.regexp("[a-zA-Z][-a-zA-Z0-9]*"),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"red","red",-969428204),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"reduction-type","reduction-type",-488293450),new cljs.core.Keyword(null,"raw","raw",1604651272)], null)], null)], 0)),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"string","string",-1989541586),"b",new cljs.core.Keyword(null,"hide","hide",-596913169),true], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"bin-char","bin-char",-1662780697)], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"opt","opt",-794706369),new cljs.core.Keyword(null,"parser","parser",-1543495310),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"alt","alt",-3214426),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"plus","plus",211540661),new cljs.core.Keyword(null,"parser","parser",-1543495310),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"string","string",-1989541586),".",new cljs.core.Keyword(null,"hide","hide",-596913169),true], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"bin-char","bin-char",-1662780697)], null),null,(1),null)),(2),null))], null)], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"string","string",-1989541586),"-"], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"bin-char","bin-char",-1662780697)], null),null,(1),null)),(2),null))], null),null,(1),null)),(2),null))], null)], null),null,(1),null)),(2),null)),(3),null)),new cljs.core.Keyword(null,"red","red",-969428204),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"reduction-type","reduction-type",-488293450),new cljs.core.Keyword(null,"hiccup","hiccup",1218876238),new cljs.core.Keyword(null,"key","key",-1516042587),new cljs.core.Keyword(null,"bin-val","bin-val",1705209105)], null)], null),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"string","string",-1989541586),"d",new cljs.core.Keyword(null,"hide","hide",-596913169),true], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"dec-char","dec-char",-646625154)], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"opt","opt",-794706369),new cljs.core.Keyword(null,"parser","parser",-1543495310),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"alt","alt",-3214426),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"plus","plus",211540661),new cljs.core.Keyword(null,"parser","parser",-1543495310),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"string","string",-1989541586),".",new cljs.core.Keyword(null,"hide","hide",-596913169),true], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"dec-char","dec-char",-646625154)], null),null,(1),null)),(2),null))], null)], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"string","string",-1989541586),"-"], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"dec-char","dec-char",-646625154)], null),null,(1),null)),(2),null))], null),null,(1),null)),(2),null))], null)], null),null,(1),null)),(2),null)),(3),null)),new cljs.core.Keyword(null,"red","red",-969428204),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"reduction-type","reduction-type",-488293450),new cljs.core.Keyword(null,"hiccup","hiccup",1218876238),new cljs.core.Keyword(null,"key","key",-1516042587),new cljs.core.Keyword(null,"dec-val","dec-val",-1263870894)], null)], null),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"repetition","repetition",1938392115)], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"star","star",279424429),new cljs.core.Keyword(null,"parser","parser",-1543495310),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"whitespace","whitespace",-1340035483),new cljs.core.Keyword(null,"hide","hide",-596913169),true], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"repetition","repetition",1938392115)], null),null,(1),null)),(2),null))], null)], null),null,(1),null)),(2),null)),new cljs.core.Keyword(null,"red","red",-969428204),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"reduction-type","reduction-type",-488293450),new cljs.core.Keyword(null,"hiccup","hiccup",1218876238),new cljs.core.Keyword(null,"key","key",-1516042587),new cljs.core.Keyword(null,"concatenation","concatenation",-951369614)], null)], null),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"concatenation","concatenation",-951369614)], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"star","star",279424429),new cljs.core.Keyword(null,"parser","parser",-1543495310),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"opt-whitespace","opt-whitespace",1115207927)], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"string","string",-1989541586),"/"], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"opt-whitespace","opt-whitespace",1115207927)], null),null,(1),null)),(2),null)),(3),null)),new cljs.core.Keyword(null,"hide","hide",-596913169),true], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"concatenation","concatenation",-951369614)], null),null,(1),null)),(2),null))], null)], null),null,(1),null)),(2),null)),new cljs.core.Keyword(null,"red","red",-969428204),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"reduction-type","reduction-type",-488293450),new cljs.core.Keyword(null,"hiccup","hiccup",1218876238),new cljs.core.Keyword(null,"key","key",-1516042587),new cljs.core.Keyword(null,"alternation","alternation",-1162147630)], null)], null),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"alt","alt",-3214426),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([instaparse.combinators_source.regexp("#'[^'\\\\]*(?:\\\\.[^'\\\\]*)*'"),cljs.core.PersistentArrayMap.EMPTY], 0)),(new cljs.core.List(null,cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([instaparse.combinators_source.regexp("#\\\"[^\\\"\\\\]*(?:\\\\.[^\\\"\\\\]*)*\\\""),cljs.core.PersistentArrayMap.EMPTY], 0)),null,(1),null)),(2),null)),new cljs.core.Keyword(null,"red","red",-969428204),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"reduction-type","reduction-type",-488293450),new cljs.core.Keyword(null,"hiccup","hiccup",1218876238),new cljs.core.Keyword(null,"key","key",-1516042587),new cljs.core.Keyword(null,"regexp","regexp",-541372782)], null)], null),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"opt","opt",-794706369),new cljs.core.Keyword(null,"parser","parser",-1543495310),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"repeat","repeat",832692087)], null)], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"opt-whitespace","opt-whitespace",1115207927),new cljs.core.Keyword(null,"hide","hide",-596913169),true], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"element","element",1974019749)], null),null,(1),null)),(2),null)),(3),null)),new cljs.core.Keyword(null,"red","red",-969428204),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"reduction-type","reduction-type",-488293450),new cljs.core.Keyword(null,"hiccup","hiccup",1218876238),new cljs.core.Keyword(null,"key","key",-1516042587),new cljs.core.Keyword(null,"repetition","repetition",1938392115)], null)], null),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"rulename","rulename",948914160),new cljs.core.Keyword(null,"red","red",-969428204),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"reduction-type","reduction-type",-488293450),new cljs.core.Keyword(null,"hiccup","hiccup",1218876238),new cljs.core.Keyword(null,"key","key",-1516042587),new cljs.core.Keyword(null,"rulename-left","rulename-left",-1824251564)], null)], null),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"opt-whitespace","opt-whitespace",1115207927),new cljs.core.Keyword(null,"hide","hide",-596913169),true], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"plus","plus",211540661),new cljs.core.Keyword(null,"parser","parser",-1543495310),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"alt","alt",-3214426),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"rule","rule",729973257)], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"hide-tag-rule","hide-tag-rule",150267589)], null),null,(1),null)),(2),null))], null)], null),null,(1),null)),(2),null)),new cljs.core.Keyword(null,"red","red",-969428204),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"reduction-type","reduction-type",-488293450),new cljs.core.Keyword(null,"raw","raw",1604651272)], null)], null),cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([instaparse.combinators_source.regexp("\\s*(?:;.*?(?:\\u000D?\\u000A\\s*|$))*"),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"red","red",-969428204),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"reduction-type","reduction-type",-488293450),new cljs.core.Keyword(null,"hiccup","hiccup",1218876238),new cljs.core.Keyword(null,"key","key",-1516042587),new cljs.core.Keyword(null,"opt-whitespace","opt-whitespace",1115207927)], null)], null)], 0)),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"alt","alt",-3214426),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"NUM","NUM",-218662260)], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"opt","opt",-794706369),new cljs.core.Keyword(null,"parser","parser",-1543495310),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"NUM","NUM",-218662260)], null)], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"string","string",-1989541586),"*"], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"opt","opt",-794706369),new cljs.core.Keyword(null,"parser","parser",-1543495310),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"NUM","NUM",-218662260)], null)], null),null,(1),null)),(2),null)),(3),null))], null),null,(1),null)),(2),null)),new cljs.core.Keyword(null,"red","red",-969428204),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"reduction-type","reduction-type",-488293450),new cljs.core.Keyword(null,"hiccup","hiccup",1218876238),new cljs.core.Keyword(null,"key","key",-1516042587),new cljs.core.Keyword(null,"repeat","repeat",832692087)], null)], null),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"string","string",-1989541586),"x",new cljs.core.Keyword(null,"hide","hide",-596913169),true], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"hex-char","hex-char",764443568)], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"opt","opt",-794706369),new cljs.core.Keyword(null,"parser","parser",-1543495310),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"alt","alt",-3214426),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"plus","plus",211540661),new cljs.core.Keyword(null,"parser","parser",-1543495310),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"string","string",-1989541586),".",new cljs.core.Keyword(null,"hide","hide",-596913169),true], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"hex-char","hex-char",764443568)], null),null,(1),null)),(2),null))], null)], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"cat","cat",-1457810207),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"string","string",-1989541586),new cljs.core.Keyword(null,"string","string",-1989541586),"-"], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"hex-char","hex-char",764443568)], null),null,(1),null)),(2),null))], null),null,(1),null)),(2),null))], null)], null),null,(1),null)),(2),null)),(3),null)),new cljs.core.Keyword(null,"red","red",-969428204),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"reduction-type","reduction-type",-488293450),new cljs.core.Keyword(null,"hiccup","hiccup",1218876238),new cljs.core.Keyword(null,"key","key",-1516042587),new cljs.core.Keyword(null,"hex-val","hex-val",1267737401)], null)], null),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"plus","plus",211540661),new cljs.core.Keyword(null,"parser","parser",-1543495310),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"DIGIT","DIGIT",341251338)], null),new cljs.core.Keyword(null,"red","red",-969428204),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"reduction-type","reduction-type",-488293450),new cljs.core.Keyword(null,"hiccup","hiccup",1218876238),new cljs.core.Keyword(null,"key","key",-1516042587),new cljs.core.Keyword(null,"dec-char","dec-char",-646625154)], null)], null),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"alt","alt",-3214426),new cljs.core.Keyword(null,"parsers","parsers",-804353827),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"rulelist","rulelist",-1871218473)], null),(new cljs.core.List(null,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),new cljs.core.Keyword(null,"nt","nt",-835425781),new cljs.core.Keyword(null,"keyword","keyword",811389747),new cljs.core.Keyword(null,"alternation","alternation",-1162147630)], null),null,(1),null)),(2),null)),new cljs.core.Keyword(null,"red","red",-969428204),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"reduction-type","reduction-type",-488293450),new cljs.core.Keyword(null,"raw","raw",1604651272)], null)], null)]);
 instaparse.abnf.get_char_combinator = (function instaparse$abnf$get_char_combinator(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___65062 = arguments.length;
-var i__4790__auto___65063 = (0);
+var len__4789__auto___65047 = arguments.length;
+var i__4790__auto___65048 = (0);
 while(true){
-if((i__4790__auto___65063 < len__4789__auto___65062)){
-args__4795__auto__.push((arguments[i__4790__auto___65063]));
+if((i__4790__auto___65048 < len__4789__auto___65047)){
+args__4795__auto__.push((arguments[i__4790__auto___65048]));
 
-var G__65064 = (i__4790__auto___65063 + (1));
-i__4790__auto___65063 = G__65064;
+var G__65049 = (i__4790__auto___65048 + (1));
+i__4790__auto___65048 = G__65049;
 continue;
 } else {
 }
@@ -44,31 +44,31 @@ return instaparse.abnf.get_char_combinator.cljs$core$IFn$_invoke$arity$variadic(
 
 (instaparse.abnf.get_char_combinator.cljs$core$IFn$_invoke$arity$variadic = (function (nums){
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("-",cljs.core.second(nums))){
-var vec__64988 = nums;
-var lo = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__64988,(0),null);
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__64988,(1),null);
-var hi = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__64988,(2),null);
+var vec__64983 = nums;
+var lo = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__64983,(0),null);
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__64983,(1),null);
+var hi = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__64983,(2),null);
 return instaparse.combinators_source.unicode_char.cljs$core$IFn$_invoke$arity$2(lo,hi);
 } else {
-return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(instaparse.combinators_source.cat,(function (){var iter__4582__auto__ = (function instaparse$abnf$iter__64991(s__64992){
+return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(instaparse.combinators_source.cat,(function (){var iter__4582__auto__ = (function instaparse$abnf$iter__64986(s__64987){
 return (new cljs.core.LazySeq(null,(function (){
-var s__64992__$1 = s__64992;
+var s__64987__$1 = s__64987;
 while(true){
-var temp__5735__auto__ = cljs.core.seq(s__64992__$1);
+var temp__5735__auto__ = cljs.core.seq(s__64987__$1);
 if(temp__5735__auto__){
-var s__64992__$2 = temp__5735__auto__;
-if(cljs.core.chunked_seq_QMARK_(s__64992__$2)){
-var c__4580__auto__ = cljs.core.chunk_first(s__64992__$2);
+var s__64987__$2 = temp__5735__auto__;
+if(cljs.core.chunked_seq_QMARK_(s__64987__$2)){
+var c__4580__auto__ = cljs.core.chunk_first(s__64987__$2);
 var size__4581__auto__ = cljs.core.count(c__4580__auto__);
-var b__64994 = cljs.core.chunk_buffer(size__4581__auto__);
-if((function (){var i__64993 = (0);
+var b__64989 = cljs.core.chunk_buffer(size__4581__auto__);
+if((function (){var i__64988 = (0);
 while(true){
-if((i__64993 < size__4581__auto__)){
-var n = cljs.core._nth.cljs$core$IFn$_invoke$arity$2(c__4580__auto__,i__64993);
-cljs.core.chunk_append(b__64994,instaparse.combinators_source.unicode_char.cljs$core$IFn$_invoke$arity$1(n));
+if((i__64988 < size__4581__auto__)){
+var n = cljs.core._nth.cljs$core$IFn$_invoke$arity$2(c__4580__auto__,i__64988);
+cljs.core.chunk_append(b__64989,instaparse.combinators_source.unicode_char.cljs$core$IFn$_invoke$arity$1(n));
 
-var G__65070 = (i__64993 + (1));
-i__64993 = G__65070;
+var G__65050 = (i__64988 + (1));
+i__64988 = G__65050;
 continue;
 } else {
 return true;
@@ -76,13 +76,13 @@ return true;
 break;
 }
 })()){
-return cljs.core.chunk_cons(cljs.core.chunk(b__64994),instaparse$abnf$iter__64991(cljs.core.chunk_rest(s__64992__$2)));
+return cljs.core.chunk_cons(cljs.core.chunk(b__64989),instaparse$abnf$iter__64986(cljs.core.chunk_rest(s__64987__$2)));
 } else {
-return cljs.core.chunk_cons(cljs.core.chunk(b__64994),null);
+return cljs.core.chunk_cons(cljs.core.chunk(b__64989),null);
 }
 } else {
-var n = cljs.core.first(s__64992__$2);
-return cljs.core.cons(instaparse.combinators_source.unicode_char.cljs$core$IFn$_invoke$arity$1(n),instaparse$abnf$iter__64991(cljs.core.rest(s__64992__$2)));
+var n = cljs.core.first(s__64987__$2);
+return cljs.core.cons(instaparse.combinators_source.unicode_char.cljs$core$IFn$_invoke$arity$1(n),instaparse$abnf$iter__64986(cljs.core.rest(s__64987__$2)));
 }
 } else {
 return null;
@@ -109,30 +109,30 @@ return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq
  * Restricts map to certain keys
  */
 instaparse.abnf.project = (function instaparse$abnf$project(m,ks){
-return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,(function (){var iter__4582__auto__ = (function instaparse$abnf$project_$_iter__65000(s__65001){
+return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,(function (){var iter__4582__auto__ = (function instaparse$abnf$project_$_iter__64990(s__64991){
 return (new cljs.core.LazySeq(null,(function (){
-var s__65001__$1 = s__65001;
+var s__64991__$1 = s__64991;
 while(true){
-var temp__5735__auto__ = cljs.core.seq(s__65001__$1);
+var temp__5735__auto__ = cljs.core.seq(s__64991__$1);
 if(temp__5735__auto__){
-var s__65001__$2 = temp__5735__auto__;
-if(cljs.core.chunked_seq_QMARK_(s__65001__$2)){
-var c__4580__auto__ = cljs.core.chunk_first(s__65001__$2);
+var s__64991__$2 = temp__5735__auto__;
+if(cljs.core.chunked_seq_QMARK_(s__64991__$2)){
+var c__4580__auto__ = cljs.core.chunk_first(s__64991__$2);
 var size__4581__auto__ = cljs.core.count(c__4580__auto__);
-var b__65003 = cljs.core.chunk_buffer(size__4581__auto__);
-if((function (){var i__65002 = (0);
+var b__64993 = cljs.core.chunk_buffer(size__4581__auto__);
+if((function (){var i__64992 = (0);
 while(true){
-if((i__65002 < size__4581__auto__)){
-var k = cljs.core._nth.cljs$core$IFn$_invoke$arity$2(c__4580__auto__,i__65002);
+if((i__64992 < size__4581__auto__)){
+var k = cljs.core._nth.cljs$core$IFn$_invoke$arity$2(c__4580__auto__,i__64992);
 if(cljs.core.contains_QMARK_(m,k)){
-cljs.core.chunk_append(b__65003,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [k,(m.cljs$core$IFn$_invoke$arity$1 ? m.cljs$core$IFn$_invoke$arity$1(k) : m.call(null,k))], null));
+cljs.core.chunk_append(b__64993,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [k,(m.cljs$core$IFn$_invoke$arity$1 ? m.cljs$core$IFn$_invoke$arity$1(k) : m.call(null,k))], null));
 
-var G__65074 = (i__65002 + (1));
-i__65002 = G__65074;
+var G__65054 = (i__64992 + (1));
+i__64992 = G__65054;
 continue;
 } else {
-var G__65075 = (i__65002 + (1));
-i__65002 = G__65075;
+var G__65056 = (i__64992 + (1));
+i__64992 = G__65056;
 continue;
 }
 } else {
@@ -141,17 +141,17 @@ return true;
 break;
 }
 })()){
-return cljs.core.chunk_cons(cljs.core.chunk(b__65003),instaparse$abnf$project_$_iter__65000(cljs.core.chunk_rest(s__65001__$2)));
+return cljs.core.chunk_cons(cljs.core.chunk(b__64993),instaparse$abnf$project_$_iter__64990(cljs.core.chunk_rest(s__64991__$2)));
 } else {
-return cljs.core.chunk_cons(cljs.core.chunk(b__65003),null);
+return cljs.core.chunk_cons(cljs.core.chunk(b__64993),null);
 }
 } else {
-var k = cljs.core.first(s__65001__$2);
+var k = cljs.core.first(s__64991__$2);
 if(cljs.core.contains_QMARK_(m,k)){
-return cljs.core.cons(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [k,(m.cljs$core$IFn$_invoke$arity$1 ? m.cljs$core$IFn$_invoke$arity$1(k) : m.call(null,k))], null),instaparse$abnf$project_$_iter__65000(cljs.core.rest(s__65001__$2)));
+return cljs.core.cons(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [k,(m.cljs$core$IFn$_invoke$arity$1 ? m.cljs$core$IFn$_invoke$arity$1(k) : m.call(null,k))], null),instaparse$abnf$project_$_iter__64990(cljs.core.rest(s__64991__$2)));
 } else {
-var G__65076 = cljs.core.rest(s__65001__$2);
-s__65001__$1 = G__65076;
+var G__65059 = cljs.core.rest(s__64991__$2);
+s__64991__$1 = G__65059;
 continue;
 }
 }
@@ -199,120 +199,120 @@ instaparse.abnf.parse_int = parseInt;
 instaparse.abnf.abnf_transformer = cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"neg","neg",1800032960),new cljs.core.Keyword(null,"hide-tag-rule","hide-tag-rule",150267589),new cljs.core.Keyword(null,"look","look",-539441433),new cljs.core.Keyword(null,"bin-char","bin-char",-1662780697),new cljs.core.Keyword(null,"rule","rule",729973257),new cljs.core.Keyword(null,"rulename-right","rulename-right",1125609193),new cljs.core.Keyword(null,"NUM","NUM",-218662260),new cljs.core.Keyword(null,"char-val","char-val",1408617933),new cljs.core.Keyword(null,"hide","hide",-596913169),new cljs.core.Keyword(null,"option","option",65132272),new cljs.core.Keyword(null,"hex-char","hex-char",764443568),new cljs.core.Keyword(null,"bin-val","bin-val",1705209105),new cljs.core.Keyword(null,"dec-val","dec-val",-1263870894),new cljs.core.Keyword(null,"concatenation","concatenation",-951369614),new cljs.core.Keyword(null,"alternation","alternation",-1162147630),new cljs.core.Keyword(null,"regexp","regexp",-541372782),new cljs.core.Keyword(null,"repetition","repetition",1938392115),new cljs.core.Keyword(null,"rulename-left","rulename-left",-1824251564),new cljs.core.Keyword(null,"repeat","repeat",832692087),new cljs.core.Keyword(null,"hex-val","hex-val",1267737401),new cljs.core.Keyword(null,"dec-char","dec-char",-646625154)],[instaparse.combinators_source.neg,(function (tag,rule){
 return cljs.core.PersistentArrayMap.createAsIfByAssoc([tag,instaparse.combinators_source.hide_tag(rule)]);
 }),instaparse.combinators_source.look,(function() { 
-var G__65083__delegate = function (cs){
-var G__65017 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.str,cs);
-var G__65018 = (2);
-return (instaparse.abnf.parse_int.cljs$core$IFn$_invoke$arity$2 ? instaparse.abnf.parse_int.cljs$core$IFn$_invoke$arity$2(G__65017,G__65018) : instaparse.abnf.parse_int.call(null,G__65017,G__65018));
+var G__65064__delegate = function (cs){
+var G__65003 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.str,cs);
+var G__65004 = (2);
+return (instaparse.abnf.parse_int.cljs$core$IFn$_invoke$arity$2 ? instaparse.abnf.parse_int.cljs$core$IFn$_invoke$arity$2(G__65003,G__65004) : instaparse.abnf.parse_int.call(null,G__65003,G__65004));
 };
-var G__65083 = function (var_args){
+var G__65064 = function (var_args){
 var cs = null;
 if (arguments.length > 0) {
-var G__65085__i = 0, G__65085__a = new Array(arguments.length -  0);
-while (G__65085__i < G__65085__a.length) {G__65085__a[G__65085__i] = arguments[G__65085__i + 0]; ++G__65085__i;}
-  cs = new cljs.core.IndexedSeq(G__65085__a,0,null);
+var G__65065__i = 0, G__65065__a = new Array(arguments.length -  0);
+while (G__65065__i < G__65065__a.length) {G__65065__a[G__65065__i] = arguments[G__65065__i + 0]; ++G__65065__i;}
+  cs = new cljs.core.IndexedSeq(G__65065__a,0,null);
 } 
-return G__65083__delegate.call(this,cs);};
-G__65083.cljs$lang$maxFixedArity = 0;
-G__65083.cljs$lang$applyTo = (function (arglist__65086){
-var cs = cljs.core.seq(arglist__65086);
-return G__65083__delegate(cs);
+return G__65064__delegate.call(this,cs);};
+G__65064.cljs$lang$maxFixedArity = 0;
+G__65064.cljs$lang$applyTo = (function (arglist__65066){
+var cs = cljs.core.seq(arglist__65066);
+return G__65064__delegate(cs);
 });
-G__65083.cljs$core$IFn$_invoke$arity$variadic = G__65083__delegate;
-return G__65083;
+G__65064.cljs$core$IFn$_invoke$arity$variadic = G__65064__delegate;
+return G__65064;
 })()
 ,cljs.core.hash_map,(function() { 
-var G__65087__delegate = function (rest__65011_SHARP_){
+var G__65068__delegate = function (rest__65000_SHARP_){
 if(cljs.core.truth_(instaparse.abnf._STAR_case_insensitive_STAR_)){
-return instaparse.combinators_source.nt(cljs.core.keyword.cljs$core$IFn$_invoke$arity$1(clojure.string.upper_case(cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.str,rest__65011_SHARP_))));
+return instaparse.combinators_source.nt(cljs.core.keyword.cljs$core$IFn$_invoke$arity$1(clojure.string.upper_case(cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.str,rest__65000_SHARP_))));
 } else {
-return instaparse.combinators_source.nt(cljs.core.keyword.cljs$core$IFn$_invoke$arity$1(cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.str,rest__65011_SHARP_)));
+return instaparse.combinators_source.nt(cljs.core.keyword.cljs$core$IFn$_invoke$arity$1(cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.str,rest__65000_SHARP_)));
 }
 };
-var G__65087 = function (var_args){
-var rest__65011_SHARP_ = null;
+var G__65068 = function (var_args){
+var rest__65000_SHARP_ = null;
 if (arguments.length > 0) {
-var G__65088__i = 0, G__65088__a = new Array(arguments.length -  0);
-while (G__65088__i < G__65088__a.length) {G__65088__a[G__65088__i] = arguments[G__65088__i + 0]; ++G__65088__i;}
-  rest__65011_SHARP_ = new cljs.core.IndexedSeq(G__65088__a,0,null);
+var G__65069__i = 0, G__65069__a = new Array(arguments.length -  0);
+while (G__65069__i < G__65069__a.length) {G__65069__a[G__65069__i] = arguments[G__65069__i + 0]; ++G__65069__i;}
+  rest__65000_SHARP_ = new cljs.core.IndexedSeq(G__65069__a,0,null);
 } 
-return G__65087__delegate.call(this,rest__65011_SHARP_);};
-G__65087.cljs$lang$maxFixedArity = 0;
-G__65087.cljs$lang$applyTo = (function (arglist__65089){
-var rest__65011_SHARP_ = cljs.core.seq(arglist__65089);
-return G__65087__delegate(rest__65011_SHARP_);
+return G__65068__delegate.call(this,rest__65000_SHARP_);};
+G__65068.cljs$lang$maxFixedArity = 0;
+G__65068.cljs$lang$applyTo = (function (arglist__65070){
+var rest__65000_SHARP_ = cljs.core.seq(arglist__65070);
+return G__65068__delegate(rest__65000_SHARP_);
 });
-G__65087.cljs$core$IFn$_invoke$arity$variadic = G__65087__delegate;
-return G__65087;
+G__65068.cljs$core$IFn$_invoke$arity$variadic = G__65068__delegate;
+return G__65068;
 })()
 ,(function() { 
-var G__65090__delegate = function (rest__65016_SHARP_){
-var G__65019 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.str,rest__65016_SHARP_);
-return (instaparse.abnf.parse_int.cljs$core$IFn$_invoke$arity$1 ? instaparse.abnf.parse_int.cljs$core$IFn$_invoke$arity$1(G__65019) : instaparse.abnf.parse_int.call(null,G__65019));
+var G__65071__delegate = function (rest__65002_SHARP_){
+var G__65009 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.str,rest__65002_SHARP_);
+return (instaparse.abnf.parse_int.cljs$core$IFn$_invoke$arity$1 ? instaparse.abnf.parse_int.cljs$core$IFn$_invoke$arity$1(G__65009) : instaparse.abnf.parse_int.call(null,G__65009));
 };
-var G__65090 = function (var_args){
-var rest__65016_SHARP_ = null;
+var G__65071 = function (var_args){
+var rest__65002_SHARP_ = null;
 if (arguments.length > 0) {
-var G__65091__i = 0, G__65091__a = new Array(arguments.length -  0);
-while (G__65091__i < G__65091__a.length) {G__65091__a[G__65091__i] = arguments[G__65091__i + 0]; ++G__65091__i;}
-  rest__65016_SHARP_ = new cljs.core.IndexedSeq(G__65091__a,0,null);
+var G__65072__i = 0, G__65072__a = new Array(arguments.length -  0);
+while (G__65072__i < G__65072__a.length) {G__65072__a[G__65072__i] = arguments[G__65072__i + 0]; ++G__65072__i;}
+  rest__65002_SHARP_ = new cljs.core.IndexedSeq(G__65072__a,0,null);
 } 
-return G__65090__delegate.call(this,rest__65016_SHARP_);};
-G__65090.cljs$lang$maxFixedArity = 0;
-G__65090.cljs$lang$applyTo = (function (arglist__65092){
-var rest__65016_SHARP_ = cljs.core.seq(arglist__65092);
-return G__65090__delegate(rest__65016_SHARP_);
+return G__65071__delegate.call(this,rest__65002_SHARP_);};
+G__65071.cljs$lang$maxFixedArity = 0;
+G__65071.cljs$lang$applyTo = (function (arglist__65073){
+var rest__65002_SHARP_ = cljs.core.seq(arglist__65073);
+return G__65071__delegate(rest__65002_SHARP_);
 });
-G__65090.cljs$core$IFn$_invoke$arity$variadic = G__65090__delegate;
-return G__65090;
+G__65071.cljs$core$IFn$_invoke$arity$variadic = G__65071__delegate;
+return G__65071;
 })()
 ,(function() { 
-var G__65093__delegate = function (cs){
+var G__65074__delegate = function (cs){
 return instaparse.cfg.string_PLUS_(cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.str,cs),true);
 };
-var G__65093 = function (var_args){
+var G__65074 = function (var_args){
 var cs = null;
 if (arguments.length > 0) {
-var G__65094__i = 0, G__65094__a = new Array(arguments.length -  0);
-while (G__65094__i < G__65094__a.length) {G__65094__a[G__65094__i] = arguments[G__65094__i + 0]; ++G__65094__i;}
-  cs = new cljs.core.IndexedSeq(G__65094__a,0,null);
+var G__65075__i = 0, G__65075__a = new Array(arguments.length -  0);
+while (G__65075__i < G__65075__a.length) {G__65075__a[G__65075__i] = arguments[G__65075__i + 0]; ++G__65075__i;}
+  cs = new cljs.core.IndexedSeq(G__65075__a,0,null);
 } 
-return G__65093__delegate.call(this,cs);};
-G__65093.cljs$lang$maxFixedArity = 0;
-G__65093.cljs$lang$applyTo = (function (arglist__65098){
-var cs = cljs.core.seq(arglist__65098);
-return G__65093__delegate(cs);
+return G__65074__delegate.call(this,cs);};
+G__65074.cljs$lang$maxFixedArity = 0;
+G__65074.cljs$lang$applyTo = (function (arglist__65076){
+var cs = cljs.core.seq(arglist__65076);
+return G__65074__delegate(cs);
 });
-G__65093.cljs$core$IFn$_invoke$arity$variadic = G__65093__delegate;
-return G__65093;
+G__65074.cljs$core$IFn$_invoke$arity$variadic = G__65074__delegate;
+return G__65074;
 })()
 ,instaparse.combinators_source.hide,instaparse.combinators_source.opt,(function() { 
-var G__65099__delegate = function (cs){
-var G__65020 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.str,cs);
-var G__65021 = (16);
-return (instaparse.abnf.parse_int.cljs$core$IFn$_invoke$arity$2 ? instaparse.abnf.parse_int.cljs$core$IFn$_invoke$arity$2(G__65020,G__65021) : instaparse.abnf.parse_int.call(null,G__65020,G__65021));
+var G__65077__delegate = function (cs){
+var G__65010 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.str,cs);
+var G__65011 = (16);
+return (instaparse.abnf.parse_int.cljs$core$IFn$_invoke$arity$2 ? instaparse.abnf.parse_int.cljs$core$IFn$_invoke$arity$2(G__65010,G__65011) : instaparse.abnf.parse_int.call(null,G__65010,G__65011));
 };
-var G__65099 = function (var_args){
+var G__65077 = function (var_args){
 var cs = null;
 if (arguments.length > 0) {
-var G__65100__i = 0, G__65100__a = new Array(arguments.length -  0);
-while (G__65100__i < G__65100__a.length) {G__65100__a[G__65100__i] = arguments[G__65100__i + 0]; ++G__65100__i;}
-  cs = new cljs.core.IndexedSeq(G__65100__a,0,null);
+var G__65078__i = 0, G__65078__a = new Array(arguments.length -  0);
+while (G__65078__i < G__65078__a.length) {G__65078__a[G__65078__i] = arguments[G__65078__i + 0]; ++G__65078__i;}
+  cs = new cljs.core.IndexedSeq(G__65078__a,0,null);
 } 
-return G__65099__delegate.call(this,cs);};
-G__65099.cljs$lang$maxFixedArity = 0;
-G__65099.cljs$lang$applyTo = (function (arglist__65101){
-var cs = cljs.core.seq(arglist__65101);
-return G__65099__delegate(cs);
+return G__65077__delegate.call(this,cs);};
+G__65077.cljs$lang$maxFixedArity = 0;
+G__65077.cljs$lang$applyTo = (function (arglist__65079){
+var cs = cljs.core.seq(arglist__65079);
+return G__65077__delegate(cs);
 });
-G__65099.cljs$core$IFn$_invoke$arity$variadic = G__65099__delegate;
-return G__65099;
+G__65077.cljs$core$IFn$_invoke$arity$variadic = G__65077__delegate;
+return G__65077;
 })()
 ,instaparse.abnf.get_char_combinator,instaparse.abnf.get_char_combinator,instaparse.combinators_source.cat,instaparse.combinators_source.alt,cljs.core.comp.cljs$core$IFn$_invoke$arity$2(instaparse.combinators_source.regexp,instaparse.cfg.process_regexp),(function() {
-var G__65102 = null;
-var G__65102__1 = (function (element){
+var G__65080 = null;
+var G__65080__1 = (function (element){
 return element;
 });
-var G__65102__2 = (function (repeat,element){
+var G__65080__2 = (function (repeat,element){
 if(cljs.core.empty_QMARK_(repeat)){
 return instaparse.combinators_source.star(element);
 } else {
@@ -344,47 +344,47 @@ return Infinity;
 }
 }
 });
-G__65102 = function(repeat,element){
+G__65080 = function(repeat,element){
 switch(arguments.length){
 case 1:
-return G__65102__1.call(this,repeat);
+return G__65080__1.call(this,repeat);
 case 2:
-return G__65102__2.call(this,repeat,element);
+return G__65080__2.call(this,repeat,element);
 }
 throw(new Error('Invalid arity: ' + arguments.length));
 };
-G__65102.cljs$core$IFn$_invoke$arity$1 = G__65102__1;
-G__65102.cljs$core$IFn$_invoke$arity$2 = G__65102__2;
-return G__65102;
+G__65080.cljs$core$IFn$_invoke$arity$1 = G__65080__1;
+G__65080.cljs$core$IFn$_invoke$arity$2 = G__65080__2;
+return G__65080;
 })()
 ,(function() { 
-var G__65107__delegate = function (rest__65010_SHARP_){
+var G__65086__delegate = function (rest__64999_SHARP_){
 if(cljs.core.truth_(instaparse.abnf._STAR_case_insensitive_STAR_)){
-return cljs.core.keyword.cljs$core$IFn$_invoke$arity$1(clojure.string.upper_case(cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.str,rest__65010_SHARP_)));
+return cljs.core.keyword.cljs$core$IFn$_invoke$arity$1(clojure.string.upper_case(cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.str,rest__64999_SHARP_)));
 } else {
-return cljs.core.keyword.cljs$core$IFn$_invoke$arity$1(cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.str,rest__65010_SHARP_));
+return cljs.core.keyword.cljs$core$IFn$_invoke$arity$1(cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.str,rest__64999_SHARP_));
 }
 };
-var G__65107 = function (var_args){
-var rest__65010_SHARP_ = null;
+var G__65086 = function (var_args){
+var rest__64999_SHARP_ = null;
 if (arguments.length > 0) {
-var G__65108__i = 0, G__65108__a = new Array(arguments.length -  0);
-while (G__65108__i < G__65108__a.length) {G__65108__a[G__65108__i] = arguments[G__65108__i + 0]; ++G__65108__i;}
-  rest__65010_SHARP_ = new cljs.core.IndexedSeq(G__65108__a,0,null);
+var G__65088__i = 0, G__65088__a = new Array(arguments.length -  0);
+while (G__65088__i < G__65088__a.length) {G__65088__a[G__65088__i] = arguments[G__65088__i + 0]; ++G__65088__i;}
+  rest__64999_SHARP_ = new cljs.core.IndexedSeq(G__65088__a,0,null);
 } 
-return G__65107__delegate.call(this,rest__65010_SHARP_);};
-G__65107.cljs$lang$maxFixedArity = 0;
-G__65107.cljs$lang$applyTo = (function (arglist__65109){
-var rest__65010_SHARP_ = cljs.core.seq(arglist__65109);
-return G__65107__delegate(rest__65010_SHARP_);
+return G__65086__delegate.call(this,rest__64999_SHARP_);};
+G__65086.cljs$lang$maxFixedArity = 0;
+G__65086.cljs$lang$applyTo = (function (arglist__65090){
+var rest__64999_SHARP_ = cljs.core.seq(arglist__65090);
+return G__65086__delegate(rest__64999_SHARP_);
 });
-G__65107.cljs$core$IFn$_invoke$arity$variadic = G__65107__delegate;
-return G__65107;
+G__65086.cljs$core$IFn$_invoke$arity$variadic = G__65086__delegate;
+return G__65086;
 })()
 ,(function() { 
-var G__65110__delegate = function (items){
-var G__65023 = cljs.core.count(items);
-switch (G__65023) {
+var G__65091__delegate = function (items){
+var G__65012 = cljs.core.count(items);
+switch (G__65012) {
 case (1):
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.first(items),"*")){
 return cljs.core.PersistentArrayMap.EMPTY;
@@ -408,46 +408,46 @@ return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"lo
 
 break;
 default:
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__65023)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__65012)].join('')));
 
 }
 };
-var G__65110 = function (var_args){
+var G__65091 = function (var_args){
 var items = null;
 if (arguments.length > 0) {
-var G__65117__i = 0, G__65117__a = new Array(arguments.length -  0);
-while (G__65117__i < G__65117__a.length) {G__65117__a[G__65117__i] = arguments[G__65117__i + 0]; ++G__65117__i;}
-  items = new cljs.core.IndexedSeq(G__65117__a,0,null);
+var G__65095__i = 0, G__65095__a = new Array(arguments.length -  0);
+while (G__65095__i < G__65095__a.length) {G__65095__a[G__65095__i] = arguments[G__65095__i + 0]; ++G__65095__i;}
+  items = new cljs.core.IndexedSeq(G__65095__a,0,null);
 } 
-return G__65110__delegate.call(this,items);};
-G__65110.cljs$lang$maxFixedArity = 0;
-G__65110.cljs$lang$applyTo = (function (arglist__65119){
-var items = cljs.core.seq(arglist__65119);
-return G__65110__delegate(items);
+return G__65091__delegate.call(this,items);};
+G__65091.cljs$lang$maxFixedArity = 0;
+G__65091.cljs$lang$applyTo = (function (arglist__65097){
+var items = cljs.core.seq(arglist__65097);
+return G__65091__delegate(items);
 });
-G__65110.cljs$core$IFn$_invoke$arity$variadic = G__65110__delegate;
-return G__65110;
+G__65091.cljs$core$IFn$_invoke$arity$variadic = G__65091__delegate;
+return G__65091;
 })()
 ,instaparse.abnf.get_char_combinator,(function() { 
-var G__65120__delegate = function (cs){
-var G__65024 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.str,cs);
-return (instaparse.abnf.parse_int.cljs$core$IFn$_invoke$arity$1 ? instaparse.abnf.parse_int.cljs$core$IFn$_invoke$arity$1(G__65024) : instaparse.abnf.parse_int.call(null,G__65024));
+var G__65098__delegate = function (cs){
+var G__65014 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.str,cs);
+return (instaparse.abnf.parse_int.cljs$core$IFn$_invoke$arity$1 ? instaparse.abnf.parse_int.cljs$core$IFn$_invoke$arity$1(G__65014) : instaparse.abnf.parse_int.call(null,G__65014));
 };
-var G__65120 = function (var_args){
+var G__65098 = function (var_args){
 var cs = null;
 if (arguments.length > 0) {
-var G__65121__i = 0, G__65121__a = new Array(arguments.length -  0);
-while (G__65121__i < G__65121__a.length) {G__65121__a[G__65121__i] = arguments[G__65121__i + 0]; ++G__65121__i;}
-  cs = new cljs.core.IndexedSeq(G__65121__a,0,null);
+var G__65099__i = 0, G__65099__a = new Array(arguments.length -  0);
+while (G__65099__i < G__65099__a.length) {G__65099__a[G__65099__i] = arguments[G__65099__i + 0]; ++G__65099__i;}
+  cs = new cljs.core.IndexedSeq(G__65099__a,0,null);
 } 
-return G__65120__delegate.call(this,cs);};
-G__65120.cljs$lang$maxFixedArity = 0;
-G__65120.cljs$lang$applyTo = (function (arglist__65122){
-var cs = cljs.core.seq(arglist__65122);
-return G__65120__delegate(cs);
+return G__65098__delegate.call(this,cs);};
+G__65098.cljs$lang$maxFixedArity = 0;
+G__65098.cljs$lang$applyTo = (function (arglist__65100){
+var cs = cljs.core.seq(arglist__65100);
+return G__65098__delegate(cs);
 });
-G__65120.cljs$core$IFn$_invoke$arity$variadic = G__65120__delegate;
-return G__65120;
+G__65098.cljs$core$IFn$_invoke$arity$variadic = G__65098__delegate;
+return G__65098;
 })()
 ]);
 instaparse.abnf.rules__GT_grammar_map = (function instaparse$abnf$rules__GT_grammar_map(rules){
@@ -461,14 +461,14 @@ return instaparse.abnf.merge_core(cljs.core.apply.cljs$core$IFn$_invoke$arity$3(
  */
 instaparse.abnf.abnf = (function instaparse$abnf$abnf(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___65124 = arguments.length;
-var i__4790__auto___65125 = (0);
+var len__4789__auto___65101 = arguments.length;
+var i__4790__auto___65103 = (0);
 while(true){
-if((i__4790__auto___65125 < len__4789__auto___65124)){
-args__4795__auto__.push((arguments[i__4790__auto___65125]));
+if((i__4790__auto___65103 < len__4789__auto___65101)){
+args__4795__auto__.push((arguments[i__4790__auto___65103]));
 
-var G__65126 = (i__4790__auto___65125 + (1));
-i__4790__auto___65125 = G__65126;
+var G__65104 = (i__4790__auto___65103 + (1));
+i__4790__auto___65103 = G__65104;
 continue;
 } else {
 }
@@ -479,31 +479,31 @@ var argseq__4796__auto__ = ((((1) < args__4795__auto__.length))?(new cljs.core.I
 return instaparse.abnf.abnf.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)]),argseq__4796__auto__);
 });
 
-(instaparse.abnf.abnf.cljs$core$IFn$_invoke$arity$variadic = (function (spec,p__65027){
-var map__65028 = p__65027;
-var map__65028__$1 = (((((!((map__65028 == null))))?(((((map__65028.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__65028.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__65028):map__65028);
-var opts = map__65028__$1;
-var _STAR_case_insensitive_literals_STAR__orig_val__65030 = instaparse.cfg._STAR_case_insensitive_literals_STAR_;
-var _STAR_case_insensitive_literals_STAR__temp_val__65031 = new cljs.core.Keyword(null,"string-ci","string-ci",374631805).cljs$core$IFn$_invoke$arity$2(opts,new cljs.core.Keyword(null,"default","default",-1987822328));
-(instaparse.cfg._STAR_case_insensitive_literals_STAR_ = _STAR_case_insensitive_literals_STAR__temp_val__65031);
+(instaparse.abnf.abnf.cljs$core$IFn$_invoke$arity$variadic = (function (spec,p__65020){
+var map__65021 = p__65020;
+var map__65021__$1 = (((((!((map__65021 == null))))?(((((map__65021.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__65021.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__65021):map__65021);
+var opts = map__65021__$1;
+var _STAR_case_insensitive_literals_STAR__orig_val__65029 = instaparse.cfg._STAR_case_insensitive_literals_STAR_;
+var _STAR_case_insensitive_literals_STAR__temp_val__65030 = new cljs.core.Keyword(null,"string-ci","string-ci",374631805).cljs$core$IFn$_invoke$arity$2(opts,new cljs.core.Keyword(null,"default","default",-1987822328));
+(instaparse.cfg._STAR_case_insensitive_literals_STAR_ = _STAR_case_insensitive_literals_STAR__temp_val__65030);
 
 try{var tree = instaparse.gll.parse(instaparse.abnf.abnf_parser,new cljs.core.Keyword(null,"rules-or-parser","rules-or-parser",-314380386),spec,false);
 if((tree instanceof instaparse.gll.Failure)){
 return instaparse.util.throw_runtime_exception.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["Error parsing grammar specification:\n",(function (){var sb__4720__auto__ = (new goog.string.StringBuffer());
-var _STAR_print_newline_STAR__orig_val__65032_65131 = cljs.core._STAR_print_newline_STAR_;
-var _STAR_print_fn_STAR__orig_val__65033_65132 = cljs.core._STAR_print_fn_STAR_;
-var _STAR_print_newline_STAR__temp_val__65034_65133 = true;
-var _STAR_print_fn_STAR__temp_val__65035_65134 = (function (x__4721__auto__){
+var _STAR_print_newline_STAR__orig_val__65031_65106 = cljs.core._STAR_print_newline_STAR_;
+var _STAR_print_fn_STAR__orig_val__65032_65107 = cljs.core._STAR_print_fn_STAR_;
+var _STAR_print_newline_STAR__temp_val__65033_65108 = true;
+var _STAR_print_fn_STAR__temp_val__65034_65109 = (function (x__4721__auto__){
 return sb__4720__auto__.append(x__4721__auto__);
 });
-(cljs.core._STAR_print_newline_STAR_ = _STAR_print_newline_STAR__temp_val__65034_65133);
+(cljs.core._STAR_print_newline_STAR_ = _STAR_print_newline_STAR__temp_val__65033_65108);
 
-(cljs.core._STAR_print_fn_STAR_ = _STAR_print_fn_STAR__temp_val__65035_65134);
+(cljs.core._STAR_print_fn_STAR_ = _STAR_print_fn_STAR__temp_val__65034_65109);
 
 try{cljs.core.println.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([tree], 0));
-}finally {(cljs.core._STAR_print_fn_STAR_ = _STAR_print_fn_STAR__orig_val__65033_65132);
+}finally {(cljs.core._STAR_print_fn_STAR_ = _STAR_print_fn_STAR__orig_val__65032_65107);
 
-(cljs.core._STAR_print_newline_STAR_ = _STAR_print_newline_STAR__orig_val__65032_65131);
+(cljs.core._STAR_print_newline_STAR_ = _STAR_print_newline_STAR__orig_val__65031_65106);
 }
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(sb__4720__auto__);
 })()], 0));
@@ -515,37 +515,37 @@ return instaparse.abnf.rules__GT_grammar_map(instaparse.transform.transform(inst
 
 }
 }
-}finally {(instaparse.cfg._STAR_case_insensitive_literals_STAR_ = _STAR_case_insensitive_literals_STAR__orig_val__65030);
+}finally {(instaparse.cfg._STAR_case_insensitive_literals_STAR_ = _STAR_case_insensitive_literals_STAR__orig_val__65029);
 }}));
 
 (instaparse.abnf.abnf.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(instaparse.abnf.abnf.cljs$lang$applyTo = (function (seq65025){
-var G__65026 = cljs.core.first(seq65025);
-var seq65025__$1 = cljs.core.next(seq65025);
+(instaparse.abnf.abnf.cljs$lang$applyTo = (function (seq65015){
+var G__65016 = cljs.core.first(seq65015);
+var seq65015__$1 = cljs.core.next(seq65015);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__65026,seq65025__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__65016,seq65015__$1);
 }));
 
 instaparse.abnf.build_parser = (function instaparse$abnf$build_parser(spec,output_format){
 var rule_tree = instaparse.gll.parse(instaparse.abnf.abnf_parser,new cljs.core.Keyword(null,"rulelist","rulelist",-1871218473),spec,false);
 if((rule_tree instanceof instaparse.gll.Failure)){
 return instaparse.util.throw_runtime_exception.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["Error parsing grammar specification:\n",(function (){var sb__4720__auto__ = (new goog.string.StringBuffer());
-var _STAR_print_newline_STAR__orig_val__65036_65136 = cljs.core._STAR_print_newline_STAR_;
-var _STAR_print_fn_STAR__orig_val__65037_65137 = cljs.core._STAR_print_fn_STAR_;
-var _STAR_print_newline_STAR__temp_val__65038_65138 = true;
-var _STAR_print_fn_STAR__temp_val__65039_65139 = (function (x__4721__auto__){
+var _STAR_print_newline_STAR__orig_val__65036_65113 = cljs.core._STAR_print_newline_STAR_;
+var _STAR_print_fn_STAR__orig_val__65037_65114 = cljs.core._STAR_print_fn_STAR_;
+var _STAR_print_newline_STAR__temp_val__65038_65115 = true;
+var _STAR_print_fn_STAR__temp_val__65039_65116 = (function (x__4721__auto__){
 return sb__4720__auto__.append(x__4721__auto__);
 });
-(cljs.core._STAR_print_newline_STAR_ = _STAR_print_newline_STAR__temp_val__65038_65138);
+(cljs.core._STAR_print_newline_STAR_ = _STAR_print_newline_STAR__temp_val__65038_65115);
 
-(cljs.core._STAR_print_fn_STAR_ = _STAR_print_fn_STAR__temp_val__65039_65139);
+(cljs.core._STAR_print_fn_STAR_ = _STAR_print_fn_STAR__temp_val__65039_65116);
 
 try{cljs.core.println.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([rule_tree], 0));
-}finally {(cljs.core._STAR_print_fn_STAR_ = _STAR_print_fn_STAR__orig_val__65037_65137);
+}finally {(cljs.core._STAR_print_fn_STAR_ = _STAR_print_fn_STAR__orig_val__65037_65114);
 
-(cljs.core._STAR_print_newline_STAR_ = _STAR_print_newline_STAR__orig_val__65036_65136);
+(cljs.core._STAR_print_newline_STAR_ = _STAR_print_newline_STAR__orig_val__65036_65113);
 }
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(sb__4720__auto__);
 })()], 0));
