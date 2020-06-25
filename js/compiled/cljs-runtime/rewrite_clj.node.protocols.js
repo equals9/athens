@@ -249,26 +249,26 @@ throw cljs.core.missing_protocol("InnerNode.replace-children",_);
 
 goog.object.set(rewrite_clj.node.protocols.InnerNode,"object",true);
 
-var G__29799_29823 = rewrite_clj.node.protocols.inner_QMARK_;
-var G__29800_29824 = "object";
-var G__29801_29825 = (function (_){
+var G__29799_29824 = rewrite_clj.node.protocols.inner_QMARK_;
+var G__29800_29825 = "object";
+var G__29801_29826 = (function (_){
 return false;
 });
-goog.object.set(G__29799_29823,G__29800_29824,G__29801_29825);
+goog.object.set(G__29799_29824,G__29800_29825,G__29801_29826);
 
-var G__29802_29826 = rewrite_clj.node.protocols.children;
-var G__29803_29827 = "object";
-var G__29804_29828 = (function (_){
+var G__29802_29827 = rewrite_clj.node.protocols.children;
+var G__29803_29828 = "object";
+var G__29804_29829 = (function (_){
 throw (new Error("UnsupportedOperationException"));
 });
-goog.object.set(G__29802_29826,G__29803_29827,G__29804_29828);
+goog.object.set(G__29802_29827,G__29803_29828,G__29804_29829);
 
-var G__29805_29829 = rewrite_clj.node.protocols.replace_children;
-var G__29806_29830 = "object";
-var G__29807_29831 = (function (_,___$1){
+var G__29805_29830 = rewrite_clj.node.protocols.replace_children;
+var G__29806_29831 = "object";
+var G__29807_29832 = (function (_,___$1){
 throw (new Error("UnsupportedOperationException"));
 });
-goog.object.set(G__29805_29829,G__29806_29830,G__29807_29831);
+goog.object.set(G__29805_29830,G__29806_29831,G__29807_29832);
 /**
  * Get all child s-expressions for the given node.
  */

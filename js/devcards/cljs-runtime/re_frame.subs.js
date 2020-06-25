@@ -30,9 +30,9 @@ var count__46600_46674 = (0);
 var i__46601_46675 = (0);
 while(true){
 if((i__46601_46675 < count__46600_46674)){
-var vec__46608_46676 = chunk__46599_46673.cljs$core$IIndexed$_nth$arity$2(null,i__46601_46675);
-var k_46677 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46608_46676,(0),null);
-var rxn_46678 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46608_46676,(1),null);
+var vec__46609_46676 = chunk__46599_46673.cljs$core$IIndexed$_nth$arity$2(null,i__46601_46675);
+var k_46677 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46609_46676,(0),null);
+var rxn_46678 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46609_46676,(1),null);
 re_frame.interop.dispose_BANG_(rxn_46678);
 
 
@@ -467,9 +467,9 @@ return cljs.core.deref(cljs.core.deref(sub));
  */
 re_frame.subs.map_vals = (function re_frame$subs$map_vals(f,m){
 return cljs.core.into.cljs$core$IFn$_invoke$arity$3(cljs.core.empty(m),cljs.core.map.cljs$core$IFn$_invoke$arity$1((function (p__46631){
-var vec__46632 = p__46631;
-var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46632,(0),null);
-var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46632,(1),null);
+var vec__46633 = p__46631;
+var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46633,(0),null);
+var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46633,(1),null);
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [k,(f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(v) : f.call(null,v))], null);
 })),m);
 });
@@ -688,25 +688,25 @@ var inputs_fn = (function (){var G__46648 = cljs.core.count(input_args);
 switch (G__46648) {
 case (0):
 return (function() {
-var G__46740 = null;
-var G__46740__1 = (function (_){
+var G__46736 = null;
+var G__46736__1 = (function (_){
 return re_frame.db.app_db;
 });
-var G__46740__2 = (function (_,___$1){
+var G__46736__2 = (function (_,___$1){
 return re_frame.db.app_db;
 });
-G__46740 = function(_,___$1){
+G__46736 = function(_,___$1){
 switch(arguments.length){
 case 1:
-return G__46740__1.call(this,_);
+return G__46736__1.call(this,_);
 case 2:
-return G__46740__2.call(this,_,___$1);
+return G__46736__2.call(this,_,___$1);
 }
 throw(new Error('Invalid arity: ' + arguments.length));
 };
-G__46740.cljs$core$IFn$_invoke$arity$1 = G__46740__1;
-G__46740.cljs$core$IFn$_invoke$arity$2 = G__46740__2;
-return G__46740;
+G__46736.cljs$core$IFn$_invoke$arity$1 = G__46736__1;
+G__46736.cljs$core$IFn$_invoke$arity$2 = G__46736__2;
+return G__46736;
 })()
 
 break;
@@ -721,9 +721,9 @@ return f;
 
 break;
 case (2):
-var vec__46649 = input_args;
-var marker = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46649,(0),null);
-var vec = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46649,(1),null);
+var vec__46650 = input_args;
+var marker = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46650,(0),null);
+var vec = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46650,(1),null);
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"<-","<-",760412998),marker)){
 } else {
 re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"error","error",-978969032),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([err_header,"expected :<-, got:",marker], 0));
@@ -906,11 +906,11 @@ return re_frame$subs$subs_handler_fn;
 (re_frame.subs.reg_sub.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(re_frame.subs.reg_sub.cljs$lang$applyTo = (function (seq46642){
-var G__46643 = cljs.core.first(seq46642);
-var seq46642__$1 = cljs.core.next(seq46642);
+(re_frame.subs.reg_sub.cljs$lang$applyTo = (function (seq46646){
+var G__46647 = cljs.core.first(seq46646);
+var seq46646__$1 = cljs.core.next(seq46646);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__46643,seq46642__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__46647,seq46646__$1);
 }));
 
 

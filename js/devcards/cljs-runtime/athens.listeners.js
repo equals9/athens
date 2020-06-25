@@ -1,9 +1,7 @@
 goog.provide('athens.listeners');
 goog.require('cljs.core');
-goog.require('athens.db');
 goog.require('cljsjs.react');
 goog.require('cljsjs.react.dom');
-goog.require('datascript.core');
 goog.require('goog.events');
 goog.require('re_frame.core');
 goog.require('goog.events.EventType');
