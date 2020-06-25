@@ -285,19 +285,19 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$5(f,x,y,z,args);
 var G__58147 = function (x,y,z,var_args){
 var args = null;
 if (arguments.length > 3) {
-var G__58148__i = 0, G__58148__a = new Array(arguments.length -  3);
-while (G__58148__i < G__58148__a.length) {G__58148__a[G__58148__i] = arguments[G__58148__i + 3]; ++G__58148__i;}
-  args = new cljs.core.IndexedSeq(G__58148__a,0,null);
+var G__58150__i = 0, G__58150__a = new Array(arguments.length -  3);
+while (G__58150__i < G__58150__a.length) {G__58150__a[G__58150__i] = arguments[G__58150__i + 3]; ++G__58150__i;}
+  args = new cljs.core.IndexedSeq(G__58150__a,0,null);
 } 
 return G__58147__delegate.call(this,x,y,z,args);};
 G__58147.cljs$lang$maxFixedArity = 3;
-G__58147.cljs$lang$applyTo = (function (arglist__58149){
-var x = cljs.core.first(arglist__58149);
-arglist__58149 = cljs.core.next(arglist__58149);
-var y = cljs.core.first(arglist__58149);
-arglist__58149 = cljs.core.next(arglist__58149);
-var z = cljs.core.first(arglist__58149);
-var args = cljs.core.rest(arglist__58149);
+G__58147.cljs$lang$applyTo = (function (arglist__58151){
+var x = cljs.core.first(arglist__58151);
+arglist__58151 = cljs.core.next(arglist__58151);
+var y = cljs.core.first(arglist__58151);
+arglist__58151 = cljs.core.next(arglist__58151);
+var z = cljs.core.first(arglist__58151);
+var args = cljs.core.rest(arglist__58151);
 return G__58147__delegate(x,y,z,args);
 });
 G__58147.cljs$core$IFn$_invoke$arity$variadic = G__58147__delegate;
@@ -1272,14 +1272,14 @@ return sci.impl.vars.getName(cljs.core.deref(sci.impl.vars.current_ns));
 });
 sci.impl.vars.alter_var_root = (function sci$impl$vars$alter_var_root(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___58203 = arguments.length;
-var i__4790__auto___58204 = (0);
+var len__4789__auto___58201 = arguments.length;
+var i__4790__auto___58202 = (0);
 while(true){
-if((i__4790__auto___58204 < len__4789__auto___58203)){
-args__4795__auto__.push((arguments[i__4790__auto___58204]));
+if((i__4790__auto___58202 < len__4789__auto___58201)){
+args__4795__auto__.push((arguments[i__4790__auto___58202]));
 
-var G__58205 = (i__4790__auto___58204 + (1));
-i__4790__auto___58204 = G__58205;
+var G__58203 = (i__4790__auto___58202 + (1));
+i__4790__auto___58202 = G__58203;
 continue;
 } else {
 }

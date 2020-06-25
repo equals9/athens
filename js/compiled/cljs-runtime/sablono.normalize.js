@@ -85,11 +85,11 @@ return class$;
  * Normalize the `attrs` of an element.
  */
 sablono.normalize.attributes = (function sablono$normalize$attributes(attrs){
-var G__48498 = attrs;
+var G__48504 = attrs;
 if(cljs.core.truth_(new cljs.core.Keyword(null,"class","class",-2030961996).cljs$core$IFn$_invoke$arity$1(attrs))){
-return cljs.core.update_in.cljs$core$IFn$_invoke$arity$3(G__48498,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"class","class",-2030961996)], null),sablono.normalize.class$);
+return cljs.core.update_in.cljs$core$IFn$_invoke$arity$3(G__48504,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"class","class",-2030961996)], null),sablono.normalize.class$);
 } else {
-return G__48498;
+return G__48504;
 }
 });
 /**
@@ -97,14 +97,14 @@ return G__48498;
  */
 sablono.normalize.merge_with_class = (function sablono$normalize$merge_with_class(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___48525 = arguments.length;
-var i__4790__auto___48526 = (0);
+var len__4789__auto___48528 = arguments.length;
+var i__4790__auto___48529 = (0);
 while(true){
-if((i__4790__auto___48526 < len__4789__auto___48525)){
-args__4795__auto__.push((arguments[i__4790__auto___48526]));
+if((i__4790__auto___48529 < len__4789__auto___48528)){
+args__4795__auto__.push((arguments[i__4790__auto___48529]));
 
-var G__48527 = (i__4790__auto___48526 + (1));
-i__4790__auto___48526 = G__48527;
+var G__48530 = (i__4790__auto___48529 + (1));
+i__4790__auto___48529 = G__48530;
 continue;
 } else {
 }
@@ -133,9 +133,9 @@ return null;
 (sablono.normalize.merge_with_class.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(sablono.normalize.merge_with_class.cljs$lang$applyTo = (function (seq48502){
+(sablono.normalize.merge_with_class.cljs$lang$applyTo = (function (seq48508){
 var self__4777__auto__ = this;
-return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq48502));
+return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq48508));
 }));
 
 /**
