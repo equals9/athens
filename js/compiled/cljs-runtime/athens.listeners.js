@@ -28,7 +28,7 @@ return null;
 /**
  * Must set hidden to true for bullet, otherwise bullet is captured when calling `elementFromPoint`.
  *   Closest child always takes precedent over closest sibling, because .block-contents is nested within .block-container.
- *   There's probably a better way to do this.
+ *   `cljs-oops` provides macros that let you bypass null `when` checks
  */
 athens.listeners.mouse_move_bullet = (function athens$listeners$mouse_move_bullet(start_pos,uid){
 return (function (e){

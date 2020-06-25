@@ -346,12 +346,12 @@ throw cljs.core.missing_protocol("IntoString.into-string",_);
 
 goog.object.set(reitit.impl.IntoString,"string",true);
 
-var G__57417_57448 = reitit.impl.into_string;
-var G__57418_57449 = "string";
-var G__57419_57450 = (function (this$){
+var G__57417_57452 = reitit.impl.into_string;
+var G__57418_57453 = "string";
+var G__57419_57454 = (function (this$){
 return this$;
 });
-goog.object.set(G__57417_57448,G__57418_57449,G__57419_57450);
+goog.object.set(G__57417_57452,G__57418_57453,G__57419_57454);
 
 (cljs.core.Keyword.prototype.reitit$impl$IntoString$ = cljs.core.PROTOCOL_SENTINEL);
 
@@ -363,39 +363,39 @@ return [ns,(cljs.core.truth_(ns)?"/":null),cljs.core.name(this$__$1)].join('');
 
 goog.object.set(reitit.impl.IntoString,"boolean",true);
 
-var G__57420_57452 = reitit.impl.into_string;
-var G__57421_57453 = "boolean";
-var G__57422_57454 = (function (this$){
+var G__57420_57455 = reitit.impl.into_string;
+var G__57421_57456 = "boolean";
+var G__57422_57457 = (function (this$){
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(this$);
 });
-goog.object.set(G__57420_57452,G__57421_57453,G__57422_57454);
+goog.object.set(G__57420_57455,G__57421_57456,G__57422_57457);
 
 goog.object.set(reitit.impl.IntoString,"number",true);
 
-var G__57423_57455 = reitit.impl.into_string;
-var G__57424_57456 = "number";
-var G__57425_57457 = (function (this$){
+var G__57423_57458 = reitit.impl.into_string;
+var G__57424_57459 = "number";
+var G__57425_57460 = (function (this$){
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(this$);
 });
-goog.object.set(G__57423_57455,G__57424_57456,G__57425_57457);
+goog.object.set(G__57423_57458,G__57424_57459,G__57425_57460);
 
 goog.object.set(reitit.impl.IntoString,"object",true);
 
-var G__57426_57458 = reitit.impl.into_string;
-var G__57427_57459 = "object";
-var G__57428_57460 = (function (this$){
+var G__57426_57461 = reitit.impl.into_string;
+var G__57427_57462 = "object";
+var G__57428_57463 = (function (this$){
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(this$);
 });
-goog.object.set(G__57426_57458,G__57427_57459,G__57428_57460);
+goog.object.set(G__57426_57461,G__57427_57462,G__57428_57463);
 
 goog.object.set(reitit.impl.IntoString,"null",true);
 
-var G__57429_57461 = reitit.impl.into_string;
-var G__57430_57462 = "null";
-var G__57431_57463 = (function (_){
+var G__57429_57464 = reitit.impl.into_string;
+var G__57430_57465 = "null";
+var G__57431_57466 = (function (_){
 return null;
 });
-goog.object.set(G__57429_57461,G__57430_57462,G__57431_57463);
+goog.object.set(G__57429_57464,G__57430_57465,G__57431_57466);
 /**
  * Convert parameters' values into URL-encoded strings, suitable for URL paths
  */

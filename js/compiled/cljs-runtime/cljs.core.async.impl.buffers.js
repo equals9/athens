@@ -7,8 +7,8 @@ while(true){
 if((cnt < len)){
 (dest[(dest_start + cnt)] = (src[(src_start + cnt)]));
 
-var G__36688 = (cnt + (1));
-cnt = G__36688;
+var G__36690 = (cnt + (1));
+cnt = G__36690;
 continue;
 } else {
 return null;
@@ -117,8 +117,8 @@ this$.unshift(v_36691);
 } else {
 }
 
-var G__36692 = (x + (1));
-x = G__36692;
+var G__36694 = (x + (1));
+x = G__36694;
 continue;
 } else {
 return null;

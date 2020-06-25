@@ -279,10 +279,10 @@ var h__4297__auto__ = self__.__hash;
 if((!((h__4297__auto__ == null)))){
 return h__4297__auto__;
 } else {
-var h__4297__auto____$1 = (function (){var fexpr__57451 = (function (coll__4436__auto__){
+var h__4297__auto____$1 = (function (){var fexpr__57448 = (function (coll__4436__auto__){
 return (-537525465 ^ cljs.core.hash_unordered_coll(coll__4436__auto__));
 });
-return fexpr__57451(this__4435__auto____$1);
+return fexpr__57448(this__4435__auto____$1);
 })();
 (self__.__hash = h__4297__auto____$1);
 
@@ -309,8 +309,8 @@ return (new reitit.coercion.CoercionError(self__.__meta,cljs.core.not_empty(cljs
 (reitit.coercion.CoercionError.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__4446__auto__,k__4447__auto__,G__57438){
 var self__ = this;
 var this__4446__auto____$1 = this;
-var pred__57464 = cljs.core.keyword_identical_QMARK_;
-var expr__57465 = k__4447__auto__;
+var pred__57449 = cljs.core.keyword_identical_QMARK_;
+var expr__57450 = k__4447__auto__;
 return (new reitit.coercion.CoercionError(self__.__meta,cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k__4447__auto__,G__57438),null));
 }));
 
@@ -795,12 +795,12 @@ var body = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__57519__$1,new cljs.c
 if(cljs.core.truth_(body)){
 cljs.core.chunk_append(b__57515,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [status,reitit.coercion.response_coercer(coercion,body,opts)], null));
 
-var G__57589 = (i__57514 + (1));
-i__57514 = G__57589;
+var G__57586 = (i__57514 + (1));
+i__57514 = G__57586;
 continue;
 } else {
-var G__57590 = (i__57514 + (1));
-i__57514 = G__57590;
+var G__57587 = (i__57514 + (1));
+i__57514 = G__57587;
 continue;
 }
 } else {
@@ -822,8 +822,8 @@ var body = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__57524__$1,new cljs.c
 if(cljs.core.truth_(body)){
 return cljs.core.cons(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [status,reitit.coercion.response_coercer(coercion,body,opts)], null),reitit$coercion$response_coercers_$_iter__57512(cljs.core.rest(s__57513__$2)));
 } else {
-var G__57594 = cljs.core.rest(s__57513__$2);
-s__57513__$1 = G__57594;
+var G__57591 = cljs.core.rest(s__57513__$2);
+s__57513__$1 = G__57591;
 continue;
 }
 }
