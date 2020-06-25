@@ -303,10 +303,10 @@ while(true){
 if(cljs.core.not(nloc)){
 return ploc;
 } else {
-var G__30691 = zprint.zutil.zrightnws(nloc);
-var G__30692 = nloc;
-nloc = G__30691;
-ploc = G__30692;
+var G__30692 = zprint.zutil.zrightnws(nloc);
+var G__30693 = nloc;
+nloc = G__30692;
+ploc = G__30693;
 continue;
 }
 break;

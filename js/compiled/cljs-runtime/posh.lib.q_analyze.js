@@ -2981,10 +2981,10 @@ if(posh.lib.q_analyze.schema_ref_QMARK_(schema,cljs.core.nth.cljs$core$IFn$_invo
 return true;
 } else {
 if(cljs.core.seq(remaining)){
-var G__47349 = cljs.core.first(remaining);
-var G__47350 = cljs.core.rest(remaining);
-clause = G__47349;
-remaining = G__47350;
+var G__47346 = cljs.core.first(remaining);
+var G__47347 = cljs.core.rest(remaining);
+clause = G__47346;
+remaining = G__47347;
 continue;
 } else {
 return false;
@@ -2992,10 +2992,10 @@ return false;
 }
 } else {
 if(cljs.core.seq(remaining)){
-var G__47351 = cljs.core.first(remaining);
-var G__47352 = cljs.core.rest(remaining);
-clause = G__47351;
-remaining = G__47352;
+var G__47348 = cljs.core.first(remaining);
+var G__47349 = cljs.core.rest(remaining);
+clause = G__47348;
+remaining = G__47349;
 continue;
 } else {
 return false;

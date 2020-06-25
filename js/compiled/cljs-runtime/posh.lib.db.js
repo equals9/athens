@@ -56,8 +56,8 @@ while(true){
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.first(poshdb),new cljs.core.Keyword(null,"db","db",993250759))){
 return cljs.core.second(poshdb);
 } else {
-var G__46889 = posh.lib.db.get_parent_db(poshdb);
-poshdb = G__46889;
+var G__46890 = posh.lib.db.get_parent_db(poshdb);
+poshdb = G__46890;
 continue;
 }
 break;
