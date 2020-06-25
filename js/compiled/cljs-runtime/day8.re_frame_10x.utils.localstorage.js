@@ -100,14 +100,14 @@ day8.re_frame_10x.utils.localstorage.storage.remove(k);
 }
 
 
-var G__33612 = cljs.core.next(seq__33567__$1);
-var G__33613 = null;
-var G__33614 = (0);
+var G__33613 = cljs.core.next(seq__33567__$1);
+var G__33614 = null;
 var G__33615 = (0);
-seq__33567 = G__33612;
-chunk__33568 = G__33613;
-count__33569 = G__33614;
-i__33570 = G__33615;
+var G__33616 = (0);
+seq__33567 = G__33613;
+chunk__33568 = G__33614;
+count__33569 = G__33615;
+i__33570 = G__33616;
 continue;
 }
 } else {

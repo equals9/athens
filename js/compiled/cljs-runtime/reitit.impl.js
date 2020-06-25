@@ -346,12 +346,12 @@ throw cljs.core.missing_protocol("IntoString.into-string",_);
 
 goog.object.set(reitit.impl.IntoString,"string",true);
 
-var G__57406_57437 = reitit.impl.into_string;
-var G__57407_57438 = "string";
-var G__57408_57439 = (function (this$){
+var G__57406_57438 = reitit.impl.into_string;
+var G__57407_57439 = "string";
+var G__57408_57440 = (function (this$){
 return this$;
 });
-goog.object.set(G__57406_57437,G__57407_57438,G__57408_57439);
+goog.object.set(G__57406_57438,G__57407_57439,G__57408_57440);
 
 (cljs.core.Keyword.prototype.reitit$impl$IntoString$ = cljs.core.PROTOCOL_SENTINEL);
 
@@ -390,12 +390,12 @@ goog.object.set(G__57415_57447,G__57416_57448,G__57417_57449);
 
 goog.object.set(reitit.impl.IntoString,"null",true);
 
-var G__57418_57450 = reitit.impl.into_string;
-var G__57419_57451 = "null";
-var G__57420_57452 = (function (_){
+var G__57418_57453 = reitit.impl.into_string;
+var G__57419_57454 = "null";
+var G__57420_57455 = (function (_){
 return null;
 });
-goog.object.set(G__57418_57450,G__57419_57451,G__57420_57452);
+goog.object.set(G__57418_57453,G__57419_57454,G__57420_57455);
 /**
  * Convert parameters' values into URL-encoded strings, suitable for URL paths
  */

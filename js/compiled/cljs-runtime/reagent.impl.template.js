@@ -176,24 +176,24 @@ return cljs.core.clj__GT_js(x);
 } else {
 if(cljs.core.ifn_QMARK_(x)){
 return (function() { 
-var G__32460__delegate = function (args){
+var G__32462__delegate = function (args){
 return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(x,args);
 };
-var G__32460 = function (var_args){
+var G__32462 = function (var_args){
 var args = null;
 if (arguments.length > 0) {
-var G__32461__i = 0, G__32461__a = new Array(arguments.length -  0);
-while (G__32461__i < G__32461__a.length) {G__32461__a[G__32461__i] = arguments[G__32461__i + 0]; ++G__32461__i;}
-  args = new cljs.core.IndexedSeq(G__32461__a,0,null);
+var G__32463__i = 0, G__32463__a = new Array(arguments.length -  0);
+while (G__32463__i < G__32463__a.length) {G__32463__a[G__32463__i] = arguments[G__32463__i + 0]; ++G__32463__i;}
+  args = new cljs.core.IndexedSeq(G__32463__a,0,null);
 } 
-return G__32460__delegate.call(this,args);};
-G__32460.cljs$lang$maxFixedArity = 0;
-G__32460.cljs$lang$applyTo = (function (arglist__32462){
-var args = cljs.core.seq(arglist__32462);
-return G__32460__delegate(args);
+return G__32462__delegate.call(this,args);};
+G__32462.cljs$lang$maxFixedArity = 0;
+G__32462.cljs$lang$applyTo = (function (arglist__32467){
+var args = cljs.core.seq(arglist__32467);
+return G__32462__delegate(args);
 });
-G__32460.cljs$core$IFn$_invoke$arity$variadic = G__32460__delegate;
-return G__32460;
+G__32462.cljs$core$IFn$_invoke$arity$variadic = G__32462__delegate;
+return G__32462;
 })()
 ;
 } else {
@@ -467,11 +467,11 @@ return ({});
 }
 })();
 var first_child = ((1) + ((hasprops)?(1):(0)));
-var temp__5739__auto___32480 = reagent.impl.template.key_from_vec(argv);
-if((temp__5739__auto___32480 == null)){
+var temp__5739__auto___32489 = reagent.impl.template.key_from_vec(argv);
+if((temp__5739__auto___32489 == null)){
 } else {
-var key_32481 = temp__5739__auto___32480;
-(jsprops.key = key_32481);
+var key_32490 = temp__5739__auto___32489;
+(jsprops.key = key_32490);
 }
 
 return (reagent.impl.template.make_element.cljs$core$IFn$_invoke$arity$4 ? reagent.impl.template.make_element.cljs$core$IFn$_invoke$arity$4(argv,module$node_modules$react$index.Fragment,jsprops,first_child) : reagent.impl.template.make_element.call(null,argv,module$node_modules$react$index.Fragment,jsprops,first_child));

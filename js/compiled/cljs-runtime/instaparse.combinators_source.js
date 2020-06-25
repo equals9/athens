@@ -356,8 +356,8 @@ var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__63495,(0),null);
 var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__63495,(1),null);
 cljs.core.chunk_append(b__63494,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [k,instaparse.combinators_source.unhide_content(v)], null));
 
-var G__63562 = (i__63493 + (1));
-i__63493 = G__63562;
+var G__63563 = (i__63493 + (1));
+i__63493 = G__63563;
 continue;
 } else {
 return true;
@@ -411,8 +411,8 @@ var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__63505,(0),null);
 var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__63505,(1),null);
 cljs.core.chunk_append(b__63504,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [k,cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(v,new cljs.core.Keyword(null,"red","red",-969428204),(reduction.cljs$core$IFn$_invoke$arity$1 ? reduction.cljs$core$IFn$_invoke$arity$1(k) : reduction.call(null,k)))], null));
 
-var G__63574 = (i__63503 + (1));
-i__63503 = G__63574;
+var G__63578 = (i__63503 + (1));
+i__63503 = G__63578;
 continue;
 } else {
 return true;
@@ -469,8 +469,8 @@ var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__63515,(0),null);
 var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__63515,(1),null);
 cljs.core.chunk_append(b__63514,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [k,cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(instaparse.combinators_source.unhide_content(v),new cljs.core.Keyword(null,"red","red",-969428204),(reduction.cljs$core$IFn$_invoke$arity$1 ? reduction.cljs$core$IFn$_invoke$arity$1(k) : reduction.call(null,k)))], null));
 
-var G__63592 = (i__63513 + (1));
-i__63513 = G__63592;
+var G__63605 = (i__63513 + (1));
+i__63513 = G__63605;
 continue;
 } else {
 return true;
@@ -573,8 +573,8 @@ var nt = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__63531,(0),null);
 var parser = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__63531,(1),null);
 cljs.core.chunk_append(b__63530,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [nt,instaparse.combinators_source.auto_whitespace_parser(parser,ws_parser)], null));
 
-var G__63614 = (i__63529 + (1));
-i__63529 = G__63614;
+var G__63621 = (i__63529 + (1));
+i__63529 = G__63621;
 continue;
 } else {
 return true;

@@ -67,23 +67,23 @@ while(true){
 var t = cljs.core.even_QMARK_(n);
 var n__$1 = cljs.core.quot(n,(2));
 if(t){
-var G__63346 = n__$1;
-var G__63347 = y;
-var G__63348 = cljs.core.imul(z,z);
-n = G__63346;
-y = G__63347;
-z = G__63348;
+var G__63333 = n__$1;
+var G__63334 = y;
+var G__63335 = cljs.core.imul(z,z);
+n = G__63333;
+y = G__63334;
+z = G__63335;
 continue;
 } else {
 if((n__$1 === (0))){
 return cljs.core.imul(z,y);
 } else {
-var G__63349 = n__$1;
-var G__63350 = cljs.core.imul(z,y);
-var G__63351 = cljs.core.imul(z,z);
-n = G__63349;
-y = G__63350;
-z = G__63351;
+var G__63336 = n__$1;
+var G__63337 = cljs.core.imul(z,y);
+var G__63338 = cljs.core.imul(z,z);
+n = G__63336;
+y = G__63337;
+z = G__63338;
 continue;
 
 }
@@ -97,10 +97,10 @@ var v__$1 = cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(v,index);
 var index__$1 = index;
 while(true){
 if(cljs.core.truth_((instaparse.auto_flatten_seq.afs_QMARK_.cljs$core$IFn$_invoke$arity$1 ? instaparse.auto_flatten_seq.afs_QMARK_.cljs$core$IFn$_invoke$arity$1(v__$1) : instaparse.auto_flatten_seq.afs_QMARK_.call(null,v__$1)))){
-var G__63353 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(v__$1,(0));
-var G__63354 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(index__$1,(0));
-v__$1 = G__63353;
-index__$1 = G__63354;
+var G__63339 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(v__$1,(0));
+var G__63340 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(index__$1,(0));
+v__$1 = G__63339;
+index__$1 = G__63340;
 continue;
 } else {
 return index__$1;
@@ -122,10 +122,10 @@ return (instaparse.auto_flatten_seq.true_count.cljs$core$IFn$_invoke$arity$1 ? i
 })() - (1)))){
 return instaparse.auto_flatten_seq.delve(v,cljs.core.conj.cljs$core$IFn$_invoke$arity$2(cljs.core.pop(index),(cljs.core.peek(index) + (1))));
 } else {
-var G__63359 = v;
-var G__63360 = cljs.core.pop(index);
-v = G__63359;
-index = G__63360;
+var G__63341 = v;
+var G__63342 = cljs.core.pop(index);
+v = G__63341;
+index = G__63342;
 continue;
 
 }
@@ -387,10 +387,10 @@ var unmixed_hash = existing_unmixed_hash;
 var coll__$1 = cljs.core.seq(coll);
 while(true){
 if((!((coll__$1 == null)))){
-var G__63382 = ((cljs.core.imul((31),unmixed_hash) + cljs.core.hash(cljs.core.first(coll__$1))) | (0));
-var G__63383 = cljs.core.next(coll__$1);
-unmixed_hash = G__63382;
-coll__$1 = G__63383;
+var G__63345 = ((cljs.core.imul((31),unmixed_hash) + cljs.core.hash(cljs.core.first(coll__$1))) | (0));
+var G__63346 = cljs.core.next(coll__$1);
+unmixed_hash = G__63345;
+coll__$1 = G__63346;
 continue;
 } else {
 return unmixed_hash;
@@ -429,16 +429,16 @@ if(temp__5733__auto__){
 var s = temp__5733__auto__;
 var fst = cljs.core.first(v);
 if(instaparse.auto_flatten_seq.afs_QMARK_(fst)){
-var G__63385 = (instaparse.auto_flatten_seq.flat_vec_helper.cljs$core$IFn$_invoke$arity$2 ? instaparse.auto_flatten_seq.flat_vec_helper.cljs$core$IFn$_invoke$arity$2(acc,fst) : instaparse.auto_flatten_seq.flat_vec_helper.call(null,acc,fst));
-var G__63386 = cljs.core.next(v);
-acc = G__63385;
-v = G__63386;
+var G__63347 = (instaparse.auto_flatten_seq.flat_vec_helper.cljs$core$IFn$_invoke$arity$2 ? instaparse.auto_flatten_seq.flat_vec_helper.cljs$core$IFn$_invoke$arity$2(acc,fst) : instaparse.auto_flatten_seq.flat_vec_helper.call(null,acc,fst));
+var G__63348 = cljs.core.next(v);
+acc = G__63347;
+v = G__63348;
 continue;
 } else {
-var G__63387 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(acc,fst);
-var G__63388 = cljs.core.next(v);
-acc = G__63387;
-v = G__63388;
+var G__63349 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(acc,fst);
+var G__63350 = cljs.core.next(v);
+acc = G__63349;
+v = G__63350;
 continue;
 }
 } else {

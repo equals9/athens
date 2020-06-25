@@ -35,9 +35,9 @@ re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyw
 } else {
 }
 
-var temp__5735__auto___32904 = cljs.core.first(cljs.core.remove.cljs$core$IFn$_invoke$arity$2(re_frame.interceptor.interceptor_QMARK_,chain));
-if(cljs.core.truth_(temp__5735__auto___32904)){
-var not_i_32906 = temp__5735__auto___32904;
+var temp__5735__auto___32905 = cljs.core.first(cljs.core.remove.cljs$core$IFn$_invoke$arity$2(re_frame.interceptor.interceptor_QMARK_,chain));
+if(cljs.core.truth_(temp__5735__auto___32905)){
+var not_i_32906 = temp__5735__auto___32905;
 if(cljs.core.fn_QMARK_(not_i_32906)){
 re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"error","error",-978969032),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["re-frame: when registering",id,", got a function instead of an interceptor. Did you provide old style middleware by mistake? Got:",not_i_32906], 0));
 } else {
@@ -74,9 +74,9 @@ var interceptors = temp__5733__auto__;
 if(cljs.core.truth_(re_frame.events._STAR_handling_STAR_)){
 return re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"error","error",-978969032),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["re-frame: while handling",re_frame.events._STAR_handling_STAR_,", dispatch-sync was called for",event_v,". You can't call dispatch-sync within an event handler."], 0));
 } else {
-var _STAR_handling_STAR__orig_val__32898 = re_frame.events._STAR_handling_STAR_;
-var _STAR_handling_STAR__temp_val__32899 = event_v;
-(re_frame.events._STAR_handling_STAR_ = _STAR_handling_STAR__temp_val__32899);
+var _STAR_handling_STAR__orig_val__32896 = re_frame.events._STAR_handling_STAR_;
+var _STAR_handling_STAR__temp_val__32897 = event_v;
+(re_frame.events._STAR_handling_STAR_ = _STAR_handling_STAR__temp_val__32897);
 
 try{if(re_frame.trace.is_trace_enabled_QMARK_()){
 var _STAR_current_trace_STAR__orig_val__32901 = re_frame.trace._STAR_current_trace_STAR_;
@@ -128,7 +128,7 @@ return null;
 return null;
 }
 }
-}finally {(re_frame.events._STAR_handling_STAR_ = _STAR_handling_STAR__orig_val__32898);
+}finally {(re_frame.events._STAR_handling_STAR_ = _STAR_handling_STAR__orig_val__32896);
 }}
 } else {
 return null;
