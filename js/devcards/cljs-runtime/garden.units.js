@@ -291,8 +291,8 @@ var m1 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__40366__$1,new cljs.cor
 var map__40367 = (u.cljs$core$IFn$_invoke$arity$1 ? u.cljs$core$IFn$_invoke$arity$1(y) : u.call(null,y));
 var map__40367__$1 = (((((!((map__40367 == null))))?(((((map__40367.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__40367.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__40367):map__40367);
 var m2 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__40367__$1,new cljs.core.Keyword(null,"magnitude","magnitude",1924274222));
-var G__40371 = (op.cljs$core$IFn$_invoke$arity$2 ? op.cljs$core$IFn$_invoke$arity$2(m1,m2) : op.call(null,m1,m2));
-return (u.cljs$core$IFn$_invoke$arity$1 ? u.cljs$core$IFn$_invoke$arity$1(G__40371) : u.call(null,G__40371));
+var G__40370 = (op.cljs$core$IFn$_invoke$arity$2 ? op.cljs$core$IFn$_invoke$arity$2(m1,m2) : op.call(null,m1,m2));
+return (u.cljs$core$IFn$_invoke$arity$1 ? u.cljs$core$IFn$_invoke$arity$1(G__40370) : u.call(null,G__40370));
 });
 var garden$units$make_unit_multiplier_$_u_STAR___3 = (function() { 
 var G__40412__delegate = function (x,y,more){
@@ -368,8 +368,8 @@ var m1 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__40374__$1,new cljs.cor
 var map__40375 = (u.cljs$core$IFn$_invoke$arity$1 ? u.cljs$core$IFn$_invoke$arity$1(y) : u.call(null,y));
 var map__40375__$1 = (((((!((map__40375 == null))))?(((((map__40375.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__40375.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__40375):map__40375);
 var m2 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__40375__$1,new cljs.core.Keyword(null,"magnitude","magnitude",1924274222));
-var G__40380 = (op.cljs$core$IFn$_invoke$arity$2 ? op.cljs$core$IFn$_invoke$arity$2(m1,m2) : op.call(null,m1,m2));
-return (u.cljs$core$IFn$_invoke$arity$1 ? u.cljs$core$IFn$_invoke$arity$1(G__40380) : u.call(null,G__40380));
+var G__40378 = (op.cljs$core$IFn$_invoke$arity$2 ? op.cljs$core$IFn$_invoke$arity$2(m1,m2) : op.call(null,m1,m2));
+return (u.cljs$core$IFn$_invoke$arity$1 ? u.cljs$core$IFn$_invoke$arity$1(G__40378) : u.call(null,G__40378));
 });
 var garden$units$make_unit_divider_$_ud__3 = (function() { 
 var G__40418__delegate = function (x,y,more){

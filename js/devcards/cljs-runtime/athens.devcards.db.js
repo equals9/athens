@@ -11,9 +11,9 @@ goog.require('devcards.core');
 goog.require('posh.reagent');
 goog.require('reagent.core');
 athens.devcards.db.load_real_db_BANG_ = (function athens$devcards$db$load_real_db_BANG_(){
-var c__34267__auto__ = cljs.core.async.chan.cljs$core$IFn$_invoke$arity$1((1));
+var c__34266__auto__ = cljs.core.async.chan.cljs$core$IFn$_invoke$arity$1((1));
 cljs.core.async.impl.dispatch.run((function (){
-var f__34268__auto__ = (function (){var switch__34199__auto__ = (function (state_42756){
+var f__34267__auto__ = (function (){var switch__34199__auto__ = (function (state_42756){
 var state_val_42757 = (state_42756[(1)]);
 if((state_val_42757 === (7))){
 var state_42756__$1 = state_42756;
@@ -269,15 +269,15 @@ athens$devcards$db$load_real_db_BANG__$_state_machine__34200__auto__.cljs$core$I
 return athens$devcards$db$load_real_db_BANG__$_state_machine__34200__auto__;
 })()
 })();
-var state__34269__auto__ = (function (){var statearr_42779 = (f__34268__auto__.cljs$core$IFn$_invoke$arity$0 ? f__34268__auto__.cljs$core$IFn$_invoke$arity$0() : f__34268__auto__.call(null));
-(statearr_42779[(6)] = c__34267__auto__);
+var state__34268__auto__ = (function (){var statearr_42779 = (f__34267__auto__.cljs$core$IFn$_invoke$arity$0 ? f__34267__auto__.cljs$core$IFn$_invoke$arity$0() : f__34267__auto__.call(null));
+(statearr_42779[(6)] = c__34266__auto__);
 
 return statearr_42779;
 })();
-return cljs.core.async.impl.ioc_helpers.run_state_machine_wrapped(state__34269__auto__);
+return cljs.core.async.impl.ioc_helpers.run_state_machine_wrapped(state__34268__auto__);
 }));
 
-return c__34267__auto__;
+return c__34266__auto__;
 });
 athens.devcards.db.load_real_db_button = (function athens$devcards$db$load_real_db_button(){
 var pressed_QMARK_ = reagent.core.atom.cljs$core$IFn$_invoke$arity$1(false);

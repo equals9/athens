@@ -28,8 +28,8 @@ reagent.core.is_client = reagent.impl.util.is_client;
  *   ```
  */
 reagent.core.create_element = (function reagent$core$create_element(var_args){
-var G__32514 = arguments.length;
-switch (G__32514) {
+var G__32515 = arguments.length;
+switch (G__32515) {
 case 1:
 return reagent.core.create_element.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -44,14 +44,14 @@ return reagent.core.create_element.cljs$core$IFn$_invoke$arity$3((arguments[(0)]
 break;
 default:
 var args_arr__4810__auto__ = [];
-var len__4789__auto___32551 = arguments.length;
-var i__4790__auto___32552 = (0);
+var len__4789__auto___32552 = arguments.length;
+var i__4790__auto___32553 = (0);
 while(true){
-if((i__4790__auto___32552 < len__4789__auto___32551)){
-args_arr__4810__auto__.push((arguments[i__4790__auto___32552]));
+if((i__4790__auto___32553 < len__4789__auto___32552)){
+args_arr__4810__auto__.push((arguments[i__4790__auto___32553]));
 
-var G__32553 = (i__4790__auto___32552 + (1));
-i__4790__auto___32552 = G__32553;
+var G__32554 = (i__4790__auto___32553 + (1));
+i__4790__auto___32553 = G__32554;
 continue;
 } else {
 }
@@ -96,15 +96,15 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$5(module$node_modules$react$i
 }));
 
 /** @this {Function} */
-(reagent.core.create_element.cljs$lang$applyTo = (function (seq32510){
-var G__32511 = cljs.core.first(seq32510);
-var seq32510__$1 = cljs.core.next(seq32510);
-var G__32512 = cljs.core.first(seq32510__$1);
-var seq32510__$2 = cljs.core.next(seq32510__$1);
-var G__32513 = cljs.core.first(seq32510__$2);
-var seq32510__$3 = cljs.core.next(seq32510__$2);
+(reagent.core.create_element.cljs$lang$applyTo = (function (seq32511){
+var G__32512 = cljs.core.first(seq32511);
+var seq32511__$1 = cljs.core.next(seq32511);
+var G__32513 = cljs.core.first(seq32511__$1);
+var seq32511__$2 = cljs.core.next(seq32511__$1);
+var G__32514 = cljs.core.first(seq32511__$2);
+var seq32511__$3 = cljs.core.next(seq32511__$2);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__32511,G__32512,G__32513,seq32510__$3);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__32512,G__32513,G__32514,seq32511__$3);
 }));
 
 (reagent.core.create_element.cljs$lang$maxFixedArity = (3));

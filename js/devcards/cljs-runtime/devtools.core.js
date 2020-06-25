@@ -9,9 +9,9 @@ goog.require('devtools.toolbox');
 goog.require('devtools.context');
 goog.require('devtools.util');
 devtools.core.is_feature_available_QMARK_ = (function devtools$core$is_feature_available_QMARK_(feature){
-var G__24233 = feature;
-var G__24233__$1 = (((G__24233 instanceof cljs.core.Keyword))?G__24233.fqn:null);
-switch (G__24233__$1) {
+var G__24234 = feature;
+var G__24234__$1 = (((G__24234 instanceof cljs.core.Keyword))?G__24234.fqn:null);
+switch (G__24234__$1) {
 case "formatters":
 return (devtools.formatters.available_QMARK_.cljs$core$IFn$_invoke$arity$0 ? devtools.formatters.available_QMARK_.cljs$core$IFn$_invoke$arity$0() : devtools.formatters.available_QMARK_.call(null));
 
@@ -25,7 +25,7 @@ return (devtools.async.available_QMARK_.cljs$core$IFn$_invoke$arity$0 ? devtools
 
 break;
 default:
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__24233__$1)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__24234__$1)].join('')));
 
 }
 });

@@ -38,10 +38,10 @@ throw cljs.core.missing_protocol("IInterpreter.interpret",this$);
 sablono.interpreter.update_state = (function sablono$interpreter$update_state(component,next_props,property,value){
 var on_change = goog.object.getValueByKeys(component,"state","onChange");
 var next_state = ({});
-var G__48525_48556 = next_state;
-var G__48526_48557 = next_props;
-var G__48527_48558 = ({"onChange": on_change});
-goog.object.extend(G__48525_48556,G__48526_48557,G__48527_48558);
+var G__48528_48556 = next_state;
+var G__48529_48557 = next_props;
+var G__48530_48558 = ({"onChange": on_change});
+goog.object.extend(G__48528_48556,G__48529_48557,G__48530_48558);
 
 goog.object.set(next_state,property,value);
 
@@ -195,13 +195,13 @@ return type;
 sablono.interpreter.create_element = (function sablono$interpreter$create_element(var_args){
 var args__4795__auto__ = [];
 var len__4789__auto___48572 = arguments.length;
-var i__4790__auto___48574 = (0);
+var i__4790__auto___48573 = (0);
 while(true){
-if((i__4790__auto___48574 < len__4789__auto___48572)){
-args__4795__auto__.push((arguments[i__4790__auto___48574]));
+if((i__4790__auto___48573 < len__4789__auto___48572)){
+args__4795__auto__.push((arguments[i__4790__auto___48573]));
 
-var G__48576 = (i__4790__auto___48574 + (1));
-i__4790__auto___48574 = G__48576;
+var G__48574 = (i__4790__auto___48573 + (1));
+i__4790__auto___48573 = G__48574;
 continue;
 } else {
 }
@@ -274,12 +274,12 @@ return sablono.interpreter.interpret_seq(x);
 });
 goog.object.set(sablono.interpreter.IInterpreter,"null",true);
 
-var G__48550_48584 = sablono.interpreter.interpret;
-var G__48551_48585 = "null";
-var G__48552_48586 = (function (this$){
+var G__48550_48587 = sablono.interpreter.interpret;
+var G__48551_48588 = "null";
+var G__48552_48589 = (function (this$){
 return null;
 });
-goog.object.set(G__48550_48584,G__48551_48585,G__48552_48586);
+goog.object.set(G__48550_48587,G__48551_48588,G__48552_48589);
 
 (cljs.core.PersistentVector.prototype.sablono$interpreter$IInterpreter$ = cljs.core.PROTOCOL_SENTINEL);
 

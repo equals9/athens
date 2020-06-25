@@ -29,17 +29,17 @@ throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(
 });
 
 (tick.format.formatter.cljs$core$IFn$_invoke$arity$1 = (function (fmt){
-return tick.format.formatter.cljs$core$IFn$_invoke$arity$2(fmt,(function (){try{var G__50853 = goog.object.get(JSJodaLocale,"Locale");
-if((G__50853 == null)){
+return tick.format.formatter.cljs$core$IFn$_invoke$arity$2(fmt,(function (){try{var G__50856 = goog.object.get(JSJodaLocale,"Locale");
+if((G__50856 == null)){
 return null;
 } else {
-return goog.object.get(G__50853,"US");
+return goog.object.get(G__50856,"US");
 }
-}catch (e50850){if((e50850 instanceof Error)){
-var e = e50850;
+}catch (e50853){if((e50853 instanceof Error)){
+var e = e50853;
 return null;
 } else {
-throw e50850;
+throw e50853;
 
 }
 }})());
