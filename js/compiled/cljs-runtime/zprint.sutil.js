@@ -79,10 +79,10 @@ return (zthing_QMARK_.cljs$core$IFn$_invoke$arity$1 ? zthing_QMARK_.cljs$core$IF
 })())){
 return i;
 } else {
-var G__31229 = cljs.core.next(sloc);
-var G__31230 = (i + (1));
-sloc = G__31229;
-i = G__31230;
+var G__31231 = cljs.core.next(sloc);
+var G__31232 = (i + (1));
+sloc = G__31231;
+i = G__31232;
 continue;
 }
 } else {
@@ -293,14 +293,14 @@ return (((x instanceof cljs.core.Keyword)) || (typeof x === 'string') || (typeof
  *   in seqs with more than one element have the same namespace. Returns
  *   the [namespace pair-seq] or nil.
  */
-zprint.sutil.slift_ns = (function zprint$sutil$slift_ns(p__31069,pair_seq,ns){
-var map__31070 = p__31069;
-var map__31070__$1 = (((((!((map__31070 == null))))?(((((map__31070.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__31070.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__31070):map__31070);
-var map_options = map__31070__$1;
-var in_code_QMARK_ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__31070__$1,new cljs.core.Keyword(null,"in-code?","in-code?",194866464));
-var lift_ns_QMARK_ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__31070__$1,new cljs.core.Keyword(null,"lift-ns?","lift-ns?",2021372853));
-var lift_ns_in_code_QMARK_ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__31070__$1,new cljs.core.Keyword(null,"lift-ns-in-code?","lift-ns-in-code?",1444279377));
-var unlift_ns_QMARK_ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__31070__$1,new cljs.core.Keyword(null,"unlift-ns?","unlift-ns?",1065087867));
+zprint.sutil.slift_ns = (function zprint$sutil$slift_ns(p__31070,pair_seq,ns){
+var map__31071 = p__31070;
+var map__31071__$1 = (((((!((map__31071 == null))))?(((((map__31071.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__31071.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__31071):map__31071);
+var map_options = map__31071__$1;
+var in_code_QMARK_ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__31071__$1,new cljs.core.Keyword(null,"in-code?","in-code?",194866464));
+var lift_ns_QMARK_ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__31071__$1,new cljs.core.Keyword(null,"lift-ns?","lift-ns?",2021372853));
+var lift_ns_in_code_QMARK_ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__31071__$1,new cljs.core.Keyword(null,"lift-ns-in-code?","lift-ns-in-code?",1444279377));
+var unlift_ns_QMARK_ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__31071__$1,new cljs.core.Keyword(null,"unlift-ns?","unlift-ns?",1065087867));
 if(cljs.core.truth_((function (){var and__4174__auto__ = lift_ns_QMARK_;
 if(cljs.core.truth_(and__4174__auto__)){
 if(cljs.core.truth_(in_code_QMARK_)){
@@ -341,33 +341,33 @@ return null;
 if(cljs.core.truth_(current_ns)){
 if(cljs.core.truth_(ns__$1)){
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(ns__$1,current_ns)){
-var G__31246 = ns__$1;
-var G__31247 = cljs.core.next(pair_seq__$1);
-var G__31248 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(out,cljs.core.cons(strip_ns(k),rest_of_pair));
-ns__$1 = G__31246;
-pair_seq__$1 = G__31247;
-out = G__31248;
-continue;
-} else {
-return null;
-}
-} else {
-var G__31249 = current_ns;
+var G__31249 = ns__$1;
 var G__31250 = cljs.core.next(pair_seq__$1);
 var G__31251 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(out,cljs.core.cons(strip_ns(k),rest_of_pair));
 ns__$1 = G__31249;
 pair_seq__$1 = G__31250;
 out = G__31251;
 continue;
+} else {
+return null;
+}
+} else {
+var G__31252 = current_ns;
+var G__31253 = cljs.core.next(pair_seq__$1);
+var G__31254 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(out,cljs.core.cons(strip_ns(k),rest_of_pair));
+ns__$1 = G__31252;
+pair_seq__$1 = G__31253;
+out = G__31254;
+continue;
 }
 } else {
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.count(pair),(1))){
-var G__31253 = ns__$1;
-var G__31254 = cljs.core.next(pair_seq__$1);
-var G__31255 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(out,pair);
-ns__$1 = G__31253;
-pair_seq__$1 = G__31254;
-out = G__31255;
+var G__31255 = ns__$1;
+var G__31256 = cljs.core.next(pair_seq__$1);
+var G__31257 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(out,pair);
+ns__$1 = G__31255;
+pair_seq__$1 = G__31256;
+out = G__31257;
 continue;
 } else {
 return null;

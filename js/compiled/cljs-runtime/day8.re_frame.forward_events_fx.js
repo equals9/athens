@@ -36,8 +36,8 @@ return null;
 }
 });
 var G__52044_52058 = new cljs.core.Keyword(null,"forward-events","forward-events",1216790539);
-var G__52045_52059 = (function (){var process_one_entry = (function (p__52050){
-var map__52052 = p__52050;
+var G__52045_52059 = (function (){var process_one_entry = (function (p__52051){
+var map__52052 = p__52051;
 var map__52052__$1 = (((((!((map__52052 == null))))?(((((map__52052.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__52052.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__52052):map__52052);
 var m = map__52052__$1;
 var unregister = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52052__$1,new cljs.core.Keyword(null,"unregister","unregister",2105339971));

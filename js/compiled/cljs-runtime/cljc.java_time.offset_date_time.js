@@ -32,8 +32,8 @@ cljc.java_time.offset_date_time.minus_hours = (function cljc$java_time$offset_da
 return this4063.minusHours(long4064);
 });
 cljc.java_time.offset_date_time.of = (function cljc$java_time$offset_date_time$of(var_args){
-var G__58273 = arguments.length;
-switch (G__58273) {
+var G__58276 = arguments.length;
+switch (G__58276) {
 case 2:
 return cljc.java_time.offset_date_time.of.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -97,8 +97,8 @@ cljc.java_time.offset_date_time.get_day_of_year = (function cljc$java_time$offse
 return this4092.dayOfYear();
 });
 cljc.java_time.offset_date_time.plus = (function cljc$java_time$offset_date_time$plus(var_args){
-var G__58279 = arguments.length;
-switch (G__58279) {
+var G__58278 = arguments.length;
+switch (G__58278) {
 case 2:
 return cljc.java_time.offset_date_time.plus.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -157,8 +157,8 @@ cljc.java_time.offset_date_time.minus_months = (function cljc$java_time$offset_d
 return this4114.minusMonths(long4115);
 });
 cljc.java_time.offset_date_time.minus = (function cljc$java_time$offset_date_time$minus(var_args){
-var G__58285 = arguments.length;
-switch (G__58285) {
+var G__58282 = arguments.length;
+switch (G__58282) {
 case 2:
 return cljc.java_time.offset_date_time.minus.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -280,8 +280,8 @@ cljc.java_time.offset_date_time.adjust_into = (function cljc$java_time$offset_da
 return this4160.adjustInto(java_time_temporal_Temporal4161);
 });
 cljc.java_time.offset_date_time.with$ = (function cljc$java_time$offset_date_time$with(var_args){
-var G__58295 = arguments.length;
-switch (G__58295) {
+var G__58293 = arguments.length;
+switch (G__58293) {
 case 2:
 return cljc.java_time.offset_date_time.with$.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -307,8 +307,8 @@ return this4164.with(G__4165,G__4166);
 (cljc.java_time.offset_date_time.with$.cljs$lang$maxFixedArity = 3);
 
 cljc.java_time.offset_date_time.now = (function cljc$java_time$offset_date_time$now(var_args){
-var G__58298 = arguments.length;
-switch (G__58298) {
+var G__58296 = arguments.length;
+switch (G__58296) {
 case 0:
 return cljc.java_time.offset_date_time.now.cljs$core$IFn$_invoke$arity$0();
 

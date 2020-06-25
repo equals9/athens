@@ -96,8 +96,8 @@ break;
  * Remove current node and move left. If current node is at the leftmost
  * location, returns `nil`.
  */
-rewrite_clj.zip.utils.remove_and_move_left = (function rewrite_clj$zip$utils$remove_and_move_left(p__30408){
-var vec__30410 = p__30408;
+rewrite_clj.zip.utils.remove_and_move_left = (function rewrite_clj$zip$utils$remove_and_move_left(p__30409){
+var vec__30410 = p__30409;
 var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__30410,(0),null);
 var map__30413 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__30410,(1),null);
 var map__30413__$1 = (((((!((map__30413 == null))))?(((((map__30413.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__30413.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__30413):map__30413);

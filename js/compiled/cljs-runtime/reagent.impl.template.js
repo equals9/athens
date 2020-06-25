@@ -508,11 +508,11 @@ if(reagent.impl.template.input_component_QMARK_(component)){
 var G__32431 = cljs.core.with_meta(new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [reagent.impl.template.reagent_input(),argv,component,jsprops,first_child], null),cljs.core.meta(argv));
 return (reagent.impl.template.as_element.cljs$core$IFn$_invoke$arity$1 ? reagent.impl.template.as_element.cljs$core$IFn$_invoke$arity$1(G__32431) : reagent.impl.template.as_element.call(null,G__32431));
 } else {
-var temp__5739__auto___32498 = reagent.impl.template.get_key(cljs.core.meta(argv));
-if((temp__5739__auto___32498 == null)){
+var temp__5739__auto___32499 = reagent.impl.template.get_key(cljs.core.meta(argv));
+if((temp__5739__auto___32499 == null)){
 } else {
-var key_32500 = temp__5739__auto___32498;
-(jsprops.key = key_32500);
+var key_32504 = temp__5739__auto___32499;
+(jsprops.key = key_32504);
 }
 
 return (reagent.impl.template.make_element.cljs$core$IFn$_invoke$arity$4 ? reagent.impl.template.make_element.cljs$core$IFn$_invoke$arity$4(argv,component,jsprops,first_child) : reagent.impl.template.make_element.call(null,argv,component,jsprops,first_child));
