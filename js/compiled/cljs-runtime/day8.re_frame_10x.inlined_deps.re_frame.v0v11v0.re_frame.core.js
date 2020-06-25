@@ -43,8 +43,8 @@ day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.clear_cofx = cljs.
  * chain.
  */
 day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.reg_event_db = (function day8$re_frame_10x$inlined_deps$re_frame$v0v11v0$re_frame$core$reg_event_db(var_args){
-var G__28311 = arguments.length;
-switch (G__28311) {
+var G__28308 = arguments.length;
+switch (G__28308) {
 case 2:
 return day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -82,8 +82,8 @@ return day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.events.register(
  * and, later, action effects.
  */
 day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.reg_event_fx = (function day8$re_frame_10x$inlined_deps$re_frame$v0v11v0$re_frame$core$reg_event_fx(var_args){
-var G__28313 = arguments.length;
-switch (G__28313) {
+var G__28310 = arguments.length;
+switch (G__28310) {
 case 2:
 return day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -117,8 +117,8 @@ return day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.events.register(
  *   This form of registration is almost never used. 
  */
 day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.reg_event_ctx = (function day8$re_frame_10x$inlined_deps$re_frame$v0v11v0$re_frame$core$reg_event_ctx(var_args){
-var G__28317 = arguments.length;
-switch (G__28317) {
+var G__28315 = arguments.length;
+switch (G__28315) {
 case 2:
 return day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.reg_event_ctx.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -345,11 +345,11 @@ return day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.register_su
 });
 
 (day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.register_sub.cljs$core$IFn$_invoke$arity$variadic = (function (args){
-var G__28337_28381 = new cljs.core.Keyword(null,"warn","warn",-436710552);
-var G__28338_28382 = "re-frame:  \"register-sub\" is deprecated. Use \"reg-sub-raw\" (look for registration of";
-var G__28339_28383 = cljs.core.str.cljs$core$IFn$_invoke$arity$1(cljs.core.first(args));
-var G__28340_28384 = ")";
-(day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.console.cljs$core$IFn$_invoke$arity$4 ? day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.console.cljs$core$IFn$_invoke$arity$4(G__28337_28381,G__28338_28382,G__28339_28383,G__28340_28384) : day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.console.call(null,G__28337_28381,G__28338_28382,G__28339_28383,G__28340_28384));
+var G__28340_28381 = new cljs.core.Keyword(null,"warn","warn",-436710552);
+var G__28341_28382 = "re-frame:  \"register-sub\" is deprecated. Use \"reg-sub-raw\" (look for registration of";
+var G__28342_28383 = cljs.core.str.cljs$core$IFn$_invoke$arity$1(cljs.core.first(args));
+var G__28343_28384 = ")";
+(day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.console.cljs$core$IFn$_invoke$arity$4 ? day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.console.cljs$core$IFn$_invoke$arity$4(G__28340_28381,G__28341_28382,G__28342_28383,G__28343_28384) : day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.console.call(null,G__28340_28381,G__28341_28382,G__28342_28383,G__28343_28384));
 
 return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.reg_sub_raw,args);
 }));

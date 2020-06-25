@@ -67,16 +67,16 @@ reitit.exception.format_exception.cljs$core$IMultiFn$_add_method$arity$3(null,ne
 var resolve_str = (function reitit$exception$resolve_str(path,route_data){
 return [(cljs.core.truth_(new cljs.core.Keyword(null,"conflicting","conflicting",2003828416).cljs$core$IFn$_invoke$arity$1(route_data))?"   ":"-> "),cljs.core.str.cljs$core$IFn$_invoke$arity$1(path)," ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(cljs.core.not_empty(cljs.core.select_keys(route_data,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"conflicting","conflicting",2003828416)], null))))].join('');
 });
-return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(cljs.core.str,"Router contains conflicting route paths:\n\n",cljs.core.mapv.cljs$core$IFn$_invoke$arity$2((function (p__56185){
-var vec__56186 = p__56185;
-var vec__56189 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56186,(0),null);
-var path = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56189,(0),null);
-var route_data = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56189,(1),null);
-var vals = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56186,(1),null);
-return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(resolve_str(path,route_data)),"\n",clojure.string.join.cljs$core$IFn$_invoke$arity$2("\n",cljs.core.mapv.cljs$core$IFn$_invoke$arity$2((function (p__56199){
-var vec__56200 = p__56199;
-var path__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56200,(0),null);
-var route_data__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56200,(1),null);
+return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(cljs.core.str,"Router contains conflicting route paths:\n\n",cljs.core.mapv.cljs$core$IFn$_invoke$arity$2((function (p__56189){
+var vec__56190 = p__56189;
+var vec__56193 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56190,(0),null);
+var path = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56193,(0),null);
+var route_data = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56193,(1),null);
+var vals = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56190,(1),null);
+return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(resolve_str(path,route_data)),"\n",clojure.string.join.cljs$core$IFn$_invoke$arity$2("\n",cljs.core.mapv.cljs$core$IFn$_invoke$arity$2((function (p__56200){
+var vec__56201 = p__56200;
+var path__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56201,(0),null);
+var route_data__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56201,(1),null);
 return resolve_str(path__$1,route_data__$1);
 }),vals)),"\n\n"].join('');
 }),conflicts));

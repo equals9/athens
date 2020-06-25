@@ -218,16 +218,16 @@ return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword("block
 }),new cljs.core.Keyword("block","children","block/children",-1040716209).cljs$core$IFn$_invoke$arity$1(parent)));
 });
 athens.events.get_block = (function athens$events$get_block(id){
-return cljs.core.deref((function (){var G__60515 = athens.db.dsdb;
-var G__60516 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("db","id","db/id",-1388397098),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword("block","children","block/children",-1040716209),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("block","uid","block/uid",-1623585167),new cljs.core.Keyword("block","order","block/order",-1429282437)], null)], null)], null);
-var G__60517 = id;
-return (posh.reagent.pull.cljs$core$IFn$_invoke$arity$3 ? posh.reagent.pull.cljs$core$IFn$_invoke$arity$3(G__60515,G__60516,G__60517) : posh.reagent.pull.call(null,G__60515,G__60516,G__60517));
+return cljs.core.deref((function (){var G__60517 = athens.db.dsdb;
+var G__60518 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("db","id","db/id",-1388397098),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword("block","children","block/children",-1040716209),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("block","uid","block/uid",-1623585167),new cljs.core.Keyword("block","order","block/order",-1429282437)], null)], null)], null);
+var G__60519 = id;
+return (posh.reagent.pull.cljs$core$IFn$_invoke$arity$3 ? posh.reagent.pull.cljs$core$IFn$_invoke$arity$3(G__60517,G__60518,G__60519) : posh.reagent.pull.call(null,G__60517,G__60518,G__60519));
 })());
 });
 athens.events.get_parent = (function athens$events$get_parent(id){
-var eid = new cljs.core.Keyword("db","id","db/id",-1388397098).cljs$core$IFn$_invoke$arity$1(cljs.core.first(new cljs.core.Keyword("block","_children","block/_children",1128070632).cljs$core$IFn$_invoke$arity$1((function (){var G__60518 = cljs.core.deref(athens.db.dsdb);
-var G__60519 = id;
-return (datascript.core.entity.cljs$core$IFn$_invoke$arity$2 ? datascript.core.entity.cljs$core$IFn$_invoke$arity$2(G__60518,G__60519) : datascript.core.entity.call(null,G__60518,G__60519));
+var eid = new cljs.core.Keyword("db","id","db/id",-1388397098).cljs$core$IFn$_invoke$arity$1(cljs.core.first(new cljs.core.Keyword("block","_children","block/_children",1128070632).cljs$core$IFn$_invoke$arity$1((function (){var G__60523 = cljs.core.deref(athens.db.dsdb);
+var G__60524 = id;
+return (datascript.core.entity.cljs$core$IFn$_invoke$arity$2 ? datascript.core.entity.cljs$core$IFn$_invoke$arity$2(G__60523,G__60524) : datascript.core.entity.call(null,G__60523,G__60524));
 })())));
 return athens.events.get_block(eid);
 });
@@ -246,14 +246,14 @@ return indexed_children;
 return null;
 }
 });
-re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"drop-bullet","drop-bullet",1177869489),((day8.re_frame.tracing.is_trace_enabled_QMARK_())?(function (_,p__60524){
-var vec__60525 = p__60524;
-var ___$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__60525,(0),null);
-var map__60528 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__60525,(1),null);
-var map__60528__$1 = (((((!((map__60528 == null))))?(((((map__60528.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__60528.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__60528):map__60528);
-var source = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60528__$1,new cljs.core.Keyword(null,"source","source",-433931539));
-var target = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60528__$1,new cljs.core.Keyword(null,"target","target",253001721));
-var kind = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60528__$1,new cljs.core.Keyword(null,"kind","kind",-717265803));
+re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"drop-bullet","drop-bullet",1177869489),((day8.re_frame.tracing.is_trace_enabled_QMARK_())?(function (_,p__60526){
+var vec__60527 = p__60526;
+var ___$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__60527,(0),null);
+var map__60530 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__60527,(1),null);
+var map__60530__$1 = (((((!((map__60530 == null))))?(((((map__60530.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__60530.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__60530):map__60530);
+var source = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60530__$1,new cljs.core.Keyword(null,"source","source",-433931539));
+var target = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60530__$1,new cljs.core.Keyword(null,"target","target",253001721));
+var kind = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60530__$1,new cljs.core.Keyword(null,"kind","kind",-717265803));
 var _PLUS_debux_dbg_opts_PLUS_ = cljs.core.PersistentArrayMap.EMPTY;
 try{debux.common.util.send_form_BANG_(cljs.core.list(new cljs.core.Symbol(null,"let","let",358118826,null),new cljs.core.PersistentVector(null, 6, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null,"parent","parent",761652748,null),cljs.core.list(new cljs.core.Symbol(null,"get-parent","get-parent",282544271,null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("block","uid","block/uid",-1623585167),new cljs.core.Symbol(null,"source","source",1206599988,null)], null)),new cljs.core.Symbol(null,"parent-children","parent-children",-476726550,null),cljs.core.list(new cljs.core.Symbol(null,"reindex-parent","reindex-parent",-1868165072,null),new cljs.core.Symbol(null,"source","source",1206599988,null),new cljs.core.Symbol(null,"parent","parent",761652748,null)),new cljs.core.Symbol(null,"target-children","target-children",825807637,null),cljs.core.list(new cljs.core.Symbol(null,"reindex-target","reindex-target",2041174326,null),new cljs.core.Symbol(null,"source","source",1206599988,null),new cljs.core.Symbol(null,"target","target",1893533248,null),new cljs.core.Symbol(null,"kind","kind",923265724,null))], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"transact","transact",-267998670),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword("db","add","db/add",235286841),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("block","uid","block/uid",-1623585167),new cljs.core.Symbol(null,"source","source",1206599988,null)], null),new cljs.core.Keyword("block","children","block/children",-1040716209),new cljs.core.Symbol(null,"parent-children","parent-children",-476726550,null)], null),new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("db","retract","db/retract",-1549825231),cljs.core.list(new cljs.core.Keyword("db","id","db/id",-1388397098),new cljs.core.Symbol(null,"parent","parent",761652748,null)),new cljs.core.Keyword("block","children","block/children",-1040716209),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("block","uid","block/uid",-1623585167),new cljs.core.Symbol(null,"source","source",1206599988,null)], null)], null),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword("db","id","db/id",-1388397098),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("block","uid","block/uid",-1623585167),new cljs.core.Symbol(null,"target","target",1893533248,null)], null),new cljs.core.Keyword("block","children","block/children",-1040716209),new cljs.core.Symbol(null,"target-children","target-children",825807637,null)], null)], null)], null)));
 
@@ -320,16 +320,16 @@ return result__46516__auto__;
 debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__46516__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),cljs.core.list(new cljs.core.Symbol(null,"let","let",358118826,null),new cljs.core.PersistentVector(null, 6, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null,"parent","parent",761652748,null),cljs.core.list(new cljs.core.Symbol(null,"get-parent","get-parent",282544271,null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("block","uid","block/uid",-1623585167),new cljs.core.Symbol(null,"source","source",1206599988,null)], null)),new cljs.core.Symbol(null,"parent-children","parent-children",-476726550,null),cljs.core.list(new cljs.core.Symbol(null,"reindex-parent","reindex-parent",-1868165072,null),new cljs.core.Symbol(null,"source","source",1206599988,null),new cljs.core.Symbol(null,"parent","parent",761652748,null)),new cljs.core.Symbol(null,"target-children","target-children",825807637,null),cljs.core.list(new cljs.core.Symbol(null,"reindex-target","reindex-target",2041174326,null),new cljs.core.Symbol(null,"source","source",1206599988,null),new cljs.core.Symbol(null,"target","target",1893533248,null),new cljs.core.Symbol(null,"kind","kind",923265724,null))], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"transact","transact",-267998670),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword("db","add","db/add",235286841),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("block","uid","block/uid",-1623585167),new cljs.core.Symbol(null,"source","source",1206599988,null)], null),new cljs.core.Keyword("block","children","block/children",-1040716209),new cljs.core.Symbol(null,"parent-children","parent-children",-476726550,null)], null),new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("db","retract","db/retract",-1549825231),cljs.core.list(new cljs.core.Keyword("db","id","db/id",-1388397098),new cljs.core.Symbol(null,"parent","parent",761652748,null)),new cljs.core.Keyword("block","children","block/children",-1040716209),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("block","uid","block/uid",-1623585167),new cljs.core.Symbol(null,"source","source",1206599988,null)], null)], null),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword("db","id","db/id",-1388397098),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("block","uid","block/uid",-1623585167),new cljs.core.Symbol(null,"target","target",1893533248,null)], null),new cljs.core.Keyword("block","children","block/children",-1040716209),new cljs.core.Symbol(null,"target-children","target-children",825807637,null)], null)], null)], null)),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(0)], null));
 
 return result__46516__auto__;
-}catch (e60532){var e = e60532;
+}catch (e60536){var e = e60536;
 throw e;
-}}):(function (_,p__60539){
-var vec__60541 = p__60539;
-var ___$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__60541,(0),null);
-var map__60544 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__60541,(1),null);
-var map__60544__$1 = (((((!((map__60544 == null))))?(((((map__60544.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__60544.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__60544):map__60544);
-var source = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60544__$1,new cljs.core.Keyword(null,"source","source",-433931539));
-var target = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60544__$1,new cljs.core.Keyword(null,"target","target",253001721));
-var kind = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60544__$1,new cljs.core.Keyword(null,"kind","kind",-717265803));
+}}):(function (_,p__60544){
+var vec__60545 = p__60544;
+var ___$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__60545,(0),null);
+var map__60548 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__60545,(1),null);
+var map__60548__$1 = (((((!((map__60548 == null))))?(((((map__60548.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__60548.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__60548):map__60548);
+var source = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60548__$1,new cljs.core.Keyword(null,"source","source",-433931539));
+var target = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60548__$1,new cljs.core.Keyword(null,"target","target",253001721));
+var kind = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60548__$1,new cljs.core.Keyword(null,"kind","kind",-717265803));
 var parent = athens.events.get_parent(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("block","uid","block/uid",-1623585167),source], null));
 var parent_children = athens.events.reindex_parent(source,parent);
 var target_children = athens.events.reindex_target(source,target,kind);
