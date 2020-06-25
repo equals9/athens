@@ -22,8 +22,8 @@ cljc.java_time.temporal.chrono_unit.values = (function cljc$java_time$temporal$c
 return java.time.temporal.ChronoUnit.values();
 });
 cljc.java_time.temporal.chrono_unit.value_of = (function cljc$java_time$temporal$chrono_unit$value_of(var_args){
-var G__58345 = arguments.length;
-switch (G__58345) {
+var G__58344 = arguments.length;
+switch (G__58344) {
 case 1:
 return cljc.java_time.temporal.chrono_unit.value_of.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

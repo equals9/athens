@@ -12,8 +12,8 @@ tick.format.predefined_formatters = new cljs.core.PersistentArrayMap(null, 6, [n
  *   and a Locale, which is optional.
  */
 tick.format.formatter = (function tick$format$formatter(var_args){
-var G__58542 = arguments.length;
-switch (G__58542) {
+var G__58529 = arguments.length;
+switch (G__58529) {
 case 1:
 return tick.format.formatter.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -29,17 +29,17 @@ throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(
 });
 
 (tick.format.formatter.cljs$core$IFn$_invoke$arity$1 = (function (fmt){
-return tick.format.formatter.cljs$core$IFn$_invoke$arity$2(fmt,(function (){try{var G__58544 = goog.object.get(JSJodaLocale,"Locale");
-if((G__58544 == null)){
+return tick.format.formatter.cljs$core$IFn$_invoke$arity$2(fmt,(function (){try{var G__58531 = goog.object.get(JSJodaLocale,"Locale");
+if((G__58531 == null)){
 return null;
 } else {
-return goog.object.get(G__58544,"US");
+return goog.object.get(G__58531,"US");
 }
-}catch (e58543){if((e58543 instanceof Error)){
-var e = e58543;
+}catch (e58530){if((e58530 instanceof Error)){
+var e = e58530;
 return null;
 } else {
-throw e58543;
+throw e58530;
 
 }
 }})());
