@@ -147,17 +147,17 @@ return (new cljs.tools.reader.impl.utils.ReaderConditional(self__.splicing_QMARK
 (cljs.tools.reader.impl.utils.ReaderConditional.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__4446__auto__,k__4447__auto__,G__24426){
 var self__ = this;
 var this__4446__auto____$1 = this;
-var pred__24442 = cljs.core.keyword_identical_QMARK_;
-var expr__24443 = k__4447__auto__;
-if(cljs.core.truth_((function (){var G__24445 = new cljs.core.Keyword(null,"splicing?","splicing?",-428596366);
-var G__24446 = expr__24443;
-return (pred__24442.cljs$core$IFn$_invoke$arity$2 ? pred__24442.cljs$core$IFn$_invoke$arity$2(G__24445,G__24446) : pred__24442.call(null,G__24445,G__24446));
+var pred__24439 = cljs.core.keyword_identical_QMARK_;
+var expr__24440 = k__4447__auto__;
+if(cljs.core.truth_((function (){var G__24442 = new cljs.core.Keyword(null,"splicing?","splicing?",-428596366);
+var G__24443 = expr__24440;
+return (pred__24439.cljs$core$IFn$_invoke$arity$2 ? pred__24439.cljs$core$IFn$_invoke$arity$2(G__24442,G__24443) : pred__24439.call(null,G__24442,G__24443));
 })())){
 return (new cljs.tools.reader.impl.utils.ReaderConditional(G__24426,self__.form,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((function (){var G__24447 = new cljs.core.Keyword(null,"form","form",-1624062471);
-var G__24448 = expr__24443;
-return (pred__24442.cljs$core$IFn$_invoke$arity$2 ? pred__24442.cljs$core$IFn$_invoke$arity$2(G__24447,G__24448) : pred__24442.call(null,G__24447,G__24448));
+if(cljs.core.truth_((function (){var G__24444 = new cljs.core.Keyword(null,"form","form",-1624062471);
+var G__24445 = expr__24440;
+return (pred__24439.cljs$core$IFn$_invoke$arity$2 ? pred__24439.cljs$core$IFn$_invoke$arity$2(G__24444,G__24445) : pred__24439.call(null,G__24444,G__24445));
 })())){
 return (new cljs.tools.reader.impl.utils.ReaderConditional(self__.splicing_QMARK_,G__24426,self__.__meta,self__.__extmap,null));
 } else {
@@ -332,8 +332,8 @@ return key;
 }
 })():key));
 
-var G__24493 = (i__24455 + (1));
-i__24455 = G__24493;
+var G__24496 = (i__24455 + (1));
+i__24455 = G__24496;
 continue;
 } else {
 return true;

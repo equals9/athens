@@ -64,8 +64,8 @@ return reitit.frontend.history.href.cljs$core$IFn$_invoke$arity$4(cljs.core.dere
  * Sets the new route, leaving previous route in history.
  */
 reitit.frontend.easy.push_state = (function reitit$frontend$easy$push_state(var_args){
-var G__50338 = arguments.length;
-switch (G__50338) {
+var G__50337 = arguments.length;
+switch (G__50337) {
 case 1:
 return reitit.frontend.easy.push_state.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

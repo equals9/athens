@@ -68,8 +68,8 @@ while(true){
 if((i__4790__auto___30909 < len__4789__auto___30908)){
 args__4795__auto__.push((arguments[i__4790__auto___30909]));
 
-var G__30911 = (i__4790__auto___30909 + (1));
-i__4790__auto___30909 = G__30911;
+var G__30910 = (i__4790__auto___30909 + (1));
+i__4790__auto___30909 = G__30910;
 continue;
 } else {
 }
@@ -87,9 +87,9 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(cljs.core.merge_with,zprint
 (zprint.config.merge_deep.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(zprint.config.merge_deep.cljs$lang$applyTo = (function (seq30735){
+(zprint.config.merge_deep.cljs$lang$applyTo = (function (seq30736){
 var self__4777__auto__ = this;
-return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq30735));
+return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq30736));
 }));
 
 /**
@@ -114,8 +114,8 @@ while(true){
 if((i__4790__auto___30915 < len__4789__auto___30914)){
 args__4795__auto__.push((arguments[i__4790__auto___30915]));
 
-var G__30917 = (i__4790__auto___30915 + (1));
-i__4790__auto___30915 = G__30917;
+var G__30916 = (i__4790__auto___30915 + (1));
+i__4790__auto___30915 = G__30916;
 continue;
 } else {
 }
@@ -148,9 +148,9 @@ zprint.config.remove_key = (function zprint$config$remove_key(m,k){
 if(cljs.core.coll_QMARK_(k)){
 var map_key = cljs.core.first(k);
 var keys_to_remove = cljs.core.next(k);
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(m,map_key,(function (){var G__30739 = (m.cljs$core$IFn$_invoke$arity$1 ? m.cljs$core$IFn$_invoke$arity$1(map_key) : m.call(null,map_key));
-var G__30740 = keys_to_remove;
-return (zprint.config.remove_keys.cljs$core$IFn$_invoke$arity$2 ? zprint.config.remove_keys.cljs$core$IFn$_invoke$arity$2(G__30739,G__30740) : zprint.config.remove_keys.call(null,G__30739,G__30740));
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(m,map_key,(function (){var G__30748 = (m.cljs$core$IFn$_invoke$arity$1 ? m.cljs$core$IFn$_invoke$arity$1(map_key) : m.call(null,map_key));
+var G__30749 = keys_to_remove;
+return (zprint.config.remove_keys.cljs$core$IFn$_invoke$arity$2 ? zprint.config.remove_keys.cljs$core$IFn$_invoke$arity$2(G__30748,G__30749) : zprint.config.remove_keys.call(null,G__30748,G__30749));
 })());
 } else {
 return cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(m,k);
@@ -160,8 +160,8 @@ return cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(m,k);
  * Remove keys from a map at multiple levels.
  */
 zprint.config.remove_keys = (function zprint$config$remove_keys(m,ks){
-return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (p1__30741_SHARP_,p2__30742_SHARP_){
-return zprint.config.remove_key(p1__30741_SHARP_,p2__30742_SHARP_);
+return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (p1__30750_SHARP_,p2__30751_SHARP_){
+return zprint.config.remove_key(p1__30750_SHARP_,p2__30751_SHARP_);
 }),m,ks);
 });
 /**
@@ -169,14 +169,14 @@ return zprint.config.remove_key(p1__30741_SHARP_,p2__30742_SHARP_);
  */
 zprint.config.key_seq = (function zprint$config$key_seq(m){
 if(cljs.core.map_QMARK_(m)){
-return cljs.core.mapcat.cljs$core$IFn$_invoke$arity$variadic((function (p__30744){
-var vec__30745 = p__30744;
-var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__30745,(0),null);
-var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__30745,(1),null);
+return cljs.core.mapcat.cljs$core$IFn$_invoke$arity$variadic((function (p__30753){
+var vec__30754 = p__30753;
+var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__30754,(0),null);
+var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__30754,(1),null);
 var ks = (zprint.config.key_seq.cljs$core$IFn$_invoke$arity$1 ? zprint.config.key_seq.cljs$core$IFn$_invoke$arity$1(v) : zprint.config.key_seq.call(null,v));
 if(cljs.core.truth_(ks)){
-return cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__30743_SHARP_){
-return cljs.core.cons(k,((cljs.core.coll_QMARK_(p1__30743_SHARP_))?p1__30743_SHARP_:new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [p1__30743_SHARP_], null)));
+return cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__30752_SHARP_){
+return cljs.core.cons(k,((cljs.core.coll_QMARK_(p1__30752_SHARP_))?p1__30752_SHARP_:new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [p1__30752_SHARP_], null)));
 }),ks);
 } else {
 return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [k], null)], null);
@@ -241,8 +241,8 @@ return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"se
  *   in the ks-seq.
  */
 zprint.config.diff_deep_ks = (function zprint$config$diff_deep_ks(doc_string,doc_map,changed_key_seq,existing){
-return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (p1__30751_SHARP_,p2__30752_SHARP_){
-return cljs.core.update_in.cljs$core$IFn$_invoke$arity$4(p1__30751_SHARP_,p2__30752_SHARP_,cljs.core.partial.cljs$core$IFn$_invoke$arity$2(zprint.config.value_set_by,doc_string),cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(existing,p2__30752_SHARP_));
+return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (p1__30761_SHARP_,p2__30762_SHARP_){
+return cljs.core.update_in.cljs$core$IFn$_invoke$arity$4(p1__30761_SHARP_,p2__30762_SHARP_,cljs.core.partial.cljs$core$IFn$_invoke$arity$2(zprint.config.value_set_by,doc_string),cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(existing,p2__30762_SHARP_));
 }),doc_map,changed_key_seq);
 });
 /**
@@ -261,10 +261,10 @@ return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(zprint.config.explaine
  * Do a simple dissoc-in for two levels.  Does not remove the
  *   second map if it is empty.
  */
-zprint.config.dissoc_two = (function zprint$config$dissoc_two(m,p__30759){
-var vec__30760 = p__30759;
-var k1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__30760,(0),null);
-var k2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__30760,(1),null);
+zprint.config.dissoc_two = (function zprint$config$dissoc_two(m,p__30763){
+var vec__30764 = p__30763;
+var k1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__30764,(0),null);
+var k2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__30764,(1),null);
 return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(m,k1,cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(cljs.core.get.cljs$core$IFn$_invoke$arity$2(m,k1),k2));
 });
 /**
@@ -273,14 +273,14 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(m,k1,cljs.core.dissoc.cljs$
  *   it, being smart about things that were set to nil.
  */
 zprint.config.add_calculated_options = (function zprint$config$add_calculated_options(updated_map){
-var G__30765 = updated_map;
-var G__30765__$1 = (cljs.core.truth_(new cljs.core.Keyword(null,"key-order","key-order",-356936372).cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"map","map",1371690461).cljs$core$IFn$_invoke$arity$1(updated_map)))?cljs.core.assoc_in(G__30765,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map","map",1371690461),new cljs.core.Keyword(null,"key-value","key-value",-34906839)], null),cljs.core.zipmap(new cljs.core.Keyword(null,"key-order","key-order",-356936372).cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"map","map",1371690461).cljs$core$IFn$_invoke$arity$1(updated_map)),cljs.core.range.cljs$core$IFn$_invoke$arity$0())):G__30765);
-var G__30765__$2 = (((((new cljs.core.Keyword(null,"key-order","key-order",-356936372).cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"map","map",1371690461).cljs$core$IFn$_invoke$arity$1(updated_map)) == null)) && ((!((new cljs.core.Keyword(null,"key-value","key-value",-34906839).cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"map","map",1371690461).cljs$core$IFn$_invoke$arity$1(updated_map)) == null))))))?zprint.config.dissoc_two(G__30765__$1,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map","map",1371690461),new cljs.core.Keyword(null,"key-value","key-value",-34906839)], null)):G__30765__$1);
-var G__30765__$3 = (cljs.core.truth_(new cljs.core.Keyword(null,"key-order","key-order",-356936372).cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"reader-cond","reader-cond",-2133265058).cljs$core$IFn$_invoke$arity$1(updated_map)))?cljs.core.assoc_in(G__30765__$2,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"reader-cond","reader-cond",-2133265058),new cljs.core.Keyword(null,"key-value","key-value",-34906839)], null),cljs.core.zipmap(new cljs.core.Keyword(null,"key-order","key-order",-356936372).cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"reader-cond","reader-cond",-2133265058).cljs$core$IFn$_invoke$arity$1(updated_map)),cljs.core.range.cljs$core$IFn$_invoke$arity$0())):G__30765__$2);
+var G__30767 = updated_map;
+var G__30767__$1 = (cljs.core.truth_(new cljs.core.Keyword(null,"key-order","key-order",-356936372).cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"map","map",1371690461).cljs$core$IFn$_invoke$arity$1(updated_map)))?cljs.core.assoc_in(G__30767,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map","map",1371690461),new cljs.core.Keyword(null,"key-value","key-value",-34906839)], null),cljs.core.zipmap(new cljs.core.Keyword(null,"key-order","key-order",-356936372).cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"map","map",1371690461).cljs$core$IFn$_invoke$arity$1(updated_map)),cljs.core.range.cljs$core$IFn$_invoke$arity$0())):G__30767);
+var G__30767__$2 = (((((new cljs.core.Keyword(null,"key-order","key-order",-356936372).cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"map","map",1371690461).cljs$core$IFn$_invoke$arity$1(updated_map)) == null)) && ((!((new cljs.core.Keyword(null,"key-value","key-value",-34906839).cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"map","map",1371690461).cljs$core$IFn$_invoke$arity$1(updated_map)) == null))))))?zprint.config.dissoc_two(G__30767__$1,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"map","map",1371690461),new cljs.core.Keyword(null,"key-value","key-value",-34906839)], null)):G__30767__$1);
+var G__30767__$3 = (cljs.core.truth_(new cljs.core.Keyword(null,"key-order","key-order",-356936372).cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"reader-cond","reader-cond",-2133265058).cljs$core$IFn$_invoke$arity$1(updated_map)))?cljs.core.assoc_in(G__30767__$2,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"reader-cond","reader-cond",-2133265058),new cljs.core.Keyword(null,"key-value","key-value",-34906839)], null),cljs.core.zipmap(new cljs.core.Keyword(null,"key-order","key-order",-356936372).cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"reader-cond","reader-cond",-2133265058).cljs$core$IFn$_invoke$arity$1(updated_map)),cljs.core.range.cljs$core$IFn$_invoke$arity$0())):G__30767__$2);
 if((((new cljs.core.Keyword(null,"key-order","key-order",-356936372).cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"reader-cond","reader-cond",-2133265058).cljs$core$IFn$_invoke$arity$1(updated_map)) == null)) && ((!((new cljs.core.Keyword(null,"key-value","key-value",-34906839).cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"reader-cond","reader-cond",-2133265058).cljs$core$IFn$_invoke$arity$1(updated_map)) == null)))))){
-return zprint.config.dissoc_two(G__30765__$3,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"reader-cond","reader-cond",-2133265058),new cljs.core.Keyword(null,"key-value","key-value",-34906839)], null));
+return zprint.config.dissoc_two(G__30767__$3,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"reader-cond","reader-cond",-2133265058),new cljs.core.Keyword(null,"key-value","key-value",-34906839)], null));
 } else {
-return G__30765__$3;
+return G__30767__$3;
 }
 });
 /**
