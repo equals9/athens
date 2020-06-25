@@ -73,7 +73,21 @@ return goog.events.unlisten(window,goog.events.EventType.MOUSEMOVE,on_move);
 });
 });
 athens.listeners.mouse_down_block = (function athens$listeners$mouse_down_block(e){
-var closest = e.target.closest(".block-contents");
+var closest_block = e.target.closest(".block-contents");
+var closest_block_header = e.target.closest(".block-header");
+var closest_page_header = e.target.closest(".page-header");
+var closest = (function (){var or__4185__auto__ = closest_block;
+if(cljs.core.truth_(or__4185__auto__)){
+return or__4185__auto__;
+} else {
+var or__4185__auto____$1 = closest_block_header;
+if(cljs.core.truth_(or__4185__auto____$1)){
+return or__4185__auto____$1;
+} else {
+return closest_page_header;
+}
+}
+})();
 if(cljs.core.truth_(closest)){
 var G__54564 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"editing-uid","editing-uid",1372614377),closest.dataset.uid], null);
 return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__54564) : re_frame.core.dispatch.call(null,G__54564));
