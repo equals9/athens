@@ -16,7 +16,7 @@ var result__46516__auto__ = athens.db.rfdb;
 debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__46516__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),new cljs.core.Symbol("db","rfdb","db/rfdb",-1730642210,null),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(0)], null));
 
 return result__46516__auto__;
-}catch (e60481){var e = e60481;
+}catch (e60478){var e = e60478;
 throw e;
 }}):(function (_,___$1){
 return athens.db.rfdb;
@@ -449,12 +449,12 @@ debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [ne
 return result__46516__auto__;
 }catch (e60599){var e = e60599;
 throw e;
-}}):(function (_,p__60604){
-var vec__60605 = p__60604;
-var ___$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__60605,(0),null);
-var source_uid = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__60605,(1),null);
-var target_uid = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__60605,(2),null);
-var kind = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__60605,(3),null);
+}}):(function (_,p__60600){
+var vec__60601 = p__60600;
+var ___$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__60601,(0),null);
+var source_uid = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__60601,(1),null);
+var target_uid = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__60601,(2),null);
+var kind = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__60601,(3),null);
 var source = athens.events.get_block(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("block","uid","block/uid",-1623585167),source_uid], null));
 var target = athens.events.get_block(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("block","uid","block/uid",-1623585167),target_uid], null));
 var source_parent = athens.events.get_parent(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("block","uid","block/uid",-1623585167),source_uid], null));

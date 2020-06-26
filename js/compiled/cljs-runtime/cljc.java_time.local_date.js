@@ -125,8 +125,8 @@ cljc.java_time.local_date.length_of_month = (function cljc$java_time$local_date$
 return this3521.lengthOfMonth();
 });
 cljc.java_time.local_date.until = (function cljc$java_time$local_date$until(var_args){
-var G__58260 = arguments.length;
-switch (G__58260) {
+var G__58262 = arguments.length;
+switch (G__58262) {
 case 2:
 return cljc.java_time.local_date.until.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -311,8 +311,8 @@ cljc.java_time.local_date.equals = (function cljc$java_time$local_date$equals(th
 return this3565.equals(java_lang_Object3566);
 });
 cljc.java_time.local_date.at_time = (function cljc$java_time$local_date$at_time(var_args){
-var G__58274 = arguments.length;
-switch (G__58274) {
+var G__58276 = arguments.length;
+switch (G__58276) {
 case 2:
 return cljc.java_time.local_date.at_time.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 

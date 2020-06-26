@@ -9,8 +9,8 @@ goog.require('goog.events.KeyCodes');
 
 athens.listeners.mouse_down_bullet = (function athens$listeners$mouse_down_bullet(e){
 var class_list = cljs.core.array_seq.cljs$core$IFn$_invoke$arity$1(e.target.classList);
-if(cljs.core.truth_(cljs.core.some((function (p1__60600_SHARP_){
-return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("bullet",p1__60600_SHARP_);
+if(cljs.core.truth_(cljs.core.some((function (p1__60604_SHARP_){
+return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("bullet",p1__60604_SHARP_);
 }),class_list))){
 var start_pos = new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"x","x",2099068185),e.clientX,new cljs.core.Keyword(null,"y","y",-1757859776),e.clientY], null);
 var uid = e.target.dataset.uid;
@@ -24,13 +24,13 @@ return null;
 });
 athens.listeners.mouse_up_bullet = (function athens$listeners$mouse_up_bullet(on_move){
 return (function (_){
-var map__60601 = cljs.core.deref((function (){var G__60602 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"drag-bullet","drag-bullet",441161411)], null);
-return (re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(G__60602) : re_frame.core.subscribe.call(null,G__60602));
+var map__60605 = cljs.core.deref((function (){var G__60606 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"drag-bullet","drag-bullet",441161411)], null);
+return (re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(G__60606) : re_frame.core.subscribe.call(null,G__60606));
 })());
-var map__60601__$1 = (((((!((map__60601 == null))))?(((((map__60601.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__60601.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__60601):map__60601);
-var target_uid = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60601__$1,new cljs.core.Keyword("closest","uid","closest/uid",-582260451));
-var uid = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60601__$1,new cljs.core.Keyword(null,"uid","uid",-1447769400));
-var kind = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60601__$1,new cljs.core.Keyword("closest","kind","closest/kind",429209294));
+var map__60605__$1 = (((((!((map__60605 == null))))?(((((map__60605.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__60605.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__60605):map__60605);
+var target_uid = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60605__$1,new cljs.core.Keyword("closest","uid","closest/uid",-582260451));
+var uid = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60605__$1,new cljs.core.Keyword(null,"uid","uid",-1447769400));
+var kind = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60605__$1,new cljs.core.Keyword("closest","kind","closest/kind",429209294));
 if(cljs.core.truth_((function (){var and__4174__auto__ = uid;
 if(cljs.core.truth_(and__4174__auto__)){
 var and__4174__auto____$1 = kind;

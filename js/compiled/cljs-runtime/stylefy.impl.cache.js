@@ -146,8 +146,8 @@ return null;
  *   Throws QUOTA_EXCEEDED_ERR if the storage is full.
  */
 stylefy.impl.cache.cache_styles = (function stylefy$impl$cache$cache_styles(var_args){
-var G__38946 = arguments.length;
-switch (G__38946) {
+var G__38948 = arguments.length;
+switch (G__38948) {
 case 1:
 return stylefy.impl.cache.cache_styles.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
