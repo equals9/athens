@@ -138,10 +138,10 @@ if(day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.util.named_QMARK_(
 var temp__5737__auto__ = day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.cache_get(day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.custom_prop_name_cache,cljs.core.name(k));
 if((temp__5737__auto__ == null)){
 var v = day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.util.dash_to_prop_name(k);
-var G__27063_27114 = day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.custom_prop_name_cache;
-var G__27064_27115 = cljs.core.name(k);
-var G__27065_27116 = v;
-goog.object.set(G__27063_27114,G__27064_27115,G__27065_27116);
+var G__27063_27112 = day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.custom_prop_name_cache;
+var G__27064_27113 = cljs.core.name(k);
+var G__27065_27114 = v;
+goog.object.set(G__27063_27112,G__27064_27113,G__27065_27114);
 
 return v;
 } else {
@@ -154,10 +154,10 @@ return k;
 });
 day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.custom_kv_conv = (function day8$re_frame_10x$inlined_deps$reagent$v0v9v1$reagent$impl$template$custom_kv_conv(o,k,v){
 var G__27066 = o;
-var G__27067_27120 = G__27066;
-var G__27068_27121 = day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.cached_custom_prop_name(k);
-var G__27069_27122 = day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.convert_prop_value(v);
-goog.object.set(G__27067_27120,G__27068_27121,G__27069_27122);
+var G__27067_27115 = G__27066;
+var G__27069_27116 = day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.cached_custom_prop_name(k);
+var G__27070_27117 = day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.convert_prop_value(v);
+goog.object.set(G__27067_27115,G__27069_27116,G__27070_27117);
 
 return G__27066;
 });
@@ -447,11 +447,11 @@ var c = day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.component.as_
 var jsprops = ({});
 (jsprops.argv = v);
 
-var temp__5739__auto___27136 = day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.key_from_vec(v);
-if((temp__5739__auto___27136 == null)){
+var temp__5739__auto___27145 = day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.key_from_vec(v);
+if((temp__5739__auto___27145 == null)){
 } else {
-var key_27137 = temp__5739__auto___27136;
-(jsprops.key = key_27137);
+var key_27148 = temp__5739__auto___27145;
+(jsprops.key = key_27148);
 }
 
 return module$node_modules$react$index.createElement(c,jsprops);
@@ -467,11 +467,11 @@ return ({});
 }
 })();
 var first_child = ((1) + ((hasprops)?(1):(0)));
-var temp__5739__auto___27147 = day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.key_from_vec(argv);
-if((temp__5739__auto___27147 == null)){
+var temp__5739__auto___27159 = day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.key_from_vec(argv);
+if((temp__5739__auto___27159 == null)){
 } else {
-var key_27149 = temp__5739__auto___27147;
-(jsprops.key = key_27149);
+var key_27160 = temp__5739__auto___27159;
+(jsprops.key = key_27160);
 }
 
 return (day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.make_element.cljs$core$IFn$_invoke$arity$4 ? day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.make_element.cljs$core$IFn$_invoke$arity$4(argv,module$node_modules$react$index.Fragment,jsprops,first_child) : day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.template.make_element.call(null,argv,module$node_modules$react$index.Fragment,jsprops,first_child));

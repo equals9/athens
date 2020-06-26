@@ -428,19 +428,19 @@ day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.component.add_obligat
 return cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.component.obligatory,fun_map], 0));
 });
 day8.re_frame_10x.inlined_deps.reagent.v0v9v1.reagent.impl.component.wrap_funs = (function day8$re_frame_10x$inlined_deps$reagent$v0v9v1$reagent$impl$component$wrap_funs(fmap){
-var renders_27070 = cljs.core.select_keys(fmap,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"render","render",-1408033454),new cljs.core.Keyword(null,"reagentRender","reagentRender",-358306383)], null));
-var render_fun_27071 = cljs.core.first(cljs.core.vals(renders_27070));
+var renders_27068 = cljs.core.select_keys(fmap,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"render","render",-1408033454),new cljs.core.Keyword(null,"reagentRender","reagentRender",-358306383)], null));
+var render_fun_27071 = cljs.core.first(cljs.core.vals(renders_27068));
 if(cljs.core.not(new cljs.core.Keyword(null,"componentFunction","componentFunction",825866104).cljs$core$IFn$_invoke$arity$1(fmap))){
 } else {
 throw (new Error(["Assert failed: ",":component-function is no longer supported, use :reagent-render instead.","\n","(not (:componentFunction fmap))"].join('')));
 }
 
-if((cljs.core.count(renders_27070) > (0))){
+if((cljs.core.count(renders_27068) > (0))){
 } else {
 throw (new Error(["Assert failed: ","Missing reagent-render","\n","(pos? (count renders))"].join('')));
 }
 
-if(((1) === cljs.core.count(renders_27070))){
+if(((1) === cljs.core.count(renders_27068))){
 } else {
 throw (new Error(["Assert failed: ","Too many render functions supplied","\n","(== 1 (count renders))"].join('')));
 }

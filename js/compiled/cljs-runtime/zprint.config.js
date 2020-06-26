@@ -62,14 +62,14 @@ return val_in_latter;
  */
 zprint.config.merge_deep = (function zprint$config$merge_deep(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___30906 = arguments.length;
-var i__4790__auto___30907 = (0);
+var len__4789__auto___30905 = arguments.length;
+var i__4790__auto___30906 = (0);
 while(true){
-if((i__4790__auto___30907 < len__4789__auto___30906)){
-args__4795__auto__.push((arguments[i__4790__auto___30907]));
+if((i__4790__auto___30906 < len__4789__auto___30905)){
+args__4795__auto__.push((arguments[i__4790__auto___30906]));
 
-var G__30908 = (i__4790__auto___30907 + (1));
-i__4790__auto___30907 = G__30908;
+var G__30908 = (i__4790__auto___30906 + (1));
+i__4790__auto___30906 = G__30908;
 continue;
 } else {
 }
@@ -399,9 +399,9 @@ return errors;
 } else {
 zprint.config.reset_options_BANG_.cljs$core$IFn$_invoke$arity$2(zprint_options,doc_map);
 
-var G__30776_30936 = new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"configured?","configured?",642178633),true], null);
-var G__30777_30937 = "internal";
-(zprint.config.config_set_options_BANG_.cljs$core$IFn$_invoke$arity$2 ? zprint.config.config_set_options_BANG_.cljs$core$IFn$_invoke$arity$2(G__30776_30936,G__30777_30937) : zprint.config.config_set_options_BANG_.call(null,G__30776_30936,G__30777_30937));
+var G__30776_30921 = new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"configured?","configured?",642178633),true], null);
+var G__30777_30922 = "internal";
+(zprint.config.config_set_options_BANG_.cljs$core$IFn$_invoke$arity$2 ? zprint.config.config_set_options_BANG_.cljs$core$IFn$_invoke$arity$2(G__30776_30921,G__30777_30922) : zprint.config.config_set_options_BANG_.call(null,G__30776_30921,G__30777_30922));
 
 if(cljs.core.truth_(zprint.config.is_in_repl_QMARK_())){
 zprint.config.internal_set_options_BANG_("REPL execution default",zprint.config.get_explained_all_options(),zprint.config.get_options(),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"parallel?","parallel?",-25273892),true], null));

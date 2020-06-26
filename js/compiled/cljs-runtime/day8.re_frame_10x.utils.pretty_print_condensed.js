@@ -271,11 +271,11 @@ if(typeof form === 'string'){
 return day8.re_frame_10x.utils.pretty_print_condensed.truncate_string.cljs$core$IFn$_invoke$arity$3((16),new cljs.core.Keyword(null,"middle","middle",-701029031),form);
 } else {
 if(cljs.core.fn_QMARK_(form)){
-var or__4185__auto__ = (function (){var G__31961 = form.name;
-if((G__31961 == null)){
+var or__4185__auto__ = (function (){var G__31960 = form.name;
+if((G__31960 == null)){
 return null;
 } else {
-return clojure.string.replace(G__31961,/(^.*\$)(.*)/,"$2");
+return clojure.string.replace(G__31960,/(^.*\$)(.*)/,"$2");
 }
 })();
 if(cljs.core.truth_(or__4185__auto__)){

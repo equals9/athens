@@ -173,8 +173,8 @@ return this4550.with(G__4551,G__4552);
 (cljc.java_time.year.with$.cljs$lang$maxFixedArity = 3);
 
 cljc.java_time.year.now = (function cljc$java_time$year$now(var_args){
-var G__50659 = arguments.length;
-switch (G__50659) {
+var G__50660 = arguments.length;
+switch (G__50660) {
 case 0:
 return cljc.java_time.year.now.cljs$core$IFn$_invoke$arity$0();
 

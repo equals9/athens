@@ -58,19 +58,19 @@ return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMP
 }),new cljs.core.Keyword(null,"default","default",-1987822328),hierarchy__4676__auto__,method_table__4672__auto__,prefer_table__4673__auto__,method_cache__4674__auto__,cached_hierarchy__4675__auto__));
 })();
 }
-devcards.util.markdown.block_parser.cljs$core$IMultiFn$_add_method$arity$3(null,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"markdown","markdown",1227225089)], null),(function (p__50677,line){
-var map__50681 = p__50677;
+devcards.util.markdown.block_parser.cljs$core$IMultiFn$_add_method$arity$3(null,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"markdown","markdown",1227225089)], null),(function (p__50680,line){
+var map__50681 = p__50680;
 var map__50681__$1 = (((((!((map__50681 == null))))?(((((map__50681.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__50681.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__50681):map__50681);
 var st = map__50681__$1;
 var stage = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50681__$1,new cljs.core.Keyword(null,"stage","stage",1843544772));
 var left_margin = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50681__$1,new cljs.core.Keyword(null,"left-margin","left-margin",1869643147));
 return cljs.core.update_in.cljs$core$IFn$_invoke$arity$4(st,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"stage","stage",1843544772),new cljs.core.Keyword(null,"content","content",15833224)], null),cljs.core.conj,devcards.util.markdown.strip_left_margin(line,left_margin));
 }));
-devcards.util.markdown.block_parser.cljs$core$IMultiFn$_add_method$arity$3(null,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"code-block","code-block",-2113425141)], null),(function (p__50683,line){
-var map__50684 = p__50683;
-var map__50684__$1 = (((((!((map__50684 == null))))?(((((map__50684.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__50684.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__50684):map__50684);
-var st = map__50684__$1;
-var stage = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50684__$1,new cljs.core.Keyword(null,"stage","stage",1843544772));
+devcards.util.markdown.block_parser.cljs$core$IMultiFn$_add_method$arity$3(null,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"code-block","code-block",-2113425141)], null),(function (p__50684,line){
+var map__50685 = p__50684;
+var map__50685__$1 = (((((!((map__50685 == null))))?(((((map__50685.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__50685.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__50685):map__50685);
+var st = map__50685__$1;
+var stage = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50685__$1,new cljs.core.Keyword(null,"stage","stage",1843544772));
 return cljs.core.update_in.cljs$core$IFn$_invoke$arity$4(st,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"stage","stage",1843544772),new cljs.core.Keyword(null,"content","content",15833224)], null),cljs.core.conj,cljs.core.subs.cljs$core$IFn$_invoke$arity$2(line,new cljs.core.Keyword(null,"leading-spaces","leading-spaces",1148061085).cljs$core$IFn$_invoke$arity$1(stage)));
 }));
 devcards.util.markdown.block_parser.cljs$core$IMultiFn$_add_method$arity$3(null,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"delim","delim",1621565472),new cljs.core.Keyword(null,"markdown","markdown",1227225089)], null),(function (p__50689,line){
@@ -95,18 +95,18 @@ var lines = clojure.string.split.cljs$core$IFn$_invoke$arity$2(m,"\n");
 return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3(devcards.util.markdown.block_parser,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"stage","stage",1843544772),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"markdown","markdown",1227225089),new cljs.core.Keyword(null,"content","content",15833224),cljs.core.PersistentVector.EMPTY], null),new cljs.core.Keyword(null,"accum","accum",-1892427250),cljs.core.PersistentVector.EMPTY,new cljs.core.Keyword(null,"left-margin","left-margin",1869643147),devcards.util.markdown.bullets_left_edge(lines)], null),lines);
 });
 devcards.util.markdown.parse_out_blocks = (function devcards$util$markdown$parse_out_blocks(m){
-var map__50697 = devcards.util.markdown.parse_out_blocks_STAR_(m);
-var map__50697__$1 = (((((!((map__50697 == null))))?(((((map__50697.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__50697.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__50697):map__50697);
-var stage = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50697__$1,new cljs.core.Keyword(null,"stage","stage",1843544772));
-var accum = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50697__$1,new cljs.core.Keyword(null,"accum","accum",-1892427250));
+var map__50696 = devcards.util.markdown.parse_out_blocks_STAR_(m);
+var map__50696__$1 = (((((!((map__50696 == null))))?(((((map__50696.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__50696.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__50696):map__50696);
+var stage = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50696__$1,new cljs.core.Keyword(null,"stage","stage",1843544772));
+var accum = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50696__$1,new cljs.core.Keyword(null,"accum","accum",-1892427250));
 return cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (x){
-return cljs.core.update_in.cljs$core$IFn$_invoke$arity$3(x,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"content","content",15833224)], null),(function (p1__50696_SHARP_){
-return clojure.string.join.cljs$core$IFn$_invoke$arity$2("\n",p1__50696_SHARP_);
+return cljs.core.update_in.cljs$core$IFn$_invoke$arity$3(x,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"content","content",15833224)], null),(function (p1__50695_SHARP_){
+return clojure.string.join.cljs$core$IFn$_invoke$arity$2("\n",p1__50695_SHARP_);
 }));
-}),cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p__50699){
-var map__50700 = p__50699;
-var map__50700__$1 = (((((!((map__50700 == null))))?(((((map__50700.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__50700.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__50700):map__50700);
-var content = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50700__$1,new cljs.core.Keyword(null,"content","content",15833224));
+}),cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p__50698){
+var map__50699 = p__50698;
+var map__50699__$1 = (((((!((map__50699 == null))))?(((((map__50699.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__50699.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__50699):map__50699);
+var content = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50699__$1,new cljs.core.Keyword(null,"content","content",15833224));
 return cljs.core.not_empty(content);
 }),cljs.core.conj.cljs$core$IFn$_invoke$arity$2(accum,stage)));
 });

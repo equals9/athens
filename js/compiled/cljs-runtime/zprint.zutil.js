@@ -303,10 +303,10 @@ while(true){
 if(cljs.core.not(nloc)){
 return ploc;
 } else {
-var G__30691 = zprint.zutil.zrightnws(nloc);
-var G__30692 = nloc;
-nloc = G__30691;
-ploc = G__30692;
+var G__30688 = zprint.zutil.zrightnws(nloc);
+var G__30689 = nloc;
+nloc = G__30688;
+ploc = G__30689;
 continue;
 }
 break;
@@ -369,10 +369,10 @@ while(true){
 if((((nloc == null)) || (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(i,(0))))){
 return nloc;
 } else {
-var G__30698 = zprint.zutil.zrightnws(nloc);
-var G__30699 = (i - (1));
-nloc = G__30698;
-i = G__30699;
+var G__30695 = zprint.zutil.zrightnws(nloc);
+var G__30696 = (i - (1));
+nloc = G__30695;
+i = G__30696;
 continue;
 }
 break;
@@ -390,10 +390,10 @@ if((!((nloc == null)))){
 if(cljs.core.truth_((zthing_QMARK_.cljs$core$IFn$_invoke$arity$1 ? zthing_QMARK_.cljs$core$IFn$_invoke$arity$1(nloc) : zthing_QMARK_.call(null,nloc)))){
 return i;
 } else {
-var G__30700 = zprint.zutil.zrightnws(nloc);
-var G__30701 = (i + (1));
-nloc = G__30700;
-i = G__30701;
+var G__30697 = zprint.zutil.zrightnws(nloc);
+var G__30698 = (i + (1));
+nloc = G__30697;
+i = G__30698;
 continue;
 }
 } else {
@@ -413,8 +413,8 @@ while(true){
 if(cljs.core.not(nloc)){
 return out;
 } else {
-var G__30705 = (zprint.zutil.right_STAR_.cljs$core$IFn$_invoke$arity$1 ? zprint.zutil.right_STAR_.cljs$core$IFn$_invoke$arity$1(nloc) : zprint.zutil.right_STAR_.call(null,nloc));
-var G__30706 = (function (){var temp__5733__auto__ = (((!(((zprint.zutil.whitespace_QMARK_(nloc)) && ((!(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2((rewrite_clj.zip.tag.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.zip.tag.cljs$core$IFn$_invoke$arity$1(nloc) : rewrite_clj.zip.tag.call(null,nloc)),new cljs.core.Keyword(null,"newline","newline",1790071323)))))))))?(zfn.cljs$core$IFn$_invoke$arity$1 ? zfn.cljs$core$IFn$_invoke$arity$1(nloc) : zfn.call(null,nloc)):null);
+var G__30702 = (zprint.zutil.right_STAR_.cljs$core$IFn$_invoke$arity$1 ? zprint.zutil.right_STAR_.cljs$core$IFn$_invoke$arity$1(nloc) : zprint.zutil.right_STAR_.call(null,nloc));
+var G__30703 = (function (){var temp__5733__auto__ = (((!(((zprint.zutil.whitespace_QMARK_(nloc)) && ((!(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2((rewrite_clj.zip.tag.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.zip.tag.cljs$core$IFn$_invoke$arity$1(nloc) : rewrite_clj.zip.tag.call(null,nloc)),new cljs.core.Keyword(null,"newline","newline",1790071323)))))))))?(zfn.cljs$core$IFn$_invoke$arity$1 ? zfn.cljs$core$IFn$_invoke$arity$1(nloc) : zfn.call(null,nloc)):null);
 if(cljs.core.truth_(temp__5733__auto__)){
 var result = temp__5733__auto__;
 return cljs.core.conj.cljs$core$IFn$_invoke$arity$2(out,result);
@@ -422,8 +422,8 @@ return cljs.core.conj.cljs$core$IFn$_invoke$arity$2(out,result);
 return out;
 }
 })();
-nloc = G__30705;
-out = G__30706;
+nloc = G__30702;
+out = G__30703;
 continue;
 }
 break;
