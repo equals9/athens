@@ -84,8 +84,8 @@ while(true){
 if((i__4790__auto___28418 < len__4789__auto___28417)){
 args__4795__auto__.push((arguments[i__4790__auto___28418]));
 
-var G__28419 = (i__4790__auto___28418 + (1));
-i__4790__auto___28418 = G__28419;
+var G__28420 = (i__4790__auto___28418 + (1));
+i__4790__auto___28418 = G__28420;
 continue;
 } else {
 }
@@ -122,14 +122,14 @@ return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMP
 });
 day8.re_frame_10x.svgs.left = (function day8$re_frame_10x$svgs$left(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___28441 = arguments.length;
-var i__4790__auto___28442 = (0);
+var len__4789__auto___28440 = arguments.length;
+var i__4790__auto___28441 = (0);
 while(true){
-if((i__4790__auto___28442 < len__4789__auto___28441)){
-args__4795__auto__.push((arguments[i__4790__auto___28442]));
+if((i__4790__auto___28441 < len__4789__auto___28440)){
+args__4795__auto__.push((arguments[i__4790__auto___28441]));
 
-var G__28443 = (i__4790__auto___28442 + (1));
-i__4790__auto___28442 = G__28443;
+var G__28443 = (i__4790__auto___28441 + (1));
+i__4790__auto___28441 = G__28443;
 continue;
 } else {
 }

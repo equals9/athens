@@ -236,14 +236,14 @@ return cljs.core.flush();
 });
 debux.common.util.form_header = (function debux$common$util$form_header(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___53746 = arguments.length;
-var i__4790__auto___53747 = (0);
+var len__4789__auto___53745 = arguments.length;
+var i__4790__auto___53746 = (0);
 while(true){
-if((i__4790__auto___53747 < len__4789__auto___53746)){
-args__4795__auto__.push((arguments[i__4790__auto___53747]));
+if((i__4790__auto___53746 < len__4789__auto___53745)){
+args__4795__auto__.push((arguments[i__4790__auto___53746]));
 
-var G__53748 = (i__4790__auto___53747 + (1));
-i__4790__auto___53747 = G__53748;
+var G__53747 = (i__4790__auto___53746 + (1));
+i__4790__auto___53746 = G__53747;
 continue;
 } else {
 }
@@ -441,9 +441,9 @@ if(cljs.core.integer_QMARK_(indent)){
 throw (new Error(["Assert failed: ",["indent was not correctly replaced for form ",cljs.core.prn_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([quoted_form], 0)),"\nThis is a bug, please report it to https://github.com/Day8/re-frame-debux"].join(''),"\n","(integer? indent)"].join('')));
 }
 
-debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"form","form",-1624062471),(function (){var G__53735 = quoted_form;
-var G__53736 = new cljs.core.Symbol(null,"dummy","dummy",-594669915,null);
-return (debux.common.util.remove_d.cljs$core$IFn$_invoke$arity$2 ? debux.common.util.remove_d.cljs$core$IFn$_invoke$arity$2(G__53735,G__53736) : debux.common.util.remove_d.call(null,G__53735,G__53736));
+debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"form","form",-1624062471),(function (){var G__53730 = quoted_form;
+var G__53731 = new cljs.core.Symbol(null,"dummy","dummy",-594669915,null);
+return (debux.common.util.remove_d.cljs$core$IFn$_invoke$arity$2 ? debux.common.util.remove_d.cljs$core$IFn$_invoke$arity$2(G__53730,G__53731) : debux.common.util.remove_d.call(null,G__53730,G__53731));
 })(),new cljs.core.Keyword(null,"result","result",1415092211),result,new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),indent], null));
 
 return result;

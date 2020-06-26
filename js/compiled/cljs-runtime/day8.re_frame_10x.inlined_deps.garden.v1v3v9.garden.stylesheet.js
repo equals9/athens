@@ -83,14 +83,14 @@ return (new day8.re_frame_10x.inlined_deps.garden.v1v3v9.garden.types.CSSFunctio
 var G__26905 = function (var_args){
 var args = null;
 if (arguments.length > 0) {
-var G__26908__i = 0, G__26908__a = new Array(arguments.length -  0);
-while (G__26908__i < G__26908__a.length) {G__26908__a[G__26908__i] = arguments[G__26908__i + 0]; ++G__26908__i;}
-  args = new cljs.core.IndexedSeq(G__26908__a,0,null);
+var G__26906__i = 0, G__26906__a = new Array(arguments.length -  0);
+while (G__26906__i < G__26906__a.length) {G__26906__a[G__26906__i] = arguments[G__26906__i + 0]; ++G__26906__i;}
+  args = new cljs.core.IndexedSeq(G__26906__a,0,null);
 } 
 return G__26905__delegate.call(this,args);};
 G__26905.cljs$lang$maxFixedArity = 0;
-G__26905.cljs$lang$applyTo = (function (arglist__26910){
-var args = cljs.core.seq(arglist__26910);
+G__26905.cljs$lang$applyTo = (function (arglist__26907){
+var args = cljs.core.seq(arglist__26907);
 return G__26905__delegate(args);
 });
 G__26905.cljs$core$IFn$_invoke$arity$variadic = G__26905__delegate;
@@ -106,14 +106,14 @@ return (new day8.re_frame_10x.inlined_deps.garden.v1v3v9.garden.types.CSSAtRule(
  */
 day8.re_frame_10x.inlined_deps.garden.v1v3v9.garden.stylesheet.at_font_face = (function day8$re_frame_10x$inlined_deps$garden$v1v3v9$garden$stylesheet$at_font_face(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___26911 = arguments.length;
-var i__4790__auto___26912 = (0);
+var len__4789__auto___26908 = arguments.length;
+var i__4790__auto___26909 = (0);
 while(true){
-if((i__4790__auto___26912 < len__4789__auto___26911)){
-args__4795__auto__.push((arguments[i__4790__auto___26912]));
+if((i__4790__auto___26909 < len__4789__auto___26908)){
+args__4795__auto__.push((arguments[i__4790__auto___26909]));
 
-var G__26913 = (i__4790__auto___26912 + (1));
-i__4790__auto___26912 = G__26913;
+var G__26912 = (i__4790__auto___26909 + (1));
+i__4790__auto___26909 = G__26912;
 continue;
 } else {
 }
@@ -131,17 +131,17 @@ return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMP
 (day8.re_frame_10x.inlined_deps.garden.v1v3v9.garden.stylesheet.at_font_face.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(day8.re_frame_10x.inlined_deps.garden.v1v3v9.garden.stylesheet.at_font_face.cljs$lang$applyTo = (function (seq26877){
+(day8.re_frame_10x.inlined_deps.garden.v1v3v9.garden.stylesheet.at_font_face.cljs$lang$applyTo = (function (seq26876){
 var self__4777__auto__ = this;
-return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq26877));
+return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq26876));
 }));
 
 /**
  * Create a CSS @import rule.
  */
 day8.re_frame_10x.inlined_deps.garden.v1v3v9.garden.stylesheet.at_import = (function day8$re_frame_10x$inlined_deps$garden$v1v3v9$garden$stylesheet$at_import(var_args){
-var G__26883 = arguments.length;
-switch (G__26883) {
+var G__26881 = arguments.length;
+switch (G__26881) {
 case 1:
 return day8.re_frame_10x.inlined_deps.garden.v1v3v9.garden.stylesheet.at_import.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -263,14 +263,14 @@ return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__26891,seq26890
  */
 day8.re_frame_10x.inlined_deps.garden.v1v3v9.garden.stylesheet.at_keyframes = (function day8$re_frame_10x$inlined_deps$garden$v1v3v9$garden$stylesheet$at_keyframes(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___26927 = arguments.length;
-var i__4790__auto___26928 = (0);
+var len__4789__auto___26926 = arguments.length;
+var i__4790__auto___26927 = (0);
 while(true){
-if((i__4790__auto___26928 < len__4789__auto___26927)){
-args__4795__auto__.push((arguments[i__4790__auto___26928]));
+if((i__4790__auto___26927 < len__4789__auto___26926)){
+args__4795__auto__.push((arguments[i__4790__auto___26927]));
 
-var G__26929 = (i__4790__auto___26928 + (1));
-i__4790__auto___26928 = G__26929;
+var G__26929 = (i__4790__auto___26927 + (1));
+i__4790__auto___26927 = G__26929;
 continue;
 } else {
 }
