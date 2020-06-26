@@ -238,14 +238,14 @@ throw cljs.core.missing_protocol("Transformer.-decoder",this$);
  */
 spec_tools.core.type_transformer = (function spec_tools$core$type_transformer(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___55800 = arguments.length;
-var i__4790__auto___55801 = (0);
+var len__4789__auto___55799 = arguments.length;
+var i__4790__auto___55800 = (0);
 while(true){
-if((i__4790__auto___55801 < len__4789__auto___55800)){
-args__4795__auto__.push((arguments[i__4790__auto___55801]));
+if((i__4790__auto___55800 < len__4789__auto___55799)){
+args__4795__auto__.push((arguments[i__4790__auto___55800]));
 
-var G__55802 = (i__4790__auto___55801 + (1));
-i__4790__auto___55801 = G__55802;
+var G__55801 = (i__4790__auto___55800 + (1));
+i__4790__auto___55800 = G__55801;
 continue;
 } else {
 }
@@ -1463,8 +1463,8 @@ if(cljs.core.truth_(spec_tools.core.spec_QMARK_(x))){
 return x;
 } else {
 if((x instanceof cljs.core.Keyword)){
-var G__55888 = cljs.spec.alpha.get_spec(x);
-x = G__55888;
+var G__55896 = cljs.spec.alpha.get_spec(x);
+x = G__55896;
 continue;
 } else {
 return spec_tools.core.create_spec(new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"spec","spec",347520401),x], null));

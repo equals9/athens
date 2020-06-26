@@ -216,9 +216,9 @@ return cljs.core.chunk_cons(cljs.core.chunk(b__56171),spec_tools$swagger$core$it
 return cljs.core.chunk_cons(cljs.core.chunk(b__56171),null);
 }
 } else {
-var vec__56175 = cljs.core.first(s__56169__$2);
-var status = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56175,(0),null);
-var response = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56175,(1),null);
+var vec__56176 = cljs.core.first(s__56169__$2);
+var status = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56176,(0),null);
+var response = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56176,(1),null);
 return cljs.core.cons(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [status,(function (){var $ = response;
 var $__$1 = (cljs.core.truth_(new cljs.core.Keyword(null,"schema","schema",-1582001791).cljs$core$IFn$_invoke$arity$1($))?cljs.core.update.cljs$core$IFn$_invoke$arity$4($,new cljs.core.Keyword(null,"schema","schema",-1582001791),spec_tools.swagger.core.transform,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"type","type",1174270348),new cljs.core.Keyword(null,"schema","schema",-1582001791)], null)):$);
 return cljs.core.update.cljs$core$IFn$_invoke$arity$3($__$1,new cljs.core.Keyword(null,"description","description",-1428560544),cljs.core.fnil.cljs$core$IFn$_invoke$arity$2(cljs.core.identity,""));
@@ -242,17 +242,17 @@ return or__4185__auto__;
 return cljs.core.PersistentVector.EMPTY;
 }
 })();
-var new$ = cljs.core.mapcat.cljs$core$IFn$_invoke$arity$variadic((function (p__56178){
-var vec__56179 = p__56178;
-var in$ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56179,(0),null);
-var spec = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56179,(1),null);
+var new$ = cljs.core.mapcat.cljs$core$IFn$_invoke$arity$variadic((function (p__56179){
+var vec__56180 = p__56179;
+var in$ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56180,(0),null);
+var spec = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56180,(1),null);
 return (spec_tools.swagger.core.extract_parameter.cljs$core$IFn$_invoke$arity$2 ? spec_tools.swagger.core.extract_parameter.cljs$core$IFn$_invoke$arity$2(in$,spec) : spec_tools.swagger.core.extract_parameter.call(null,in$,spec));
 }),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([v], 0));
-var merged = cljs.core.vec(cljs.core.reverse(cljs.core.first(cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (p__56182,p){
-var vec__56183 = p__56182;
-var ps = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56183,(0),null);
-var cache = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56183,(1),null);
-var acc__$1 = vec__56183;
+var merged = cljs.core.vec(cljs.core.reverse(cljs.core.first(cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (p__56183,p){
+var vec__56184 = p__56183;
+var ps = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56184,(0),null);
+var cache = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56184,(1),null);
+var acc__$1 = vec__56184;
 var c = cljs.core.select_keys(p,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"in","in",-1531184865),new cljs.core.Keyword(null,"name","name",1843675177)], null));
 if(cljs.core.not((cache.cljs$core$IFn$_invoke$arity$1 ? cache.cljs$core$IFn$_invoke$arity$1(c) : cache.call(null,c)))){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.conj.cljs$core$IFn$_invoke$arity$2(ps,p),cljs.core.conj.cljs$core$IFn$_invoke$arity$2(cache,c)], null);
@@ -285,8 +285,8 @@ return x__$1;
  *   with the `spec-tools.swagger.core/expand` multimethod.
  */
 spec_tools.swagger.core.swagger_spec = (function spec_tools$swagger$core$swagger_spec(var_args){
-var G__56187 = arguments.length;
-switch (G__56187) {
+var G__56188 = arguments.length;
+switch (G__56188) {
 case 1:
 return spec_tools.swagger.core.swagger_spec.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

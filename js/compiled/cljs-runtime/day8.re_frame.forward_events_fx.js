@@ -14,10 +14,10 @@ if(cljs.core.fn_QMARK_(callback_pred)){
 return callback_pred;
 } else {
 if((callback_pred instanceof cljs.core.Keyword)){
-return (function (p__51989){
-var vec__51990 = p__51989;
-var event_id = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__51990,(0),null);
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__51990,(1),null);
+return (function (p__52005){
+var vec__52007 = p__52005;
+var event_id = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__52007,(0),null);
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__52007,(1),null);
 return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(callback_pred,event_id);
 });
 } else {
@@ -35,15 +35,15 @@ throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2([cljs.core.pr_str.cljs$cor
 return null;
 }
 });
-var G__51995_52023 = new cljs.core.Keyword(null,"forward-events","forward-events",1216790539);
-var G__51996_52024 = (function (){var process_one_entry = (function (p__51997){
-var map__51998 = p__51997;
-var map__51998__$1 = (((((!((map__51998 == null))))?(((((map__51998.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__51998.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__51998):map__51998);
-var m = map__51998__$1;
-var unregister = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__51998__$1,new cljs.core.Keyword(null,"unregister","unregister",2105339971));
-var register = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__51998__$1,new cljs.core.Keyword(null,"register","register",1968522516));
-var events = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__51998__$1,new cljs.core.Keyword(null,"events","events",1792552201));
-var dispatch_to = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__51998__$1,new cljs.core.Keyword(null,"dispatch-to","dispatch-to",-354764401));
+var G__52016_52044 = new cljs.core.Keyword(null,"forward-events","forward-events",1216790539);
+var G__52017_52045 = (function (){var process_one_entry = (function (p__52018){
+var map__52019 = p__52018;
+var map__52019__$1 = (((((!((map__52019 == null))))?(((((map__52019.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__52019.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__52019):map__52019);
+var m = map__52019__$1;
+var unregister = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52019__$1,new cljs.core.Keyword(null,"unregister","unregister",2105339971));
+var register = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52019__$1,new cljs.core.Keyword(null,"register","register",1968522516));
+var events = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52019__$1,new cljs.core.Keyword(null,"events","events",1792552201));
+var dispatch_to = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52019__$1,new cljs.core.Keyword(null,"dispatch-to","dispatch-to",-354764401));
 var _ = ((cljs.core.map_QMARK_(m))?null:(function(){throw (new Error(["Assert failed: ",["re-frame: effects handler for :forward-events expected a map or a list of maps. Got: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(m)].join(''),"\n","(map? m)"].join('')))})());
 var ___$1 = ((((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"unregister","unregister",2105339971),null], null), null),cljs.core.set(cljs.core.keys(m)))) || (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"events","events",1792552201),null,new cljs.core.Keyword(null,"dispatch-to","dispatch-to",-354764401),null,new cljs.core.Keyword(null,"register","register",1968522516),null], null), null),cljs.core.set(cljs.core.keys(m))))))?null:(function(){throw (new Error(["Assert failed: ",["re-frame: effects handler for :forward-events given wrong map keys",cljs.core.str.cljs$core$IFn$_invoke$arity$1(cljs.core.set(cljs.core.keys(m)))].join(''),"\n","(or (= #{:unregister} (-> m keys set)) (= #{:events :dispatch-to :register} (-> m keys set)))"].join('')))})());
 if(cljs.core.truth_(unregister)){
@@ -54,8 +54,8 @@ var post_event_callback_fn = (function (event_v,___$2){
 if(cljs.core.truth_(cljs.core.some((function (pred){
 return (pred.cljs$core$IFn$_invoke$arity$1 ? pred.cljs$core$IFn$_invoke$arity$1(event_v) : pred.call(null,event_v));
 }),events_preds))){
-var G__52012 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(dispatch_to,event_v);
-return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__52012) : re_frame.core.dispatch.call(null,G__52012));
+var G__52033 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(dispatch_to,event_v);
+return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__52033) : re_frame.core.dispatch.call(null,G__52033));
 } else {
 return null;
 }
@@ -70,15 +70,15 @@ return process_one_entry(val);
 if(cljs.core.sequential_QMARK_(val)){
 return cljs.core.doall.cljs$core$IFn$_invoke$arity$1(cljs.core.map.cljs$core$IFn$_invoke$arity$2(process_one_entry,val));
 } else {
-var G__52015 = new cljs.core.Keyword(null,"error","error",-978969032);
-var G__52016 = ":forward-events expected a map or a list of maps, but got: ";
-var G__52017 = val;
-return (re_frame.core.console.cljs$core$IFn$_invoke$arity$3 ? re_frame.core.console.cljs$core$IFn$_invoke$arity$3(G__52015,G__52016,G__52017) : re_frame.core.console.call(null,G__52015,G__52016,G__52017));
+var G__52035 = new cljs.core.Keyword(null,"error","error",-978969032);
+var G__52036 = ":forward-events expected a map or a list of maps, but got: ";
+var G__52037 = val;
+return (re_frame.core.console.cljs$core$IFn$_invoke$arity$3 ? re_frame.core.console.cljs$core$IFn$_invoke$arity$3(G__52035,G__52036,G__52037) : re_frame.core.console.call(null,G__52035,G__52036,G__52037));
 
 }
 }
 });
 })();
-(re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2(G__51995_52023,G__51996_52024) : re_frame.core.reg_fx.call(null,G__51995_52023,G__51996_52024));
+(re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2(G__52016_52044,G__52017_52045) : re_frame.core.reg_fx.call(null,G__52016_52044,G__52017_52045));
 
 //# sourceMappingURL=day8.re_frame.forward_events_fx.js.map
