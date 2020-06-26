@@ -56,8 +56,8 @@ while(true){
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.first(poshdb),new cljs.core.Keyword(null,"db","db",993250759))){
 return cljs.core.second(poshdb);
 } else {
-var G__46888 = posh.lib.db.get_parent_db(poshdb);
-poshdb = G__46888;
+var G__46889 = posh.lib.db.get_parent_db(poshdb);
+poshdb = G__46889;
 continue;
 }
 break;
@@ -129,12 +129,12 @@ return db__$5;
 
 (posh.lib.db.generate_initial_db.cljs$lang$maxFixedArity = 4);
 
-posh.lib.db.poshdb__GT_db = (function posh$lib$db$poshdb__GT_db(p__46870,poshdb){
-var map__46871 = p__46870;
-var map__46871__$1 = (((((!((map__46871 == null))))?(((((map__46871.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__46871.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__46871):map__46871);
-var posh_tree = map__46871__$1;
-var dcfg = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__46871__$1,new cljs.core.Keyword(null,"dcfg","dcfg",-880371016));
-var cache = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__46871__$1,new cljs.core.Keyword(null,"cache","cache",-1237023054));
+posh.lib.db.poshdb__GT_db = (function posh$lib$db$poshdb__GT_db(p__46871,poshdb){
+var map__46872 = p__46871;
+var map__46872__$1 = (((((!((map__46872 == null))))?(((((map__46872.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__46872.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__46872):map__46872);
+var posh_tree = map__46872__$1;
+var dcfg = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__46872__$1,new cljs.core.Keyword(null,"dcfg","dcfg",-880371016));
+var cache = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__46872__$1,new cljs.core.Keyword(null,"cache","cache",-1237023054));
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.first(poshdb),new cljs.core.Keyword(null,"db","db",993250759))){
 return posh.lib.db.db_id__GT_db(posh_tree,cljs.core.second(poshdb));
 } else {

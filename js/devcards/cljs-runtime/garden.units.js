@@ -76,10 +76,10 @@ garden.units.unit_re = /([+-]?\d+(?:\.?\d+)?)(p[xtc]|in|[cm]m|%|r?em|ex|ch|v(?:[
 garden.units.read_unit = (function garden$units$read_unit(s){
 var temp__5735__auto__ = cljs.core.re_matches(garden.units.unit_re,s);
 if(cljs.core.truth_(temp__5735__auto__)){
-var vec__40361 = temp__5735__auto__;
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__40361,(0),null);
-var magnitude = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__40361,(1),null);
-var unit = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__40361,(2),null);
+var vec__40359 = temp__5735__auto__;
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__40359,(0),null);
+var magnitude = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__40359,(1),null);
+var unit = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__40359,(2),null);
 var unit__$1 = cljs.core.keyword.cljs$core$IFn$_invoke$arity$1(unit);
 var magnitude__$1 = (cljs.core.truth_(magnitude)?cljs.reader.read_string.cljs$core$IFn$_invoke$arity$1(magnitude):(0));
 return (new garden.types.CSSUnit(unit__$1,magnitude__$1,null,null,null));
@@ -291,8 +291,8 @@ var m1 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__40383__$1,new cljs.cor
 var map__40384 = (u.cljs$core$IFn$_invoke$arity$1 ? u.cljs$core$IFn$_invoke$arity$1(y) : u.call(null,y));
 var map__40384__$1 = (((((!((map__40384 == null))))?(((((map__40384.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__40384.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__40384):map__40384);
 var m2 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__40384__$1,new cljs.core.Keyword(null,"magnitude","magnitude",1924274222));
-var G__40388 = (op.cljs$core$IFn$_invoke$arity$2 ? op.cljs$core$IFn$_invoke$arity$2(m1,m2) : op.call(null,m1,m2));
-return (u.cljs$core$IFn$_invoke$arity$1 ? u.cljs$core$IFn$_invoke$arity$1(G__40388) : u.call(null,G__40388));
+var G__40387 = (op.cljs$core$IFn$_invoke$arity$2 ? op.cljs$core$IFn$_invoke$arity$2(m1,m2) : op.call(null,m1,m2));
+return (u.cljs$core$IFn$_invoke$arity$1 ? u.cljs$core$IFn$_invoke$arity$1(G__40387) : u.call(null,G__40387));
 });
 var garden$units$make_unit_multiplier_$_u_STAR___3 = (function() { 
 var G__40424__delegate = function (x,y,more){
