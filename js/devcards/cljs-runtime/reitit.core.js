@@ -51,12 +51,12 @@ return this$__$1;
 
 goog.object.set(reitit.core.Expand,"function",true);
 
-var G__50000_50177 = reitit.core.expand;
-var G__50001_50178 = "function";
-var G__50002_50179 = (function (this$,_){
+var G__50000_50176 = reitit.core.expand;
+var G__50001_50177 = "function";
+var G__50002_50178 = (function (this$,_){
 return new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"handler","handler",-195596612),this$], null);
 });
-goog.object.set(G__50000_50177,G__50001_50178,G__50002_50179);
+goog.object.set(G__50000_50176,G__50001_50177,G__50002_50178);
 
 goog.object.set(reitit.core.Expand,"null",true);
 

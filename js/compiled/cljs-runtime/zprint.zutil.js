@@ -303,10 +303,10 @@ while(true){
 if(cljs.core.not(nloc)){
 return ploc;
 } else {
-var G__30697 = zprint.zutil.zrightnws(nloc);
-var G__30698 = nloc;
-nloc = G__30697;
-ploc = G__30698;
+var G__30694 = zprint.zutil.zrightnws(nloc);
+var G__30695 = nloc;
+nloc = G__30694;
+ploc = G__30695;
 continue;
 }
 break;
@@ -1136,10 +1136,10 @@ if(cljs.core.truth_(current_ns)){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [ns,pair_seq__$1], null);
 } else {
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.count(pair),(1))){
-var G__30757 = cljs.core.next(pair_seq__$1);
-var G__30758 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(out,pair);
-pair_seq__$1 = G__30757;
-out = G__30758;
+var G__30754 = cljs.core.next(pair_seq__$1);
+var G__30755 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(out,pair);
+pair_seq__$1 = G__30754;
+out = G__30755;
 continue;
 } else {
 var G__30759 = cljs.core.next(pair_seq__$1);

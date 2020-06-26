@@ -61,8 +61,8 @@ goog.require('stylefy.impl.styles');
  * Options is an optional map, which contains HTML attributes (:class, :href, :src etc.).
  */
 stylefy.core.use_style = (function stylefy$core$use_style(var_args){
-var G__42172 = arguments.length;
-switch (G__42172) {
+var G__42160 = arguments.length;
+switch (G__42160) {
 case 1:
 return stylefy.core.use_style.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -276,14 +276,14 @@ return null;
  */
 stylefy.core.keyframes = (function stylefy$core$keyframes(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___42200 = arguments.length;
-var i__4790__auto___42202 = (0);
+var len__4789__auto___42202 = arguments.length;
+var i__4790__auto___42203 = (0);
 while(true){
-if((i__4790__auto___42202 < len__4789__auto___42200)){
-args__4795__auto__.push((arguments[i__4790__auto___42202]));
+if((i__4790__auto___42203 < len__4789__auto___42202)){
+args__4795__auto__.push((arguments[i__4790__auto___42203]));
 
-var G__42204 = (i__4790__auto___42202 + (1));
-i__4790__auto___42202 = G__42204;
+var G__42204 = (i__4790__auto___42203 + (1));
+i__4790__auto___42203 = G__42204;
 continue;
 } else {
 }

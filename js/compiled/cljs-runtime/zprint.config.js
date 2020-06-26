@@ -62,14 +62,14 @@ return val_in_latter;
  */
 zprint.config.merge_deep = (function zprint$config$merge_deep(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___30908 = arguments.length;
-var i__4790__auto___30909 = (0);
+var len__4789__auto___30912 = arguments.length;
+var i__4790__auto___30913 = (0);
 while(true){
-if((i__4790__auto___30909 < len__4789__auto___30908)){
-args__4795__auto__.push((arguments[i__4790__auto___30909]));
+if((i__4790__auto___30913 < len__4789__auto___30912)){
+args__4795__auto__.push((arguments[i__4790__auto___30913]));
 
-var G__30910 = (i__4790__auto___30909 + (1));
-i__4790__auto___30909 = G__30910;
+var G__30915 = (i__4790__auto___30913 + (1));
+i__4790__auto___30913 = G__30915;
 continue;
 } else {
 }
@@ -108,14 +108,14 @@ return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"fr
  */
 zprint.config.merge_deep_doc = (function zprint$config$merge_deep_doc(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___30914 = arguments.length;
-var i__4790__auto___30915 = (0);
+var len__4789__auto___30917 = arguments.length;
+var i__4790__auto___30918 = (0);
 while(true){
-if((i__4790__auto___30915 < len__4789__auto___30914)){
-args__4795__auto__.push((arguments[i__4790__auto___30915]));
+if((i__4790__auto___30918 < len__4789__auto___30917)){
+args__4795__auto__.push((arguments[i__4790__auto___30918]));
 
-var G__30916 = (i__4790__auto___30915 + (1));
-i__4790__auto___30915 = G__30916;
+var G__30919 = (i__4790__auto___30918 + (1));
+i__4790__auto___30918 = G__30919;
 continue;
 } else {
 }
@@ -170,9 +170,9 @@ return zprint.config.remove_key(p1__30750_SHARP_,p2__30751_SHARP_);
 zprint.config.key_seq = (function zprint$config$key_seq(m){
 if(cljs.core.map_QMARK_(m)){
 return cljs.core.mapcat.cljs$core$IFn$_invoke$arity$variadic((function (p__30753){
-var vec__30754 = p__30753;
-var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__30754,(0),null);
-var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__30754,(1),null);
+var vec__30756 = p__30753;
+var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__30756,(0),null);
+var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__30756,(1),null);
 var ks = (zprint.config.key_seq.cljs$core$IFn$_invoke$arity$1 ? zprint.config.key_seq.cljs$core$IFn$_invoke$arity$1(v) : zprint.config.key_seq.call(null,v));
 if(cljs.core.truth_(ks)){
 return cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__30752_SHARP_){
