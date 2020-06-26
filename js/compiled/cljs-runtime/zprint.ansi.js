@@ -7,14 +7,14 @@ zprint.ansi.ansi_codes = cljs.core.PersistentHashMap.fromArrays([new cljs.core.K
  */
 zprint.ansi.color_str = (function zprint$ansi$color_str(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___28591 = arguments.length;
-var i__4790__auto___28592 = (0);
+var len__4789__auto___28590 = arguments.length;
+var i__4790__auto___28591 = (0);
 while(true){
-if((i__4790__auto___28592 < len__4789__auto___28591)){
-args__4795__auto__.push((arguments[i__4790__auto___28592]));
+if((i__4790__auto___28591 < len__4789__auto___28590)){
+args__4795__auto__.push((arguments[i__4790__auto___28591]));
 
-var G__28593 = (i__4790__auto___28592 + (1));
-i__4790__auto___28592 = G__28593;
+var G__28592 = (i__4790__auto___28591 + (1));
+i__4790__auto___28591 = G__28592;
 continue;
 } else {
 }

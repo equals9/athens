@@ -26,10 +26,10 @@ return null;
  */
 garden.compression.tokenizer = (function garden$compression$tokenizer(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___40182 = arguments.length;
+var len__4789__auto___40183 = arguments.length;
 var i__4790__auto___40184 = (0);
 while(true){
-if((i__4790__auto___40184 < len__4789__auto___40182)){
+if((i__4790__auto___40184 < len__4789__auto___40183)){
 args__4795__auto__.push((arguments[i__4790__auto___40184]));
 
 var G__40185 = (i__4790__auto___40184 + (1));
@@ -56,9 +56,9 @@ return (p1__40171_SHARP_.cljs$core$IFn$_invoke$arity$1 ? p1__40171_SHARP_.cljs$c
 (garden.compression.tokenizer.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(garden.compression.tokenizer.cljs$lang$applyTo = (function (seq40172){
+(garden.compression.tokenizer.cljs$lang$applyTo = (function (seq40173){
 var self__4777__auto__ = this;
-return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq40172));
+return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq40173));
 }));
 
 /**
@@ -79,8 +79,8 @@ var map__40178__$1 = (((((!((map__40178 == null))))?(((((map__40178.cljs$lang$pr
 var tag = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__40178__$1,new cljs.core.Keyword(null,"tag","tag",-1290361223));
 var chunk = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__40178__$1,new cljs.core.Keyword(null,"chunk","chunk",-1191159620));
 var size = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__40178__$1,new cljs.core.Keyword(null,"size","size",1098693007));
-var G__40186 = cljs.core.subs.cljs$core$IFn$_invoke$arity$2(s1,size);
-var G__40187 = [s2,cljs.core.str.cljs$core$IFn$_invoke$arity$1((function (){var G__40181 = tag;
+var G__40204 = cljs.core.subs.cljs$core$IFn$_invoke$arity$2(s1,size);
+var G__40205 = [s2,cljs.core.str.cljs$core$IFn$_invoke$arity$1((function (){var G__40181 = tag;
 var G__40181__$1 = (((G__40181 instanceof cljs.core.Keyword))?G__40181.fqn:null);
 switch (G__40181__$1) {
 case "string":
@@ -132,8 +132,8 @@ return chunk;
 
 }
 })())].join('');
-s1 = G__40186;
-s2 = G__40187;
+s1 = G__40204;
+s2 = G__40205;
 continue;
 } else {
 return s2;

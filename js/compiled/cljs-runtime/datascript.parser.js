@@ -6717,10 +6717,10 @@ datascript.parser.collect_vars_distinct = (function datascript$parser$collect_va
 return cljs.core.vec(cljs.core.distinct.cljs$core$IFn$_invoke$arity$1(datascript.parser.collect_vars(form)));
 });
 datascript.parser.validate_join_vars = (function datascript$parser$validate_join_vars(vars,clauses,form){
-var undeclared_45066 = clojure.set.difference.cljs$core$IFn$_invoke$arity$2(cljs.core.set(vars),cljs.core.set(datascript.parser.collect_vars(clauses)));
-if(cljs.core.empty_QMARK_(undeclared_45066)){
+var undeclared_45064 = clojure.set.difference.cljs$core$IFn$_invoke$arity$2(cljs.core.set(vars),cljs.core.set(datascript.parser.collect_vars(clauses)));
+if(cljs.core.empty_QMARK_(undeclared_45064)){
 } else {
-throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2(["Join variable not declared inside clauses: ",cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([cljs.core.mapv.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"symbol","symbol",-1038572696),undeclared_45066)], 0))].join(''),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"error","error",-978969032),new cljs.core.Keyword("parser","where","parser/where",-966053850),new cljs.core.Keyword(null,"form","form",-1624062471),form], null));
+throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2(["Join variable not declared inside clauses: ",cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([cljs.core.mapv.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"symbol","symbol",-1038572696),undeclared_45064)], 0))].join(''),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"error","error",-978969032),new cljs.core.Keyword("parser","where","parser/where",-966053850),new cljs.core.Keyword(null,"form","form",-1624062471),form], null));
 }
 
 if(cljs.core.empty_QMARK_(vars)){
@@ -6845,14 +6845,14 @@ var clause_45089__$1 = cljs.core.first(seq__44456_45083__$1);
 datascript.parser.validate_join_vars(vars,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [clause_45089__$1], null),form);
 
 
-var G__45091 = cljs.core.next(seq__44456_45083__$1);
-var G__45092 = null;
+var G__45090 = cljs.core.next(seq__44456_45083__$1);
+var G__45091 = null;
+var G__45092 = (0);
 var G__45093 = (0);
-var G__45094 = (0);
-seq__44456_45073 = G__45091;
-chunk__44457_45074 = G__45092;
-count__44458_45075 = G__45093;
-i__44459_45076 = G__45094;
+seq__44456_45073 = G__45090;
+chunk__44457_45074 = G__45091;
+count__44458_45075 = G__45092;
+i__44459_45076 = G__45093;
 continue;
 }
 } else {
@@ -7558,32 +7558,32 @@ if(temp__5735__auto__){
 var seq__44526__$1 = temp__5735__auto__;
 if(cljs.core.chunked_seq_QMARK_(seq__44526__$1)){
 var c__4609__auto__ = cljs.core.chunk_first(seq__44526__$1);
-var G__45126 = cljs.core.chunk_rest(seq__44526__$1);
-var G__45127 = c__4609__auto__;
-var G__45128 = cljs.core.count(c__4609__auto__);
-var G__45129 = (0);
-seq__44526 = G__45126;
-chunk__44528 = G__45127;
-count__44529 = G__45128;
-i__44530 = G__45129;
+var G__45125 = cljs.core.chunk_rest(seq__44526__$1);
+var G__45126 = c__4609__auto__;
+var G__45127 = cljs.core.count(c__4609__auto__);
+var G__45128 = (0);
+seq__44526 = G__45125;
+chunk__44528 = G__45126;
+count__44529 = G__45127;
+i__44530 = G__45128;
 continue;
 } else {
 var b = cljs.core.first(seq__44526__$1);
-var vars_45130 = new cljs.core.Keyword(null,"vars","vars",-2046957217).cljs$core$IFn$_invoke$arity$1(b);
-if(cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(arity0,datascript.parser.rule_vars_arity(vars_45130))){
-throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2(["Arity mismatch for rule '",cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"symbol","symbol",-1038572696).cljs$core$IFn$_invoke$arity$1(name)], 0)),"': ",cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([datascript.parser.flatten_rule_vars(vars0)], 0))," vs. ",cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([datascript.parser.flatten_rule_vars(vars_45130)], 0))].join(''),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"error","error",-978969032),new cljs.core.Keyword("parser","rule","parser/rule",-464044566),new cljs.core.Keyword(null,"rule","rule",729973257),name], null));
+var vars_45129 = new cljs.core.Keyword(null,"vars","vars",-2046957217).cljs$core$IFn$_invoke$arity$1(b);
+if(cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(arity0,datascript.parser.rule_vars_arity(vars_45129))){
+throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2(["Arity mismatch for rule '",cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"symbol","symbol",-1038572696).cljs$core$IFn$_invoke$arity$1(name)], 0)),"': ",cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([datascript.parser.flatten_rule_vars(vars0)], 0))," vs. ",cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([datascript.parser.flatten_rule_vars(vars_45129)], 0))].join(''),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"error","error",-978969032),new cljs.core.Keyword("parser","rule","parser/rule",-464044566),new cljs.core.Keyword(null,"rule","rule",729973257),name], null));
 } else {
 }
 
 
-var G__45131 = cljs.core.next(seq__44526__$1);
-var G__45132 = null;
+var G__45130 = cljs.core.next(seq__44526__$1);
+var G__45131 = null;
+var G__45132 = (0);
 var G__45133 = (0);
-var G__45134 = (0);
-seq__44526 = G__45131;
-chunk__44528 = G__45132;
-count__44529 = G__45133;
-i__44530 = G__45134;
+seq__44526 = G__45130;
+chunk__44528 = G__45131;
+count__44529 = G__45132;
+i__44530 = G__45133;
 continue;
 }
 } else {
@@ -7623,8 +7623,8 @@ return (new datascript.parser.Rule(name,branches__$1,null,null,null));
 })()
 );
 
-var G__45135 = (i__44535 + (1));
-i__44535 = G__45135;
+var G__45134 = (i__44535 + (1));
+i__44535 = G__45134;
 continue;
 } else {
 return true;
