@@ -2,14 +2,14 @@ goog.provide('instaparse.util');
 goog.require('cljs.core');
 instaparse.util.throw_runtime_exception = (function instaparse$util$throw_runtime_exception(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___55836 = arguments.length;
-var i__4790__auto___55837 = (0);
+var len__4789__auto___55848 = arguments.length;
+var i__4790__auto___55849 = (0);
 while(true){
-if((i__4790__auto___55837 < len__4789__auto___55836)){
-args__4795__auto__.push((arguments[i__4790__auto___55837]));
+if((i__4790__auto___55849 < len__4789__auto___55848)){
+args__4795__auto__.push((arguments[i__4790__auto___55849]));
 
-var G__55838 = (i__4790__auto___55837 + (1));
-i__4790__auto___55837 = G__55838;
+var G__55850 = (i__4790__auto___55849 + (1));
+i__4790__auto___55849 = G__55850;
 continue;
 } else {
 }
@@ -35,14 +35,14 @@ return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq
 
 instaparse.util.throw_illegal_argument_exception = (function instaparse$util$throw_illegal_argument_exception(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___55847 = arguments.length;
-var i__4790__auto___55848 = (0);
+var len__4789__auto___55851 = arguments.length;
+var i__4790__auto___55852 = (0);
 while(true){
-if((i__4790__auto___55848 < len__4789__auto___55847)){
-args__4795__auto__.push((arguments[i__4790__auto___55848]));
+if((i__4790__auto___55852 < len__4789__auto___55851)){
+args__4795__auto__.push((arguments[i__4790__auto___55852]));
 
-var G__55853 = (i__4790__auto___55848 + (1));
-i__4790__auto___55848 = G__55853;
+var G__55853 = (i__4790__auto___55852 + (1));
+i__4790__auto___55852 = G__55853;
 continue;
 } else {
 }
@@ -61,9 +61,9 @@ throw text;
 (instaparse.util.throw_illegal_argument_exception.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(instaparse.util.throw_illegal_argument_exception.cljs$lang$applyTo = (function (seq55803){
+(instaparse.util.throw_illegal_argument_exception.cljs$lang$applyTo = (function (seq55813){
 var self__4777__auto__ = this;
-return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq55803));
+return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq55813));
 }));
 
 instaparse.util.regexp_flags = (function instaparse$util$regexp_flags(re){
