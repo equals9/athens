@@ -31,8 +31,8 @@ posh.lib.graph.remove_output = (function posh$lib$graph$remove_output(graph,item
 return cljs.core.update_in.cljs$core$IFn$_invoke$arity$4(graph,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [item_k,new cljs.core.Keyword(null,"outputs","outputs",-1896513034)], null),cljs.core.disj,output);
 });
 posh.lib.graph.remove_dep = (function posh$lib$graph$remove_dep(graph,k,dep_k){
-return cljs.core.update.cljs$core$IFn$_invoke$arity$3(graph,k,(function (p1__47262_SHARP_){
-return cljs.core.disj.cljs$core$IFn$_invoke$arity$2(p1__47262_SHARP_,dep_k);
+return cljs.core.update.cljs$core$IFn$_invoke$arity$3(graph,k,(function (p1__47261_SHARP_){
+return cljs.core.disj.cljs$core$IFn$_invoke$arity$2(p1__47261_SHARP_,dep_k);
 }));
 });
 posh.lib.graph.remove_item = (function posh$lib$graph$remove_item(graph,item_k){

@@ -215,10 +215,10 @@ var vec__31830 = zprint.config.perform_remove(null,null,zprint.config.get_option
 var internal_map = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31830,(0),null);
 var rest_options__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31830,(1),null);
 var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31830,(2),null);
-var vec__31834 = zprint.config.apply_style(null,null,internal_map,rest_options__$1);
-var updated_map = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31834,(0),null);
-var ___$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31834,(1),null);
-var style_errors = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31834,(2),null);
+var vec__31833 = zprint.config.apply_style(null,null,internal_map,rest_options__$1);
+var updated_map = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31833,(0),null);
+var ___$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31833,(1),null);
+var style_errors = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31833,(2),null);
 var style_errors__$1 = (cljs.core.truth_(style_errors)?["Option errors in this call: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(style_errors)].join(''):null);
 var actual_options = (((!(cljs.core.empty_QMARK_(style_errors__$1))))?(function(){throw (new Error(style_errors__$1))})():zprint.config.add_calculated_options(zprint.config.merge_deep.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([updated_map,rest_options__$1], 0))));
 return actual_options;
@@ -234,9 +234,9 @@ return actual_options;
  */
 zprint.core.zprint_STAR_ = (function zprint$core$zprint_STAR_(coll,special_option,actual_options){
 if(cljs.core.truth_(special_option)){
-var G__31841 = special_option;
-var G__31841__$1 = (((G__31841 instanceof cljs.core.Keyword))?G__31841.fqn:null);
-switch (G__31841__$1) {
+var G__31839 = special_option;
+var G__31839__$1 = (((G__31839 instanceof cljs.core.Keyword))?G__31839.fqn:null);
+switch (G__31839__$1) {
 case "explain":
 return zprint.core.fzprint_style(zprint.config.get_explained_options(),zprint.config.merge_deep.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([zprint.config.get_default_options(),actual_options], 0)));
 
@@ -284,9 +284,9 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(cljs.core.dissoc.cljs$core$
  * Select the elements from start to end from a vector.
  */
 zprint.core.range_vec = (function zprint$core$range_vec(v,p__31845){
-var vec__31847 = p__31845;
-var start = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31847,(0),null);
-var end = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31847,(1),null);
+var vec__31846 = p__31845;
+var start = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31846,(0),null);
+var end = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31846,(1),null);
 return cljs.core.take.cljs$core$IFn$_invoke$arity$2((end - start),cljs.core.drop.cljs$core$IFn$_invoke$arity$2(start,v));
 });
 /**

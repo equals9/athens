@@ -133,11 +133,11 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(cljs.core.merge_with,cljs.c
 (zprint.config.merge_deep_doc.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(zprint.config.merge_deep_doc.cljs$lang$applyTo = (function (seq30737){
-var G__30738 = cljs.core.first(seq30737);
-var seq30737__$1 = cljs.core.next(seq30737);
+(zprint.config.merge_deep_doc.cljs$lang$applyTo = (function (seq30740){
+var G__30741 = cljs.core.first(seq30740);
+var seq30740__$1 = cljs.core.next(seq30740);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__30738,seq30737__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__30741,seq30740__$1);
 }));
 
 /**

@@ -40,37 +40,37 @@ return cljs.core.not_empty(cljs.core.into.cljs$core$IFn$_invoke$arity$3(cljs.cor
 (sci.impl.opts.process_permissions.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(sci.impl.opts.process_permissions.cljs$lang$applyTo = (function (seq58954){
+(sci.impl.opts.process_permissions.cljs$lang$applyTo = (function (seq58955){
 var self__4777__auto__ = this;
-return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq58954));
+return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq58955));
 }));
 
 sci.impl.opts.default_classes = new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Symbol(null,"Error","Error",-1692662047,null),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"class","class",-2030961996),Error,new cljs.core.Keyword(null,"constructor","constructor",-1953928811),(function() {
-var G__58983 = null;
-var G__58983__1 = (function (msg){
+var G__58974 = null;
+var G__58974__1 = (function (msg){
 return (new Error(msg));
 });
-var G__58983__2 = (function (msg,filename){
+var G__58974__2 = (function (msg,filename){
 return (new Error(msg,filename));
 });
-var G__58983__3 = (function (msg,filename,line){
+var G__58974__3 = (function (msg,filename,line){
 return (new Error(msg,filename,line));
 });
-G__58983 = function(msg,filename,line){
+G__58974 = function(msg,filename,line){
 switch(arguments.length){
 case 1:
-return G__58983__1.call(this,msg);
+return G__58974__1.call(this,msg);
 case 2:
-return G__58983__2.call(this,msg,filename);
+return G__58974__2.call(this,msg,filename);
 case 3:
-return G__58983__3.call(this,msg,filename,line);
+return G__58974__3.call(this,msg,filename,line);
 }
 throw(new Error('Invalid arity: ' + arguments.length));
 };
-G__58983.cljs$core$IFn$_invoke$arity$1 = G__58983__1;
-G__58983.cljs$core$IFn$_invoke$arity$2 = G__58983__2;
-G__58983.cljs$core$IFn$_invoke$arity$3 = G__58983__3;
-return G__58983;
+G__58974.cljs$core$IFn$_invoke$arity$1 = G__58974__1;
+G__58974.cljs$core$IFn$_invoke$arity$2 = G__58974__2;
+G__58974.cljs$core$IFn$_invoke$arity$3 = G__58974__3;
+return G__58974;
 })()
 ], null),new cljs.core.Symbol(null,"cljs.core.Delay","cljs.core.Delay",-1917476777,null),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"class","class",-2030961996),cljs.core.Delay,new cljs.core.Keyword(null,"constructor","constructor",-1953928811),(function (p1__58956_SHARP_){
 return (new cljs.core.Delay(p1__58956_SHARP_,null));
@@ -87,10 +87,10 @@ if(cljs.core.truth_(temp__5733__auto__)){
 var vec__58958 = temp__5733__auto__;
 var sym = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__58958,(0),null);
 var class_opts = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__58958,(1),null);
-var G__58984 = cljs.core.assoc_BANG_.cljs$core$IFn$_invoke$arity$3(class__GT_opts,sym,((cljs.core.map_QMARK_(class_opts))?class_opts:new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"class","class",-2030961996),class_opts], null)));
-var G__58985 = cljs.core.rest(kvs);
-class__GT_opts = G__58984;
-kvs = G__58985;
+var G__58978 = cljs.core.assoc_BANG_.cljs$core$IFn$_invoke$arity$3(class__GT_opts,sym,((cljs.core.map_QMARK_(class_opts))?class_opts:new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"class","class",-2030961996),class_opts], null)));
+var G__58979 = cljs.core.rest(kvs);
+class__GT_opts = G__58978;
+kvs = G__58979;
 continue;
 } else {
 return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"public-class","public-class",1127293019),new cljs.core.Keyword(null,"public-class","public-class",1127293019).cljs$core$IFn$_invoke$arity$1(classes),new cljs.core.Keyword(null,"class->opts","class->opts",2061906477),cljs.core.persistent_BANG_(class__GT_opts)], null);
@@ -101,8 +101,8 @@ break;
 /**
  * Initializes options
  */
-sci.impl.opts.init = (function sci$impl$opts$init(p__58961){
-var map__58963 = p__58961;
+sci.impl.opts.init = (function sci$impl$opts$init(p__58962){
+var map__58963 = p__58962;
 var map__58963__$1 = (((((!((map__58963 == null))))?(((((map__58963.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__58963.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__58963):map__58963);
 var features = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__58963__$1,new cljs.core.Keyword(null,"features","features",-1146962336));
 var namespaces = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__58963__$1,new cljs.core.Keyword(null,"namespaces","namespaces",-1444157469));

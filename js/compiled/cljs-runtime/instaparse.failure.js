@@ -108,13 +108,13 @@ return cljs.core.pr.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs
 /**
  * Takes an augmented failure object and prints the error message
  */
-instaparse.failure.pprint_failure = (function instaparse$failure$pprint_failure(p__63424){
-var map__63425 = p__63424;
-var map__63425__$1 = (((((!((map__63425 == null))))?(((((map__63425.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__63425.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__63425):map__63425);
-var line = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__63425__$1,new cljs.core.Keyword(null,"line","line",212345235));
-var column = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__63425__$1,new cljs.core.Keyword(null,"column","column",2078222095));
-var text = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__63425__$1,new cljs.core.Keyword(null,"text","text",-1790561697));
-var reason = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__63425__$1,new cljs.core.Keyword(null,"reason","reason",-2070751759));
+instaparse.failure.pprint_failure = (function instaparse$failure$pprint_failure(p__63418){
+var map__63419 = p__63418;
+var map__63419__$1 = (((((!((map__63419 == null))))?(((((map__63419.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__63419.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__63419):map__63419);
+var line = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__63419__$1,new cljs.core.Keyword(null,"line","line",212345235));
+var column = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__63419__$1,new cljs.core.Keyword(null,"column","column",2078222095));
+var text = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__63419__$1,new cljs.core.Keyword(null,"text","text",-1790561697));
+var reason = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__63419__$1,new cljs.core.Keyword(null,"reason","reason",-2070751759));
 cljs.core.println.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([["Parse error at line ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(line),", column ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(column),":"].join('')], 0));
 
 cljs.core.println.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([text], 0));
@@ -134,57 +134,57 @@ cljs.core.println.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$c
 }
 }
 
-var seq__63428_63446 = cljs.core.seq(full_reasons);
-var chunk__63429_63447 = null;
-var count__63430_63448 = (0);
-var i__63431_63449 = (0);
+var seq__63425_63446 = cljs.core.seq(full_reasons);
+var chunk__63426_63447 = null;
+var count__63427_63448 = (0);
+var i__63428_63449 = (0);
 while(true){
-if((i__63431_63449 < count__63430_63448)){
-var r_63450 = chunk__63429_63447.cljs$core$IIndexed$_nth$arity$2(null,i__63431_63449);
+if((i__63428_63449 < count__63427_63448)){
+var r_63450 = chunk__63426_63447.cljs$core$IIndexed$_nth$arity$2(null,i__63428_63449);
 instaparse.failure.print_reason(r_63450);
 
 cljs.core.println.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([" (followed by end-of-string)"], 0));
 
 
-var G__63451 = seq__63428_63446;
-var G__63452 = chunk__63429_63447;
-var G__63453 = count__63430_63448;
-var G__63454 = (i__63431_63449 + (1));
-seq__63428_63446 = G__63451;
-chunk__63429_63447 = G__63452;
-count__63430_63448 = G__63453;
-i__63431_63449 = G__63454;
+var G__63451 = seq__63425_63446;
+var G__63452 = chunk__63426_63447;
+var G__63453 = count__63427_63448;
+var G__63454 = (i__63428_63449 + (1));
+seq__63425_63446 = G__63451;
+chunk__63426_63447 = G__63452;
+count__63427_63448 = G__63453;
+i__63428_63449 = G__63454;
 continue;
 } else {
-var temp__5735__auto___63455 = cljs.core.seq(seq__63428_63446);
+var temp__5735__auto___63455 = cljs.core.seq(seq__63425_63446);
 if(temp__5735__auto___63455){
-var seq__63428_63456__$1 = temp__5735__auto___63455;
-if(cljs.core.chunked_seq_QMARK_(seq__63428_63456__$1)){
-var c__4609__auto___63457 = cljs.core.chunk_first(seq__63428_63456__$1);
-var G__63458 = cljs.core.chunk_rest(seq__63428_63456__$1);
+var seq__63425_63456__$1 = temp__5735__auto___63455;
+if(cljs.core.chunked_seq_QMARK_(seq__63425_63456__$1)){
+var c__4609__auto___63457 = cljs.core.chunk_first(seq__63425_63456__$1);
+var G__63458 = cljs.core.chunk_rest(seq__63425_63456__$1);
 var G__63459 = c__4609__auto___63457;
 var G__63460 = cljs.core.count(c__4609__auto___63457);
 var G__63461 = (0);
-seq__63428_63446 = G__63458;
-chunk__63429_63447 = G__63459;
-count__63430_63448 = G__63460;
-i__63431_63449 = G__63461;
+seq__63425_63446 = G__63458;
+chunk__63426_63447 = G__63459;
+count__63427_63448 = G__63460;
+i__63428_63449 = G__63461;
 continue;
 } else {
-var r_63462 = cljs.core.first(seq__63428_63456__$1);
+var r_63462 = cljs.core.first(seq__63425_63456__$1);
 instaparse.failure.print_reason(r_63462);
 
 cljs.core.println.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([" (followed by end-of-string)"], 0));
 
 
-var G__63463 = cljs.core.next(seq__63428_63456__$1);
+var G__63463 = cljs.core.next(seq__63425_63456__$1);
 var G__63464 = null;
 var G__63465 = (0);
 var G__63466 = (0);
-seq__63428_63446 = G__63463;
-chunk__63429_63447 = G__63464;
-count__63430_63448 = G__63465;
-i__63431_63449 = G__63466;
+seq__63425_63446 = G__63463;
+chunk__63426_63447 = G__63464;
+count__63427_63448 = G__63465;
+i__63428_63449 = G__63466;
 continue;
 }
 } else {
@@ -193,57 +193,57 @@ continue;
 break;
 }
 
-var seq__63432 = cljs.core.seq(partial_reasons);
-var chunk__63433 = null;
-var count__63434 = (0);
-var i__63435 = (0);
+var seq__63429 = cljs.core.seq(partial_reasons);
+var chunk__63430 = null;
+var count__63431 = (0);
+var i__63432 = (0);
 while(true){
-if((i__63435 < count__63434)){
-var r = chunk__63433.cljs$core$IIndexed$_nth$arity$2(null,i__63435);
+if((i__63432 < count__63431)){
+var r = chunk__63430.cljs$core$IIndexed$_nth$arity$2(null,i__63432);
 instaparse.failure.print_reason(r);
 
 cljs.core.println();
 
 
-var G__63468 = seq__63432;
-var G__63469 = chunk__63433;
-var G__63470 = count__63434;
-var G__63471 = (i__63435 + (1));
-seq__63432 = G__63468;
-chunk__63433 = G__63469;
-count__63434 = G__63470;
-i__63435 = G__63471;
+var G__63467 = seq__63429;
+var G__63468 = chunk__63430;
+var G__63469 = count__63431;
+var G__63470 = (i__63432 + (1));
+seq__63429 = G__63467;
+chunk__63430 = G__63468;
+count__63431 = G__63469;
+i__63432 = G__63470;
 continue;
 } else {
-var temp__5735__auto__ = cljs.core.seq(seq__63432);
+var temp__5735__auto__ = cljs.core.seq(seq__63429);
 if(temp__5735__auto__){
-var seq__63432__$1 = temp__5735__auto__;
-if(cljs.core.chunked_seq_QMARK_(seq__63432__$1)){
-var c__4609__auto__ = cljs.core.chunk_first(seq__63432__$1);
-var G__63472 = cljs.core.chunk_rest(seq__63432__$1);
-var G__63473 = c__4609__auto__;
-var G__63474 = cljs.core.count(c__4609__auto__);
-var G__63475 = (0);
-seq__63432 = G__63472;
-chunk__63433 = G__63473;
-count__63434 = G__63474;
-i__63435 = G__63475;
+var seq__63429__$1 = temp__5735__auto__;
+if(cljs.core.chunked_seq_QMARK_(seq__63429__$1)){
+var c__4609__auto__ = cljs.core.chunk_first(seq__63429__$1);
+var G__63471 = cljs.core.chunk_rest(seq__63429__$1);
+var G__63472 = c__4609__auto__;
+var G__63473 = cljs.core.count(c__4609__auto__);
+var G__63474 = (0);
+seq__63429 = G__63471;
+chunk__63430 = G__63472;
+count__63431 = G__63473;
+i__63432 = G__63474;
 continue;
 } else {
-var r = cljs.core.first(seq__63432__$1);
+var r = cljs.core.first(seq__63429__$1);
 instaparse.failure.print_reason(r);
 
 cljs.core.println();
 
 
-var G__63476 = cljs.core.next(seq__63432__$1);
-var G__63477 = null;
+var G__63475 = cljs.core.next(seq__63429__$1);
+var G__63476 = null;
+var G__63477 = (0);
 var G__63478 = (0);
-var G__63479 = (0);
-seq__63432 = G__63476;
-chunk__63433 = G__63477;
-count__63434 = G__63478;
-i__63435 = G__63479;
+seq__63429 = G__63475;
+chunk__63430 = G__63476;
+count__63431 = G__63477;
+i__63432 = G__63478;
 continue;
 }
 } else {

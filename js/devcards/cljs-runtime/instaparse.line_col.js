@@ -243,20 +243,20 @@ if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(index,new_index__$1)){
 return (new instaparse.line_col.Cursor(index,line,column,null,null,null));
 } else {
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(text.charAt(index),"\n")){
-var G__57427 = (index + (1));
-var G__57428 = (line + (1));
-var G__57429 = (1);
-index = G__57427;
-line = G__57428;
-column = G__57429;
+var G__57414 = (index + (1));
+var G__57415 = (line + (1));
+var G__57416 = (1);
+index = G__57414;
+line = G__57415;
+column = G__57416;
 continue;
 } else {
-var G__57430 = (index + (1));
-var G__57431 = line;
-var G__57432 = (column + (1));
-index = G__57430;
-line = G__57431;
-column = G__57432;
+var G__57417 = (index + (1));
+var G__57418 = line;
+var G__57419 = (column + (1));
+index = G__57417;
+line = G__57418;
+column = G__57419;
 continue;
 
 }

@@ -41,12 +41,12 @@ var event = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33258,(1),null);
 if(cljs.core.truth_(cljs.core.not_empty(event))){
 cljs.core.chunk_append(b__33257,cljs.core.with_meta(new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.view.history.history_item,event,id,current_id], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),id], null)));
 
-var G__33264 = (i__33256 + (1));
-i__33256 = G__33264;
+var G__33266 = (i__33256 + (1));
+i__33256 = G__33266;
 continue;
 } else {
-var G__33265 = (i__33256 + (1));
-i__33256 = G__33265;
+var G__33267 = (i__33256 + (1));
+i__33256 = G__33267;
 continue;
 }
 } else {
@@ -66,8 +66,8 @@ var event = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33261,(1),null);
 if(cljs.core.truth_(cljs.core.not_empty(event))){
 return cljs.core.cons(cljs.core.with_meta(new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.view.history.history_item,event,id,current_id], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),id], null)),day8$re_frame_10x$view$history$render_$_iter__33254(cljs.core.rest(s__33255__$2)));
 } else {
-var G__33266 = cljs.core.rest(s__33255__$2);
-s__33255__$1 = G__33266;
+var G__33269 = cljs.core.rest(s__33255__$2);
+s__33255__$1 = G__33269;
 continue;
 }
 }
