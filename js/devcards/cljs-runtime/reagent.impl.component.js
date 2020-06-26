@@ -77,12 +77,12 @@ return reagent.impl.component.extract_children(v);
 }
 });
 reagent.impl.component.reagent_class_QMARK_ = (function reagent$impl$component$reagent_class_QMARK_(c){
-return ((cljs.core.fn_QMARK_(c)) && ((!(((function (){var G__31552 = c;
-var G__31552__$1 = (((G__31552 == null))?null:G__31552.prototype);
-if((G__31552__$1 == null)){
+return ((cljs.core.fn_QMARK_(c)) && ((!(((function (){var G__31550 = c;
+var G__31550__$1 = (((G__31550 == null))?null:G__31550.prototype);
+if((G__31550__$1 == null)){
 return null;
 } else {
-return G__31552__$1.reagentRender;
+return G__31550__$1.reagentRender;
 }
 })() == null)))));
 });
@@ -131,8 +131,8 @@ var f = c.reagentRender;
 var _ = ((cljs.core.ifn_QMARK_(f))?null:(function(){throw (new Error(["Assert failed: ",["Expected something callable, not ",cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([f], 0))].join(''),"\n","(clojure.core/ifn? f)"].join('')))})());
 var res = ((c.cljsLegacyRender === true)?f.call(c,c):(function (){var v = reagent.impl.component.get_argv(c);
 var n = cljs.core.count(v);
-var G__31561 = n;
-switch (G__31561) {
+var G__31560 = n;
+switch (G__31560) {
 case (1):
 return f.call(c);
 
@@ -366,10 +366,10 @@ break;
 case "componentWillUnmount":
 return (function reagent$impl$component$custom_wrapper_$_componentWillUnmount(){
 var c = this;
-var G__31589_31666 = goog.object.get(c,"cljsRatom");
-if((G__31589_31666 == null)){
+var G__31580_31666 = goog.object.get(c,"cljsRatom");
+if((G__31580_31666 == null)){
 } else {
-reagent.ratom.dispose_BANG_(G__31589_31666);
+reagent.ratom.dispose_BANG_(G__31580_31666);
 }
 
 reagent.impl.batching.mark_rendered(c);

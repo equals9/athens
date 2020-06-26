@@ -218,10 +218,10 @@ return cljs.core.first(coll);
 });
 spec_tools.impl.deep_merge = (function spec_tools$impl$deep_merge(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___47346 = arguments.length;
+var len__4789__auto___47347 = arguments.length;
 var i__4790__auto___47348 = (0);
 while(true){
-if((i__4790__auto___47348 < len__4789__auto___47346)){
+if((i__4790__auto___47348 < len__4789__auto___47347)){
 args__4795__auto__.push((arguments[i__4790__auto___47348]));
 
 var G__47349 = (i__4790__auto___47348 + (1));

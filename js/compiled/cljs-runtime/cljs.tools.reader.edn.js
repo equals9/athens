@@ -75,14 +75,14 @@ return cljs.core.str.cljs$core$IFn$_invoke$arity$1(sb);
 if(cljs.tools.reader.edn.not_constituent_QMARK_(ch)){
 return cljs.tools.reader.impl.errors.throw_bad_char(rdr,kind,ch);
 } else {
-var G__24928 = (function (){var G__24865 = sb;
+var G__24929 = (function (){var G__24865 = sb;
 G__24865.append(cljs.tools.reader.reader_types.read_char(rdr));
 
 return G__24865;
 })();
-var G__24929 = cljs.tools.reader.reader_types.peek_char(rdr);
-sb = G__24928;
-ch = G__24929;
+var G__24930 = cljs.tools.reader.reader_types.peek_char(rdr);
+sb = G__24929;
+ch = G__24930;
 continue;
 }
 }
@@ -314,8 +314,8 @@ var temp__5733__auto__ = (cljs.tools.reader.edn.macros.cljs$core$IFn$_invoke$ari
 if(cljs.core.truth_(temp__5733__auto__)){
 var macrofn = temp__5733__auto__;
 var mret = (macrofn.cljs$core$IFn$_invoke$arity$3 ? macrofn.cljs$core$IFn$_invoke$arity$3(rdr,ch,opts) : macrofn.call(null,rdr,ch,opts));
-var G__24937 = (((!((mret === rdr))))?cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(a,mret):a);
-a = G__24937;
+var G__24938 = (((!((mret === rdr))))?cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(a,mret):a);
+a = G__24938;
 continue;
 } else {
 var o = (function (){var G__24884 = (function (){var G__24888 = rdr;

@@ -29,8 +29,8 @@ return cljs.core.native_satisfies_QMARK_(devtools.protocols.IGroup,value);
 }
 });
 devtools.formatters.templating.mark_as_template_BANG_ = (function devtools$formatters$templating$mark_as_template_BANG_(value){
-var x23800_23867 = value;
-(x23800_23867.devtools$protocols$ITemplate$ = cljs.core.PROTOCOL_SENTINEL);
+var x23797_23867 = value;
+(x23797_23867.devtools$protocols$ITemplate$ = cljs.core.PROTOCOL_SENTINEL);
 
 
 return value;
@@ -286,13 +286,13 @@ return template;
 (devtools.formatters.templating.make_template.cljs$lang$maxFixedArity = (2));
 
 /** @this {Function} */
-(devtools.formatters.templating.make_template.cljs$lang$applyTo = (function (seq23809){
-var G__23810 = cljs.core.first(seq23809);
-var seq23809__$1 = cljs.core.next(seq23809);
-var G__23811 = cljs.core.first(seq23809__$1);
-var seq23809__$2 = cljs.core.next(seq23809__$1);
+(devtools.formatters.templating.make_template.cljs$lang$applyTo = (function (seq23810){
+var G__23811 = cljs.core.first(seq23810);
+var seq23810__$1 = cljs.core.next(seq23810);
+var G__23812 = cljs.core.first(seq23810__$1);
+var seq23810__$2 = cljs.core.next(seq23810__$1);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__23810,G__23811,seq23809__$2);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__23811,G__23812,seq23810__$2);
 }));
 
 devtools.formatters.templating.concat_templates_BANG_ = (function devtools$formatters$templating$concat_templates_BANG_(var_args){
@@ -322,23 +322,23 @@ return devtools.formatters.templating.mark_as_template_BANG_((template["concat"]
 (devtools.formatters.templating.concat_templates_BANG_.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(devtools.formatters.templating.concat_templates_BANG_.cljs$lang$applyTo = (function (seq23817){
-var G__23818 = cljs.core.first(seq23817);
-var seq23817__$1 = cljs.core.next(seq23817);
+(devtools.formatters.templating.concat_templates_BANG_.cljs$lang$applyTo = (function (seq23825){
+var G__23826 = cljs.core.first(seq23825);
+var seq23825__$1 = cljs.core.next(seq23825);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__23818,seq23817__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__23826,seq23825__$1);
 }));
 
 devtools.formatters.templating.extend_template_BANG_ = (function devtools$formatters$templating$extend_template_BANG_(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___23924 = arguments.length;
-var i__4790__auto___23925 = (0);
+var len__4789__auto___23929 = arguments.length;
+var i__4790__auto___23930 = (0);
 while(true){
-if((i__4790__auto___23925 < len__4789__auto___23924)){
-args__4795__auto__.push((arguments[i__4790__auto___23925]));
+if((i__4790__auto___23930 < len__4789__auto___23929)){
+args__4795__auto__.push((arguments[i__4790__auto___23930]));
 
-var G__23926 = (i__4790__auto___23925 + (1));
-i__4790__auto___23925 = G__23926;
+var G__23932 = (i__4790__auto___23930 + (1));
+i__4790__auto___23930 = G__23932;
 continue;
 } else {
 }
@@ -356,16 +356,16 @@ return devtools.formatters.templating.concat_templates_BANG_.cljs$core$IFn$_invo
 (devtools.formatters.templating.extend_template_BANG_.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(devtools.formatters.templating.extend_template_BANG_.cljs$lang$applyTo = (function (seq23821){
-var G__23822 = cljs.core.first(seq23821);
-var seq23821__$1 = cljs.core.next(seq23821);
+(devtools.formatters.templating.extend_template_BANG_.cljs$lang$applyTo = (function (seq23831){
+var G__23832 = cljs.core.first(seq23831);
+var seq23831__$1 = cljs.core.next(seq23831);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__23822,seq23821__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__23832,seq23831__$1);
 }));
 
 devtools.formatters.templating.make_surrogate = (function devtools$formatters$templating$make_surrogate(var_args){
-var G__23830 = arguments.length;
-switch (G__23830) {
+var G__23837 = arguments.length;
+switch (G__23837) {
 case 1:
 return devtools.formatters.templating.make_surrogate.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -401,14 +401,14 @@ return devtools.formatters.templating.make_surrogate.cljs$core$IFn$_invoke$arity
 }));
 
 (devtools.formatters.templating.make_surrogate.cljs$core$IFn$_invoke$arity$4 = (function (object,header,body,start_index){
-return devtools.formatters.templating.mark_as_surrogate_BANG_((function (){var obj23836 = ({"target":object,"header":header,"body":body,"startIndex":(function (){var or__4185__auto__ = start_index;
+return devtools.formatters.templating.mark_as_surrogate_BANG_((function (){var obj23839 = ({"target":object,"header":header,"body":body,"startIndex":(function (){var or__4185__auto__ = start_index;
 if(cljs.core.truth_(or__4185__auto__)){
 return or__4185__auto__;
 } else {
 return (0);
 }
 })()});
-return obj23836;
+return obj23839;
 })());
 }));
 
@@ -448,14 +448,14 @@ return (surrogate["startIndex"]);
 });
 devtools.formatters.templating.make_reference = (function devtools$formatters$templating$make_reference(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___23928 = arguments.length;
-var i__4790__auto___23929 = (0);
+var len__4789__auto___23940 = arguments.length;
+var i__4790__auto___23941 = (0);
 while(true){
-if((i__4790__auto___23929 < len__4789__auto___23928)){
-args__4795__auto__.push((arguments[i__4790__auto___23929]));
+if((i__4790__auto___23941 < len__4789__auto___23940)){
+args__4795__auto__.push((arguments[i__4790__auto___23941]));
 
-var G__23930 = (i__4790__auto___23929 + (1));
-i__4790__auto___23929 = G__23930;
+var G__23947 = (i__4790__auto___23941 + (1));
+i__4790__auto___23941 = G__23947;
 continue;
 } else {
 }
@@ -487,11 +487,11 @@ return devtools.formatters.templating.make_group.cljs$core$IFn$_invoke$arity$var
 (devtools.formatters.templating.make_reference.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(devtools.formatters.templating.make_reference.cljs$lang$applyTo = (function (seq23840){
-var G__23841 = cljs.core.first(seq23840);
-var seq23840__$1 = cljs.core.next(seq23840);
+(devtools.formatters.templating.make_reference.cljs$lang$applyTo = (function (seq23843){
+var G__23844 = cljs.core.first(seq23843);
+var seq23843__$1 = cljs.core.next(seq23843);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__23841,seq23840__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__23844,seq23843__$1);
 }));
 
 devtools.formatters.templating._STAR_current_render_stack_STAR_ = cljs.core.PersistentVector.EMPTY;
@@ -534,8 +534,8 @@ devtools.formatters.templating.surrogate_markup_QMARK_ = (function devtools$form
 return ((cljs.core.sequential_QMARK_(markup)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.first(markup),"surrogate")));
 });
 devtools.formatters.templating.render_special = (function devtools$formatters$templating$render_special(name,args){
-var G__23852 = name;
-switch (G__23852) {
+var G__23856 = name;
+switch (G__23856) {
 case "surrogate":
 var obj = cljs.core.first(args);
 var converted_args = cljs.core.map.cljs$core$IFn$_invoke$arity$2(devtools.formatters.templating.render_json_ml_STAR_,cljs.core.rest(args));
@@ -561,18 +561,18 @@ return false;
 }
 });
 devtools.formatters.templating.render_subtree = (function devtools$formatters$templating$render_subtree(tag,children){
-var vec__23853 = tag;
-var html_tag = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__23853,(0),null);
-var style = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__23853,(1),null);
+var vec__23857 = tag;
+var html_tag = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__23857,(0),null);
+var style = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__23857,(1),null);
 return cljs.core.apply.cljs$core$IFn$_invoke$arity$4(devtools.formatters.templating.make_template,html_tag,style,cljs.core.map.cljs$core$IFn$_invoke$arity$2(devtools.formatters.templating.render_json_ml_STAR_,cljs.core.remove.cljs$core$IFn$_invoke$arity$2(devtools.formatters.templating.emptyish_QMARK_,cljs.core.map.cljs$core$IFn$_invoke$arity$2(devtools.formatters.helpers.pref,children))));
 });
 devtools.formatters.templating.render_json_ml_STAR_ = (function devtools$formatters$templating$render_json_ml_STAR_(markup){
 if((!(cljs.core.sequential_QMARK_(markup)))){
 return markup;
 } else {
-var _STAR_current_render_path_STAR__orig_val__23856 = devtools.formatters.templating._STAR_current_render_path_STAR_;
-var _STAR_current_render_path_STAR__temp_val__23857 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(devtools.formatters.templating._STAR_current_render_path_STAR_,cljs.core.first(markup));
-(devtools.formatters.templating._STAR_current_render_path_STAR_ = _STAR_current_render_path_STAR__temp_val__23857);
+var _STAR_current_render_path_STAR__orig_val__23860 = devtools.formatters.templating._STAR_current_render_path_STAR_;
+var _STAR_current_render_path_STAR__temp_val__23861 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(devtools.formatters.templating._STAR_current_render_path_STAR_,cljs.core.first(markup));
+(devtools.formatters.templating._STAR_current_render_path_STAR_ = _STAR_current_render_path_STAR__temp_val__23861);
 
 try{var tag = devtools.formatters.helpers.pref(cljs.core.first(markup));
 if(typeof tag === 'string'){
@@ -585,22 +585,22 @@ return devtools.formatters.templating.assert_markup_error(["invalid json-ml mark
 
 }
 }
-}finally {(devtools.formatters.templating._STAR_current_render_path_STAR_ = _STAR_current_render_path_STAR__orig_val__23856);
+}finally {(devtools.formatters.templating._STAR_current_render_path_STAR_ = _STAR_current_render_path_STAR__orig_val__23860);
 }}
 });
 devtools.formatters.templating.render_json_ml = (function devtools$formatters$templating$render_json_ml(markup){
-var _STAR_current_render_stack_STAR__orig_val__23858 = devtools.formatters.templating._STAR_current_render_stack_STAR_;
-var _STAR_current_render_path_STAR__orig_val__23859 = devtools.formatters.templating._STAR_current_render_path_STAR_;
-var _STAR_current_render_stack_STAR__temp_val__23860 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(devtools.formatters.templating._STAR_current_render_stack_STAR_,markup);
-var _STAR_current_render_path_STAR__temp_val__23861 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(devtools.formatters.templating._STAR_current_render_path_STAR_,"<render-json-ml>");
-(devtools.formatters.templating._STAR_current_render_stack_STAR_ = _STAR_current_render_stack_STAR__temp_val__23860);
+var _STAR_current_render_stack_STAR__orig_val__23862 = devtools.formatters.templating._STAR_current_render_stack_STAR_;
+var _STAR_current_render_path_STAR__orig_val__23863 = devtools.formatters.templating._STAR_current_render_path_STAR_;
+var _STAR_current_render_stack_STAR__temp_val__23864 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(devtools.formatters.templating._STAR_current_render_stack_STAR_,markup);
+var _STAR_current_render_path_STAR__temp_val__23865 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(devtools.formatters.templating._STAR_current_render_path_STAR_,"<render-json-ml>");
+(devtools.formatters.templating._STAR_current_render_stack_STAR_ = _STAR_current_render_stack_STAR__temp_val__23864);
 
-(devtools.formatters.templating._STAR_current_render_path_STAR_ = _STAR_current_render_path_STAR__temp_val__23861);
+(devtools.formatters.templating._STAR_current_render_path_STAR_ = _STAR_current_render_path_STAR__temp_val__23865);
 
 try{return devtools.formatters.templating.render_json_ml_STAR_(markup);
-}finally {(devtools.formatters.templating._STAR_current_render_path_STAR_ = _STAR_current_render_path_STAR__orig_val__23859);
+}finally {(devtools.formatters.templating._STAR_current_render_path_STAR_ = _STAR_current_render_path_STAR__orig_val__23863);
 
-(devtools.formatters.templating._STAR_current_render_stack_STAR_ = _STAR_current_render_stack_STAR__orig_val__23858);
+(devtools.formatters.templating._STAR_current_render_stack_STAR_ = _STAR_current_render_stack_STAR__orig_val__23862);
 }});
 devtools.formatters.templating.assert_failed_markup_rendering = (function devtools$formatters$templating$assert_failed_markup_rendering(initial_value,value){
 throw (new Error(["Assert failed: ",["result of markup rendering must be a template,\n","resolved to ",devtools.util.pprint_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([value], 0)),"initial value: ",devtools.util.pprint_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([initial_value], 0))].join(''),"\n","false"].join('')));
@@ -609,24 +609,24 @@ throw (new Error(["Assert failed: ",["result of markup rendering must be a templ
 devtools.formatters.templating.render_markup_STAR_ = (function devtools$formatters$templating$render_markup_STAR_(initial_value,value){
 while(true){
 if(cljs.core.fn_QMARK_(value)){
-var G__23956 = initial_value;
-var G__23957 = (value.cljs$core$IFn$_invoke$arity$0 ? value.cljs$core$IFn$_invoke$arity$0() : value.call(null));
-initial_value = G__23956;
-value = G__23957;
+var G__23976 = initial_value;
+var G__23977 = (value.cljs$core$IFn$_invoke$arity$0 ? value.cljs$core$IFn$_invoke$arity$0() : value.call(null));
+initial_value = G__23976;
+value = G__23977;
 continue;
 } else {
 if((value instanceof cljs.core.Keyword)){
-var G__23958 = initial_value;
-var G__23959 = devtools.formatters.helpers.pref(value);
-initial_value = G__23958;
-value = G__23959;
+var G__23981 = initial_value;
+var G__23982 = devtools.formatters.helpers.pref(value);
+initial_value = G__23981;
+value = G__23982;
 continue;
 } else {
 if(cljs.core.sequential_QMARK_(value)){
-var G__23960 = initial_value;
-var G__23961 = devtools.formatters.templating.render_json_ml(value);
-initial_value = G__23960;
-value = G__23961;
+var G__23983 = initial_value;
+var G__23984 = devtools.formatters.templating.render_json_ml(value);
+initial_value = G__23983;
+value = G__23984;
 continue;
 } else {
 if(devtools.formatters.templating.template_QMARK_(value)){

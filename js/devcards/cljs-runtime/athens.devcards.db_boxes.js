@@ -57,9 +57,9 @@ athens.devcards.db_boxes.increase_limit_BANG_ = (function athens$devcards$db_box
 return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$variadic(athens.devcards.db_boxes.box_state_STAR_,cljs.core.update,new cljs.core.Keyword(null,"limit","limit",-1355822363),cljs.core._PLUS_,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([(10)], 0));
 });
 athens.devcards.db_boxes.load_real_db_BANG_ = (function athens$devcards$db_boxes$load_real_db_BANG_(conn){
-var c__34274__auto__ = cljs.core.async.chan.cljs$core$IFn$_invoke$arity$1((1));
+var c__34273__auto__ = cljs.core.async.chan.cljs$core$IFn$_invoke$arity$1((1));
 cljs.core.async.impl.dispatch.run((function (){
-var f__34275__auto__ = (function (){var switch__34206__auto__ = (function (state_59925){
+var f__34274__auto__ = (function (){var switch__34206__auto__ = (function (state_59925){
 var state_val_59926 = (state_59925[(1)]);
 if((state_val_59926 === (7))){
 var state_59925__$1 = state_59925;
@@ -320,15 +320,15 @@ athens$devcards$db_boxes$load_real_db_BANG__$_state_machine__34207__auto__.cljs$
 return athens$devcards$db_boxes$load_real_db_BANG__$_state_machine__34207__auto__;
 })()
 })();
-var state__34276__auto__ = (function (){var statearr_59949 = (f__34275__auto__.cljs$core$IFn$_invoke$arity$0 ? f__34275__auto__.cljs$core$IFn$_invoke$arity$0() : f__34275__auto__.call(null));
-(statearr_59949[(6)] = c__34274__auto__);
+var state__34275__auto__ = (function (){var statearr_59949 = (f__34274__auto__.cljs$core$IFn$_invoke$arity$0 ? f__34274__auto__.cljs$core$IFn$_invoke$arity$0() : f__34274__auto__.call(null));
+(statearr_59949[(6)] = c__34273__auto__);
 
 return statearr_59949;
 })();
-return cljs.core.async.impl.ioc_helpers.run_state_machine_wrapped(state__34276__auto__);
+return cljs.core.async.impl.ioc_helpers.run_state_machine_wrapped(state__34275__auto__);
 }));
 
-return c__34274__auto__;
+return c__34273__auto__;
 });
 athens.devcards.db_boxes.load_real_db_button = (function athens$devcards$db_boxes$load_real_db_button(conn){
 var pressed_QMARK_ = reagent.core.atom.cljs$core$IFn$_invoke$arity$1(false);
