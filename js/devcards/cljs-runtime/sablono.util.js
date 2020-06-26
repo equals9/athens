@@ -192,30 +192,30 @@ return [base,cljs.core.str.cljs$core$IFn$_invoke$arity$1(x__$1)].join('');
 
 goog.object.set(sablono.util.ToString,"null",true);
 
-var G__34368_34395 = sablono.util.to_str;
-var G__34369_34397 = "null";
-var G__34370_34398 = (function (_){
+var G__34366_34398 = sablono.util.to_str;
+var G__34367_34399 = "null";
+var G__34368_34400 = (function (_){
 return "";
 });
-goog.object.set(G__34368_34395,G__34369_34397,G__34370_34398);
+goog.object.set(G__34366_34398,G__34367_34399,G__34368_34400);
 
 goog.object.set(sablono.util.ToString,"number",true);
 
-var G__34373_34405 = sablono.util.to_str;
-var G__34374_34406 = "number";
-var G__34375_34407 = (function (x){
+var G__34371_34405 = sablono.util.to_str;
+var G__34372_34406 = "number";
+var G__34373_34407 = (function (x){
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(x);
 });
-goog.object.set(G__34373_34405,G__34374_34406,G__34375_34407);
+goog.object.set(G__34371_34405,G__34372_34406,G__34373_34407);
 
 goog.object.set(sablono.util.ToString,"_",true);
 
-var G__34377_34408 = sablono.util.to_str;
-var G__34378_34409 = "_";
-var G__34379_34410 = (function (x){
+var G__34374_34414 = sablono.util.to_str;
+var G__34375_34415 = "_";
+var G__34376_34416 = (function (x){
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(x);
 });
-goog.object.set(G__34377_34408,G__34378_34409,G__34379_34410);
+goog.object.set(G__34374_34414,G__34375_34415,G__34376_34416);
 (goog.Uri.prototype.sablono$util$ToURI$ = cljs.core.PROTOCOL_SENTINEL);
 
 (goog.Uri.prototype.sablono$util$ToURI$to_uri$arity$1 = (function (x){
@@ -225,11 +225,11 @@ return x__$1;
 
 goog.object.set(sablono.util.ToURI,"_",true);
 
-var G__34380_34417 = sablono.util.to_uri;
-var G__34381_34418 = "_";
-var G__34382_34419 = (function (x){
+var G__34380_34420 = sablono.util.to_uri;
+var G__34381_34421 = "_";
+var G__34382_34422 = (function (x){
 return (new goog.Uri(cljs.core.str.cljs$core$IFn$_invoke$arity$1(x)));
 });
-goog.object.set(G__34380_34417,G__34381_34418,G__34382_34419);
+goog.object.set(G__34380_34420,G__34381_34421,G__34382_34422);
 
 //# sourceMappingURL=sablono.util.js.map

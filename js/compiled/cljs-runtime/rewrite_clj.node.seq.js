@@ -233,9 +233,9 @@ return (pred__30134.cljs$core$IFn$_invoke$arity$2 ? pred__30134.cljs$core$IFn$_i
 })())){
 return (new rewrite_clj.node.seq.SeqNode(G__30114,self__.wrap_fn,self__.wrap_length,self__.seq_fn,self__.children,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((function (){var G__30140 = new cljs.core.Keyword(null,"wrap-fn","wrap-fn",-270233130);
-var G__30141 = expr__30135;
-return (pred__30134.cljs$core$IFn$_invoke$arity$2 ? pred__30134.cljs$core$IFn$_invoke$arity$2(G__30140,G__30141) : pred__30134.call(null,G__30140,G__30141));
+if(cljs.core.truth_((function (){var G__30139 = new cljs.core.Keyword(null,"wrap-fn","wrap-fn",-270233130);
+var G__30140 = expr__30135;
+return (pred__30134.cljs$core$IFn$_invoke$arity$2 ? pred__30134.cljs$core$IFn$_invoke$arity$2(G__30139,G__30140) : pred__30134.call(null,G__30139,G__30140));
 })())){
 return (new rewrite_clj.node.seq.SeqNode(self__.tag,G__30114,self__.wrap_length,self__.seq_fn,self__.children,self__.__meta,self__.__extmap,null));
 } else {

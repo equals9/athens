@@ -24,9 +24,9 @@ var _STAR_always_update_STAR__orig_val__32451 = reagent.impl.util._STAR_always_u
 var _STAR_always_update_STAR__temp_val__32452 = true;
 (reagent.impl.util._STAR_always_update_STAR_ = _STAR_always_update_STAR__temp_val__32452);
 
-try{var G__32453 = (comp.cljs$core$IFn$_invoke$arity$0 ? comp.cljs$core$IFn$_invoke$arity$0() : comp.call(null));
-var G__32454 = container;
-var G__32455 = (function (){
+try{var G__32454 = (comp.cljs$core$IFn$_invoke$arity$0 ? comp.cljs$core$IFn$_invoke$arity$0() : comp.call(null));
+var G__32455 = container;
+var G__32456 = (function (){
 var _STAR_always_update_STAR__orig_val__32459 = reagent.impl.util._STAR_always_update_STAR_;
 var _STAR_always_update_STAR__temp_val__32460 = false;
 (reagent.impl.util._STAR_always_update_STAR_ = _STAR_always_update_STAR__temp_val__32460);
@@ -42,7 +42,7 @@ return null;
 }
 }finally {(reagent.impl.util._STAR_always_update_STAR_ = _STAR_always_update_STAR__orig_val__32459);
 }});
-return module$node_modules$react_dom$index.render(G__32453,G__32454,G__32455);
+return module$node_modules$react_dom$index.render(G__32454,G__32455,G__32456);
 }finally {(reagent.impl.util._STAR_always_update_STAR_ = _STAR_always_update_STAR__orig_val__32451);
 }});
 reagent.dom.re_render_component = (function reagent$dom$re_render_component(comp,container){
@@ -57,8 +57,8 @@ return reagent.dom.render_comp(comp,container,null);
  *   Returns the mounted component instance.
  */
 reagent.dom.render = (function reagent$dom$render(var_args){
-var G__32470 = arguments.length;
-switch (G__32470) {
+var G__32468 = arguments.length;
+switch (G__32468) {
 case 2:
 return reagent.dom.render.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 

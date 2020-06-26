@@ -301,9 +301,9 @@ var self__ = this;
 var this__4446__auto____$1 = this;
 var pred__30057 = cljs.core.keyword_identical_QMARK_;
 var expr__30058 = k__4447__auto__;
-if(cljs.core.truth_((function (){var G__30060 = new cljs.core.Keyword(null,"children","children",-940561982);
-var G__30061 = expr__30058;
-return (pred__30057.cljs$core$IFn$_invoke$arity$2 ? pred__30057.cljs$core$IFn$_invoke$arity$2(G__30060,G__30061) : pred__30057.call(null,G__30060,G__30061));
+if(cljs.core.truth_((function (){var G__30061 = new cljs.core.Keyword(null,"children","children",-940561982);
+var G__30062 = expr__30058;
+return (pred__30057.cljs$core$IFn$_invoke$arity$2 ? pred__30057.cljs$core$IFn$_invoke$arity$2(G__30061,G__30062) : pred__30057.call(null,G__30061,G__30062));
 })())){
 return (new rewrite_clj.node.fn.FnNode(G__30040,self__.__meta,self__.__extmap,null));
 } else {

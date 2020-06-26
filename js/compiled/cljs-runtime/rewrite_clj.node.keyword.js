@@ -284,13 +284,13 @@ return (new rewrite_clj.node.keyword.KeywordNode(new cljs.core.Keyword(null,"k",
 rewrite_clj.node.keyword.keyword_node = (function rewrite_clj$node$keyword$keyword_node(var_args){
 var args__4795__auto__ = [];
 var len__4789__auto___29907 = arguments.length;
-var i__4790__auto___29908 = (0);
+var i__4790__auto___29911 = (0);
 while(true){
-if((i__4790__auto___29908 < len__4789__auto___29907)){
-args__4795__auto__.push((arguments[i__4790__auto___29908]));
+if((i__4790__auto___29911 < len__4789__auto___29907)){
+args__4795__auto__.push((arguments[i__4790__auto___29911]));
 
-var G__29909 = (i__4790__auto___29908 + (1));
-i__4790__auto___29908 = G__29909;
+var G__29914 = (i__4790__auto___29911 + (1));
+i__4790__auto___29911 = G__29914;
 continue;
 } else {
 }
