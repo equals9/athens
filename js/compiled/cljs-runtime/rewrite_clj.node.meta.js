@@ -285,11 +285,11 @@ return (new rewrite_clj.node.meta.MetaNode(tag,prefix,children,null,null,null));
  * Factory function for rewrite-clj.node.meta/MetaNode, taking a map of keywords to field values.
  */
 rewrite_clj.node.meta.map__GT_MetaNode = (function rewrite_clj$node$meta$map__GT_MetaNode(G__30003){
-var extmap__4478__auto__ = (function (){var G__30026 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$variadic(G__30003,new cljs.core.Keyword(null,"tag","tag",-1290361223),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"prefix","prefix",-265908465),new cljs.core.Keyword(null,"children","children",-940561982)], 0));
+var extmap__4478__auto__ = (function (){var G__30024 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$variadic(G__30003,new cljs.core.Keyword(null,"tag","tag",-1290361223),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"prefix","prefix",-265908465),new cljs.core.Keyword(null,"children","children",-940561982)], 0));
 if(cljs.core.record_QMARK_(G__30003)){
-return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__30026);
+return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__30024);
 } else {
-return G__30026;
+return G__30024;
 }
 })();
 return (new rewrite_clj.node.meta.MetaNode(new cljs.core.Keyword(null,"tag","tag",-1290361223).cljs$core$IFn$_invoke$arity$1(G__30003),new cljs.core.Keyword(null,"prefix","prefix",-265908465).cljs$core$IFn$_invoke$arity$1(G__30003),new cljs.core.Keyword(null,"children","children",-940561982).cljs$core$IFn$_invoke$arity$1(G__30003),null,cljs.core.not_empty(extmap__4478__auto__),null));
@@ -299,8 +299,8 @@ return (new rewrite_clj.node.meta.MetaNode(new cljs.core.Keyword(null,"tag","tag
  * Create node representing a form and its metadata.
  */
 rewrite_clj.node.meta.meta_node = (function rewrite_clj$node$meta$meta_node(var_args){
-var G__30029 = arguments.length;
-switch (G__30029) {
+var G__30026 = arguments.length;
+switch (G__30026) {
 case 1:
 return rewrite_clj.node.meta.meta_node.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -332,8 +332,8 @@ return rewrite_clj.node.meta.meta_node.cljs$core$IFn$_invoke$arity$1(new cljs.co
  * `#^` prefix.
  */
 rewrite_clj.node.meta.raw_meta_node = (function rewrite_clj$node$meta$raw_meta_node(var_args){
-var G__30031 = arguments.length;
-switch (G__30031) {
+var G__30028 = arguments.length;
+switch (G__30028) {
 case 1:
 return rewrite_clj.node.meta.raw_meta_node.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

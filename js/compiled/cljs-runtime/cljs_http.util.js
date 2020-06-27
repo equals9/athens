@@ -30,8 +30,8 @@ var server_name = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__51807__$1,new
 var server_port = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__51807__$1,new cljs.core.Keyword(null,"server-port","server-port",663745648));
 var uri = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__51807__$1,new cljs.core.Keyword(null,"uri","uri",-774711847));
 var query_string = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__51807__$1,new cljs.core.Keyword(null,"query-string","query-string",-1018845061));
-return cljs.core.str.cljs$core$IFn$_invoke$arity$1((function (){var G__51812 = (new goog.Uri());
-G__51812.setScheme(cljs.core.name((function (){var or__4185__auto__ = scheme;
+return cljs.core.str.cljs$core$IFn$_invoke$arity$1((function (){var G__51810 = (new goog.Uri());
+G__51810.setScheme(cljs.core.name((function (){var or__4185__auto__ = scheme;
 if(cljs.core.truth_(or__4185__auto__)){
 return or__4185__auto__;
 } else {
@@ -39,15 +39,15 @@ return new cljs.core.Keyword(null,"http","http",382524695);
 }
 })()));
 
-G__51812.setDomain(server_name);
+G__51810.setDomain(server_name);
 
-G__51812.setPort(server_port);
+G__51810.setPort(server_port);
 
-G__51812.setPath(uri);
+G__51810.setPath(uri);
 
-G__51812.setQuery(query_string,true);
+G__51810.setQuery(query_string,true);
 
-return G__51812;
+return G__51810;
 })());
 });
 /**
@@ -106,14 +106,14 @@ cljs_http.util.json_encode = (function cljs_http$util$json_encode(x){
 return JSON.stringify(cljs.core.clj__GT_js(x));
 });
 cljs_http.util.parse_headers = (function cljs_http$util$parse_headers(headers){
-return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (p1__51815_SHARP_,p2__51814_SHARP_){
-var vec__51816 = clojure.string.split.cljs$core$IFn$_invoke$arity$2(p2__51814_SHARP_,/:\s+/);
-var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__51816,(0),null);
-var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__51816,(1),null);
+return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (p1__51814_SHARP_,p2__51813_SHARP_){
+var vec__51815 = clojure.string.split.cljs$core$IFn$_invoke$arity$2(p2__51813_SHARP_,/:\s+/);
+var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__51815,(0),null);
+var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__51815,(1),null);
 if(((clojure.string.blank_QMARK_(k)) || (clojure.string.blank_QMARK_(v)))){
-return p1__51815_SHARP_;
+return p1__51814_SHARP_;
 } else {
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__51815_SHARP_,clojure.string.lower_case(k),v);
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__51814_SHARP_,clojure.string.lower_case(k),v);
 }
 }),cljs.core.PersistentArrayMap.EMPTY,clojure.string.split.cljs$core$IFn$_invoke$arity$2((function (){var or__4185__auto__ = headers;
 if(cljs.core.truth_(or__4185__auto__)){
