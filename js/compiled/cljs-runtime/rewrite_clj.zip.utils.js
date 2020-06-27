@@ -1,11 +1,11 @@
 goog.provide('rewrite_clj.zip.utils');
 goog.require('cljs.core');
 goog.require('clojure.zip');
-rewrite_clj.zip.utils.update_in_path = (function rewrite_clj$zip$utils$update_in_path(p__30405,k,f){
-var vec__30406 = p__30405;
-var node = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__30406,(0),null);
-var path = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__30406,(1),null);
-var loc = vec__30406;
+rewrite_clj.zip.utils.update_in_path = (function rewrite_clj$zip$utils$update_in_path(p__30400,k,f){
+var vec__30402 = p__30400;
+var node = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__30402,(0),null);
+var path = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__30402,(1),null);
+var loc = vec__30402;
 var v = cljs.core.get.cljs$core$IFn$_invoke$arity$2(path,k);
 if(cljs.core.seq(v)){
 return cljs.core.with_meta(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [node,cljs.core.assoc.cljs$core$IFn$_invoke$arity$variadic(path,k,(f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(v) : f.call(null,v)),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"changed?","changed?",-437828330),true], 0))], null),cljs.core.meta(loc));
@@ -39,8 +39,8 @@ return and__4174__auto__;
 })())){
 return zloc__$1;
 } else {
-var G__30433 = clojure.zip.remove(zloc__$1);
-zloc__$1 = G__30433;
+var G__30434 = clojure.zip.remove(zloc__$1);
+zloc__$1 = G__30434;
 continue;
 }
 break;

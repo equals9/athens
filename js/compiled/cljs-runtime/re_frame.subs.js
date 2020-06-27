@@ -30,9 +30,9 @@ var count__32916_32990 = (0);
 var i__32917_32991 = (0);
 while(true){
 if((i__32917_32991 < count__32916_32990)){
-var vec__32925_32992 = chunk__32915_32989.cljs$core$IIndexed$_nth$arity$2(null,i__32917_32991);
-var k_32993 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32925_32992,(0),null);
-var rxn_32994 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32925_32992,(1),null);
+var vec__32924_32992 = chunk__32915_32989.cljs$core$IIndexed$_nth$arity$2(null,i__32917_32991);
+var k_32993 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32924_32992,(0),null);
+var rxn_32994 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32924_32992,(1),null);
 re_frame.interop.dispose_BANG_(rxn_32994);
 
 
@@ -466,10 +466,10 @@ return cljs.core.deref(cljs.core.deref(sub));
  *   (map-vals inc {:a 4, :b 2}) => {:a 5, :b 3}
  */
 re_frame.subs.map_vals = (function re_frame$subs$map_vals(f,m){
-return cljs.core.into.cljs$core$IFn$_invoke$arity$3(cljs.core.empty(m),cljs.core.map.cljs$core$IFn$_invoke$arity$1((function (p__32948){
-var vec__32949 = p__32948;
-var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32949,(0),null);
-var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32949,(1),null);
+return cljs.core.into.cljs$core$IFn$_invoke$arity$3(cljs.core.empty(m),cljs.core.map.cljs$core$IFn$_invoke$arity$1((function (p__32947){
+var vec__32948 = p__32947;
+var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32948,(0),null);
+var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32948,(1),null);
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [k,(f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(v) : f.call(null,v))], null);
 })),m);
 });
@@ -684,8 +684,8 @@ return re_frame.subs.reg_sub.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)
 var computation_fn = cljs.core.last(args);
 var input_args = cljs.core.butlast(args);
 var err_header = ["re-frame: reg-sub for ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(query_id),", "].join('');
-var inputs_fn = (function (){var G__32965 = cljs.core.count(input_args);
-switch (G__32965) {
+var inputs_fn = (function (){var G__32964 = cljs.core.count(input_args);
+switch (G__32964) {
 case (0):
 return (function() {
 var G__33060 = null;
@@ -721,9 +721,9 @@ return f;
 
 break;
 case (2):
-var vec__32967 = input_args;
-var marker = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32967,(0),null);
-var vec = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32967,(1),null);
+var vec__32966 = input_args;
+var marker = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32966,(0),null);
+var vec = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32966,(1),null);
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"<-","<-",760412998),marker)){
 } else {
 re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"error","error",-978969032),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([err_header,"expected :<-, got:",marker], 0));

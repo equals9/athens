@@ -40,9 +40,9 @@ return cljs.core.not_empty(cljs.core.into.cljs$core$IFn$_invoke$arity$3(cljs.cor
 (sci.impl.opts.process_permissions.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(sci.impl.opts.process_permissions.cljs$lang$applyTo = (function (seq58952){
+(sci.impl.opts.process_permissions.cljs$lang$applyTo = (function (seq58955){
 var self__4777__auto__ = this;
-return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq58952));
+return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq58955));
 }));
 
 sci.impl.opts.default_classes = new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Symbol(null,"Error","Error",-1692662047,null),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"class","class",-2030961996),Error,new cljs.core.Keyword(null,"constructor","constructor",-1953928811),(function() {

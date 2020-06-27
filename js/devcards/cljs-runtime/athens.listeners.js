@@ -9,8 +9,8 @@ goog.require('goog.events.KeyCodes');
 
 athens.listeners.mouse_down_bullet = (function athens$listeners$mouse_down_bullet(e){
 var class_list = cljs.core.array_seq.cljs$core$IFn$_invoke$arity$1(e.target.classList);
-if(cljs.core.truth_(cljs.core.some((function (p1__60654_SHARP_){
-return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("bullet",p1__60654_SHARP_);
+if(cljs.core.truth_(cljs.core.some((function (p1__60645_SHARP_){
+return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("bullet",p1__60645_SHARP_);
 }),class_list))){
 var start_pos = new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"x","x",2099068185),e.clientX,new cljs.core.Keyword(null,"y","y",-1757859776),e.clientY], null);
 var uid = e.target.dataset.uid;
@@ -24,13 +24,13 @@ return null;
 });
 athens.listeners.mouse_up_bullet = (function athens$listeners$mouse_up_bullet(on_move){
 return (function (_){
-var map__60655 = cljs.core.deref((function (){var G__60656 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"drag-bullet","drag-bullet",441161411)], null);
-return (re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(G__60656) : re_frame.core.subscribe.call(null,G__60656));
+var map__60650 = cljs.core.deref((function (){var G__60652 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"drag-bullet","drag-bullet",441161411)], null);
+return (re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(G__60652) : re_frame.core.subscribe.call(null,G__60652));
 })());
-var map__60655__$1 = (((((!((map__60655 == null))))?(((((map__60655.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__60655.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__60655):map__60655);
-var target_uid = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60655__$1,new cljs.core.Keyword("closest","uid","closest/uid",-582260451));
-var uid = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60655__$1,new cljs.core.Keyword(null,"uid","uid",-1447769400));
-var kind = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60655__$1,new cljs.core.Keyword("closest","kind","closest/kind",429209294));
+var map__60650__$1 = (((((!((map__60650 == null))))?(((((map__60650.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__60650.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__60650):map__60650);
+var target_uid = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60650__$1,new cljs.core.Keyword("closest","uid","closest/uid",-582260451));
+var uid = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60650__$1,new cljs.core.Keyword(null,"uid","uid",-1447769400));
+var kind = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60650__$1,new cljs.core.Keyword("closest","kind","closest/kind",429209294));
 if(cljs.core.truth_((function (){var and__4174__auto__ = uid;
 if(cljs.core.truth_(and__4174__auto__)){
 var and__4174__auto____$1 = kind;
@@ -43,13 +43,13 @@ return and__4174__auto____$1;
 return and__4174__auto__;
 }
 })())){
-var G__60658_60671 = new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"drop-bullet","drop-bullet",1177869489),uid,target_uid,kind], null);
-(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__60658_60671) : re_frame.core.dispatch.call(null,G__60658_60671));
+var G__60654_60671 = new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"drop-bullet","drop-bullet",1177869489),uid,target_uid,kind], null);
+(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__60654_60671) : re_frame.core.dispatch.call(null,G__60654_60671));
 } else {
 }
 
-var G__60659_60672 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"drag-bullet","drag-bullet",441161411),null], null);
-(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__60659_60672) : re_frame.core.dispatch.call(null,G__60659_60672));
+var G__60655_60672 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"drag-bullet","drag-bullet",441161411),null], null);
+(re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__60655_60672) : re_frame.core.dispatch.call(null,G__60655_60672));
 
 return goog.events.unlisten(window,goog.events.EventType.MOUSEMOVE,on_move);
 });
@@ -81,8 +81,8 @@ return closest_sibling_uid;
 var closest_kind = (cljs.core.truth_(closest_child_uid)?new cljs.core.Keyword(null,"child","child",623967545):(cljs.core.truth_(closest_sibling_uid)?new cljs.core.Keyword(null,"sibling","sibling",-1183865000):null));
 (e.target.hidden = false);
 
-var G__60660 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"drag-bullet","drag-bullet",441161411),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"x","x",2099068185),x,new cljs.core.Keyword(null,"y","y",-1757859776),y,new cljs.core.Keyword(null,"uid","uid",-1447769400),uid,new cljs.core.Keyword("closest","uid","closest/uid",-582260451),closest_uid,new cljs.core.Keyword("closest","kind","closest/kind",429209294),closest_kind], null)], null);
-return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__60660) : re_frame.core.dispatch.call(null,G__60660));
+var G__60656 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"drag-bullet","drag-bullet",441161411),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"x","x",2099068185),x,new cljs.core.Keyword(null,"y","y",-1757859776),y,new cljs.core.Keyword(null,"uid","uid",-1447769400),uid,new cljs.core.Keyword("closest","uid","closest/uid",-582260451),closest_uid,new cljs.core.Keyword("closest","kind","closest/kind",429209294),closest_kind], null)], null);
+return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__60656) : re_frame.core.dispatch.call(null,G__60656));
 });
 });
 athens.listeners.mouse_down_block = (function athens$listeners$mouse_down_block(e){
@@ -102,8 +102,8 @@ return closest_page_header;
 }
 })();
 if(cljs.core.truth_(closest)){
-var G__60661 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"editing-uid","editing-uid",1372614377),closest.dataset.uid], null);
-return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__60661) : re_frame.core.dispatch.call(null,G__60661));
+var G__60657 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"editing-uid","editing-uid",1372614377),closest.dataset.uid], null);
+return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__60657) : re_frame.core.dispatch.call(null,G__60657));
 } else {
 return null;
 }
@@ -115,8 +115,8 @@ var uid = e.target.dataset.uid;
 var tooltip_uid = cljs.core.deref((function (){var G__60663 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"tooltip-uid","tooltip-uid",-1719650452)], null);
 return (re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(G__60663) : re_frame.core.subscribe.call(null,G__60663));
 })());
-if(cljs.core.truth_(cljs.core.some((function (p1__60662_SHARP_){
-return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("bullet",p1__60662_SHARP_);
+if(cljs.core.truth_(cljs.core.some((function (p1__60659_SHARP_){
+return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("bullet",p1__60659_SHARP_);
 }),class_list))){
 var G__60664 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"tooltip-uid","tooltip-uid",-1719650452),uid], null);
 return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__60664) : re_frame.core.dispatch.call(null,G__60664));

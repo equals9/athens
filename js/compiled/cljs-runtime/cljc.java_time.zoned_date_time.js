@@ -30,8 +30,8 @@ cljc.java_time.zoned_date_time.minus_hours = (function cljc$java_time$zoned_date
 return this3749.minusHours(long3750);
 });
 cljc.java_time.zoned_date_time.of = (function cljc$java_time$zoned_date_time$of(var_args){
-var G__58361 = arguments.length;
-switch (G__58361) {
+var G__58360 = arguments.length;
+switch (G__58360) {
 case 3:
 return cljc.java_time.zoned_date_time.of.cljs$core$IFn$_invoke$arity$3((arguments[(0)]),(arguments[(1)]),(arguments[(2)]));
 
@@ -281,8 +281,8 @@ cljc.java_time.zoned_date_time.hash_code = (function cljc$java_time$zoned_date_t
 return this3849.hashCode();
 });
 cljc.java_time.zoned_date_time.with$ = (function cljc$java_time$zoned_date_time$with(var_args){
-var G__58373 = arguments.length;
-switch (G__58373) {
+var G__58371 = arguments.length;
+switch (G__58371) {
 case 2:
 return cljc.java_time.zoned_date_time.with$.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -353,8 +353,8 @@ cljc.java_time.zoned_date_time.get_month = (function cljc$java_time$zoned_date_t
 return this3866.month();
 });
 cljc.java_time.zoned_date_time.of_instant = (function cljc$java_time$zoned_date_time$of_instant(var_args){
-var G__58379 = arguments.length;
-switch (G__58379) {
+var G__58377 = arguments.length;
+switch (G__58377) {
 case 3:
 return cljc.java_time.zoned_date_time.of_instant.cljs$core$IFn$_invoke$arity$3((arguments[(0)]),(arguments[(1)]),(arguments[(2)]));
 

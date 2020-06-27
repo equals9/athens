@@ -233,8 +233,8 @@ re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(id,day8.re_frame.async_
 var G__60368 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [id,new cljs.core.Keyword(null,"setup","setup",1987730512)], null);
 return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__60368) : re_frame.core.dispatch.call(null,G__60368));
 });
-var G__60369_60371 = new cljs.core.Keyword(null,"async-flow","async-flow",1464712702);
-var G__60370_60372 = day8.re_frame.async_flow_fx.flow__GT_handler;
-(re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2(G__60369_60371,G__60370_60372) : re_frame.core.reg_fx.call(null,G__60369_60371,G__60370_60372));
+var G__60369_60457 = new cljs.core.Keyword(null,"async-flow","async-flow",1464712702);
+var G__60370_60458 = day8.re_frame.async_flow_fx.flow__GT_handler;
+(re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2(G__60369_60457,G__60370_60458) : re_frame.core.reg_fx.call(null,G__60369_60457,G__60370_60458));
 
 //# sourceMappingURL=day8.re_frame.async_flow_fx.js.map
