@@ -178,11 +178,11 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(stylefy.impl.styles.sub_sty
 (stylefy.core.sub_style.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(stylefy.core.sub_style.cljs$lang$applyTo = (function (seq42152){
-var G__42153 = cljs.core.first(seq42152);
-var seq42152__$1 = cljs.core.next(seq42152);
+(stylefy.core.sub_style.cljs$lang$applyTo = (function (seq42155){
+var G__42156 = cljs.core.first(seq42155);
+var seq42155__$1 = cljs.core.next(seq42155);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__42153,seq42152__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__42156,seq42155__$1);
 }));
 
 /**
@@ -217,8 +217,8 @@ return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__42153,seq42152
  *                            This value is also used as suffix in caching.
  */
 stylefy.core.init = (function stylefy$core$init(var_args){
-var G__42158 = arguments.length;
-switch (G__42158) {
+var G__42173 = arguments.length;
+switch (G__42173) {
 case 0:
 return stylefy.core.init.cljs$core$IFn$_invoke$arity$0();
 
@@ -309,11 +309,11 @@ return null;
 (stylefy.core.keyframes.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(stylefy.core.keyframes.cljs$lang$applyTo = (function (seq42165){
-var G__42166 = cljs.core.first(seq42165);
-var seq42165__$1 = cljs.core.next(seq42165);
+(stylefy.core.keyframes.cljs$lang$applyTo = (function (seq42186){
+var G__42187 = cljs.core.first(seq42186);
+var seq42186__$1 = cljs.core.next(seq42186);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__42166,seq42165__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__42187,seq42186__$1);
 }));
 
 /**
