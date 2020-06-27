@@ -309,11 +309,11 @@ return null;
 (stylefy.core.keyframes.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(stylefy.core.keyframes.cljs$lang$applyTo = (function (seq42160){
-var G__42161 = cljs.core.first(seq42160);
-var seq42160__$1 = cljs.core.next(seq42160);
+(stylefy.core.keyframes.cljs$lang$applyTo = (function (seq42165){
+var G__42166 = cljs.core.first(seq42165);
+var seq42165__$1 = cljs.core.next(seq42165);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__42161,seq42160__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__42166,seq42165__$1);
 }));
 
 /**

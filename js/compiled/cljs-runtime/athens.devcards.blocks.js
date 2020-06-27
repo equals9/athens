@@ -161,7 +161,6 @@ var G__65642 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVe
 return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__65642) : re_frame.core.dispatch.call(null,G__65642));
 } else {
 return null;
-
 }
 }
 }

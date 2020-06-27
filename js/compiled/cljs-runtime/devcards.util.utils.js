@@ -32,18 +32,18 @@ try{cljs.pprint.pprint.cljs$core$IFn$_invoke$arity$1(obj);
 (cljs.core._STAR_print_newline_STAR_ = _STAR_print_newline_STAR__orig_val__50447_50458);
 }
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(sb__4720__auto__);
-}catch (e50441){if((e50441 instanceof Error)){
-var e1 = e50441;
+}catch (e50440){if((e50440 instanceof Error)){
+var e1 = e50440;
 try{return obj.toString();
-}catch (e50442){if((e50442 instanceof Error)){
-var e2 = e50442;
+}catch (e50441){if((e50441 instanceof Error)){
+var e2 = e50441;
 return "<<Un-printable Type>>";
 } else {
-throw e50442;
+throw e50441;
 
 }
 }} else {
-throw e50441;
+throw e50440;
 
 }
 }});

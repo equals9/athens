@@ -60,8 +60,8 @@ return athens.router.navigate_uid(uid);
 });})(i__65671,vec__65673,_order,title,uid,c__4580__auto__,size__4581__auto__,b__65672,s__65670__$2,temp__5735__auto__,sorted_shortcuts,open_QMARK_,shortcuts))
 ], null)),title], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),uid], null)));
 
-var G__65679 = (i__65671 + (1));
-i__65671 = G__65679;
+var G__65696 = (i__65671 + (1));
+i__65671 = G__65696;
 continue;
 } else {
 return true;

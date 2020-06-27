@@ -81,48 +81,48 @@ try{var G__32829_32849 = cljs.core.deref(re_frame.trace.traces);
 re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"error","error",-978969032),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["Error thrown from trace cb",k_32847,"while storing",cljs.core.deref(re_frame.trace.traces),e_32850], 0));
 }
 
-var G__32852 = seq__32811_32842;
-var G__32853 = chunk__32812_32843;
-var G__32854 = count__32813_32844;
-var G__32855 = (i__32814_32845 + (1));
-seq__32811_32842 = G__32852;
-chunk__32812_32843 = G__32853;
-count__32813_32844 = G__32854;
-i__32814_32845 = G__32855;
+var G__32851 = seq__32811_32842;
+var G__32852 = chunk__32812_32843;
+var G__32853 = count__32813_32844;
+var G__32854 = (i__32814_32845 + (1));
+seq__32811_32842 = G__32851;
+chunk__32812_32843 = G__32852;
+count__32813_32844 = G__32853;
+i__32814_32845 = G__32854;
 continue;
 } else {
-var temp__5735__auto___32857 = cljs.core.seq(seq__32811_32842);
-if(temp__5735__auto___32857){
-var seq__32811_32858__$1 = temp__5735__auto___32857;
-if(cljs.core.chunked_seq_QMARK_(seq__32811_32858__$1)){
-var c__4609__auto___32859 = cljs.core.chunk_first(seq__32811_32858__$1);
-var G__32860 = cljs.core.chunk_rest(seq__32811_32858__$1);
-var G__32861 = c__4609__auto___32859;
-var G__32862 = cljs.core.count(c__4609__auto___32859);
-var G__32863 = (0);
-seq__32811_32842 = G__32860;
-chunk__32812_32843 = G__32861;
-count__32813_32844 = G__32862;
-i__32814_32845 = G__32863;
+var temp__5735__auto___32855 = cljs.core.seq(seq__32811_32842);
+if(temp__5735__auto___32855){
+var seq__32811_32856__$1 = temp__5735__auto___32855;
+if(cljs.core.chunked_seq_QMARK_(seq__32811_32856__$1)){
+var c__4609__auto___32857 = cljs.core.chunk_first(seq__32811_32856__$1);
+var G__32858 = cljs.core.chunk_rest(seq__32811_32856__$1);
+var G__32859 = c__4609__auto___32857;
+var G__32860 = cljs.core.count(c__4609__auto___32857);
+var G__32861 = (0);
+seq__32811_32842 = G__32858;
+chunk__32812_32843 = G__32859;
+count__32813_32844 = G__32860;
+i__32814_32845 = G__32861;
 continue;
 } else {
-var vec__32830_32864 = cljs.core.first(seq__32811_32858__$1);
-var k_32865 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32830_32864,(0),null);
-var cb_32866 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32830_32864,(1),null);
-try{var G__32834_32867 = cljs.core.deref(re_frame.trace.traces);
-(cb_32866.cljs$core$IFn$_invoke$arity$1 ? cb_32866.cljs$core$IFn$_invoke$arity$1(G__32834_32867) : cb_32866.call(null,G__32834_32867));
-}catch (e32833){var e_32868 = e32833;
-re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"error","error",-978969032),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["Error thrown from trace cb",k_32865,"while storing",cljs.core.deref(re_frame.trace.traces),e_32868], 0));
+var vec__32830_32862 = cljs.core.first(seq__32811_32856__$1);
+var k_32863 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32830_32862,(0),null);
+var cb_32864 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32830_32862,(1),null);
+try{var G__32834_32865 = cljs.core.deref(re_frame.trace.traces);
+(cb_32864.cljs$core$IFn$_invoke$arity$1 ? cb_32864.cljs$core$IFn$_invoke$arity$1(G__32834_32865) : cb_32864.call(null,G__32834_32865));
+}catch (e32833){var e_32866 = e32833;
+re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"error","error",-978969032),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["Error thrown from trace cb",k_32863,"while storing",cljs.core.deref(re_frame.trace.traces),e_32866], 0));
 }
 
-var G__32869 = cljs.core.next(seq__32811_32858__$1);
-var G__32870 = null;
-var G__32871 = (0);
-var G__32872 = (0);
-seq__32811_32842 = G__32869;
-chunk__32812_32843 = G__32870;
-count__32813_32844 = G__32871;
-i__32814_32845 = G__32872;
+var G__32867 = cljs.core.next(seq__32811_32856__$1);
+var G__32868 = null;
+var G__32869 = (0);
+var G__32870 = (0);
+seq__32811_32842 = G__32867;
+chunk__32812_32843 = G__32868;
+count__32813_32844 = G__32869;
+i__32814_32845 = G__32870;
 continue;
 }
 } else {

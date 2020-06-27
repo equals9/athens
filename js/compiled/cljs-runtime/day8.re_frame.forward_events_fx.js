@@ -15,9 +15,9 @@ return callback_pred;
 } else {
 if((callback_pred instanceof cljs.core.Keyword)){
 return (function (p__52005){
-var vec__52007 = p__52005;
-var event_id = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__52007,(0),null);
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__52007,(1),null);
+var vec__52006 = p__52005;
+var event_id = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__52006,(0),null);
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__52006,(1),null);
 return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(callback_pred,event_id);
 });
 } else {
@@ -35,8 +35,8 @@ throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2([cljs.core.pr_str.cljs$cor
 return null;
 }
 });
-var G__52016_52044 = new cljs.core.Keyword(null,"forward-events","forward-events",1216790539);
-var G__52017_52045 = (function (){var process_one_entry = (function (p__52018){
+var G__52014_52044 = new cljs.core.Keyword(null,"forward-events","forward-events",1216790539);
+var G__52015_52045 = (function (){var process_one_entry = (function (p__52018){
 var map__52019 = p__52018;
 var map__52019__$1 = (((((!((map__52019 == null))))?(((((map__52019.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__52019.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__52019):map__52019);
 var m = map__52019__$1;
@@ -79,6 +79,6 @@ return (re_frame.core.console.cljs$core$IFn$_invoke$arity$3 ? re_frame.core.cons
 }
 });
 })();
-(re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2(G__52016_52044,G__52017_52045) : re_frame.core.reg_fx.call(null,G__52016_52044,G__52017_52045));
+(re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2(G__52014_52044,G__52015_52045) : re_frame.core.reg_fx.call(null,G__52014_52044,G__52015_52045));
 
 //# sourceMappingURL=day8.re_frame.forward_events_fx.js.map
