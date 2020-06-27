@@ -7,8 +7,8 @@ goog.require('devtools.formatters.helpers');
 goog.require('devtools.formatters.state');
 goog.require('clojure.string');
 devtools.formatters.templating.mark_as_group_BANG_ = (function devtools$formatters$templating$mark_as_group_BANG_(value){
-var x23795_23862 = value;
-(x23795_23862.devtools$protocols$IGroup$ = cljs.core.PROTOCOL_SENTINEL);
+var x23795_23866 = value;
+(x23795_23866.devtools$protocols$IGroup$ = cljs.core.PROTOCOL_SENTINEL);
 
 
 return value;
@@ -29,8 +29,8 @@ return cljs.core.native_satisfies_QMARK_(devtools.protocols.IGroup,value);
 }
 });
 devtools.formatters.templating.mark_as_template_BANG_ = (function devtools$formatters$templating$mark_as_template_BANG_(value){
-var x23797_23863 = value;
-(x23797_23863.devtools$protocols$ITemplate$ = cljs.core.PROTOCOL_SENTINEL);
+var x23797_23867 = value;
+(x23797_23867.devtools$protocols$ITemplate$ = cljs.core.PROTOCOL_SENTINEL);
 
 
 return value;
@@ -51,8 +51,8 @@ return cljs.core.native_satisfies_QMARK_(devtools.protocols.ITemplate,value);
 }
 });
 devtools.formatters.templating.mark_as_surrogate_BANG_ = (function devtools$formatters$templating$mark_as_surrogate_BANG_(value){
-var x23799_23865 = value;
-(x23799_23865.devtools$protocols$ISurrogate$ = cljs.core.PROTOCOL_SENTINEL);
+var x23799_23868 = value;
+(x23799_23868.devtools$protocols$ISurrogate$ = cljs.core.PROTOCOL_SENTINEL);
 
 
 return value;
@@ -454,8 +454,8 @@ while(true){
 if((i__4790__auto___23929 < len__4789__auto___23928)){
 args__4795__auto__.push((arguments[i__4790__auto___23929]));
 
-var G__23932 = (i__4790__auto___23929 + (1));
-i__4790__auto___23929 = G__23932;
+var G__23930 = (i__4790__auto___23929 + (1));
+i__4790__auto___23929 = G__23930;
 continue;
 } else {
 }
@@ -497,12 +497,12 @@ return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__23839,seq23838
 devtools.formatters.templating._STAR_current_render_stack_STAR_ = cljs.core.PersistentVector.EMPTY;
 devtools.formatters.templating._STAR_current_render_path_STAR_ = cljs.core.PersistentVector.EMPTY;
 devtools.formatters.templating.print_preview = (function devtools$formatters$templating$print_preview(markup){
-var _STAR_print_level_STAR__orig_val__23849 = cljs.core._STAR_print_level_STAR_;
-var _STAR_print_level_STAR__temp_val__23850 = (1);
-(cljs.core._STAR_print_level_STAR_ = _STAR_print_level_STAR__temp_val__23850);
+var _STAR_print_level_STAR__orig_val__23850 = cljs.core._STAR_print_level_STAR_;
+var _STAR_print_level_STAR__temp_val__23851 = (1);
+(cljs.core._STAR_print_level_STAR_ = _STAR_print_level_STAR__temp_val__23851);
 
 try{return cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([markup], 0));
-}finally {(cljs.core._STAR_print_level_STAR_ = _STAR_print_level_STAR__orig_val__23849);
+}finally {(cljs.core._STAR_print_level_STAR_ = _STAR_print_level_STAR__orig_val__23850);
 }});
 devtools.formatters.templating.add_stack_separators = (function devtools$formatters$templating$add_stack_separators(stack){
 return cljs.core.interpose.cljs$core$IFn$_invoke$arity$2("-------------",stack);
@@ -609,24 +609,24 @@ throw (new Error(["Assert failed: ",["result of markup rendering must be a templ
 devtools.formatters.templating.render_markup_STAR_ = (function devtools$formatters$templating$render_markup_STAR_(initial_value,value){
 while(true){
 if(cljs.core.fn_QMARK_(value)){
-var G__23969 = initial_value;
-var G__23970 = (value.cljs$core$IFn$_invoke$arity$0 ? value.cljs$core$IFn$_invoke$arity$0() : value.call(null));
-initial_value = G__23969;
-value = G__23970;
+var G__23944 = initial_value;
+var G__23945 = (value.cljs$core$IFn$_invoke$arity$0 ? value.cljs$core$IFn$_invoke$arity$0() : value.call(null));
+initial_value = G__23944;
+value = G__23945;
 continue;
 } else {
 if((value instanceof cljs.core.Keyword)){
-var G__23971 = initial_value;
-var G__23972 = devtools.formatters.helpers.pref(value);
-initial_value = G__23971;
-value = G__23972;
+var G__23951 = initial_value;
+var G__23952 = devtools.formatters.helpers.pref(value);
+initial_value = G__23951;
+value = G__23952;
 continue;
 } else {
 if(cljs.core.sequential_QMARK_(value)){
-var G__23973 = initial_value;
-var G__23974 = devtools.formatters.templating.render_json_ml(value);
-initial_value = G__23973;
-value = G__23974;
+var G__23954 = initial_value;
+var G__23955 = devtools.formatters.templating.render_json_ml(value);
+initial_value = G__23954;
+value = G__23955;
 continue;
 } else {
 if(devtools.formatters.templating.template_QMARK_(value)){

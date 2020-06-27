@@ -163,8 +163,8 @@ return clojure.zip.node(loc);
 } else {
 var p = clojure.zip.up(loc);
 if(cljs.core.truth_(p)){
-var G__30348 = p;
-loc = G__30348;
+var G__30347 = p;
+loc = G__30347;
 continue;
 } else {
 return clojure.zip.node(loc);
@@ -429,8 +429,8 @@ return and__4174__auto__;
 })();
 if(cljs.core.truth_(temp__5733__auto____$1)){
 var child = temp__5733__auto____$1;
-var G__30365 = clojure.zip.rightmost(child);
-loc__$1 = G__30365;
+var G__30366 = clojure.zip.rightmost(child);
+loc__$1 = G__30366;
 continue;
 } else {
 return loc__$1;

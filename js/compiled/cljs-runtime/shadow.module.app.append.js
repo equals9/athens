@@ -5846,6 +5846,7 @@ SHADOW_ENV.setLoaded("athens.devcards.devtool.js");
 SHADOW_ENV.setLoaded("athens.devcards.left_sidebar.js");
 SHADOW_ENV.setLoaded("athens.patterns.js");
 SHADOW_ENV.setLoaded("athens.devcards.node_page.js");
+SHADOW_ENV.setLoaded("athens.devcards.right_sidebar.js");
 SHADOW_ENV.setLoaded("athens.views.js");
 SHADOW_ENV.setLoaded("athens.core.js");
 SHADOW_ENV.setLoaded("shadow.module.app.append.js");
