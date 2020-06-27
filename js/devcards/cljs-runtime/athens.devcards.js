@@ -8,6 +8,7 @@ goog.require('athens.devcards.breadcrumbs');
 goog.require('athens.devcards.buttons');
 goog.require('athens.devcards.db');
 goog.require('athens.devcards.db_boxes');
+goog.require('athens.devcards.filters');
 goog.require('athens.devcards.icons');
 goog.require('athens.devcards.left_sidebar');
 goog.require('athens.devcards.node_page');

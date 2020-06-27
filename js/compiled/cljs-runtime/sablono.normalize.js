@@ -62,8 +62,8 @@ return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMP
 if((class$ instanceof cljs.core.Keyword)){
 return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [sablono.normalize.class_name(class$)], null);
 } else {
-if(((((cljs.core.set_QMARK_(class$)) || (cljs.core.sequential_QMARK_(class$)))) && (cljs.core.every_QMARK_((function (p1__48501_SHARP_){
-return (((p1__48501_SHARP_ instanceof cljs.core.Keyword)) || (typeof p1__48501_SHARP_ === 'string'));
+if(((((cljs.core.set_QMARK_(class$)) || (cljs.core.sequential_QMARK_(class$)))) && (cljs.core.every_QMARK_((function (p1__48504_SHARP_){
+return (((p1__48504_SHARP_ instanceof cljs.core.Keyword)) || (typeof p1__48504_SHARP_ === 'string'));
 }),class$)))){
 return cljs.core.mapv.cljs$core$IFn$_invoke$arity$2(sablono.normalize.class_name,class$);
 } else {
