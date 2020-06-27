@@ -4,7 +4,6 @@ var module$node_modules$$material_ui$icons$index=shadow.js.require("module$node_
 goog.require('athens.devcards.buttons');
 goog.require('cljsjs.react');
 goog.require('cljsjs.react.dom');
-goog.require('clojure.string');
 goog.require('devcards.core');
 goog.require('reagent.core');
 goog.require('stylefy.core');

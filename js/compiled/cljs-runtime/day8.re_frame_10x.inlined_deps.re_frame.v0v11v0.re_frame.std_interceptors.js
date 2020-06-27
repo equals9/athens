@@ -47,9 +47,9 @@ var new_db = day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.intercepto
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(new_db,new cljs.core.Keyword("day8.re-frame-10x.inlined-deps.re-frame.v0v11v0.re-frame.std-interceptors","not-found","day8.re-frame-10x.inlined-deps.re-frame.v0v11v0.re-frame.std-interceptors/not-found",1701055823))){
 day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"log","log",-1595516004),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["No app-db changes in:",event], 0));
 } else {
-var vec__28256_28303 = clojure.data.diff(orig_db,new_db);
-var only_before_28304 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__28256_28303,(0),null);
-var only_after_28305 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__28256_28303,(1),null);
+var vec__28280_28303 = clojure.data.diff(orig_db,new_db);
+var only_before_28304 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__28280_28303,(0),null);
+var only_after_28305 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__28280_28303,(1),null);
 var db_changed_QMARK__28306 = (((!((only_before_28304 == null)))) || ((!((only_after_28305 == null)))));
 if(db_changed_QMARK__28306){
 day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"group","group",582596132),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["db clojure.data/diff for:",event], 0));
@@ -393,14 +393,14 @@ return context;
  */
 day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.std_interceptors.on_changes = (function day8$re_frame_10x$inlined_deps$re_frame$v0v11v0$re_frame$std_interceptors$on_changes(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___28337 = arguments.length;
-var i__4790__auto___28338 = (0);
+var len__4789__auto___28331 = arguments.length;
+var i__4790__auto___28332 = (0);
 while(true){
-if((i__4790__auto___28338 < len__4789__auto___28337)){
-args__4795__auto__.push((arguments[i__4790__auto___28338]));
+if((i__4790__auto___28332 < len__4789__auto___28331)){
+args__4795__auto__.push((arguments[i__4790__auto___28332]));
 
-var G__28339 = (i__4790__auto___28338 + (1));
-i__4790__auto___28338 = G__28339;
+var G__28333 = (i__4790__auto___28332 + (1));
+i__4790__auto___28332 = G__28333;
 continue;
 } else {
 }

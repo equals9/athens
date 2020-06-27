@@ -26,11 +26,11 @@ return devcards.util.edn_renderer.clearfix_separator_STAR_;
 } else {
 return devcards.util.edn_renderer.separator_STAR_;
 }
-}catch (e50577){if((e50577 instanceof Error)){
-var e = e50577;
+}catch (e50576){if((e50576 instanceof Error)){
+var e = e50576;
 return devcards.util.edn_renderer.clearfix_separator_STAR_;
 } else {
-throw e50577;
+throw e50576;
 
 }
 }});
@@ -106,12 +106,12 @@ return devcards.util.edn_renderer.literal("literal",x);
 }
 });
 devcards.util.edn_renderer.html_edn = (function devcards$util$edn_renderer$html_edn(e){
-var _STAR_key_counter_STAR__orig_val__50590 = devcards.util.edn_renderer._STAR_key_counter_STAR_;
-var _STAR_key_counter_STAR__temp_val__50591 = cljs.core.atom.cljs$core$IFn$_invoke$arity$1((0));
-(devcards.util.edn_renderer._STAR_key_counter_STAR_ = _STAR_key_counter_STAR__temp_val__50591);
+var _STAR_key_counter_STAR__orig_val__50595 = devcards.util.edn_renderer._STAR_key_counter_STAR_;
+var _STAR_key_counter_STAR__temp_val__50596 = cljs.core.atom.cljs$core$IFn$_invoke$arity$1((0));
+(devcards.util.edn_renderer._STAR_key_counter_STAR_ = _STAR_key_counter_STAR__temp_val__50596);
 
 try{return React.createElement("div",({"key": "devcards-edn-block", "className": "com-rigsomelight-rendered-edn com-rigsomelight-devcards-typog"}),sablono.interpreter.interpret(devcards.util.edn_renderer.html(e)));
-}finally {(devcards.util.edn_renderer._STAR_key_counter_STAR_ = _STAR_key_counter_STAR__orig_val__50590);
+}finally {(devcards.util.edn_renderer._STAR_key_counter_STAR_ = _STAR_key_counter_STAR__orig_val__50595);
 }});
 
 //# sourceMappingURL=devcards.util.edn_renderer.js.map

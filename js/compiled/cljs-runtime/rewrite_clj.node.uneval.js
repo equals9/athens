@@ -193,11 +193,11 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(this$__$1,new cljs.core.Key
 (rewrite_clj.node.uneval.UnevalNode.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__4446__auto__,k__4447__auto__,G__29945){
 var self__ = this;
 var this__4446__auto____$1 = this;
-var pred__29966 = cljs.core.keyword_identical_QMARK_;
-var expr__29967 = k__4447__auto__;
-if(cljs.core.truth_((function (){var G__29969 = new cljs.core.Keyword(null,"children","children",-940561982);
-var G__29970 = expr__29967;
-return (pred__29966.cljs$core$IFn$_invoke$arity$2 ? pred__29966.cljs$core$IFn$_invoke$arity$2(G__29969,G__29970) : pred__29966.call(null,G__29969,G__29970));
+var pred__29962 = cljs.core.keyword_identical_QMARK_;
+var expr__29963 = k__4447__auto__;
+if(cljs.core.truth_((function (){var G__29965 = new cljs.core.Keyword(null,"children","children",-940561982);
+var G__29966 = expr__29963;
+return (pred__29962.cljs$core$IFn$_invoke$arity$2 ? pred__29962.cljs$core$IFn$_invoke$arity$2(G__29965,G__29966) : pred__29962.call(null,G__29965,G__29966));
 })())){
 return (new rewrite_clj.node.uneval.UnevalNode(G__29945,self__.__meta,self__.__extmap,null));
 } else {

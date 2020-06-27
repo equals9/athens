@@ -32,8 +32,8 @@ return cljs.analyzer.default_warning_handler(warning_type,env,extra);
  * Return the compiler options from compiler state.
  */
 cljs.analyzer.api.get_options = (function cljs$analyzer$api$get_options(var_args){
-var G__53360 = arguments.length;
-switch (G__53360) {
+var G__53359 = arguments.length;
+switch (G__53359) {
 case 0:
 return cljs.analyzer.api.get_options.cljs$core$IFn$_invoke$arity$0();
 
@@ -118,8 +118,8 @@ return cljs.analyzer.resolve_macro_var(env,sym);
  *   returns symbols identifying namespaces not Namespace instances.
  */
 cljs.analyzer.api.all_ns = (function cljs$analyzer$api$all_ns(var_args){
-var G__53368 = arguments.length;
-switch (G__53368) {
+var G__53369 = arguments.length;
+switch (G__53369) {
 case 0:
 return cljs.analyzer.api.all_ns.cljs$core$IFn$_invoke$arity$0();
 

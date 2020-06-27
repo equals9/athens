@@ -41,9 +41,9 @@ var method = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60382__$1,new cljs
 var opts = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60382__$1,new cljs.core.Keyword(null,"opts","opts",155075701));
 var on_success = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60382__$1,new cljs.core.Keyword(null,"on-success","on-success",1786904109));
 var on_failure = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60382__$1,new cljs.core.Keyword(null,"on-failure","on-failure",842888245));
-var c__34273__auto__ = cljs.core.async.chan.cljs$core$IFn$_invoke$arity$1((1));
+var c__34274__auto__ = cljs.core.async.chan.cljs$core$IFn$_invoke$arity$1((1));
 cljs.core.async.impl.dispatch.run((function (){
-var f__34274__auto__ = (function (){var switch__34206__auto__ = (function (state_60426){
+var f__34275__auto__ = (function (){var switch__34206__auto__ = (function (state_60426){
 var state_val_60427 = (state_60426[(1)]);
 if((state_val_60427 === (7))){
 var inst_60393 = (state_60426[(7)]);
@@ -383,15 +383,15 @@ athens$effects$state_machine__34207__auto__.cljs$core$IFn$_invoke$arity$1 = athe
 return athens$effects$state_machine__34207__auto__;
 })()
 })();
-var state__34275__auto__ = (function (){var statearr_60458 = (f__34274__auto__.cljs$core$IFn$_invoke$arity$0 ? f__34274__auto__.cljs$core$IFn$_invoke$arity$0() : f__34274__auto__.call(null));
-(statearr_60458[(6)] = c__34273__auto__);
+var state__34276__auto__ = (function (){var statearr_60458 = (f__34275__auto__.cljs$core$IFn$_invoke$arity$0 ? f__34275__auto__.cljs$core$IFn$_invoke$arity$0() : f__34275__auto__.call(null));
+(statearr_60458[(6)] = c__34274__auto__);
 
 return statearr_60458;
 })();
-return cljs.core.async.impl.ioc_helpers.run_state_machine_wrapped(state__34275__auto__);
+return cljs.core.async.impl.ioc_helpers.run_state_machine_wrapped(state__34276__auto__);
 }));
 
-return c__34273__auto__;
+return c__34274__auto__;
 });
 (re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2(G__60379_60471,G__60380_60472) : re_frame.core.reg_fx.call(null,G__60379_60471,G__60380_60472));
 var G__60459_60502 = new cljs.core.Keyword(null,"timeout","timeout",-318625318);

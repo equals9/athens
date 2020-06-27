@@ -866,8 +866,8 @@ return (new cognitect.transit.WithMetaHandler());
  *               be invoked on a value before it is written.
  */
 cognitect.transit.writer = (function cognitect$transit$writer(var_args){
-var G__51608 = arguments.length;
-switch (G__51608) {
+var G__51612 = arguments.length;
+switch (G__51612) {
 case 1:
 return cognitect.transit.writer.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -899,10 +899,10 @@ var handlers = cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.pr
 var G__51617 = cljs.core.name(type);
 var G__51618 = cognitect.transit.opts_merge(({"objectBuilder": (function (m,kfn,vfn){
 return cljs.core.reduce_kv((function (obj,k,v){
-var G__51620 = obj;
-G__51620.push((kfn.cljs$core$IFn$_invoke$arity$1 ? kfn.cljs$core$IFn$_invoke$arity$1(k) : kfn.call(null,k)),(vfn.cljs$core$IFn$_invoke$arity$1 ? vfn.cljs$core$IFn$_invoke$arity$1(v) : vfn.call(null,v)));
+var G__51621 = obj;
+G__51621.push((kfn.cljs$core$IFn$_invoke$arity$1 ? kfn.cljs$core$IFn$_invoke$arity$1(k) : kfn.call(null,k)),(vfn.cljs$core$IFn$_invoke$arity$1 ? vfn.cljs$core$IFn$_invoke$arity$1(v) : vfn.call(null,v)));
 
-return G__51620;
+return G__51621;
 }),["^ "],m);
 }), "handlers": (function (){var x51622 = cljs.core.clone(handlers);
 (x51622.forEach = (function (f){

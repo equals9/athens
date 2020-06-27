@@ -57,8 +57,8 @@ cljc.java_time.instant.plus_nanos = (function cljc$java_time$instant$plus_nanos(
 return this3997.plusNanos(long3998);
 });
 cljc.java_time.instant.plus = (function cljc$java_time$instant$plus(var_args){
-var G__50561 = arguments.length;
-switch (G__50561) {
+var G__50563 = arguments.length;
+switch (G__50563) {
 case 2:
 return cljc.java_time.instant.plus.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -93,8 +93,8 @@ cljc.java_time.instant.is_before = (function cljc$java_time$instant$is_before(th
 return this4007.isBefore(java_time_Instant4008);
 });
 cljc.java_time.instant.minus = (function cljc$java_time$instant$minus(var_args){
-var G__50565 = arguments.length;
-switch (G__50565) {
+var G__50568 = arguments.length;
+switch (G__50568) {
 case 3:
 return cljc.java_time.instant.minus.cljs$core$IFn$_invoke$arity$3((arguments[(0)]),(arguments[(1)]),(arguments[(2)]));
 
