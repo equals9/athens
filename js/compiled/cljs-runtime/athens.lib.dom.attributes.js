@@ -13,14 +13,14 @@ return class_str;
 });
 athens.lib.dom.attributes.with_classes = (function athens$lib$dom$attributes$with_classes(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___58185 = arguments.length;
-var i__4790__auto___58186 = (0);
+var len__4789__auto___58211 = arguments.length;
+var i__4790__auto___58212 = (0);
 while(true){
-if((i__4790__auto___58186 < len__4789__auto___58185)){
-args__4795__auto__.push((arguments[i__4790__auto___58186]));
+if((i__4790__auto___58212 < len__4789__auto___58211)){
+args__4795__auto__.push((arguments[i__4790__auto___58212]));
 
-var G__58187 = (i__4790__auto___58186 + (1));
-i__4790__auto___58186 = G__58187;
+var G__58213 = (i__4790__auto___58212 + (1));
+i__4790__auto___58212 = G__58213;
 continue;
 } else {
 }
@@ -58,21 +58,21 @@ return athens$lib$dom$attributes$f;
 (athens.lib.dom.attributes.with_classes.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(athens.lib.dom.attributes.with_classes.cljs$lang$applyTo = (function (seq58182){
+(athens.lib.dom.attributes.with_classes.cljs$lang$applyTo = (function (seq58208){
 var self__4777__auto__ = this;
-return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq58182));
+return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq58208));
 }));
 
 athens.lib.dom.attributes.with_attributes = (function athens$lib$dom$attributes$with_attributes(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___58188 = arguments.length;
-var i__4790__auto___58189 = (0);
+var len__4789__auto___58214 = arguments.length;
+var i__4790__auto___58215 = (0);
 while(true){
-if((i__4790__auto___58189 < len__4789__auto___58188)){
-args__4795__auto__.push((arguments[i__4790__auto___58189]));
+if((i__4790__auto___58215 < len__4789__auto___58214)){
+args__4795__auto__.push((arguments[i__4790__auto___58215]));
 
-var G__58190 = (i__4790__auto___58189 + (1));
-i__4790__auto___58189 = G__58190;
+var G__58216 = (i__4790__auto___58215 + (1));
+i__4790__auto___58215 = G__58216;
 continue;
 } else {
 }
@@ -90,9 +90,9 @@ return (map_or_fn.cljs$core$IFn$_invoke$arity$1 ? map_or_fn.cljs$core$IFn$_invok
 } else {
 if(cljs.core.map_QMARK_(map_or_fn)){
 return cljs.core.reduce_kv((function (acc0,attribute,v){
-var G__58184 = attribute;
-var G__58184__$1 = (((G__58184 instanceof cljs.core.Keyword))?G__58184.fqn:null);
-switch (G__58184__$1) {
+var G__58210 = attribute;
+var G__58210__$1 = (((G__58210 instanceof cljs.core.Keyword))?G__58210.fqn:null);
+switch (G__58210__$1) {
 case "class":
 return athens.lib.dom.attributes.merge_dom_classes(acc0,v);
 
@@ -113,9 +113,9 @@ throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2("Expected map or function"
 (athens.lib.dom.attributes.with_attributes.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(athens.lib.dom.attributes.with_attributes.cljs$lang$applyTo = (function (seq58183){
+(athens.lib.dom.attributes.with_attributes.cljs$lang$applyTo = (function (seq58209){
 var self__4777__auto__ = this;
-return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq58183));
+return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq58209));
 }));
 
 

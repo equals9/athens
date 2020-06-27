@@ -150,12 +150,12 @@ return this$__$1;
 
 goog.object.set(reitit.coercion.spec.IntoSpec,"_",true);
 
-var G__49942_49991 = reitit.coercion.spec.into_spec;
-var G__49943_49992 = "_";
-var G__49944_49993 = (function (this$,_){
+var G__49943_49991 = reitit.coercion.spec.into_spec;
+var G__49944_49992 = "_";
+var G__49945_49993 = (function (this$,_){
 return spec_tools.core.create_spec(new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"spec","spec",347520401),this$], null));
 });
-goog.object.set(G__49942_49991,G__49943_49992,G__49944_49993);
+goog.object.set(G__49943_49991,G__49944_49992,G__49945_49993);
 
 goog.object.set(reitit.coercion.spec.IntoSpec,"null",true);
 

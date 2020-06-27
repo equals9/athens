@@ -52,10 +52,10 @@ return cljs.core.some(pred,seen_events);
  */
 day8.re_frame.async_flow_fx.startable_rules = (function day8$re_frame$async_flow_fx$startable_rules(rules,now_seen_events,rules_fired){
 return cljs.core.filterv((function (task){
-var G__52078 = new cljs.core.Keyword(null,"events","events",1792552201).cljs$core$IFn$_invoke$arity$1(task);
-var G__52079 = now_seen_events;
-var fexpr__52077 = new cljs.core.Keyword(null,"when","when",-576417306).cljs$core$IFn$_invoke$arity$1(task);
-return (fexpr__52077.cljs$core$IFn$_invoke$arity$2 ? fexpr__52077.cljs$core$IFn$_invoke$arity$2(G__52078,G__52079) : fexpr__52077.call(null,G__52078,G__52079));
+var G__52074 = new cljs.core.Keyword(null,"events","events",1792552201).cljs$core$IFn$_invoke$arity$1(task);
+var G__52075 = now_seen_events;
+var fexpr__52073 = new cljs.core.Keyword(null,"when","when",-576417306).cljs$core$IFn$_invoke$arity$1(task);
+return (fexpr__52073.cljs$core$IFn$_invoke$arity$2 ? fexpr__52073.cljs$core$IFn$_invoke$arity$2(G__52074,G__52075) : fexpr__52073.call(null,G__52074,G__52075));
 }),cljs.core.remove.cljs$core$IFn$_invoke$arity$2(cljs.core.comp.cljs$core$IFn$_invoke$arity$2(rules_fired,new cljs.core.Keyword(null,"id","id",-1388402092)),rules));
 });
 day8.re_frame.async_flow_fx.map_when__GT_fn = new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"seen?","seen?",-1677689856),day8.re_frame.async_flow_fx.seen_all_of_QMARK_,new cljs.core.Keyword(null,"seen-both?","seen-both?",-1396729677),day8.re_frame.async_flow_fx.seen_all_of_QMARK_,new cljs.core.Keyword(null,"seen-all-of?","seen-all-of?",-651402557),day8.re_frame.async_flow_fx.seen_all_of_QMARK_,new cljs.core.Keyword(null,"seen-any-of?","seen-any-of?",622544182),day8.re_frame.async_flow_fx.seen_any_of_QMARK_], null);
@@ -65,10 +65,10 @@ if(cljs.core.truth_(temp__5733__auto__)){
 var when_fn = temp__5733__auto__;
 return when_fn;
 } else {
-var G__52094 = new cljs.core.Keyword(null,"error","error",-978969032);
-var G__52095 = "async-flow: got bad value for :when - ";
-var G__52096 = when_kw;
-return (re_frame.core.console.cljs$core$IFn$_invoke$arity$3 ? re_frame.core.console.cljs$core$IFn$_invoke$arity$3(G__52094,G__52095,G__52096) : re_frame.core.console.call(null,G__52094,G__52095,G__52096));
+var G__52088 = new cljs.core.Keyword(null,"error","error",-978969032);
+var G__52089 = "async-flow: got bad value for :when - ";
+var G__52090 = when_kw;
+return (re_frame.core.console.cljs$core$IFn$_invoke$arity$3 ? re_frame.core.console.cljs$core$IFn$_invoke$arity$3(G__52088,G__52089,G__52090) : re_frame.core.console.call(null,G__52088,G__52089,G__52090));
 }
 });
 /**
@@ -121,10 +121,10 @@ return G__52110__$1;
 day8.re_frame.async_flow_fx.rules__GT_dispatches = (function day8$re_frame$async_flow_fx$rules__GT_dispatches(rules,event){
 
 return cljs.core.mapcat.cljs$core$IFn$_invoke$arity$variadic((function (rule){
-var map__52114 = rule;
-var map__52114__$1 = (((((!((map__52114 == null))))?(((((map__52114.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__52114.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__52114):map__52114);
-var dispatch_fn = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52114__$1,new cljs.core.Keyword(null,"dispatch-fn","dispatch-fn",1253347614));
-var dispatch_n = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52114__$1,new cljs.core.Keyword(null,"dispatch-n","dispatch-n",-504469236));
+var map__52112 = rule;
+var map__52112__$1 = (((((!((map__52112 == null))))?(((((map__52112.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__52112.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__52112):map__52112);
+var dispatch_fn = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52112__$1,new cljs.core.Keyword(null,"dispatch-fn","dispatch-fn",1253347614));
+var dispatch_n = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52112__$1,new cljs.core.Keyword(null,"dispatch-n","dispatch-n",-504469236));
 if(cljs.core.truth_(dispatch_n)){
 return dispatch_n;
 } else {
@@ -178,16 +178,16 @@ var vec__52128 = p__52126;
 var ___$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__52128,(0),null);
 var event_type = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__52128,(1),null);
 var event_v = vec__52128;
-var pred__52133 = cljs.core._EQ_;
-var expr__52134 = event_type;
-if(cljs.core.truth_((function (){var G__52137 = new cljs.core.Keyword(null,"setup","setup",1987730512);
-var G__52138 = expr__52134;
-return (pred__52133.cljs$core$IFn$_invoke$arity$2 ? pred__52133.cljs$core$IFn$_invoke$arity$2(G__52137,G__52138) : pred__52133.call(null,G__52137,G__52138));
+var pred__52132 = cljs.core._EQ_;
+var expr__52133 = event_type;
+if(cljs.core.truth_((function (){var G__52135 = new cljs.core.Keyword(null,"setup","setup",1987730512);
+var G__52136 = expr__52133;
+return (pred__52132.cljs$core$IFn$_invoke$arity$2 ? pred__52132.cljs$core$IFn$_invoke$arity$2(G__52135,G__52136) : pred__52132.call(null,G__52135,G__52136));
 })())){
-return cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"db","db",993250759),(function (){var G__52140 = db;
-var G__52141 = cljs.core.PersistentHashSet.EMPTY;
-var G__52142 = cljs.core.PersistentHashSet.EMPTY;
-return (set_state.cljs$core$IFn$_invoke$arity$3 ? set_state.cljs$core$IFn$_invoke$arity$3(G__52140,G__52141,G__52142) : set_state.call(null,G__52140,G__52141,G__52142));
+return cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"db","db",993250759),(function (){var G__52137 = db;
+var G__52138 = cljs.core.PersistentHashSet.EMPTY;
+var G__52139 = cljs.core.PersistentHashSet.EMPTY;
+return (set_state.cljs$core$IFn$_invoke$arity$3 ? set_state.cljs$core$IFn$_invoke$arity$3(G__52137,G__52138,G__52139) : set_state.call(null,G__52137,G__52138,G__52139));
 })(),new cljs.core.Keyword(null,"forward-events","forward-events",1216790539),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"register","register",1968522516),id,new cljs.core.Keyword(null,"events","events",1792552201),cljs.core.apply.cljs$core$IFn$_invoke$arity$2(clojure.set.union,cljs.core.map.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"events","events",1792552201),rules__$1)),new cljs.core.Keyword(null,"dispatch-to","dispatch-to",-354764401),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [id], null)], null)], null),(cljs.core.truth_(first_dispatch)?new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"dispatch","dispatch",1319337009),first_dispatch], null):null)], 0));
 } else {
 var vec__52143 = event_v;
@@ -225,9 +225,9 @@ return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMP
  * Action the given flow effect
  */
 day8.re_frame.async_flow_fx.flow__GT_handler = (function day8$re_frame$async_flow_fx$flow__GT_handler(flow){
-var vec__52154 = day8.re_frame.async_flow_fx.ensure_has_id(flow);
-var id = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__52154,(0),null);
-var flow_SINGLEQUOTE_ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__52154,(1),null);
+var vec__52153 = day8.re_frame.async_flow_fx.ensure_has_id(flow);
+var id = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__52153,(0),null);
+var flow_SINGLEQUOTE_ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__52153,(1),null);
 re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(id,day8.re_frame.async_flow_fx.make_flow_event_handler(flow_SINGLEQUOTE_));
 
 var G__52157 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [id,new cljs.core.Keyword(null,"setup","setup",1987730512)], null);

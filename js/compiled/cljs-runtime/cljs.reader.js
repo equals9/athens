@@ -273,13 +273,13 @@ count__25021_25107 = G__25124;
 i__25022_25108 = G__25125;
 continue;
 } else {
-var vec__25049_25126 = cljs.core.first(seq__25019_25120__$1);
-var k_25127 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25049_25126,(0),null);
-var v_25128 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25049_25126,(1),null);
-var G__25052_25129 = obj;
-var G__25053_25130 = cljs.core.name(k_25127);
-var G__25054_25131 = v_25128;
-goog.object.set(G__25052_25129,G__25053_25130,G__25054_25131);
+var vec__25042_25126 = cljs.core.first(seq__25019_25120__$1);
+var k_25127 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25042_25126,(0),null);
+var v_25128 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25042_25126,(1),null);
+var G__25048_25129 = obj;
+var G__25049_25130 = cljs.core.name(k_25127);
+var G__25050_25131 = v_25128;
+goog.object.set(G__25048_25129,G__25049_25130,G__25050_25131);
 
 
 var G__25132 = cljs.core.next(seq__25019_25120__$1);
@@ -357,11 +357,11 @@ throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(
 return cljs.tools.reader.edn.read.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"readers","readers",-2118263030),cljs.core.deref(cljs.reader._STAR_tag_table_STAR_),new cljs.core.Keyword(null,"default","default",-1987822328),cljs.core.deref(cljs.reader._STAR_default_data_reader_fn_STAR_),new cljs.core.Keyword(null,"eof","eof",-489063237),null], null),reader);
 }));
 
-(cljs.reader.read.cljs$core$IFn$_invoke$arity$2 = (function (p__25063,reader){
-var map__25064 = p__25063;
-var map__25064__$1 = (((((!((map__25064 == null))))?(((((map__25064.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__25064.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__25064):map__25064);
-var opts = map__25064__$1;
-var eof = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__25064__$1,new cljs.core.Keyword(null,"eof","eof",-489063237));
+(cljs.reader.read.cljs$core$IFn$_invoke$arity$2 = (function (p__25062,reader){
+var map__25063 = p__25062;
+var map__25063__$1 = (((((!((map__25063 == null))))?(((((map__25063.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__25063.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__25063):map__25063);
+var opts = map__25063__$1;
+var eof = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__25063__$1,new cljs.core.Keyword(null,"eof","eof",-489063237));
 return cljs.tools.reader.edn.read.cljs$core$IFn$_invoke$arity$2(cljs.core.update.cljs$core$IFn$_invoke$arity$3(cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([opts,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"default","default",-1987822328),cljs.core.deref(cljs.reader._STAR_default_data_reader_fn_STAR_)], null)], 0)),new cljs.core.Keyword(null,"readers","readers",-2118263030),(function (m){
 return cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([cljs.core.deref(cljs.reader._STAR_tag_table_STAR_),m], 0));
 })),reader);
@@ -385,8 +385,8 @@ return cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.c
  * opts is a map as per cljs.tools.reader.edn/read
  */
 cljs.reader.read_string = (function cljs$reader$read_string(var_args){
-var G__25072 = arguments.length;
-switch (G__25072) {
+var G__25068 = arguments.length;
+switch (G__25068) {
 case 1:
 return cljs.reader.read_string.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

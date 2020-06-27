@@ -398,8 +398,8 @@ var posh_tree = map__47336__$1;
 var dcfg = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__47336__$1,new cljs.core.Keyword(null,"dcfg","dcfg",-880371016));
 var txs = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__47336__$1,new cljs.core.Keyword(null,"txs","txs",2056038378));
 var conns_results = cljs.core.reduce_kv((function (m,conn,tx){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(m,conn,(function (){var fexpr__47338 = new cljs.core.Keyword(null,"transact!","transact!",-822725810).cljs$core$IFn$_invoke$arity$1(dcfg);
-return (fexpr__47338.cljs$core$IFn$_invoke$arity$2 ? fexpr__47338.cljs$core$IFn$_invoke$arity$2(conn,tx) : fexpr__47338.call(null,conn,tx));
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(m,conn,(function (){var fexpr__47341 = new cljs.core.Keyword(null,"transact!","transact!",-822725810).cljs$core$IFn$_invoke$arity$1(dcfg);
+return (fexpr__47341.cljs$core$IFn$_invoke$arity$2 ? fexpr__47341.cljs$core$IFn$_invoke$arity$2(conn,tx) : fexpr__47341.call(null,conn,tx));
 })());
 }),cljs.core.PersistentArrayMap.EMPTY,txs);
 return posh.core.after_transact(cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(posh_tree,new cljs.core.Keyword(null,"txs","txs",2056038378),cljs.core.PersistentArrayMap.EMPTY),conns_results);

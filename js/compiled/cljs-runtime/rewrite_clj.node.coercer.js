@@ -43,15 +43,15 @@ return rewrite_clj.node.coercer.node_with_meta(rewrite_clj.node.token.token_node
 goog.object.set(G__30187_30202,G__30188_30203,G__30189_30204);
 goog.object.set(rewrite_clj.node.protocols.NodeCoerceable,"string",true);
 
-var G__30191_30205 = rewrite_clj.node.protocols.coerce;
-var G__30192_30206 = "string";
-var G__30193_30207 = (function (n){
+var G__30190_30205 = rewrite_clj.node.protocols.coerce;
+var G__30191_30206 = "string";
+var G__30192_30207 = (function (n){
 return rewrite_clj.node.coercer.node_with_meta(rewrite_clj.node.stringz.string_node(n),n);
 });
-goog.object.set(G__30191_30205,G__30192_30206,G__30193_30207);
+goog.object.set(G__30190_30205,G__30191_30206,G__30192_30207);
 rewrite_clj.node.coercer.seq_node = (function rewrite_clj$node$coercer$seq_node(f,sq){
-return rewrite_clj.node.coercer.node_with_meta((function (){var G__30194 = cljs.core.vec(rewrite_clj.node.whitespace.space_separated(cljs.core.map.cljs$core$IFn$_invoke$arity$2(rewrite_clj.node.protocols.coerce,sq)));
-return (f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(G__30194) : f.call(null,G__30194));
+return rewrite_clj.node.coercer.node_with_meta((function (){var G__30193 = cljs.core.vec(rewrite_clj.node.whitespace.space_separated(cljs.core.map.cljs$core$IFn$_invoke$arity$2(rewrite_clj.node.protocols.coerce,sq)));
+return (f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(G__30193) : f.call(null,G__30193));
 })(),sq);
 });
 (cljs.core.PersistentVector.prototype.rewrite_clj$node$protocols$NodeCoerceable$ = cljs.core.PROTOCOL_SENTINEL);

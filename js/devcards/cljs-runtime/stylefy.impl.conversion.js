@@ -63,8 +63,8 @@ return cljs.core.keyword.cljs$core$IFn$_invoke$arity$1([".",cljs.core.str.cljs$c
 /**
  * Converts Clojure style map into CSS class.
  */
-stylefy.impl.conversion.convert_base_style_into_class = (function stylefy$impl$conversion$convert_base_style_into_class(p__41089,options){
-var map__41090 = p__41089;
+stylefy.impl.conversion.convert_base_style_into_class = (function stylefy$impl$conversion$convert_base_style_into_class(p__41087,options){
+var map__41090 = p__41087;
 var map__41090__$1 = (((((!((map__41090 == null))))?(((((map__41090.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__41090.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__41090):map__41090);
 var style = map__41090__$1;
 var props = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41090__$1,new cljs.core.Keyword(null,"props","props",453281727));
