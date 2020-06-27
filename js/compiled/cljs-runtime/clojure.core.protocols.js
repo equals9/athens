@@ -88,11 +88,11 @@ throw cljs.core.missing_protocol("Navigable.nav",coll);
 
 goog.object.set(clojure.core.protocols.Navigable,"_",true);
 
-var G__65680_65689 = clojure.core.protocols.nav;
-var G__65681_65690 = "_";
-var G__65682_65691 = (function (_,___$1,x){
+var G__65680_65690 = clojure.core.protocols.nav;
+var G__65681_65691 = "_";
+var G__65682_65692 = (function (_,___$1,x){
 return x;
 });
-goog.object.set(G__65680_65689,G__65681_65690,G__65682_65691);
+goog.object.set(G__65680_65690,G__65681_65691,G__65682_65692);
 
 //# sourceMappingURL=clojure.core.protocols.js.map

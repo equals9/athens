@@ -295,10 +295,10 @@ var pattern = new cljs.core.Keyword(null,"pattern","pattern",242135423).cljs$cor
 var new_frames = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(frames,cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(frame,new cljs.core.Keyword(null,"specs","specs",1426570741),cljs.core.rest(specs)));
 return datascript.pull_api.pull_attr(db,spec,cljs.core.first(eids),new_frames);
 } else {
-var G__42469 = db;
-var G__42470 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(frames,datascript.pull_api.reset_frame(frame,cljs.core.rest(eids),cljs.core.not_empty(cljs.core.persistent_BANG_(new cljs.core.Keyword(null,"kvps","kvps",65308317).cljs$core$IFn$_invoke$arity$1(frame)))));
-db = G__42469;
-p__42453 = G__42470;
+var G__42477 = db;
+var G__42478 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(frames,datascript.pull_api.reset_frame(frame,cljs.core.rest(eids),cljs.core.not_empty(cljs.core.persistent_BANG_(new cljs.core.Keyword(null,"kvps","kvps",65308317).cljs$core$IFn$_invoke$arity$1(frame)))));
+db = G__42477;
+p__42453 = G__42478;
 continue;
 }
 }
@@ -314,34 +314,34 @@ var G__42457 = new cljs.core.Keyword(null,"state","state",-1988618099).cljs$core
 var G__42457__$1 = (((G__42457 instanceof cljs.core.Keyword))?G__42457.fqn:null);
 switch (G__42457__$1) {
 case "expand":
-var G__42480 = db;
-var G__42481 = datascript.pull_api.pull_expand_frame(db,frames);
-db = G__42480;
-frames = G__42481;
-continue;
-
-break;
-case "expand-rev":
 var G__42482 = db;
-var G__42483 = datascript.pull_api.pull_expand_reverse_frame(db,frames);
+var G__42483 = datascript.pull_api.pull_expand_frame(db,frames);
 db = G__42482;
 frames = G__42483;
 continue;
 
 break;
-case "pattern":
+case "expand-rev":
 var G__42484 = db;
-var G__42485 = datascript.pull_api.pull_pattern_frame(db,frames);
+var G__42485 = datascript.pull_api.pull_expand_reverse_frame(db,frames);
 db = G__42484;
 frames = G__42485;
 continue;
 
 break;
-case "recursion":
+case "pattern":
 var G__42486 = db;
-var G__42487 = datascript.pull_api.pull_recursion_frame(db,frames);
+var G__42487 = datascript.pull_api.pull_pattern_frame(db,frames);
 db = G__42486;
 frames = G__42487;
+continue;
+
+break;
+case "recursion":
+var G__42488 = db;
+var G__42489 = datascript.pull_api.pull_recursion_frame(db,frames);
+db = G__42488;
+frames = G__42489;
 continue;
 
 break;

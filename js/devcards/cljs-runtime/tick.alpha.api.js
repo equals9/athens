@@ -490,14 +490,14 @@ return tick.alpha.api._PLUS_.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 break;
 default:
 var args_arr__4810__auto__ = [];
-var len__4789__auto___55579 = arguments.length;
-var i__4790__auto___55580 = (0);
+var len__4789__auto___55576 = arguments.length;
+var i__4790__auto___55577 = (0);
 while(true){
-if((i__4790__auto___55580 < len__4789__auto___55579)){
-args_arr__4810__auto__.push((arguments[i__4790__auto___55580]));
+if((i__4790__auto___55577 < len__4789__auto___55576)){
+args_arr__4810__auto__.push((arguments[i__4790__auto___55577]));
 
-var G__55581 = (i__4790__auto___55580 + (1));
-i__4790__auto___55580 = G__55581;
+var G__55578 = (i__4790__auto___55577 + (1));
+i__4790__auto___55577 = G__55578;
 continue;
 } else {
 }
@@ -547,10 +547,10 @@ return tick.alpha.api._.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 break;
 default:
 var args_arr__4810__auto__ = [];
-var len__4789__auto___55585 = arguments.length;
+var len__4789__auto___55583 = arguments.length;
 var i__4790__auto___55586 = (0);
 while(true){
-if((i__4790__auto___55586 < len__4789__auto___55585)){
+if((i__4790__auto___55586 < len__4789__auto___55583)){
 args_arr__4810__auto__.push((arguments[i__4790__auto___55586]));
 
 var G__55587 = (i__4790__auto___55586 + (1));
@@ -656,14 +656,14 @@ return tick.alpha.api._LT_.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(argum
 break;
 default:
 var args_arr__4810__auto__ = [];
-var len__4789__auto___55595 = arguments.length;
-var i__4790__auto___55596 = (0);
+var len__4789__auto___55592 = arguments.length;
+var i__4790__auto___55593 = (0);
 while(true){
-if((i__4790__auto___55596 < len__4789__auto___55595)){
-args_arr__4810__auto__.push((arguments[i__4790__auto___55596]));
+if((i__4790__auto___55593 < len__4789__auto___55592)){
+args_arr__4810__auto__.push((arguments[i__4790__auto___55593]));
 
-var G__55597 = (i__4790__auto___55596 + (1));
-i__4790__auto___55596 = G__55597;
+var G__55594 = (i__4790__auto___55593 + (1));
+i__4790__auto___55593 = G__55594;
 continue;
 } else {
 }

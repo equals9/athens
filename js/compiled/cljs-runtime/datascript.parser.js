@@ -6830,29 +6830,29 @@ var temp__5735__auto___45073 = cljs.core.seq(seq__44456_45064);
 if(temp__5735__auto___45073){
 var seq__44456_45074__$1 = temp__5735__auto___45073;
 if(cljs.core.chunked_seq_QMARK_(seq__44456_45074__$1)){
-var c__4609__auto___45075 = cljs.core.chunk_first(seq__44456_45074__$1);
-var G__45076 = cljs.core.chunk_rest(seq__44456_45074__$1);
-var G__45077 = c__4609__auto___45075;
-var G__45078 = cljs.core.count(c__4609__auto___45075);
-var G__45079 = (0);
-seq__44456_45064 = G__45076;
-chunk__44457_45065 = G__45077;
-count__44458_45066 = G__45078;
-i__44459_45067 = G__45079;
+var c__4609__auto___45076 = cljs.core.chunk_first(seq__44456_45074__$1);
+var G__45077 = cljs.core.chunk_rest(seq__44456_45074__$1);
+var G__45078 = c__4609__auto___45076;
+var G__45079 = cljs.core.count(c__4609__auto___45076);
+var G__45080 = (0);
+seq__44456_45064 = G__45077;
+chunk__44457_45065 = G__45078;
+count__44458_45066 = G__45079;
+i__44459_45067 = G__45080;
 continue;
 } else {
-var clause_45080__$1 = cljs.core.first(seq__44456_45074__$1);
-datascript.parser.validate_join_vars(vars,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [clause_45080__$1], null),form);
+var clause_45081__$1 = cljs.core.first(seq__44456_45074__$1);
+datascript.parser.validate_join_vars(vars,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [clause_45081__$1], null),form);
 
 
-var G__45081 = cljs.core.next(seq__44456_45074__$1);
-var G__45082 = null;
-var G__45083 = (0);
+var G__45082 = cljs.core.next(seq__44456_45074__$1);
+var G__45083 = null;
 var G__45084 = (0);
-seq__44456_45064 = G__45081;
-chunk__44457_45065 = G__45082;
-count__44458_45066 = G__45083;
-i__44459_45067 = G__45084;
+var G__45085 = (0);
+seq__44456_45064 = G__45082;
+chunk__44457_45065 = G__45083;
+count__44458_45066 = G__45084;
+i__44459_45067 = G__45085;
 continue;
 }
 } else {
@@ -7543,14 +7543,14 @@ throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2(["Arity mismatch for rule 
 }
 
 
-var G__45103 = seq__44526;
-var G__45104 = chunk__44528;
-var G__45105 = count__44529;
-var G__45106 = (i__44530 + (1));
-seq__44526 = G__45103;
-chunk__44528 = G__45104;
-count__44529 = G__45105;
-i__44530 = G__45106;
+var G__45102 = seq__44526;
+var G__45103 = chunk__44528;
+var G__45104 = count__44529;
+var G__45105 = (i__44530 + (1));
+seq__44526 = G__45102;
+chunk__44528 = G__45103;
+count__44529 = G__45104;
+i__44530 = G__45105;
 continue;
 } else {
 var temp__5735__auto__ = cljs.core.seq(seq__44526);
@@ -7558,32 +7558,32 @@ if(temp__5735__auto__){
 var seq__44526__$1 = temp__5735__auto__;
 if(cljs.core.chunked_seq_QMARK_(seq__44526__$1)){
 var c__4609__auto__ = cljs.core.chunk_first(seq__44526__$1);
-var G__45107 = cljs.core.chunk_rest(seq__44526__$1);
-var G__45108 = c__4609__auto__;
-var G__45109 = cljs.core.count(c__4609__auto__);
-var G__45110 = (0);
-seq__44526 = G__45107;
-chunk__44528 = G__45108;
-count__44529 = G__45109;
-i__44530 = G__45110;
+var G__45106 = cljs.core.chunk_rest(seq__44526__$1);
+var G__45107 = c__4609__auto__;
+var G__45108 = cljs.core.count(c__4609__auto__);
+var G__45109 = (0);
+seq__44526 = G__45106;
+chunk__44528 = G__45107;
+count__44529 = G__45108;
+i__44530 = G__45109;
 continue;
 } else {
 var b = cljs.core.first(seq__44526__$1);
-var vars_45111 = new cljs.core.Keyword(null,"vars","vars",-2046957217).cljs$core$IFn$_invoke$arity$1(b);
-if(cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(arity0,datascript.parser.rule_vars_arity(vars_45111))){
-throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2(["Arity mismatch for rule '",cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"symbol","symbol",-1038572696).cljs$core$IFn$_invoke$arity$1(name)], 0)),"': ",cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([datascript.parser.flatten_rule_vars(vars0)], 0))," vs. ",cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([datascript.parser.flatten_rule_vars(vars_45111)], 0))].join(''),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"error","error",-978969032),new cljs.core.Keyword("parser","rule","parser/rule",-464044566),new cljs.core.Keyword(null,"rule","rule",729973257),name], null));
+var vars_45110 = new cljs.core.Keyword(null,"vars","vars",-2046957217).cljs$core$IFn$_invoke$arity$1(b);
+if(cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(arity0,datascript.parser.rule_vars_arity(vars_45110))){
+throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2(["Arity mismatch for rule '",cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"symbol","symbol",-1038572696).cljs$core$IFn$_invoke$arity$1(name)], 0)),"': ",cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([datascript.parser.flatten_rule_vars(vars0)], 0))," vs. ",cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([datascript.parser.flatten_rule_vars(vars_45110)], 0))].join(''),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"error","error",-978969032),new cljs.core.Keyword("parser","rule","parser/rule",-464044566),new cljs.core.Keyword(null,"rule","rule",729973257),name], null));
 } else {
 }
 
 
-var G__45118 = cljs.core.next(seq__44526__$1);
-var G__45119 = null;
-var G__45120 = (0);
-var G__45121 = (0);
-seq__44526 = G__45118;
-chunk__44528 = G__45119;
-count__44529 = G__45120;
-i__44530 = G__45121;
+var G__45112 = cljs.core.next(seq__44526__$1);
+var G__45113 = null;
+var G__45114 = (0);
+var G__45115 = (0);
+seq__44526 = G__45112;
+chunk__44528 = G__45113;
+count__44529 = G__45114;
+i__44530 = G__45115;
 continue;
 }
 } else {
@@ -7623,8 +7623,8 @@ return (new datascript.parser.Rule(name,branches__$1,null,null,null));
 })()
 );
 
-var G__45125 = (i__44535 + (1));
-i__44535 = G__45125;
+var G__45122 = (i__44535 + (1));
+i__44535 = G__45122;
 continue;
 } else {
 return true;
@@ -7934,20 +7934,20 @@ var temp__5733__auto__ = cljs.core.first(qs);
 if(cljs.core.truth_(temp__5733__auto__)){
 var q = temp__5733__auto__;
 if((q instanceof cljs.core.Keyword)){
-var G__45137 = parsed;
-var G__45138 = q;
-var G__45139 = cljs.core.next(qs);
-parsed = G__45137;
-key = G__45138;
-qs = G__45139;
+var G__45138 = parsed;
+var G__45139 = q;
+var G__45140 = cljs.core.next(qs);
+parsed = G__45138;
+key = G__45139;
+qs = G__45140;
 continue;
 } else {
-var G__45140 = cljs.core.update_in.cljs$core$IFn$_invoke$arity$4(parsed,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [key], null),cljs.core.fnil.cljs$core$IFn$_invoke$arity$2(cljs.core.conj,cljs.core.PersistentVector.EMPTY),q);
-var G__45141 = key;
-var G__45142 = cljs.core.next(qs);
-parsed = G__45140;
-key = G__45141;
-qs = G__45142;
+var G__45141 = cljs.core.update_in.cljs$core$IFn$_invoke$arity$4(parsed,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [key], null),cljs.core.fnil.cljs$core$IFn$_invoke$arity$2(cljs.core.conj,cljs.core.PersistentVector.EMPTY),q);
+var G__45142 = key;
+var G__45143 = cljs.core.next(qs);
+parsed = G__45141;
+key = G__45142;
+qs = G__45143;
 continue;
 }
 } else {
@@ -7957,34 +7957,34 @@ break;
 }
 });
 datascript.parser.validate_query = (function datascript$parser$validate_query(q,form){
-var find_vars_45143 = cljs.core.set(datascript.parser.collect_vars(new cljs.core.Keyword(null,"qfind","qfind",1529332972).cljs$core$IFn$_invoke$arity$1(q)));
-var with_vars_45144 = cljs.core.set(new cljs.core.Keyword(null,"qwith","qwith",-45809392).cljs$core$IFn$_invoke$arity$1(q));
-var in_vars_45145 = cljs.core.set(datascript.parser.collect_vars(new cljs.core.Keyword(null,"qin","qin",1372651151).cljs$core$IFn$_invoke$arity$1(q)));
-var where_vars_45146 = cljs.core.set(datascript.parser.collect_vars(new cljs.core.Keyword(null,"qwhere","qwhere",-1645067378).cljs$core$IFn$_invoke$arity$1(q)));
-var unknown_45147 = clojure.set.difference.cljs$core$IFn$_invoke$arity$2(clojure.set.union.cljs$core$IFn$_invoke$arity$2(find_vars_45143,with_vars_45144),clojure.set.union.cljs$core$IFn$_invoke$arity$2(where_vars_45146,in_vars_45145));
-var shared_45148 = clojure.set.intersection.cljs$core$IFn$_invoke$arity$2(find_vars_45143,with_vars_45144);
-if(cljs.core.empty_QMARK_(unknown_45147)){
+var find_vars_45144 = cljs.core.set(datascript.parser.collect_vars(new cljs.core.Keyword(null,"qfind","qfind",1529332972).cljs$core$IFn$_invoke$arity$1(q)));
+var with_vars_45145 = cljs.core.set(new cljs.core.Keyword(null,"qwith","qwith",-45809392).cljs$core$IFn$_invoke$arity$1(q));
+var in_vars_45146 = cljs.core.set(datascript.parser.collect_vars(new cljs.core.Keyword(null,"qin","qin",1372651151).cljs$core$IFn$_invoke$arity$1(q)));
+var where_vars_45147 = cljs.core.set(datascript.parser.collect_vars(new cljs.core.Keyword(null,"qwhere","qwhere",-1645067378).cljs$core$IFn$_invoke$arity$1(q)));
+var unknown_45148 = clojure.set.difference.cljs$core$IFn$_invoke$arity$2(clojure.set.union.cljs$core$IFn$_invoke$arity$2(find_vars_45144,with_vars_45145),clojure.set.union.cljs$core$IFn$_invoke$arity$2(where_vars_45147,in_vars_45146));
+var shared_45149 = clojure.set.intersection.cljs$core$IFn$_invoke$arity$2(find_vars_45144,with_vars_45145);
+if(cljs.core.empty_QMARK_(unknown_45148)){
 } else {
-throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2(["Query for unknown vars: ",cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([cljs.core.mapv.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"symbol","symbol",-1038572696),unknown_45147)], 0))].join(''),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"error","error",-978969032),new cljs.core.Keyword("parser","query","parser/query",1877320671),new cljs.core.Keyword(null,"vars","vars",-2046957217),unknown_45147,new cljs.core.Keyword(null,"form","form",-1624062471),form], null));
+throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2(["Query for unknown vars: ",cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([cljs.core.mapv.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"symbol","symbol",-1038572696),unknown_45148)], 0))].join(''),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"error","error",-978969032),new cljs.core.Keyword("parser","query","parser/query",1877320671),new cljs.core.Keyword(null,"vars","vars",-2046957217),unknown_45148,new cljs.core.Keyword(null,"form","form",-1624062471),form], null));
 }
 
-if(cljs.core.empty_QMARK_(shared_45148)){
+if(cljs.core.empty_QMARK_(shared_45149)){
 } else {
-throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2([":find and :with should not use same variables: ",cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([cljs.core.mapv.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"symbol","symbol",-1038572696),shared_45148)], 0))].join(''),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"error","error",-978969032),new cljs.core.Keyword("parser","query","parser/query",1877320671),new cljs.core.Keyword(null,"vars","vars",-2046957217),shared_45148,new cljs.core.Keyword(null,"form","form",-1624062471),form], null));
+throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2([":find and :with should not use same variables: ",cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([cljs.core.mapv.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"symbol","symbol",-1038572696),shared_45149)], 0))].join(''),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"error","error",-978969032),new cljs.core.Keyword("parser","query","parser/query",1877320671),new cljs.core.Keyword(null,"vars","vars",-2046957217),shared_45149,new cljs.core.Keyword(null,"form","form",-1624062471),form], null));
 }
 
-var in_vars_45150 = datascript.parser.collect_vars(new cljs.core.Keyword(null,"qin","qin",1372651151).cljs$core$IFn$_invoke$arity$1(q));
-var in_sources_45151 = datascript.parser.collect.cljs$core$IFn$_invoke$arity$2((function (p1__44569_SHARP_){
+var in_vars_45151 = datascript.parser.collect_vars(new cljs.core.Keyword(null,"qin","qin",1372651151).cljs$core$IFn$_invoke$arity$1(q));
+var in_sources_45152 = datascript.parser.collect.cljs$core$IFn$_invoke$arity$2((function (p1__44569_SHARP_){
 return (p1__44569_SHARP_ instanceof datascript.parser.SrcVar);
 }),new cljs.core.Keyword(null,"qin","qin",1372651151).cljs$core$IFn$_invoke$arity$1(q));
-var in_rules_45152 = datascript.parser.collect.cljs$core$IFn$_invoke$arity$2((function (p1__44570_SHARP_){
+var in_rules_45153 = datascript.parser.collect.cljs$core$IFn$_invoke$arity$2((function (p1__44570_SHARP_){
 return (p1__44570_SHARP_ instanceof datascript.parser.RulesVar);
 }),new cljs.core.Keyword(null,"qin","qin",1372651151).cljs$core$IFn$_invoke$arity$1(q));
-if(cljs.core.truth_((function (){var and__4174__auto__ = datascript.parser.distinct_QMARK_(in_vars_45150);
+if(cljs.core.truth_((function (){var and__4174__auto__ = datascript.parser.distinct_QMARK_(in_vars_45151);
 if(cljs.core.truth_(and__4174__auto__)){
-var and__4174__auto____$1 = datascript.parser.distinct_QMARK_(in_sources_45151);
+var and__4174__auto____$1 = datascript.parser.distinct_QMARK_(in_sources_45152);
 if(cljs.core.truth_(and__4174__auto____$1)){
-return datascript.parser.distinct_QMARK_(in_rules_45152);
+return datascript.parser.distinct_QMARK_(in_rules_45153);
 } else {
 return and__4174__auto____$1;
 }
