@@ -111,8 +111,8 @@ return string;
 (day8.re_frame_10x.utils.pretty_print_condensed.truncate_string.cljs$lang$maxFixedArity = 3);
 
 day8.re_frame_10x.utils.pretty_print_condensed.truncate_segments = (function day8$re_frame_10x$utils$pretty_print_condensed$truncate_segments(var_args){
-var G__31933 = arguments.length;
-switch (G__31933) {
+var G__31931 = arguments.length;
+switch (G__31931) {
 case 2:
 return day8.re_frame_10x.utils.pretty_print_condensed.truncate_segments.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -234,9 +234,9 @@ return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMP
  * Wrap `value` with edges of `coll`
  */
 day8.re_frame_10x.utils.pretty_print_condensed.with_edges = (function day8$re_frame_10x$utils$pretty_print_condensed$with_edges(coll,value){
-var vec__31943 = day8.re_frame_10x.utils.pretty_print_condensed.edges(coll);
-var left = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31943,(0),null);
-var right = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31943,(1),null);
+var vec__31942 = day8.re_frame_10x.utils.pretty_print_condensed.edges(coll);
+var left = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31942,(0),null);
+var right = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31942,(1),null);
 return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(left),cljs.core.str.cljs$core$IFn$_invoke$arity$1(value),cljs.core.str.cljs$core$IFn$_invoke$arity$1(right)].join('');
 });
 /**
@@ -497,14 +497,14 @@ return new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"fl
  */
 day8.re_frame_10x.utils.pretty_print_condensed.pr_str_truncated = (function day8$re_frame_10x$utils$pretty_print_condensed$pr_str_truncated(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___31990 = arguments.length;
-var i__4790__auto___31991 = (0);
+var len__4789__auto___31992 = arguments.length;
+var i__4790__auto___31993 = (0);
 while(true){
-if((i__4790__auto___31991 < len__4789__auto___31990)){
-args__4795__auto__.push((arguments[i__4790__auto___31991]));
+if((i__4790__auto___31993 < len__4789__auto___31992)){
+args__4795__auto__.push((arguments[i__4790__auto___31993]));
 
-var G__31992 = (i__4790__auto___31991 + (1));
-i__4790__auto___31991 = G__31992;
+var G__31994 = (i__4790__auto___31993 + (1));
+i__4790__auto___31993 = G__31994;
 continue;
 } else {
 }

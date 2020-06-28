@@ -140,8 +140,8 @@ return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq
  * Create a CSS @import rule.
  */
 garden.stylesheet.at_import = (function garden$stylesheet$at_import(var_args){
-var G__36408 = arguments.length;
-switch (G__36408) {
+var G__36409 = arguments.length;
+switch (G__36409) {
 case 1:
 return garden.stylesheet.at_import.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -177,11 +177,11 @@ return garden.stylesheet.at_rule(new cljs.core.Keyword(null,"import","import",-1
 }));
 
 /** @this {Function} */
-(garden.stylesheet.at_import.cljs$lang$applyTo = (function (seq36406){
-var G__36407 = cljs.core.first(seq36406);
-var seq36406__$1 = cljs.core.next(seq36406);
+(garden.stylesheet.at_import.cljs$lang$applyTo = (function (seq36407){
+var G__36408 = cljs.core.first(seq36407);
+var seq36407__$1 = cljs.core.next(seq36407);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__36407,seq36406__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__36408,seq36407__$1);
 }));
 
 (garden.stylesheet.at_import.cljs$lang$maxFixedArity = (1));

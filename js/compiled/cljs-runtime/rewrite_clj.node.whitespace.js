@@ -53,9 +53,9 @@ return this__4439__auto____$1.cljs$core$ILookup$_lookup$arity$3(null,k__4440__au
 (rewrite_clj.node.whitespace.WhitespaceNode.prototype.cljs$core$ILookup$_lookup$arity$3 = (function (this__4441__auto__,k29951,else__4442__auto__){
 var self__ = this;
 var this__4441__auto____$1 = this;
-var G__29960 = k29951;
-var G__29960__$1 = (((G__29960 instanceof cljs.core.Keyword))?G__29960.fqn:null);
-switch (G__29960__$1) {
+var G__29956 = k29951;
+var G__29956__$1 = (((G__29956 instanceof cljs.core.Keyword))?G__29956.fqn:null);
+switch (G__29956__$1) {
 case "whitespace":
 return self__.whitespace;
 
@@ -179,11 +179,11 @@ return (new rewrite_clj.node.whitespace.WhitespaceNode(self__.whitespace,self__.
 (rewrite_clj.node.whitespace.WhitespaceNode.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__4446__auto__,k__4447__auto__,G__29950){
 var self__ = this;
 var this__4446__auto____$1 = this;
-var pred__29972 = cljs.core.keyword_identical_QMARK_;
-var expr__29973 = k__4447__auto__;
-if(cljs.core.truth_((function (){var G__29975 = new cljs.core.Keyword(null,"whitespace","whitespace",-1340035483);
-var G__29976 = expr__29973;
-return (pred__29972.cljs$core$IFn$_invoke$arity$2 ? pred__29972.cljs$core$IFn$_invoke$arity$2(G__29975,G__29976) : pred__29972.call(null,G__29975,G__29976));
+var pred__29967 = cljs.core.keyword_identical_QMARK_;
+var expr__29968 = k__4447__auto__;
+if(cljs.core.truth_((function (){var G__29970 = new cljs.core.Keyword(null,"whitespace","whitespace",-1340035483);
+var G__29971 = expr__29968;
+return (pred__29967.cljs$core$IFn$_invoke$arity$2 ? pred__29967.cljs$core$IFn$_invoke$arity$2(G__29970,G__29971) : pred__29967.call(null,G__29970,G__29971));
 })())){
 return (new rewrite_clj.node.whitespace.WhitespaceNode(G__29950,self__.__meta,self__.__extmap,null));
 } else {
@@ -237,15 +237,15 @@ return (new rewrite_clj.node.whitespace.WhitespaceNode(whitespace,null,null,null
 /**
  * Factory function for rewrite-clj.node.whitespace/WhitespaceNode, taking a map of keywords to field values.
  */
-rewrite_clj.node.whitespace.map__GT_WhitespaceNode = (function rewrite_clj$node$whitespace$map__GT_WhitespaceNode(G__29955){
-var extmap__4478__auto__ = (function (){var G__29978 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(G__29955,new cljs.core.Keyword(null,"whitespace","whitespace",-1340035483));
-if(cljs.core.record_QMARK_(G__29955)){
-return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__29978);
+rewrite_clj.node.whitespace.map__GT_WhitespaceNode = (function rewrite_clj$node$whitespace$map__GT_WhitespaceNode(G__29954){
+var extmap__4478__auto__ = (function (){var G__29977 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(G__29954,new cljs.core.Keyword(null,"whitespace","whitespace",-1340035483));
+if(cljs.core.record_QMARK_(G__29954)){
+return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__29977);
 } else {
-return G__29978;
+return G__29977;
 }
 })();
-return (new rewrite_clj.node.whitespace.WhitespaceNode(new cljs.core.Keyword(null,"whitespace","whitespace",-1340035483).cljs$core$IFn$_invoke$arity$1(G__29955),null,cljs.core.not_empty(extmap__4478__auto__),null));
+return (new rewrite_clj.node.whitespace.WhitespaceNode(new cljs.core.Keyword(null,"whitespace","whitespace",-1340035483).cljs$core$IFn$_invoke$arity$1(G__29954),null,cljs.core.not_empty(extmap__4478__auto__),null));
 });
 
 
@@ -291,9 +291,9 @@ return this__4439__auto____$1.cljs$core$ILookup$_lookup$arity$3(null,k__4440__au
 (rewrite_clj.node.whitespace.NewlineNode.prototype.cljs$core$ILookup$_lookup$arity$3 = (function (this__4441__auto__,k29980,else__4442__auto__){
 var self__ = this;
 var this__4441__auto____$1 = this;
-var G__29985 = k29980;
-var G__29985__$1 = (((G__29985 instanceof cljs.core.Keyword))?G__29985.fqn:null);
-switch (G__29985__$1) {
+var G__29984 = k29980;
+var G__29984__$1 = (((G__29984 instanceof cljs.core.Keyword))?G__29984.fqn:null);
+switch (G__29984__$1) {
 case "newlines":
 return self__.newlines;
 
@@ -529,26 +529,26 @@ return rewrite_clj.node.whitespace.whitespace_node(cljs.core.apply.cljs$core$IFn
 rewrite_clj.node.whitespace.newlines = (function rewrite_clj$node$whitespace$newlines(n){
 return rewrite_clj.node.whitespace.newline_node(cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.str,cljs.core.repeat.cljs$core$IFn$_invoke$arity$2(n,"\n")));
 });
-var comma_30028 = rewrite_clj.node.whitespace.whitespace_node(", ");
+var comma_30026 = rewrite_clj.node.whitespace.whitespace_node(", ");
 /**
  * Interleave the given seq of nodes with `", "` nodes.
  */
 rewrite_clj.node.whitespace.comma_separated = (function rewrite_clj$node$whitespace$comma_separated(nodes){
-return cljs.core.butlast(cljs.core.interleave.cljs$core$IFn$_invoke$arity$2(nodes,cljs.core.repeat.cljs$core$IFn$_invoke$arity$1(comma_30028)));
+return cljs.core.butlast(cljs.core.interleave.cljs$core$IFn$_invoke$arity$2(nodes,cljs.core.repeat.cljs$core$IFn$_invoke$arity$1(comma_30026)));
 });
-var nl_30030 = rewrite_clj.node.whitespace.newline_node("\n");
+var nl_30028 = rewrite_clj.node.whitespace.newline_node("\n");
 /**
  * Interleave the given seq of nodes with newline nodes.
  */
 rewrite_clj.node.whitespace.line_separated = (function rewrite_clj$node$whitespace$line_separated(nodes){
-return cljs.core.butlast(cljs.core.interleave.cljs$core$IFn$_invoke$arity$2(nodes,cljs.core.repeat.cljs$core$IFn$_invoke$arity$1(nl_30030)));
+return cljs.core.butlast(cljs.core.interleave.cljs$core$IFn$_invoke$arity$2(nodes,cljs.core.repeat.cljs$core$IFn$_invoke$arity$1(nl_30028)));
 });
-var space_30031 = rewrite_clj.node.whitespace.whitespace_node(" ");
+var space_30029 = rewrite_clj.node.whitespace.whitespace_node(" ");
 /**
  * Interleave the given seq of nodes with `" "` nodes.
  */
 rewrite_clj.node.whitespace.space_separated = (function rewrite_clj$node$whitespace$space_separated(nodes){
-return cljs.core.butlast(cljs.core.interleave.cljs$core$IFn$_invoke$arity$2(nodes,cljs.core.repeat.cljs$core$IFn$_invoke$arity$1(space_30031)));
+return cljs.core.butlast(cljs.core.interleave.cljs$core$IFn$_invoke$arity$2(nodes,cljs.core.repeat.cljs$core$IFn$_invoke$arity$1(space_30029)));
 });
 /**
  * Check whether a node represents whitespace.

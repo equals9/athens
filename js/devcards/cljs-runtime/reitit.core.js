@@ -51,21 +51,21 @@ return this$__$1;
 
 goog.object.set(reitit.core.Expand,"function",true);
 
-var G__50000_50177 = reitit.core.expand;
-var G__50001_50178 = "function";
-var G__50002_50179 = (function (this$,_){
+var G__50000_50176 = reitit.core.expand;
+var G__50001_50177 = "function";
+var G__50002_50178 = (function (this$,_){
 return new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"handler","handler",-195596612),this$], null);
 });
-goog.object.set(G__50000_50177,G__50001_50178,G__50002_50179);
+goog.object.set(G__50000_50176,G__50001_50177,G__50002_50178);
 
 goog.object.set(reitit.core.Expand,"null",true);
 
-var G__50003_50180 = reitit.core.expand;
-var G__50004_50181 = "null";
-var G__50005_50182 = (function (_,___$1){
+var G__50003_50179 = reitit.core.expand;
+var G__50004_50180 = "null";
+var G__50005_50181 = (function (_,___$1){
 return null;
 });
-goog.object.set(G__50003_50180,G__50004_50181,G__50005_50182);
+goog.object.set(G__50003_50179,G__50004_50180,G__50005_50181);
 
 /**
  * @interface
@@ -1054,10 +1054,10 @@ return reitit.core.lookup_router.cljs$core$IFn$_invoke$arity$2(compiled_routes,c
 }));
 
 (reitit.core.lookup_router.cljs$core$IFn$_invoke$arity$2 = (function (compiled_routes,opts){
-var temp__5735__auto___50265 = cljs.core.seq(cljs.core.filter.cljs$core$IFn$_invoke$arity$2(reitit.impl.__GT_wild_route_QMARK_(opts),compiled_routes));
-if(temp__5735__auto___50265){
-var wilds_50266 = temp__5735__auto___50265;
-reitit.exception.fail_BANG_.cljs$core$IFn$_invoke$arity$2(["can't create :lookup-router with wildcard routes: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(wilds_50266)].join(''),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"wilds","wilds",132271223),wilds_50266,new cljs.core.Keyword(null,"routes","routes",457900162),compiled_routes], null));
+var temp__5735__auto___50223 = cljs.core.seq(cljs.core.filter.cljs$core$IFn$_invoke$arity$2(reitit.impl.__GT_wild_route_QMARK_(opts),compiled_routes));
+if(temp__5735__auto___50223){
+var wilds_50224 = temp__5735__auto___50223;
+reitit.exception.fail_BANG_.cljs$core$IFn$_invoke$arity$2(["can't create :lookup-router with wildcard routes: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(wilds_50224)].join(''),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"wilds","wilds",132271223),wilds_50224,new cljs.core.Keyword(null,"routes","routes",457900162),compiled_routes], null));
 } else {
 }
 

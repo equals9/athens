@@ -448,14 +448,14 @@ return (surrogate["startIndex"]);
 });
 devtools.formatters.templating.make_reference = (function devtools$formatters$templating$make_reference(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___23934 = arguments.length;
+var len__4789__auto___23933 = arguments.length;
 var i__4790__auto___23935 = (0);
 while(true){
-if((i__4790__auto___23935 < len__4789__auto___23934)){
+if((i__4790__auto___23935 < len__4789__auto___23933)){
 args__4795__auto__.push((arguments[i__4790__auto___23935]));
 
-var G__23937 = (i__4790__auto___23935 + (1));
-i__4790__auto___23935 = G__23937;
+var G__23936 = (i__4790__auto___23935 + (1));
+i__4790__auto___23935 = G__23936;
 continue;
 } else {
 }
@@ -466,9 +466,9 @@ var argseq__4796__auto__ = ((((1) < args__4795__auto__.length))?(new cljs.core.I
 return devtools.formatters.templating.make_reference.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)]),argseq__4796__auto__);
 });
 
-(devtools.formatters.templating.make_reference.cljs$core$IFn$_invoke$arity$variadic = (function (object,p__23844){
-var vec__23846 = p__23844;
-var state_override_fn = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__23846,(0),null);
+(devtools.formatters.templating.make_reference.cljs$core$IFn$_invoke$arity$variadic = (function (object,p__23842){
+var vec__23843 = p__23842;
+var state_override_fn = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__23843,(0),null);
 if((((state_override_fn == null)) || (cljs.core.fn_QMARK_(state_override_fn)))){
 } else {
 throw (new Error("Assert failed: (or (nil? state-override-fn) (fn? state-override-fn))"));
@@ -609,24 +609,24 @@ throw (new Error(["Assert failed: ",["result of markup rendering must be a templ
 devtools.formatters.templating.render_markup_STAR_ = (function devtools$formatters$templating$render_markup_STAR_(initial_value,value){
 while(true){
 if(cljs.core.fn_QMARK_(value)){
-var G__23976 = initial_value;
-var G__23977 = (value.cljs$core$IFn$_invoke$arity$0 ? value.cljs$core$IFn$_invoke$arity$0() : value.call(null));
-initial_value = G__23976;
-value = G__23977;
+var G__23969 = initial_value;
+var G__23970 = (value.cljs$core$IFn$_invoke$arity$0 ? value.cljs$core$IFn$_invoke$arity$0() : value.call(null));
+initial_value = G__23969;
+value = G__23970;
 continue;
 } else {
 if((value instanceof cljs.core.Keyword)){
-var G__23978 = initial_value;
-var G__23979 = devtools.formatters.helpers.pref(value);
-initial_value = G__23978;
-value = G__23979;
+var G__23974 = initial_value;
+var G__23975 = devtools.formatters.helpers.pref(value);
+initial_value = G__23974;
+value = G__23975;
 continue;
 } else {
 if(cljs.core.sequential_QMARK_(value)){
-var G__23980 = initial_value;
-var G__23981 = devtools.formatters.templating.render_json_ml(value);
-initial_value = G__23980;
-value = G__23981;
+var G__23976 = initial_value;
+var G__23977 = devtools.formatters.templating.render_json_ml(value);
+initial_value = G__23976;
+value = G__23977;
 continue;
 } else {
 if(devtools.formatters.templating.template_QMARK_(value)){
