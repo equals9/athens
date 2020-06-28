@@ -40,12 +40,12 @@ return null;
 }
 });
 datascript.pull_api.single_frame_result = (function datascript$pull_api$single_frame_result(key,frame){
-var G__42413 = new cljs.core.Keyword(null,"kvps","kvps",65308317).cljs$core$IFn$_invoke$arity$1(frame);
-var G__42413__$1 = (((G__42413 == null))?null:cljs.core.persistent_BANG_(G__42413));
-if((G__42413__$1 == null)){
+var G__42412 = new cljs.core.Keyword(null,"kvps","kvps",65308317).cljs$core$IFn$_invoke$arity$1(frame);
+var G__42412__$1 = (((G__42412 == null))?null:cljs.core.persistent_BANG_(G__42412));
+if((G__42412__$1 == null)){
 return null;
 } else {
-return cljs.core.get.cljs$core$IFn$_invoke$arity$2(G__42413__$1,key);
+return cljs.core.get.cljs$core$IFn$_invoke$arity$2(G__42412__$1,key);
 }
 });
 datascript.pull_api.recursion_result = (function datascript$pull_api$recursion_result(frame){

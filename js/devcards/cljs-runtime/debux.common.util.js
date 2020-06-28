@@ -26,8 +26,8 @@ return right;
 if(cljs.core.sequential_QMARK_(clojure.zip.node(loc))){
 var rightmost = clojure.zip.rightmost(clojure.zip.down(loc));
 if(cljs.core.sequential_QMARK_(clojure.zip.node(rightmost))){
-var G__46040 = rightmost;
-loc = G__46040;
+var G__46038 = rightmost;
+loc = G__46038;
 continue;
 } else {
 return clojure.zip.next(rightmost);
@@ -451,14 +451,14 @@ return result;
 var G__46066 = function (var_args){
 var arg = null;
 if (arguments.length > 0) {
-var G__46069__i = 0, G__46069__a = new Array(arguments.length -  0);
-while (G__46069__i < G__46069__a.length) {G__46069__a[G__46069__i] = arguments[G__46069__i + 0]; ++G__46069__i;}
-  arg = new cljs.core.IndexedSeq(G__46069__a,0,null);
+var G__46067__i = 0, G__46067__a = new Array(arguments.length -  0);
+while (G__46067__i < G__46067__a.length) {G__46067__a[G__46067__i] = arguments[G__46067__i + 0]; ++G__46067__i;}
+  arg = new cljs.core.IndexedSeq(G__46067__a,0,null);
 } 
 return G__46066__delegate.call(this,arg);};
 G__46066.cljs$lang$maxFixedArity = 0;
-G__46066.cljs$lang$applyTo = (function (arglist__46070){
-var arg = cljs.core.seq(arglist__46070);
+G__46066.cljs$lang$applyTo = (function (arglist__46068){
+var arg = cljs.core.seq(arglist__46068);
 return G__46066__delegate(arg);
 });
 G__46066.cljs$core$IFn$_invoke$arity$variadic = G__46066__delegate;
@@ -483,17 +483,17 @@ if(clojure.zip.end_QMARK_(loc)){
 return clojure.zip.root(loc);
 } else {
 if(((cljs.core.seq_QMARK_(node)) && (((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(d_sym,cljs.core.first(node))) || (debux.common.util.debux_skip_symbol_QMARK_(cljs.core.first(node))) || (debux.common.util.spy_first_QMARK_(cljs.core.first(node))))))){
-var G__46075 = clojure.zip.replace(loc,debux.common.util.third(node));
-loc = G__46075;
+var G__46069 = clojure.zip.replace(loc,debux.common.util.third(node));
+loc = G__46069;
 continue;
 } else {
 if(((cljs.core.seq_QMARK_(node)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(new cljs.core.Symbol("debux.common.util","spy-last","debux.common.util/spy-last",321778494,null),cljs.core.first(node))))){
-var G__46076 = clojure.zip.replace(loc,cljs.core.last(node));
-loc = G__46076;
+var G__46070 = clojure.zip.replace(loc,cljs.core.last(node));
+loc = G__46070;
 continue;
 } else {
-var G__46077 = clojure.zip.next(loc);
-loc = G__46077;
+var G__46071 = clojure.zip.next(loc);
+loc = G__46071;
 continue;
 
 }
