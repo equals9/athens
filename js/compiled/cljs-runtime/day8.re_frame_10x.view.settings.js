@@ -11,13 +11,13 @@ day8.re_frame_10x.view.settings.horizontal_gap = day8.re_frame_10x.common_styles
 day8.re_frame_10x.view.settings.vertical_gap = day8.re_frame_10x.common_styles.gs_12s;
 day8.re_frame_10x.view.settings.settings_box_vertical_padding = day8.re_frame_10x.common_styles.gs_7;
 day8.re_frame_10x.view.settings.settings_box_padding = day8.re_frame_10x.utils.re_com.css_join.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["7px","0"], 0));
-day8.re_frame_10x.view.settings.settings_box_81 = day8.re_frame_10x.inlined_deps.garden.v1v3v9.garden.compiler.render_css((function (){var G__28539 = day8.re_frame_10x.common_styles.gs_81;
-var G__28540 = (day8.re_frame_10x.inlined_deps.garden.v1v3v9.garden.units.px_STAR_.cljs$core$IFn$_invoke$arity$2 ? day8.re_frame_10x.inlined_deps.garden.v1v3v9.garden.units.px_STAR_.cljs$core$IFn$_invoke$arity$2((2),day8.re_frame_10x.view.settings.settings_box_vertical_padding) : day8.re_frame_10x.inlined_deps.garden.v1v3v9.garden.units.px_STAR_.call(null,(2),day8.re_frame_10x.view.settings.settings_box_vertical_padding));
-return (day8.re_frame_10x.inlined_deps.garden.v1v3v9.garden.units.px_.cljs$core$IFn$_invoke$arity$2 ? day8.re_frame_10x.inlined_deps.garden.v1v3v9.garden.units.px_.cljs$core$IFn$_invoke$arity$2(G__28539,G__28540) : day8.re_frame_10x.inlined_deps.garden.v1v3v9.garden.units.px_.call(null,G__28539,G__28540));
+day8.re_frame_10x.view.settings.settings_box_81 = day8.re_frame_10x.inlined_deps.garden.v1v3v9.garden.compiler.render_css((function (){var G__28538 = day8.re_frame_10x.common_styles.gs_81;
+var G__28539 = (day8.re_frame_10x.inlined_deps.garden.v1v3v9.garden.units.px_STAR_.cljs$core$IFn$_invoke$arity$2 ? day8.re_frame_10x.inlined_deps.garden.v1v3v9.garden.units.px_STAR_.cljs$core$IFn$_invoke$arity$2((2),day8.re_frame_10x.view.settings.settings_box_vertical_padding) : day8.re_frame_10x.inlined_deps.garden.v1v3v9.garden.units.px_STAR_.call(null,(2),day8.re_frame_10x.view.settings.settings_box_vertical_padding));
+return (day8.re_frame_10x.inlined_deps.garden.v1v3v9.garden.units.px_.cljs$core$IFn$_invoke$arity$2 ? day8.re_frame_10x.inlined_deps.garden.v1v3v9.garden.units.px_.cljs$core$IFn$_invoke$arity$2(G__28538,G__28539) : day8.re_frame_10x.inlined_deps.garden.v1v3v9.garden.units.px_.call(null,G__28538,G__28539));
 })());
-day8.re_frame_10x.view.settings.settings_box_131 = day8.re_frame_10x.inlined_deps.garden.v1v3v9.garden.compiler.render_css((function (){var G__28541 = day8.re_frame_10x.common_styles.gs_131;
-var G__28542 = (day8.re_frame_10x.inlined_deps.garden.v1v3v9.garden.units.px_STAR_.cljs$core$IFn$_invoke$arity$2 ? day8.re_frame_10x.inlined_deps.garden.v1v3v9.garden.units.px_STAR_.cljs$core$IFn$_invoke$arity$2((2),day8.re_frame_10x.view.settings.settings_box_vertical_padding) : day8.re_frame_10x.inlined_deps.garden.v1v3v9.garden.units.px_STAR_.call(null,(2),day8.re_frame_10x.view.settings.settings_box_vertical_padding));
-return (day8.re_frame_10x.inlined_deps.garden.v1v3v9.garden.units.px_.cljs$core$IFn$_invoke$arity$2 ? day8.re_frame_10x.inlined_deps.garden.v1v3v9.garden.units.px_.cljs$core$IFn$_invoke$arity$2(G__28541,G__28542) : day8.re_frame_10x.inlined_deps.garden.v1v3v9.garden.units.px_.call(null,G__28541,G__28542));
+day8.re_frame_10x.view.settings.settings_box_131 = day8.re_frame_10x.inlined_deps.garden.v1v3v9.garden.compiler.render_css((function (){var G__28540 = day8.re_frame_10x.common_styles.gs_131;
+var G__28541 = (day8.re_frame_10x.inlined_deps.garden.v1v3v9.garden.units.px_STAR_.cljs$core$IFn$_invoke$arity$2 ? day8.re_frame_10x.inlined_deps.garden.v1v3v9.garden.units.px_STAR_.cljs$core$IFn$_invoke$arity$2((2),day8.re_frame_10x.view.settings.settings_box_vertical_padding) : day8.re_frame_10x.inlined_deps.garden.v1v3v9.garden.units.px_STAR_.call(null,(2),day8.re_frame_10x.view.settings.settings_box_vertical_padding));
+return (day8.re_frame_10x.inlined_deps.garden.v1v3v9.garden.units.px_.cljs$core$IFn$_invoke$arity$2 ? day8.re_frame_10x.inlined_deps.garden.v1v3v9.garden.units.px_.cljs$core$IFn$_invoke$arity$2(G__28540,G__28541) : day8.re_frame_10x.inlined_deps.garden.v1v3v9.garden.units.px_.call(null,G__28540,G__28541));
 })());
 day8.re_frame_10x.view.settings.settings_styles = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"#--re-frame-10x--","#--re-frame-10x--",-1788857107),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,".settings",".settings",1002597819),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"background-color","background-color",570434026),day8.re_frame_10x.common_styles.white_background_color], null)], null)], null);
 day8.re_frame_10x.view.settings.closeable_text_box = (function day8$re_frame_10x$view$settings$closeable_text_box(var_args){
@@ -53,9 +53,9 @@ return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMP
 (day8.re_frame_10x.view.settings.closeable_text_box.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(day8.re_frame_10x.view.settings.closeable_text_box.cljs$lang$applyTo = (function (seq28543){
+(day8.re_frame_10x.view.settings.closeable_text_box.cljs$lang$applyTo = (function (seq28542){
 var self__4777__auto__ = this;
-return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq28543));
+return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq28542));
 }));
 
 day8.re_frame_10x.view.settings.explanation_text = (function day8$re_frame_10x$view$settings$explanation_text(children){

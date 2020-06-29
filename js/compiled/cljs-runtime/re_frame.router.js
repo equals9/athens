@@ -5,10 +5,10 @@ goog.require('re_frame.interop');
 goog.require('re_frame.loggers');
 goog.require('re_frame.trace');
 re_frame.router.later_fns = new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"flush-dom","flush-dom",-933676816),(function (f){
-var G__32918 = (function (){
+var G__32914 = (function (){
 return (re_frame.interop.next_tick.cljs$core$IFn$_invoke$arity$1 ? re_frame.interop.next_tick.cljs$core$IFn$_invoke$arity$1(f) : re_frame.interop.next_tick.call(null,f));
 });
-return (re_frame.interop.after_render.cljs$core$IFn$_invoke$arity$1 ? re_frame.interop.after_render.cljs$core$IFn$_invoke$arity$1(G__32918) : re_frame.interop.after_render.call(null,G__32918));
+return (re_frame.interop.after_render.cljs$core$IFn$_invoke$arity$1 ? re_frame.interop.after_render.cljs$core$IFn$_invoke$arity$1(G__32914) : re_frame.interop.after_render.call(null,G__32914));
 }),new cljs.core.Keyword(null,"yield","yield",177875009),re_frame.interop.next_tick], null);
 
 /**
@@ -290,8 +290,8 @@ return this$__$1.re_frame$router$IEventQueue$_fsm_trigger$arity$3(null,new cljs.
 } else {
 this$__$1.re_frame$router$IEventQueue$_process_1st_event_in_queue$arity$1(null);
 
-var G__33024 = (n - (1));
-n = G__33024;
+var G__33025 = (n - (1));
+n = G__33025;
 continue;
 }
 }
@@ -522,10 +522,10 @@ return null;
 (re_frame.router.EventQueue.prototype.re_frame$router$IEventQueue$_pause$arity$2 = (function (this$,later_fn){
 var self__ = this;
 var this$__$1 = this;
-var G__32964 = (function (){
+var G__32965 = (function (){
 return this$__$1.re_frame$router$IEventQueue$_fsm_trigger$arity$3(null,new cljs.core.Keyword(null,"resume","resume",-118572261),null);
 });
-return (later_fn.cljs$core$IFn$_invoke$arity$1 ? later_fn.cljs$core$IFn$_invoke$arity$1(G__32964) : later_fn.call(null,G__32964));
+return (later_fn.cljs$core$IFn$_invoke$arity$1 ? later_fn.cljs$core$IFn$_invoke$arity$1(G__32965) : later_fn.call(null,G__32965));
 }));
 
 (re_frame.router.EventQueue.prototype.re_frame$router$IEventQueue$add_post_event_callback$arity$3 = (function (_,id,callback_fn){
@@ -565,14 +565,14 @@ var callback = chunk__32971.cljs$core$IIndexed$_nth$arity$2(null,i__32973);
 (callback.cljs$core$IFn$_invoke$arity$2 ? callback.cljs$core$IFn$_invoke$arity$2(event_v,self__.queue) : callback.call(null,event_v,self__.queue));
 
 
-var G__33046 = seq__32970;
-var G__33047 = chunk__32971;
-var G__33048 = count__32972;
-var G__33049 = (i__32973 + (1));
-seq__32970 = G__33046;
-chunk__32971 = G__33047;
-count__32972 = G__33048;
-i__32973 = G__33049;
+var G__33047 = seq__32970;
+var G__33048 = chunk__32971;
+var G__33049 = count__32972;
+var G__33050 = (i__32973 + (1));
+seq__32970 = G__33047;
+chunk__32971 = G__33048;
+count__32972 = G__33049;
+i__32973 = G__33050;
 continue;
 } else {
 var temp__5735__auto__ = cljs.core.seq(seq__32970);
@@ -594,14 +594,14 @@ var callback = cljs.core.first(seq__32970__$1);
 (callback.cljs$core$IFn$_invoke$arity$2 ? callback.cljs$core$IFn$_invoke$arity$2(event_v,self__.queue) : callback.call(null,event_v,self__.queue));
 
 
-var G__33055 = cljs.core.next(seq__32970__$1);
-var G__33056 = null;
-var G__33057 = (0);
-var G__33058 = (0);
-seq__32970 = G__33055;
-chunk__32971 = G__33056;
-count__32972 = G__33057;
-i__32973 = G__33058;
+var G__33057 = cljs.core.next(seq__32970__$1);
+var G__33058 = null;
+var G__33059 = (0);
+var G__33060 = (0);
+seq__32970 = G__33057;
+chunk__32971 = G__33058;
+count__32972 = G__33059;
+i__32973 = G__33060;
 continue;
 }
 } else {
