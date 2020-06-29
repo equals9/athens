@@ -138,10 +138,10 @@ if(reagent.impl.util.named_QMARK_(k)){
 var temp__5737__auto__ = reagent.impl.template.cache_get(reagent.impl.template.custom_prop_name_cache,cljs.core.name(k));
 if((temp__5737__auto__ == null)){
 var v = reagent.impl.util.dash_to_prop_name(k);
-var G__31682_31723 = reagent.impl.template.custom_prop_name_cache;
-var G__31683_31724 = cljs.core.name(k);
-var G__31684_31725 = v;
-goog.object.set(G__31682_31723,G__31683_31724,G__31684_31725);
+var G__31682_31725 = reagent.impl.template.custom_prop_name_cache;
+var G__31683_31726 = cljs.core.name(k);
+var G__31684_31727 = v;
+goog.object.set(G__31682_31725,G__31683_31726,G__31684_31727);
 
 return v;
 } else {
@@ -154,10 +154,10 @@ return k;
 });
 reagent.impl.template.custom_kv_conv = (function reagent$impl$template$custom_kv_conv(o,k,v){
 var G__31685 = o;
-var G__31686_31728 = G__31685;
-var G__31687_31729 = reagent.impl.template.cached_custom_prop_name(k);
-var G__31688_31730 = reagent.impl.template.convert_prop_value(v);
-goog.object.set(G__31686_31728,G__31687_31729,G__31688_31730);
+var G__31686_31733 = G__31685;
+var G__31687_31734 = reagent.impl.template.cached_custom_prop_name(k);
+var G__31688_31735 = reagent.impl.template.convert_prop_value(v);
+goog.object.set(G__31686_31733,G__31687_31734,G__31688_31735);
 
 return G__31685;
 });

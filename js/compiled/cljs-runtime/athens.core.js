@@ -30,8 +30,8 @@ stylefy.core.init.cljs$core$IFn$_invoke$arity$0();
 
 athens.listeners.init();
 
-var G__68264_68265 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"boot","boot",2007860585)], null);
-(re_frame.core.dispatch_sync.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch_sync.cljs$core$IFn$_invoke$arity$1(G__68264_68265) : re_frame.core.dispatch_sync.call(null,G__68264_68265));
+var G__68272_68273 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"boot","boot",2007860585)], null);
+(re_frame.core.dispatch_sync.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch_sync.cljs$core$IFn$_invoke$arity$1(G__68272_68273) : re_frame.core.dispatch_sync.call(null,G__68272_68273));
 
 athens.core.dev_setup();
 

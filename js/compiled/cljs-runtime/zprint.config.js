@@ -63,13 +63,13 @@ return val_in_latter;
 zprint.config.merge_deep = (function zprint$config$merge_deep(var_args){
 var args__4795__auto__ = [];
 var len__4789__auto___30906 = arguments.length;
-var i__4790__auto___30907 = (0);
+var i__4790__auto___30908 = (0);
 while(true){
-if((i__4790__auto___30907 < len__4789__auto___30906)){
-args__4795__auto__.push((arguments[i__4790__auto___30907]));
+if((i__4790__auto___30908 < len__4789__auto___30906)){
+args__4795__auto__.push((arguments[i__4790__auto___30908]));
 
-var G__30908 = (i__4790__auto___30907 + (1));
-i__4790__auto___30907 = G__30908;
+var G__30909 = (i__4790__auto___30908 + (1));
+i__4790__auto___30908 = G__30909;
 continue;
 } else {
 }
@@ -87,9 +87,9 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(cljs.core.merge_with,zprint
 (zprint.config.merge_deep.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(zprint.config.merge_deep.cljs$lang$applyTo = (function (seq30742){
+(zprint.config.merge_deep.cljs$lang$applyTo = (function (seq30749){
 var self__4777__auto__ = this;
-return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq30742));
+return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq30749));
 }));
 
 /**

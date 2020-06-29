@@ -160,12 +160,12 @@ if(cljs.core.truth_(progress)){
 var listener_51886 = (function (direction,evt){
 return cljs.core.async.put_BANG_.cljs$core$IFn$_invoke$arity$2(progress,cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"direction","direction",-633359395),direction,new cljs.core.Keyword(null,"loaded","loaded",-1246482293),evt.loaded], null),(cljs.core.truth_(evt.lengthComputable)?new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"total","total",1916810418),evt.total], null):null)], 0)));
 });
-var G__51841_51891 = xhr;
-G__51841_51891.setProgressEventsEnabled(true);
+var G__51841_51888 = xhr;
+G__51841_51888.setProgressEventsEnabled(true);
 
-G__51841_51891.listen(goog.net.EventType.UPLOAD_PROGRESS,cljs.core.partial.cljs$core$IFn$_invoke$arity$2(listener_51886,new cljs.core.Keyword(null,"upload","upload",-255769218)));
+G__51841_51888.listen(goog.net.EventType.UPLOAD_PROGRESS,cljs.core.partial.cljs$core$IFn$_invoke$arity$2(listener_51886,new cljs.core.Keyword(null,"upload","upload",-255769218)));
 
-G__51841_51891.listen(goog.net.EventType.DOWNLOAD_PROGRESS,cljs.core.partial.cljs$core$IFn$_invoke$arity$2(listener_51886,new cljs.core.Keyword(null,"download","download",-300081668)));
+G__51841_51888.listen(goog.net.EventType.DOWNLOAD_PROGRESS,cljs.core.partial.cljs$core$IFn$_invoke$arity$2(listener_51886,new cljs.core.Keyword(null,"download","download",-300081668)));
 
 } else {
 }
@@ -393,8 +393,8 @@ break;
 }
 }catch (e51874){if((e51874 instanceof Object)){
 var ex__38792__auto__ = e51874;
-var statearr_51875_51910 = state_51870;
-(statearr_51875_51910[(5)] = ex__38792__auto__);
+var statearr_51875_51906 = state_51870;
+(statearr_51875_51906[(5)] = ex__38792__auto__);
 
 
 cljs.core.async.impl.ioc_helpers.process_exception(state_51870);
@@ -406,8 +406,8 @@ throw e51874;
 }
 }})();
 if(cljs.core.keyword_identical_QMARK_(ret_value__38790__auto__,new cljs.core.Keyword(null,"recur","recur",-437573268))){
-var G__51912 = state_51870;
-state_51870 = G__51912;
+var G__51907 = state_51870;
+state_51870 = G__51907;
 continue;
 } else {
 return ret_value__38790__auto__;

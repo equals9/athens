@@ -202,10 +202,10 @@ rdr.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
 if((d === (-1))){
 return cljs.tools.reader.impl.errors.throw_invalid_unicode_digit(rdr,ch);
 } else {
-var G__24862 = (i + (1));
-var G__24863 = (d + (uc * base));
-i = G__24862;
-uc = G__24863;
+var G__24861 = (i + (1));
+var G__24862 = (d + (uc * base));
+i = G__24861;
+uc = G__24862;
 continue;
 }
 }
@@ -1170,10 +1170,10 @@ var key_vals = cljs.core.transient$(cljs.core.PersistentVector.EMPTY);
 while(true){
 if(s){
 var e = cljs.core.first(s);
-var G__24916 = cljs.core.next(s);
-var G__24917 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(key_vals,cljs.core.key(e)),cljs.core.val(e));
-s = G__24916;
-key_vals = G__24917;
+var G__24918 = cljs.core.next(s);
+var G__24919 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(key_vals,cljs.core.key(e)),cljs.core.val(e));
+s = G__24918;
+key_vals = G__24919;
 continue;
 } else {
 return cljs.core.seq(cljs.core.persistent_BANG_(key_vals));

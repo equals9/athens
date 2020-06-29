@@ -190,9 +190,9 @@ count__58238_58274 = G__58288;
 i__58239_58275 = G__58289;
 continue;
 } else {
-var vec__58249_58290 = cljs.core.first(seq__58236_58284__$1);
-var tag_58291 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__58249_58290,(0),null);
-var read_fn_58292 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__58249_58290,(1),null);
+var vec__58251_58290 = cljs.core.first(seq__58236_58284__$1);
+var tag_58291 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__58251_58290,(0),null);
+var read_fn_58292 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__58251_58290,(1),null);
 cljs.reader.register_tag_parser_BANG_(tag_58291,read_fn_58292);
 
 
