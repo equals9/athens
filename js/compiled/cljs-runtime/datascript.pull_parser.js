@@ -376,11 +376,11 @@ return (new datascript.pull_parser.PullAttrName(self__.attr,self__.__meta,cljs.c
 (datascript.pull_parser.PullAttrName.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__4446__auto__,k__4447__auto__,G__42126){
 var self__ = this;
 var this__4446__auto____$1 = this;
-var pred__42142 = cljs.core.keyword_identical_QMARK_;
-var expr__42143 = k__4447__auto__;
+var pred__42147 = cljs.core.keyword_identical_QMARK_;
+var expr__42148 = k__4447__auto__;
 if(cljs.core.truth_((function (){var G__42150 = new cljs.core.Keyword(null,"attr","attr",-604132353);
-var G__42151 = expr__42143;
-return (pred__42142.cljs$core$IFn$_invoke$arity$2 ? pred__42142.cljs$core$IFn$_invoke$arity$2(G__42150,G__42151) : pred__42142.call(null,G__42150,G__42151));
+var G__42151 = expr__42148;
+return (pred__42147.cljs$core$IFn$_invoke$arity$2 ? pred__42147.cljs$core$IFn$_invoke$arity$2(G__42150,G__42151) : pred__42147.call(null,G__42150,G__42151));
 })())){
 return (new datascript.pull_parser.PullAttrName(G__42126,self__.__meta,self__.__extmap,null));
 } else {
@@ -1558,9 +1558,9 @@ return cljs.core.get.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k42254,else__
 var self__ = this;
 var this__4458__auto____$1 = this;
 return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (ret__4461__auto__,p__42264){
-var vec__42269 = p__42264;
-var k__4462__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__42269,(0),null);
-var v__4463__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__42269,(1),null);
+var vec__42265 = p__42264;
+var k__4462__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__42265,(0),null);
+var v__4463__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__42265,(1),null);
 return (f__4459__auto__.cljs$core$IFn$_invoke$arity$3 ? f__4459__auto__.cljs$core$IFn$_invoke$arity$3(ret__4461__auto__,k__4462__auto__,v__4463__auto__) : f__4459__auto__.call(null,ret__4461__auto__,k__4462__auto__,v__4463__auto__));
 }),init__4460__auto__,this__4458__auto____$1);
 }));
@@ -1708,15 +1708,15 @@ return (new datascript.pull_parser.PullMapSpecEntry(attr,porrl,null,null,null));
 /**
  * Factory function for datascript.pull-parser/PullMapSpecEntry, taking a map of keywords to field values.
  */
-datascript.pull_parser.map__GT_PullMapSpecEntry = (function datascript$pull_parser$map__GT_PullMapSpecEntry(G__42258){
-var extmap__4478__auto__ = (function (){var G__42289 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$variadic(G__42258,new cljs.core.Keyword(null,"attr","attr",-604132353),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"porrl","porrl",-1693905102)], 0));
-if(cljs.core.record_QMARK_(G__42258)){
-return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__42289);
+datascript.pull_parser.map__GT_PullMapSpecEntry = (function datascript$pull_parser$map__GT_PullMapSpecEntry(G__42257){
+var extmap__4478__auto__ = (function (){var G__42287 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$variadic(G__42257,new cljs.core.Keyword(null,"attr","attr",-604132353),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"porrl","porrl",-1693905102)], 0));
+if(cljs.core.record_QMARK_(G__42257)){
+return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__42287);
 } else {
-return G__42289;
+return G__42287;
 }
 })();
-return (new datascript.pull_parser.PullMapSpecEntry(new cljs.core.Keyword(null,"attr","attr",-604132353).cljs$core$IFn$_invoke$arity$1(G__42258),new cljs.core.Keyword(null,"porrl","porrl",-1693905102).cljs$core$IFn$_invoke$arity$1(G__42258),null,cljs.core.not_empty(extmap__4478__auto__),null));
+return (new datascript.pull_parser.PullMapSpecEntry(new cljs.core.Keyword(null,"attr","attr",-604132353).cljs$core$IFn$_invoke$arity$1(G__42257),new cljs.core.Keyword(null,"porrl","porrl",-1693905102).cljs$core$IFn$_invoke$arity$1(G__42257),null,cljs.core.not_empty(extmap__4478__auto__),null));
 });
 
 
@@ -2422,12 +2422,12 @@ return cljs.core.second(datascript.pull_parser._as_spec(pattern));
  * Throws an error if the supplied `pattern` cannot be parsed.
  */
 datascript.pull_parser.parse_pull = (function datascript$pull_parser$parse_pull(pattern){
-var or__4185__auto__ = (function (){var G__42349 = pattern;
-var G__42349__$1 = (((G__42349 == null))?null:datascript.pull_parser.parse_pattern(G__42349));
-if((G__42349__$1 == null)){
+var or__4185__auto__ = (function (){var G__42348 = pattern;
+var G__42348__$1 = (((G__42348 == null))?null:datascript.pull_parser.parse_pattern(G__42348));
+if((G__42348__$1 == null)){
 return null;
 } else {
-return datascript.pull_parser.pattern__GT_spec(G__42349__$1);
+return datascript.pull_parser.pattern__GT_spec(G__42348__$1);
 }
 })();
 if(cljs.core.truth_(or__4185__auto__)){

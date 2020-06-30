@@ -291,13 +291,13 @@ while (G__58128__i < G__58128__a.length) {G__58128__a[G__58128__i] = arguments[G
 } 
 return G__58127__delegate.call(this,x,y,z,args);};
 G__58127.cljs$lang$maxFixedArity = 3;
-G__58127.cljs$lang$applyTo = (function (arglist__58131){
-var x = cljs.core.first(arglist__58131);
-arglist__58131 = cljs.core.next(arglist__58131);
-var y = cljs.core.first(arglist__58131);
-arglist__58131 = cljs.core.next(arglist__58131);
-var z = cljs.core.first(arglist__58131);
-var args = cljs.core.rest(arglist__58131);
+G__58127.cljs$lang$applyTo = (function (arglist__58129){
+var x = cljs.core.first(arglist__58129);
+arglist__58129 = cljs.core.next(arglist__58129);
+var y = cljs.core.first(arglist__58129);
+arglist__58129 = cljs.core.next(arglist__58129);
+var z = cljs.core.first(arglist__58129);
+var args = cljs.core.rest(arglist__58129);
 return G__58127__delegate(x,y,z,args);
 });
 G__58127.cljs$core$IFn$_invoke$arity$variadic = G__58127__delegate;
@@ -316,13 +316,13 @@ return G__58126__2.call(this,x,y);
 case 3:
 return G__58126__3.call(this,x,y,z);
 default:
-var G__58132 = null;
+var G__58130 = null;
 if (arguments.length > 3) {
-var G__58133__i = 0, G__58133__a = new Array(arguments.length -  3);
-while (G__58133__i < G__58133__a.length) {G__58133__a[G__58133__i] = arguments[G__58133__i + 3]; ++G__58133__i;}
-G__58132 = new cljs.core.IndexedSeq(G__58133__a,0,null);
+var G__58131__i = 0, G__58131__a = new Array(arguments.length -  3);
+while (G__58131__i < G__58131__a.length) {G__58131__a[G__58131__i] = arguments[G__58131__i + 3]; ++G__58131__i;}
+G__58130 = new cljs.core.IndexedSeq(G__58131__a,0,null);
 }
-return G__58126__4.cljs$core$IFn$_invoke$arity$variadic(x,y,z, G__58132);
+return G__58126__4.cljs$core$IFn$_invoke$arity$variadic(x,y,z, G__58130);
 }
 throw(new Error('Invalid arity: ' + arguments.length));
 };
