@@ -28,8 +28,8 @@ reagent.core.is_client = reagent.impl.util.is_client;
  *   ```
  */
 reagent.core.create_element = (function reagent$core$create_element(var_args){
-var G__32515 = arguments.length;
-switch (G__32515) {
+var G__32516 = arguments.length;
+switch (G__32516) {
 case 1:
 return reagent.core.create_element.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -412,14 +412,14 @@ return reagent.core.class_names.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(
 break;
 default:
 var args_arr__4810__auto__ = [];
-var len__4789__auto___32566 = arguments.length;
-var i__4790__auto___32567 = (0);
+var len__4789__auto___32559 = arguments.length;
+var i__4790__auto___32560 = (0);
 while(true){
-if((i__4790__auto___32567 < len__4789__auto___32566)){
-args_arr__4810__auto__.push((arguments[i__4790__auto___32567]));
+if((i__4790__auto___32560 < len__4789__auto___32559)){
+args_arr__4810__auto__.push((arguments[i__4790__auto___32560]));
 
-var G__32568 = (i__4790__auto___32567 + (1));
-i__4790__auto___32567 = G__32568;
+var G__32561 = (i__4790__auto___32560 + (1));
+i__4790__auto___32560 = G__32561;
 continue;
 } else {
 }

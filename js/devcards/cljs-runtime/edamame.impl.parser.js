@@ -187,14 +187,14 @@ var v_58820 = cljs.core.first(seq__58687_58814__$1);
 cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(vals,v_58820);
 
 
-var G__58821 = cljs.core.next(seq__58687_58814__$1);
-var G__58822 = null;
-var G__58823 = (0);
+var G__58822 = cljs.core.next(seq__58687_58814__$1);
+var G__58823 = null;
 var G__58824 = (0);
-seq__58687_58804 = G__58821;
-chunk__58688_58805 = G__58822;
-count__58689_58806 = G__58823;
-i__58690_58807 = G__58824;
+var G__58825 = (0);
+seq__58687_58804 = G__58822;
+chunk__58688_58805 = G__58823;
+count__58689_58806 = G__58824;
+i__58690_58807 = G__58825;
 continue;
 }
 } else {
