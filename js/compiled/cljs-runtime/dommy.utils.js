@@ -45,11 +45,11 @@ return Array.prototype.slice.call(array_like);
  */
 dommy.utils.as_str = (function dommy$utils$as_str(s){
 if((s instanceof cljs.core.Keyword)){
-return [(function (){var G__36474 = cljs.core.namespace(s);
-if((G__36474 == null)){
+return [(function (){var G__36476 = cljs.core.namespace(s);
+if((G__36476 == null)){
 return null;
 } else {
-return [G__36474,"/"].join('');
+return [G__36476,"/"].join('');
 }
 })(),cljs.core.name(s)].join('');
 } else {

@@ -63,17 +63,17 @@ throw cljs.core.missing_protocol("IRuntime.del-extension",runtime);
 }
 });
 
-shadow.remote.runtime.api.reply = (function shadow$remote$runtime$api$reply(runtime,p__67699,res){
-var map__67700 = p__67699;
-var map__67700__$1 = (((((!((map__67700 == null))))?(((((map__67700.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__67700.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__67700):map__67700);
-var mid = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__67700__$1,new cljs.core.Keyword(null,"mid","mid",-2123385246));
-var tid = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__67700__$1,new cljs.core.Keyword(null,"tid","tid",-901350880));
-var res__$1 = (function (){var G__67702 = res;
-var G__67702__$1 = (cljs.core.truth_(mid)?cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(G__67702,new cljs.core.Keyword(null,"mid","mid",-2123385246),mid):G__67702);
+shadow.remote.runtime.api.reply = (function shadow$remote$runtime$api$reply(runtime,p__67701,res){
+var map__67702 = p__67701;
+var map__67702__$1 = (((((!((map__67702 == null))))?(((((map__67702.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__67702.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__67702):map__67702);
+var mid = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__67702__$1,new cljs.core.Keyword(null,"mid","mid",-2123385246));
+var tid = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__67702__$1,new cljs.core.Keyword(null,"tid","tid",-901350880));
+var res__$1 = (function (){var G__67704 = res;
+var G__67704__$1 = (cljs.core.truth_(mid)?cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(G__67704,new cljs.core.Keyword(null,"mid","mid",-2123385246),mid):G__67704);
 if(cljs.core.truth_(tid)){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(G__67702__$1,new cljs.core.Keyword(null,"tid","tid",-901350880),tid);
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(G__67704__$1,new cljs.core.Keyword(null,"tid","tid",-901350880),tid);
 } else {
-return G__67702__$1;
+return G__67704__$1;
 }
 })();
 return shadow.remote.runtime.api.relay_msg(runtime,res__$1);

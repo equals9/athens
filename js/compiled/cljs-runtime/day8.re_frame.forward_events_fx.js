@@ -35,8 +35,8 @@ throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2([cljs.core.pr_str.cljs$cor
 return null;
 }
 });
-var G__52042_52058 = new cljs.core.Keyword(null,"forward-events","forward-events",1216790539);
-var G__52043_52059 = (function (){var process_one_entry = (function (p__52044){
+var G__52038_52058 = new cljs.core.Keyword(null,"forward-events","forward-events",1216790539);
+var G__52039_52059 = (function (){var process_one_entry = (function (p__52044){
 var map__52045 = p__52044;
 var map__52045__$1 = (((((!((map__52045 == null))))?(((((map__52045.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__52045.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__52045):map__52045);
 var m = map__52045__$1;
@@ -79,6 +79,6 @@ return (re_frame.core.console.cljs$core$IFn$_invoke$arity$3 ? re_frame.core.cons
 }
 });
 })();
-(re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2(G__52042_52058,G__52043_52059) : re_frame.core.reg_fx.call(null,G__52042_52058,G__52043_52059));
+(re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2(G__52038_52058,G__52039_52059) : re_frame.core.reg_fx.call(null,G__52038_52058,G__52039_52059));
 
 //# sourceMappingURL=day8.re_frame.forward_events_fx.js.map

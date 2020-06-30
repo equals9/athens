@@ -5807,6 +5807,7 @@ SHADOW_ENV.setLoaded("athens.parse_renderer.js");
 SHADOW_ENV.setLoaded("komponentit.autosize.js");
 SHADOW_ENV.setLoaded("athens.devcards.blocks.js");
 SHADOW_ENV.setLoaded("athens.devcards.block_page.js");
+SHADOW_ENV.setLoaded("athens.devcards.textinput.js");
 SHADOW_ENV.setLoaded("clojure.core.protocols.js");
 SHADOW_ENV.setLoaded("clojure.datafy.js");
 SHADOW_ENV.setLoaded("sci.impl.types.js");

@@ -21,12 +21,12 @@ col = G__63533;
 counter = G__63534;
 continue;
 } else {
-var G__63535 = line;
-var G__63536 = (col + (1));
-var G__63537 = (counter + (1));
-line = G__63535;
-col = G__63536;
-counter = G__63537;
+var G__63536 = line;
+var G__63537 = (col + (1));
+var G__63538 = (counter + (1));
+line = G__63536;
+col = G__63537;
+counter = G__63538;
 continue;
 
 }
