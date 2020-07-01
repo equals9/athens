@@ -53,21 +53,21 @@ var G__58097_58112 = ((day8.re_frame.tracing.is_trace_enabled_QMARK_())?(functio
 var _PLUS_debux_dbg_opts_PLUS_ = cljs.core.PersistentArrayMap.EMPTY;
 try{debux.common.util.send_form_BANG_(cljs.core.list(new cljs.core.Symbol(null,"apply","apply",-1334050276,null),new cljs.core.Symbol("rfee","push-state","rfee/push-state",305346137,null),new cljs.core.Symbol(null,"route","route",1970422836,null)));
 
-var opts__54409__auto__ = _PLUS_debux_dbg_opts_PLUS_;
-var result__54410__auto__ = cljs.core.apply.cljs$core$IFn$_invoke$arity$2((function (){var opts__54409__auto____$1 = _PLUS_debux_dbg_opts_PLUS_;
-var result__54410__auto__ = reitit.frontend.easy.push_state;
-debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__54410__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),new cljs.core.Symbol("rfee","push-state","rfee/push-state",305346137,null),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(1)], null));
+var opts__54406__auto__ = _PLUS_debux_dbg_opts_PLUS_;
+var result__54407__auto__ = cljs.core.apply.cljs$core$IFn$_invoke$arity$2((function (){var opts__54406__auto____$1 = _PLUS_debux_dbg_opts_PLUS_;
+var result__54407__auto__ = reitit.frontend.easy.push_state;
+debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__54407__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),new cljs.core.Symbol("rfee","push-state","rfee/push-state",305346137,null),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(1)], null));
 
-return result__54410__auto__;
-})(),(function (){var opts__54409__auto____$1 = _PLUS_debux_dbg_opts_PLUS_;
-var result__54410__auto__ = route;
-debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__54410__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),new cljs.core.Symbol(null,"route","route",1970422836,null),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(1)], null));
+return result__54407__auto__;
+})(),(function (){var opts__54406__auto____$1 = _PLUS_debux_dbg_opts_PLUS_;
+var result__54407__auto__ = route;
+debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__54407__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),new cljs.core.Symbol(null,"route","route",1970422836,null),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(1)], null));
 
-return result__54410__auto__;
+return result__54407__auto__;
 })());
-debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__54410__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),cljs.core.list(new cljs.core.Symbol(null,"apply","apply",-1334050276,null),new cljs.core.Symbol("rfee","push-state","rfee/push-state",305346137,null),new cljs.core.Symbol(null,"route","route",1970422836,null)),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(0)], null));
+debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__54407__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),cljs.core.list(new cljs.core.Symbol(null,"apply","apply",-1334050276,null),new cljs.core.Symbol("rfee","push-state","rfee/push-state",305346137,null),new cljs.core.Symbol(null,"route","route",1970422836,null)),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(0)], null));
 
-return result__54410__auto__;
+return result__54407__auto__;
 }catch (e58098){var e = e58098;
 throw e;
 }}):(function (route){
@@ -113,8 +113,8 @@ return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dis
 (athens.router.navigate_uid.cljs$core$IFn$_invoke$arity$2 = (function (uid,e){
 var shift = e.shiftKey;
 if(cljs.core.truth_(shift)){
-var G__58106 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("right-sidebar","open-item","right-sidebar/open-item",-1234515614),uid], null);
-return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__58106) : re_frame.core.dispatch.call(null,G__58106));
+var G__58107 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("right-sidebar","open-item","right-sidebar/open-item",-1234515614),uid], null);
+return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__58107) : re_frame.core.dispatch.call(null,G__58107));
 } else {
 return athens.router.navigate_uid.cljs$core$IFn$_invoke$arity$1(uid);
 }

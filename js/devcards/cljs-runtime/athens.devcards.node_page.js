@@ -6,6 +6,7 @@ goog.require('athens.patterns');
 goog.require('athens.style');
 goog.require('cljsjs.react');
 goog.require('cljsjs.react.dom');
+goog.require('clojure.string');
 goog.require('devcards.core');
 goog.require('garden.selectors');
 goog.require('komponentit.autosize');

@@ -1128,36 +1128,36 @@ var G__66134__$1 = (((G__66134 instanceof cljs.core.Keyword))?G__66134.fqn:null)
 switch (G__66134__$1) {
 case "require":
 case "use":
-var G__66201 = cljs.core.next(exprs__$3);
-var G__66202 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(ret,sci.impl.utils.mark_eval_call(cljs.core.list_STAR_.cljs$core$IFn$_invoke$arity$2(cljs.core.symbol.cljs$core$IFn$_invoke$arity$1(cljs.core.name(k)),args)));
-exprs__$3 = G__66201;
-ret = G__66202;
+var G__66206 = cljs.core.next(exprs__$3);
+var G__66207 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(ret,sci.impl.utils.mark_eval_call(cljs.core.list_STAR_.cljs$core$IFn$_invoke$arity$2(cljs.core.symbol.cljs$core$IFn$_invoke$arity$1(cljs.core.name(k)),args)));
+exprs__$3 = G__66206;
+ret = G__66207;
 continue;
 
 break;
 case "import":
 sci.impl.analyzer.do_import(ctx,cljs.core.sequence.cljs$core$IFn$_invoke$arity$1(cljs.core.seq(cljs.core.concat.cljs$core$IFn$_invoke$arity$2((new cljs.core.List(null,new cljs.core.Symbol(null,"import","import",241030818,null),null,(1),null)),args))));
 
-var G__66203 = cljs.core.next(exprs__$3);
-var G__66204 = ret;
-exprs__$3 = G__66203;
-ret = G__66204;
+var G__66214 = cljs.core.next(exprs__$3);
+var G__66215 = ret;
+exprs__$3 = G__66214;
+ret = G__66215;
 continue;
 
 break;
 case "refer-clojure":
-var G__66205 = cljs.core.next(exprs__$3);
-var G__66206 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(ret,sci.impl.utils.mark_eval_call(cljs.core.list_STAR_.cljs$core$IFn$_invoke$arity$3(new cljs.core.Symbol(null,"refer","refer",676235974,null),new cljs.core.Symbol(null,"clojure.core","clojure.core",-189332625,null),args)));
-exprs__$3 = G__66205;
-ret = G__66206;
+var G__66216 = cljs.core.next(exprs__$3);
+var G__66217 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(ret,sci.impl.utils.mark_eval_call(cljs.core.list_STAR_.cljs$core$IFn$_invoke$arity$3(new cljs.core.Symbol(null,"refer","refer",676235974,null),new cljs.core.Symbol(null,"clojure.core","clojure.core",-189332625,null),args)));
+exprs__$3 = G__66216;
+ret = G__66217;
 continue;
 
 break;
 case "gen-class":
-var G__66207 = cljs.core.next(exprs__$3);
-var G__66208 = ret;
-exprs__$3 = G__66207;
-ret = G__66208;
+var G__66219 = cljs.core.next(exprs__$3);
+var G__66220 = ret;
+exprs__$3 = G__66219;
+ret = G__66220;
 continue;
 
 break;

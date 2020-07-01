@@ -38,10 +38,10 @@ throw cljs.core.missing_protocol("IInterpreter.interpret",this$);
 sablono.interpreter.update_state = (function sablono$interpreter$update_state(component,next_props,property,value){
 var on_change = goog.object.getValueByKeys(component,"state","onChange");
 var next_state = ({});
-var G__39140_39168 = next_state;
-var G__39141_39169 = next_props;
-var G__39142_39170 = ({"onChange": on_change});
-goog.object.extend(G__39140_39168,G__39141_39169,G__39142_39170);
+var G__39140_39174 = next_state;
+var G__39141_39175 = next_props;
+var G__39142_39176 = ({"onChange": on_change});
+goog.object.extend(G__39140_39174,G__39141_39175,G__39142_39176);
 
 goog.object.set(next_state,property,value);
 
@@ -51,13 +51,13 @@ sablono.interpreter.wrap_form_element = (function sablono$interpreter$wrap_form_
 var ctor = (function (props){
 var this$ = this;
 (this$.state = (function (){var state = ({});
-var G__39143_39173 = state;
-var G__39144_39174 = props;
-var G__39145_39175 = ({"onChange": (function (){var G__39146 = goog.object.get(this$,"onChange");
+var G__39143_39177 = state;
+var G__39144_39178 = props;
+var G__39145_39179 = ({"onChange": (function (){var G__39146 = goog.object.get(this$,"onChange");
 var G__39147 = this$;
 return goog.bind(G__39146,G__39147);
 })()});
-goog.object.extend(G__39143_39173,G__39144_39174,G__39145_39175);
+goog.object.extend(G__39143_39177,G__39144_39178,G__39145_39179);
 
 return state;
 })());
@@ -68,8 +68,8 @@ return React.Component.call(this$,props);
 
 goog.inherits(ctor,React.Component);
 
-var x39148_39178 = ctor.prototype;
-(x39148_39178.onChange = (function (event){
+var x39148_39180 = ctor.prototype;
+(x39148_39180.onChange = (function (event){
 var this$ = this;
 var temp__5735__auto__ = this$.props.onChange;
 if(cljs.core.truth_(temp__5735__auto__)){
@@ -82,7 +82,7 @@ return null;
 }
 }));
 
-(x39148_39178.componentWillReceiveProps = (function (new_props){
+(x39148_39180.componentWillReceiveProps = (function (new_props){
 var this$ = this;
 var state_value = goog.object.getValueByKeys(this$,"state",property);
 var element_value = (function (){var G__39149 = ReactDOM.findDOMNode(this$);
@@ -96,7 +96,7 @@ return sablono.interpreter.update_state(this$,new_props,property,goog.object.get
 }
 }));
 
-(x39148_39178.render = (function (){
+(x39148_39180.render = (function (){
 var this$ = this;
 return React.createElement(element,this$.state);
 }));
@@ -194,14 +194,14 @@ return type;
  */
 sablono.interpreter.create_element = (function sablono$interpreter$create_element(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___39184 = arguments.length;
-var i__4790__auto___39187 = (0);
+var len__4789__auto___39191 = arguments.length;
+var i__4790__auto___39193 = (0);
 while(true){
-if((i__4790__auto___39187 < len__4789__auto___39184)){
-args__4795__auto__.push((arguments[i__4790__auto___39187]));
+if((i__4790__auto___39193 < len__4789__auto___39191)){
+args__4795__auto__.push((arguments[i__4790__auto___39193]));
 
-var G__39188 = (i__4790__auto___39187 + (1));
-i__4790__auto___39187 = G__39188;
+var G__39194 = (i__4790__auto___39193 + (1));
+i__4790__auto___39193 = G__39194;
 continue;
 } else {
 }
@@ -274,12 +274,12 @@ return sablono.interpreter.interpret_seq(x);
 });
 goog.object.set(sablono.interpreter.IInterpreter,"null",true);
 
-var G__39162_39193 = sablono.interpreter.interpret;
-var G__39163_39194 = "null";
-var G__39164_39195 = (function (this$){
+var G__39162_39205 = sablono.interpreter.interpret;
+var G__39163_39206 = "null";
+var G__39164_39207 = (function (this$){
 return null;
 });
-goog.object.set(G__39162_39193,G__39163_39194,G__39164_39195);
+goog.object.set(G__39162_39205,G__39163_39206,G__39164_39207);
 
 (cljs.core.PersistentVector.prototype.sablono$interpreter$IInterpreter$ = cljs.core.PROTOCOL_SENTINEL);
 
@@ -297,12 +297,12 @@ return sablono.interpreter.interpret_seq(this$__$1);
 
 goog.object.set(sablono.interpreter.IInterpreter,"_",true);
 
-var G__39165_39198 = sablono.interpreter.interpret;
-var G__39166_39199 = "_";
-var G__39167_39200 = (function (this$){
+var G__39165_39208 = sablono.interpreter.interpret;
+var G__39166_39209 = "_";
+var G__39167_39210 = (function (this$){
 return this$;
 });
-goog.object.set(G__39165_39198,G__39166_39199,G__39167_39200);
+goog.object.set(G__39165_39208,G__39166_39209,G__39167_39210);
 
 (cljs.core.Cons.prototype.sablono$interpreter$IInterpreter$ = cljs.core.PROTOCOL_SENTINEL);
 
