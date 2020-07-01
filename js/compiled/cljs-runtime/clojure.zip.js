@@ -397,8 +397,8 @@ var or__4185__auto____$2 = clojure.zip.right(clojure.zip.up(p));
 if(cljs.core.truth_(or__4185__auto____$2)){
 return or__4185__auto____$2;
 } else {
-var G__30364 = clojure.zip.up(p);
-p = G__30364;
+var G__30365 = clojure.zip.up(p);
+p = G__30365;
 continue;
 }
 } else {

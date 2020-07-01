@@ -40,16 +40,16 @@ if((typeof athens !== 'undefined') && (typeof athens.devcards !== 'undefined') &
 athens.devcards.devtool.state_STAR_ = reagent.core.atom.cljs$core$IFn$_invoke$arity$1(athens.devcards.devtool.initial_state);
 }
 athens.devcards.devtool.ds_nav_impl = (function athens$devcards$devtool$ds_nav_impl(_,k,v){
-var pred__60671 = cljs.core._EQ_;
-var expr__60672 = k;
-if(cljs.core.truth_((function (){var G__60674 = new cljs.core.Keyword("db","id","db/id",-1388397098);
-var G__60675 = expr__60672;
-return (pred__60671.cljs$core$IFn$_invoke$arity$2 ? pred__60671.cljs$core$IFn$_invoke$arity$2(G__60674,G__60675) : pred__60671.call(null,G__60674,G__60675));
+var pred__60672 = cljs.core._EQ_;
+var expr__60673 = k;
+if(cljs.core.truth_((function (){var G__60675 = new cljs.core.Keyword("db","id","db/id",-1388397098);
+var G__60676 = expr__60673;
+return (pred__60672.cljs$core$IFn$_invoke$arity$2 ? pred__60672.cljs$core$IFn$_invoke$arity$2(G__60675,G__60676) : pred__60672.call(null,G__60675,G__60676));
 })())){
-var G__60676 = cljs.core.deref(athens.db.dsdb);
-var G__60677 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null,"*","*",345799209,null),new cljs.core.Keyword("block","_children","block/_children",1128070632)], null);
-var G__60678 = v;
-return (datascript.core.pull.cljs$core$IFn$_invoke$arity$3 ? datascript.core.pull.cljs$core$IFn$_invoke$arity$3(G__60676,G__60677,G__60678) : datascript.core.pull.call(null,G__60676,G__60677,G__60678));
+var G__60677 = cljs.core.deref(athens.db.dsdb);
+var G__60678 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null,"*","*",345799209,null),new cljs.core.Keyword("block","_children","block/_children",1128070632)], null);
+var G__60679 = v;
+return (datascript.core.pull.cljs$core$IFn$_invoke$arity$3 ? datascript.core.pull.cljs$core$IFn$_invoke$arity$3(G__60677,G__60678,G__60679) : datascript.core.pull.call(null,G__60677,G__60678,G__60679));
 } else {
 return v;
 }

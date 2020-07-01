@@ -178,8 +178,8 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(instaparse.combinators_sour
 
 break;
 case "paren":
-var G__64748 = (instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1(tree) : instaparse.cfg.content.call(null,tree));
-tree = G__64748;
+var G__64747 = (instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1(tree) : instaparse.cfg.content.call(null,tree));
+tree = G__64747;
 continue;
 
 break;
@@ -247,9 +247,9 @@ break;
  */
 instaparse.cfg.seq_nt = (function instaparse$cfg$seq_nt(parser){
 while(true){
-var G__64714 = new cljs.core.Keyword(null,"tag","tag",-1290361223).cljs$core$IFn$_invoke$arity$1(parser);
-var G__64714__$1 = (((G__64714 instanceof cljs.core.Keyword))?G__64714.fqn:null);
-switch (G__64714__$1) {
+var G__64710 = new cljs.core.Keyword(null,"tag","tag",-1290361223).cljs$core$IFn$_invoke$arity$1(parser);
+var G__64710__$1 = (((G__64710 instanceof cljs.core.Keyword))?G__64710.fqn:null);
+switch (G__64710__$1) {
 case "nt":
 return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"keyword","keyword",811389747).cljs$core$IFn$_invoke$arity$1(parser)], null);
 
@@ -283,7 +283,7 @@ return cljs.core.mapcat.cljs$core$IFn$_invoke$arity$variadic(instaparse.cfg.seq_
 
 break;
 default:
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__64714__$1)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__64710__$1)].join('')));
 
 }
 break;
@@ -294,59 +294,59 @@ break;
  */
 instaparse.cfg.check_grammar = (function instaparse$cfg$check_grammar(grammar_map){
 var valid_nts_64751 = cljs.core.set(cljs.core.keys(grammar_map));
-var seq__64715_64752 = cljs.core.seq(cljs.core.distinct.cljs$core$IFn$_invoke$arity$1(cljs.core.mapcat.cljs$core$IFn$_invoke$arity$variadic(instaparse.cfg.seq_nt,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([cljs.core.vals(grammar_map)], 0))));
-var chunk__64716_64753 = null;
-var count__64717_64754 = (0);
-var i__64718_64755 = (0);
+var seq__64711_64752 = cljs.core.seq(cljs.core.distinct.cljs$core$IFn$_invoke$arity$1(cljs.core.mapcat.cljs$core$IFn$_invoke$arity$variadic(instaparse.cfg.seq_nt,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([cljs.core.vals(grammar_map)], 0))));
+var chunk__64712_64753 = null;
+var count__64713_64754 = (0);
+var i__64714_64755 = (0);
 while(true){
-if((i__64718_64755 < count__64717_64754)){
-var nt_64756 = chunk__64716_64753.cljs$core$IIndexed$_nth$arity$2(null,i__64718_64755);
+if((i__64714_64755 < count__64713_64754)){
+var nt_64756 = chunk__64712_64753.cljs$core$IIndexed$_nth$arity$2(null,i__64714_64755);
 if(cljs.core.truth_((valid_nts_64751.cljs$core$IFn$_invoke$arity$1 ? valid_nts_64751.cljs$core$IFn$_invoke$arity$1(nt_64756) : valid_nts_64751.call(null,nt_64756)))){
 } else {
 instaparse.util.throw_runtime_exception.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([cljs.core.subs.cljs$core$IFn$_invoke$arity$2(cljs.core.str.cljs$core$IFn$_invoke$arity$1(nt_64756),(1))," occurs on the right-hand side of your grammar, but not on the left"], 0));
 }
 
 
-var G__64757 = seq__64715_64752;
-var G__64758 = chunk__64716_64753;
-var G__64759 = count__64717_64754;
-var G__64760 = (i__64718_64755 + (1));
-seq__64715_64752 = G__64757;
-chunk__64716_64753 = G__64758;
-count__64717_64754 = G__64759;
-i__64718_64755 = G__64760;
+var G__64757 = seq__64711_64752;
+var G__64758 = chunk__64712_64753;
+var G__64759 = count__64713_64754;
+var G__64760 = (i__64714_64755 + (1));
+seq__64711_64752 = G__64757;
+chunk__64712_64753 = G__64758;
+count__64713_64754 = G__64759;
+i__64714_64755 = G__64760;
 continue;
 } else {
-var temp__5735__auto___64761 = cljs.core.seq(seq__64715_64752);
+var temp__5735__auto___64761 = cljs.core.seq(seq__64711_64752);
 if(temp__5735__auto___64761){
-var seq__64715_64762__$1 = temp__5735__auto___64761;
-if(cljs.core.chunked_seq_QMARK_(seq__64715_64762__$1)){
-var c__4609__auto___64763 = cljs.core.chunk_first(seq__64715_64762__$1);
-var G__64764 = cljs.core.chunk_rest(seq__64715_64762__$1);
+var seq__64711_64762__$1 = temp__5735__auto___64761;
+if(cljs.core.chunked_seq_QMARK_(seq__64711_64762__$1)){
+var c__4609__auto___64763 = cljs.core.chunk_first(seq__64711_64762__$1);
+var G__64764 = cljs.core.chunk_rest(seq__64711_64762__$1);
 var G__64765 = c__4609__auto___64763;
 var G__64766 = cljs.core.count(c__4609__auto___64763);
 var G__64767 = (0);
-seq__64715_64752 = G__64764;
-chunk__64716_64753 = G__64765;
-count__64717_64754 = G__64766;
-i__64718_64755 = G__64767;
+seq__64711_64752 = G__64764;
+chunk__64712_64753 = G__64765;
+count__64713_64754 = G__64766;
+i__64714_64755 = G__64767;
 continue;
 } else {
-var nt_64768 = cljs.core.first(seq__64715_64762__$1);
+var nt_64768 = cljs.core.first(seq__64711_64762__$1);
 if(cljs.core.truth_((valid_nts_64751.cljs$core$IFn$_invoke$arity$1 ? valid_nts_64751.cljs$core$IFn$_invoke$arity$1(nt_64768) : valid_nts_64751.call(null,nt_64768)))){
 } else {
 instaparse.util.throw_runtime_exception.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([cljs.core.subs.cljs$core$IFn$_invoke$arity$2(cljs.core.str.cljs$core$IFn$_invoke$arity$1(nt_64768),(1))," occurs on the right-hand side of your grammar, but not on the left"], 0));
 }
 
 
-var G__64769 = cljs.core.next(seq__64715_64762__$1);
+var G__64769 = cljs.core.next(seq__64711_64762__$1);
 var G__64770 = null;
 var G__64771 = (0);
 var G__64772 = (0);
-seq__64715_64752 = G__64769;
-chunk__64716_64753 = G__64770;
-count__64717_64754 = G__64771;
-i__64718_64755 = G__64772;
+seq__64711_64752 = G__64769;
+chunk__64712_64753 = G__64770;
+count__64713_64754 = G__64771;
+i__64714_64755 = G__64772;
 continue;
 }
 } else {

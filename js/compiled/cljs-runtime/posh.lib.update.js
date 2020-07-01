@@ -5,8 +5,8 @@ goog.require('posh.lib.datom_matcher');
 goog.require('posh.lib.pull_analyze');
 goog.require('posh.lib.q_analyze');
 goog.require('posh.lib.db');
-posh.lib.update.update_pull = (function posh$lib$update$update_pull(p__47220,storage_key){
-var map__47223 = p__47220;
+posh.lib.update.update_pull = (function posh$lib$update$update_pull(p__47222,storage_key){
+var map__47223 = p__47222;
 var map__47223__$1 = (((((!((map__47223 == null))))?(((((map__47223.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__47223.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__47223):map__47223);
 var posh_tree = map__47223__$1;
 var dcfg = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__47223__$1,new cljs.core.Keyword(null,"dcfg","dcfg",-880371016));

@@ -474,12 +474,12 @@ return shadow.remote.runtime.obj_support.as_pprint(data,p1__60489_SHARP_);
 });
 goog.object.set(shadow.remote.runtime.api.Inspectable,"_",true);
 
-var G__60490_60572 = shadow.remote.runtime.api.describe;
-var G__60491_60573 = "_";
-var G__60492_60574 = (function (o,opts){
+var G__60490_60549 = shadow.remote.runtime.api.describe;
+var G__60491_60550 = "_";
+var G__60492_60551 = (function (o,opts){
 return shadow.remote.runtime.obj_support.default_describe(o,opts);
 });
-goog.object.set(G__60490_60572,G__60491_60573,G__60492_60574);
+goog.object.set(G__60490_60549,G__60491_60550,G__60492_60551);
 shadow.remote.runtime.obj_support.add_supports = (function shadow$remote$runtime$obj_support$add_supports(p__60493){
 var map__60494 = p__60493;
 var map__60494__$1 = (((((!((map__60494 == null))))?(((((map__60494.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__60494.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__60494):map__60494);

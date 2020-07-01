@@ -175,13 +175,13 @@ return obj;
 (sci.impl.utils.vary_meta_STAR_.cljs$lang$maxFixedArity = (2));
 
 /** @this {Function} */
-(sci.impl.utils.vary_meta_STAR_.cljs$lang$applyTo = (function (seq58165){
-var G__58166 = cljs.core.first(seq58165);
-var seq58165__$1 = cljs.core.next(seq58165);
-var G__58167 = cljs.core.first(seq58165__$1);
-var seq58165__$2 = cljs.core.next(seq58165__$1);
+(sci.impl.utils.vary_meta_STAR_.cljs$lang$applyTo = (function (seq58166){
+var G__58167 = cljs.core.first(seq58166);
+var seq58166__$1 = cljs.core.next(seq58166);
+var G__58168 = cljs.core.first(seq58166__$1);
+var seq58166__$2 = cljs.core.next(seq58166__$1);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__58166,G__58167,seq58165__$2);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__58167,G__58168,seq58166__$2);
 }));
 
 /**

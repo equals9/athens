@@ -80,14 +80,14 @@ return x;
  */
 day8.re_frame_10x.utils.utils.pluralize = (function day8$re_frame_10x$utils$utils$pluralize(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___26966 = arguments.length;
-var i__4790__auto___26967 = (0);
+var len__4789__auto___26967 = arguments.length;
+var i__4790__auto___26969 = (0);
 while(true){
-if((i__4790__auto___26967 < len__4789__auto___26966)){
-args__4795__auto__.push((arguments[i__4790__auto___26967]));
+if((i__4790__auto___26969 < len__4789__auto___26967)){
+args__4795__auto__.push((arguments[i__4790__auto___26969]));
 
-var G__26969 = (i__4790__auto___26967 + (1));
-i__4790__auto___26967 = G__26969;
+var G__26971 = (i__4790__auto___26969 + (1));
+i__4790__auto___26969 = G__26971;
 continue;
 } else {
 }
@@ -98,8 +98,8 @@ var argseq__4796__auto__ = ((((2) < args__4795__auto__.length))?(new cljs.core.I
 return day8.re_frame_10x.utils.utils.pluralize.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)]),(arguments[(1)]),argseq__4796__auto__);
 });
 
-(day8.re_frame_10x.utils.utils.pluralize.cljs$core$IFn$_invoke$arity$variadic = (function (num,singular,p__26950){
-var vec__26952 = p__26950;
+(day8.re_frame_10x.utils.utils.pluralize.cljs$core$IFn$_invoke$arity$variadic = (function (num,singular,p__26951){
+var vec__26952 = p__26951;
 var plural = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__26952,(0),null);
 return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(num)," ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2((1),num))?singular:(function (){var or__4185__auto__ = plural;
 if(cljs.core.truth_(or__4185__auto__)){
@@ -127,14 +127,14 @@ return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__26946,G__26947
  */
 day8.re_frame_10x.utils.utils.pluralize_ = (function day8$re_frame_10x$utils$utils$pluralize_(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___26974 = arguments.length;
-var i__4790__auto___26975 = (0);
+var len__4789__auto___26979 = arguments.length;
+var i__4790__auto___26980 = (0);
 while(true){
-if((i__4790__auto___26975 < len__4789__auto___26974)){
-args__4795__auto__.push((arguments[i__4790__auto___26975]));
+if((i__4790__auto___26980 < len__4789__auto___26979)){
+args__4795__auto__.push((arguments[i__4790__auto___26980]));
 
-var G__26978 = (i__4790__auto___26975 + (1));
-i__4790__auto___26975 = G__26978;
+var G__26983 = (i__4790__auto___26980 + (1));
+i__4790__auto___26980 = G__26983;
 continue;
 } else {
 }
