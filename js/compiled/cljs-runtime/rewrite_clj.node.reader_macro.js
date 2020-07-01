@@ -241,15 +241,15 @@ return (pred__30069.cljs$core$IFn$_invoke$arity$2 ? pred__30069.cljs$core$IFn$_i
 })())){
 return (new rewrite_clj.node.reader_macro.ReaderNode(self__.tag,G__30050,self__.suffix,self__.sexpr_fn,self__.sexpr_count,self__.children,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((function (){var G__30076 = new cljs.core.Keyword(null,"suffix","suffix",367373057);
-var G__30077 = expr__30070;
-return (pred__30069.cljs$core$IFn$_invoke$arity$2 ? pred__30069.cljs$core$IFn$_invoke$arity$2(G__30076,G__30077) : pred__30069.call(null,G__30076,G__30077));
+if(cljs.core.truth_((function (){var G__30077 = new cljs.core.Keyword(null,"suffix","suffix",367373057);
+var G__30078 = expr__30070;
+return (pred__30069.cljs$core$IFn$_invoke$arity$2 ? pred__30069.cljs$core$IFn$_invoke$arity$2(G__30077,G__30078) : pred__30069.call(null,G__30077,G__30078));
 })())){
 return (new rewrite_clj.node.reader_macro.ReaderNode(self__.tag,self__.prefix,G__30050,self__.sexpr_fn,self__.sexpr_count,self__.children,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((function (){var G__30078 = new cljs.core.Keyword(null,"sexpr-fn","sexpr-fn",-1214941414);
-var G__30079 = expr__30070;
-return (pred__30069.cljs$core$IFn$_invoke$arity$2 ? pred__30069.cljs$core$IFn$_invoke$arity$2(G__30078,G__30079) : pred__30069.call(null,G__30078,G__30079));
+if(cljs.core.truth_((function (){var G__30079 = new cljs.core.Keyword(null,"sexpr-fn","sexpr-fn",-1214941414);
+var G__30080 = expr__30070;
+return (pred__30069.cljs$core$IFn$_invoke$arity$2 ? pred__30069.cljs$core$IFn$_invoke$arity$2(G__30079,G__30080) : pred__30069.call(null,G__30079,G__30080));
 })())){
 return (new rewrite_clj.node.reader_macro.ReaderNode(self__.tag,self__.prefix,self__.suffix,G__30050,self__.sexpr_count,self__.children,self__.__meta,self__.__extmap,null));
 } else {
@@ -320,15 +320,15 @@ return (new rewrite_clj.node.reader_macro.ReaderNode(tag,prefix,suffix,sexpr_fn,
 /**
  * Factory function for rewrite-clj.node.reader-macro/ReaderNode, taking a map of keywords to field values.
  */
-rewrite_clj.node.reader_macro.map__GT_ReaderNode = (function rewrite_clj$node$reader_macro$map__GT_ReaderNode(G__30054){
-var extmap__4478__auto__ = (function (){var G__30086 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$variadic(G__30054,new cljs.core.Keyword(null,"tag","tag",-1290361223),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"prefix","prefix",-265908465),new cljs.core.Keyword(null,"suffix","suffix",367373057),new cljs.core.Keyword(null,"sexpr-fn","sexpr-fn",-1214941414),new cljs.core.Keyword(null,"sexpr-count","sexpr-count",890534957),new cljs.core.Keyword(null,"children","children",-940561982)], 0));
-if(cljs.core.record_QMARK_(G__30054)){
+rewrite_clj.node.reader_macro.map__GT_ReaderNode = (function rewrite_clj$node$reader_macro$map__GT_ReaderNode(G__30055){
+var extmap__4478__auto__ = (function (){var G__30086 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$variadic(G__30055,new cljs.core.Keyword(null,"tag","tag",-1290361223),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"prefix","prefix",-265908465),new cljs.core.Keyword(null,"suffix","suffix",367373057),new cljs.core.Keyword(null,"sexpr-fn","sexpr-fn",-1214941414),new cljs.core.Keyword(null,"sexpr-count","sexpr-count",890534957),new cljs.core.Keyword(null,"children","children",-940561982)], 0));
+if(cljs.core.record_QMARK_(G__30055)){
 return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__30086);
 } else {
 return G__30086;
 }
 })();
-return (new rewrite_clj.node.reader_macro.ReaderNode(new cljs.core.Keyword(null,"tag","tag",-1290361223).cljs$core$IFn$_invoke$arity$1(G__30054),new cljs.core.Keyword(null,"prefix","prefix",-265908465).cljs$core$IFn$_invoke$arity$1(G__30054),new cljs.core.Keyword(null,"suffix","suffix",367373057).cljs$core$IFn$_invoke$arity$1(G__30054),new cljs.core.Keyword(null,"sexpr-fn","sexpr-fn",-1214941414).cljs$core$IFn$_invoke$arity$1(G__30054),new cljs.core.Keyword(null,"sexpr-count","sexpr-count",890534957).cljs$core$IFn$_invoke$arity$1(G__30054),new cljs.core.Keyword(null,"children","children",-940561982).cljs$core$IFn$_invoke$arity$1(G__30054),null,cljs.core.not_empty(extmap__4478__auto__),null));
+return (new rewrite_clj.node.reader_macro.ReaderNode(new cljs.core.Keyword(null,"tag","tag",-1290361223).cljs$core$IFn$_invoke$arity$1(G__30055),new cljs.core.Keyword(null,"prefix","prefix",-265908465).cljs$core$IFn$_invoke$arity$1(G__30055),new cljs.core.Keyword(null,"suffix","suffix",367373057).cljs$core$IFn$_invoke$arity$1(G__30055),new cljs.core.Keyword(null,"sexpr-fn","sexpr-fn",-1214941414).cljs$core$IFn$_invoke$arity$1(G__30055),new cljs.core.Keyword(null,"sexpr-count","sexpr-count",890534957).cljs$core$IFn$_invoke$arity$1(G__30055),new cljs.core.Keyword(null,"children","children",-940561982).cljs$core$IFn$_invoke$arity$1(G__30055),null,cljs.core.not_empty(extmap__4478__auto__),null));
 });
 
 
@@ -784,11 +784,11 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(this$__$1,new cljs.core.Key
 (rewrite_clj.node.reader_macro.DerefNode.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__4446__auto__,k__4447__auto__,G__30104){
 var self__ = this;
 var this__4446__auto____$1 = this;
-var pred__30122 = cljs.core.keyword_identical_QMARK_;
-var expr__30123 = k__4447__auto__;
-if(cljs.core.truth_((function (){var G__30128 = new cljs.core.Keyword(null,"children","children",-940561982);
-var G__30129 = expr__30123;
-return (pred__30122.cljs$core$IFn$_invoke$arity$2 ? pred__30122.cljs$core$IFn$_invoke$arity$2(G__30128,G__30129) : pred__30122.call(null,G__30128,G__30129));
+var pred__30121 = cljs.core.keyword_identical_QMARK_;
+var expr__30122 = k__4447__auto__;
+if(cljs.core.truth_((function (){var G__30124 = new cljs.core.Keyword(null,"children","children",-940561982);
+var G__30125 = expr__30122;
+return (pred__30121.cljs$core$IFn$_invoke$arity$2 ? pred__30121.cljs$core$IFn$_invoke$arity$2(G__30124,G__30125) : pred__30121.call(null,G__30124,G__30125));
 })())){
 return (new rewrite_clj.node.reader_macro.DerefNode(G__30104,self__.__meta,self__.__extmap,null));
 } else {
@@ -905,8 +905,8 @@ break;
  * Create node representing a reader macro. (`#... ...`)
  */
 rewrite_clj.node.reader_macro.reader_macro_node = (function rewrite_clj$node$reader_macro$reader_macro_node(var_args){
-var G__30137 = arguments.length;
-switch (G__30137) {
+var G__30136 = arguments.length;
+switch (G__30136) {
 case 1:
 return rewrite_clj.node.reader_macro.reader_macro_node.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

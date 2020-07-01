@@ -74,9 +74,9 @@ var interceptors = temp__5733__auto__;
 if(cljs.core.truth_(re_frame.events._STAR_handling_STAR_)){
 return re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"error","error",-978969032),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["re-frame: while handling",re_frame.events._STAR_handling_STAR_,", dispatch-sync was called for",event_v,". You can't call dispatch-sync within an event handler."], 0));
 } else {
-var _STAR_handling_STAR__orig_val__32899 = re_frame.events._STAR_handling_STAR_;
-var _STAR_handling_STAR__temp_val__32900 = event_v;
-(re_frame.events._STAR_handling_STAR_ = _STAR_handling_STAR__temp_val__32900);
+var _STAR_handling_STAR__orig_val__32898 = re_frame.events._STAR_handling_STAR_;
+var _STAR_handling_STAR__temp_val__32899 = event_v;
+(re_frame.events._STAR_handling_STAR_ = _STAR_handling_STAR__temp_val__32899);
 
 try{if(re_frame.trace.is_trace_enabled_QMARK_()){
 var _STAR_current_trace_STAR__orig_val__32901 = re_frame.trace._STAR_current_trace_STAR_;
@@ -128,7 +128,7 @@ return null;
 return null;
 }
 }
-}finally {(re_frame.events._STAR_handling_STAR_ = _STAR_handling_STAR__orig_val__32899);
+}finally {(re_frame.events._STAR_handling_STAR_ = _STAR_handling_STAR__orig_val__32898);
 }}
 } else {
 return null;

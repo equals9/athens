@@ -92,17 +92,17 @@ return day8.re_frame_10x.view.components.make_devtools_api_call.cljs$core$IFn$_i
 });
 
 (day8.re_frame_10x.view.components.make_devtools_api_call.cljs$core$IFn$_invoke$arity$variadic = (function (api_fn,args){
-var previous_config__28432__auto__ = devtools.prefs.get_prefs();
-var prefs__28433__auto__ = day8.re_frame_10x.view.components.effective_cljs_devtools_prefs;
-try{devtools.prefs.set_prefs_BANG_(prefs__28433__auto__);
+var previous_config__28430__auto__ = devtools.prefs.get_prefs();
+var prefs__28431__auto__ = day8.re_frame_10x.view.components.effective_cljs_devtools_prefs;
+try{devtools.prefs.set_prefs_BANG_(prefs__28431__auto__);
 
 return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(api_fn,args);
-}finally {if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(devtools.prefs.get_prefs(),prefs__28433__auto__)){
+}finally {if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(devtools.prefs.get_prefs(),prefs__28431__auto__)){
 } else {
-throw (new Error(["Assert failed: ","someone modified devtools.prefs behind our back!","\n","(clojure.core/= (devtools.prefs/get-prefs) prefs__28433__auto__)"].join('')));
+throw (new Error(["Assert failed: ","someone modified devtools.prefs behind our back!","\n","(clojure.core/= (devtools.prefs/get-prefs) prefs__28431__auto__)"].join('')));
 }
 
-devtools.prefs.set_prefs_BANG_(previous_config__28432__auto__);
+devtools.prefs.set_prefs_BANG_(previous_config__28430__auto__);
 }}));
 
 (day8.re_frame_10x.view.components.make_devtools_api_call.cljs$lang$maxFixedArity = (1));
@@ -117,10 +117,10 @@ return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__28454,seq28453
 
 day8.re_frame_10x.view.components.cljs_devtools_header = (function day8$re_frame_10x$view$components$cljs_devtools_header(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___28483 = arguments.length;
+var len__4789__auto___28484 = arguments.length;
 var i__4790__auto___28485 = (0);
 while(true){
-if((i__4790__auto___28485 < len__4789__auto___28483)){
+if((i__4790__auto___28485 < len__4789__auto___28484)){
 args__4795__auto__.push((arguments[i__4790__auto___28485]));
 
 var G__28486 = (i__4790__auto___28485 + (1));
@@ -155,8 +155,8 @@ while(true){
 if((i__4790__auto___28488 < len__4789__auto___28487)){
 args__4795__auto__.push((arguments[i__4790__auto___28488]));
 
-var G__28489 = (i__4790__auto___28488 + (1));
-i__4790__auto___28488 = G__28489;
+var G__28491 = (i__4790__auto___28488 + (1));
+i__4790__auto___28488 = G__28491;
 continue;
 } else {
 }

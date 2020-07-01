@@ -79,10 +79,10 @@ while(true){
 if(cljs.core.truth_(new cljs.core.Keyword("node","title","node/title",628940777).cljs$core$IFn$_invoke$arity$1(b))){
 return cljs.core.conj.cljs$core$IFn$_invoke$arity$2(res,b);
 } else {
-var G__32855 = cljs.core.first(new cljs.core.Keyword("block","_children","block/_children",1128070632).cljs$core$IFn$_invoke$arity$1(b));
-var G__32856 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(res,cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(b,new cljs.core.Keyword("block","_children","block/_children",1128070632)));
-b = G__32855;
-res = G__32856;
+var G__32849 = cljs.core.first(new cljs.core.Keyword("block","_children","block/_children",1128070632).cljs$core$IFn$_invoke$arity$1(b));
+var G__32850 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(res,cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(b,new cljs.core.Keyword("block","_children","block/_children",1128070632)));
+b = G__32849;
+res = G__32850;
 continue;
 }
 break;
@@ -124,10 +124,10 @@ return acc;
 if(cljs.core.truth_((pred.cljs$core$IFn$_invoke$arity$1 ? pred.cljs$core$IFn$_invoke$arity$1(x) : pred.call(null,x)))){
 return cljs.core.conj.cljs$core$IFn$_invoke$arity$2(acc,x);
 } else {
-var G__32865 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(acc,x);
-var G__32866 = cljs.core.next(xs__$1);
-acc = G__32865;
-xs__$1 = G__32866;
+var G__32857 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(acc,x);
+var G__32858 = cljs.core.next(xs__$1);
+acc = G__32857;
+xs__$1 = G__32858;
 continue;
 
 }
@@ -171,7 +171,7 @@ return null;
 }));
 if((typeof athens !== 'undefined') && (typeof athens.db !== 'undefined') && (typeof athens.db.rfdb !== 'undefined')){
 } else {
-athens.db.rfdb = cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"errors","errors",-908790718),new cljs.core.Keyword(null,"drag-bullet","drag-bullet",441161411),new cljs.core.Keyword(null,"right-sidebar","right-sidebar",-603234618),new cljs.core.Keyword(null,"current-route","current-route",2067529448),new cljs.core.Keyword(null,"editing-uid","editing-uid",1372614377),new cljs.core.Keyword(null,"left-sidebar","left-sidebar",-1413634357),new cljs.core.Keyword(null,"tooltip-uid","tooltip-uid",-1719650452),new cljs.core.Keyword(null,"devtool","devtool",1338288336),new cljs.core.Keyword(null,"loading","loading",-737050189),new cljs.core.Keyword(null,"athena","athena",-1523991628),new cljs.core.Keyword(null,"user","user",1532431356)],[cljs.core.PersistentArrayMap.EMPTY,new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"uid","uid",-1447769400),null,new cljs.core.Keyword(null,"x","x",2099068185),null,new cljs.core.Keyword(null,"y","y",-1757859776),null,new cljs.core.Keyword("closest","uid","closest/uid",-582260451),null,new cljs.core.Keyword("closest","kind","closest/kind",429209294),null], null),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"open","open",-1763596448),false,new cljs.core.Keyword(null,"uids","uids",-934670066),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, ["OaSVyM_nr","p1Xv2crs3"], null)], null),null,null,true,null,false,true,false,"Jeff"]);
+athens.db.rfdb = cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"errors","errors",-908790718),new cljs.core.Keyword(null,"drag-bullet","drag-bullet",441161411),new cljs.core.Keyword(null,"current-route","current-route",2067529448),new cljs.core.Keyword(null,"editing-uid","editing-uid",1372614377),new cljs.core.Keyword(null,"left-sidebar","left-sidebar",-1413634357),new cljs.core.Keyword(null,"tooltip-uid","tooltip-uid",-1719650452),new cljs.core.Keyword(null,"devtool","devtool",1338288336),new cljs.core.Keyword(null,"loading","loading",-737050189),new cljs.core.Keyword("right-sidebar","items","right-sidebar/items",-881766733),new cljs.core.Keyword(null,"athena","athena",-1523991628),new cljs.core.Keyword("right-sidebar","open","right-sidebar/open",83006133),new cljs.core.Keyword(null,"user","user",1532431356)],[cljs.core.PersistentArrayMap.EMPTY,new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"uid","uid",-1447769400),null,new cljs.core.Keyword(null,"x","x",2099068185),null,new cljs.core.Keyword(null,"y","y",-1757859776),null,new cljs.core.Keyword("closest","uid","closest/uid",-582260451),null,new cljs.core.Keyword("closest","kind","closest/kind",429209294),null], null),null,null,false,null,false,true,new cljs.core.PersistentArrayMap(null, 3, ["OaSVyM_nr",new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword("node","title","node/title",628940777),"Athens FAQ",new cljs.core.Keyword(null,"open","open",-1763596448),false,new cljs.core.Keyword(null,"index","index",-1531685915),(0)], null),"p1Xv2crs3",new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword("node","title","node/title",628940777),"Hyperlink",new cljs.core.Keyword(null,"open","open",-1763596448),true,new cljs.core.Keyword(null,"index","index",-1531685915),(1)], null),"jbiKpcmIX",new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword("block","string","block/string",-2066596447),"Firstly, I wouldn't be surprised if Roam was eventually open-sourced.",new cljs.core.Keyword(null,"open","open",-1763596448),true,new cljs.core.Keyword(null,"index","index",-1531685915),(2)], null)], null),false,true,"Jeff"]);
 }
 
 //# sourceMappingURL=athens.db.js.map
