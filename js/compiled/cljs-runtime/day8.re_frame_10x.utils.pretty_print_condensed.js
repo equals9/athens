@@ -140,14 +140,14 @@ var rep = clojure.string.replace(s,match,trunc_prefix);
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(rep,s)){
 return trunc_prefix;
 } else {
-var G__31975 = clojure.string.replace(s,match,trunc_prefix);
-var G__31976 = limit;
-var G__31977 = match;
-var G__31978 = trunc_prefix;
-s = G__31975;
-limit = G__31976;
-match = G__31977;
-trunc_prefix = G__31978;
+var G__31973 = clojure.string.replace(s,match,trunc_prefix);
+var G__31974 = limit;
+var G__31975 = match;
+var G__31976 = trunc_prefix;
+s = G__31973;
+limit = G__31974;
+match = G__31975;
+trunc_prefix = G__31976;
 continue;
 }
 }
@@ -243,8 +243,8 @@ return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(left),cljs.core.str.cljs$cor
  * Render form in abbreviated form, showing content only for keywords/strings/symbols and entering collections to a depth of 1.
  */
 day8.re_frame_10x.utils.pretty_print_condensed.pretty_condensed = (function day8$re_frame_10x$utils$pretty_print_condensed$pretty_condensed(var_args){
-var G__31952 = arguments.length;
-switch (G__31952) {
+var G__31951 = arguments.length;
+switch (G__31951) {
 case 1:
 return day8.re_frame_10x.utils.pretty_print_condensed.pretty_condensed.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -271,11 +271,11 @@ if(typeof form === 'string'){
 return day8.re_frame_10x.utils.pretty_print_condensed.truncate_string.cljs$core$IFn$_invoke$arity$3((16),new cljs.core.Keyword(null,"middle","middle",-701029031),form);
 } else {
 if(cljs.core.fn_QMARK_(form)){
-var or__4185__auto__ = (function (){var G__31955 = form.name;
-if((G__31955 == null)){
+var or__4185__auto__ = (function (){var G__31954 = form.name;
+if((G__31954 == null)){
 return null;
 } else {
-return clojure.string.replace(G__31955,/(^.*\$)(.*)/,"$2");
+return clojure.string.replace(G__31954,/(^.*\$)(.*)/,"$2");
 }
 })();
 if(cljs.core.truth_(or__4185__auto__)){
@@ -503,8 +503,8 @@ while(true){
 if((i__4790__auto___32003 < len__4789__auto___32002)){
 args__4795__auto__.push((arguments[i__4790__auto___32003]));
 
-var G__32010 = (i__4790__auto___32003 + (1));
-i__4790__auto___32003 = G__32010;
+var G__32004 = (i__4790__auto___32003 + (1));
+i__4790__auto___32003 = G__32004;
 continue;
 } else {
 }

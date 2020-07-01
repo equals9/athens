@@ -39,8 +39,8 @@ var G__47347 = x;
 return (spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2 ? spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2(G__47346,G__47347) : spec_tools.parse.parse_form.call(null,G__47346,G__47347));
 } else {
 if(cljs.core.truth_(cljs.spec.alpha.spec_QMARK_(x))){
-var G__47374 = cljs.spec.alpha.form(x);
-x = G__47374;
+var G__47372 = cljs.spec.alpha.form(x);
+x = G__47372;
 continue;
 } else {
 if(cljs.core.ifn_QMARK_(x)){
