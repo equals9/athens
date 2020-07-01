@@ -202,10 +202,10 @@ rdr.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
 if((d === (-1))){
 return cljs.tools.reader.impl.errors.throw_invalid_unicode_digit(rdr,ch);
 } else {
-var G__24860 = (i + (1));
-var G__24861 = (d + (uc * base));
-i = G__24860;
-uc = G__24861;
+var G__24862 = (i + (1));
+var G__24863 = (d + (uc * base));
+i = G__24862;
+uc = G__24863;
 continue;
 }
 }
@@ -329,8 +329,8 @@ return cljs.core.persistent_BANG_(a);
 if((form === cljs.tools.reader.READ_EOF)){
 return cljs.tools.reader.impl.errors.throw_eof_delimited.cljs$core$IFn$_invoke$arity$5(rdr,kind,start_line,start_column,cljs.core.count(a));
 } else {
-var G__24864 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(a,form);
-a = G__24864;
+var G__24869 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(a,form);
+a = G__24869;
 continue;
 }
 }
@@ -908,18 +908,18 @@ var match = cljs.tools.reader.match_feature(first_line,rdr,opts,pending_forms);
 if((match === cljs.tools.reader.READ_FINISHED)){
 return cljs.tools.reader.READ_FINISHED;
 } else {
-var G__24898 = match;
-var G__24899 = null;
-matched = G__24898;
-finished = G__24899;
+var G__24899 = match;
+var G__24900 = null;
+matched = G__24899;
+finished = G__24900;
 continue;
 }
 } else {
 if((!((finished === cljs.tools.reader.READ_FINISHED)))){
-var G__24900 = matched;
-var G__24901 = cljs.tools.reader.read_suppress(first_line,rdr,opts,pending_forms);
-matched = G__24900;
-finished = G__24901;
+var G__24901 = matched;
+var G__24902 = cljs.tools.reader.read_suppress(first_line,rdr,opts,pending_forms);
+matched = G__24901;
+finished = G__24902;
 continue;
 } else {
 return matched;
@@ -1150,10 +1150,10 @@ if(s__$1){
 var item = cljs.core.first(s__$1);
 var ret = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(r,((cljs.tools.reader.unquote_QMARK_(item))?(new cljs.core.List(null,new cljs.core.Symbol("clojure.core","list","clojure.core/list",-1119203325,null),(new cljs.core.List(null,cljs.core.second(item),null,(1),null)),(2),null)):((cljs.tools.reader.unquote_splicing_QMARK_(item))?cljs.core.second(item):(new cljs.core.List(null,new cljs.core.Symbol("clojure.core","list","clojure.core/list",-1119203325,null),(new cljs.core.List(null,(cljs.tools.reader.syntax_quote_STAR_.cljs$core$IFn$_invoke$arity$1 ? cljs.tools.reader.syntax_quote_STAR_.cljs$core$IFn$_invoke$arity$1(item) : cljs.tools.reader.syntax_quote_STAR_.call(null,item)),null,(1),null)),(2),null))
 )));
-var G__24913 = cljs.core.next(s__$1);
-var G__24914 = ret;
-s__$1 = G__24913;
-r = G__24914;
+var G__24912 = cljs.core.next(s__$1);
+var G__24913 = ret;
+s__$1 = G__24912;
+r = G__24913;
 continue;
 } else {
 return cljs.core.seq(cljs.core.persistent_BANG_(r));

@@ -57,8 +57,8 @@ return cljs.core.first(cljs.core.drop_while.cljs$core$IFn$_invoke$arity$2(p_QMAR
  * non-comment node is encountered.
  */
 rewrite_clj.zip.whitespace.skip_whitespace = (function rewrite_clj$zip$whitespace$skip_whitespace(var_args){
-var G__30348 = arguments.length;
-switch (G__30348) {
+var G__30347 = arguments.length;
+switch (G__30347) {
 case 1:
 return rewrite_clj.zip.whitespace.skip_whitespace.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -93,8 +93,8 @@ return rewrite_clj.zip.whitespace.skip_whitespace.cljs$core$IFn$_invoke$arity$2(
  * Prepend a whitespace node representing the given number of spaces (default: 1).
  */
 rewrite_clj.zip.whitespace.prepend_space = (function rewrite_clj$zip$whitespace$prepend_space(var_args){
-var G__30350 = arguments.length;
-switch (G__30350) {
+var G__30349 = arguments.length;
+switch (G__30349) {
 case 1:
 return rewrite_clj.zip.whitespace.prepend_space.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

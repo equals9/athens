@@ -115,8 +115,8 @@ while (G__32452__i < G__32452__a.length) {G__32452__a[G__32452__i] = arguments[G
 } 
 return G__32451__delegate.call(this,args);};
 G__32451.cljs$lang$maxFixedArity = 0;
-G__32451.cljs$lang$applyTo = (function (arglist__32455){
-var args = cljs.core.seq(arglist__32455);
+G__32451.cljs$lang$applyTo = (function (arglist__32453){
+var args = cljs.core.seq(arglist__32453);
 return G__32451__delegate(args);
 });
 G__32451.cljs$core$IFn$_invoke$arity$variadic = G__32451__delegate;
@@ -138,10 +138,10 @@ if(reagent.impl.util.named_QMARK_(k)){
 var temp__5737__auto__ = reagent.impl.template.cache_get(reagent.impl.template.custom_prop_name_cache,cljs.core.name(k));
 if((temp__5737__auto__ == null)){
 var v = reagent.impl.util.dash_to_prop_name(k);
-var G__32413_32461 = reagent.impl.template.custom_prop_name_cache;
-var G__32414_32462 = cljs.core.name(k);
-var G__32415_32463 = v;
-goog.object.set(G__32413_32461,G__32414_32462,G__32415_32463);
+var G__32413_32456 = reagent.impl.template.custom_prop_name_cache;
+var G__32414_32457 = cljs.core.name(k);
+var G__32415_32458 = v;
+goog.object.set(G__32413_32456,G__32414_32457,G__32415_32458);
 
 return v;
 } else {
@@ -447,11 +447,11 @@ var c = reagent.impl.component.as_class(tag);
 var jsprops = ({});
 (jsprops.argv = v);
 
-var temp__5739__auto___32494 = reagent.impl.template.key_from_vec(v);
-if((temp__5739__auto___32494 == null)){
+var temp__5739__auto___32482 = reagent.impl.template.key_from_vec(v);
+if((temp__5739__auto___32482 == null)){
 } else {
-var key_32495 = temp__5739__auto___32494;
-(jsprops.key = key_32495);
+var key_32484 = temp__5739__auto___32482;
+(jsprops.key = key_32484);
 }
 
 return module$node_modules$react$index.createElement(c,jsprops);
@@ -467,11 +467,11 @@ return ({});
 }
 })();
 var first_child = ((1) + ((hasprops)?(1):(0)));
-var temp__5739__auto___32501 = reagent.impl.template.key_from_vec(argv);
-if((temp__5739__auto___32501 == null)){
+var temp__5739__auto___32496 = reagent.impl.template.key_from_vec(argv);
+if((temp__5739__auto___32496 == null)){
 } else {
-var key_32502 = temp__5739__auto___32501;
-(jsprops.key = key_32502);
+var key_32497 = temp__5739__auto___32496;
+(jsprops.key = key_32497);
 }
 
 return (reagent.impl.template.make_element.cljs$core$IFn$_invoke$arity$4 ? reagent.impl.template.make_element.cljs$core$IFn$_invoke$arity$4(argv,module$node_modules$react$index.Fragment,jsprops,first_child) : reagent.impl.template.make_element.call(null,argv,module$node_modules$react$index.Fragment,jsprops,first_child));

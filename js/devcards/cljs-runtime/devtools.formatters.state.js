@@ -47,11 +47,11 @@ return (devtools.formatters.state._STAR_current_state_STAR_ = cljs.core.apply.cl
 (devtools.formatters.state.update_current_state_BANG_.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(devtools.formatters.state.update_current_state_BANG_.cljs$lang$applyTo = (function (seq23789){
-var G__23790 = cljs.core.first(seq23789);
-var seq23789__$1 = cljs.core.next(seq23789);
+(devtools.formatters.state.update_current_state_BANG_.cljs$lang$applyTo = (function (seq23788){
+var G__23789 = cljs.core.first(seq23788);
+var seq23788__$1 = cljs.core.next(seq23788);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__23790,seq23789__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__23789,seq23788__$1);
 }));
 
 devtools.formatters.state.push_object_to_current_history_BANG_ = (function devtools$formatters$state$push_object_to_current_history_BANG_(object){

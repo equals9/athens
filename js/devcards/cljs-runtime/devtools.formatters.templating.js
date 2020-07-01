@@ -356,16 +356,16 @@ return devtools.formatters.templating.concat_templates_BANG_.cljs$core$IFn$_invo
 (devtools.formatters.templating.extend_template_BANG_.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(devtools.formatters.templating.extend_template_BANG_.cljs$lang$applyTo = (function (seq23821){
-var G__23822 = cljs.core.first(seq23821);
-var seq23821__$1 = cljs.core.next(seq23821);
+(devtools.formatters.templating.extend_template_BANG_.cljs$lang$applyTo = (function (seq23825){
+var G__23826 = cljs.core.first(seq23825);
+var seq23825__$1 = cljs.core.next(seq23825);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__23822,seq23821__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__23826,seq23825__$1);
 }));
 
 devtools.formatters.templating.make_surrogate = (function devtools$formatters$templating$make_surrogate(var_args){
-var G__23830 = arguments.length;
-switch (G__23830) {
+var G__23832 = arguments.length;
+switch (G__23832) {
 case 1:
 return devtools.formatters.templating.make_surrogate.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -401,14 +401,14 @@ return devtools.formatters.templating.make_surrogate.cljs$core$IFn$_invoke$arity
 }));
 
 (devtools.formatters.templating.make_surrogate.cljs$core$IFn$_invoke$arity$4 = (function (object,header,body,start_index){
-return devtools.formatters.templating.mark_as_surrogate_BANG_((function (){var obj23836 = ({"target":object,"header":header,"body":body,"startIndex":(function (){var or__4185__auto__ = start_index;
+return devtools.formatters.templating.mark_as_surrogate_BANG_((function (){var obj23837 = ({"target":object,"header":header,"body":body,"startIndex":(function (){var or__4185__auto__ = start_index;
 if(cljs.core.truth_(or__4185__auto__)){
 return or__4185__auto__;
 } else {
 return (0);
 }
 })()});
-return obj23836;
+return obj23837;
 })());
 }));
 
@@ -448,14 +448,14 @@ return (surrogate["startIndex"]);
 });
 devtools.formatters.templating.make_reference = (function devtools$formatters$templating$make_reference(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___23928 = arguments.length;
-var i__4790__auto___23929 = (0);
+var len__4789__auto___23938 = arguments.length;
+var i__4790__auto___23939 = (0);
 while(true){
-if((i__4790__auto___23929 < len__4789__auto___23928)){
-args__4795__auto__.push((arguments[i__4790__auto___23929]));
+if((i__4790__auto___23939 < len__4789__auto___23938)){
+args__4795__auto__.push((arguments[i__4790__auto___23939]));
 
-var G__23930 = (i__4790__auto___23929 + (1));
-i__4790__auto___23929 = G__23930;
+var G__23940 = (i__4790__auto___23939 + (1));
+i__4790__auto___23939 = G__23940;
 continue;
 } else {
 }
@@ -609,24 +609,24 @@ throw (new Error(["Assert failed: ",["result of markup rendering must be a templ
 devtools.formatters.templating.render_markup_STAR_ = (function devtools$formatters$templating$render_markup_STAR_(initial_value,value){
 while(true){
 if(cljs.core.fn_QMARK_(value)){
-var G__23943 = initial_value;
-var G__23944 = (value.cljs$core$IFn$_invoke$arity$0 ? value.cljs$core$IFn$_invoke$arity$0() : value.call(null));
-initial_value = G__23943;
-value = G__23944;
+var G__23979 = initial_value;
+var G__23980 = (value.cljs$core$IFn$_invoke$arity$0 ? value.cljs$core$IFn$_invoke$arity$0() : value.call(null));
+initial_value = G__23979;
+value = G__23980;
 continue;
 } else {
 if((value instanceof cljs.core.Keyword)){
-var G__23945 = initial_value;
-var G__23946 = devtools.formatters.helpers.pref(value);
-initial_value = G__23945;
-value = G__23946;
+var G__23981 = initial_value;
+var G__23982 = devtools.formatters.helpers.pref(value);
+initial_value = G__23981;
+value = G__23982;
 continue;
 } else {
 if(cljs.core.sequential_QMARK_(value)){
-var G__23947 = initial_value;
-var G__23948 = devtools.formatters.templating.render_json_ml(value);
-initial_value = G__23947;
-value = G__23948;
+var G__23984 = initial_value;
+var G__23985 = devtools.formatters.templating.render_json_ml(value);
+initial_value = G__23984;
+value = G__23985;
 continue;
 } else {
 if(devtools.formatters.templating.template_QMARK_(value)){

@@ -272,8 +272,8 @@ rewrite_clj.node.protocols.assert_single_sexpr(children);
 
 return rewrite_clj.node.uneval.__GT_UnevalNode(children);
 } else {
-var G__29974 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [children], null);
-children = G__29974;
+var G__29979 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [children], null);
+children = G__29979;
 continue;
 }
 break;

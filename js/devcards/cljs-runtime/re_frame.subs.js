@@ -30,9 +30,9 @@ var count__46606_46680 = (0);
 var i__46607_46681 = (0);
 while(true){
 if((i__46607_46681 < count__46606_46680)){
-var vec__46614_46682 = chunk__46605_46679.cljs$core$IIndexed$_nth$arity$2(null,i__46607_46681);
-var k_46683 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46614_46682,(0),null);
-var rxn_46684 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46614_46682,(1),null);
+var vec__46615_46682 = chunk__46605_46679.cljs$core$IIndexed$_nth$arity$2(null,i__46607_46681);
+var k_46683 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46615_46682,(0),null);
+var rxn_46684 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46615_46682,(1),null);
 re_frame.interop.dispose_BANG_(rxn_46684);
 
 
@@ -61,9 +61,9 @@ count__46606_46680 = G__46694;
 i__46607_46681 = G__46695;
 continue;
 } else {
-var vec__46617_46696 = cljs.core.first(seq__46604_46690__$1);
-var k_46697 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46617_46696,(0),null);
-var rxn_46698 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46617_46696,(1),null);
+var vec__46618_46696 = cljs.core.first(seq__46604_46690__$1);
+var k_46697 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46618_46696,(0),null);
+var rxn_46698 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46618_46696,(1),null);
 re_frame.interop.dispose_BANG_(rxn_46698);
 
 
@@ -360,8 +360,8 @@ var new_trace__45927__auto___46717 = cljs.core.merge.cljs$core$IFn$_invoke$arity
 if(re_frame.interop.debug_enabled_QMARK_){
 var temp__5735__auto___46718 = cljs.core.not_empty(cljs.core.remove.cljs$core$IFn$_invoke$arity$2(re_frame.interop.ratom_QMARK_,dynv));
 if(cljs.core.truth_(temp__5735__auto___46718)){
-var not_reactive_46720 = temp__5735__auto___46718;
-re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"warn","warn",-436710552),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["re-frame: your subscription's dynamic parameters that don't implement IReactiveAtom:",not_reactive_46720], 0));
+var not_reactive_46719 = temp__5735__auto___46718;
+re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"warn","warn",-436710552),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["re-frame: your subscription's dynamic parameters that don't implement IReactiveAtom:",not_reactive_46719], 0));
 } else {
 }
 } else {
@@ -662,14 +662,14 @@ return dereffed_signals;
  */
 re_frame.subs.reg_sub = (function re_frame$subs$reg_sub(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___46733 = arguments.length;
-var i__4790__auto___46734 = (0);
+var len__4789__auto___46734 = arguments.length;
+var i__4790__auto___46735 = (0);
 while(true){
-if((i__4790__auto___46734 < len__4789__auto___46733)){
-args__4795__auto__.push((arguments[i__4790__auto___46734]));
+if((i__4790__auto___46735 < len__4789__auto___46734)){
+args__4795__auto__.push((arguments[i__4790__auto___46735]));
 
-var G__46735 = (i__4790__auto___46734 + (1));
-i__4790__auto___46734 = G__46735;
+var G__46736 = (i__4790__auto___46735 + (1));
+i__4790__auto___46735 = G__46736;
 continue;
 } else {
 }
@@ -684,8 +684,8 @@ return re_frame.subs.reg_sub.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)
 var computation_fn = cljs.core.last(args);
 var input_args = cljs.core.butlast(args);
 var err_header = ["re-frame: reg-sub for ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(query_id),", "].join('');
-var inputs_fn = (function (){var G__46650 = cljs.core.count(input_args);
-switch (G__46650) {
+var inputs_fn = (function (){var G__46646 = cljs.core.count(input_args);
+switch (G__46646) {
 case (0):
 return (function() {
 var G__46738 = null;
@@ -792,9 +792,9 @@ var subscriptions = (inputs_fn.cljs$core$IFn$_invoke$arity$1 ? inputs_fn.cljs$co
 var reaction_id = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(null);
 var reaction = re_frame.interop.make_reaction((function (){
 if(re_frame.trace.is_trace_enabled_QMARK_()){
-var _STAR_current_trace_STAR__orig_val__46658 = re_frame.trace._STAR_current_trace_STAR_;
-var _STAR_current_trace_STAR__temp_val__46659 = re_frame.trace.start_trace(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"operation","operation",-1267664310),re_frame.utils.first_in_vector(query_vec),new cljs.core.Keyword(null,"op-type","op-type",-1636141668),new cljs.core.Keyword("sub","run","sub/run",-1821315581),new cljs.core.Keyword(null,"tags","tags",1771418977),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"query-v","query-v",-1514170131),query_vec,new cljs.core.Keyword(null,"reaction","reaction",490869788),cljs.core.deref(reaction_id)], null)], null));
-(re_frame.trace._STAR_current_trace_STAR_ = _STAR_current_trace_STAR__temp_val__46659);
+var _STAR_current_trace_STAR__orig_val__46654 = re_frame.trace._STAR_current_trace_STAR_;
+var _STAR_current_trace_STAR__temp_val__46655 = re_frame.trace.start_trace(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"operation","operation",-1267664310),re_frame.utils.first_in_vector(query_vec),new cljs.core.Keyword(null,"op-type","op-type",-1636141668),new cljs.core.Keyword("sub","run","sub/run",-1821315581),new cljs.core.Keyword(null,"tags","tags",1771418977),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"query-v","query-v",-1514170131),query_vec,new cljs.core.Keyword(null,"reaction","reaction",490869788),cljs.core.deref(reaction_id)], null)], null));
+(re_frame.trace._STAR_current_trace_STAR_ = _STAR_current_trace_STAR__temp_val__46655);
 
 try{try{var subscription = (function (){var G__46660 = re_frame.subs.deref_input_signals(subscriptions,query_id);
 var G__46661 = query_vec;
@@ -816,7 +816,7 @@ cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$3(re_frame.trace.traces,cljs.co
 re_frame.trace.run_tracing_callbacks_BANG_(end__45925__auto___46752);
 } else {
 }
-}}finally {(re_frame.trace._STAR_current_trace_STAR_ = _STAR_current_trace_STAR__orig_val__46658);
+}}finally {(re_frame.trace._STAR_current_trace_STAR_ = _STAR_current_trace_STAR__orig_val__46654);
 }} else {
 var subscription = (function (){var G__46662 = re_frame.subs.deref_input_signals(subscriptions,query_id);
 var G__46663 = query_vec;
@@ -841,14 +841,14 @@ var subscriptions = (inputs_fn.cljs$core$IFn$_invoke$arity$2 ? inputs_fn.cljs$co
 var reaction_id = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(null);
 var reaction = re_frame.interop.make_reaction((function (){
 if(re_frame.trace.is_trace_enabled_QMARK_()){
-var _STAR_current_trace_STAR__orig_val__46665 = re_frame.trace._STAR_current_trace_STAR_;
-var _STAR_current_trace_STAR__temp_val__46666 = re_frame.trace.start_trace(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"operation","operation",-1267664310),re_frame.utils.first_in_vector(query_vec),new cljs.core.Keyword(null,"op-type","op-type",-1636141668),new cljs.core.Keyword("sub","run","sub/run",-1821315581),new cljs.core.Keyword(null,"tags","tags",1771418977),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"query-v","query-v",-1514170131),query_vec,new cljs.core.Keyword(null,"dyn-v","dyn-v",949994592),dyn_vec,new cljs.core.Keyword(null,"reaction","reaction",490869788),cljs.core.deref(reaction_id)], null)], null));
-(re_frame.trace._STAR_current_trace_STAR_ = _STAR_current_trace_STAR__temp_val__46666);
+var _STAR_current_trace_STAR__orig_val__46664 = re_frame.trace._STAR_current_trace_STAR_;
+var _STAR_current_trace_STAR__temp_val__46665 = re_frame.trace.start_trace(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"operation","operation",-1267664310),re_frame.utils.first_in_vector(query_vec),new cljs.core.Keyword(null,"op-type","op-type",-1636141668),new cljs.core.Keyword("sub","run","sub/run",-1821315581),new cljs.core.Keyword(null,"tags","tags",1771418977),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"query-v","query-v",-1514170131),query_vec,new cljs.core.Keyword(null,"dyn-v","dyn-v",949994592),dyn_vec,new cljs.core.Keyword(null,"reaction","reaction",490869788),cljs.core.deref(reaction_id)], null)], null));
+(re_frame.trace._STAR_current_trace_STAR_ = _STAR_current_trace_STAR__temp_val__46665);
 
-try{try{var subscription = (function (){var G__46668 = re_frame.subs.deref_input_signals(subscriptions,query_id);
-var G__46669 = query_vec;
-var G__46670 = dyn_vec;
-return (computation_fn.cljs$core$IFn$_invoke$arity$3 ? computation_fn.cljs$core$IFn$_invoke$arity$3(G__46668,G__46669,G__46670) : computation_fn.call(null,G__46668,G__46669,G__46670));
+try{try{var subscription = (function (){var G__46667 = re_frame.subs.deref_input_signals(subscriptions,query_id);
+var G__46668 = query_vec;
+var G__46669 = dyn_vec;
+return (computation_fn.cljs$core$IFn$_invoke$arity$3 ? computation_fn.cljs$core$IFn$_invoke$arity$3(G__46667,G__46668,G__46669) : computation_fn.call(null,G__46667,G__46668,G__46669));
 })();
 if(re_frame.trace.is_trace_enabled_QMARK_()){
 var new_trace__45927__auto___46755 = cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([cljs.core.update.cljs$core$IFn$_invoke$arity$4(re_frame.trace._STAR_current_trace_STAR_,new cljs.core.Keyword(null,"tags","tags",1771418977),cljs.core.merge,new cljs.core.Keyword(null,"tags","tags",1771418977).cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"tags","tags",1771418977),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"value","value",305978217),subscription], null)], null))),cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"tags","tags",1771418977),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"value","value",305978217),subscription], null)], null),new cljs.core.Keyword(null,"tags","tags",1771418977))], 0));
@@ -866,12 +866,12 @@ cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$3(re_frame.trace.traces,cljs.co
 re_frame.trace.run_tracing_callbacks_BANG_(end__45925__auto___46756);
 } else {
 }
-}}finally {(re_frame.trace._STAR_current_trace_STAR_ = _STAR_current_trace_STAR__orig_val__46665);
+}}finally {(re_frame.trace._STAR_current_trace_STAR_ = _STAR_current_trace_STAR__orig_val__46664);
 }} else {
-var subscription = (function (){var G__46675 = re_frame.subs.deref_input_signals(subscriptions,query_id);
-var G__46676 = query_vec;
-var G__46677 = dyn_vec;
-return (computation_fn.cljs$core$IFn$_invoke$arity$3 ? computation_fn.cljs$core$IFn$_invoke$arity$3(G__46675,G__46676,G__46677) : computation_fn.call(null,G__46675,G__46676,G__46677));
+var subscription = (function (){var G__46671 = re_frame.subs.deref_input_signals(subscriptions,query_id);
+var G__46672 = query_vec;
+var G__46673 = dyn_vec;
+return (computation_fn.cljs$core$IFn$_invoke$arity$3 ? computation_fn.cljs$core$IFn$_invoke$arity$3(G__46671,G__46672,G__46673) : computation_fn.call(null,G__46671,G__46672,G__46673));
 })();
 if(re_frame.trace.is_trace_enabled_QMARK_()){
 var new_trace__45927__auto___46758 = cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([cljs.core.update.cljs$core$IFn$_invoke$arity$4(re_frame.trace._STAR_current_trace_STAR_,new cljs.core.Keyword(null,"tags","tags",1771418977),cljs.core.merge,new cljs.core.Keyword(null,"tags","tags",1771418977).cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"tags","tags",1771418977),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"value","value",305978217),subscription], null)], null))),cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"tags","tags",1771418977),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"value","value",305978217),subscription], null)], null),new cljs.core.Keyword(null,"tags","tags",1771418977))], 0));
@@ -906,11 +906,11 @@ return re_frame$subs$subs_handler_fn;
 (re_frame.subs.reg_sub.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(re_frame.subs.reg_sub.cljs$lang$applyTo = (function (seq46644){
-var G__46645 = cljs.core.first(seq46644);
-var seq46644__$1 = cljs.core.next(seq46644);
+(re_frame.subs.reg_sub.cljs$lang$applyTo = (function (seq46641){
+var G__46642 = cljs.core.first(seq46641);
+var seq46641__$1 = cljs.core.next(seq46641);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__46645,seq46644__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__46642,seq46641__$1);
 }));
 
 
