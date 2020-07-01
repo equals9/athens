@@ -309,8 +309,5 @@ return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMP
 return null;
 }
 });
-athens.devcards.athena.athena_el = (function athens$devcards$athena$athena_el(athena_QMARK_,_STAR_match,choice,search_handler){
-return null;
-});
 
 //# sourceMappingURL=athens.devcards.athena.js.map
