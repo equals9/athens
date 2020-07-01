@@ -52,9 +52,9 @@ return this__4439__auto____$1.cljs$core$ILookup$_lookup$arity$3(null,k__4440__au
 (rewrite_clj.node.stringz.StringNode.prototype.cljs$core$ILookup$_lookup$arity$3 = (function (this__4441__auto__,k29923,else__4442__auto__){
 var self__ = this;
 var this__4441__auto____$1 = this;
-var G__29927 = k29923;
-var G__29927__$1 = (((G__29927 instanceof cljs.core.Keyword))?G__29927.fqn:null);
-switch (G__29927__$1) {
+var G__29928 = k29923;
+var G__29928__$1 = (((G__29928 instanceof cljs.core.Keyword))?G__29928.fqn:null);
+switch (G__29928__$1) {
 case "lines":
 return self__.lines;
 
@@ -241,11 +241,11 @@ return (new rewrite_clj.node.stringz.StringNode(lines,null,null,null));
  * Factory function for rewrite-clj.node.stringz/StringNode, taking a map of keywords to field values.
  */
 rewrite_clj.node.stringz.map__GT_StringNode = (function rewrite_clj$node$stringz$map__GT_StringNode(G__29926){
-var extmap__4478__auto__ = (function (){var G__29939 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(G__29926,new cljs.core.Keyword(null,"lines","lines",-700165781));
+var extmap__4478__auto__ = (function (){var G__29943 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(G__29926,new cljs.core.Keyword(null,"lines","lines",-700165781));
 if(cljs.core.record_QMARK_(G__29926)){
-return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__29939);
+return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__29943);
 } else {
-return G__29939;
+return G__29943;
 }
 })();
 return (new rewrite_clj.node.stringz.StringNode(new cljs.core.Keyword(null,"lines","lines",-700165781).cljs$core$IFn$_invoke$arity$1(G__29926),null,cljs.core.not_empty(extmap__4478__auto__),null));
