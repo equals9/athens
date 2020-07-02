@@ -70,9 +70,9 @@ return cljs.core.get.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k24427,else__
 var self__ = this;
 var this__4458__auto____$1 = this;
 return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (ret__4461__auto__,p__24432){
-var vec__24435 = p__24432;
-var k__4462__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24435,(0),null);
-var v__4463__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24435,(1),null);
+var vec__24433 = p__24432;
+var k__4462__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24433,(0),null);
+var v__4463__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24433,(1),null);
 return (f__4459__auto__.cljs$core$IFn$_invoke$arity$3 ? f__4459__auto__.cljs$core$IFn$_invoke$arity$3(ret__4461__auto__,k__4462__auto__,v__4463__auto__) : f__4459__auto__.call(null,ret__4461__auto__,k__4462__auto__,v__4463__auto__));
 }),init__4460__auto__,this__4458__auto____$1);
 }));
@@ -314,11 +314,11 @@ if((function (){var i__24455 = (0);
 while(true){
 if((i__24455 < size__4581__auto__)){
 var key = cljs.core._nth.cljs$core$IFn$_invoke$arity$2(c__4580__auto__,i__24455);
-cljs.core.chunk_append(b__24456,(((((key instanceof cljs.core.Symbol)) || ((key instanceof cljs.core.Keyword))))?(function (){var vec__24460 = (function (){var fexpr__24464 = cljs.core.juxt.cljs$core$IFn$_invoke$arity$2(cljs.core.namespace,cljs.core.name);
-return (fexpr__24464.cljs$core$IFn$_invoke$arity$1 ? fexpr__24464.cljs$core$IFn$_invoke$arity$1(key) : fexpr__24464.call(null,key));
+cljs.core.chunk_append(b__24456,(((((key instanceof cljs.core.Symbol)) || ((key instanceof cljs.core.Keyword))))?(function (){var vec__24457 = (function (){var fexpr__24460 = cljs.core.juxt.cljs$core$IFn$_invoke$arity$2(cljs.core.namespace,cljs.core.name);
+return (fexpr__24460.cljs$core$IFn$_invoke$arity$1 ? fexpr__24460.cljs$core$IFn$_invoke$arity$1(key) : fexpr__24460.call(null,key));
 })();
-var key_ns = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24460,(0),null);
-var key_name = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24460,(1),null);
+var key_ns = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24457,(0),null);
+var key_name = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24457,(1),null);
 var __GT_key = (((key instanceof cljs.core.Symbol))?cljs.core.symbol:cljs.core.keyword);
 if((key_ns == null)){
 return (__GT_key.cljs$core$IFn$_invoke$arity$2 ? __GT_key.cljs$core$IFn$_invoke$arity$2(ns,key_name) : __GT_key.call(null,ns,key_name));
@@ -347,8 +347,8 @@ return cljs.core.chunk_cons(cljs.core.chunk(b__24456),null);
 }
 } else {
 var key = cljs.core.first(s__24454__$2);
-return cljs.core.cons((((((key instanceof cljs.core.Symbol)) || ((key instanceof cljs.core.Keyword))))?(function (){var vec__24465 = (function (){var fexpr__24470 = cljs.core.juxt.cljs$core$IFn$_invoke$arity$2(cljs.core.namespace,cljs.core.name);
-return (fexpr__24470.cljs$core$IFn$_invoke$arity$1 ? fexpr__24470.cljs$core$IFn$_invoke$arity$1(key) : fexpr__24470.call(null,key));
+return cljs.core.cons((((((key instanceof cljs.core.Symbol)) || ((key instanceof cljs.core.Keyword))))?(function (){var vec__24465 = (function (){var fexpr__24468 = cljs.core.juxt.cljs$core$IFn$_invoke$arity$2(cljs.core.namespace,cljs.core.name);
+return (fexpr__24468.cljs$core$IFn$_invoke$arity$1 ? fexpr__24468.cljs$core$IFn$_invoke$arity$1(key) : fexpr__24468.call(null,key));
 })();
 var key_ns = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24465,(0),null);
 var key_name = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24465,(1),null);

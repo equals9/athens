@@ -36,12 +36,12 @@ throw cljs.core.missing_protocol("Datafiable.datafy",o);
 
 goog.object.set(clojure.core.protocols.Datafiable,"null",true);
 
-var G__65753_65765 = clojure.core.protocols.datafy;
-var G__65754_65766 = "null";
-var G__65755_65767 = (function (_){
+var G__65756_65765 = clojure.core.protocols.datafy;
+var G__65757_65766 = "null";
+var G__65758_65767 = (function (_){
 return null;
 });
-goog.object.set(G__65753_65765,G__65754_65766,G__65755_65767);
+goog.object.set(G__65756_65765,G__65757_65766,G__65758_65767);
 
 goog.object.set(clojure.core.protocols.Datafiable,"_",true);
 

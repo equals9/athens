@@ -242,8 +242,8 @@ return or__4185__auto__;
 return cljs.core.PersistentVector.EMPTY;
 }
 })();
-var new$ = cljs.core.mapcat.cljs$core$IFn$_invoke$arity$variadic((function (p__56293){
-var vec__56295 = p__56293;
+var new$ = cljs.core.mapcat.cljs$core$IFn$_invoke$arity$variadic((function (p__56294){
+var vec__56295 = p__56294;
 var in$ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56295,(0),null);
 var spec = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56295,(1),null);
 return (spec_tools.swagger.core.extract_parameter.cljs$core$IFn$_invoke$arity$2 ? spec_tools.swagger.core.extract_parameter.cljs$core$IFn$_invoke$arity$2(in$,spec) : spec_tools.swagger.core.extract_parameter.call(null,in$,spec));

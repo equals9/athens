@@ -994,12 +994,12 @@ return cljs.core.map.cljs$core$IFn$_invoke$arity$2(garden.compiler.render_css,th
 
 goog.object.set(garden.compiler.CSSRenderer,"number",true);
 
-var G__34495_34576 = garden.compiler.render_css;
-var G__34496_34577 = "number";
-var G__34497_34578 = (function (this$){
+var G__34495_34577 = garden.compiler.render_css;
+var G__34496_34578 = "number";
+var G__34497_34579 = (function (this$){
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(this$);
 });
-goog.object.set(G__34495_34576,G__34496_34577,G__34497_34578);
+goog.object.set(G__34495_34577,G__34496_34578,G__34497_34579);
 
 (garden.types.CSSFunction.prototype.garden$compiler$CSSRenderer$ = cljs.core.PROTOCOL_SENTINEL);
 
@@ -1031,12 +1031,12 @@ return garden.compiler.render_rule(this$__$1);
 
 goog.object.set(garden.compiler.CSSRenderer,"_",true);
 
-var G__34498_34579 = garden.compiler.render_css;
-var G__34499_34580 = "_";
-var G__34500_34581 = (function (this$){
+var G__34498_34580 = garden.compiler.render_css;
+var G__34499_34581 = "_";
+var G__34500_34582 = (function (this$){
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(this$);
 });
-goog.object.set(G__34498_34579,G__34499_34580,G__34500_34581);
+goog.object.set(G__34498_34580,G__34499_34581,G__34500_34582);
 
 (cljs.core.PersistentTreeMap.prototype.garden$compiler$CSSRenderer$ = cljs.core.PROTOCOL_SENTINEL);
 

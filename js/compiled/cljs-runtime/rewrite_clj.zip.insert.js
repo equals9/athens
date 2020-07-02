@@ -42,8 +42,8 @@ return rewrite_clj.zip.insert.insert(clojure.zip.down,clojure.zip.insert_child,c
  * Insert item as last child of the current node. Will insert a space if necessary.
  */
 rewrite_clj.zip.insert.append_child = (function rewrite_clj$zip$insert$append_child(zloc,item){
-return rewrite_clj.zip.insert.insert((function (p1__30476_SHARP_){
-var G__30478 = p1__30476_SHARP_;
+return rewrite_clj.zip.insert.insert((function (p1__30477_SHARP_){
+var G__30478 = p1__30477_SHARP_;
 var G__30478__$1 = (((G__30478 == null))?null:clojure.zip.down(G__30478));
 if((G__30478__$1 == null)){
 return null;
