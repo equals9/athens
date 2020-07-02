@@ -142,14 +142,14 @@ return cljs.core._add_method(multifn,dispatch_val,f);
  */
 sci.impl.multimethods.defmethod = (function sci$impl$multimethods$defmethod(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___66354 = arguments.length;
-var i__4790__auto___66355 = (0);
+var len__4789__auto___66341 = arguments.length;
+var i__4790__auto___66342 = (0);
 while(true){
-if((i__4790__auto___66355 < len__4789__auto___66354)){
-args__4795__auto__.push((arguments[i__4790__auto___66355]));
+if((i__4790__auto___66342 < len__4789__auto___66341)){
+args__4795__auto__.push((arguments[i__4790__auto___66342]));
 
-var G__66356 = (i__4790__auto___66355 + (1));
-i__4790__auto___66355 = G__66356;
+var G__66343 = (i__4790__auto___66342 + (1));
+i__4790__auto___66342 = G__66343;
 continue;
 } else {
 }

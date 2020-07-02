@@ -915,12 +915,12 @@ return null;
 }));
 goog.object.set(day8.re_frame_10x.inlined_deps.garden.v1v3v9.garden.compiler.CSSRenderer,"null",true);
 
-var G__26725_26766 = day8.re_frame_10x.inlined_deps.garden.v1v3v9.garden.compiler.render_css;
-var G__26726_26767 = "null";
-var G__26727_26768 = (function (this$){
+var G__26725_26769 = day8.re_frame_10x.inlined_deps.garden.v1v3v9.garden.compiler.render_css;
+var G__26726_26770 = "null";
+var G__26727_26771 = (function (this$){
 return "";
 });
-goog.object.set(G__26725_26766,G__26726_26767,G__26727_26768);
+goog.object.set(G__26725_26769,G__26726_26770,G__26727_26771);
 
 (day8.re_frame_10x.inlined_deps.garden.v1v3v9.garden.color.CSSColor.prototype.day8$re_frame_10x$inlined_deps$garden$v1v3v9$garden$compiler$CSSRenderer$ = cljs.core.PROTOCOL_SENTINEL);
 

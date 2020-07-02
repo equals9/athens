@@ -212,23 +212,23 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(this$__$1,new cljs.core.Key
 (rewrite_clj.node.meta.MetaNode.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__4446__auto__,k__4447__auto__,G__29999){
 var self__ = this;
 var this__4446__auto____$1 = this;
-var pred__30015 = cljs.core.keyword_identical_QMARK_;
-var expr__30016 = k__4447__auto__;
-if(cljs.core.truth_((function (){var G__30018 = new cljs.core.Keyword(null,"tag","tag",-1290361223);
-var G__30019 = expr__30016;
-return (pred__30015.cljs$core$IFn$_invoke$arity$2 ? pred__30015.cljs$core$IFn$_invoke$arity$2(G__30018,G__30019) : pred__30015.call(null,G__30018,G__30019));
+var pred__30017 = cljs.core.keyword_identical_QMARK_;
+var expr__30018 = k__4447__auto__;
+if(cljs.core.truth_((function (){var G__30020 = new cljs.core.Keyword(null,"tag","tag",-1290361223);
+var G__30021 = expr__30018;
+return (pred__30017.cljs$core$IFn$_invoke$arity$2 ? pred__30017.cljs$core$IFn$_invoke$arity$2(G__30020,G__30021) : pred__30017.call(null,G__30020,G__30021));
 })())){
 return (new rewrite_clj.node.meta.MetaNode(G__29999,self__.prefix,self__.children,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((function (){var G__30020 = new cljs.core.Keyword(null,"prefix","prefix",-265908465);
-var G__30021 = expr__30016;
-return (pred__30015.cljs$core$IFn$_invoke$arity$2 ? pred__30015.cljs$core$IFn$_invoke$arity$2(G__30020,G__30021) : pred__30015.call(null,G__30020,G__30021));
+if(cljs.core.truth_((function (){var G__30023 = new cljs.core.Keyword(null,"prefix","prefix",-265908465);
+var G__30024 = expr__30018;
+return (pred__30017.cljs$core$IFn$_invoke$arity$2 ? pred__30017.cljs$core$IFn$_invoke$arity$2(G__30023,G__30024) : pred__30017.call(null,G__30023,G__30024));
 })())){
 return (new rewrite_clj.node.meta.MetaNode(self__.tag,G__29999,self__.children,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((function (){var G__30022 = new cljs.core.Keyword(null,"children","children",-940561982);
-var G__30023 = expr__30016;
-return (pred__30015.cljs$core$IFn$_invoke$arity$2 ? pred__30015.cljs$core$IFn$_invoke$arity$2(G__30022,G__30023) : pred__30015.call(null,G__30022,G__30023));
+if(cljs.core.truth_((function (){var G__30025 = new cljs.core.Keyword(null,"children","children",-940561982);
+var G__30026 = expr__30018;
+return (pred__30017.cljs$core$IFn$_invoke$arity$2 ? pred__30017.cljs$core$IFn$_invoke$arity$2(G__30025,G__30026) : pred__30017.call(null,G__30025,G__30026));
 })())){
 return (new rewrite_clj.node.meta.MetaNode(self__.tag,self__.prefix,G__29999,self__.__meta,self__.__extmap,null));
 } else {
@@ -285,11 +285,11 @@ return (new rewrite_clj.node.meta.MetaNode(tag,prefix,children,null,null,null));
  * Factory function for rewrite-clj.node.meta/MetaNode, taking a map of keywords to field values.
  */
 rewrite_clj.node.meta.map__GT_MetaNode = (function rewrite_clj$node$meta$map__GT_MetaNode(G__30003){
-var extmap__4478__auto__ = (function (){var G__30025 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$variadic(G__30003,new cljs.core.Keyword(null,"tag","tag",-1290361223),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"prefix","prefix",-265908465),new cljs.core.Keyword(null,"children","children",-940561982)], 0));
+var extmap__4478__auto__ = (function (){var G__30027 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$variadic(G__30003,new cljs.core.Keyword(null,"tag","tag",-1290361223),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"prefix","prefix",-265908465),new cljs.core.Keyword(null,"children","children",-940561982)], 0));
 if(cljs.core.record_QMARK_(G__30003)){
-return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__30025);
+return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__30027);
 } else {
-return G__30025;
+return G__30027;
 }
 })();
 return (new rewrite_clj.node.meta.MetaNode(new cljs.core.Keyword(null,"tag","tag",-1290361223).cljs$core$IFn$_invoke$arity$1(G__30003),new cljs.core.Keyword(null,"prefix","prefix",-265908465).cljs$core$IFn$_invoke$arity$1(G__30003),new cljs.core.Keyword(null,"children","children",-940561982).cljs$core$IFn$_invoke$arity$1(G__30003),null,cljs.core.not_empty(extmap__4478__auto__),null));
