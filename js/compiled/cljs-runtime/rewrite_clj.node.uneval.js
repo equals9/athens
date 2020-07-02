@@ -193,11 +193,11 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(this$__$1,new cljs.core.Key
 (rewrite_clj.node.uneval.UnevalNode.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__4446__auto__,k__4447__auto__,G__29945){
 var self__ = this;
 var this__4446__auto____$1 = this;
-var pred__29961 = cljs.core.keyword_identical_QMARK_;
-var expr__29962 = k__4447__auto__;
+var pred__29960 = cljs.core.keyword_identical_QMARK_;
+var expr__29961 = k__4447__auto__;
 if(cljs.core.truth_((function (){var G__29964 = new cljs.core.Keyword(null,"children","children",-940561982);
-var G__29965 = expr__29962;
-return (pred__29961.cljs$core$IFn$_invoke$arity$2 ? pred__29961.cljs$core$IFn$_invoke$arity$2(G__29964,G__29965) : pred__29961.call(null,G__29964,G__29965));
+var G__29965 = expr__29961;
+return (pred__29960.cljs$core$IFn$_invoke$arity$2 ? pred__29960.cljs$core$IFn$_invoke$arity$2(G__29964,G__29965) : pred__29960.call(null,G__29964,G__29965));
 })())){
 return (new rewrite_clj.node.uneval.UnevalNode(G__29945,self__.__meta,self__.__extmap,null));
 } else {
@@ -272,8 +272,8 @@ rewrite_clj.node.protocols.assert_single_sexpr(children);
 
 return rewrite_clj.node.uneval.__GT_UnevalNode(children);
 } else {
-var G__29985 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [children], null);
-children = G__29985;
+var G__29990 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [children], null);
+children = G__29990;
 continue;
 }
 break;

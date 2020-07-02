@@ -384,14 +384,14 @@ return ((x__4273__auto__ > y__4274__auto__) ? x__4273__auto__ : y__4274__auto__)
  */
 garden.util.average = (function garden$util$average(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___32971 = arguments.length;
-var i__4790__auto___32973 = (0);
+var len__4789__auto___32972 = arguments.length;
+var i__4790__auto___32974 = (0);
 while(true){
-if((i__4790__auto___32973 < len__4789__auto___32971)){
-args__4795__auto__.push((arguments[i__4790__auto___32973]));
+if((i__4790__auto___32974 < len__4789__auto___32972)){
+args__4795__auto__.push((arguments[i__4790__auto___32974]));
 
-var G__32974 = (i__4790__auto___32973 + (1));
-i__4790__auto___32973 = G__32974;
+var G__32976 = (i__4790__auto___32974 + (1));
+i__4790__auto___32974 = G__32976;
 continue;
 } else {
 }
@@ -423,14 +423,14 @@ return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__32938,G__32939
  */
 garden.util.cartesian_product = (function garden$util$cartesian_product(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___32979 = arguments.length;
-var i__4790__auto___32980 = (0);
+var len__4789__auto___32980 = arguments.length;
+var i__4790__auto___32982 = (0);
 while(true){
-if((i__4790__auto___32980 < len__4789__auto___32979)){
-args__4795__auto__.push((arguments[i__4790__auto___32980]));
+if((i__4790__auto___32982 < len__4789__auto___32980)){
+args__4795__auto__.push((arguments[i__4790__auto___32982]));
 
-var G__32983 = (i__4790__auto___32980 + (1));
-i__4790__auto___32980 = G__32983;
+var G__32983 = (i__4790__auto___32982 + (1));
+i__4790__auto___32982 = G__32983;
 continue;
 } else {
 }
