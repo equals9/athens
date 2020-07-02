@@ -74,9 +74,9 @@ var path = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56324,(0),null);
 var route_data = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56324,(1),null);
 var vals = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56321,(1),null);
 return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(resolve_str(path,route_data)),"\n",clojure.string.join.cljs$core$IFn$_invoke$arity$2("\n",cljs.core.mapv.cljs$core$IFn$_invoke$arity$2((function (p__56331){
-var vec__56333 = p__56331;
-var path__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56333,(0),null);
-var route_data__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56333,(1),null);
+var vec__56332 = p__56331;
+var path__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56332,(0),null);
+var route_data__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56332,(1),null);
 return resolve_str(path__$1,route_data__$1);
 }),vals)),"\n\n"].join('');
 }),conflicts));

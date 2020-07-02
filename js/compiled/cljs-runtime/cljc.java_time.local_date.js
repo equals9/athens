@@ -38,8 +38,8 @@ cljc.java_time.local_date.get_day_of_year = (function cljc$java_time$local_date$
 return this3493.dayOfYear();
 });
 cljc.java_time.local_date.plus = (function cljc$java_time$local_date$plus(var_args){
-var G__58340 = arguments.length;
-switch (G__58340) {
+var G__58341 = arguments.length;
+switch (G__58341) {
 case 2:
 return cljc.java_time.local_date.plus.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 

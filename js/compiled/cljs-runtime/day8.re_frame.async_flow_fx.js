@@ -121,10 +121,10 @@ return G__52085__$1;
 day8.re_frame.async_flow_fx.rules__GT_dispatches = (function day8$re_frame$async_flow_fx$rules__GT_dispatches(rules,event){
 
 return cljs.core.mapcat.cljs$core$IFn$_invoke$arity$variadic((function (rule){
-var map__52104 = rule;
-var map__52104__$1 = (((((!((map__52104 == null))))?(((((map__52104.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__52104.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__52104):map__52104);
-var dispatch_fn = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52104__$1,new cljs.core.Keyword(null,"dispatch-fn","dispatch-fn",1253347614));
-var dispatch_n = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52104__$1,new cljs.core.Keyword(null,"dispatch-n","dispatch-n",-504469236));
+var map__52086 = rule;
+var map__52086__$1 = (((((!((map__52086 == null))))?(((((map__52086.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__52086.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__52086):map__52086);
+var dispatch_fn = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52086__$1,new cljs.core.Keyword(null,"dispatch-fn","dispatch-fn",1253347614));
+var dispatch_n = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52086__$1,new cljs.core.Keyword(null,"dispatch-n","dispatch-n",-504469236));
 if(cljs.core.truth_(dispatch_n)){
 return dispatch_n;
 } else {
@@ -133,10 +133,10 @@ var dispatch_n__$1 = (dispatch_fn.cljs$core$IFn$_invoke$arity$1 ? dispatch_fn.cl
 if(cljs.core.every_QMARK_(cljs.core.vector_QMARK_,dispatch_n__$1)){
 return dispatch_n__$1;
 } else {
-var G__52113 = new cljs.core.Keyword(null,"error","error",-978969032);
-var G__52114 = "async-flow: dispatch-fn must return a seq of events ";
-var G__52115 = rule;
-return (re_frame.core.console.cljs$core$IFn$_invoke$arity$3 ? re_frame.core.console.cljs$core$IFn$_invoke$arity$3(G__52113,G__52114,G__52115) : re_frame.core.console.call(null,G__52113,G__52114,G__52115));
+var G__52088 = new cljs.core.Keyword(null,"error","error",-978969032);
+var G__52089 = "async-flow: dispatch-fn must return a seq of events ";
+var G__52090 = rule;
+return (re_frame.core.console.cljs$core$IFn$_invoke$arity$3 ? re_frame.core.console.cljs$core$IFn$_invoke$arity$3(G__52088,G__52089,G__52090) : re_frame.core.console.call(null,G__52088,G__52089,G__52090));
 }
 } else {
 return cljs.core.List.EMPTY;
@@ -148,13 +148,13 @@ return cljs.core.List.EMPTY;
 /**
  * Given a flow definition, returns an event handler which implements this definition
  */
-day8.re_frame.async_flow_fx.make_flow_event_handler = (function day8$re_frame$async_flow_fx$make_flow_event_handler(p__52116){
-var map__52117 = p__52116;
-var map__52117__$1 = (((((!((map__52117 == null))))?(((((map__52117.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__52117.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__52117):map__52117);
-var id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52117__$1,new cljs.core.Keyword(null,"id","id",-1388402092));
-var db_path = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52117__$1,new cljs.core.Keyword(null,"db-path","db-path",-68094099));
-var rules = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52117__$1,new cljs.core.Keyword(null,"rules","rules",1198912366));
-var first_dispatch = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52117__$1,new cljs.core.Keyword(null,"first-dispatch","first-dispatch",128561923));
+day8.re_frame.async_flow_fx.make_flow_event_handler = (function day8$re_frame$async_flow_fx$make_flow_event_handler(p__52104){
+var map__52110 = p__52104;
+var map__52110__$1 = (((((!((map__52110 == null))))?(((((map__52110.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__52110.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__52110):map__52110);
+var id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52110__$1,new cljs.core.Keyword(null,"id","id",-1388402092));
+var db_path = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52110__$1,new cljs.core.Keyword(null,"db-path","db-path",-68094099));
+var rules = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52110__$1,new cljs.core.Keyword(null,"rules","rules",1198912366));
+var first_dispatch = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52110__$1,new cljs.core.Keyword(null,"first-dispatch","first-dispatch",128561923));
 var _ = (((((db_path == null)) || (cljs.core.vector_QMARK_(db_path))))?null:(function(){throw (new Error(["Assert failed: ","async-flow: db-path must be a vector","\n","(or (nil? db-path) (vector? db-path))"].join('')))})());
 var local_store = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentArrayMap.EMPTY);
 var set_state = (cljs.core.truth_(db_path)?(function (db,seen,started){
@@ -184,19 +184,19 @@ if(cljs.core.truth_((function (){var G__52129 = new cljs.core.Keyword(null,"setu
 var G__52130 = expr__52127;
 return (pred__52126.cljs$core$IFn$_invoke$arity$2 ? pred__52126.cljs$core$IFn$_invoke$arity$2(G__52129,G__52130) : pred__52126.call(null,G__52129,G__52130));
 })())){
-return cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"db","db",993250759),(function (){var G__52132 = db;
+return cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"db","db",993250759),(function (){var G__52131 = db;
+var G__52132 = cljs.core.PersistentHashSet.EMPTY;
 var G__52133 = cljs.core.PersistentHashSet.EMPTY;
-var G__52134 = cljs.core.PersistentHashSet.EMPTY;
-return (set_state.cljs$core$IFn$_invoke$arity$3 ? set_state.cljs$core$IFn$_invoke$arity$3(G__52132,G__52133,G__52134) : set_state.call(null,G__52132,G__52133,G__52134));
+return (set_state.cljs$core$IFn$_invoke$arity$3 ? set_state.cljs$core$IFn$_invoke$arity$3(G__52131,G__52132,G__52133) : set_state.call(null,G__52131,G__52132,G__52133));
 })(),new cljs.core.Keyword(null,"forward-events","forward-events",1216790539),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"register","register",1968522516),id,new cljs.core.Keyword(null,"events","events",1792552201),cljs.core.apply.cljs$core$IFn$_invoke$arity$2(clojure.set.union,cljs.core.map.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"events","events",1792552201),rules__$1)),new cljs.core.Keyword(null,"dispatch-to","dispatch-to",-354764401),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [id], null)], null)], null),(cljs.core.truth_(first_dispatch)?new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"dispatch","dispatch",1319337009),first_dispatch], null):null)], 0));
 } else {
-var vec__52137 = event_v;
-var ___$2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__52137,(0),null);
-var forwarded_event = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__52137,(1),null);
-var map__52140 = (get_state.cljs$core$IFn$_invoke$arity$1 ? get_state.cljs$core$IFn$_invoke$arity$1(db) : get_state.call(null,db));
-var map__52140__$1 = (((((!((map__52140 == null))))?(((((map__52140.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__52140.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__52140):map__52140);
-var seen_events = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52140__$1,new cljs.core.Keyword(null,"seen-events","seen-events",1607648392));
-var rules_fired = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52140__$1,new cljs.core.Keyword(null,"rules-fired","rules-fired",-1669838140));
+var vec__52134 = event_v;
+var ___$2 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__52134,(0),null);
+var forwarded_event = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__52134,(1),null);
+var map__52137 = (get_state.cljs$core$IFn$_invoke$arity$1 ? get_state.cljs$core$IFn$_invoke$arity$1(db) : get_state.call(null,db));
+var map__52137__$1 = (((((!((map__52137 == null))))?(((((map__52137.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__52137.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__52137):map__52137);
+var seen_events = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52137__$1,new cljs.core.Keyword(null,"seen-events","seen-events",1607648392));
+var rules_fired = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52137__$1,new cljs.core.Keyword(null,"rules-fired","rules-fired",-1669838140));
 var new_seen_events = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(seen_events,forwarded_event);
 var ready_rules = day8.re_frame.async_flow_fx.startable_rules(rules__$1,new_seen_events,rules_fired);
 var halt_QMARK_ = cljs.core.some(new cljs.core.Keyword(null,"halt?","halt?",-1110658247),ready_rules);
@@ -233,8 +233,8 @@ re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(id,day8.re_frame.async_
 var G__52145 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [id,new cljs.core.Keyword(null,"setup","setup",1987730512)], null);
 return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__52145) : re_frame.core.dispatch.call(null,G__52145));
 });
-var G__52146_52175 = new cljs.core.Keyword(null,"async-flow","async-flow",1464712702);
-var G__52147_52176 = day8.re_frame.async_flow_fx.flow__GT_handler;
-(re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2(G__52146_52175,G__52147_52176) : re_frame.core.reg_fx.call(null,G__52146_52175,G__52147_52176));
+var G__52146_52172 = new cljs.core.Keyword(null,"async-flow","async-flow",1464712702);
+var G__52147_52173 = day8.re_frame.async_flow_fx.flow__GT_handler;
+(re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2(G__52146_52172,G__52147_52173) : re_frame.core.reg_fx.call(null,G__52146_52172,G__52147_52173));
 
 //# sourceMappingURL=day8.re_frame.async_flow_fx.js.map

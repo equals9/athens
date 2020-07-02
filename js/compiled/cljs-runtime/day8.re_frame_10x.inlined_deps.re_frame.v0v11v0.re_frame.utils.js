@@ -7,8 +7,8 @@ goog.require('day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.loggers')
  *   will not be present in the new structure.
  *   The key thing is that 'm' remains identical? to istelf if the path was never present
  */
-day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.utils.dissoc_in = (function day8$re_frame_10x$inlined_deps$re_frame$v0v11v0$re_frame$utils$dissoc_in(m,p__27400){
-var vec__27401 = p__27400;
+day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.utils.dissoc_in = (function day8$re_frame_10x$inlined_deps$re_frame$v0v11v0$re_frame$utils$dissoc_in(m,p__27399){
+var vec__27401 = p__27399;
 var seq__27402 = cljs.core.seq(vec__27401);
 var first__27403 = cljs.core.first(seq__27402);
 var seq__27402__$1 = cljs.core.next(seq__27402);

@@ -1272,14 +1272,14 @@ return sci.impl.vars.getName(cljs.core.deref(sci.impl.vars.current_ns));
 });
 sci.impl.vars.alter_var_root = (function sci$impl$vars$alter_var_root(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___58210 = arguments.length;
-var i__4790__auto___58211 = (0);
+var len__4789__auto___58218 = arguments.length;
+var i__4790__auto___58219 = (0);
 while(true){
-if((i__4790__auto___58211 < len__4789__auto___58210)){
-args__4795__auto__.push((arguments[i__4790__auto___58211]));
+if((i__4790__auto___58219 < len__4789__auto___58218)){
+args__4795__auto__.push((arguments[i__4790__auto___58219]));
 
-var G__58212 = (i__4790__auto___58211 + (1));
-i__4790__auto___58211 = G__58212;
+var G__58220 = (i__4790__auto___58219 + (1));
+i__4790__auto___58219 = G__58220;
 continue;
 } else {
 }

@@ -59,8 +59,8 @@ return fmt__$1;
  *   argument. Given one argument uses the default format.
  */
 tick.format.format = (function tick$format$format(var_args){
-var G__50873 = arguments.length;
-switch (G__50873) {
+var G__50867 = arguments.length;
+switch (G__50867) {
 case 1:
 return tick.format.format.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

@@ -23,14 +23,14 @@ while(true){
 if(cljs.core.seq(bs)){
 var firstb = cljs.core.first(bs);
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(firstb,new cljs.core.Symbol(null,"&","&",-2144855648,null))){
-var G__58213 = sci$impl$destructure$destructure_STAR__$_pb(ret,cljs.core.second(bs),gseq);
-var G__58214 = n;
-var G__58215 = cljs.core.nnext(bs);
-var G__58216 = true;
-ret = G__58213;
-n = G__58214;
-bs = G__58215;
-seen_rest_QMARK_ = G__58216;
+var G__58210 = sci$impl$destructure$destructure_STAR__$_pb(ret,cljs.core.second(bs),gseq);
+var G__58211 = n;
+var G__58212 = cljs.core.nnext(bs);
+var G__58213 = true;
+ret = G__58210;
+n = G__58211;
+bs = G__58212;
+seen_rest_QMARK_ = G__58213;
 continue;
 } else {
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(firstb,new cljs.core.Keyword(null,"as","as",1148689641))){
@@ -39,14 +39,14 @@ return sci$impl$destructure$destructure_STAR__$_pb(ret,cljs.core.second(bs),gvec
 if(cljs.core.truth_(seen_rest_QMARK_)){
 throw (new Error("Unsupported binding form, only :as can follow & parameter"));
 } else {
-var G__58217 = sci$impl$destructure$destructure_STAR__$_pb((cljs.core.truth_(has_rest)?cljs.core.conj.cljs$core$IFn$_invoke$arity$variadic(ret,gfirst,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([sci.impl.utils.mark_eval_call(cljs.core.sequence.cljs$core$IFn$_invoke$arity$1(cljs.core.seq(cljs.core.concat.cljs$core$IFn$_invoke$arity$2((new cljs.core.List(null,cljs.core.first,null,(1),null)),(new cljs.core.List(null,gseq,null,(1),null)))))),gseq,sci.impl.utils.mark_eval_call(cljs.core.sequence.cljs$core$IFn$_invoke$arity$1(cljs.core.seq(cljs.core.concat.cljs$core$IFn$_invoke$arity$2((new cljs.core.List(null,cljs.core.next,null,(1),null)),(new cljs.core.List(null,gseq,null,(1),null))))))], 0)):ret),firstb,(cljs.core.truth_(has_rest)?gfirst:sci.impl.utils.mark_eval_call((new cljs.core.List(null,cljs.core.nth,(new cljs.core.List(null,gvec,(new cljs.core.List(null,n,(new cljs.core.List(null,null,null,(1),null)),(2),null)),(3),null)),(4),null)))));
-var G__58218 = (n + (1));
-var G__58219 = cljs.core.next(bs);
-var G__58220 = seen_rest_QMARK_;
-ret = G__58217;
-n = G__58218;
-bs = G__58219;
-seen_rest_QMARK_ = G__58220;
+var G__58214 = sci$impl$destructure$destructure_STAR__$_pb((cljs.core.truth_(has_rest)?cljs.core.conj.cljs$core$IFn$_invoke$arity$variadic(ret,gfirst,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([sci.impl.utils.mark_eval_call(cljs.core.sequence.cljs$core$IFn$_invoke$arity$1(cljs.core.seq(cljs.core.concat.cljs$core$IFn$_invoke$arity$2((new cljs.core.List(null,cljs.core.first,null,(1),null)),(new cljs.core.List(null,gseq,null,(1),null)))))),gseq,sci.impl.utils.mark_eval_call(cljs.core.sequence.cljs$core$IFn$_invoke$arity$1(cljs.core.seq(cljs.core.concat.cljs$core$IFn$_invoke$arity$2((new cljs.core.List(null,cljs.core.next,null,(1),null)),(new cljs.core.List(null,gseq,null,(1),null))))))], 0)):ret),firstb,(cljs.core.truth_(has_rest)?gfirst:sci.impl.utils.mark_eval_call((new cljs.core.List(null,cljs.core.nth,(new cljs.core.List(null,gvec,(new cljs.core.List(null,n,(new cljs.core.List(null,null,null,(1),null)),(2),null)),(3),null)),(4),null)))));
+var G__58215 = (n + (1));
+var G__58216 = cljs.core.next(bs);
+var G__58217 = seen_rest_QMARK_;
+ret = G__58214;
+n = G__58215;
+bs = G__58216;
+seen_rest_QMARK_ = G__58217;
 continue;
 }
 
