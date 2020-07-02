@@ -159,12 +159,12 @@ goog.object.set(G__57669_57714,G__57670_57715,G__57671_57716);
 
 goog.object.set(reitit.coercion.spec.IntoSpec,"null",true);
 
-var G__57672_57719 = reitit.coercion.spec.into_spec;
-var G__57673_57720 = "null";
-var G__57674_57721 = (function (this$,_){
+var G__57672_57717 = reitit.coercion.spec.into_spec;
+var G__57673_57718 = "null";
+var G__57674_57719 = (function (this$,_){
 return null;
 });
-goog.object.set(G__57672_57719,G__57673_57720,G__57674_57721);
+goog.object.set(G__57672_57717,G__57673_57718,G__57674_57719);
 reitit.coercion.spec.stringify_pred = (function reitit$coercion$spec$stringify_pred(pred){
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(((cljs.core.seq_QMARK_(pred))?cljs.core.seq(pred):pred));
 });

@@ -234,9 +234,9 @@ return actual_options;
  */
 zprint.core.zprint_STAR_ = (function zprint$core$zprint_STAR_(coll,special_option,actual_options){
 if(cljs.core.truth_(special_option)){
-var G__31844 = special_option;
-var G__31844__$1 = (((G__31844 instanceof cljs.core.Keyword))?G__31844.fqn:null);
-switch (G__31844__$1) {
+var G__31843 = special_option;
+var G__31843__$1 = (((G__31843 instanceof cljs.core.Keyword))?G__31843.fqn:null);
+switch (G__31843__$1) {
 case "explain":
 return zprint.core.fzprint_style(zprint.config.get_explained_options(),zprint.config.merge_deep.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([zprint.config.get_default_options(),actual_options], 0)));
 
@@ -541,11 +541,11 @@ return cljs.core.println.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq
 (zprint.core.zprint.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(zprint.core.zprint.cljs$lang$applyTo = (function (seq31877){
-var G__31878 = cljs.core.first(seq31877);
-var seq31877__$1 = cljs.core.next(seq31877);
+(zprint.core.zprint.cljs$lang$applyTo = (function (seq31872){
+var G__31873 = cljs.core.first(seq31872);
+var seq31872__$1 = cljs.core.next(seq31872);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__31878,seq31877__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__31873,seq31872__$1);
 }));
 
 /**

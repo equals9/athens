@@ -79,8 +79,8 @@ var map__33388__$1 = (((((!((map__33388 == null))))?(((((map__33388.cljs$lang$pr
 var tag = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33388__$1,new cljs.core.Keyword(null,"tag","tag",-1290361223));
 var chunk = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33388__$1,new cljs.core.Keyword(null,"chunk","chunk",-1191159620));
 var size = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__33388__$1,new cljs.core.Keyword(null,"size","size",1098693007));
-var G__33396 = cljs.core.subs.cljs$core$IFn$_invoke$arity$2(s1,size);
-var G__33397 = [s2,cljs.core.str.cljs$core$IFn$_invoke$arity$1((function (){var G__33391 = tag;
+var G__33413 = cljs.core.subs.cljs$core$IFn$_invoke$arity$2(s1,size);
+var G__33414 = [s2,cljs.core.str.cljs$core$IFn$_invoke$arity$1((function (){var G__33391 = tag;
 var G__33391__$1 = (((G__33391 instanceof cljs.core.Keyword))?G__33391.fqn:null);
 switch (G__33391__$1) {
 case "string":
@@ -132,8 +132,8 @@ return chunk;
 
 }
 })())].join('');
-s1 = G__33396;
-s2 = G__33397;
+s1 = G__33413;
+s2 = G__33414;
 continue;
 } else {
 return s2;
