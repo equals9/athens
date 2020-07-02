@@ -38,14 +38,14 @@ return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$variadic(reagent.debug.w
 var G__31346 = function (var_args){
 var args = null;
 if (arguments.length > 0) {
-var G__31347__i = 0, G__31347__a = new Array(arguments.length -  0);
-while (G__31347__i < G__31347__a.length) {G__31347__a[G__31347__i] = arguments[G__31347__i + 0]; ++G__31347__i;}
-  args = new cljs.core.IndexedSeq(G__31347__a,0,null);
+var G__31351__i = 0, G__31351__a = new Array(arguments.length -  0);
+while (G__31351__i < G__31351__a.length) {G__31351__a[G__31351__i] = arguments[G__31351__i + 0]; ++G__31351__i;}
+  args = new cljs.core.IndexedSeq(G__31351__a,0,null);
 } 
 return G__31346__delegate.call(this,args);};
 G__31346.cljs$lang$maxFixedArity = 0;
-G__31346.cljs$lang$applyTo = (function (arglist__31348){
-var args = cljs.core.seq(arglist__31348);
+G__31346.cljs$lang$applyTo = (function (arglist__31352){
+var args = cljs.core.seq(arglist__31352);
 return G__31346__delegate(args);
 });
 G__31346.cljs$core$IFn$_invoke$arity$variadic = G__31346__delegate;

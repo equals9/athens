@@ -65,12 +65,12 @@ goog.object.set(G__66246_66252,G__66247_66253,G__66248_66254);
 
 goog.object.set(sci.impl.max_or_throw.MaxOrThrow,"_",true);
 
-var G__66249_66255 = sci.impl.max_or_throw.max_or_throw;
-var G__66250_66256 = "_";
-var G__66251_66257 = (function (this$,ctx,n){
+var G__66249_66256 = sci.impl.max_or_throw.max_or_throw;
+var G__66250_66257 = "_";
+var G__66251_66258 = (function (this$,ctx,n){
 return this$;
 });
-goog.object.set(G__66249_66255,G__66250_66256,G__66251_66257);
+goog.object.set(G__66249_66256,G__66250_66257,G__66251_66258);
 
 (cljs.core.LazySeq.prototype.sci$impl$max_or_throw$MaxOrThrow$ = cljs.core.PROTOCOL_SENTINEL);
 
