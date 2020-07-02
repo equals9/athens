@@ -447,11 +447,11 @@ var c = reagent.impl.component.as_class(tag);
 var jsprops = ({});
 (jsprops.argv = v);
 
-var temp__5739__auto___31768 = reagent.impl.template.key_from_vec(v);
-if((temp__5739__auto___31768 == null)){
+var temp__5739__auto___31763 = reagent.impl.template.key_from_vec(v);
+if((temp__5739__auto___31763 == null)){
 } else {
-var key_31769 = temp__5739__auto___31768;
-(jsprops.key = key_31769);
+var key_31764 = temp__5739__auto___31763;
+(jsprops.key = key_31764);
 }
 
 return module$node_modules$react$index.createElement(c,jsprops);

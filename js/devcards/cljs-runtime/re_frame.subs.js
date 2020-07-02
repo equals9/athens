@@ -446,10 +446,10 @@ var dyn_vals = re_frame.interop.make_reaction((function (){
 return cljs.core.mapv.cljs$core$IFn$_invoke$arity$2(cljs.core.deref,dynv);
 }));
 var sub = re_frame.interop.make_reaction((function (){
-var G__46635 = re_frame.db.app_db;
-var G__46636 = query;
-var G__46637 = cljs.core.deref(dyn_vals);
-return (handler_fn.cljs$core$IFn$_invoke$arity$3 ? handler_fn.cljs$core$IFn$_invoke$arity$3(G__46635,G__46636,G__46637) : handler_fn.call(null,G__46635,G__46636,G__46637));
+var G__46634 = re_frame.db.app_db;
+var G__46635 = query;
+var G__46636 = cljs.core.deref(dyn_vals);
+return (handler_fn.cljs$core$IFn$_invoke$arity$3 ? handler_fn.cljs$core$IFn$_invoke$arity$3(G__46634,G__46635,G__46636) : handler_fn.call(null,G__46634,G__46635,G__46636));
 }));
 return re_frame.subs.cache_and_return(query,dynv,re_frame.interop.make_reaction((function (){
 return cljs.core.deref(cljs.core.deref(sub));
@@ -466,10 +466,10 @@ return cljs.core.deref(cljs.core.deref(sub));
  *   (map-vals inc {:a 4, :b 2}) => {:a 5, :b 3}
  */
 re_frame.subs.map_vals = (function re_frame$subs$map_vals(f,m){
-return cljs.core.into.cljs$core$IFn$_invoke$arity$3(cljs.core.empty(m),cljs.core.map.cljs$core$IFn$_invoke$arity$1((function (p__46644){
-var vec__46645 = p__46644;
-var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46645,(0),null);
-var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46645,(1),null);
+return cljs.core.into.cljs$core$IFn$_invoke$arity$3(cljs.core.empty(m),cljs.core.map.cljs$core$IFn$_invoke$arity$1((function (p__46640){
+var vec__46641 = p__46640;
+var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46641,(0),null);
+var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46641,(1),null);
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [k,(f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(v) : f.call(null,v))], null);
 })),m);
 });
@@ -662,14 +662,14 @@ return dereffed_signals;
  */
 re_frame.subs.reg_sub = (function re_frame$subs$reg_sub(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___46746 = arguments.length;
-var i__4790__auto___46747 = (0);
+var len__4789__auto___46738 = arguments.length;
+var i__4790__auto___46739 = (0);
 while(true){
-if((i__4790__auto___46747 < len__4789__auto___46746)){
-args__4795__auto__.push((arguments[i__4790__auto___46747]));
+if((i__4790__auto___46739 < len__4789__auto___46738)){
+args__4795__auto__.push((arguments[i__4790__auto___46739]));
 
-var G__46748 = (i__4790__auto___46747 + (1));
-i__4790__auto___46747 = G__46748;
+var G__46744 = (i__4790__auto___46739 + (1));
+i__4790__auto___46739 = G__46744;
 continue;
 } else {
 }
@@ -684,8 +684,8 @@ return re_frame.subs.reg_sub.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)
 var computation_fn = cljs.core.last(args);
 var input_args = cljs.core.butlast(args);
 var err_header = ["re-frame: reg-sub for ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(query_id),", "].join('');
-var inputs_fn = (function (){var G__46656 = cljs.core.count(input_args);
-switch (G__46656) {
+var inputs_fn = (function (){var G__46655 = cljs.core.count(input_args);
+switch (G__46655) {
 case (0):
 return (function() {
 var G__46750 = null;
@@ -721,9 +721,9 @@ return f;
 
 break;
 case (2):
-var vec__46661 = input_args;
-var marker = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46661,(0),null);
-var vec = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46661,(1),null);
+var vec__46657 = input_args;
+var marker = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46657,(0),null);
+var vec = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__46657,(1),null);
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"<-","<-",760412998),marker)){
 } else {
 re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"error","error",-978969032),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([err_header,"expected :<-, got:",marker], 0));

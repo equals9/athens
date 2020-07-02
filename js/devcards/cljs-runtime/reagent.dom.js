@@ -147,18 +147,18 @@ count__31743_31749 = G__31761;
 i__31744_31750 = G__31762;
 continue;
 } else {
-var v_31763 = cljs.core.first(seq__31741_31757__$1);
-cljs.core.apply.cljs$core$IFn$_invoke$arity$2(reagent.dom.re_render_component,v_31763);
+var v_31765 = cljs.core.first(seq__31741_31757__$1);
+cljs.core.apply.cljs$core$IFn$_invoke$arity$2(reagent.dom.re_render_component,v_31765);
 
 
-var G__31764 = cljs.core.next(seq__31741_31757__$1);
-var G__31765 = null;
-var G__31766 = (0);
-var G__31767 = (0);
-seq__31741_31747 = G__31764;
-chunk__31742_31748 = G__31765;
-count__31743_31749 = G__31766;
-i__31744_31750 = G__31767;
+var G__31766 = cljs.core.next(seq__31741_31757__$1);
+var G__31767 = null;
+var G__31768 = (0);
+var G__31769 = (0);
+seq__31741_31747 = G__31766;
+chunk__31742_31748 = G__31767;
+count__31743_31749 = G__31768;
+i__31744_31750 = G__31769;
 continue;
 }
 } else {

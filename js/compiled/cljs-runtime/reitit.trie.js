@@ -1178,20 +1178,20 @@ return reitit.exception.fail_BANG_.cljs$core$IFn$_invoke$arity$2(new cljs.core.K
 }
 })();
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("*",cljs.core.get.cljs$core$IFn$_invoke$arity$2(s,(to + (1))))){
-var G__56766 = cljs.core.concat.cljs$core$IFn$_invoke$arity$variadic(ss,_static(from,to),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([_catch_all((to + (1)),to_SINGLEQUOTE_)], 0));
+var G__56765 = cljs.core.concat.cljs$core$IFn$_invoke$arity$variadic(ss,_static(from,to),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([_catch_all((to + (1)),to_SINGLEQUOTE_)], 0));
+var G__56766 = cljs.core.long$((to_SINGLEQUOTE_ + (1)));
 var G__56767 = cljs.core.long$((to_SINGLEQUOTE_ + (1)));
-var G__56768 = cljs.core.long$((to_SINGLEQUOTE_ + (1)));
-ss = G__56766;
-from = G__56767;
-to = G__56768;
+ss = G__56765;
+from = G__56766;
+to = G__56767;
 continue;
 } else {
-var G__56771 = cljs.core.concat.cljs$core$IFn$_invoke$arity$variadic(ss,_static(from,to),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([_wild(to,to_SINGLEQUOTE_)], 0));
-var G__56772 = cljs.core.long$((to_SINGLEQUOTE_ + (1)));
-var G__56773 = cljs.core.long$((to_SINGLEQUOTE_ + (1)));
-ss = G__56771;
-from = G__56772;
-to = G__56773;
+var G__56769 = cljs.core.concat.cljs$core$IFn$_invoke$arity$variadic(ss,_static(from,to),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([_wild(to,to_SINGLEQUOTE_)], 0));
+var G__56770 = cljs.core.long$((to_SINGLEQUOTE_ + (1)));
+var G__56771 = cljs.core.long$((to_SINGLEQUOTE_ + (1)));
+ss = G__56769;
+from = G__56770;
+to = G__56771;
 continue;
 }
 } else {
@@ -1210,20 +1210,20 @@ return cljs.core.count(s);
 }
 })();
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2((1),(to_SINGLEQUOTE_ - to))){
-var G__56776 = ss;
-var G__56777 = from;
-var G__56778 = (to + (1));
-ss = G__56776;
-from = G__56777;
-to = G__56778;
+var G__56775 = ss;
+var G__56776 = from;
+var G__56777 = (to + (1));
+ss = G__56775;
+from = G__56776;
+to = G__56777;
 continue;
 } else {
-var G__56779 = cljs.core.concat.cljs$core$IFn$_invoke$arity$variadic(ss,_static(from,to),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([_wild(to,to_SINGLEQUOTE_)], 0));
+var G__56778 = cljs.core.concat.cljs$core$IFn$_invoke$arity$variadic(ss,_static(from,to),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([_wild(to,to_SINGLEQUOTE_)], 0));
+var G__56779 = cljs.core.long$(to_SINGLEQUOTE_);
 var G__56780 = cljs.core.long$(to_SINGLEQUOTE_);
-var G__56781 = cljs.core.long$(to_SINGLEQUOTE_);
-ss = G__56779;
-from = G__56780;
-to = G__56781;
+ss = G__56778;
+from = G__56779;
+to = G__56780;
 continue;
 }
 } else {
@@ -1235,20 +1235,20 @@ return and__4174__auto__;
 }
 })())){
 var to_SINGLEQUOTE_ = cljs.core.count(s);
-var G__56784 = cljs.core.concat.cljs$core$IFn$_invoke$arity$variadic(ss,_static(from,to),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([_catch_all(to,to_SINGLEQUOTE_)], 0));
-var G__56785 = cljs.core.long$(to_SINGLEQUOTE_);
-var G__56786 = cljs.core.long$(to_SINGLEQUOTE_);
-ss = G__56784;
-from = G__56785;
-to = G__56786;
+var G__56782 = cljs.core.concat.cljs$core$IFn$_invoke$arity$variadic(ss,_static(from,to),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([_catch_all(to,to_SINGLEQUOTE_)], 0));
+var G__56783 = cljs.core.long$(to_SINGLEQUOTE_);
+var G__56784 = cljs.core.long$(to_SINGLEQUOTE_);
+ss = G__56782;
+from = G__56783;
+to = G__56784;
 continue;
 } else {
-var G__56787 = ss;
-var G__56788 = from;
-var G__56789 = (to + (1));
-ss = G__56787;
-from = G__56788;
-to = G__56789;
+var G__56786 = ss;
+var G__56787 = from;
+var G__56788 = (to + (1));
+ss = G__56786;
+from = G__56787;
+to = G__56788;
 continue;
 
 }
@@ -1666,8 +1666,8 @@ if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(j,self__.size)){
 return reitit.trie.match(self__.matcher,(i + self__.size),max,p);
 } else {
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.get.cljs$core$IFn$_invoke$arity$2(p,(i + j)),cljs.core.get.cljs$core$IFn$_invoke$arity$2(self__.path,j))){
-var G__56925 = (j + (1));
-j = G__56925;
+var G__56921 = (j + (1));
+j = G__56921;
 continue;
 } else {
 return null;
@@ -1790,16 +1790,16 @@ if(cljs.core.truth_((function (){var G__56531 = "%";
 var G__56532 = expr__56529;
 return (pred__56528.cljs$core$IFn$_invoke$arity$2 ? pred__56528.cljs$core$IFn$_invoke$arity$2(G__56531,G__56532) : pred__56528.call(null,G__56531,G__56532));
 })())){
-var G__56985 = true;
-var G__56986 = (j + (1));
-percent_QMARK_ = G__56985;
-j = G__56986;
+var G__56983 = true;
+var G__56984 = (j + (1));
+percent_QMARK_ = G__56983;
+j = G__56984;
 continue;
 } else {
-var G__56989 = percent_QMARK_;
-var G__56990 = (j + (1));
-percent_QMARK_ = G__56989;
-j = G__56990;
+var G__56986 = percent_QMARK_;
+var G__56987 = (j + (1));
+percent_QMARK_ = G__56986;
+j = G__56987;
 continue;
 }
 }
@@ -1991,8 +1991,8 @@ var or__4185__auto__ = reitit.trie.match(cljs.core.get.cljs$core$IFn$_invoke$ari
 if(cljs.core.truth_(or__4185__auto__)){
 return or__4185__auto__;
 } else {
-var G__57033 = (j + (1));
-j = G__57033;
+var G__57035 = (j + (1));
+j = G__57035;
 continue;
 }
 } else {
@@ -2237,8 +2237,8 @@ var p = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56562,(0),null);
 var c = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56562,(1),null);
 cljs.core.chunk_append(b__56561,reitit.trie.static_matcher(compiler,p,reitit.trie.compile.cljs$core$IFn$_invoke$arity$3(c,compiler,cljs.core.conj.cljs$core$IFn$_invoke$arity$2(cp,p))));
 
-var G__57072 = (i__56560 + (1));
-i__56560 = G__57072;
+var G__57076 = (i__56560 + (1));
+i__56560 = G__57076;
 continue;
 } else {
 return true;
@@ -2343,8 +2343,8 @@ var p = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56582,(0),null);
 var c = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56582,(1),null);
 cljs.core.chunk_append(b__56581,reitit.trie.catch_all_matcher(compiler,new cljs.core.Keyword(null,"value","value",305978217).cljs$core$IFn$_invoke$arity$1(p),params,new cljs.core.Keyword(null,"data","data",-232669377).cljs$core$IFn$_invoke$arity$1(c)));
 
-var G__57113 = (i__56580 + (1));
-i__56580 = G__57113;
+var G__57117 = (i__56580 + (1));
+i__56580 = G__57117;
 continue;
 } else {
 return true;

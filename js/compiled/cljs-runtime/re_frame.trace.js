@@ -106,13 +106,13 @@ count__32813_32844 = G__32860;
 i__32814_32845 = G__32861;
 continue;
 } else {
-var vec__32830_32862 = cljs.core.first(seq__32811_32856__$1);
-var k_32863 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32830_32862,(0),null);
-var cb_32864 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32830_32862,(1),null);
-try{var G__32834_32866 = cljs.core.deref(re_frame.trace.traces);
-(cb_32864.cljs$core$IFn$_invoke$arity$1 ? cb_32864.cljs$core$IFn$_invoke$arity$1(G__32834_32866) : cb_32864.call(null,G__32834_32866));
+var vec__32830_32863 = cljs.core.first(seq__32811_32856__$1);
+var k_32864 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32830_32863,(0),null);
+var cb_32865 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32830_32863,(1),null);
+try{var G__32834_32867 = cljs.core.deref(re_frame.trace.traces);
+(cb_32865.cljs$core$IFn$_invoke$arity$1 ? cb_32865.cljs$core$IFn$_invoke$arity$1(G__32834_32867) : cb_32865.call(null,G__32834_32867));
 }catch (e32833){var e_32868 = e32833;
-re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"error","error",-978969032),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["Error thrown from trace cb",k_32863,"while storing",cljs.core.deref(re_frame.trace.traces),e_32868], 0));
+re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"error","error",-978969032),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["Error thrown from trace cb",k_32864,"while storing",cljs.core.deref(re_frame.trace.traces),e_32868], 0));
 }
 
 var G__32869 = cljs.core.next(seq__32811_32856__$1);

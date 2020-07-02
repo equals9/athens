@@ -266,12 +266,12 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.concat,cljs.core.
 });
 goog.object.set(garden.compiler.IExpandable,"null",true);
 
-var G__36284_36398 = garden.compiler.expand;
-var G__36285_36399 = "null";
-var G__36286_36400 = (function (this$){
+var G__36284_36396 = garden.compiler.expand;
+var G__36285_36397 = "null";
+var G__36286_36398 = (function (this$){
 return null;
 });
-goog.object.set(G__36284_36398,G__36285_36399,G__36286_36400);
+goog.object.set(G__36284_36396,G__36285_36397,G__36286_36398);
 
 (cljs.core.IndexedSeq.prototype.garden$compiler$IExpandable$ = cljs.core.PROTOCOL_SENTINEL);
 
@@ -628,8 +628,8 @@ if((i__36309 < size__4581__auto__)){
 var vendor = cljs.core._nth.cljs$core$IFn$_invoke$arity$2(c__4580__auto__,i__36309);
 cljs.core.chunk_append(b__36310,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [garden.util.vendor_prefix(vendor,cljs.core.name(p)),v], null));
 
-var G__36414 = (i__36309 + (1));
-i__36309 = G__36414;
+var G__36418 = (i__36309 + (1));
+i__36309 = G__36418;
 continue;
 } else {
 return true;
@@ -915,12 +915,12 @@ return null;
 }));
 goog.object.set(garden.compiler.CSSRenderer,"null",true);
 
-var G__36363_36441 = garden.compiler.render_css;
-var G__36364_36442 = "null";
-var G__36365_36443 = (function (this$){
+var G__36363_36444 = garden.compiler.render_css;
+var G__36364_36445 = "null";
+var G__36365_36446 = (function (this$){
 return "";
 });
-goog.object.set(G__36363_36441,G__36364_36442,G__36365_36443);
+goog.object.set(G__36363_36444,G__36364_36445,G__36365_36446);
 
 (garden.color.CSSColor.prototype.garden$compiler$CSSRenderer$ = cljs.core.PROTOCOL_SENTINEL);
 
@@ -1155,14 +1155,14 @@ return stylesheet;
  */
 garden.compiler.compile_css = (function garden$compiler$compile_css(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___36453 = arguments.length;
-var i__4790__auto___36454 = (0);
+var len__4789__auto___36454 = arguments.length;
+var i__4790__auto___36455 = (0);
 while(true){
-if((i__4790__auto___36454 < len__4789__auto___36453)){
-args__4795__auto__.push((arguments[i__4790__auto___36454]));
+if((i__4790__auto___36455 < len__4789__auto___36454)){
+args__4795__auto__.push((arguments[i__4790__auto___36455]));
 
-var G__36455 = (i__4790__auto___36454 + (1));
-i__4790__auto___36454 = G__36455;
+var G__36456 = (i__4790__auto___36455 + (1));
+i__4790__auto___36455 = G__36456;
 continue;
 } else {
 }
