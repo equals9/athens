@@ -49,8 +49,8 @@ return null;
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.PersistentVector.EMPTY], null),G__45185)){
 return true;
 } else {
-return cljs.core.some((function (p1__45184_SHARP_){
-return posh.lib.datom_matcher.datom_match_QMARK_(patterns,p1__45184_SHARP_);
+return cljs.core.some((function (p1__45183_SHARP_){
+return posh.lib.datom_matcher.datom_match_QMARK_(patterns,p1__45183_SHARP_);
 }),datoms);
 
 }

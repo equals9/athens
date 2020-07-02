@@ -21,14 +21,14 @@ return cljs.core.with_meta(new cljs.core.Keyword(null,"return","return",-1891502
 });
 posh.stateful.add_q = (function posh$stateful$add_q(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___47366 = arguments.length;
-var i__4790__auto___47367 = (0);
+var len__4789__auto___47365 = arguments.length;
+var i__4790__auto___47366 = (0);
 while(true){
-if((i__4790__auto___47367 < len__4789__auto___47366)){
-args__4795__auto__.push((arguments[i__4790__auto___47367]));
+if((i__4790__auto___47366 < len__4789__auto___47365)){
+args__4795__auto__.push((arguments[i__4790__auto___47366]));
 
-var G__47369 = (i__4790__auto___47367 + (1));
-i__4790__auto___47367 = G__47369;
+var G__47367 = (i__4790__auto___47366 + (1));
+i__4790__auto___47366 = G__47367;
 continue;
 } else {
 }
@@ -68,14 +68,14 @@ return posh.core.add_filter_pull(p1__47361_SHARP_,poshdb,pull_pattern,eid);
 });
 posh.stateful.add_filter_q = (function posh$stateful$add_filter_q(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___47381 = arguments.length;
-var i__4790__auto___47382 = (0);
+var len__4789__auto___47368 = arguments.length;
+var i__4790__auto___47369 = (0);
 while(true){
-if((i__4790__auto___47382 < len__4789__auto___47381)){
-args__4795__auto__.push((arguments[i__4790__auto___47382]));
+if((i__4790__auto___47369 < len__4789__auto___47368)){
+args__4795__auto__.push((arguments[i__4790__auto___47369]));
 
-var G__47387 = (i__4790__auto___47382 + (1));
-i__4790__auto___47382 = G__47387;
+var G__47371 = (i__4790__auto___47369 + (1));
+i__4790__auto___47369 = G__47371;
 continue;
 } else {
 }

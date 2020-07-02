@@ -21,8 +21,8 @@ return (index - (1));
 if((!(((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(zprint.focus.type_ssv(cljs.core.nth.cljs$core$IFn$_invoke$arity$2(ssv,index)),new cljs.core.Keyword(null,"whitespace","whitespace",-1340035483))) || (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(zprint.focus.type_ssv(cljs.core.nth.cljs$core$IFn$_invoke$arity$2(ssv,index)),new cljs.core.Keyword(null,"indent","indent",-148200125))))))){
 return index;
 } else {
-var G__28596 = (index + (1));
-index = G__28596;
+var G__28595 = (index + (1));
+index = G__28595;
 continue;
 }
 }
@@ -97,10 +97,10 @@ return zprint.focus.skip_whitespace_ssv(ssv,index);
 return null;
 }
 } else {
-var G__28607 = zprint.focus.next_ssv(ssv,index);
-var G__28608 = (moves - (1));
-index = G__28607;
-moves = G__28608;
+var G__28604 = zprint.focus.next_ssv(ssv,index);
+var G__28605 = (moves - (1));
+index = G__28604;
+moves = G__28605;
 continue;
 }
 } else {
