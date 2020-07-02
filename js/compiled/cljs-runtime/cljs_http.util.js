@@ -107,9 +107,9 @@ return JSON.stringify(cljs.core.clj__GT_js(x));
 });
 cljs_http.util.parse_headers = (function cljs_http$util$parse_headers(headers){
 return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (p1__51814_SHARP_,p2__51813_SHARP_){
-var vec__51816 = clojure.string.split.cljs$core$IFn$_invoke$arity$2(p2__51813_SHARP_,/:\s+/);
-var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__51816,(0),null);
-var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__51816,(1),null);
+var vec__51815 = clojure.string.split.cljs$core$IFn$_invoke$arity$2(p2__51813_SHARP_,/:\s+/);
+var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__51815,(0),null);
+var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__51815,(1),null);
 if(((clojure.string.blank_QMARK_(k)) || (clojure.string.blank_QMARK_(v)))){
 return p1__51814_SHARP_;
 } else {

@@ -208,12 +208,12 @@ vals = G__58862;
 continue;
 } else {
 if(edamame.impl.parser.non_match_QMARK_(next_val)){
-var G__58863 = vals;
-vals = G__58863;
+var G__58864 = vals;
+vals = G__58864;
 continue;
 } else {
-var G__58864 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(vals,next_val);
-vals = G__58864;
+var G__58865 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(vals,next_val);
+vals = G__58865;
 continue;
 
 }
