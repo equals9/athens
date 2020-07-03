@@ -22,14 +22,14 @@ return (day8.re_frame_10x.inlined_deps.garden.v1v3v9.garden.units.px_.cljs$core$
 day8.re_frame_10x.view.settings.settings_styles = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"#--re-frame-10x--","#--re-frame-10x--",-1788857107),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,".settings",".settings",1002597819),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"background-color","background-color",570434026),day8.re_frame_10x.common_styles.white_background_color], null)], null)], null);
 day8.re_frame_10x.view.settings.closeable_text_box = (function day8$re_frame_10x$view$settings$closeable_text_box(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___28586 = arguments.length;
-var i__4790__auto___28587 = (0);
+var len__4789__auto___28584 = arguments.length;
+var i__4790__auto___28585 = (0);
 while(true){
-if((i__4790__auto___28587 < len__4789__auto___28586)){
-args__4795__auto__.push((arguments[i__4790__auto___28587]));
+if((i__4790__auto___28585 < len__4789__auto___28584)){
+args__4795__auto__.push((arguments[i__4790__auto___28585]));
 
-var G__28588 = (i__4790__auto___28587 + (1));
-i__4790__auto___28587 = G__28588;
+var G__28586 = (i__4790__auto___28585 + (1));
+i__4790__auto___28585 = G__28586;
 continue;
 } else {
 }
@@ -122,8 +122,8 @@ return (day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.dispatch.c
 });})(i__28563,id,item,c__4580__auto__,size__4581__auto__,b__28564,s__28562__$2,temp__5735__auto__))
 ], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),id], null)));
 
-var G__28592 = (i__28563 + (1));
-i__28563 = G__28592;
+var G__28587 = (i__28563 + (1));
+i__28563 = G__28587;
 continue;
 } else {
 return true;
@@ -191,8 +191,8 @@ return (day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.core.dispatch.c
 });})(i__28573,id,item,c__4580__auto__,size__4581__auto__,b__28574,s__28572__$2,temp__5735__auto__))
 ], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),id], null)));
 
-var G__28593 = (i__28573 + (1));
-i__28573 = G__28593;
+var G__28588 = (i__28573 + (1));
+i__28573 = G__28588;
 continue;
 } else {
 return true;
