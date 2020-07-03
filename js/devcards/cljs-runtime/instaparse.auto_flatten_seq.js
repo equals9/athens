@@ -67,23 +67,23 @@ while(true){
 var t = cljs.core.even_QMARK_(n);
 var n__$1 = cljs.core.quot(n,(2));
 if(t){
-var G__55827 = n__$1;
-var G__55828 = y;
-var G__55829 = cljs.core.imul(z,z);
-n = G__55827;
-y = G__55828;
-z = G__55829;
+var G__55780 = n__$1;
+var G__55781 = y;
+var G__55782 = cljs.core.imul(z,z);
+n = G__55780;
+y = G__55781;
+z = G__55782;
 continue;
 } else {
 if((n__$1 === (0))){
 return cljs.core.imul(z,y);
 } else {
-var G__55830 = n__$1;
-var G__55831 = cljs.core.imul(z,y);
-var G__55832 = cljs.core.imul(z,z);
-n = G__55830;
-y = G__55831;
-z = G__55832;
+var G__55783 = n__$1;
+var G__55784 = cljs.core.imul(z,y);
+var G__55785 = cljs.core.imul(z,z);
+n = G__55783;
+y = G__55784;
+z = G__55785;
 continue;
 
 }
@@ -97,10 +97,10 @@ var v__$1 = cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(v,index);
 var index__$1 = index;
 while(true){
 if(cljs.core.truth_((instaparse.auto_flatten_seq.afs_QMARK_.cljs$core$IFn$_invoke$arity$1 ? instaparse.auto_flatten_seq.afs_QMARK_.cljs$core$IFn$_invoke$arity$1(v__$1) : instaparse.auto_flatten_seq.afs_QMARK_.call(null,v__$1)))){
-var G__55833 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(v__$1,(0));
-var G__55834 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(index__$1,(0));
-v__$1 = G__55833;
-index__$1 = G__55834;
+var G__55786 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(v__$1,(0));
+var G__55787 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(index__$1,(0));
+v__$1 = G__55786;
+index__$1 = G__55787;
 continue;
 } else {
 return index__$1;
@@ -117,15 +117,15 @@ return instaparse.auto_flatten_seq.delve(v,new cljs.core.PersistentVector(null, 
 return null;
 }
 } else {
-if((cljs.core.peek(index) < ((function (){var G__55820 = cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(v,cljs.core.pop(index));
-return (instaparse.auto_flatten_seq.true_count.cljs$core$IFn$_invoke$arity$1 ? instaparse.auto_flatten_seq.true_count.cljs$core$IFn$_invoke$arity$1(G__55820) : instaparse.auto_flatten_seq.true_count.call(null,G__55820));
+if((cljs.core.peek(index) < ((function (){var G__55773 = cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(v,cljs.core.pop(index));
+return (instaparse.auto_flatten_seq.true_count.cljs$core$IFn$_invoke$arity$1 ? instaparse.auto_flatten_seq.true_count.cljs$core$IFn$_invoke$arity$1(G__55773) : instaparse.auto_flatten_seq.true_count.call(null,G__55773));
 })() - (1)))){
 return instaparse.auto_flatten_seq.delve(v,cljs.core.conj.cljs$core$IFn$_invoke$arity$2(cljs.core.pop(index),(cljs.core.peek(index) + (1))));
 } else {
-var G__55835 = v;
-var G__55836 = cljs.core.pop(index);
-v = G__55835;
-index = G__55836;
+var G__55788 = v;
+var G__55789 = cljs.core.pop(index);
+v = G__55788;
+index = G__55789;
 continue;
 
 }
@@ -134,8 +134,8 @@ break;
 }
 });
 instaparse.auto_flatten_seq.flat_seq = (function instaparse$auto_flatten_seq$flat_seq(var_args){
-var G__55822 = arguments.length;
-switch (G__55822) {
+var G__55775 = arguments.length;
+switch (G__55775) {
 case 1:
 return instaparse.auto_flatten_seq.flat_seq.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -362,8 +362,8 @@ return (cljs.core.imul(e,v1.premix_hashcode) + (v2.premix_hashcode - e));
  * Returns the partially calculated hash code, still requires a call to mix-collection-hash
  */
 instaparse.auto_flatten_seq.hash_ordered_coll_without_mix = (function instaparse$auto_flatten_seq$hash_ordered_coll_without_mix(var_args){
-var G__55824 = arguments.length;
-switch (G__55824) {
+var G__55777 = arguments.length;
+switch (G__55777) {
 case 1:
 return instaparse.auto_flatten_seq.hash_ordered_coll_without_mix.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -387,10 +387,10 @@ var unmixed_hash = existing_unmixed_hash;
 var coll__$1 = cljs.core.seq(coll);
 while(true){
 if((!((coll__$1 == null)))){
-var G__55839 = ((cljs.core.imul((31),unmixed_hash) + cljs.core.hash(cljs.core.first(coll__$1))) | (0));
-var G__55840 = cljs.core.next(coll__$1);
-unmixed_hash = G__55839;
-coll__$1 = G__55840;
+var G__55792 = ((cljs.core.imul((31),unmixed_hash) + cljs.core.hash(cljs.core.first(coll__$1))) | (0));
+var G__55793 = cljs.core.next(coll__$1);
+unmixed_hash = G__55792;
+coll__$1 = G__55793;
 continue;
 } else {
 return unmixed_hash;
@@ -429,16 +429,16 @@ if(temp__5733__auto__){
 var s = temp__5733__auto__;
 var fst = cljs.core.first(v);
 if(instaparse.auto_flatten_seq.afs_QMARK_(fst)){
-var G__55841 = (instaparse.auto_flatten_seq.flat_vec_helper.cljs$core$IFn$_invoke$arity$2 ? instaparse.auto_flatten_seq.flat_vec_helper.cljs$core$IFn$_invoke$arity$2(acc,fst) : instaparse.auto_flatten_seq.flat_vec_helper.call(null,acc,fst));
-var G__55842 = cljs.core.next(v);
-acc = G__55841;
-v = G__55842;
+var G__55794 = (instaparse.auto_flatten_seq.flat_vec_helper.cljs$core$IFn$_invoke$arity$2 ? instaparse.auto_flatten_seq.flat_vec_helper.cljs$core$IFn$_invoke$arity$2(acc,fst) : instaparse.auto_flatten_seq.flat_vec_helper.call(null,acc,fst));
+var G__55795 = cljs.core.next(v);
+acc = G__55794;
+v = G__55795;
 continue;
 } else {
-var G__55843 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(acc,fst);
-var G__55844 = cljs.core.next(v);
-acc = G__55843;
-v = G__55844;
+var G__55796 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(acc,fst);
+var G__55797 = cljs.core.next(v);
+acc = G__55796;
+v = G__55797;
 continue;
 }
 } else {
@@ -663,8 +663,8 @@ return cljs.core.conj.cljs$core$IFn$_invoke$arity$2(self__$1.instaparse$auto_fla
 (instaparse.auto_flatten_seq.FlattenOnDemandVector.prototype.call = (function (unused__10555__auto__){
 var self__ = this;
 var self__ = this;
-var G__55826 = (arguments.length - (1));
-switch (G__55826) {
+var G__55779 = (arguments.length - (1));
+switch (G__55779) {
 case (1):
 return self__.cljs$core$IFn$_invoke$arity$1((arguments[(1)]));
 
@@ -679,10 +679,10 @@ throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(
 }
 }));
 
-(instaparse.auto_flatten_seq.FlattenOnDemandVector.prototype.apply = (function (self__,args55825){
+(instaparse.auto_flatten_seq.FlattenOnDemandVector.prototype.apply = (function (self__,args55778){
 var self__ = this;
 var self____$1 = this;
-return self____$1.call.apply(self____$1,[self____$1].concat(cljs.core.aclone(args55825)));
+return self____$1.call.apply(self____$1,[self____$1].concat(cljs.core.aclone(args55778)));
 }));
 
 (instaparse.auto_flatten_seq.FlattenOnDemandVector.prototype.cljs$core$IFn$_invoke$arity$1 = (function (arg){

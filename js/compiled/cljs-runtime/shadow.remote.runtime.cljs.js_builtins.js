@@ -4,9 +4,9 @@ goog.require('goog.object');
 goog.require('clojure.core.protocols');
 goog.object.set(clojure.core.protocols.Datafiable,"object",true);
 
-var G__67917_67923 = clojure.core.protocols.datafy;
-var G__67918_67924 = "object";
-var G__67919_67925 = (function (o){
+var G__68079_68085 = clojure.core.protocols.datafy;
+var G__68080_68086 = "object";
+var G__68081_68087 = (function (o){
 if((!((o.__proto__ === Object.prototype)))){
 return o;
 } else {
@@ -17,15 +17,15 @@ return goog.object.get(o,k);
 })], null));
 }
 });
-goog.object.set(G__67917_67923,G__67918_67924,G__67919_67925);
+goog.object.set(G__68079_68085,G__68080_68086,G__68081_68087);
 
 goog.object.set(clojure.core.protocols.Datafiable,"array",true);
 
-var G__67920_67926 = clojure.core.protocols.datafy;
-var G__67921_67927 = "array";
-var G__67922_67928 = (function (o){
+var G__68082_68088 = clojure.core.protocols.datafy;
+var G__68083_68089 = "array";
+var G__68084_68090 = (function (o){
 return cljs.core.vec(o);
 });
-goog.object.set(G__67920_67926,G__67921_67927,G__67922_67928);
+goog.object.set(G__68082_68088,G__68083_68089,G__68084_68090);
 
 //# sourceMappingURL=shadow.remote.runtime.cljs.js_builtins.js.map
