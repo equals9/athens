@@ -45,11 +45,11 @@ return Array.prototype.slice.call(array_like);
  */
 dommy.utils.as_str = (function dommy$utils$as_str(s){
 if((s instanceof cljs.core.Keyword)){
-return [(function (){var G__34615 = cljs.core.namespace(s);
-if((G__34615 == null)){
+return [(function (){var G__34616 = cljs.core.namespace(s);
+if((G__34616 == null)){
 return null;
 } else {
-return [G__34615,"/"].join('');
+return [G__34616,"/"].join('');
 }
 })(),cljs.core.name(s)].join('');
 } else {
@@ -85,8 +85,8 @@ if((i >= (0))){
 if(dommy.utils.class_match_QMARK_(class_name,class$,i)){
 return i;
 } else {
-var G__34616 = (i + class$.length);
-start_from = G__34616;
+var G__34617 = (i + class$.length);
+start_from = G__34617;
 continue;
 }
 } else {

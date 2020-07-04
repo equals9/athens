@@ -329,8 +329,8 @@ return cljs.core.persistent_BANG_(a);
 if((form === cljs.tools.reader.READ_EOF)){
 return cljs.tools.reader.impl.errors.throw_eof_delimited.cljs$core$IFn$_invoke$arity$5(rdr,kind,start_line,start_column,cljs.core.count(a));
 } else {
-var G__24869 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(a,form);
-a = G__24869;
+var G__24865 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(a,form);
+a = G__24865;
 continue;
 }
 }
@@ -451,14 +451,14 @@ return or__4185__auto__;
 return cljs.tools.reader.impl.errors.throw_invalid_number(rdr,s);
 }
 } else {
-var G__24875 = (function (){var G__24745 = sb;
+var G__24872 = (function (){var G__24745 = sb;
 G__24745.append(ch);
 
 return G__24745;
 })();
-var G__24876 = rdr.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
-sb = G__24875;
-ch = G__24876;
+var G__24873 = rdr.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
+sb = G__24872;
+ch = G__24873;
 continue;
 }
 break;
@@ -529,14 +529,14 @@ return cljs.tools.reader.impl.errors.throw_eof_reading.cljs$core$IFn$_invoke$ari
 var G__24747 = ch;
 switch (G__24747) {
 case "\\":
-var G__24884 = (function (){var G__24748 = sb;
+var G__24876 = (function (){var G__24748 = sb;
 G__24748.append(cljs.tools.reader.escape_char(sb,reader));
 
 return G__24748;
 })();
-var G__24885 = reader.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
-sb = G__24884;
-ch = G__24885;
+var G__24877 = reader.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
+sb = G__24876;
+ch = G__24877;
 continue;
 
 break;
@@ -545,14 +545,14 @@ return cljs.core.str.cljs$core$IFn$_invoke$arity$1(sb);
 
 break;
 default:
-var G__24886 = (function (){var G__24749 = sb;
+var G__24878 = (function (){var G__24749 = sb;
 G__24749.append(ch);
 
 return G__24749;
 })();
-var G__24887 = reader.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
-sb = G__24886;
-ch = G__24887;
+var G__24879 = reader.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
+sb = G__24878;
+ch = G__24879;
 continue;
 
 }
@@ -1150,10 +1150,10 @@ if(s__$1){
 var item = cljs.core.first(s__$1);
 var ret = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(r,((cljs.tools.reader.unquote_QMARK_(item))?(new cljs.core.List(null,new cljs.core.Symbol("clojure.core","list","clojure.core/list",-1119203325,null),(new cljs.core.List(null,cljs.core.second(item),null,(1),null)),(2),null)):((cljs.tools.reader.unquote_splicing_QMARK_(item))?cljs.core.second(item):(new cljs.core.List(null,new cljs.core.Symbol("clojure.core","list","clojure.core/list",-1119203325,null),(new cljs.core.List(null,(cljs.tools.reader.syntax_quote_STAR_.cljs$core$IFn$_invoke$arity$1 ? cljs.tools.reader.syntax_quote_STAR_.cljs$core$IFn$_invoke$arity$1(item) : cljs.tools.reader.syntax_quote_STAR_.call(null,item)),null,(1),null)),(2),null))
 )));
-var G__24928 = cljs.core.next(s__$1);
-var G__24929 = ret;
-s__$1 = G__24928;
-r = G__24929;
+var G__24930 = cljs.core.next(s__$1);
+var G__24931 = ret;
+s__$1 = G__24930;
+r = G__24931;
 continue;
 } else {
 return cljs.core.seq(cljs.core.persistent_BANG_(r));
@@ -1170,10 +1170,10 @@ var key_vals = cljs.core.transient$(cljs.core.PersistentVector.EMPTY);
 while(true){
 if(s){
 var e = cljs.core.first(s);
-var G__24930 = cljs.core.next(s);
-var G__24931 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(key_vals,cljs.core.key(e)),cljs.core.val(e));
-s = G__24930;
-key_vals = G__24931;
+var G__24932 = cljs.core.next(s);
+var G__24933 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(key_vals,cljs.core.key(e)),cljs.core.val(e));
+s = G__24932;
+key_vals = G__24933;
 continue;
 } else {
 return cljs.core.seq(cljs.core.persistent_BANG_(key_vals));
