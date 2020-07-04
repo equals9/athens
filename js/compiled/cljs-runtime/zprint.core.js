@@ -16,8 +16,8 @@ goog.require('rewrite_clj.parser');
  *   options-map values that will be merged into the internal options-map.
  */
 zprint.core.set_options_BANG_ = (function zprint$core$set_options_BANG_(var_args){
-var G__31815 = arguments.length;
-switch (G__31815) {
+var G__31814 = arguments.length;
+switch (G__31814) {
 case 2:
 return zprint.core.set_options_BANG_.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -234,9 +234,9 @@ return actual_options;
  */
 zprint.core.zprint_STAR_ = (function zprint$core$zprint_STAR_(coll,special_option,actual_options){
 if(cljs.core.truth_(special_option)){
-var G__31836 = special_option;
-var G__31836__$1 = (((G__31836 instanceof cljs.core.Keyword))?G__31836.fqn:null);
-switch (G__31836__$1) {
+var G__31838 = special_option;
+var G__31838__$1 = (((G__31838 instanceof cljs.core.Keyword))?G__31838.fqn:null);
+switch (G__31838__$1) {
 case "explain":
 return zprint.core.fzprint_style(zprint.config.get_explained_options(),zprint.config.merge_deep.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([zprint.config.get_default_options(),actual_options], 0)));
 
@@ -283,10 +283,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(cljs.core.dissoc.cljs$core$
 /**
  * Select the elements from start to end from a vector.
  */
-zprint.core.range_vec = (function zprint$core$range_vec(v,p__31842){
-var vec__31843 = p__31842;
-var start = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31843,(0),null);
-var end = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31843,(1),null);
+zprint.core.range_vec = (function zprint$core$range_vec(v,p__31845){
+var vec__31846 = p__31845;
+var start = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31846,(0),null);
+var end = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31846,(1),null);
 return cljs.core.take.cljs$core$IFn$_invoke$arity$2((end - start),cljs.core.drop.cljs$core$IFn$_invoke$arity$2(start,v));
 });
 /**
@@ -318,9 +318,9 @@ return zprint.core.zprint_str_internal.cljs$core$IFn$_invoke$arity$variadic((arg
 });
 
 (zprint.core.zprint_str_internal.cljs$core$IFn$_invoke$arity$variadic = (function (internal_options,coll,rest){
-var vec__31854 = zprint.core.process_rest_options(internal_options,rest);
-var special_option = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31854,(0),null);
-var rest_options = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31854,(1),null);
+var vec__31855 = zprint.core.process_rest_options(internal_options,rest);
+var special_option = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31855,(0),null);
+var rest_options = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31855,(1),null);
 if(cljs.core.truth_(new cljs.core.Keyword(null,"parse-string-all?","parse-string-all?",-744455473).cljs$core$IFn$_invoke$arity$1(rest_options))){
 if(typeof coll === 'string'){
 var G__31858 = zprint.core.parse_string_all_options(rest_options);
@@ -376,13 +376,13 @@ return color_style;
 (zprint.core.zprint_str_internal.cljs$lang$maxFixedArity = (2));
 
 /** @this {Function} */
-(zprint.core.zprint_str_internal.cljs$lang$applyTo = (function (seq31849){
-var G__31850 = cljs.core.first(seq31849);
-var seq31849__$1 = cljs.core.next(seq31849);
-var G__31851 = cljs.core.first(seq31849__$1);
-var seq31849__$2 = cljs.core.next(seq31849__$1);
+(zprint.core.zprint_str_internal.cljs$lang$applyTo = (function (seq31852){
+var G__31853 = cljs.core.first(seq31852);
+var seq31852__$1 = cljs.core.next(seq31852);
+var G__31854 = cljs.core.first(seq31852__$1);
+var seq31852__$2 = cljs.core.next(seq31852__$1);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__31850,G__31851,seq31849__$2);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__31853,G__31854,seq31852__$2);
 }));
 
 /**
@@ -516,14 +516,14 @@ return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__31871,seq31870
  */
 zprint.core.zprint = (function zprint$core$zprint(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___31904 = arguments.length;
-var i__4790__auto___31905 = (0);
+var len__4789__auto___31905 = arguments.length;
+var i__4790__auto___31906 = (0);
 while(true){
-if((i__4790__auto___31905 < len__4789__auto___31904)){
-args__4795__auto__.push((arguments[i__4790__auto___31905]));
+if((i__4790__auto___31906 < len__4789__auto___31905)){
+args__4795__auto__.push((arguments[i__4790__auto___31906]));
 
-var G__31906 = (i__4790__auto___31905 + (1));
-i__4790__auto___31905 = G__31906;
+var G__31907 = (i__4790__auto___31906 + (1));
+i__4790__auto___31906 = G__31907;
 continue;
 } else {
 }
@@ -611,7 +611,7 @@ var temp__5735__auto__ = cljs.core.second(comment_split);
 if(cljs.core.truth_(temp__5735__auto__)){
 var possible_options = temp__5735__auto__;
 try{return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.reader.read_string.cljs$core$IFn$_invoke$arity$1(possible_options),null], null);
-}catch (e31882){var e = e31882;
+}catch (e31881){var e = e31881;
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [null,["Unable to create zprint options-map from: '",cljs.core.str.cljs$core$IFn$_invoke$arity$1(possible_options),"' found in !zprint directive number: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(zprint_num)," because: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(e)].join('')], null);
 }} else {
 return null;

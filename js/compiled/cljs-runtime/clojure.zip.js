@@ -163,8 +163,8 @@ return clojure.zip.node(loc);
 } else {
 var p = clojure.zip.up(loc);
 if(cljs.core.truth_(p)){
-var G__30349 = p;
-loc = G__30349;
+var G__30352 = p;
+loc = G__30352;
 continue;
 } else {
 return clojure.zip.node(loc);
@@ -319,14 +319,14 @@ return cljs.core.with_meta(new cljs.core.PersistentVector(null, 2, 5, cljs.core.
  */
 clojure.zip.edit = (function clojure$zip$edit(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___30361 = arguments.length;
-var i__4790__auto___30362 = (0);
+var len__4789__auto___30362 = arguments.length;
+var i__4790__auto___30363 = (0);
 while(true){
-if((i__4790__auto___30362 < len__4789__auto___30361)){
-args__4795__auto__.push((arguments[i__4790__auto___30362]));
+if((i__4790__auto___30363 < len__4789__auto___30362)){
+args__4795__auto__.push((arguments[i__4790__auto___30363]));
 
-var G__30363 = (i__4790__auto___30362 + (1));
-i__4790__auto___30362 = G__30363;
+var G__30364 = (i__4790__auto___30363 + (1));
+i__4790__auto___30363 = G__30364;
 continue;
 } else {
 }

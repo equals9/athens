@@ -236,14 +236,14 @@ return cljs.core.flush();
 });
 debux.common.util.form_header = (function debux$common$util$form_header(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___46057 = arguments.length;
-var i__4790__auto___46058 = (0);
+var len__4789__auto___46053 = arguments.length;
+var i__4790__auto___46054 = (0);
 while(true){
-if((i__4790__auto___46058 < len__4789__auto___46057)){
-args__4795__auto__.push((arguments[i__4790__auto___46058]));
+if((i__4790__auto___46054 < len__4789__auto___46053)){
+args__4795__auto__.push((arguments[i__4790__auto___46054]));
 
-var G__46059 = (i__4790__auto___46058 + (1));
-i__4790__auto___46058 = G__46059;
+var G__46056 = (i__4790__auto___46054 + (1));
+i__4790__auto___46054 = G__46056;
 continue;
 } else {
 }
@@ -434,7 +434,7 @@ return result;
 });
 debux.common.util.spy_comp = (function debux$common$util$spy_comp(quoted_form,indent,form){
 return (function() { 
-var G__46086__delegate = function (arg){
+var G__46078__delegate = function (arg){
 var result = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(form,arg);
 if(cljs.core.integer_QMARK_(indent)){
 } else {
@@ -448,21 +448,21 @@ return (debux.common.util.remove_d.cljs$core$IFn$_invoke$arity$2 ? debux.common.
 
 return result;
 };
-var G__46086 = function (var_args){
+var G__46078 = function (var_args){
 var arg = null;
 if (arguments.length > 0) {
-var G__46091__i = 0, G__46091__a = new Array(arguments.length -  0);
-while (G__46091__i < G__46091__a.length) {G__46091__a[G__46091__i] = arguments[G__46091__i + 0]; ++G__46091__i;}
-  arg = new cljs.core.IndexedSeq(G__46091__a,0,null);
+var G__46079__i = 0, G__46079__a = new Array(arguments.length -  0);
+while (G__46079__i < G__46079__a.length) {G__46079__a[G__46079__i] = arguments[G__46079__i + 0]; ++G__46079__i;}
+  arg = new cljs.core.IndexedSeq(G__46079__a,0,null);
 } 
-return G__46086__delegate.call(this,arg);};
-G__46086.cljs$lang$maxFixedArity = 0;
-G__46086.cljs$lang$applyTo = (function (arglist__46092){
-var arg = cljs.core.seq(arglist__46092);
-return G__46086__delegate(arg);
+return G__46078__delegate.call(this,arg);};
+G__46078.cljs$lang$maxFixedArity = 0;
+G__46078.cljs$lang$applyTo = (function (arglist__46080){
+var arg = cljs.core.seq(arglist__46080);
+return G__46078__delegate(arg);
 });
-G__46086.cljs$core$IFn$_invoke$arity$variadic = G__46086__delegate;
-return G__46086;
+G__46078.cljs$core$IFn$_invoke$arity$variadic = G__46078__delegate;
+return G__46078;
 })()
 ;
 });
@@ -483,17 +483,17 @@ if(clojure.zip.end_QMARK_(loc)){
 return clojure.zip.root(loc);
 } else {
 if(((cljs.core.seq_QMARK_(node)) && (((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(d_sym,cljs.core.first(node))) || (debux.common.util.debux_skip_symbol_QMARK_(cljs.core.first(node))) || (debux.common.util.spy_first_QMARK_(cljs.core.first(node))))))){
-var G__46095 = clojure.zip.replace(loc,debux.common.util.third(node));
-loc = G__46095;
+var G__46088 = clojure.zip.replace(loc,debux.common.util.third(node));
+loc = G__46088;
 continue;
 } else {
 if(((cljs.core.seq_QMARK_(node)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(new cljs.core.Symbol("debux.common.util","spy-last","debux.common.util/spy-last",321778494,null),cljs.core.first(node))))){
-var G__46096 = clojure.zip.replace(loc,cljs.core.last(node));
-loc = G__46096;
+var G__46090 = clojure.zip.replace(loc,cljs.core.last(node));
+loc = G__46090;
 continue;
 } else {
-var G__46097 = clojure.zip.next(loc);
-loc = G__46097;
+var G__46091 = clojure.zip.next(loc);
+loc = G__46091;
 continue;
 
 }

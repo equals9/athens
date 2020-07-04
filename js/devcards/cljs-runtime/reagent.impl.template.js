@@ -103,24 +103,24 @@ return cljs.core.clj__GT_js(x);
 } else {
 if(cljs.core.ifn_QMARK_(x)){
 return (function() { 
-var G__31725__delegate = function (args){
+var G__31720__delegate = function (args){
 return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(x,args);
 };
-var G__31725 = function (var_args){
+var G__31720 = function (var_args){
 var args = null;
 if (arguments.length > 0) {
-var G__31728__i = 0, G__31728__a = new Array(arguments.length -  0);
-while (G__31728__i < G__31728__a.length) {G__31728__a[G__31728__i] = arguments[G__31728__i + 0]; ++G__31728__i;}
-  args = new cljs.core.IndexedSeq(G__31728__a,0,null);
+var G__31721__i = 0, G__31721__a = new Array(arguments.length -  0);
+while (G__31721__i < G__31721__a.length) {G__31721__a[G__31721__i] = arguments[G__31721__i + 0]; ++G__31721__i;}
+  args = new cljs.core.IndexedSeq(G__31721__a,0,null);
 } 
-return G__31725__delegate.call(this,args);};
-G__31725.cljs$lang$maxFixedArity = 0;
-G__31725.cljs$lang$applyTo = (function (arglist__31729){
-var args = cljs.core.seq(arglist__31729);
-return G__31725__delegate(args);
+return G__31720__delegate.call(this,args);};
+G__31720.cljs$lang$maxFixedArity = 0;
+G__31720.cljs$lang$applyTo = (function (arglist__31724){
+var args = cljs.core.seq(arglist__31724);
+return G__31720__delegate(args);
 });
-G__31725.cljs$core$IFn$_invoke$arity$variadic = G__31725__delegate;
-return G__31725;
+G__31720.cljs$core$IFn$_invoke$arity$variadic = G__31720__delegate;
+return G__31720;
 })()
 ;
 } else {
@@ -609,8 +609,8 @@ return reagent.impl.template.native_element(reagent.impl.template.__GT_HiccupTag
 
 break;
 default:
-var G__31778 = cljs.core.with_meta(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.subs.cljs$core$IFn$_invoke$arity$3(n,(0),pos),cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(cljs.core.with_meta(v,null),(0),cljs.core.subs.cljs$core$IFn$_invoke$arity$2(n,(pos + (1))))], null),cljs.core.meta(v));
-v = G__31778;
+var G__31784 = cljs.core.with_meta(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.subs.cljs$core$IFn$_invoke$arity$3(n,(0),pos),cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(cljs.core.with_meta(v,null),(0),cljs.core.subs.cljs$core$IFn$_invoke$arity$2(n,(pos + (1))))], null),cljs.core.meta(v));
+v = G__31784;
 continue;
 
 }

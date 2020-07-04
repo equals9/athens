@@ -42,14 +42,14 @@ athens.devcards.devtool.state_STAR_ = reagent.core.atom.cljs$core$IFn$_invoke$ar
 athens.devcards.devtool.ds_nav_impl = (function athens$devcards$devtool$ds_nav_impl(_,k,v){
 var pred__68362 = cljs.core._EQ_;
 var expr__68363 = k;
-if(cljs.core.truth_((function (){var G__68366 = new cljs.core.Keyword("db","id","db/id",-1388397098);
-var G__68367 = expr__68363;
-return (pred__68362.cljs$core$IFn$_invoke$arity$2 ? pred__68362.cljs$core$IFn$_invoke$arity$2(G__68366,G__68367) : pred__68362.call(null,G__68366,G__68367));
+if(cljs.core.truth_((function (){var G__68365 = new cljs.core.Keyword("db","id","db/id",-1388397098);
+var G__68366 = expr__68363;
+return (pred__68362.cljs$core$IFn$_invoke$arity$2 ? pred__68362.cljs$core$IFn$_invoke$arity$2(G__68365,G__68366) : pred__68362.call(null,G__68365,G__68366));
 })())){
-var G__68369 = cljs.core.deref(athens.db.dsdb);
-var G__68370 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null,"*","*",345799209,null),new cljs.core.Keyword("block","_children","block/_children",1128070632)], null);
-var G__68371 = v;
-return (datascript.core.pull.cljs$core$IFn$_invoke$arity$3 ? datascript.core.pull.cljs$core$IFn$_invoke$arity$3(G__68369,G__68370,G__68371) : datascript.core.pull.call(null,G__68369,G__68370,G__68371));
+var G__68367 = cljs.core.deref(athens.db.dsdb);
+var G__68368 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Symbol(null,"*","*",345799209,null),new cljs.core.Keyword("block","_children","block/_children",1128070632)], null);
+var G__68369 = v;
+return (datascript.core.pull.cljs$core$IFn$_invoke$arity$3 ? datascript.core.pull.cljs$core$IFn$_invoke$arity$3(G__68367,G__68368,G__68369) : datascript.core.pull.call(null,G__68367,G__68368,G__68369));
 } else {
 return v;
 }

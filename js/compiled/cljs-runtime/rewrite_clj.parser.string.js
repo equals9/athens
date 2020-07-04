@@ -26,18 +26,18 @@ if(((cljs.core.not(escape_QMARK_)) && ((c === "\"")))){
 return rewrite_clj.parser.string.flush_into(lines,buf);
 } else {
 if((c === "\n")){
-var G__30233 = escape_QMARK_;
-var G__30234 = rewrite_clj.parser.string.flush_into(lines,buf);
-escape_QMARK_ = G__30233;
-lines = G__30234;
+var G__30232 = escape_QMARK_;
+var G__30233 = rewrite_clj.parser.string.flush_into(lines,buf);
+escape_QMARK_ = G__30232;
+lines = G__30233;
 continue;
 } else {
 buf.append(c);
 
-var G__30235 = ((cljs.core.not(escape_QMARK_)) && ((c === "\\")));
-var G__30236 = lines;
-escape_QMARK_ = G__30235;
-lines = G__30236;
+var G__30234 = ((cljs.core.not(escape_QMARK_)) && ((c === "\\")));
+var G__30235 = lines;
+escape_QMARK_ = G__30234;
+lines = G__30235;
 continue;
 
 }
