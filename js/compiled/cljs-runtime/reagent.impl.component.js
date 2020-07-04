@@ -478,13 +478,13 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$variadic(fmap__$1,new cljs.co
 });
 reagent.impl.component.map_to_js = (function reagent$impl$component$map_to_js(m){
 return cljs.core.reduce_kv((function (o,k,v){
-var G__32317 = o;
-var G__32322_32400 = G__32317;
+var G__32321 = o;
+var G__32322_32400 = G__32321;
 var G__32323_32401 = cljs.core.name(k);
 var G__32324_32402 = v;
 goog.object.set(G__32322_32400,G__32323_32401,G__32324_32402);
 
-return G__32317;
+return G__32321;
 }),({}),m);
 });
 reagent.impl.component.cljsify = (function reagent$impl$component$cljsify(body){
@@ -578,19 +578,19 @@ return null;
 return G__32340__$1.displayName;
 }
 })();
-var parent = (function (){var G__32341 = fiber;
-if((G__32341 == null)){
+var parent = (function (){var G__32345 = fiber;
+if((G__32345 == null)){
 return null;
 } else {
-return G__32341.return;
+return G__32345.return;
 }
 })();
-var path = (function (){var G__32342 = parent;
-var G__32342__$1 = (((G__32342 == null))?null:(reagent.impl.component.fiber_component_path.cljs$core$IFn$_invoke$arity$1 ? reagent.impl.component.fiber_component_path.cljs$core$IFn$_invoke$arity$1(G__32342) : reagent.impl.component.fiber_component_path.call(null,G__32342)));
-if((G__32342__$1 == null)){
+var path = (function (){var G__32351 = parent;
+var G__32351__$1 = (((G__32351 == null))?null:(reagent.impl.component.fiber_component_path.cljs$core$IFn$_invoke$arity$1 ? reagent.impl.component.fiber_component_path.cljs$core$IFn$_invoke$arity$1(G__32351) : reagent.impl.component.fiber_component_path.call(null,G__32351)));
+if((G__32351__$1 == null)){
 return null;
 } else {
-return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__32342__$1)," > "].join('');
+return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__32351__$1)," > "].join('');
 }
 })();
 var res = [path,cljs.core.str.cljs$core$IFn$_invoke$arity$1(name)].join('');
@@ -611,11 +611,11 @@ return goog.object.get(G__32365,"_reactInternalFiber");
 if(cljs.core.truth_(or__4185__auto__)){
 return or__4185__auto__;
 } else {
-var G__32366 = c;
-if((G__32366 == null)){
+var G__32368 = c;
+if((G__32368 == null)){
 return null;
 } else {
-return G__32366._reactInternalFiber;
+return G__32368._reactInternalFiber;
 }
 }
 })();

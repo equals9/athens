@@ -76,19 +76,19 @@ var value = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60798__$1,new cljs.
 if((value == null)){
 shadow.remote.runtime.api.reply(runtime,msg,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"op","op",-1882987955),new cljs.core.Keyword(null,"eval-result","eval-result",937286342),new cljs.core.Keyword(null,"result","result",1415092211),null], null));
 } else {
-var ref_oid_60822 = shadow.remote.runtime.obj_support.register(obj_support,value,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"msg","msg",-1386103444),msg], null));
-shadow.remote.runtime.api.reply(runtime,msg,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"op","op",-1882987955),new cljs.core.Keyword(null,"eval-result-ref","eval-result-ref",263827420),new cljs.core.Keyword(null,"ref-oid","ref-oid",-526648644),ref_oid_60822], null));
+var ref_oid_60821 = shadow.remote.runtime.obj_support.register(obj_support,value,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"msg","msg",-1386103444),msg], null));
+shadow.remote.runtime.api.reply(runtime,msg,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"op","op",-1882987955),new cljs.core.Keyword(null,"eval-result-ref","eval-result-ref",263827420),new cljs.core.Keyword(null,"ref-oid","ref-oid",-526648644),ref_oid_60821], null));
 }
 
 
-var G__60825 = cljs.core.next(seq__60788__$1);
-var G__60826 = null;
-var G__60827 = (0);
-var G__60828 = (0);
-seq__60788 = G__60825;
-chunk__60789 = G__60826;
-count__60790 = G__60827;
-i__60791 = G__60828;
+var G__60822 = cljs.core.next(seq__60788__$1);
+var G__60823 = null;
+var G__60824 = (0);
+var G__60825 = (0);
+seq__60788 = G__60822;
+chunk__60789 = G__60823;
+count__60790 = G__60824;
+i__60791 = G__60825;
 continue;
 }
 } else {

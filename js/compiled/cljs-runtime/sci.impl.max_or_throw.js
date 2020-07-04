@@ -56,21 +56,21 @@ return coll;
 });
 goog.object.set(sci.impl.max_or_throw.MaxOrThrow,"null",true);
 
-var G__66456_66464 = sci.impl.max_or_throw.max_or_throw;
-var G__66457_66465 = "null";
-var G__66458_66466 = (function (this$,ctx,n){
+var G__66458_66470 = sci.impl.max_or_throw.max_or_throw;
+var G__66459_66471 = "null";
+var G__66460_66472 = (function (this$,ctx,n){
 return this$;
 });
-goog.object.set(G__66456_66464,G__66457_66465,G__66458_66466);
+goog.object.set(G__66458_66470,G__66459_66471,G__66460_66472);
 
 goog.object.set(sci.impl.max_or_throw.MaxOrThrow,"_",true);
 
-var G__66459_66467 = sci.impl.max_or_throw.max_or_throw;
-var G__66460_66468 = "_";
-var G__66461_66469 = (function (this$,ctx,n){
+var G__66461_66473 = sci.impl.max_or_throw.max_or_throw;
+var G__66462_66474 = "_";
+var G__66463_66475 = (function (this$,ctx,n){
 return this$;
 });
-goog.object.set(G__66459_66467,G__66460_66468,G__66461_66469);
+goog.object.set(G__66461_66473,G__66462_66474,G__66463_66475);
 
 (cljs.core.LazySeq.prototype.sci$impl$max_or_throw$MaxOrThrow$ = cljs.core.PROTOCOL_SENTINEL);
 

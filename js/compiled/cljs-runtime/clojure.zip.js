@@ -163,8 +163,8 @@ return clojure.zip.node(loc);
 } else {
 var p = clojure.zip.up(loc);
 if(cljs.core.truth_(p)){
-var G__30348 = p;
-loc = G__30348;
+var G__30346 = p;
+loc = G__30346;
 continue;
 } else {
 return clojure.zip.node(loc);

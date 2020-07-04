@@ -74,9 +74,9 @@ return cljs.core.chunk_cons(cljs.core.chunk(b__50208),reitit$frontend$controller
 return cljs.core.chunk_cons(cljs.core.chunk(b__50208),null);
 }
 } else {
-var vec__50212 = cljs.core.first(s__50206__$2);
-var param_type = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__50212,(0),null);
-var ks = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__50212,(1),null);
+var vec__50213 = cljs.core.first(s__50206__$2);
+var param_type = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__50213,(0),null);
+var ks = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__50213,(1),null);
 return cljs.core.cons(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [param_type,cljs.core.select_keys(cljs.core.get.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"parameters","parameters",-1229919748).cljs$core$IFn$_invoke$arity$1(match),param_type),ks)], null),reitit$frontend$controllers$get_identity_$_iter__50205(cljs.core.rest(s__50206__$2)));
 }
 } else {
@@ -109,8 +109,8 @@ reitit.frontend.controllers.apply_controller = (function reitit$frontend$control
 var temp__5735__auto__ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(controller,method);
 if(cljs.core.truth_(temp__5735__auto__)){
 var f = temp__5735__auto__;
-var G__50216 = new cljs.core.Keyword("reitit.frontend.controllers","identity","reitit.frontend.controllers/identity",-806277693).cljs$core$IFn$_invoke$arity$1(controller);
-return (f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(G__50216) : f.call(null,G__50216));
+var G__50217 = new cljs.core.Keyword("reitit.frontend.controllers","identity","reitit.frontend.controllers/identity",-806277693).cljs$core$IFn$_invoke$arity$1(controller);
+return (f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(G__50217) : f.call(null,G__50217));
 } else {
 return null;
 }

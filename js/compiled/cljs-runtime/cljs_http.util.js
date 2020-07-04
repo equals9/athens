@@ -22,14 +22,14 @@ return null;
 /**
  * Build the url from the request map.
  */
-cljs_http.util.build_url = (function cljs_http$util$build_url(p__51803){
-var map__51805 = p__51803;
-var map__51805__$1 = (((((!((map__51805 == null))))?(((((map__51805.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__51805.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__51805):map__51805);
-var scheme = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__51805__$1,new cljs.core.Keyword(null,"scheme","scheme",90199613));
-var server_name = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__51805__$1,new cljs.core.Keyword(null,"server-name","server-name",-1012104295));
-var server_port = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__51805__$1,new cljs.core.Keyword(null,"server-port","server-port",663745648));
-var uri = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__51805__$1,new cljs.core.Keyword(null,"uri","uri",-774711847));
-var query_string = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__51805__$1,new cljs.core.Keyword(null,"query-string","query-string",-1018845061));
+cljs_http.util.build_url = (function cljs_http$util$build_url(p__51805){
+var map__51807 = p__51805;
+var map__51807__$1 = (((((!((map__51807 == null))))?(((((map__51807.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__51807.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__51807):map__51807);
+var scheme = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__51807__$1,new cljs.core.Keyword(null,"scheme","scheme",90199613));
+var server_name = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__51807__$1,new cljs.core.Keyword(null,"server-name","server-name",-1012104295));
+var server_port = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__51807__$1,new cljs.core.Keyword(null,"server-port","server-port",663745648));
+var uri = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__51807__$1,new cljs.core.Keyword(null,"uri","uri",-774711847));
+var query_string = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__51807__$1,new cljs.core.Keyword(null,"query-string","query-string",-1018845061));
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1((function (){var G__51810 = (new goog.Uri());
 G__51810.setScheme(cljs.core.name((function (){var or__4185__auto__ = scheme;
 if(cljs.core.truth_(or__4185__auto__)){

@@ -97,10 +97,10 @@ return zprint.focus.skip_whitespace_ssv(ssv,index);
 return null;
 }
 } else {
-var G__28601 = zprint.focus.next_ssv(ssv,index);
-var G__28602 = (moves - (1));
-index = G__28601;
-moves = G__28602;
+var G__28600 = zprint.focus.next_ssv(ssv,index);
+var G__28601 = (moves - (1));
+index = G__28600;
+moves = G__28601;
 continue;
 }
 } else {

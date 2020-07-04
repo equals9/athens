@@ -346,12 +346,12 @@ throw cljs.core.missing_protocol("IntoString.into-string",_);
 
 goog.object.set(reitit.impl.IntoString,"string",true);
 
-var G__57554_57586 = reitit.impl.into_string;
-var G__57555_57587 = "string";
-var G__57556_57588 = (function (this$){
+var G__57554_57589 = reitit.impl.into_string;
+var G__57555_57590 = "string";
+var G__57556_57591 = (function (this$){
 return this$;
 });
-goog.object.set(G__57554_57586,G__57555_57587,G__57556_57588);
+goog.object.set(G__57554_57589,G__57555_57590,G__57556_57591);
 
 (cljs.core.Keyword.prototype.reitit$impl$IntoString$ = cljs.core.PROTOCOL_SENTINEL);
 
@@ -372,30 +372,30 @@ goog.object.set(G__57557_57592,G__57558_57593,G__57559_57594);
 
 goog.object.set(reitit.impl.IntoString,"number",true);
 
-var G__57560_57595 = reitit.impl.into_string;
-var G__57561_57596 = "number";
-var G__57562_57597 = (function (this$){
+var G__57560_57596 = reitit.impl.into_string;
+var G__57561_57597 = "number";
+var G__57562_57598 = (function (this$){
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(this$);
 });
-goog.object.set(G__57560_57595,G__57561_57596,G__57562_57597);
+goog.object.set(G__57560_57596,G__57561_57597,G__57562_57598);
 
 goog.object.set(reitit.impl.IntoString,"object",true);
 
-var G__57563_57598 = reitit.impl.into_string;
-var G__57564_57599 = "object";
-var G__57565_57600 = (function (this$){
+var G__57563_57599 = reitit.impl.into_string;
+var G__57564_57600 = "object";
+var G__57565_57601 = (function (this$){
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(this$);
 });
-goog.object.set(G__57563_57598,G__57564_57599,G__57565_57600);
+goog.object.set(G__57563_57599,G__57564_57600,G__57565_57601);
 
 goog.object.set(reitit.impl.IntoString,"null",true);
 
-var G__57566_57601 = reitit.impl.into_string;
-var G__57567_57602 = "null";
-var G__57568_57603 = (function (_){
+var G__57566_57602 = reitit.impl.into_string;
+var G__57567_57603 = "null";
+var G__57568_57604 = (function (_){
 return null;
 });
-goog.object.set(G__57566_57601,G__57567_57602,G__57568_57603);
+goog.object.set(G__57566_57602,G__57567_57603,G__57568_57604);
 /**
  * Convert parameters' values into URL-encoded strings, suitable for URL paths
  */

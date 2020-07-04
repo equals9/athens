@@ -67,11 +67,11 @@ return cljs.core.seq(cljs.core.persistent_BANG_(key_vals));
 break;
 }
 });
-edamame.impl.syntax_quote.syntax_quote_STAR_ = (function edamame$impl$syntax_quote$syntax_quote_STAR_(p__66568,reader,form){
-var map__66569 = p__66568;
-var map__66569__$1 = (((((!((map__66569 == null))))?(((((map__66569.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__66569.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__66569):map__66569);
-var ctx = map__66569__$1;
-var gensyms = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__66569__$1,new cljs.core.Keyword(null,"gensyms","gensyms",248713782));
+edamame.impl.syntax_quote.syntax_quote_STAR_ = (function edamame$impl$syntax_quote$syntax_quote_STAR_(p__66567,reader,form){
+var map__66568 = p__66567;
+var map__66568__$1 = (((((!((map__66568 == null))))?(((((map__66568.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__66568.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__66568):map__66568);
+var ctx = map__66568__$1;
+var gensyms = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__66568__$1,new cljs.core.Keyword(null,"gensyms","gensyms",248713782));
 if(cljs.core.special_symbol_QMARK_(form)){
 return (new cljs.core.List(null,new cljs.core.Symbol(null,"quote","quote",1377916282,null),(new cljs.core.List(null,form,null,(1),null)),(2),null));
 } else {
@@ -95,14 +95,14 @@ return generated__$1;
 }
 } else {
 var f = new cljs.core.Keyword(null,"resolve-symbol","resolve-symbol",-319166964).cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"syntax-quote","syntax-quote",-1233164847).cljs$core$IFn$_invoke$arity$1(ctx));
-var fexpr__66571 = (function (){var or__4185__auto__ = f;
+var fexpr__66570 = (function (){var or__4185__auto__ = f;
 if(cljs.core.truth_(or__4185__auto__)){
 return or__4185__auto__;
 } else {
 return cljs.core.identity;
 }
 })();
-return (fexpr__66571.cljs$core$IFn$_invoke$arity$1 ? fexpr__66571.cljs$core$IFn$_invoke$arity$1(form) : fexpr__66571.call(null,form));
+return (fexpr__66570.cljs$core$IFn$_invoke$arity$1 ? fexpr__66570.cljs$core$IFn$_invoke$arity$1(form) : fexpr__66570.call(null,form));
 
 }
 }
