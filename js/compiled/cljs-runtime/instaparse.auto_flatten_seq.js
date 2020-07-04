@@ -67,23 +67,23 @@ while(true){
 var t = cljs.core.even_QMARK_(n);
 var n__$1 = cljs.core.quot(n,(2));
 if(t){
-var G__63535 = n__$1;
-var G__63536 = y;
-var G__63537 = cljs.core.imul(z,z);
-n = G__63535;
-y = G__63536;
-z = G__63537;
+var G__63571 = n__$1;
+var G__63572 = y;
+var G__63573 = cljs.core.imul(z,z);
+n = G__63571;
+y = G__63572;
+z = G__63573;
 continue;
 } else {
 if((n__$1 === (0))){
 return cljs.core.imul(z,y);
 } else {
-var G__63538 = n__$1;
-var G__63539 = cljs.core.imul(z,y);
-var G__63540 = cljs.core.imul(z,z);
-n = G__63538;
-y = G__63539;
-z = G__63540;
+var G__63575 = n__$1;
+var G__63576 = cljs.core.imul(z,y);
+var G__63577 = cljs.core.imul(z,z);
+n = G__63575;
+y = G__63576;
+z = G__63577;
 continue;
 
 }
@@ -97,10 +97,10 @@ var v__$1 = cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(v,index);
 var index__$1 = index;
 while(true){
 if(cljs.core.truth_((instaparse.auto_flatten_seq.afs_QMARK_.cljs$core$IFn$_invoke$arity$1 ? instaparse.auto_flatten_seq.afs_QMARK_.cljs$core$IFn$_invoke$arity$1(v__$1) : instaparse.auto_flatten_seq.afs_QMARK_.call(null,v__$1)))){
-var G__63541 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(v__$1,(0));
-var G__63542 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(index__$1,(0));
-v__$1 = G__63541;
-index__$1 = G__63542;
+var G__63578 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(v__$1,(0));
+var G__63579 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(index__$1,(0));
+v__$1 = G__63578;
+index__$1 = G__63579;
 continue;
 } else {
 return index__$1;
@@ -122,10 +122,10 @@ return (instaparse.auto_flatten_seq.true_count.cljs$core$IFn$_invoke$arity$1 ? i
 })() - (1)))){
 return instaparse.auto_flatten_seq.delve(v,cljs.core.conj.cljs$core$IFn$_invoke$arity$2(cljs.core.pop(index),(cljs.core.peek(index) + (1))));
 } else {
-var G__63543 = v;
-var G__63544 = cljs.core.pop(index);
-v = G__63543;
-index = G__63544;
+var G__63581 = v;
+var G__63582 = cljs.core.pop(index);
+v = G__63581;
+index = G__63582;
 continue;
 
 }
@@ -387,10 +387,10 @@ var unmixed_hash = existing_unmixed_hash;
 var coll__$1 = cljs.core.seq(coll);
 while(true){
 if((!((coll__$1 == null)))){
-var G__63547 = ((cljs.core.imul((31),unmixed_hash) + cljs.core.hash(cljs.core.first(coll__$1))) | (0));
-var G__63548 = cljs.core.next(coll__$1);
-unmixed_hash = G__63547;
-coll__$1 = G__63548;
+var G__63596 = ((cljs.core.imul((31),unmixed_hash) + cljs.core.hash(cljs.core.first(coll__$1))) | (0));
+var G__63597 = cljs.core.next(coll__$1);
+unmixed_hash = G__63596;
+coll__$1 = G__63597;
 continue;
 } else {
 return unmixed_hash;
@@ -429,16 +429,16 @@ if(temp__5733__auto__){
 var s = temp__5733__auto__;
 var fst = cljs.core.first(v);
 if(instaparse.auto_flatten_seq.afs_QMARK_(fst)){
-var G__63549 = (instaparse.auto_flatten_seq.flat_vec_helper.cljs$core$IFn$_invoke$arity$2 ? instaparse.auto_flatten_seq.flat_vec_helper.cljs$core$IFn$_invoke$arity$2(acc,fst) : instaparse.auto_flatten_seq.flat_vec_helper.call(null,acc,fst));
-var G__63550 = cljs.core.next(v);
-acc = G__63549;
-v = G__63550;
+var G__63598 = (instaparse.auto_flatten_seq.flat_vec_helper.cljs$core$IFn$_invoke$arity$2 ? instaparse.auto_flatten_seq.flat_vec_helper.cljs$core$IFn$_invoke$arity$2(acc,fst) : instaparse.auto_flatten_seq.flat_vec_helper.call(null,acc,fst));
+var G__63599 = cljs.core.next(v);
+acc = G__63598;
+v = G__63599;
 continue;
 } else {
-var G__63551 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(acc,fst);
-var G__63552 = cljs.core.next(v);
-acc = G__63551;
-v = G__63552;
+var G__63600 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(acc,fst);
+var G__63601 = cljs.core.next(v);
+acc = G__63600;
+v = G__63601;
 continue;
 }
 } else {
@@ -663,8 +663,8 @@ return cljs.core.conj.cljs$core$IFn$_invoke$arity$2(self__$1.instaparse$auto_fla
 (instaparse.auto_flatten_seq.FlattenOnDemandVector.prototype.call = (function (unused__10555__auto__){
 var self__ = this;
 var self__ = this;
-var G__63534 = (arguments.length - (1));
-switch (G__63534) {
+var G__63547 = (arguments.length - (1));
+switch (G__63547) {
 case (1):
 return self__.cljs$core$IFn$_invoke$arity$1((arguments[(1)]));
 

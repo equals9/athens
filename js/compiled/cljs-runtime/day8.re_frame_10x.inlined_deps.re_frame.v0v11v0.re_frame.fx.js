@@ -325,14 +325,14 @@ var event = chunk__28203.cljs$core$IIndexed$_nth$arity$2(null,i__28205);
 day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.router.dispatch(event);
 
 
-var G__28259 = seq__28202;
-var G__28260 = chunk__28203;
-var G__28261 = count__28204;
-var G__28262 = (i__28205 + (1));
-seq__28202 = G__28259;
-chunk__28203 = G__28260;
-count__28204 = G__28261;
-i__28205 = G__28262;
+var G__28256 = seq__28202;
+var G__28257 = chunk__28203;
+var G__28258 = count__28204;
+var G__28259 = (i__28205 + (1));
+seq__28202 = G__28256;
+chunk__28203 = G__28257;
+count__28204 = G__28258;
+i__28205 = G__28259;
 continue;
 } else {
 var temp__5735__auto__ = cljs.core.seq(seq__28202);
@@ -340,28 +340,28 @@ if(temp__5735__auto__){
 var seq__28202__$1 = temp__5735__auto__;
 if(cljs.core.chunked_seq_QMARK_(seq__28202__$1)){
 var c__4609__auto__ = cljs.core.chunk_first(seq__28202__$1);
-var G__28263 = cljs.core.chunk_rest(seq__28202__$1);
-var G__28264 = c__4609__auto__;
-var G__28265 = cljs.core.count(c__4609__auto__);
-var G__28266 = (0);
-seq__28202 = G__28263;
-chunk__28203 = G__28264;
-count__28204 = G__28265;
-i__28205 = G__28266;
+var G__28260 = cljs.core.chunk_rest(seq__28202__$1);
+var G__28261 = c__4609__auto__;
+var G__28262 = cljs.core.count(c__4609__auto__);
+var G__28263 = (0);
+seq__28202 = G__28260;
+chunk__28203 = G__28261;
+count__28204 = G__28262;
+i__28205 = G__28263;
 continue;
 } else {
 var event = cljs.core.first(seq__28202__$1);
 day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.router.dispatch(event);
 
 
-var G__28267 = cljs.core.next(seq__28202__$1);
-var G__28268 = null;
-var G__28269 = (0);
-var G__28270 = (0);
-seq__28202 = G__28267;
-chunk__28203 = G__28268;
-count__28204 = G__28269;
-i__28205 = G__28270;
+var G__28264 = cljs.core.next(seq__28202__$1);
+var G__28265 = null;
+var G__28266 = (0);
+var G__28267 = (0);
+seq__28202 = G__28264;
+chunk__28203 = G__28265;
+count__28204 = G__28266;
+i__28205 = G__28267;
 continue;
 }
 } else {
@@ -385,14 +385,14 @@ var event = chunk__28207.cljs$core$IIndexed$_nth$arity$2(null,i__28209);
 (clear_event.cljs$core$IFn$_invoke$arity$1 ? clear_event.cljs$core$IFn$_invoke$arity$1(event) : clear_event.call(null,event));
 
 
-var G__28271 = seq__28206;
-var G__28272 = chunk__28207;
-var G__28273 = count__28208;
-var G__28274 = (i__28209 + (1));
-seq__28206 = G__28271;
-chunk__28207 = G__28272;
-count__28208 = G__28273;
-i__28209 = G__28274;
+var G__28268 = seq__28206;
+var G__28269 = chunk__28207;
+var G__28270 = count__28208;
+var G__28271 = (i__28209 + (1));
+seq__28206 = G__28268;
+chunk__28207 = G__28269;
+count__28208 = G__28270;
+i__28209 = G__28271;
 continue;
 } else {
 var temp__5735__auto__ = cljs.core.seq(seq__28206);
@@ -400,28 +400,28 @@ if(temp__5735__auto__){
 var seq__28206__$1 = temp__5735__auto__;
 if(cljs.core.chunked_seq_QMARK_(seq__28206__$1)){
 var c__4609__auto__ = cljs.core.chunk_first(seq__28206__$1);
-var G__28277 = cljs.core.chunk_rest(seq__28206__$1);
-var G__28278 = c__4609__auto__;
-var G__28279 = cljs.core.count(c__4609__auto__);
-var G__28280 = (0);
-seq__28206 = G__28277;
-chunk__28207 = G__28278;
-count__28208 = G__28279;
-i__28209 = G__28280;
+var G__28272 = cljs.core.chunk_rest(seq__28206__$1);
+var G__28273 = c__4609__auto__;
+var G__28274 = cljs.core.count(c__4609__auto__);
+var G__28275 = (0);
+seq__28206 = G__28272;
+chunk__28207 = G__28273;
+count__28208 = G__28274;
+i__28209 = G__28275;
 continue;
 } else {
 var event = cljs.core.first(seq__28206__$1);
 (clear_event.cljs$core$IFn$_invoke$arity$1 ? clear_event.cljs$core$IFn$_invoke$arity$1(event) : clear_event.call(null,event));
 
 
-var G__28281 = cljs.core.next(seq__28206__$1);
-var G__28282 = null;
-var G__28283 = (0);
-var G__28284 = (0);
-seq__28206 = G__28281;
-chunk__28207 = G__28282;
-count__28208 = G__28283;
-i__28209 = G__28284;
+var G__28279 = cljs.core.next(seq__28206__$1);
+var G__28280 = null;
+var G__28281 = (0);
+var G__28282 = (0);
+seq__28206 = G__28279;
+chunk__28207 = G__28280;
+count__28208 = G__28281;
+i__28209 = G__28282;
 continue;
 }
 } else {

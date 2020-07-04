@@ -143,13 +143,13 @@ var map__48553 = spec_tools.swagger.core.transform.cljs$core$IFn$_invoke$arity$2
 var map__48553__$1 = (((((!((map__48553 == null))))?(((((map__48553.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__48553.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__48553):map__48553);
 var properties = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__48553__$1,new cljs.core.Keyword(null,"properties","properties",685819552));
 var required = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__48553__$1,new cljs.core.Keyword(null,"required","required",1807647006));
-return cljs.core.mapv.cljs$core$IFn$_invoke$arity$2((function (p__48555){
-var vec__48556 = p__48555;
-var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__48556,(0),null);
-var map__48559 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__48556,(1),null);
-var map__48559__$1 = (((((!((map__48559 == null))))?(((((map__48559.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__48559.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__48559):map__48559);
-var schema = map__48559__$1;
-var type = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__48559__$1,new cljs.core.Keyword(null,"type","type",1174270348));
+return cljs.core.mapv.cljs$core$IFn$_invoke$arity$2((function (p__48556){
+var vec__48557 = p__48556;
+var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__48557,(0),null);
+var map__48560 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__48557,(1),null);
+var map__48560__$1 = (((((!((map__48560 == null))))?(((((map__48560.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__48560.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__48560):map__48560);
+var schema = map__48560__$1;
+var type = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__48560__$1,new cljs.core.Keyword(null,"type","type",1174270348));
 return cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"in","in",-1531184865),cljs.core.name(in$),new cljs.core.Keyword(null,"name","name",1843675177),k,new cljs.core.Keyword(null,"description","description",-1428560544),(function (){var or__4185__auto__ = spec_tools.core.spec_description(spec);
 if(cljs.core.truth_(or__4185__auto__)){
 return or__4185__auto__;

@@ -66,8 +66,8 @@ return athens.router.navigate_uid.cljs$core$IFn$_invoke$arity$1(uid);
 });})(i__61032,vec__61034,_order,title,uid,c__4580__auto__,size__4581__auto__,b__61033,s__61031__$2,temp__5735__auto__,open_QMARK_,shortcuts))
 ], null)),title], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),uid], null)));
 
-var G__61048 = (i__61032 + (1));
-i__61032 = G__61048;
+var G__61051 = (i__61032 + (1));
+i__61032 = G__61051;
 continue;
 } else {
 return true;

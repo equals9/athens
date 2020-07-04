@@ -309,8 +309,8 @@ return (new reitit.coercion.CoercionError(self__.__meta,cljs.core.not_empty(cljs
 (reitit.coercion.CoercionError.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__4446__auto__,k__4447__auto__,G__49845){
 var self__ = this;
 var this__4446__auto____$1 = this;
-var pred__49856 = cljs.core.keyword_identical_QMARK_;
-var expr__49857 = k__4447__auto__;
+var pred__49859 = cljs.core.keyword_identical_QMARK_;
+var expr__49860 = k__4447__auto__;
 return (new reitit.coercion.CoercionError(self__.__meta,cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k__4447__auto__,G__49845),null));
 }));
 
@@ -361,11 +361,11 @@ return (new reitit.coercion.CoercionError(null,null,null));
  * Factory function for reitit.coercion/CoercionError, taking a map of keywords to field values.
  */
 reitit.coercion.map__GT_CoercionError = (function reitit$coercion$map__GT_CoercionError(G__49849){
-var extmap__4478__auto__ = (function (){var G__49865 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$1(G__49849);
+var extmap__4478__auto__ = (function (){var G__49874 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$1(G__49849);
 if(cljs.core.record_QMARK_(G__49849)){
-return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__49865);
+return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__49874);
 } else {
-return G__49865;
+return G__49874;
 }
 })();
 return (new reitit.coercion.CoercionError(null,cljs.core.not_empty(extmap__4478__auto__),null));
@@ -757,8 +757,8 @@ var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__49916,(1),null);
 if(cljs.core.truth_(v)){
 return cljs.core.cons(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [k,reitit.coercion.request_coercer(coercion,k,v,opts)], null),reitit$coercion$request_coercers_$_iter__49909(cljs.core.rest(s__49910__$2)));
 } else {
-var G__49998 = cljs.core.rest(s__49910__$2);
-s__49910__$1 = G__49998;
+var G__49992 = cljs.core.rest(s__49910__$2);
+s__49910__$1 = G__49992;
 continue;
 }
 }
