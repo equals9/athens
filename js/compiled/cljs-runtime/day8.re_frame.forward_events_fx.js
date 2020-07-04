@@ -14,10 +14,10 @@ if(cljs.core.fn_QMARK_(callback_pred)){
 return callback_pred;
 } else {
 if((callback_pred instanceof cljs.core.Keyword)){
-return (function (p__52045){
-var vec__52046 = p__52045;
-var event_id = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__52046,(0),null);
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__52046,(1),null);
+return (function (p__52040){
+var vec__52041 = p__52040;
+var event_id = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__52041,(0),null);
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__52041,(1),null);
 return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(callback_pred,event_id);
 });
 } else {
@@ -35,8 +35,8 @@ throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2([cljs.core.pr_str.cljs$cor
 return null;
 }
 });
-var G__52049_52064 = new cljs.core.Keyword(null,"forward-events","forward-events",1216790539);
-var G__52050_52065 = (function (){var process_one_entry = (function (p__52051){
+var G__52049_52058 = new cljs.core.Keyword(null,"forward-events","forward-events",1216790539);
+var G__52050_52059 = (function (){var process_one_entry = (function (p__52051){
 var map__52052 = p__52051;
 var map__52052__$1 = (((((!((map__52052 == null))))?(((((map__52052.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__52052.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__52052):map__52052);
 var m = map__52052__$1;
@@ -54,8 +54,8 @@ var post_event_callback_fn = (function (event_v,___$2){
 if(cljs.core.truth_(cljs.core.some((function (pred){
 return (pred.cljs$core$IFn$_invoke$arity$1 ? pred.cljs$core$IFn$_invoke$arity$1(event_v) : pred.call(null,event_v));
 }),events_preds))){
-var G__52057 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(dispatch_to,event_v);
-return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__52057) : re_frame.core.dispatch.call(null,G__52057));
+var G__52054 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(dispatch_to,event_v);
+return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__52054) : re_frame.core.dispatch.call(null,G__52054));
 } else {
 return null;
 }
@@ -70,15 +70,15 @@ return process_one_entry(val);
 if(cljs.core.sequential_QMARK_(val)){
 return cljs.core.doall.cljs$core$IFn$_invoke$arity$1(cljs.core.map.cljs$core$IFn$_invoke$arity$2(process_one_entry,val));
 } else {
-var G__52058 = new cljs.core.Keyword(null,"error","error",-978969032);
-var G__52059 = ":forward-events expected a map or a list of maps, but got: ";
-var G__52060 = val;
-return (re_frame.core.console.cljs$core$IFn$_invoke$arity$3 ? re_frame.core.console.cljs$core$IFn$_invoke$arity$3(G__52058,G__52059,G__52060) : re_frame.core.console.call(null,G__52058,G__52059,G__52060));
+var G__52055 = new cljs.core.Keyword(null,"error","error",-978969032);
+var G__52056 = ":forward-events expected a map or a list of maps, but got: ";
+var G__52057 = val;
+return (re_frame.core.console.cljs$core$IFn$_invoke$arity$3 ? re_frame.core.console.cljs$core$IFn$_invoke$arity$3(G__52055,G__52056,G__52057) : re_frame.core.console.call(null,G__52055,G__52056,G__52057));
 
 }
 }
 });
 })();
-(re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2(G__52049_52064,G__52050_52065) : re_frame.core.reg_fx.call(null,G__52049_52064,G__52050_52065));
+(re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2(G__52049_52058,G__52050_52059) : re_frame.core.reg_fx.call(null,G__52049_52058,G__52050_52059));
 
 //# sourceMappingURL=day8.re_frame.forward_events_fx.js.map

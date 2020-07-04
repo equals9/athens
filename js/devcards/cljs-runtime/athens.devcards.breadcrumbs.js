@@ -42,14 +42,14 @@ return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq
 
 athens.devcards.breadcrumbs.breadcrumb = (function athens$devcards$breadcrumbs$breadcrumb(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___58043 = arguments.length;
-var i__4790__auto___58044 = (0);
+var len__4789__auto___58040 = arguments.length;
+var i__4790__auto___58041 = (0);
 while(true){
-if((i__4790__auto___58044 < len__4789__auto___58043)){
-args__4795__auto__.push((arguments[i__4790__auto___58044]));
+if((i__4790__auto___58041 < len__4789__auto___58040)){
+args__4795__auto__.push((arguments[i__4790__auto___58041]));
 
-var G__58045 = (i__4790__auto___58044 + (1));
-i__4790__auto___58044 = G__58045;
+var G__58042 = (i__4790__auto___58041 + (1));
+i__4790__auto___58041 = G__58042;
 continue;
 } else {
 }

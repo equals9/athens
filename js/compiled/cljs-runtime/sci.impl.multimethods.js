@@ -39,10 +39,10 @@ return null;
 
 /** @this {Function} */
 (sci.impl.multimethods.check_valid_options.cljs$lang$applyTo = (function (seq66509){
-var G__66510 = cljs.core.first(seq66509);
+var G__66511 = cljs.core.first(seq66509);
 var seq66509__$1 = cljs.core.next(seq66509);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__66510,seq66509__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__66511,seq66509__$1);
 }));
 
 /**
@@ -71,14 +71,14 @@ return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__66510,seq66509
  */
 sci.impl.multimethods.defmulti = (function sci$impl$multimethods$defmulti(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___66539 = arguments.length;
-var i__4790__auto___66540 = (0);
+var len__4789__auto___66532 = arguments.length;
+var i__4790__auto___66533 = (0);
 while(true){
-if((i__4790__auto___66540 < len__4789__auto___66539)){
-args__4795__auto__.push((arguments[i__4790__auto___66540]));
+if((i__4790__auto___66533 < len__4789__auto___66532)){
+args__4795__auto__.push((arguments[i__4790__auto___66533]));
 
-var G__66541 = (i__4790__auto___66540 + (1));
-i__4790__auto___66540 = G__66541;
+var G__66534 = (i__4790__auto___66533 + (1));
+i__4790__auto___66533 = G__66534;
 continue;
 } else {
 }
@@ -142,14 +142,14 @@ return cljs.core._add_method(multifn,dispatch_val,f);
  */
 sci.impl.multimethods.defmethod = (function sci$impl$multimethods$defmethod(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___66549 = arguments.length;
-var i__4790__auto___66550 = (0);
+var len__4789__auto___66548 = arguments.length;
+var i__4790__auto___66549 = (0);
 while(true){
-if((i__4790__auto___66550 < len__4789__auto___66549)){
-args__4795__auto__.push((arguments[i__4790__auto___66550]));
+if((i__4790__auto___66549 < len__4789__auto___66548)){
+args__4795__auto__.push((arguments[i__4790__auto___66549]));
 
-var G__66551 = (i__4790__auto___66550 + (1));
-i__4790__auto___66550 = G__66551;
+var G__66550 = (i__4790__auto___66549 + (1));
+i__4790__auto___66549 = G__66550;
 continue;
 } else {
 }

@@ -38,9 +38,9 @@ return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$variadic(reagent.debug.w
 var G__32094 = function (var_args){
 var args = null;
 if (arguments.length > 0) {
-var G__32095__i = 0, G__32095__a = new Array(arguments.length -  0);
-while (G__32095__i < G__32095__a.length) {G__32095__a[G__32095__i] = arguments[G__32095__i + 0]; ++G__32095__i;}
-  args = new cljs.core.IndexedSeq(G__32095__a,0,null);
+var G__32096__i = 0, G__32096__a = new Array(arguments.length -  0);
+while (G__32096__i < G__32096__a.length) {G__32096__a[G__32096__i] = arguments[G__32096__i + 0]; ++G__32096__i;}
+  args = new cljs.core.IndexedSeq(G__32096__a,0,null);
 } 
 return G__32094__delegate.call(this,args);};
 G__32094.cljs$lang$maxFixedArity = 0;

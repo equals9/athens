@@ -732,12 +732,12 @@ var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__57643,(1),null);
 if(cljs.core.truth_(v)){
 cljs.core.chunk_append(b__57642,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [k,reitit.coercion.request_coercer(coercion,k,v,opts)], null));
 
-var G__57727 = (i__57641 + (1));
-i__57641 = G__57727;
+var G__57726 = (i__57641 + (1));
+i__57641 = G__57726;
 continue;
 } else {
-var G__57728 = (i__57641 + (1));
-i__57641 = G__57728;
+var G__57727 = (i__57641 + (1));
+i__57641 = G__57727;
 continue;
 }
 } else {
@@ -757,8 +757,8 @@ var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__57646,(1),null);
 if(cljs.core.truth_(v)){
 return cljs.core.cons(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [k,reitit.coercion.request_coercer(coercion,k,v,opts)], null),reitit$coercion$request_coercers_$_iter__57639(cljs.core.rest(s__57640__$2)));
 } else {
-var G__57729 = cljs.core.rest(s__57640__$2);
-s__57640__$1 = G__57729;
+var G__57728 = cljs.core.rest(s__57640__$2);
+s__57640__$1 = G__57728;
 continue;
 }
 }
@@ -795,12 +795,12 @@ var body = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__57656__$1,new cljs.c
 if(cljs.core.truth_(body)){
 cljs.core.chunk_append(b__57652,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [status,reitit.coercion.response_coercer(coercion,body,opts)], null));
 
-var G__57731 = (i__57651 + (1));
-i__57651 = G__57731;
+var G__57730 = (i__57651 + (1));
+i__57651 = G__57730;
 continue;
 } else {
-var G__57732 = (i__57651 + (1));
-i__57651 = G__57732;
+var G__57731 = (i__57651 + (1));
+i__57651 = G__57731;
 continue;
 }
 } else {
@@ -822,8 +822,8 @@ var body = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__57661__$1,new cljs.c
 if(cljs.core.truth_(body)){
 return cljs.core.cons(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [status,reitit.coercion.response_coercer(coercion,body,opts)], null),reitit$coercion$response_coercers_$_iter__57649(cljs.core.rest(s__57650__$2)));
 } else {
-var G__57734 = cljs.core.rest(s__57650__$2);
-s__57650__$1 = G__57734;
+var G__57733 = cljs.core.rest(s__57650__$2);
+s__57650__$1 = G__57733;
 continue;
 }
 }
