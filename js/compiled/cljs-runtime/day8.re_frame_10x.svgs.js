@@ -84,8 +84,8 @@ while(true){
 if((i__4790__auto___28418 < len__4789__auto___28417)){
 args__4795__auto__.push((arguments[i__4790__auto___28418]));
 
-var G__28419 = (i__4790__auto___28418 + (1));
-i__4790__auto___28418 = G__28419;
+var G__28420 = (i__4790__auto___28418 + (1));
+i__4790__auto___28418 = G__28420;
 continue;
 } else {
 }
@@ -122,14 +122,14 @@ return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMP
 });
 day8.re_frame_10x.svgs.left = (function day8$re_frame_10x$svgs$left(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___28438 = arguments.length;
-var i__4790__auto___28439 = (0);
+var len__4789__auto___28441 = arguments.length;
+var i__4790__auto___28442 = (0);
 while(true){
-if((i__4790__auto___28439 < len__4789__auto___28438)){
-args__4795__auto__.push((arguments[i__4790__auto___28439]));
+if((i__4790__auto___28442 < len__4789__auto___28441)){
+args__4795__auto__.push((arguments[i__4790__auto___28442]));
 
-var G__28442 = (i__4790__auto___28439 + (1));
-i__4790__auto___28439 = G__28442;
+var G__28443 = (i__4790__auto___28442 + (1));
+i__4790__auto___28442 = G__28443;
 continue;
 } else {
 }
@@ -157,10 +157,10 @@ return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq
 
 day8.re_frame_10x.svgs.right = (function day8$re_frame_10x$svgs$right(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___28444 = arguments.length;
+var len__4789__auto___28445 = arguments.length;
 var i__4790__auto___28446 = (0);
 while(true){
-if((i__4790__auto___28446 < len__4789__auto___28444)){
+if((i__4790__auto___28446 < len__4789__auto___28445)){
 args__4795__auto__.push((arguments[i__4790__auto___28446]));
 
 var G__28447 = (i__4790__auto___28446 + (1));

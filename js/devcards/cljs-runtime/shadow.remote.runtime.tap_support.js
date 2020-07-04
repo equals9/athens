@@ -61,14 +61,14 @@ var tid = chunk__60789.cljs$core$IIndexed$_nth$arity$2(null,i__60791);
 shadow.remote.runtime.api.relay_msg(runtime,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"op","op",-1882987955),new cljs.core.Keyword(null,"tap","tap",-1086702463),new cljs.core.Keyword(null,"tid","tid",-901350880),tid,new cljs.core.Keyword(null,"oid","oid",-768692334),oid], null));
 
 
-var G__60823 = seq__60788;
-var G__60824 = chunk__60789;
-var G__60825 = count__60790;
-var G__60826 = (i__60791 + (1));
-seq__60788 = G__60823;
-chunk__60789 = G__60824;
-count__60790 = G__60825;
-i__60791 = G__60826;
+var G__60795 = seq__60788;
+var G__60796 = chunk__60789;
+var G__60797 = count__60790;
+var G__60798 = (i__60791 + (1));
+seq__60788 = G__60795;
+chunk__60789 = G__60796;
+count__60790 = G__60797;
+i__60791 = G__60798;
 continue;
 } else {
 var temp__5735__auto__ = cljs.core.seq(seq__60788);
@@ -76,28 +76,28 @@ if(temp__5735__auto__){
 var seq__60788__$1 = temp__5735__auto__;
 if(cljs.core.chunked_seq_QMARK_(seq__60788__$1)){
 var c__4609__auto__ = cljs.core.chunk_first(seq__60788__$1);
-var G__60829 = cljs.core.chunk_rest(seq__60788__$1);
-var G__60830 = c__4609__auto__;
-var G__60831 = cljs.core.count(c__4609__auto__);
-var G__60832 = (0);
-seq__60788 = G__60829;
-chunk__60789 = G__60830;
-count__60790 = G__60831;
-i__60791 = G__60832;
+var G__60799 = cljs.core.chunk_rest(seq__60788__$1);
+var G__60800 = c__4609__auto__;
+var G__60801 = cljs.core.count(c__4609__auto__);
+var G__60802 = (0);
+seq__60788 = G__60799;
+chunk__60789 = G__60800;
+count__60790 = G__60801;
+i__60791 = G__60802;
 continue;
 } else {
 var tid = cljs.core.first(seq__60788__$1);
 shadow.remote.runtime.api.relay_msg(runtime,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"op","op",-1882987955),new cljs.core.Keyword(null,"tap","tap",-1086702463),new cljs.core.Keyword(null,"tid","tid",-901350880),tid,new cljs.core.Keyword(null,"oid","oid",-768692334),oid], null));
 
 
-var G__60833 = cljs.core.next(seq__60788__$1);
-var G__60834 = null;
-var G__60835 = (0);
-var G__60836 = (0);
-seq__60788 = G__60833;
-chunk__60789 = G__60834;
-count__60790 = G__60835;
-i__60791 = G__60836;
+var G__60803 = cljs.core.next(seq__60788__$1);
+var G__60804 = null;
+var G__60805 = (0);
+var G__60806 = (0);
+seq__60788 = G__60803;
+chunk__60789 = G__60804;
+count__60790 = G__60805;
+i__60791 = G__60806;
 continue;
 }
 } else {
@@ -125,12 +125,12 @@ cljs.core.add_tap(tap_fn);
 
 return svc;
 });
-shadow.remote.runtime.tap_support.stop = (function shadow$remote$runtime$tap_support$stop(p__60799){
-var map__60803 = p__60799;
-var map__60803__$1 = (((((!((map__60803 == null))))?(((((map__60803.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__60803.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__60803):map__60803);
-var svc = map__60803__$1;
-var tap_fn = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60803__$1,new cljs.core.Keyword(null,"tap-fn","tap-fn",1573556461));
-var runtime = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60803__$1,new cljs.core.Keyword(null,"runtime","runtime",-1331573996));
+shadow.remote.runtime.tap_support.stop = (function shadow$remote$runtime$tap_support$stop(p__60792){
+var map__60793 = p__60792;
+var map__60793__$1 = (((((!((map__60793 == null))))?(((((map__60793.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__60793.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__60793):map__60793);
+var svc = map__60793__$1;
+var tap_fn = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60793__$1,new cljs.core.Keyword(null,"tap-fn","tap-fn",1573556461));
+var runtime = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__60793__$1,new cljs.core.Keyword(null,"runtime","runtime",-1331573996));
 cljs.core.remove_tap(tap_fn);
 
 return shadow.remote.runtime.api.del_extension(runtime,new cljs.core.Keyword("shadow.remote.runtime.tap-support","ext","shadow.remote.runtime.tap-support/ext",1019069674));

@@ -13,17 +13,17 @@ return null;
 });
 posh.plugin_base.safe_pull = (function posh$plugin_base$safe_pull(dcfg,db,query,id){
 if(cljs.core.integer_QMARK_(id)){
-var fexpr__47368 = new cljs.core.Keyword(null,"pull*","pull*",413297819).cljs$core$IFn$_invoke$arity$1(dcfg);
-return (fexpr__47368.cljs$core$IFn$_invoke$arity$3 ? fexpr__47368.cljs$core$IFn$_invoke$arity$3(db,query,id) : fexpr__47368.call(null,db,query,id));
+var fexpr__47371 = new cljs.core.Keyword(null,"pull*","pull*",413297819).cljs$core$IFn$_invoke$arity$1(dcfg);
+return (fexpr__47371.cljs$core$IFn$_invoke$arity$3 ? fexpr__47371.cljs$core$IFn$_invoke$arity$3(db,query,id) : fexpr__47371.call(null,db,query,id));
 } else {
 if(cljs.core.vector_QMARK_(id)){
-var temp__5733__auto__ = (function (){var fexpr__47369 = new cljs.core.Keyword(null,"entid","entid",1720688982).cljs$core$IFn$_invoke$arity$1(dcfg);
-return (fexpr__47369.cljs$core$IFn$_invoke$arity$2 ? fexpr__47369.cljs$core$IFn$_invoke$arity$2(db,id) : fexpr__47369.call(null,db,id));
+var temp__5733__auto__ = (function (){var fexpr__47372 = new cljs.core.Keyword(null,"entid","entid",1720688982).cljs$core$IFn$_invoke$arity$1(dcfg);
+return (fexpr__47372.cljs$core$IFn$_invoke$arity$2 ? fexpr__47372.cljs$core$IFn$_invoke$arity$2(db,id) : fexpr__47372.call(null,db,id));
 })();
 if(cljs.core.truth_(temp__5733__auto__)){
 var eid = temp__5733__auto__;
-var fexpr__47370 = new cljs.core.Keyword(null,"pull*","pull*",413297819).cljs$core$IFn$_invoke$arity$1(dcfg);
-return (fexpr__47370.cljs$core$IFn$_invoke$arity$3 ? fexpr__47370.cljs$core$IFn$_invoke$arity$3(db,query,eid) : fexpr__47370.call(null,db,query,eid));
+var fexpr__47373 = new cljs.core.Keyword(null,"pull*","pull*",413297819).cljs$core$IFn$_invoke$arity$1(dcfg);
+return (fexpr__47373.cljs$core$IFn$_invoke$arity$3 ? fexpr__47373.cljs$core$IFn$_invoke$arity$3(db,query,eid) : fexpr__47373.call(null,db,query,eid));
 } else {
 return posh.plugin_base.missing_pull_result(dcfg,query);
 }
@@ -38,17 +38,17 @@ return null;
 });
 posh.plugin_base.set_conn_listener_BANG_ = (function posh$plugin_base$set_conn_listener_BANG_(dcfg,posh_atom,conn,db_id){
 var posh_vars = new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"posh-atom","posh-atom",-510480810),posh_atom,new cljs.core.Keyword(null,"db-id","db-id",747248515),db_id], null);
-var G__47374_47451 = conn;
-var G__47375_47452 = new cljs.core.Keyword(null,"posh-dispenser","posh-dispenser",-482466766);
-var G__47376_47453 = (function (var$){
+var G__47375_47453 = conn;
+var G__47376_47454 = new cljs.core.Keyword(null,"posh-dispenser","posh-dispenser",-482466766);
+var G__47377_47455 = (function (var$){
 if((var$ instanceof cljs.core.Keyword)){
 return cljs.core.get.cljs$core$IFn$_invoke$arity$2(posh_vars,var$);
 } else {
 return null;
 }
 });
-var fexpr__47373_47454 = new cljs.core.Keyword(null,"listen!","listen!",-1756109477).cljs$core$IFn$_invoke$arity$1(dcfg);
-(fexpr__47373_47454.cljs$core$IFn$_invoke$arity$3 ? fexpr__47373_47454.cljs$core$IFn$_invoke$arity$3(G__47374_47451,G__47375_47452,G__47376_47453) : fexpr__47373_47454.call(null,G__47374_47451,G__47375_47452,G__47376_47453));
+var fexpr__47374_47456 = new cljs.core.Keyword(null,"listen!","listen!",-1756109477).cljs$core$IFn$_invoke$arity$1(dcfg);
+(fexpr__47374_47456.cljs$core$IFn$_invoke$arity$3 ? fexpr__47374_47456.cljs$core$IFn$_invoke$arity$3(G__47375_47453,G__47376_47454,G__47377_47455) : fexpr__47374_47456.call(null,G__47375_47453,G__47376_47454,G__47377_47455));
 
 cljs.core.add_watch(conn,new cljs.core.Keyword(null,"posh-schema-listener","posh-schema-listener",-158129486),(function (_,___$1,old_state,new_state){
 if(cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"schema","schema",-1582001791).cljs$core$IFn$_invoke$arity$1(old_state),new cljs.core.Keyword(null,"schema","schema",-1582001791).cljs$core$IFn$_invoke$arity$1(new_state))){
@@ -58,9 +58,9 @@ return null;
 }
 }));
 
-var G__47379_47457 = conn;
-var G__47380_47458 = new cljs.core.Keyword(null,"posh-listener","posh-listener",-6636061);
-var G__47381_47459 = (function (tx_report){
+var G__47379_47461 = conn;
+var G__47380_47462 = new cljs.core.Keyword(null,"posh-listener","posh-listener",-6636061);
+var G__47381_47463 = (function (tx_report){
 var map__47382 = cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$3(posh_atom,posh.core.after_transact,cljs.core.PersistentArrayMap.createAsIfByAssoc([conn,tx_report]));
 var map__47382__$1 = (((((!((map__47382 == null))))?(((((map__47382.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__47382.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__47382):map__47382);
 var ratoms = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__47382__$1,new cljs.core.Keyword(null,"ratoms","ratoms",1900437364));
@@ -108,14 +108,14 @@ var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__47397,(1),null);
 cljs.core.reset_BANG_(cljs.core.get.cljs$core$IFn$_invoke$arity$2(ratoms,k),new cljs.core.Keyword(null,"results","results",-1134170113).cljs$core$IFn$_invoke$arity$1(v));
 
 
-var G__47473 = cljs.core.next(seq__47384__$1);
-var G__47474 = null;
-var G__47475 = (0);
-var G__47476 = (0);
-seq__47384 = G__47473;
-chunk__47385 = G__47474;
-count__47386 = G__47475;
-i__47387 = G__47476;
+var G__47477 = cljs.core.next(seq__47384__$1);
+var G__47478 = null;
+var G__47479 = (0);
+var G__47480 = (0);
+seq__47384 = G__47477;
+chunk__47385 = G__47478;
+count__47386 = G__47479;
+i__47387 = G__47480;
 continue;
 }
 } else {
@@ -125,21 +125,21 @@ return null;
 break;
 }
 });
-var fexpr__47378_47460 = new cljs.core.Keyword(null,"listen!","listen!",-1756109477).cljs$core$IFn$_invoke$arity$1(dcfg);
-(fexpr__47378_47460.cljs$core$IFn$_invoke$arity$3 ? fexpr__47378_47460.cljs$core$IFn$_invoke$arity$3(G__47379_47457,G__47380_47458,G__47381_47459) : fexpr__47378_47460.call(null,G__47379_47457,G__47380_47458,G__47381_47459));
+var fexpr__47378_47464 = new cljs.core.Keyword(null,"listen!","listen!",-1756109477).cljs$core$IFn$_invoke$arity$1(dcfg);
+(fexpr__47378_47464.cljs$core$IFn$_invoke$arity$3 ? fexpr__47378_47464.cljs$core$IFn$_invoke$arity$3(G__47379_47461,G__47380_47462,G__47381_47463) : fexpr__47378_47464.call(null,G__47379_47461,G__47380_47462,G__47381_47463));
 
 return conn;
 });
 posh.plugin_base.posh_BANG_ = (function posh$plugin_base$posh_BANG_(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___47480 = arguments.length;
-var i__4790__auto___47482 = (0);
+var len__4789__auto___47483 = arguments.length;
+var i__4790__auto___47484 = (0);
 while(true){
-if((i__4790__auto___47482 < len__4789__auto___47480)){
-args__4795__auto__.push((arguments[i__4790__auto___47482]));
+if((i__4790__auto___47484 < len__4789__auto___47483)){
+args__4795__auto__.push((arguments[i__4790__auto___47484]));
 
-var G__47484 = (i__4790__auto___47482 + (1));
-i__4790__auto___47482 = G__47484;
+var G__47485 = (i__4790__auto___47484 + (1));
+i__4790__auto___47484 = G__47485;
 continue;
 } else {
 }
@@ -385,14 +385,14 @@ return (1);
  */
 posh.plugin_base.q = (function posh$plugin_base$q(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___47533 = arguments.length;
-var i__4790__auto___47534 = (0);
+var len__4789__auto___47535 = arguments.length;
+var i__4790__auto___47536 = (0);
 while(true){
-if((i__4790__auto___47534 < len__4789__auto___47533)){
-args__4795__auto__.push((arguments[i__4790__auto___47534]));
+if((i__4790__auto___47536 < len__4789__auto___47535)){
+args__4795__auto__.push((arguments[i__4790__auto___47536]));
 
-var G__47537 = (i__4790__auto___47534 + (1));
-i__4790__auto___47534 = G__47537;
+var G__47538 = (i__4790__auto___47536 + (1));
+i__4790__auto___47536 = G__47538;
 continue;
 } else {
 }
@@ -441,14 +441,14 @@ return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__47426,G__47427
 
 posh.plugin_base.q_info = (function posh$plugin_base$q_info(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___47545 = arguments.length;
-var i__4790__auto___47546 = (0);
+var len__4789__auto___47549 = arguments.length;
+var i__4790__auto___47550 = (0);
 while(true){
-if((i__4790__auto___47546 < len__4789__auto___47545)){
-args__4795__auto__.push((arguments[i__4790__auto___47546]));
+if((i__4790__auto___47550 < len__4789__auto___47549)){
+args__4795__auto__.push((arguments[i__4790__auto___47550]));
 
-var G__47549 = (i__4790__auto___47546 + (1));
-i__4790__auto___47546 = G__47549;
+var G__47551 = (i__4790__auto___47550 + (1));
+i__4790__auto___47550 = G__47551;
 continue;
 } else {
 }
@@ -490,14 +490,14 @@ return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__47435,G__47436
 
 posh.plugin_base.q_tx = (function posh$plugin_base$q_tx(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___47554 = arguments.length;
-var i__4790__auto___47555 = (0);
+var len__4789__auto___47558 = arguments.length;
+var i__4790__auto___47559 = (0);
 while(true){
-if((i__4790__auto___47555 < len__4789__auto___47554)){
-args__4795__auto__.push((arguments[i__4790__auto___47555]));
+if((i__4790__auto___47559 < len__4789__auto___47558)){
+args__4795__auto__.push((arguments[i__4790__auto___47559]));
 
-var G__47557 = (i__4790__auto___47555 + (1));
-i__4790__auto___47555 = G__47557;
+var G__47561 = (i__4790__auto___47559 + (1));
+i__4790__auto___47559 = G__47561;
 continue;
 } else {
 }
@@ -536,14 +536,14 @@ return posh.stateful.add_filter_pull(posh.plugin_base.get_db(dcfg,poshdb),pull_p
 });
 posh.plugin_base.filter_q = (function posh$plugin_base$filter_q(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___47564 = arguments.length;
-var i__4790__auto___47565 = (0);
+var len__4789__auto___47567 = arguments.length;
+var i__4790__auto___47568 = (0);
 while(true){
-if((i__4790__auto___47565 < len__4789__auto___47564)){
-args__4795__auto__.push((arguments[i__4790__auto___47565]));
+if((i__4790__auto___47568 < len__4789__auto___47567)){
+args__4795__auto__.push((arguments[i__4790__auto___47568]));
 
-var G__47566 = (i__4790__auto___47565 + (1));
-i__4790__auto___47565 = G__47566;
+var G__47569 = (i__4790__auto___47568 + (1));
+i__4790__auto___47568 = G__47569;
 continue;
 } else {
 }

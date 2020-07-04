@@ -203,17 +203,17 @@ continue;
 break;
 }
 
-var G__59091 = vals;
-vals = G__59091;
-continue;
-} else {
-if(edamame.impl.parser.non_match_QMARK_(next_val)){
 var G__59092 = vals;
 vals = G__59092;
 continue;
 } else {
-var G__59093 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(vals,next_val);
+if(edamame.impl.parser.non_match_QMARK_(next_val)){
+var G__59093 = vals;
 vals = G__59093;
+continue;
+} else {
+var G__59094 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(vals,next_val);
+vals = G__59094;
 continue;
 
 }

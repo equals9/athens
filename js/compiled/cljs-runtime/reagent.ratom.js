@@ -378,8 +378,8 @@ while(true){
 if((i__4790__auto___32282 < len__4789__auto___32281)){
 args_arr__4810__auto__.push((arguments[i__4790__auto___32282]));
 
-var G__32284 = (i__4790__auto___32282 + (1));
-i__4790__auto___32282 = G__32284;
+var G__32283 = (i__4790__auto___32282 + (1));
+i__4790__auto___32282 = G__32283;
 continue;
 } else {
 }
@@ -432,9 +432,9 @@ cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(reagent.ratom._running,cljs.c
 } else {
 }
 
-var __32288 = o.reagReactionCache;
-var __32289__$1 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(__32288,k);
-(o.reagReactionCache = __32289__$1);
+var __32286 = o.reagReactionCache;
+var __32287__$1 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(__32286,k);
+(o.reagReactionCache = __32287__$1);
 
 if((!((obj == null)))){
 (obj.reaction = null);
@@ -554,10 +554,10 @@ return r;
 });
 reagent.ratom.track = (function reagent$ratom$track(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___32291 = arguments.length;
+var len__4789__auto___32290 = arguments.length;
 var i__4790__auto___32292 = (0);
 while(true){
-if((i__4790__auto___32292 < len__4789__auto___32291)){
+if((i__4790__auto___32292 < len__4789__auto___32290)){
 args__4795__auto__.push((arguments[i__4790__auto___32292]));
 
 var G__32293 = (i__4790__auto___32292 + (1));

@@ -35,11 +35,11 @@ return cljs.core.str.cljs$core$IFn$_invoke$arity$1(sb__4720__auto__);
 }catch (e41041){if((e41041 instanceof Error)){
 var e1 = e41041;
 try{return obj.toString();
-}catch (e41042){if((e41042 instanceof Error)){
-var e2 = e41042;
+}catch (e41043){if((e41043 instanceof Error)){
+var e2 = e41043;
 return "<<Un-printable Type>>";
 } else {
-throw e41042;
+throw e41043;
 
 }
 }} else {

@@ -36,8 +36,8 @@ throw cljs.core.missing_protocol("ILimited.-limited?",x);
  *   Truncation is indicated by `…` at start/end, or `...` at middle, for readability. 
  */
 day8.re_frame_10x.utils.pretty_print_condensed.truncate_string = (function day8$re_frame_10x$utils$pretty_print_condensed$truncate_string(var_args){
-var G__31933 = arguments.length;
-switch (G__31933) {
+var G__31934 = arguments.length;
+switch (G__31934) {
 case 2:
 return day8.re_frame_10x.utils.pretty_print_condensed.truncate_string.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -271,11 +271,11 @@ if(typeof form === 'string'){
 return day8.re_frame_10x.utils.pretty_print_condensed.truncate_string.cljs$core$IFn$_invoke$arity$3((16),new cljs.core.Keyword(null,"middle","middle",-701029031),form);
 } else {
 if(cljs.core.fn_QMARK_(form)){
-var or__4185__auto__ = (function (){var G__31954 = form.name;
-if((G__31954 == null)){
+var or__4185__auto__ = (function (){var G__31955 = form.name;
+if((G__31955 == null)){
 return null;
 } else {
-return clojure.string.replace(G__31954,/(^.*\$)(.*)/,"$2");
+return clojure.string.replace(G__31955,/(^.*\$)(.*)/,"$2");
 }
 })();
 if(cljs.core.truth_(or__4185__auto__)){
@@ -497,14 +497,14 @@ return new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"fl
  */
 day8.re_frame_10x.utils.pretty_print_condensed.pr_str_truncated = (function day8$re_frame_10x$utils$pretty_print_condensed$pr_str_truncated(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___32002 = arguments.length;
-var i__4790__auto___32003 = (0);
+var len__4789__auto___32008 = arguments.length;
+var i__4790__auto___32009 = (0);
 while(true){
-if((i__4790__auto___32003 < len__4789__auto___32002)){
-args__4795__auto__.push((arguments[i__4790__auto___32003]));
+if((i__4790__auto___32009 < len__4789__auto___32008)){
+args__4795__auto__.push((arguments[i__4790__auto___32009]));
 
-var G__32004 = (i__4790__auto___32003 + (1));
-i__4790__auto___32003 = G__32004;
+var G__32010 = (i__4790__auto___32009 + (1));
+i__4790__auto___32009 = G__32010;
 continue;
 } else {
 }

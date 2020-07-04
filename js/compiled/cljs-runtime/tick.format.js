@@ -12,8 +12,8 @@ tick.format.predefined_formatters = new cljs.core.PersistentArrayMap(null, 6, [n
  *   and a Locale, which is optional.
  */
 tick.format.formatter = (function tick$format$formatter(var_args){
-var G__58722 = arguments.length;
-switch (G__58722) {
+var G__58723 = arguments.length;
+switch (G__58723) {
 case 1:
 return tick.format.formatter.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -35,11 +35,11 @@ return null;
 } else {
 return goog.object.get(G__58725,"US");
 }
-}catch (e58723){if((e58723 instanceof Error)){
-var e = e58723;
+}catch (e58724){if((e58724 instanceof Error)){
+var e = e58724;
 return null;
 } else {
-throw e58723;
+throw e58724;
 
 }
 }})());
