@@ -157,15 +157,15 @@ return cljs.core.async.close_BANG_(channel);
 }));
 
 if(cljs.core.truth_(progress)){
-var listener_51890 = (function (direction,evt){
+var listener_51891 = (function (direction,evt){
 return cljs.core.async.put_BANG_.cljs$core$IFn$_invoke$arity$2(progress,cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"direction","direction",-633359395),direction,new cljs.core.Keyword(null,"loaded","loaded",-1246482293),evt.loaded], null),(cljs.core.truth_(evt.lengthComputable)?new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"total","total",1916810418),evt.total], null):null)], 0)));
 });
 var G__51841_51892 = xhr;
 G__51841_51892.setProgressEventsEnabled(true);
 
-G__51841_51892.listen(goog.net.EventType.UPLOAD_PROGRESS,cljs.core.partial.cljs$core$IFn$_invoke$arity$2(listener_51890,new cljs.core.Keyword(null,"upload","upload",-255769218)));
+G__51841_51892.listen(goog.net.EventType.UPLOAD_PROGRESS,cljs.core.partial.cljs$core$IFn$_invoke$arity$2(listener_51891,new cljs.core.Keyword(null,"upload","upload",-255769218)));
 
-G__51841_51892.listen(goog.net.EventType.DOWNLOAD_PROGRESS,cljs.core.partial.cljs$core$IFn$_invoke$arity$2(listener_51890,new cljs.core.Keyword(null,"download","download",-300081668)));
+G__51841_51892.listen(goog.net.EventType.DOWNLOAD_PROGRESS,cljs.core.partial.cljs$core$IFn$_invoke$arity$2(listener_51891,new cljs.core.Keyword(null,"download","download",-300081668)));
 
 } else {
 }
@@ -258,8 +258,8 @@ break;
 }
 }catch (e51860){if((e51860 instanceof Object)){
 var ex__38792__auto__ = e51860;
-var statearr_51861_51899 = state_51852;
-(statearr_51861_51899[(5)] = ex__38792__auto__);
+var statearr_51861_51900 = state_51852;
+(statearr_51861_51900[(5)] = ex__38792__auto__);
 
 
 cljs.core.async.impl.ioc_helpers.process_exception(state_51852);
@@ -393,8 +393,8 @@ break;
 }
 }catch (e51874){if((e51874 instanceof Object)){
 var ex__38792__auto__ = e51874;
-var statearr_51875_51911 = state_51870;
-(statearr_51875_51911[(5)] = ex__38792__auto__);
+var statearr_51875_51913 = state_51870;
+(statearr_51875_51913[(5)] = ex__38792__auto__);
 
 
 cljs.core.async.impl.ioc_helpers.process_exception(state_51870);

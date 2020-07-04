@@ -29,9 +29,9 @@ x = G__55101;
 continue;
 } else {
 if((x instanceof cljs.core.Symbol)){
-var G__55075 = spec_tools.impl.normalize_symbol(x);
-var G__55076 = null;
-return (spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2 ? spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2(G__55075,G__55076) : spec_tools.parse.parse_form.call(null,G__55075,G__55076));
+var G__55074 = spec_tools.impl.normalize_symbol(x);
+var G__55075 = null;
+return (spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2 ? spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2(G__55074,G__55075) : spec_tools.parse.parse_form.call(null,G__55074,G__55075));
 } else {
 if(cljs.core.seq_QMARK_(x)){
 var G__55077 = spec_tools.impl.normalize_symbol(cljs.core.first(x));

@@ -25,21 +25,21 @@ instaparse.cfg._STAR_case_insensitive_literals_STAR_ = new cljs.core.Keyword(nul
  *   2) the supplied `ci-by-default?` parameter
  */
 instaparse.cfg.string_PLUS_ = (function instaparse$cfg$string_PLUS_(s,ci_by_default_QMARK_){
-var G__56946 = instaparse.cfg._STAR_case_insensitive_literals_STAR_;
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(true,G__56946)){
+var G__56945 = instaparse.cfg._STAR_case_insensitive_literals_STAR_;
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(true,G__56945)){
 return instaparse.combinators_source.string_ci(s);
 } else {
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(false,G__56946)){
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(false,G__56945)){
 return instaparse.combinators_source.string(s);
 } else {
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"default","default",-1987822328),G__56946)){
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"default","default",-1987822328),G__56945)){
 if(cljs.core.truth_(ci_by_default_QMARK_)){
 return instaparse.combinators_source.string_ci(s);
 } else {
 return instaparse.combinators_source.string(s);
 }
 } else {
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__56946)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__56945)].join('')));
 
 }
 }
@@ -220,14 +220,14 @@ return (instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg
 
 break;
 case "look":
-return instaparse.combinators_source.look((function (){var G__56968 = (instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1(tree) : instaparse.cfg.content.call(null,tree));
-return (instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1(G__56968) : instaparse.cfg.build_rule.call(null,G__56968));
+return instaparse.combinators_source.look((function (){var G__56964 = (instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1(tree) : instaparse.cfg.content.call(null,tree));
+return (instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1(G__56964) : instaparse.cfg.build_rule.call(null,G__56964));
 })());
 
 break;
 case "neg":
-return instaparse.combinators_source.neg((function (){var G__56969 = (instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1(tree) : instaparse.cfg.content.call(null,tree));
-return (instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1(G__56969) : instaparse.cfg.build_rule.call(null,G__56969));
+return instaparse.combinators_source.neg((function (){var G__56965 = (instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1(tree) : instaparse.cfg.content.call(null,tree));
+return (instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1(G__56965) : instaparse.cfg.build_rule.call(null,G__56965));
 })());
 
 break;
@@ -247,9 +247,9 @@ break;
  */
 instaparse.cfg.seq_nt = (function instaparse$cfg$seq_nt(parser){
 while(true){
-var G__56970 = new cljs.core.Keyword(null,"tag","tag",-1290361223).cljs$core$IFn$_invoke$arity$1(parser);
-var G__56970__$1 = (((G__56970 instanceof cljs.core.Keyword))?G__56970.fqn:null);
-switch (G__56970__$1) {
+var G__56966 = new cljs.core.Keyword(null,"tag","tag",-1290361223).cljs$core$IFn$_invoke$arity$1(parser);
+var G__56966__$1 = (((G__56966 instanceof cljs.core.Keyword))?G__56966.fqn:null);
+switch (G__56966__$1) {
 case "nt":
 return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"keyword","keyword",811389747).cljs$core$IFn$_invoke$arity$1(parser)], null);
 
@@ -268,8 +268,8 @@ case "star":
 case "look":
 case "neg":
 case "rep":
-var G__57005 = new cljs.core.Keyword(null,"parser","parser",-1543495310).cljs$core$IFn$_invoke$arity$1(parser);
-parser = G__57005;
+var G__57006 = new cljs.core.Keyword(null,"parser","parser",-1543495310).cljs$core$IFn$_invoke$arity$1(parser);
+parser = G__57006;
 continue;
 
 break;
@@ -283,7 +283,7 @@ return cljs.core.mapcat.cljs$core$IFn$_invoke$arity$variadic(instaparse.cfg.seq_
 
 break;
 default:
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__56970__$1)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__56966__$1)].join('')));
 
 }
 break;
@@ -293,7 +293,7 @@ break;
  * Throw error if grammar uses any invalid non-terminals in its productions
  */
 instaparse.cfg.check_grammar = (function instaparse$cfg$check_grammar(grammar_map){
-var valid_nts_57006 = cljs.core.set(cljs.core.keys(grammar_map));
+var valid_nts_57007 = cljs.core.set(cljs.core.keys(grammar_map));
 var seq__56971_57008 = cljs.core.seq(cljs.core.distinct.cljs$core$IFn$_invoke$arity$1(cljs.core.mapcat.cljs$core$IFn$_invoke$arity$variadic(instaparse.cfg.seq_nt,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([cljs.core.vals(grammar_map)], 0))));
 var chunk__56972_57009 = null;
 var count__56973_57010 = (0);
@@ -301,7 +301,7 @@ var i__56974_57011 = (0);
 while(true){
 if((i__56974_57011 < count__56973_57010)){
 var nt_57012 = chunk__56972_57009.cljs$core$IIndexed$_nth$arity$2(null,i__56974_57011);
-if(cljs.core.truth_((valid_nts_57006.cljs$core$IFn$_invoke$arity$1 ? valid_nts_57006.cljs$core$IFn$_invoke$arity$1(nt_57012) : valid_nts_57006.call(null,nt_57012)))){
+if(cljs.core.truth_((valid_nts_57007.cljs$core$IFn$_invoke$arity$1 ? valid_nts_57007.cljs$core$IFn$_invoke$arity$1(nt_57012) : valid_nts_57007.call(null,nt_57012)))){
 } else {
 instaparse.util.throw_runtime_exception.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([cljs.core.subs.cljs$core$IFn$_invoke$arity$2(cljs.core.str.cljs$core$IFn$_invoke$arity$1(nt_57012),(1))," occurs on the right-hand side of your grammar, but not on the left"], 0));
 }
@@ -333,7 +333,7 @@ i__56974_57011 = G__57023;
 continue;
 } else {
 var nt_57024 = cljs.core.first(seq__56971_57018__$1);
-if(cljs.core.truth_((valid_nts_57006.cljs$core$IFn$_invoke$arity$1 ? valid_nts_57006.cljs$core$IFn$_invoke$arity$1(nt_57024) : valid_nts_57006.call(null,nt_57024)))){
+if(cljs.core.truth_((valid_nts_57007.cljs$core$IFn$_invoke$arity$1 ? valid_nts_57007.cljs$core$IFn$_invoke$arity$1(nt_57024) : valid_nts_57007.call(null,nt_57024)))){
 } else {
 instaparse.util.throw_runtime_exception.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([cljs.core.subs.cljs$core$IFn$_invoke$arity$2(cljs.core.str.cljs$core$IFn$_invoke$arity$1(nt_57024),(1))," occurs on the right-hand side of your grammar, but not on the left"], 0));
 }

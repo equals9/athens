@@ -295,10 +295,10 @@ var pattern = new cljs.core.Keyword(null,"pattern","pattern",242135423).cljs$cor
 var new_frames = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(frames,cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(frame,new cljs.core.Keyword(null,"specs","specs",1426570741),cljs.core.rest(specs)));
 return datascript.pull_api.pull_attr(db,spec,cljs.core.first(eids),new_frames);
 } else {
-var G__26291 = db;
-var G__26292 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(frames,datascript.pull_api.reset_frame(frame,cljs.core.rest(eids),cljs.core.not_empty(cljs.core.persistent_BANG_(new cljs.core.Keyword(null,"kvps","kvps",65308317).cljs$core$IFn$_invoke$arity$1(frame)))));
-db = G__26291;
-p__26254 = G__26292;
+var G__26270 = db;
+var G__26271 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(frames,datascript.pull_api.reset_frame(frame,cljs.core.rest(eids),cljs.core.not_empty(cljs.core.persistent_BANG_(new cljs.core.Keyword(null,"kvps","kvps",65308317).cljs$core$IFn$_invoke$arity$1(frame)))));
+db = G__26270;
+p__26254 = G__26271;
 continue;
 }
 }
@@ -314,34 +314,34 @@ var G__26258 = new cljs.core.Keyword(null,"state","state",-1988618099).cljs$core
 var G__26258__$1 = (((G__26258 instanceof cljs.core.Keyword))?G__26258.fqn:null);
 switch (G__26258__$1) {
 case "expand":
-var G__26301 = db;
-var G__26302 = datascript.pull_api.pull_expand_frame(db,frames);
-db = G__26301;
-frames = G__26302;
+var G__26277 = db;
+var G__26278 = datascript.pull_api.pull_expand_frame(db,frames);
+db = G__26277;
+frames = G__26278;
 continue;
 
 break;
 case "expand-rev":
-var G__26303 = db;
-var G__26304 = datascript.pull_api.pull_expand_reverse_frame(db,frames);
-db = G__26303;
-frames = G__26304;
+var G__26279 = db;
+var G__26280 = datascript.pull_api.pull_expand_reverse_frame(db,frames);
+db = G__26279;
+frames = G__26280;
 continue;
 
 break;
 case "pattern":
-var G__26305 = db;
-var G__26306 = datascript.pull_api.pull_pattern_frame(db,frames);
-db = G__26305;
-frames = G__26306;
+var G__26283 = db;
+var G__26284 = datascript.pull_api.pull_pattern_frame(db,frames);
+db = G__26283;
+frames = G__26284;
 continue;
 
 break;
 case "recursion":
-var G__26307 = db;
-var G__26308 = datascript.pull_api.pull_recursion_frame(db,frames);
-db = G__26307;
-frames = G__26308;
+var G__26287 = db;
+var G__26288 = datascript.pull_api.pull_recursion_frame(db,frames);
+db = G__26287;
+frames = G__26288;
 continue;
 
 break;
@@ -360,16 +360,16 @@ return G__26262;
 }
 })();
 if(cljs.core.seq(remaining)){
-var G__26315 = db;
-var G__26316 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(cljs.core.rest(remaining),(function (){var G__26263 = cljs.core.first(remaining);
+var G__26289 = db;
+var G__26290 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(cljs.core.rest(remaining),(function (){var G__26263 = cljs.core.first(remaining);
 if(cljs.core.truth_(result)){
 return cljs.core.update.cljs$core$IFn$_invoke$arity$5(G__26263,new cljs.core.Keyword(null,"kvps","kvps",65308317),cljs.core.assoc_BANG_,new cljs.core.Keyword(null,"attr","attr",-604132353).cljs$core$IFn$_invoke$arity$1(f),result);
 } else {
 return G__26263;
 }
 })());
-db = G__26315;
-frames = G__26316;
+db = G__26289;
+frames = G__26290;
 continue;
 } else {
 return result;

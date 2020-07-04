@@ -68,8 +68,8 @@ return datoms;
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(null,G__29068)){
 return null;
 } else {
-return cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p1__29067_SHARP_){
-return posh.lib.datom_matcher.datom_match_QMARK_(patterns,p1__29067_SHARP_);
+return cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p1__29066_SHARP_){
+return posh.lib.datom_matcher.datom_match_QMARK_(patterns,p1__29066_SHARP_);
 }),datoms);
 
 }
@@ -121,10 +121,10 @@ if((function (){var id = cljs.core.ffirst(leftover_patterns);
 return ((cljs.core.set_QMARK_(id)) || (typeof id === 'number'));
 })()){
 var r = posh.lib.datom_matcher.combine_entids(cljs.core.PersistentHashSet.EMPTY,cljs.core.rest(cljs.core.first(leftover_patterns)),leftover_patterns,new_patterns,cljs.core.PersistentVector.EMPTY);
-var G__29083 = new cljs.core.Keyword(null,"new-patterns","new-patterns",404552774).cljs$core$IFn$_invoke$arity$1(r);
-var G__29084 = new cljs.core.Keyword(null,"leftover-patterns","leftover-patterns",377032963).cljs$core$IFn$_invoke$arity$1(r);
-new_patterns = G__29083;
-leftover_patterns = G__29084;
+var G__29084 = new cljs.core.Keyword(null,"new-patterns","new-patterns",404552774).cljs$core$IFn$_invoke$arity$1(r);
+var G__29085 = new cljs.core.Keyword(null,"leftover-patterns","leftover-patterns",377032963).cljs$core$IFn$_invoke$arity$1(r);
+new_patterns = G__29084;
+leftover_patterns = G__29085;
 continue;
 } else {
 var G__29086 = cljs.core.cons(cljs.core.first(leftover_patterns),new_patterns);
