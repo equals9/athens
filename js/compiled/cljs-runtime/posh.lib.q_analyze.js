@@ -70,8 +70,8 @@ if(cljs.core.empty_QMARK_(query)){
 return cljs.core.PersistentHashSet.EMPTY;
 } else {
 if(cljs.core.coll_QMARK_(cljs.core.first(query))){
-return clojure.set.union.cljs$core$IFn$_invoke$arity$2((function (){var G__46847 = cljs.core.first(query);
-return (posh.lib.q_analyze.get_all_vars.cljs$core$IFn$_invoke$arity$1 ? posh.lib.q_analyze.get_all_vars.cljs$core$IFn$_invoke$arity$1(G__46847) : posh.lib.q_analyze.get_all_vars.call(null,G__46847));
+return clojure.set.union.cljs$core$IFn$_invoke$arity$2((function (){var G__46846 = cljs.core.first(query);
+return (posh.lib.q_analyze.get_all_vars.cljs$core$IFn$_invoke$arity$1 ? posh.lib.q_analyze.get_all_vars.cljs$core$IFn$_invoke$arity$1(G__46846) : posh.lib.q_analyze.get_all_vars.call(null,G__46846));
 })(),(function (){var G__46848 = cljs.core.rest(query);
 return (posh.lib.q_analyze.get_all_vars.cljs$core$IFn$_invoke$arity$1 ? posh.lib.q_analyze.get_all_vars.cljs$core$IFn$_invoke$arity$1(G__46848) : posh.lib.q_analyze.get_all_vars.call(null,G__46848));
 })());
@@ -117,11 +117,11 @@ var G__46854 = vars;
 return (posh.lib.q_analyze.normalize_eav_helper.cljs$core$IFn$_invoke$arity$4 ? posh.lib.q_analyze.normalize_eav_helper.cljs$core$IFn$_invoke$arity$4(G__46851,G__46852,G__46853,G__46854) : posh.lib.q_analyze.normalize_eav_helper.call(null,G__46851,G__46852,G__46853,G__46854));
 } else {
 var var$ = (posh.lib.q_analyze.qvar_gen.cljs$core$IFn$_invoke$arity$0 ? posh.lib.q_analyze.qvar_gen.cljs$core$IFn$_invoke$arity$0() : posh.lib.q_analyze.qvar_gen.call(null));
-var G__46856 = cljs.core.rest(eav);
-var G__46857 = (n - (1));
-var G__46858 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(neweav,var$);
-var G__46859 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(vars,var$);
-return (posh.lib.q_analyze.normalize_eav_helper.cljs$core$IFn$_invoke$arity$4 ? posh.lib.q_analyze.normalize_eav_helper.cljs$core$IFn$_invoke$arity$4(G__46856,G__46857,G__46858,G__46859) : posh.lib.q_analyze.normalize_eav_helper.call(null,G__46856,G__46857,G__46858,G__46859));
+var G__46855 = cljs.core.rest(eav);
+var G__46856 = (n - (1));
+var G__46857 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(neweav,var$);
+var G__46858 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(vars,var$);
+return (posh.lib.q_analyze.normalize_eav_helper.cljs$core$IFn$_invoke$arity$4 ? posh.lib.q_analyze.normalize_eav_helper.cljs$core$IFn$_invoke$arity$4(G__46855,G__46856,G__46857,G__46858) : posh.lib.q_analyze.normalize_eav_helper.call(null,G__46855,G__46856,G__46857,G__46858));
 }
 }
 });
@@ -139,8 +139,8 @@ return cljs.core.concat.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVe
 return (posh.lib.q_analyze.normalize_all_eavs.cljs$core$IFn$_invoke$arity$1 ? posh.lib.q_analyze.normalize_all_eavs.cljs$core$IFn$_invoke$arity$1(G__46865) : posh.lib.q_analyze.normalize_all_eavs.call(null,G__46865));
 })());
 } else {
-return cljs.core.cons(cljs.core.first(where),(function (){var G__46867 = cljs.core.vec(cljs.core.rest(where));
-return (posh.lib.q_analyze.normalize_all_eavs.cljs$core$IFn$_invoke$arity$1 ? posh.lib.q_analyze.normalize_all_eavs.cljs$core$IFn$_invoke$arity$1(G__46867) : posh.lib.q_analyze.normalize_all_eavs.call(null,G__46867));
+return cljs.core.cons(cljs.core.first(where),(function (){var G__46868 = cljs.core.vec(cljs.core.rest(where));
+return (posh.lib.q_analyze.normalize_all_eavs.cljs$core$IFn$_invoke$arity$1 ? posh.lib.q_analyze.normalize_all_eavs.cljs$core$IFn$_invoke$arity$1(G__46868) : posh.lib.q_analyze.normalize_all_eavs.call(null,G__46868));
 })());
 }
 } else {
@@ -447,8 +447,8 @@ return (((wildcard_count >= (1))) && ((((((qvar_count > (1))) && (cljs.core._EQ_
 })()){
 cljs.core.chunk_append(b__46939,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [ee,aa,vv], null));
 
-var G__47256 = (i__46938 + (1));
-i__46938 = G__47256;
+var G__47257 = (i__46938 + (1));
+i__46938 = G__47257;
 continue;
 } else {
 var G__47258 = (i__46938 + (1));
@@ -2892,10 +2892,10 @@ return null;
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.first(xs__$1),x)){
 return n;
 } else {
-var G__47350 = (n + (1));
-var G__47351 = cljs.core.rest(xs__$1);
-n = G__47350;
-xs__$1 = G__47351;
+var G__47347 = (n + (1));
+var G__47348 = cljs.core.rest(xs__$1);
+n = G__47347;
+xs__$1 = G__47348;
 continue;
 
 }

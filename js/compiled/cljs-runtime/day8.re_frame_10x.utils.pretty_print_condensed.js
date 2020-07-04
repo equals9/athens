@@ -36,8 +36,8 @@ throw cljs.core.missing_protocol("ILimited.-limited?",x);
  *   Truncation is indicated by `…` at start/end, or `...` at middle, for readability. 
  */
 day8.re_frame_10x.utils.pretty_print_condensed.truncate_string = (function day8$re_frame_10x$utils$pretty_print_condensed$truncate_string(var_args){
-var G__31934 = arguments.length;
-switch (G__31934) {
+var G__31933 = arguments.length;
+switch (G__31933) {
 case 2:
 return day8.re_frame_10x.utils.pretty_print_condensed.truncate_string.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -243,8 +243,8 @@ return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(left),cljs.core.str.cljs$cor
  * Render form in abbreviated form, showing content only for keywords/strings/symbols and entering collections to a depth of 1.
  */
 day8.re_frame_10x.utils.pretty_print_condensed.pretty_condensed = (function day8$re_frame_10x$utils$pretty_print_condensed$pretty_condensed(var_args){
-var G__31952 = arguments.length;
-switch (G__31952) {
+var G__31951 = arguments.length;
+switch (G__31951) {
 case 1:
 return day8.re_frame_10x.utils.pretty_print_condensed.pretty_condensed.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -271,11 +271,11 @@ if(typeof form === 'string'){
 return day8.re_frame_10x.utils.pretty_print_condensed.truncate_string.cljs$core$IFn$_invoke$arity$3((16),new cljs.core.Keyword(null,"middle","middle",-701029031),form);
 } else {
 if(cljs.core.fn_QMARK_(form)){
-var or__4185__auto__ = (function (){var G__31955 = form.name;
-if((G__31955 == null)){
+var or__4185__auto__ = (function (){var G__31954 = form.name;
+if((G__31954 == null)){
 return null;
 } else {
-return clojure.string.replace(G__31955,/(^.*\$)(.*)/,"$2");
+return clojure.string.replace(G__31954,/(^.*\$)(.*)/,"$2");
 }
 })();
 if(cljs.core.truth_(or__4185__auto__)){
@@ -347,14 +347,14 @@ cljs.core._write(writer," ");
 day8.re_frame_10x.utils.pretty_print_condensed.pr_writer(obj,writer,opts);
 
 
-var G__31989 = seq__31960;
-var G__31990 = chunk__31961;
-var G__31991 = count__31962;
-var G__31992 = (i__31963 + (1));
-seq__31960 = G__31989;
-chunk__31961 = G__31990;
-count__31962 = G__31991;
-i__31963 = G__31992;
+var G__31990 = seq__31960;
+var G__31991 = chunk__31961;
+var G__31992 = count__31962;
+var G__31993 = (i__31963 + (1));
+seq__31960 = G__31990;
+chunk__31961 = G__31991;
+count__31962 = G__31992;
+i__31963 = G__31993;
 continue;
 } else {
 var temp__5735__auto__ = cljs.core.seq(seq__31960);

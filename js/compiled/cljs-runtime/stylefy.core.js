@@ -154,8 +154,8 @@ while(true){
 if((i__4790__auto___40783 < len__4789__auto___40782)){
 args__4795__auto__.push((arguments[i__4790__auto___40783]));
 
-var G__40784 = (i__4790__auto___40783 + (1));
-i__4790__auto___40783 = G__40784;
+var G__40785 = (i__4790__auto___40783 + (1));
+i__4790__auto___40783 = G__40785;
 continue;
 } else {
 }
@@ -276,14 +276,14 @@ return null;
  */
 stylefy.core.keyframes = (function stylefy$core$keyframes(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___40791 = arguments.length;
-var i__4790__auto___40792 = (0);
+var len__4789__auto___40792 = arguments.length;
+var i__4790__auto___40793 = (0);
 while(true){
-if((i__4790__auto___40792 < len__4789__auto___40791)){
-args__4795__auto__.push((arguments[i__4790__auto___40792]));
+if((i__4790__auto___40793 < len__4789__auto___40792)){
+args__4795__auto__.push((arguments[i__4790__auto___40793]));
 
-var G__40793 = (i__4790__auto___40792 + (1));
-i__4790__auto___40792 = G__40793;
+var G__40794 = (i__4790__auto___40793 + (1));
+i__4790__auto___40793 = G__40794;
 continue;
 } else {
 }
