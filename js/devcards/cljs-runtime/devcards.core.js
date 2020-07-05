@@ -168,18 +168,18 @@ return this__41019__auto__;
 });
 goog.inherits(ctor__41021__auto__,React.Component);
 
-var x41805_42174 = ctor__41021__auto__.prototype;
-(x41805_42174.componentDidMount = (function (){
+var x41805_42171 = ctor__41021__auto__.prototype;
+(x41805_42171.componentDidMount = (function (){
 var this$ = this;
 return devcards.core.highlight_node(this$);
 }));
 
-(x41805_42174.componentDidUpdate = (function (){
+(x41805_42171.componentDidUpdate = (function (){
 var this$ = this;
 return devcards.core.highlight_node(this$);
 }));
 
-(x41805_42174.render = (function (){
+(x41805_42171.render = (function (){
 var this$ = this;
 return React.createElement("pre",({"className": (cljs.core.truth_(devcards.core.get_hljs())?"com-rigsomelight-devcards-code-highlighting":""), "key": cljs.core.hash((function (){var G__41806 = this$;
 var G__41807 = new cljs.core.Keyword(null,"code","code",1586293142);
