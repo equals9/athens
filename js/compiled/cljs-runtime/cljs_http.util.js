@@ -22,16 +22,16 @@ return null;
 /**
  * Build the url from the request map.
  */
-cljs_http.util.build_url = (function cljs_http$util$build_url(p__51824){
-var map__51825 = p__51824;
+cljs_http.util.build_url = (function cljs_http$util$build_url(p__51823){
+var map__51825 = p__51823;
 var map__51825__$1 = (((((!((map__51825 == null))))?(((((map__51825.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__51825.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__51825):map__51825);
 var scheme = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__51825__$1,new cljs.core.Keyword(null,"scheme","scheme",90199613));
 var server_name = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__51825__$1,new cljs.core.Keyword(null,"server-name","server-name",-1012104295));
 var server_port = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__51825__$1,new cljs.core.Keyword(null,"server-port","server-port",663745648));
 var uri = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__51825__$1,new cljs.core.Keyword(null,"uri","uri",-774711847));
 var query_string = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__51825__$1,new cljs.core.Keyword(null,"query-string","query-string",-1018845061));
-return cljs.core.str.cljs$core$IFn$_invoke$arity$1((function (){var G__51830 = (new goog.Uri());
-G__51830.setScheme(cljs.core.name((function (){var or__4185__auto__ = scheme;
+return cljs.core.str.cljs$core$IFn$_invoke$arity$1((function (){var G__51828 = (new goog.Uri());
+G__51828.setScheme(cljs.core.name((function (){var or__4185__auto__ = scheme;
 if(cljs.core.truth_(or__4185__auto__)){
 return or__4185__auto__;
 } else {
@@ -39,15 +39,15 @@ return new cljs.core.Keyword(null,"http","http",382524695);
 }
 })()));
 
-G__51830.setDomain(server_name);
+G__51828.setDomain(server_name);
 
-G__51830.setPort(server_port);
+G__51828.setPort(server_port);
 
-G__51830.setPath(uri);
+G__51828.setPath(uri);
 
-G__51830.setQuery(query_string,true);
+G__51828.setQuery(query_string,true);
 
-return G__51830;
+return G__51828;
 })());
 });
 /**

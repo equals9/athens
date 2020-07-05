@@ -19,14 +19,14 @@ goog.require('garden.types');
  */
 garden.stylesheet.rule = (function garden$stylesheet$rule(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___36418 = arguments.length;
-var i__4790__auto___36419 = (0);
+var len__4789__auto___36419 = arguments.length;
+var i__4790__auto___36420 = (0);
 while(true){
-if((i__4790__auto___36419 < len__4789__auto___36418)){
-args__4795__auto__.push((arguments[i__4790__auto___36419]));
+if((i__4790__auto___36420 < len__4789__auto___36419)){
+args__4795__auto__.push((arguments[i__4790__auto___36420]));
 
-var G__36421 = (i__4790__auto___36419 + (1));
-i__4790__auto___36419 = G__36421;
+var G__36421 = (i__4790__auto___36420 + (1));
+i__4790__auto___36420 = G__36421;
 continue;
 } else {
 }

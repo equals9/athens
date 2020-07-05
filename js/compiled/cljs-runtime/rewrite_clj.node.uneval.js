@@ -45,9 +45,9 @@ return this__4439__auto____$1.cljs$core$ILookup$_lookup$arity$3(null,k__4440__au
 (rewrite_clj.node.uneval.UnevalNode.prototype.cljs$core$ILookup$_lookup$arity$3 = (function (this__4441__auto__,k29946,else__4442__auto__){
 var self__ = this;
 var this__4441__auto____$1 = this;
-var G__29950 = k29946;
-var G__29950__$1 = (((G__29950 instanceof cljs.core.Keyword))?G__29950.fqn:null);
-switch (G__29950__$1) {
+var G__29954 = k29946;
+var G__29954__$1 = (((G__29954 instanceof cljs.core.Keyword))?G__29954.fqn:null);
+switch (G__29954__$1) {
 case "children":
 return self__.children;
 
@@ -61,10 +61,10 @@ return cljs.core.get.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k29946,else__
 (rewrite_clj.node.uneval.UnevalNode.prototype.cljs$core$IKVReduce$_kv_reduce$arity$3 = (function (this__4458__auto__,f__4459__auto__,init__4460__auto__){
 var self__ = this;
 var this__4458__auto____$1 = this;
-return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (ret__4461__auto__,p__29951){
-var vec__29952 = p__29951;
-var k__4462__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29952,(0),null);
-var v__4463__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29952,(1),null);
+return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (ret__4461__auto__,p__29956){
+var vec__29957 = p__29956;
+var k__4462__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29957,(0),null);
+var v__4463__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29957,(1),null);
 return (f__4459__auto__.cljs$core$IFn$_invoke$arity$3 ? f__4459__auto__.cljs$core$IFn$_invoke$arity$3(ret__4461__auto__,k__4462__auto__,v__4463__auto__) : f__4459__auto__.call(null,ret__4461__auto__,k__4462__auto__,v__4463__auto__));
 }),init__4460__auto__,this__4458__auto____$1);
 }));
@@ -109,10 +109,10 @@ var h__4297__auto__ = self__.__hash;
 if((!((h__4297__auto__ == null)))){
 return h__4297__auto__;
 } else {
-var h__4297__auto____$1 = (function (){var fexpr__29961 = (function (coll__4436__auto__){
+var h__4297__auto____$1 = (function (){var fexpr__29965 = (function (coll__4436__auto__){
 return (-1883175395 ^ cljs.core.hash_unordered_coll(coll__4436__auto__));
 });
-return fexpr__29961(this__4435__auto____$1);
+return fexpr__29965(this__4435__auto____$1);
 })();
 (self__.__hash = h__4297__auto____$1);
 
@@ -252,11 +252,11 @@ return (new rewrite_clj.node.uneval.UnevalNode(children,null,null,null));
  * Factory function for rewrite-clj.node.uneval/UnevalNode, taking a map of keywords to field values.
  */
 rewrite_clj.node.uneval.map__GT_UnevalNode = (function rewrite_clj$node$uneval$map__GT_UnevalNode(G__29949){
-var extmap__4478__auto__ = (function (){var G__29975 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(G__29949,new cljs.core.Keyword(null,"children","children",-940561982));
+var extmap__4478__auto__ = (function (){var G__29977 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(G__29949,new cljs.core.Keyword(null,"children","children",-940561982));
 if(cljs.core.record_QMARK_(G__29949)){
-return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__29975);
+return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__29977);
 } else {
-return G__29975;
+return G__29977;
 }
 })();
 return (new rewrite_clj.node.uneval.UnevalNode(new cljs.core.Keyword(null,"children","children",-940561982).cljs$core$IFn$_invoke$arity$1(G__29949),null,cljs.core.not_empty(extmap__4478__auto__),null));

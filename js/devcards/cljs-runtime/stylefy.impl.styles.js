@@ -20,8 +20,8 @@ var style = map__38703__$1;
 var props = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__38703__$1,new cljs.core.Keyword(null,"props","props",453281727));
 var hash = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__38703__$1,new cljs.core.Keyword(null,"hash","hash",-13781596));
 var style_css = stylefy.impl.conversion.style__GT_css.cljs$core$IFn$_invoke$arity$1(style);
-var G__38705_38782 = new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"css","css",1135045163),style_css,new cljs.core.Keyword(null,"hash","hash",-13781596),hash], null);
-(style_created_handler.cljs$core$IFn$_invoke$arity$1 ? style_created_handler.cljs$core$IFn$_invoke$arity$1(G__38705_38782) : style_created_handler.call(null,G__38705_38782));
+var G__38705_38781 = new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"css","css",1135045163),style_css,new cljs.core.Keyword(null,"hash","hash",-13781596),hash], null);
+(style_created_handler.cljs$core$IFn$_invoke$arity$1 ? style_created_handler.cljs$core$IFn$_invoke$arity$1(G__38705_38781) : style_created_handler.call(null,G__38705_38781));
 
 var seq__38706 = cljs.core.seq(cljs.core.vals(new cljs.core.Keyword("stylefy.core","sub-styles","stylefy.core/sub-styles",-1546489432).cljs$core$IFn$_invoke$arity$1(props)));
 var chunk__38707 = null;
@@ -30,19 +30,19 @@ var i__38709 = (0);
 while(true){
 if((i__38709 < count__38708)){
 var sub_style = chunk__38707.cljs$core$IIndexed$_nth$arity$2(null,i__38709);
-var G__38715_38784 = new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"props","props",453281727),sub_style,new cljs.core.Keyword(null,"hash","hash",-13781596),stylefy.impl.hashing.hash_style(sub_style)], null);
-var G__38716_38785 = style_created_handler;
-(stylefy.impl.styles.create_style_BANG_.cljs$core$IFn$_invoke$arity$2 ? stylefy.impl.styles.create_style_BANG_.cljs$core$IFn$_invoke$arity$2(G__38715_38784,G__38716_38785) : stylefy.impl.styles.create_style_BANG_.call(null,G__38715_38784,G__38716_38785));
+var G__38714_38784 = new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"props","props",453281727),sub_style,new cljs.core.Keyword(null,"hash","hash",-13781596),stylefy.impl.hashing.hash_style(sub_style)], null);
+var G__38715_38785 = style_created_handler;
+(stylefy.impl.styles.create_style_BANG_.cljs$core$IFn$_invoke$arity$2 ? stylefy.impl.styles.create_style_BANG_.cljs$core$IFn$_invoke$arity$2(G__38714_38784,G__38715_38785) : stylefy.impl.styles.create_style_BANG_.call(null,G__38714_38784,G__38715_38785));
 
 
-var G__38788 = seq__38706;
-var G__38789 = chunk__38707;
-var G__38790 = count__38708;
-var G__38791 = (i__38709 + (1));
-seq__38706 = G__38788;
-chunk__38707 = G__38789;
-count__38708 = G__38790;
-i__38709 = G__38791;
+var G__38786 = seq__38706;
+var G__38787 = chunk__38707;
+var G__38788 = count__38708;
+var G__38789 = (i__38709 + (1));
+seq__38706 = G__38786;
+chunk__38707 = G__38787;
+count__38708 = G__38788;
+i__38709 = G__38789;
 continue;
 } else {
 var temp__5735__auto__ = cljs.core.seq(seq__38706);
@@ -61,9 +61,9 @@ i__38709 = G__38795;
 continue;
 } else {
 var sub_style = cljs.core.first(seq__38706__$1);
-var G__38718_38798 = new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"props","props",453281727),sub_style,new cljs.core.Keyword(null,"hash","hash",-13781596),stylefy.impl.hashing.hash_style(sub_style)], null);
-var G__38719_38799 = style_created_handler;
-(stylefy.impl.styles.create_style_BANG_.cljs$core$IFn$_invoke$arity$2 ? stylefy.impl.styles.create_style_BANG_.cljs$core$IFn$_invoke$arity$2(G__38718_38798,G__38719_38799) : stylefy.impl.styles.create_style_BANG_.call(null,G__38718_38798,G__38719_38799));
+var G__38717_38796 = new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"props","props",453281727),sub_style,new cljs.core.Keyword(null,"hash","hash",-13781596),stylefy.impl.hashing.hash_style(sub_style)], null);
+var G__38718_38797 = style_created_handler;
+(stylefy.impl.styles.create_style_BANG_.cljs$core$IFn$_invoke$arity$2 ? stylefy.impl.styles.create_style_BANG_.cljs$core$IFn$_invoke$arity$2(G__38717_38796,G__38718_38797) : stylefy.impl.styles.create_style_BANG_.call(null,G__38717_38796,G__38718_38797));
 
 
 var G__38800 = cljs.core.next(seq__38706__$1);
@@ -106,12 +106,12 @@ return null;
 }
 });
 stylefy.impl.styles.validate_class_definition = (function stylefy$impl$styles$validate_class_definition(class$,origin){
-if((((class$ == null)) || (typeof class$ === 'string') || ((class$ instanceof cljs.core.Keyword)) || (((cljs.core.vector_QMARK_(class$)) && (cljs.core.every_QMARK_((function (p1__38724_SHARP_){
-return ((typeof p1__38724_SHARP_ === 'string') || ((p1__38724_SHARP_ instanceof cljs.core.Keyword)) || ((p1__38724_SHARP_ == null)));
+if((((class$ == null)) || (typeof class$ === 'string') || ((class$ instanceof cljs.core.Keyword)) || (((cljs.core.vector_QMARK_(class$)) && (cljs.core.every_QMARK_((function (p1__38722_SHARP_){
+return ((typeof p1__38722_SHARP_ === 'string') || ((p1__38722_SHARP_ instanceof cljs.core.Keyword)) || ((p1__38722_SHARP_ == null)));
 }),class$)))))){
 return null;
 } else {
-throw (new Error(["Assert failed: ",["Unsupported ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(origin)," type. It should be nil, keyword, string or vector of strings/keywords). Got: ",cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([class$], 0))].join(''),"\n","(or (nil? class) (string? class) (keyword? class) (and (vector? class) (every? (fn* [p1__38724#] (or (string? p1__38724#) (keyword? p1__38724#) (nil? p1__38724#))) class)))"].join('')));
+throw (new Error(["Assert failed: ",["Unsupported ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(origin)," type. It should be nil, keyword, string or vector of strings/keywords). Got: ",cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([class$], 0))].join(''),"\n","(or (nil? class) (string? class) (keyword? class) (and (vector? class) (every? (fn* [p1__38722#] (or (string? p1__38722#) (keyword? p1__38722#) (nil? p1__38722#))) class)))"].join('')));
 }
 });
 /**

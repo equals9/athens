@@ -61,8 +61,8 @@ goog.require('stylefy.impl.styles');
  * Options is an optional map, which contains HTML attributes (:class, :href, :src etc.).
  */
 stylefy.core.use_style = (function stylefy$core$use_style(var_args){
-var G__38891 = arguments.length;
-switch (G__38891) {
+var G__38888 = arguments.length;
+switch (G__38888) {
 case 1:
 return stylefy.core.use_style.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -148,14 +148,14 @@ return stylefy.impl.styles.use_sub_style_BANG_(style,sub_style,options,stylefy.i
  */
 stylefy.core.sub_style = (function stylefy$core$sub_style(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___38923 = arguments.length;
-var i__4790__auto___38924 = (0);
+var len__4789__auto___38922 = arguments.length;
+var i__4790__auto___38923 = (0);
 while(true){
-if((i__4790__auto___38924 < len__4789__auto___38923)){
-args__4795__auto__.push((arguments[i__4790__auto___38924]));
+if((i__4790__auto___38923 < len__4789__auto___38922)){
+args__4795__auto__.push((arguments[i__4790__auto___38923]));
 
-var G__38926 = (i__4790__auto___38924 + (1));
-i__4790__auto___38924 = G__38926;
+var G__38924 = (i__4790__auto___38923 + (1));
+i__4790__auto___38923 = G__38924;
 continue;
 } else {
 }
@@ -276,14 +276,14 @@ return null;
  */
 stylefy.core.keyframes = (function stylefy$core$keyframes(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___38932 = arguments.length;
-var i__4790__auto___38933 = (0);
+var len__4789__auto___38931 = arguments.length;
+var i__4790__auto___38932 = (0);
 while(true){
-if((i__4790__auto___38933 < len__4789__auto___38932)){
-args__4795__auto__.push((arguments[i__4790__auto___38933]));
+if((i__4790__auto___38932 < len__4789__auto___38931)){
+args__4795__auto__.push((arguments[i__4790__auto___38932]));
 
-var G__38935 = (i__4790__auto___38933 + (1));
-i__4790__auto___38933 = G__38935;
+var G__38934 = (i__4790__auto___38932 + (1));
+i__4790__auto___38932 = G__38934;
 continue;
 } else {
 }
@@ -309,11 +309,11 @@ return null;
 (stylefy.core.keyframes.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(stylefy.core.keyframes.cljs$lang$applyTo = (function (seq38901){
-var G__38902 = cljs.core.first(seq38901);
-var seq38901__$1 = cljs.core.next(seq38901);
+(stylefy.core.keyframes.cljs$lang$applyTo = (function (seq38902){
+var G__38903 = cljs.core.first(seq38902);
+var seq38902__$1 = cljs.core.next(seq38902);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__38902,seq38901__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__38903,seq38902__$1);
 }));
 
 /**

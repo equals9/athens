@@ -51,21 +51,21 @@ return this$__$1;
 
 goog.object.set(reitit.core.Expand,"function",true);
 
-var G__50010_50186 = reitit.core.expand;
-var G__50011_50187 = "function";
-var G__50012_50188 = (function (this$,_){
+var G__50010_50187 = reitit.core.expand;
+var G__50011_50188 = "function";
+var G__50012_50189 = (function (this$,_){
 return new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"handler","handler",-195596612),this$], null);
 });
-goog.object.set(G__50010_50186,G__50011_50187,G__50012_50188);
+goog.object.set(G__50010_50187,G__50011_50188,G__50012_50189);
 
 goog.object.set(reitit.core.Expand,"null",true);
 
-var G__50013_50189 = reitit.core.expand;
-var G__50014_50190 = "null";
-var G__50015_50191 = (function (_,___$1){
+var G__50013_50190 = reitit.core.expand;
+var G__50014_50191 = "null";
+var G__50015_50192 = (function (_,___$1){
 return null;
 });
-goog.object.set(G__50013_50189,G__50014_50190,G__50015_50191);
+goog.object.set(G__50013_50190,G__50014_50191,G__50015_50192);
 
 /**
  * @interface
@@ -1054,10 +1054,10 @@ return reitit.core.lookup_router.cljs$core$IFn$_invoke$arity$2(compiled_routes,c
 }));
 
 (reitit.core.lookup_router.cljs$core$IFn$_invoke$arity$2 = (function (compiled_routes,opts){
-var temp__5735__auto___50232 = cljs.core.seq(cljs.core.filter.cljs$core$IFn$_invoke$arity$2(reitit.impl.__GT_wild_route_QMARK_(opts),compiled_routes));
-if(temp__5735__auto___50232){
-var wilds_50233 = temp__5735__auto___50232;
-reitit.exception.fail_BANG_.cljs$core$IFn$_invoke$arity$2(["can't create :lookup-router with wildcard routes: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(wilds_50233)].join(''),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"wilds","wilds",132271223),wilds_50233,new cljs.core.Keyword(null,"routes","routes",457900162),compiled_routes], null));
+var temp__5735__auto___50275 = cljs.core.seq(cljs.core.filter.cljs$core$IFn$_invoke$arity$2(reitit.impl.__GT_wild_route_QMARK_(opts),compiled_routes));
+if(temp__5735__auto___50275){
+var wilds_50276 = temp__5735__auto___50275;
+reitit.exception.fail_BANG_.cljs$core$IFn$_invoke$arity$2(["can't create :lookup-router with wildcard routes: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(wilds_50276)].join(''),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"wilds","wilds",132271223),wilds_50276,new cljs.core.Keyword(null,"routes","routes",457900162),compiled_routes], null));
 } else {
 }
 
@@ -1987,13 +1987,13 @@ var wilds_QMARK_ = cljs.core.boolean$(cljs.core.some(reitit.impl.__GT_wild_route
 var all_wilds_QMARK_ = cljs.core.every_QMARK_(reitit.impl.__GT_wild_route_QMARK_(opts__$1),compiled_routes);
 var router__$1 = (cljs.core.truth_(router)?router:((((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2((1),cljs.core.count(compiled_routes))) && ((!(wilds_QMARK_)))))?reitit.core.single_static_path_router:(cljs.core.truth_(path_conflicting)?reitit.core.quarantine_router:(((!(wilds_QMARK_)))?reitit.core.lookup_router:((all_wilds_QMARK_)?reitit.core.trie_router:reitit.core.mixed_router
 )))));
-var temp__5735__auto___50295 = new cljs.core.Keyword(null,"conflicts","conflicts",-1219561816).cljs$core$IFn$_invoke$arity$1(opts__$1);
-if(cljs.core.truth_(temp__5735__auto___50295)){
-var conflicts_50296 = temp__5735__auto___50295;
-var temp__5735__auto___50297__$1 = reitit.impl.unresolved_conflicts(path_conflicting);
-if(cljs.core.truth_(temp__5735__auto___50297__$1)){
-var conflict_report_50301 = temp__5735__auto___50297__$1;
-(conflicts_50296.cljs$core$IFn$_invoke$arity$1 ? conflicts_50296.cljs$core$IFn$_invoke$arity$1(conflict_report_50301) : conflicts_50296.call(null,conflict_report_50301));
+var temp__5735__auto___50314 = new cljs.core.Keyword(null,"conflicts","conflicts",-1219561816).cljs$core$IFn$_invoke$arity$1(opts__$1);
+if(cljs.core.truth_(temp__5735__auto___50314)){
+var conflicts_50315 = temp__5735__auto___50314;
+var temp__5735__auto___50316__$1 = reitit.impl.unresolved_conflicts(path_conflicting);
+if(cljs.core.truth_(temp__5735__auto___50316__$1)){
+var conflict_report_50317 = temp__5735__auto___50316__$1;
+(conflicts_50315.cljs$core$IFn$_invoke$arity$1 ? conflicts_50315.cljs$core$IFn$_invoke$arity$1(conflict_report_50317) : conflicts_50315.call(null,conflict_report_50317));
 } else {
 }
 } else {
@@ -2004,10 +2004,10 @@ reitit.exception.fail_BANG_.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(
 } else {
 }
 
-var temp__5735__auto___50306 = new cljs.core.Keyword(null,"validate","validate",-201300827).cljs$core$IFn$_invoke$arity$1(opts__$1);
-if(cljs.core.truth_(temp__5735__auto___50306)){
-var validate_50309 = temp__5735__auto___50306;
-(validate_50309.cljs$core$IFn$_invoke$arity$2 ? validate_50309.cljs$core$IFn$_invoke$arity$2(compiled_routes,opts__$1) : validate_50309.call(null,compiled_routes,opts__$1));
+var temp__5735__auto___50319 = new cljs.core.Keyword(null,"validate","validate",-201300827).cljs$core$IFn$_invoke$arity$1(opts__$1);
+if(cljs.core.truth_(temp__5735__auto___50319)){
+var validate_50320 = temp__5735__auto___50319;
+(validate_50320.cljs$core$IFn$_invoke$arity$2 ? validate_50320.cljs$core$IFn$_invoke$arity$2(compiled_routes,opts__$1) : validate_50320.call(null,compiled_routes,opts__$1));
 } else {
 }
 

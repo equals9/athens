@@ -13,16 +13,16 @@ return null;
 throw (new Error("doseq requires an even number of forms in binding vector"));
 }
 });
-sci.impl.doseq_macro.expand_doseq = (function sci$impl$doseq_macro$expand_doseq(_,p__58467){
-var vec__58468 = p__58467;
-var seq__58469 = cljs.core.seq(vec__58468);
-var first__58470 = cljs.core.first(seq__58469);
-var seq__58469__$1 = cljs.core.next(seq__58469);
-var ___$1 = first__58470;
-var first__58470__$1 = cljs.core.first(seq__58469__$1);
-var seq__58469__$2 = cljs.core.next(seq__58469__$1);
-var seq_exprs = first__58470__$1;
-var body = seq__58469__$2;
+sci.impl.doseq_macro.expand_doseq = (function sci$impl$doseq_macro$expand_doseq(_,p__58465){
+var vec__58466 = p__58465;
+var seq__58467 = cljs.core.seq(vec__58466);
+var first__58468 = cljs.core.first(seq__58467);
+var seq__58467__$1 = cljs.core.next(seq__58467);
+var ___$1 = first__58468;
+var first__58468__$1 = cljs.core.first(seq__58467__$1);
+var seq__58467__$2 = cljs.core.next(seq__58467__$1);
+var seq_exprs = first__58468__$1;
+var body = seq__58467__$2;
 sci.impl.doseq_macro.assert_args(seq_exprs,body);
 
 var step = (function sci$impl$doseq_macro$expand_doseq_$_step(recform,exprs){

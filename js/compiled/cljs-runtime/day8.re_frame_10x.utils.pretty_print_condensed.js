@@ -324,10 +324,10 @@ day8.re_frame_10x.utils.pretty_print_condensed.pr_writer = (function day8$re_fra
 var temp__5733__auto__ = new cljs.core.Keyword(null,"alt-impl","alt-impl",670969595).cljs$core$IFn$_invoke$arity$1(opts);
 if(cljs.core.truth_(temp__5733__auto__)){
 var alt_impl = temp__5733__auto__;
-var G__31956 = obj;
-var G__31957 = writer;
-var G__31958 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(opts,new cljs.core.Keyword(null,"fallback-impl","fallback-impl",-1501286995),day8.re_frame_10x.utils.pretty_print_condensed.pr_writer_impl);
-return (alt_impl.cljs$core$IFn$_invoke$arity$3 ? alt_impl.cljs$core$IFn$_invoke$arity$3(G__31956,G__31957,G__31958) : alt_impl.call(null,G__31956,G__31957,G__31958));
+var G__31957 = obj;
+var G__31958 = writer;
+var G__31959 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(opts,new cljs.core.Keyword(null,"fallback-impl","fallback-impl",-1501286995),day8.re_frame_10x.utils.pretty_print_condensed.pr_writer_impl);
+return (alt_impl.cljs$core$IFn$_invoke$arity$3 ? alt_impl.cljs$core$IFn$_invoke$arity$3(G__31957,G__31958,G__31959) : alt_impl.call(null,G__31957,G__31958,G__31959));
 } else {
 return day8.re_frame_10x.utils.pretty_print_condensed.pr_writer_impl(obj,writer,opts);
 }
@@ -347,14 +347,14 @@ cljs.core._write(writer," ");
 day8.re_frame_10x.utils.pretty_print_condensed.pr_writer(obj,writer,opts);
 
 
-var G__31983 = seq__31960;
-var G__31984 = chunk__31961;
-var G__31985 = count__31962;
-var G__31986 = (i__31963 + (1));
-seq__31960 = G__31983;
-chunk__31961 = G__31984;
-count__31962 = G__31985;
-i__31963 = G__31986;
+var G__31986 = seq__31960;
+var G__31987 = chunk__31961;
+var G__31988 = count__31962;
+var G__31989 = (i__31963 + (1));
+seq__31960 = G__31986;
+chunk__31961 = G__31987;
+count__31962 = G__31988;
+i__31963 = G__31989;
 continue;
 } else {
 var temp__5735__auto__ = cljs.core.seq(seq__31960);
@@ -362,14 +362,14 @@ if(temp__5735__auto__){
 var seq__31960__$1 = temp__5735__auto__;
 if(cljs.core.chunked_seq_QMARK_(seq__31960__$1)){
 var c__4609__auto__ = cljs.core.chunk_first(seq__31960__$1);
-var G__31989 = cljs.core.chunk_rest(seq__31960__$1);
-var G__31990 = c__4609__auto__;
-var G__31991 = cljs.core.count(c__4609__auto__);
-var G__31992 = (0);
-seq__31960 = G__31989;
-chunk__31961 = G__31990;
-count__31962 = G__31991;
-i__31963 = G__31992;
+var G__31990 = cljs.core.chunk_rest(seq__31960__$1);
+var G__31991 = c__4609__auto__;
+var G__31992 = cljs.core.count(c__4609__auto__);
+var G__31993 = (0);
+seq__31960 = G__31990;
+chunk__31961 = G__31991;
+count__31962 = G__31992;
+i__31963 = G__31993;
 continue;
 } else {
 var obj = cljs.core.first(seq__31960__$1);
@@ -378,14 +378,14 @@ cljs.core._write(writer," ");
 day8.re_frame_10x.utils.pretty_print_condensed.pr_writer(obj,writer,opts);
 
 
-var G__31993 = cljs.core.next(seq__31960__$1);
-var G__31994 = null;
-var G__31995 = (0);
+var G__31994 = cljs.core.next(seq__31960__$1);
+var G__31995 = null;
 var G__31996 = (0);
-seq__31960 = G__31993;
-chunk__31961 = G__31994;
-count__31962 = G__31995;
-i__31963 = G__31996;
+var G__31997 = (0);
+seq__31960 = G__31994;
+chunk__31961 = G__31995;
+count__31962 = G__31996;
+i__31963 = G__31997;
 continue;
 }
 } else {
@@ -497,14 +497,14 @@ return new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"fl
  */
 day8.re_frame_10x.utils.pretty_print_condensed.pr_str_truncated = (function day8$re_frame_10x$utils$pretty_print_condensed$pr_str_truncated(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___31998 = arguments.length;
-var i__4790__auto___31999 = (0);
+var len__4789__auto___32002 = arguments.length;
+var i__4790__auto___32003 = (0);
 while(true){
-if((i__4790__auto___31999 < len__4789__auto___31998)){
-args__4795__auto__.push((arguments[i__4790__auto___31999]));
+if((i__4790__auto___32003 < len__4789__auto___32002)){
+args__4795__auto__.push((arguments[i__4790__auto___32003]));
 
-var G__32000 = (i__4790__auto___31999 + (1));
-i__4790__auto___31999 = G__32000;
+var G__32004 = (i__4790__auto___32003 + (1));
+i__4790__auto___32003 = G__32004;
 continue;
 } else {
 }
