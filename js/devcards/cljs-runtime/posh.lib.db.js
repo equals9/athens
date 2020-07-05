@@ -31,10 +31,10 @@ var path = cljs.core.PersistentVector.EMPTY;
 var pdb = poshdb;
 while(true){
 if(cljs.core.truth_(pdb)){
-var G__30690 = cljs.core.cons(pdb,path);
-var G__30691 = posh.lib.db.get_parent_db(pdb);
-path = G__30690;
-pdb = G__30691;
+var G__30687 = cljs.core.cons(pdb,path);
+var G__30688 = posh.lib.db.get_parent_db(pdb);
+path = G__30687;
+pdb = G__30688;
 continue;
 } else {
 return path;
@@ -75,8 +75,8 @@ return posh.lib.datom_matcher.datom_match_QMARK_(tx_patterns,datom);
 });
 });
 posh.lib.db.generate_initial_db = (function posh$lib$db$generate_initial_db(var_args){
-var G__30657 = arguments.length;
-switch (G__30657) {
+var G__30661 = arguments.length;
+switch (G__30661) {
 case 3:
 return posh.lib.db.generate_initial_db.cljs$core$IFn$_invoke$arity$3((arguments[(0)]),(arguments[(1)]),(arguments[(2)]));
 
@@ -130,21 +130,21 @@ return db__$5;
 (posh.lib.db.generate_initial_db.cljs$lang$maxFixedArity = 4);
 
 posh.lib.db.poshdb__GT_db = (function posh$lib$db$poshdb__GT_db(p__30673,poshdb){
-var map__30675 = p__30673;
-var map__30675__$1 = (((((!((map__30675 == null))))?(((((map__30675.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__30675.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__30675):map__30675);
-var posh_tree = map__30675__$1;
-var dcfg = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__30675__$1,new cljs.core.Keyword(null,"dcfg","dcfg",-880371016));
-var cache = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__30675__$1,new cljs.core.Keyword(null,"cache","cache",-1237023054));
+var map__30674 = p__30673;
+var map__30674__$1 = (((((!((map__30674 == null))))?(((((map__30674.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__30674.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__30674):map__30674);
+var posh_tree = map__30674__$1;
+var dcfg = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__30674__$1,new cljs.core.Keyword(null,"dcfg","dcfg",-880371016));
+var cache = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__30674__$1,new cljs.core.Keyword(null,"cache","cache",-1237023054));
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.first(poshdb),new cljs.core.Keyword(null,"db","db",993250759))){
 return posh.lib.db.db_id__GT_db(posh_tree,cljs.core.second(poshdb));
 } else {
-var G__30681 = (function (){var G__30684 = posh_tree;
-var G__30685 = posh.lib.db.get_parent_db(poshdb);
-return (posh.lib.db.poshdb__GT_db.cljs$core$IFn$_invoke$arity$2 ? posh.lib.db.poshdb__GT_db.cljs$core$IFn$_invoke$arity$2(G__30684,G__30685) : posh.lib.db.poshdb__GT_db.call(null,G__30684,G__30685));
+var G__30677 = (function (){var G__30679 = posh_tree;
+var G__30680 = posh.lib.db.get_parent_db(poshdb);
+return (posh.lib.db.poshdb__GT_db.cljs$core$IFn$_invoke$arity$2 ? posh.lib.db.poshdb__GT_db.cljs$core$IFn$_invoke$arity$2(G__30679,G__30680) : posh.lib.db.poshdb__GT_db.call(null,G__30679,G__30680));
 })();
-var G__30682 = posh.lib.db.make_filter_pred(new cljs.core.Keyword(null,"pass-patterns","pass-patterns",1090887263).cljs$core$IFn$_invoke$arity$1(cljs.core.get.cljs$core$IFn$_invoke$arity$2(cache,poshdb)));
-var fexpr__30680 = new cljs.core.Keyword(null,"filter","filter",-948537934).cljs$core$IFn$_invoke$arity$1(dcfg);
-return (fexpr__30680.cljs$core$IFn$_invoke$arity$2 ? fexpr__30680.cljs$core$IFn$_invoke$arity$2(G__30681,G__30682) : fexpr__30680.call(null,G__30681,G__30682));
+var G__30678 = posh.lib.db.make_filter_pred(new cljs.core.Keyword(null,"pass-patterns","pass-patterns",1090887263).cljs$core$IFn$_invoke$arity$1(cljs.core.get.cljs$core$IFn$_invoke$arity$2(cache,poshdb)));
+var fexpr__30676 = new cljs.core.Keyword(null,"filter","filter",-948537934).cljs$core$IFn$_invoke$arity$1(dcfg);
+return (fexpr__30676.cljs$core$IFn$_invoke$arity$2 ? fexpr__30676.cljs$core$IFn$_invoke$arity$2(G__30677,G__30678) : fexpr__30676.call(null,G__30677,G__30678));
 }
 });
 posh.lib.db.poshdb__GT_analyze_db = (function posh$lib$db$poshdb__GT_analyze_db(posh_tree,poshdb){

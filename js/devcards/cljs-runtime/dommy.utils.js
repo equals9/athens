@@ -4,19 +4,19 @@ goog.require('cljs.core');
  * Dissociate this keyseq from m, removing any empty maps created as a result
  * (including at the top-level).
  */
-dommy.utils.dissoc_in = (function dommy$utils$dissoc_in(m,p__34620){
-var vec__34621 = p__34620;
-var seq__34622 = cljs.core.seq(vec__34621);
-var first__34623 = cljs.core.first(seq__34622);
-var seq__34622__$1 = cljs.core.next(seq__34622);
-var k = first__34623;
-var ks = seq__34622__$1;
+dommy.utils.dissoc_in = (function dommy$utils$dissoc_in(m,p__34615){
+var vec__34616 = p__34615;
+var seq__34617 = cljs.core.seq(vec__34616);
+var first__34618 = cljs.core.first(seq__34617);
+var seq__34617__$1 = cljs.core.next(seq__34617);
+var k = first__34618;
+var ks = seq__34617__$1;
 if(cljs.core.truth_(m)){
 var temp__5733__auto__ = (function (){var and__4174__auto__ = ks;
 if(and__4174__auto__){
-var G__34626 = (m.cljs$core$IFn$_invoke$arity$1 ? m.cljs$core$IFn$_invoke$arity$1(k) : m.call(null,k));
-var G__34627 = ks;
-return (dommy.utils.dissoc_in.cljs$core$IFn$_invoke$arity$2 ? dommy.utils.dissoc_in.cljs$core$IFn$_invoke$arity$2(G__34626,G__34627) : dommy.utils.dissoc_in.call(null,G__34626,G__34627));
+var G__34621 = (m.cljs$core$IFn$_invoke$arity$1 ? m.cljs$core$IFn$_invoke$arity$1(k) : m.call(null,k));
+var G__34622 = ks;
+return (dommy.utils.dissoc_in.cljs$core$IFn$_invoke$arity$2 ? dommy.utils.dissoc_in.cljs$core$IFn$_invoke$arity$2(G__34621,G__34622) : dommy.utils.dissoc_in.call(null,G__34621,G__34622));
 } else {
 return and__4174__auto__;
 }
@@ -102,10 +102,10 @@ var class_len = class_name.length;
 var temp__5733__auto__ = dommy.utils.class_index(class_name,class$);
 if(cljs.core.truth_(temp__5733__auto__)){
 var i = temp__5733__auto__;
-var G__34632 = (function (){var end = (i + class$.length);
+var G__34631 = (function (){var end = (i + class$.length);
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1((((end < class_len))?[cljs.core.str.cljs$core$IFn$_invoke$arity$1(class_name.substring((0),i)),cljs.core.str.cljs$core$IFn$_invoke$arity$1(class_name.substr((end + (1))))].join(''):class_name.substring((0),(i - (1)))));
 })();
-class_name = G__34632;
+class_name = G__34631;
 continue;
 } else {
 return class_name;

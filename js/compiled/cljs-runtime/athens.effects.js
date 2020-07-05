@@ -9,8 +9,8 @@ goog.require('datascript.transit');
 goog.require('day8.re_frame.async_flow_fx');
 goog.require('posh.reagent');
 goog.require('re_frame.core');
-var G__52195_52287 = new cljs.core.Keyword(null,"transact!","transact!",-822725810);
-var G__52196_52288 = (function (datoms){
+var G__52195_52292 = new cljs.core.Keyword(null,"transact!","transact!",-822725810);
+var G__52196_52293 = (function (datoms){
 cljs.core.prn.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["TX INPUTS"], 0));
 
 cljs.pprint.pprint.cljs$core$IFn$_invoke$arity$1(datoms);
@@ -20,19 +20,19 @@ cljs.core.prn.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$
 var outputs = new cljs.core.Keyword(null,"tx-data","tx-data",934159761).cljs$core$IFn$_invoke$arity$1((posh.reagent.transact_BANG_.cljs$core$IFn$_invoke$arity$2 ? posh.reagent.transact_BANG_.cljs$core$IFn$_invoke$arity$2(athens.db.dsdb,datoms) : posh.reagent.transact_BANG_.call(null,athens.db.dsdb,datoms)));
 return cljs.pprint.pprint.cljs$core$IFn$_invoke$arity$1(outputs);
 });
-(re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2(G__52195_52287,G__52196_52288) : re_frame.core.reg_fx.call(null,G__52195_52287,G__52196_52288));
-var G__52197_52291 = new cljs.core.Keyword(null,"reset-conn!","reset-conn!",-325354379);
-var G__52198_52292 = (function (new_db){
+(re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2(G__52195_52292,G__52196_52293) : re_frame.core.reg_fx.call(null,G__52195_52292,G__52196_52293));
+var G__52197_52294 = new cljs.core.Keyword(null,"reset-conn!","reset-conn!",-325354379);
+var G__52198_52295 = (function (new_db){
 return datascript.core.reset_conn_BANG_.cljs$core$IFn$_invoke$arity$2(athens.db.dsdb,new_db);
 });
-(re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2(G__52197_52291,G__52198_52292) : re_frame.core.reg_fx.call(null,G__52197_52291,G__52198_52292));
-var G__52199_52293 = new cljs.core.Keyword("local-storage","set-db!","local-storage/set-db!",581380949);
-var G__52200_52294 = (function (db){
+(re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2(G__52197_52294,G__52198_52295) : re_frame.core.reg_fx.call(null,G__52197_52294,G__52198_52295));
+var G__52199_52296 = new cljs.core.Keyword("local-storage","set-db!","local-storage/set-db!",581380949);
+var G__52200_52297 = (function (db){
 return localStorage.setItem("datascript/DB",datascript.transit.write_transit_str(db));
 });
-(re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2(G__52199_52293,G__52200_52294) : re_frame.core.reg_fx.call(null,G__52199_52293,G__52200_52294));
-var G__52201_52295 = new cljs.core.Keyword(null,"http","http",382524695);
-var G__52202_52296 = (function (p__52203){
+(re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2(G__52199_52296,G__52200_52297) : re_frame.core.reg_fx.call(null,G__52199_52296,G__52200_52297));
+var G__52201_52298 = new cljs.core.Keyword(null,"http","http",382524695);
+var G__52202_52299 = (function (p__52203){
 var map__52204 = p__52203;
 var map__52204__$1 = (((((!((map__52204 == null))))?(((((map__52204.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__52204.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__52204):map__52204);
 var url = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52204__$1,new cljs.core.Keyword(null,"url","url",276297046));
@@ -55,12 +55,12 @@ var state_52248__$1 = (function (){var statearr_52250 = state_52248;
 return statearr_52250;
 })();
 if(inst_52218){
-var statearr_52251_52299 = state_52248__$1;
-(statearr_52251_52299[(1)] = (8));
+var statearr_52251_52300 = state_52248__$1;
+(statearr_52251_52300[(1)] = (8));
 
 } else {
-var statearr_52252_52300 = state_52248__$1;
-(statearr_52252_52300[(1)] = (9));
+var statearr_52252_52301 = state_52248__$1;
+(statearr_52252_52301[(1)] = (9));
 
 }
 
@@ -68,9 +68,9 @@ return new cljs.core.Keyword(null,"recur","recur",-437573268);
 } else {
 if((state_val_52249 === (1))){
 var state_52248__$1 = state_52248;
-var G__52253_52301 = method;
-var G__52253_52302__$1 = (((G__52253_52301 instanceof cljs.core.Keyword))?G__52253_52301.fqn:null);
-switch (G__52253_52302__$1) {
+var G__52253_52302 = method;
+var G__52253_52303__$1 = (((G__52253_52302 instanceof cljs.core.Keyword))?G__52253_52302.fqn:null);
+switch (G__52253_52303__$1) {
 case "post":
 var statearr_52254_52305 = state_52248__$1;
 (statearr_52254_52305[(1)] = (3));
@@ -96,7 +96,7 @@ var statearr_52257_52308 = state_52248__$1;
 
 break;
 default:
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__52253_52302__$1)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__52253_52303__$1)].join('')));
 
 }
 
@@ -274,10 +274,10 @@ var inst_52236 = (state_52248[(9)]);
 var inst_52243 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(on_failure,inst_52236);
 var inst_52244 = (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(inst_52243) : re_frame.core.dispatch.call(null,inst_52243));
 var state_52248__$1 = state_52248;
-var statearr_52274_52326 = state_52248__$1;
-(statearr_52274_52326[(2)] = inst_52244);
+var statearr_52274_52325 = state_52248__$1;
+(statearr_52274_52325[(2)] = inst_52244);
 
-(statearr_52274_52326[(1)] = (19));
+(statearr_52274_52325[(1)] = (19));
 
 
 return new cljs.core.Keyword(null,"recur","recur",-437573268);
@@ -291,8 +291,8 @@ var inst_52223 = (cljs.core.PROTOCOL_SENTINEL === inst_52222);
 var inst_52224 = ((inst_52221) || (inst_52223));
 var state_52248__$1 = state_52248;
 if(cljs.core.truth_(inst_52224)){
-var statearr_52275_52328 = state_52248__$1;
-(statearr_52275_52328[(1)] = (11));
+var statearr_52275_52327 = state_52248__$1;
+(statearr_52275_52327[(1)] = (11));
 
 } else {
 var statearr_52276_52329 = state_52248__$1;
@@ -392,19 +392,19 @@ return cljs.core.async.impl.ioc_helpers.run_state_machine_wrapped(state__38857__
 
 return c__38855__auto__;
 });
-(re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2(G__52201_52295,G__52202_52296) : re_frame.core.reg_fx.call(null,G__52201_52295,G__52202_52296));
-var G__52281_52332 = new cljs.core.Keyword(null,"timeout","timeout",-318625318);
-var G__52282_52333 = (function (){var timers = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentArrayMap.EMPTY);
-return (function (p__52283){
-var map__52284 = p__52283;
-var map__52284__$1 = (((((!((map__52284 == null))))?(((((map__52284.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__52284.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__52284):map__52284);
-var action = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52284__$1,new cljs.core.Keyword(null,"action","action",-811238024));
-var id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52284__$1,new cljs.core.Keyword(null,"id","id",-1388402092));
-var event = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52284__$1,new cljs.core.Keyword(null,"event","event",301435442));
-var wait = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52284__$1,new cljs.core.Keyword(null,"wait","wait",-260664777));
-var G__52286 = action;
-var G__52286__$1 = (((G__52286 instanceof cljs.core.Keyword))?G__52286.fqn:null);
-switch (G__52286__$1) {
+(re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2(G__52201_52298,G__52202_52299) : re_frame.core.reg_fx.call(null,G__52201_52298,G__52202_52299));
+var G__52283_52332 = new cljs.core.Keyword(null,"timeout","timeout",-318625318);
+var G__52284_52333 = (function (){var timers = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentArrayMap.EMPTY);
+return (function (p__52285){
+var map__52286 = p__52285;
+var map__52286__$1 = (((((!((map__52286 == null))))?(((((map__52286.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__52286.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__52286):map__52286);
+var action = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52286__$1,new cljs.core.Keyword(null,"action","action",-811238024));
+var id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52286__$1,new cljs.core.Keyword(null,"id","id",-1388402092));
+var event = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52286__$1,new cljs.core.Keyword(null,"event","event",301435442));
+var wait = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__52286__$1,new cljs.core.Keyword(null,"wait","wait",-260664777));
+var G__52290 = action;
+var G__52290__$1 = (((G__52290 instanceof cljs.core.Keyword))?G__52290.fqn:null);
+switch (G__52290__$1) {
 case "start":
 return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(timers,cljs.core.assoc,id,setTimeout((function (){
 return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(event) : re_frame.core.dispatch.call(null,event));
@@ -418,11 +418,11 @@ return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$3(timers,cljs.core.disso
 
 break;
 default:
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__52286__$1)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__52290__$1)].join('')));
 
 }
 });
 })();
-(re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2(G__52281_52332,G__52282_52333) : re_frame.core.reg_fx.call(null,G__52281_52332,G__52282_52333));
+(re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_fx.cljs$core$IFn$_invoke$arity$2(G__52283_52332,G__52284_52333) : re_frame.core.reg_fx.call(null,G__52283_52332,G__52284_52333));
 
 //# sourceMappingURL=athens.effects.js.map

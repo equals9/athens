@@ -55,8 +55,8 @@ if((i__61076 < size__4581__auto__)){
 var s = cljs.core._nth.cljs$core$IFn$_invoke$arity$2(c__4580__auto__,i__61076);
 cljs.core.chunk_append(b__61077,cljs.core.with_meta(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [athens.devcards.blocks.block_el,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword("block","string","block/string",-2066596447),s], null)], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),s], null)));
 
-var G__61094 = (i__61076 + (1));
-i__61076 = G__61094;
+var G__61095 = (i__61076 + (1));
+i__61076 = G__61095;
 continue;
 } else {
 return true;
