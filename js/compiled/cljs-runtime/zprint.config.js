@@ -63,13 +63,13 @@ return val_in_latter;
 zprint.config.merge_deep = (function zprint$config$merge_deep(var_args){
 var args__4795__auto__ = [];
 var len__4789__auto___30906 = arguments.length;
-var i__4790__auto___30907 = (0);
+var i__4790__auto___30908 = (0);
 while(true){
-if((i__4790__auto___30907 < len__4789__auto___30906)){
-args__4795__auto__.push((arguments[i__4790__auto___30907]));
+if((i__4790__auto___30908 < len__4789__auto___30906)){
+args__4795__auto__.push((arguments[i__4790__auto___30908]));
 
-var G__30908 = (i__4790__auto___30907 + (1));
-i__4790__auto___30907 = G__30908;
+var G__30910 = (i__4790__auto___30908 + (1));
+i__4790__auto___30908 = G__30910;
 continue;
 } else {
 }
@@ -148,9 +148,9 @@ zprint.config.remove_key = (function zprint$config$remove_key(m,k){
 if(cljs.core.coll_QMARK_(k)){
 var map_key = cljs.core.first(k);
 var keys_to_remove = cljs.core.next(k);
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(m,map_key,(function (){var G__30748 = (m.cljs$core$IFn$_invoke$arity$1 ? m.cljs$core$IFn$_invoke$arity$1(map_key) : m.call(null,map_key));
-var G__30749 = keys_to_remove;
-return (zprint.config.remove_keys.cljs$core$IFn$_invoke$arity$2 ? zprint.config.remove_keys.cljs$core$IFn$_invoke$arity$2(G__30748,G__30749) : zprint.config.remove_keys.call(null,G__30748,G__30749));
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(m,map_key,(function (){var G__30745 = (m.cljs$core$IFn$_invoke$arity$1 ? m.cljs$core$IFn$_invoke$arity$1(map_key) : m.call(null,map_key));
+var G__30746 = keys_to_remove;
+return (zprint.config.remove_keys.cljs$core$IFn$_invoke$arity$2 ? zprint.config.remove_keys.cljs$core$IFn$_invoke$arity$2(G__30745,G__30746) : zprint.config.remove_keys.call(null,G__30745,G__30746));
 })());
 } else {
 return cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(m,k);
@@ -160,8 +160,8 @@ return cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(m,k);
  * Remove keys from a map at multiple levels.
  */
 zprint.config.remove_keys = (function zprint$config$remove_keys(m,ks){
-return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (p1__30750_SHARP_,p2__30751_SHARP_){
-return zprint.config.remove_key(p1__30750_SHARP_,p2__30751_SHARP_);
+return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (p1__30747_SHARP_,p2__30748_SHARP_){
+return zprint.config.remove_key(p1__30747_SHARP_,p2__30748_SHARP_);
 }),m,ks);
 });
 /**

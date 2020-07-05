@@ -61,8 +61,8 @@ goog.require('stylefy.impl.styles');
  * Options is an optional map, which contains HTML attributes (:class, :href, :src etc.).
  */
 stylefy.core.use_style = (function stylefy$core$use_style(var_args){
-var G__40744 = arguments.length;
-switch (G__40744) {
+var G__40740 = arguments.length;
+switch (G__40740) {
 case 1:
 return stylefy.core.use_style.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -107,8 +107,8 @@ return stylefy.impl.styles.use_style_BANG_(style,options,stylefy.impl.dom.save_s
  * take a look at sub-style function.
  */
 stylefy.core.use_sub_style = (function stylefy$core$use_sub_style(var_args){
-var G__40749 = arguments.length;
-switch (G__40749) {
+var G__40746 = arguments.length;
+switch (G__40746) {
 case 2:
 return stylefy.core.use_sub_style.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -148,14 +148,14 @@ return stylefy.impl.styles.use_sub_style_BANG_(style,sub_style,options,stylefy.i
  */
 stylefy.core.sub_style = (function stylefy$core$sub_style(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___40772 = arguments.length;
-var i__4790__auto___40773 = (0);
+var len__4789__auto___40764 = arguments.length;
+var i__4790__auto___40766 = (0);
 while(true){
-if((i__4790__auto___40773 < len__4789__auto___40772)){
-args__4795__auto__.push((arguments[i__4790__auto___40773]));
+if((i__4790__auto___40766 < len__4789__auto___40764)){
+args__4795__auto__.push((arguments[i__4790__auto___40766]));
 
-var G__40774 = (i__4790__auto___40773 + (1));
-i__4790__auto___40773 = G__40774;
+var G__40767 = (i__4790__auto___40766 + (1));
+i__4790__auto___40766 = G__40767;
 continue;
 } else {
 }
@@ -276,14 +276,14 @@ return null;
  */
 stylefy.core.keyframes = (function stylefy$core$keyframes(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___40783 = arguments.length;
-var i__4790__auto___40784 = (0);
+var len__4789__auto___40778 = arguments.length;
+var i__4790__auto___40780 = (0);
 while(true){
-if((i__4790__auto___40784 < len__4789__auto___40783)){
-args__4795__auto__.push((arguments[i__4790__auto___40784]));
+if((i__4790__auto___40780 < len__4789__auto___40778)){
+args__4795__auto__.push((arguments[i__4790__auto___40780]));
 
-var G__40785 = (i__4790__auto___40784 + (1));
-i__4790__auto___40784 = G__40785;
+var G__40782 = (i__4790__auto___40780 + (1));
+i__4790__auto___40780 = G__40782;
 continue;
 } else {
 }
