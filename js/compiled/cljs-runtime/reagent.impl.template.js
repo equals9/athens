@@ -447,11 +447,11 @@ var c = reagent.impl.component.as_class(tag);
 var jsprops = ({});
 (jsprops.argv = v);
 
-var temp__5739__auto___32499 = reagent.impl.template.key_from_vec(v);
-if((temp__5739__auto___32499 == null)){
+var temp__5739__auto___32478 = reagent.impl.template.key_from_vec(v);
+if((temp__5739__auto___32478 == null)){
 } else {
-var key_32500 = temp__5739__auto___32499;
-(jsprops.key = key_32500);
+var key_32479 = temp__5739__auto___32478;
+(jsprops.key = key_32479);
 }
 
 return module$node_modules$react$index.createElement(c,jsprops);
@@ -467,11 +467,11 @@ return ({});
 }
 })();
 var first_child = ((1) + ((hasprops)?(1):(0)));
-var temp__5739__auto___32501 = reagent.impl.template.key_from_vec(argv);
-if((temp__5739__auto___32501 == null)){
+var temp__5739__auto___32490 = reagent.impl.template.key_from_vec(argv);
+if((temp__5739__auto___32490 == null)){
 } else {
-var key_32502 = temp__5739__auto___32501;
-(jsprops.key = key_32502);
+var key_32492 = temp__5739__auto___32490;
+(jsprops.key = key_32492);
 }
 
 return (reagent.impl.template.make_element.cljs$core$IFn$_invoke$arity$4 ? reagent.impl.template.make_element.cljs$core$IFn$_invoke$arity$4(argv,module$node_modules$react$index.Fragment,jsprops,first_child) : reagent.impl.template.make_element.call(null,argv,module$node_modules$react$index.Fragment,jsprops,first_child));

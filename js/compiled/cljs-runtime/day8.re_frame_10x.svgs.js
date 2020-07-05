@@ -79,13 +79,13 @@ return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMP
 day8.re_frame_10x.svgs.skip_to_end = (function day8$re_frame_10x$svgs$skip_to_end(var_args){
 var args__4795__auto__ = [];
 var len__4789__auto___28418 = arguments.length;
-var i__4790__auto___28419 = (0);
+var i__4790__auto___28420 = (0);
 while(true){
-if((i__4790__auto___28419 < len__4789__auto___28418)){
-args__4795__auto__.push((arguments[i__4790__auto___28419]));
+if((i__4790__auto___28420 < len__4789__auto___28418)){
+args__4795__auto__.push((arguments[i__4790__auto___28420]));
 
-var G__28422 = (i__4790__auto___28419 + (1));
-i__4790__auto___28419 = G__28422;
+var G__28423 = (i__4790__auto___28420 + (1));
+i__4790__auto___28420 = G__28423;
 continue;
 } else {
 }
