@@ -319,14 +319,14 @@ return cljs.core.with_meta(new cljs.core.PersistentVector(null, 2, 5, cljs.core.
  */
 clojure.zip.edit = (function clojure$zip$edit(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___30358 = arguments.length;
-var i__4790__auto___30359 = (0);
+var len__4789__auto___30360 = arguments.length;
+var i__4790__auto___30361 = (0);
 while(true){
-if((i__4790__auto___30359 < len__4789__auto___30358)){
-args__4795__auto__.push((arguments[i__4790__auto___30359]));
+if((i__4790__auto___30361 < len__4789__auto___30360)){
+args__4795__auto__.push((arguments[i__4790__auto___30361]));
 
-var G__30360 = (i__4790__auto___30359 + (1));
-i__4790__auto___30359 = G__30360;
+var G__30362 = (i__4790__auto___30361 + (1));
+i__4790__auto___30361 = G__30362;
 continue;
 } else {
 }
@@ -397,8 +397,8 @@ var or__4185__auto____$2 = clojure.zip.right(clojure.zip.up(p));
 if(cljs.core.truth_(or__4185__auto____$2)){
 return or__4185__auto____$2;
 } else {
-var G__30364 = clojure.zip.up(p);
-p = G__30364;
+var G__30365 = clojure.zip.up(p);
+p = G__30365;
 continue;
 }
 } else {

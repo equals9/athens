@@ -361,11 +361,11 @@ return (new reitit.coercion.CoercionError(null,null,null));
  * Factory function for reitit.coercion/CoercionError, taking a map of keywords to field values.
  */
 reitit.coercion.map__GT_CoercionError = (function reitit$coercion$map__GT_CoercionError(G__49853){
-var extmap__4478__auto__ = (function (){var G__49875 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$1(G__49853);
+var extmap__4478__auto__ = (function (){var G__49878 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$1(G__49853);
 if(cljs.core.record_QMARK_(G__49853)){
-return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__49875);
+return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__49878);
 } else {
-return G__49875;
+return G__49878;
 }
 })();
 return (new reitit.coercion.CoercionError(null,cljs.core.not_empty(extmap__4478__auto__),null));
@@ -795,12 +795,12 @@ var body = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__49930__$1,new cljs.c
 if(cljs.core.truth_(body)){
 cljs.core.chunk_append(b__49926,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [status,reitit.coercion.response_coercer(coercion,body,opts)], null));
 
-var G__49997 = (i__49925 + (1));
-i__49925 = G__49997;
+var G__50003 = (i__49925 + (1));
+i__49925 = G__50003;
 continue;
 } else {
-var G__49998 = (i__49925 + (1));
-i__49925 = G__49998;
+var G__50004 = (i__49925 + (1));
+i__49925 = G__50004;
 continue;
 }
 } else {
@@ -822,8 +822,8 @@ var body = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__49935__$1,new cljs.c
 if(cljs.core.truth_(body)){
 return cljs.core.cons(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [status,reitit.coercion.response_coercer(coercion,body,opts)], null),reitit$coercion$response_coercers_$_iter__49923(cljs.core.rest(s__49924__$2)));
 } else {
-var G__49999 = cljs.core.rest(s__49924__$2);
-s__49924__$1 = G__49999;
+var G__50005 = cljs.core.rest(s__49924__$2);
+s__49924__$1 = G__50005;
 continue;
 }
 }
