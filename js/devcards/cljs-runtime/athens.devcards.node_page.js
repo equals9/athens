@@ -94,8 +94,8 @@ var child = map__58090__$1;
 var uid__$1 = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__58090__$1,new cljs.core.Keyword("block","uid","block/uid",-1623585167));
 cljs.core.chunk_append(b__58089,cljs.core.with_meta(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [athens.devcards.blocks.block_el,child], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),uid__$1], null)));
 
-var G__58226 = (i__58088 + (1));
-i__58088 = G__58226;
+var G__58242 = (i__58088 + (1));
+i__58088 = G__58242;
 continue;
 } else {
 return true;
@@ -216,8 +216,8 @@ return string;
 }
 })()], null));
 
-var G__58248 = (i__58116 + (1));
-i__58116 = G__58248;
+var G__58250 = (i__58116 + (1));
+i__58116 = G__58250;
 continue;
 } else {
 return true;
@@ -259,8 +259,8 @@ break;
 return iter__4582__auto__(parents);
 })()], null):null)], null));
 
-var G__58251 = (i__58110 + (1));
-i__58110 = G__58251;
+var G__58252 = (i__58110 + (1));
+i__58110 = G__58252;
 continue;
 } else {
 return true;

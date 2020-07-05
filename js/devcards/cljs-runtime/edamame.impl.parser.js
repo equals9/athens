@@ -172,29 +172,29 @@ var temp__5735__auto___59082 = cljs.core.seq(seq__58956_59073);
 if(temp__5735__auto___59082){
 var seq__58956_59083__$1 = temp__5735__auto___59082;
 if(cljs.core.chunked_seq_QMARK_(seq__58956_59083__$1)){
-var c__4609__auto___59085 = cljs.core.chunk_first(seq__58956_59083__$1);
-var G__59086 = cljs.core.chunk_rest(seq__58956_59083__$1);
-var G__59087 = c__4609__auto___59085;
-var G__59088 = cljs.core.count(c__4609__auto___59085);
-var G__59089 = (0);
-seq__58956_59073 = G__59086;
-chunk__58957_59074 = G__59087;
-count__58958_59075 = G__59088;
-i__58959_59076 = G__59089;
+var c__4609__auto___59084 = cljs.core.chunk_first(seq__58956_59083__$1);
+var G__59085 = cljs.core.chunk_rest(seq__58956_59083__$1);
+var G__59086 = c__4609__auto___59084;
+var G__59087 = cljs.core.count(c__4609__auto___59084);
+var G__59088 = (0);
+seq__58956_59073 = G__59085;
+chunk__58957_59074 = G__59086;
+count__58958_59075 = G__59087;
+i__58959_59076 = G__59088;
 continue;
 } else {
-var v_59090 = cljs.core.first(seq__58956_59083__$1);
-cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(vals,v_59090);
+var v_59089 = cljs.core.first(seq__58956_59083__$1);
+cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(vals,v_59089);
 
 
-var G__59091 = cljs.core.next(seq__58956_59083__$1);
-var G__59092 = null;
+var G__59090 = cljs.core.next(seq__58956_59083__$1);
+var G__59091 = null;
+var G__59092 = (0);
 var G__59093 = (0);
-var G__59094 = (0);
-seq__58956_59073 = G__59091;
-chunk__58957_59074 = G__59092;
-count__58958_59075 = G__59093;
-i__58959_59076 = G__59094;
+seq__58956_59073 = G__59090;
+chunk__58957_59074 = G__59091;
+count__58958_59075 = G__59092;
+i__58959_59076 = G__59093;
 continue;
 }
 } else {
@@ -203,17 +203,17 @@ continue;
 break;
 }
 
+var G__59094 = vals;
+vals = G__59094;
+continue;
+} else {
+if(edamame.impl.parser.non_match_QMARK_(next_val)){
 var G__59095 = vals;
 vals = G__59095;
 continue;
 } else {
-if(edamame.impl.parser.non_match_QMARK_(next_val)){
-var G__59096 = vals;
+var G__59096 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(vals,next_val);
 vals = G__59096;
-continue;
-} else {
-var G__59097 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(vals,next_val);
-vals = G__59097;
 continue;
 
 }
