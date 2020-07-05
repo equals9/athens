@@ -318,15 +318,15 @@ var G__24936 = (((!((mret === rdr))))?cljs.core.conj_BANG_.cljs$core$IFn$_invoke
 a = G__24936;
 continue;
 } else {
-var o = (function (){var G__24884 = (function (){var G__24888 = rdr;
-cljs.tools.reader.reader_types.unread(G__24888,ch);
+var o = (function (){var G__24883 = (function (){var G__24887 = rdr;
+cljs.tools.reader.reader_types.unread(G__24887,ch);
 
-return G__24888;
+return G__24887;
 })();
-var G__24885 = true;
-var G__24886 = null;
-var G__24887 = opts;
-return (cljs.tools.reader.edn.read.cljs$core$IFn$_invoke$arity$4 ? cljs.tools.reader.edn.read.cljs$core$IFn$_invoke$arity$4(G__24884,G__24885,G__24886,G__24887) : cljs.tools.reader.edn.read.call(null,G__24884,G__24885,G__24886,G__24887));
+var G__24884 = true;
+var G__24885 = null;
+var G__24886 = opts;
+return (cljs.tools.reader.edn.read.cljs$core$IFn$_invoke$arity$4 ? cljs.tools.reader.edn.read.cljs$core$IFn$_invoke$arity$4(G__24883,G__24884,G__24885,G__24886) : cljs.tools.reader.edn.read.call(null,G__24883,G__24884,G__24885,G__24886));
 })();
 var G__24937 = (((!((o === rdr))))?cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(a,o):a);
 a = G__24937;
@@ -605,19 +605,19 @@ cljs.tools.reader.impl.errors.throw_dup_keys(rdr,new cljs.core.Keyword(null,"set
 return the_set;
 });
 cljs.tools.reader.edn.read_discard = (function cljs$tools$reader$edn$read_discard(rdr,_,opts){
-var G__24907 = rdr;
-(cljs.tools.reader.edn.read.cljs$core$IFn$_invoke$arity$4 ? cljs.tools.reader.edn.read.cljs$core$IFn$_invoke$arity$4(G__24907,true,null,true) : cljs.tools.reader.edn.read.call(null,G__24907,true,null,true));
+var G__24900 = rdr;
+(cljs.tools.reader.edn.read.cljs$core$IFn$_invoke$arity$4 ? cljs.tools.reader.edn.read.cljs$core$IFn$_invoke$arity$4(G__24900,true,null,true) : cljs.tools.reader.edn.read.call(null,G__24900,true,null,true));
 
-return G__24907;
+return G__24900;
 });
 cljs.tools.reader.edn.read_namespaced_map = (function cljs$tools$reader$edn$read_namespaced_map(rdr,_,opts){
 var token = cljs.tools.reader.edn.read_token.cljs$core$IFn$_invoke$arity$3(rdr,new cljs.core.Keyword(null,"namespaced-map","namespaced-map",1235665380),cljs.tools.reader.reader_types.read_char(rdr));
-var temp__5733__auto__ = (function (){var G__24908 = token;
-var G__24908__$1 = (((G__24908 == null))?null:cljs.tools.reader.impl.commons.parse_symbol(G__24908));
-if((G__24908__$1 == null)){
+var temp__5733__auto__ = (function (){var G__24905 = token;
+var G__24905__$1 = (((G__24905 == null))?null:cljs.tools.reader.impl.commons.parse_symbol(G__24905));
+if((G__24905__$1 == null)){
 return null;
 } else {
-return cljs.tools.reader.impl.utils.second_SINGLEQUOTE_(G__24908__$1);
+return cljs.tools.reader.impl.utils.second_SINGLEQUOTE_(G__24905__$1);
 }
 })();
 if(cljs.core.truth_(temp__5733__auto__)){
@@ -720,8 +720,8 @@ return null;
 }
 });
 cljs.tools.reader.edn.dispatch_macros = (function cljs$tools$reader$edn$dispatch_macros(ch){
-var G__24913 = ch;
-switch (G__24913) {
+var G__24911 = ch;
+switch (G__24911) {
 case "^":
 return cljs.tools.reader.edn.read_meta;
 

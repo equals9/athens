@@ -154,11 +154,11 @@ var _ = first__48404;
 var inner_specs = seq__48403__$1;
 var G__48405 = new cljs.core.Symbol("clojure.spec.alpha","and","clojure.spec.alpha/and",-843882543,null);
 var G__48406 = spec;
-var G__48408 = cljs.core.mapv.cljs$core$IFn$_invoke$arity$2((function (p1__48401_SHARP_){
+var G__48407 = cljs.core.mapv.cljs$core$IFn$_invoke$arity$2((function (p1__48401_SHARP_){
 return spec_tools.visitor.visit.cljs$core$IFn$_invoke$arity$3(p1__48401_SHARP_,accept,options);
 }),inner_specs);
-var G__48409 = options;
-return (accept.cljs$core$IFn$_invoke$arity$4 ? accept.cljs$core$IFn$_invoke$arity$4(G__48405,G__48406,G__48408,G__48409) : accept.call(null,G__48405,G__48406,G__48408,G__48409));
+var G__48408 = options;
+return (accept.cljs$core$IFn$_invoke$arity$4 ? accept.cljs$core$IFn$_invoke$arity$4(G__48405,G__48406,G__48407,G__48408) : accept.call(null,G__48405,G__48406,G__48407,G__48408));
 }));
 spec_tools.visitor.visit_merge = (function spec_tools$visitor$visit_merge(spec,accept,options){
 var vec__48411 = spec_tools.impl.extract_form(spec);

@@ -16,9 +16,6 @@ goog.require('re_frame.core');
 goog.require('stylefy.core');
 athens.views.app_wrapper_style = new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"display","display",242065432),"grid",new cljs.core.Keyword(null,"grid-template-areas","grid-template-areas",-1162938120),"'left-sidebar main-content secondary-content'\n   'devtool devtool devtool'",new cljs.core.Keyword(null,"grid-template-columns","grid-template-columns",-594112133),"auto 1fr auto",new cljs.core.Keyword(null,"grid-template-rows","grid-template-rows",-372292629),"1fr auto",new cljs.core.Keyword(null,"height","height",1025178622),"100vh"], null);
 athens.views.main_content_style = new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"flex","flex",-1425124628),"1 1 100%",new cljs.core.Keyword(null,"grid-area","grid-area",-1829717451),"main-content",new cljs.core.Keyword(null,"align-items","align-items",-267946462),"stretch",new cljs.core.Keyword(null,"justify-content","justify-content",-1990475787),"stretch",new cljs.core.Keyword(null,"display","display",242065432),"flex",new cljs.core.Keyword(null,"overflow-y","overflow-y",-1436589285),"auto"], null);
-/**
- * When `:errors` subscription is updated, global alert will be called with its contents and then cleared.
- */
 athens.views.alert = (function athens$views$alert(){
 var alert_ = (function (){var G__68570 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"alert","alert",-571950580)], null);
 return (re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(G__68570) : re_frame.core.subscribe.call(null,G__68570));
@@ -75,6 +72,10 @@ return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMP
 }
 }
 });
+/**
+ * When app initializes, `route-name` is `nil`. Side effect of this is that a daily page for today is automatically
+ *   created when app inits. This is expected, but perhaps shouldn't be a side effect here.
+ */
 athens.views.match_panel = (function athens$views$match_panel(route_name){
 return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [(function (){var G__68580 = route_name;
 var G__68580__$1 = (((G__68580 instanceof cljs.core.Keyword))?G__68580.fqn:null);

@@ -6,7 +6,6 @@ goog.require('datascript.core');
 goog.require('datascript.transit');
 goog.require('day8.re_frame.async_flow_fx');
 goog.require('day8.re_frame.tracing');
-goog.require('posh.reagent');
 goog.require('re_frame.core');
 re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"init-rfdb","init-rfdb",-460710127),((day8.re_frame.tracing.is_trace_enabled_QMARK_())?(function (_,___$1){
 var _PLUS_debux_dbg_opts_PLUS_ = cljs.core.PersistentArrayMap.EMPTY;

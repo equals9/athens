@@ -908,18 +908,18 @@ var match = cljs.tools.reader.match_feature(first_line,rdr,opts,pending_forms);
 if((match === cljs.tools.reader.READ_FINISHED)){
 return cljs.tools.reader.READ_FINISHED;
 } else {
-var G__24900 = match;
-var G__24901 = null;
-matched = G__24900;
-finished = G__24901;
+var G__24901 = match;
+var G__24902 = null;
+matched = G__24901;
+finished = G__24902;
 continue;
 }
 } else {
 if((!((finished === cljs.tools.reader.READ_FINISHED)))){
-var G__24902 = matched;
-var G__24903 = cljs.tools.reader.read_suppress(first_line,rdr,opts,pending_forms);
-matched = G__24902;
-finished = G__24903;
+var G__24903 = matched;
+var G__24904 = cljs.tools.reader.read_suppress(first_line,rdr,opts,pending_forms);
+matched = G__24903;
+finished = G__24904;
 continue;
 } else {
 return matched;
@@ -934,10 +934,10 @@ return rdr;
 } else {
 if(cljs.core.truth_(splicing)){
 if((((!((result == null))))?(((((result.cljs$lang$protocol_mask$partition0$ & (16777216))) || ((cljs.core.PROTOCOL_SENTINEL === result.cljs$core$ISequential$))))?true:false):false)){
-var G__24797_24904 = pending_forms;
-var G__24798_24905 = cljs.core.to_array(result);
-var G__24799_24906 = (0);
-goog.array.insertArrayAt(G__24797_24904,G__24798_24905,G__24799_24906);
+var G__24797_24906 = pending_forms;
+var G__24798_24907 = cljs.core.to_array(result);
+var G__24799_24908 = (0);
+goog.array.insertArrayAt(G__24797_24906,G__24798_24907,G__24799_24908);
 
 return rdr;
 } else {
@@ -1041,16 +1041,16 @@ while(true){
 if((i > higharg)){
 return cljs.core.persistent_BANG_(args);
 } else {
-var G__24911 = (i + (1));
-var G__24912 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(args,(function (){var or__4185__auto__ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(cljs.tools.reader.arg_env,i);
+var G__24912 = (i + (1));
+var G__24913 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(args,(function (){var or__4185__auto__ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(cljs.tools.reader.arg_env,i);
 if(cljs.core.truth_(or__4185__auto__)){
 return or__4185__auto__;
 } else {
 return cljs.tools.reader.garg(i);
 }
 })());
-i = G__24911;
-args = G__24912;
+i = G__24912;
+args = G__24913;
 continue;
 }
 break;
