@@ -1654,13 +1654,13 @@ return this__50412__auto__;
 });
 goog.inherits(ctor__50416__auto__,React.Component);
 
-var x51326_51580 = ctor__50416__auto__.prototype;
-(x51326_51580.componentWillMount = (function (){
+var x51326_51582 = ctor__50416__auto__.prototype;
+(x51326_51582.componentWillMount = (function (){
 var this$ = this;
 return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(devcards.core.get_state(this$,new cljs.core.Keyword(null,"history_atom","history_atom",-533227013)),cljs.core.assoc_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"history","history",-247395220)], null),(new cljs.core.List(null,cljs.core.deref(devcards.core.get_props(this$,new cljs.core.Keyword(null,"data_atom","data_atom",257894504))),null,(1),null)));
 }));
 
-(x51326_51580.componentDidMount = (function (){
+(x51326_51582.componentDidMount = (function (){
 var this$ = this;
 var data_atom = devcards.core.get_props(this$,new cljs.core.Keyword(null,"data_atom","data_atom",257894504));
 var id = devcards.core.get_state(this$,new cljs.core.Keyword(null,"unique_id","unique_id",-796578329));
@@ -1708,7 +1708,7 @@ return null;
 }
 }));
 
-(x51326_51580.render = (function (){
+(x51326_51582.render = (function (){
 var this$ = this;
 if(((devcards.core.can_go_back(this$)) || (devcards.core.can_go_forward(this$)))){
 return React.createElement("div",({"style": ({"display": ((((devcards.core.can_go_back(this$)) || (devcards.core.can_go_forward(this$))))?"block":"none")}), "className": "com-rigsomelight-devcards-history-control-bar"}),(function (){var action = (function (e){
@@ -1996,10 +1996,10 @@ return new cljs.core.Keyword(null,"recur","recur",-437573268);
 } else {
 if((state_val_51478 === (4))){
 var state_51477__$1 = state_51477;
-var statearr_51483_51604 = state_51477__$1;
-(statearr_51483_51604[(2)] = false);
+var statearr_51483_51603 = state_51477__$1;
+(statearr_51483_51603[(2)] = false);
 
-(statearr_51483_51604[(1)] = (5));
+(statearr_51483_51603[(1)] = (5));
 
 
 return new cljs.core.Keyword(null,"recur","recur",-437573268);
@@ -2090,10 +2090,10 @@ var state_51477__$1 = (function (){var statearr_51491 = state_51477;
 
 return statearr_51491;
 })();
-var statearr_51492_51622 = state_51477__$1;
-(statearr_51492_51622[(2)] = inst_51464);
+var statearr_51492_51619 = state_51477__$1;
+(statearr_51492_51619[(2)] = inst_51464);
 
-(statearr_51492_51622[(1)] = (29));
+(statearr_51492_51619[(1)] = (29));
 
 
 return new cljs.core.Keyword(null,"recur","recur",-437573268);
@@ -2111,10 +2111,10 @@ return new cljs.core.Keyword(null,"recur","recur",-437573268);
 } else {
 if((state_val_51478 === (17))){
 var state_51477__$1 = state_51477;
-var statearr_51494_51627 = state_51477__$1;
-(statearr_51494_51627[(2)] = true);
+var statearr_51494_51624 = state_51477__$1;
+(statearr_51494_51624[(2)] = true);
 
-(statearr_51494_51627[(1)] = (19));
+(statearr_51494_51624[(1)] = (19));
 
 
 return new cljs.core.Keyword(null,"recur","recur",-437573268);
@@ -2145,8 +2145,8 @@ var inst_51419 = (inst_51415 == null);
 var inst_51420 = cljs.core.not(inst_51419);
 var state_51477__$1 = state_51477;
 if(inst_51420){
-var statearr_51497_51636 = state_51477__$1;
-(statearr_51497_51636[(1)] = (14));
+var statearr_51497_51633 = state_51477__$1;
+(statearr_51497_51633[(1)] = (14));
 
 } else {
 var statearr_51498_51637 = state_51477__$1;
@@ -2729,8 +2729,8 @@ break;
 }
 }catch (e51551){if((e51551 instanceof Object)){
 var ex__38792__auto__ = e51551;
-var statearr_51552_51690 = state_51546;
-(statearr_51552_51690[(5)] = ex__38792__auto__);
+var statearr_51552_51684 = state_51546;
+(statearr_51552_51684[(5)] = ex__38792__auto__);
 
 
 cljs.core.async.impl.ioc_helpers.process_exception(state_51546);
@@ -2742,8 +2742,8 @@ throw e51551;
 }
 }})();
 if(cljs.core.keyword_identical_QMARK_(ret_value__38790__auto__,new cljs.core.Keyword(null,"recur","recur",-437573268))){
-var G__51691 = state_51546;
-state_51546 = G__51691;
+var G__51687 = state_51546;
+state_51546 = G__51687;
 continue;
 } else {
 return ret_value__38790__auto__;

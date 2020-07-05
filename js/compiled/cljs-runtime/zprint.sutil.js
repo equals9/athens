@@ -234,8 +234,8 @@ return null;
  *   anything, so there isn't a particularly good sentinal here.
  */
 zprint.sutil.sobj_to_vec = (function zprint$sutil$sobj_to_vec(var_args){
-var G__31066 = arguments.length;
-switch (G__31066) {
+var G__31067 = arguments.length;
+switch (G__31067) {
 case 2:
 return zprint.sutil.sobj_to_vec.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -341,12 +341,12 @@ return null;
 if(cljs.core.truth_(current_ns)){
 if(cljs.core.truth_(ns__$1)){
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(ns__$1,current_ns)){
-var G__31258 = ns__$1;
-var G__31259 = cljs.core.next(pair_seq__$1);
-var G__31260 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(out,cljs.core.cons(strip_ns(k),rest_of_pair));
-ns__$1 = G__31258;
-pair_seq__$1 = G__31259;
-out = G__31260;
+var G__31259 = ns__$1;
+var G__31260 = cljs.core.next(pair_seq__$1);
+var G__31261 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(out,cljs.core.cons(strip_ns(k),rest_of_pair));
+ns__$1 = G__31259;
+pair_seq__$1 = G__31260;
+out = G__31261;
 continue;
 } else {
 return null;
@@ -362,12 +362,12 @@ continue;
 }
 } else {
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.count(pair),(1))){
-var G__31266 = ns__$1;
-var G__31267 = cljs.core.next(pair_seq__$1);
-var G__31268 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(out,pair);
-ns__$1 = G__31266;
-pair_seq__$1 = G__31267;
-out = G__31268;
+var G__31267 = ns__$1;
+var G__31268 = cljs.core.next(pair_seq__$1);
+var G__31269 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(out,pair);
+ns__$1 = G__31267;
+pair_seq__$1 = G__31268;
+out = G__31269;
 continue;
 } else {
 return null;

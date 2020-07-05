@@ -127,19 +127,19 @@ count__51578_51669 = G__51682;
 i__51579_51670 = G__51683;
 continue;
 } else {
-var k_51684 = cljs.core.first(seq__51576_51678__$1);
-var v_51685 = (b[k_51684]);
-(a[k_51684] = v_51685);
+var k_51685 = cljs.core.first(seq__51576_51678__$1);
+var v_51686 = (b[k_51685]);
+(a[k_51685] = v_51686);
 
 
-var G__51686 = cljs.core.next(seq__51576_51678__$1);
-var G__51687 = null;
-var G__51688 = (0);
-var G__51689 = (0);
-seq__51576_51667 = G__51686;
-chunk__51577_51668 = G__51687;
-count__51578_51669 = G__51688;
-i__51579_51670 = G__51689;
+var G__51688 = cljs.core.next(seq__51576_51678__$1);
+var G__51689 = null;
+var G__51690 = (0);
+var G__51691 = (0);
+seq__51576_51667 = G__51688;
+chunk__51577_51668 = G__51689;
+count__51578_51669 = G__51690;
+i__51579_51670 = G__51691;
 continue;
 }
 } else {
@@ -255,8 +255,8 @@ return (new cognitect.transit.VectorBuilder());
  * then in-memory representation of the semantic transit value.
  */
 cognitect.transit.reader = (function cognitect$transit$reader(var_args){
-var G__51582 = arguments.length;
-switch (G__51582) {
+var G__51581 = arguments.length;
+switch (G__51581) {
 case 1:
 return cognitect.transit.reader.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -944,9 +944,9 @@ count__51617 = G__51765;
 i__51618 = G__51766;
 continue;
 } else {
-var vec__51633 = cljs.core.first(seq__51615__$1);
-var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__51633,(0),null);
-var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__51633,(1),null);
+var vec__51634 = cljs.core.first(seq__51615__$1);
+var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__51634,(0),null);
+var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__51634,(1),null);
 (f.cljs$core$IFn$_invoke$arity$2 ? f.cljs$core$IFn$_invoke$arity$2(v,k) : f.call(null,v,k));
 
 
