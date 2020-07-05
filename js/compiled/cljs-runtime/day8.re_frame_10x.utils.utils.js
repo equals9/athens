@@ -16,9 +16,9 @@ return cljs.core.nth.cljs$core$IFn$_invoke$arity$2(v,(num - (1)));
  * Gets the index of all items in vec that match the predicate
  */
 day8.re_frame_10x.utils.utils.find_all_indexes_in_vec = (function day8$re_frame_10x$utils$utils$find_all_indexes_in_vec(pred,v){
-return cljs.core.keep_indexed.cljs$core$IFn$_invoke$arity$2((function (p1__26960_SHARP_,p2__26959_SHARP_){
-if(cljs.core.truth_((pred.cljs$core$IFn$_invoke$arity$1 ? pred.cljs$core$IFn$_invoke$arity$1(p2__26959_SHARP_) : pred.call(null,p2__26959_SHARP_)))){
-return p1__26960_SHARP_;
+return cljs.core.keep_indexed.cljs$core$IFn$_invoke$arity$2((function (p1__26930_SHARP_,p2__26929_SHARP_){
+if(cljs.core.truth_((pred.cljs$core$IFn$_invoke$arity$1 ? pred.cljs$core$IFn$_invoke$arity$1(p2__26929_SHARP_) : pred.call(null,p2__26929_SHARP_)))){
+return p1__26930_SHARP_;
 } else {
 return null;
 }
@@ -34,13 +34,13 @@ return cljs.core.first(day8.re_frame_10x.utils.utils.find_all_indexes_in_vec(pre
  * Returns a transducer that filters for :id between beginning and ending.
  */
 day8.re_frame_10x.utils.utils.id_between_xf = (function day8$re_frame_10x$utils$utils$id_between_xf(beginning,ending){
-return cljs.core.filter.cljs$core$IFn$_invoke$arity$1((function (p1__26964_SHARP_){
-return (((beginning <= new cljs.core.Keyword(null,"id","id",-1388402092).cljs$core$IFn$_invoke$arity$1(p1__26964_SHARP_))) && ((new cljs.core.Keyword(null,"id","id",-1388402092).cljs$core$IFn$_invoke$arity$1(p1__26964_SHARP_) <= ending)));
+return cljs.core.filter.cljs$core$IFn$_invoke$arity$1((function (p1__26932_SHARP_){
+return (((beginning <= new cljs.core.Keyword(null,"id","id",-1388402092).cljs$core$IFn$_invoke$arity$1(p1__26932_SHARP_))) && ((new cljs.core.Keyword(null,"id","id",-1388402092).cljs$core$IFn$_invoke$arity$1(p1__26932_SHARP_) <= ending)));
 }));
 });
 day8.re_frame_10x.utils.utils.spy = (function day8$re_frame_10x$utils$utils$spy(var_args){
-var G__26966 = arguments.length;
-switch (G__26966) {
+var G__26934 = arguments.length;
+switch (G__26934) {
 case 1:
 return day8.re_frame_10x.utils.utils.spy.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -80,14 +80,14 @@ return x;
  */
 day8.re_frame_10x.utils.utils.pluralize = (function day8$re_frame_10x$utils$utils$pluralize(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___26992 = arguments.length;
-var i__4790__auto___26993 = (0);
+var len__4789__auto___26954 = arguments.length;
+var i__4790__auto___26955 = (0);
 while(true){
-if((i__4790__auto___26993 < len__4789__auto___26992)){
-args__4795__auto__.push((arguments[i__4790__auto___26993]));
+if((i__4790__auto___26955 < len__4789__auto___26954)){
+args__4795__auto__.push((arguments[i__4790__auto___26955]));
 
-var G__26994 = (i__4790__auto___26993 + (1));
-i__4790__auto___26993 = G__26994;
+var G__26956 = (i__4790__auto___26955 + (1));
+i__4790__auto___26955 = G__26956;
 continue;
 } else {
 }
@@ -98,9 +98,9 @@ var argseq__4796__auto__ = ((((2) < args__4795__auto__.length))?(new cljs.core.I
 return day8.re_frame_10x.utils.utils.pluralize.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)]),(arguments[(1)]),argseq__4796__auto__);
 });
 
-(day8.re_frame_10x.utils.utils.pluralize.cljs$core$IFn$_invoke$arity$variadic = (function (num,singular,p__26973){
-var vec__26974 = p__26973;
-var plural = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__26974,(0),null);
+(day8.re_frame_10x.utils.utils.pluralize.cljs$core$IFn$_invoke$arity$variadic = (function (num,singular,p__26939){
+var vec__26940 = p__26939;
+var plural = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__26940,(0),null);
 return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(num)," ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2((1),num))?singular:(function (){var or__4185__auto__ = plural;
 if(cljs.core.truth_(or__4185__auto__)){
 return or__4185__auto__;
@@ -113,13 +113,13 @@ return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(singular),"s"].join('');
 (day8.re_frame_10x.utils.utils.pluralize.cljs$lang$maxFixedArity = (2));
 
 /** @this {Function} */
-(day8.re_frame_10x.utils.utils.pluralize.cljs$lang$applyTo = (function (seq26970){
-var G__26971 = cljs.core.first(seq26970);
-var seq26970__$1 = cljs.core.next(seq26970);
-var G__26972 = cljs.core.first(seq26970__$1);
-var seq26970__$2 = cljs.core.next(seq26970__$1);
+(day8.re_frame_10x.utils.utils.pluralize.cljs$lang$applyTo = (function (seq26935){
+var G__26936 = cljs.core.first(seq26935);
+var seq26935__$1 = cljs.core.next(seq26935);
+var G__26937 = cljs.core.first(seq26935__$1);
+var seq26935__$2 = cljs.core.next(seq26935__$1);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__26971,G__26972,seq26970__$2);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__26936,G__26937,seq26935__$2);
 }));
 
 /**
@@ -127,14 +127,14 @@ return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__26971,G__26972
  */
 day8.re_frame_10x.utils.utils.pluralize_ = (function day8$re_frame_10x$utils$utils$pluralize_(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___26997 = arguments.length;
-var i__4790__auto___26998 = (0);
+var len__4789__auto___26960 = arguments.length;
+var i__4790__auto___26961 = (0);
 while(true){
-if((i__4790__auto___26998 < len__4789__auto___26997)){
-args__4795__auto__.push((arguments[i__4790__auto___26998]));
+if((i__4790__auto___26961 < len__4789__auto___26960)){
+args__4795__auto__.push((arguments[i__4790__auto___26961]));
 
-var G__26999 = (i__4790__auto___26998 + (1));
-i__4790__auto___26998 = G__26999;
+var G__26962 = (i__4790__auto___26961 + (1));
+i__4790__auto___26961 = G__26962;
 continue;
 } else {
 }
@@ -145,9 +145,9 @@ var argseq__4796__auto__ = ((((2) < args__4795__auto__.length))?(new cljs.core.I
 return day8.re_frame_10x.utils.utils.pluralize_.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)]),(arguments[(1)]),argseq__4796__auto__);
 });
 
-(day8.re_frame_10x.utils.utils.pluralize_.cljs$core$IFn$_invoke$arity$variadic = (function (num,singular,p__26981){
-var vec__26983 = p__26981;
-var plural = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__26983,(0),null);
+(day8.re_frame_10x.utils.utils.pluralize_.cljs$core$IFn$_invoke$arity$variadic = (function (num,singular,p__26949){
+var vec__26950 = p__26949;
+var plural = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__26950,(0),null);
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2((1),num)){
 return singular;
 } else {
@@ -163,13 +163,13 @@ return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(singular),"s"].join('');
 (day8.re_frame_10x.utils.utils.pluralize_.cljs$lang$maxFixedArity = (2));
 
 /** @this {Function} */
-(day8.re_frame_10x.utils.utils.pluralize_.cljs$lang$applyTo = (function (seq26978){
-var G__26979 = cljs.core.first(seq26978);
-var seq26978__$1 = cljs.core.next(seq26978);
-var G__26980 = cljs.core.first(seq26978__$1);
-var seq26978__$2 = cljs.core.next(seq26978__$1);
+(day8.re_frame_10x.utils.utils.pluralize_.cljs$lang$applyTo = (function (seq26946){
+var G__26947 = cljs.core.first(seq26946);
+var seq26946__$1 = cljs.core.next(seq26946);
+var G__26948 = cljs.core.first(seq26946__$1);
+var seq26946__$2 = cljs.core.next(seq26946__$1);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__26979,G__26980,seq26978__$2);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__26947,G__26948,seq26946__$2);
 }));
 
 day8.re_frame_10x.utils.utils.copy_to_clipboard = (function day8$re_frame_10x$utils$utils$copy_to_clipboard(text){

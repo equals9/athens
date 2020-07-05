@@ -158,10 +158,10 @@ var d = cljs.tools.reader.impl.utils.char_code(cljs.core.nth.cljs$core$IFn$_invo
 if((d === (-1))){
 return cljs.tools.reader.impl.errors.throw_invalid_unicode_digit_in_token(null,cljs.core.nth.cljs$core$IFn$_invoke$arity$2(token,i),token);
 } else {
-var G__24528 = (i + (1));
-var G__24529 = (d + (uc * base));
-i = G__24528;
-uc = G__24529;
+var G__24530 = (i + (1));
+var G__24531 = (d + (uc * base));
+i = G__24530;
+uc = G__24531;
 continue;
 }
 }
@@ -545,14 +545,14 @@ return cljs.core.str.cljs$core$IFn$_invoke$arity$1(sb);
 
 break;
 default:
-var G__24551 = (function (){var G__24419 = sb;
+var G__24555 = (function (){var G__24419 = sb;
 G__24419.append(ch);
 
 return G__24419;
 })();
-var G__24552 = reader.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
-sb = G__24551;
-ch = G__24552;
+var G__24556 = reader.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
+sb = G__24555;
+ch = G__24556;
 continue;
 
 }
@@ -1170,10 +1170,10 @@ var key_vals = cljs.core.transient$(cljs.core.PersistentVector.EMPTY);
 while(true){
 if(s){
 var e = cljs.core.first(s);
-var G__24592 = cljs.core.next(s);
-var G__24593 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(key_vals,cljs.core.key(e)),cljs.core.val(e));
-s = G__24592;
-key_vals = G__24593;
+var G__24594 = cljs.core.next(s);
+var G__24595 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(key_vals,cljs.core.key(e)),cljs.core.val(e));
+s = G__24594;
+key_vals = G__24595;
 continue;
 } else {
 return cljs.core.seq(cljs.core.persistent_BANG_(key_vals));

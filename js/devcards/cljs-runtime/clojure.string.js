@@ -328,8 +328,8 @@ return "";
 } else {
 var ch = cljs.core.get.cljs$core$IFn$_invoke$arity$2(s,(index - (1)));
 if(((("\n" === ch)) || (("\r" === ch)))){
-var G__20253 = (index - (1));
-index = G__20253;
+var G__20251 = (index - (1));
+index = G__20251;
 continue;
 } else {
 return s.substring((0),index);
@@ -342,8 +342,8 @@ break;
  * True is s is nil, empty, or contains only whitespace.
  */
 clojure.string.blank_QMARK_ = (function clojure$string$blank_QMARK_(s){
-var G__20233 = goog.string.makeSafe(s);
-return goog.string.isEmptyOrWhitespace(G__20233);
+var G__20232 = goog.string.makeSafe(s);
+return goog.string.isEmptyOrWhitespace(G__20232);
 });
 /**
  * Return a new string, using cmap to escape each character ch
@@ -368,8 +368,8 @@ buffer.append(cljs.core.str.cljs$core$IFn$_invoke$arity$1(replacement));
 buffer.append(ch);
 }
 
-var G__20256 = (index + (1));
-index = G__20256;
+var G__20252 = (index + (1));
+index = G__20252;
 continue;
 }
 break;
@@ -380,8 +380,8 @@ break;
  *   forward from from-index or nil if not found.
  */
 clojure.string.index_of = (function clojure$string$index_of(var_args){
-var G__20235 = arguments.length;
-switch (G__20235) {
+var G__20234 = arguments.length;
+switch (G__20234) {
 case 2:
 return clojure.string.index_of.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -421,8 +421,8 @@ return result;
  *   searching backward from from-index or nil if not found.
  */
 clojure.string.last_index_of = (function clojure$string$last_index_of(var_args){
-var G__20237 = arguments.length;
-switch (G__20237) {
+var G__20236 = arguments.length;
+switch (G__20236) {
 case 2:
 return clojure.string.last_index_of.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
