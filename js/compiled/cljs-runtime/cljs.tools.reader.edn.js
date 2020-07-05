@@ -295,9 +295,9 @@ return null;
 }
 });
 cljs.tools.reader.edn.read_delimited = (function cljs$tools$reader$edn$read_delimited(kind,delim,rdr,opts){
-var vec__24880 = cljs.tools.reader.edn.starting_line_col_info(rdr);
-var start_line = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24880,(0),null);
-var start_column = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24880,(1),null);
+var vec__24876 = cljs.tools.reader.edn.starting_line_col_info(rdr);
+var start_line = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24876,(0),null);
+var start_column = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__24876,(1),null);
 var delim__$1 = cljs.tools.reader.impl.utils.char$(delim);
 var a = cljs.core.transient$(cljs.core.PersistentVector.EMPTY);
 while(true){
@@ -612,12 +612,12 @@ return G__24900;
 });
 cljs.tools.reader.edn.read_namespaced_map = (function cljs$tools$reader$edn$read_namespaced_map(rdr,_,opts){
 var token = cljs.tools.reader.edn.read_token.cljs$core$IFn$_invoke$arity$3(rdr,new cljs.core.Keyword(null,"namespaced-map","namespaced-map",1235665380),cljs.tools.reader.reader_types.read_char(rdr));
-var temp__5733__auto__ = (function (){var G__24908 = token;
-var G__24908__$1 = (((G__24908 == null))?null:cljs.tools.reader.impl.commons.parse_symbol(G__24908));
-if((G__24908__$1 == null)){
+var temp__5733__auto__ = (function (){var G__24905 = token;
+var G__24905__$1 = (((G__24905 == null))?null:cljs.tools.reader.impl.commons.parse_symbol(G__24905));
+if((G__24905__$1 == null)){
 return null;
 } else {
-return cljs.tools.reader.impl.utils.second_SINGLEQUOTE_(G__24908__$1);
+return cljs.tools.reader.impl.utils.second_SINGLEQUOTE_(G__24905__$1);
 }
 })();
 if(cljs.core.truth_(temp__5733__auto__)){
@@ -898,8 +898,8 @@ throw e24919;
  * opts is a map as per clojure.tools.reader.edn/read
  */
 cljs.tools.reader.edn.read_string = (function cljs$tools$reader$edn$read_string(var_args){
-var G__24923 = arguments.length;
-switch (G__24923) {
+var G__24921 = arguments.length;
+switch (G__24921) {
 case 1:
 return cljs.tools.reader.edn.read_string.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
