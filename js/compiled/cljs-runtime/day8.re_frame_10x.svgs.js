@@ -122,14 +122,14 @@ return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMP
 });
 day8.re_frame_10x.svgs.left = (function day8$re_frame_10x$svgs$left(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___28432 = arguments.length;
-var i__4790__auto___28433 = (0);
+var len__4789__auto___28435 = arguments.length;
+var i__4790__auto___28437 = (0);
 while(true){
-if((i__4790__auto___28433 < len__4789__auto___28432)){
-args__4795__auto__.push((arguments[i__4790__auto___28433]));
+if((i__4790__auto___28437 < len__4789__auto___28435)){
+args__4795__auto__.push((arguments[i__4790__auto___28437]));
 
-var G__28436 = (i__4790__auto___28433 + (1));
-i__4790__auto___28433 = G__28436;
+var G__28438 = (i__4790__auto___28437 + (1));
+i__4790__auto___28437 = G__28438;
 continue;
 } else {
 }
