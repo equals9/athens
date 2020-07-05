@@ -25,10 +25,10 @@ return or__4185__auto__;
 return top;
 }
 } else {
-var G__30378 = (function (){var G__30368 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [node], null);
+var G__30381 = (function (){var G__30368 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [node], null);
 return (rewrite_clj.node.forms_node.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.node.forms_node.cljs$core$IFn$_invoke$arity$1(G__30368) : rewrite_clj.node.forms_node.call(null,G__30368));
 })();
-node = G__30378;
+node = G__30381;
 continue;
 }
 break;
@@ -116,12 +116,12 @@ return (rewrite_clj.node.string.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.node
  * Create string representing the zipped-up zipper.
  */
 rewrite_clj.zip.base.root_string = (function rewrite_clj$zip$base$root_string(zloc){
-var G__30376 = zloc;
-var G__30376__$1 = (((G__30376 == null))?null:clojure.zip.root(G__30376));
-if((G__30376__$1 == null)){
+var G__30377 = zloc;
+var G__30377__$1 = (((G__30377 == null))?null:clojure.zip.root(G__30377));
+if((G__30377__$1 == null)){
 return null;
 } else {
-return (rewrite_clj.node.string.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.node.string.cljs$core$IFn$_invoke$arity$1(G__30376__$1) : rewrite_clj.node.string.call(null,G__30376__$1));
+return (rewrite_clj.node.string.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.node.string.cljs$core$IFn$_invoke$arity$1(G__30377__$1) : rewrite_clj.node.string.call(null,G__30377__$1));
 }
 });
 

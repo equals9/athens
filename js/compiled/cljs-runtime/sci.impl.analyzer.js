@@ -1138,26 +1138,26 @@ break;
 case "import":
 sci.impl.analyzer.do_import(ctx,cljs.core.sequence.cljs$core$IFn$_invoke$arity$1(cljs.core.seq(cljs.core.concat.cljs$core$IFn$_invoke$arity$2((new cljs.core.List(null,new cljs.core.Symbol(null,"import","import",241030818,null),null,(1),null)),args))));
 
-var G__66459 = cljs.core.next(exprs__$3);
-var G__66460 = ret;
-exprs__$3 = G__66459;
-ret = G__66460;
+var G__66462 = cljs.core.next(exprs__$3);
+var G__66463 = ret;
+exprs__$3 = G__66462;
+ret = G__66463;
 continue;
 
 break;
 case "refer-clojure":
-var G__66461 = cljs.core.next(exprs__$3);
-var G__66462 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(ret,sci.impl.utils.mark_eval_call(cljs.core.list_STAR_.cljs$core$IFn$_invoke$arity$3(new cljs.core.Symbol(null,"refer","refer",676235974,null),new cljs.core.Symbol(null,"clojure.core","clojure.core",-189332625,null),args)));
-exprs__$3 = G__66461;
-ret = G__66462;
+var G__66464 = cljs.core.next(exprs__$3);
+var G__66465 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(ret,sci.impl.utils.mark_eval_call(cljs.core.list_STAR_.cljs$core$IFn$_invoke$arity$3(new cljs.core.Symbol(null,"refer","refer",676235974,null),new cljs.core.Symbol(null,"clojure.core","clojure.core",-189332625,null),args)));
+exprs__$3 = G__66464;
+ret = G__66465;
 continue;
 
 break;
 case "gen-class":
-var G__66463 = cljs.core.next(exprs__$3);
-var G__66464 = ret;
-exprs__$3 = G__66463;
-ret = G__66464;
+var G__66466 = cljs.core.next(exprs__$3);
+var G__66467 = ret;
+exprs__$3 = G__66466;
+ret = G__66467;
 continue;
 
 break;

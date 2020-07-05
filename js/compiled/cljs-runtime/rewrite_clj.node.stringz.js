@@ -116,10 +116,10 @@ var h__4297__auto__ = self__.__hash;
 if((!((h__4297__auto__ == null)))){
 return h__4297__auto__;
 } else {
-var h__4297__auto____$1 = (function (){var fexpr__29933 = (function (coll__4436__auto__){
+var h__4297__auto____$1 = (function (){var fexpr__29932 = (function (coll__4436__auto__){
 return (1538615006 ^ cljs.core.hash_unordered_coll(coll__4436__auto__));
 });
-return fexpr__29933(this__4435__auto____$1);
+return fexpr__29932(this__4435__auto____$1);
 })();
 (self__.__hash = h__4297__auto____$1);
 
@@ -240,15 +240,15 @@ return (new rewrite_clj.node.stringz.StringNode(lines,null,null,null));
 /**
  * Factory function for rewrite-clj.node.stringz/StringNode, taking a map of keywords to field values.
  */
-rewrite_clj.node.stringz.map__GT_StringNode = (function rewrite_clj$node$stringz$map__GT_StringNode(G__29926){
-var extmap__4478__auto__ = (function (){var G__29939 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(G__29926,new cljs.core.Keyword(null,"lines","lines",-700165781));
-if(cljs.core.record_QMARK_(G__29926)){
+rewrite_clj.node.stringz.map__GT_StringNode = (function rewrite_clj$node$stringz$map__GT_StringNode(G__29925){
+var extmap__4478__auto__ = (function (){var G__29939 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(G__29925,new cljs.core.Keyword(null,"lines","lines",-700165781));
+if(cljs.core.record_QMARK_(G__29925)){
 return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__29939);
 } else {
 return G__29939;
 }
 })();
-return (new rewrite_clj.node.stringz.StringNode(new cljs.core.Keyword(null,"lines","lines",-700165781).cljs$core$IFn$_invoke$arity$1(G__29926),null,cljs.core.not_empty(extmap__4478__auto__),null));
+return (new rewrite_clj.node.stringz.StringNode(new cljs.core.Keyword(null,"lines","lines",-700165781).cljs$core$IFn$_invoke$arity$1(G__29925),null,cljs.core.not_empty(extmap__4478__auto__),null));
 });
 
 /**

@@ -109,10 +109,10 @@ var h__4297__auto__ = self__.__hash;
 if((!((h__4297__auto__ == null)))){
 return h__4297__auto__;
 } else {
-var h__4297__auto____$1 = (function (){var fexpr__29960 = (function (coll__4436__auto__){
+var h__4297__auto____$1 = (function (){var fexpr__29959 = (function (coll__4436__auto__){
 return (-1883175395 ^ cljs.core.hash_unordered_coll(coll__4436__auto__));
 });
-return fexpr__29960(this__4435__auto____$1);
+return fexpr__29959(this__4435__auto____$1);
 })();
 (self__.__hash = h__4297__auto____$1);
 
@@ -272,8 +272,8 @@ rewrite_clj.node.protocols.assert_single_sexpr(children);
 
 return rewrite_clj.node.uneval.__GT_UnevalNode(children);
 } else {
-var G__29991 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [children], null);
-children = G__29991;
+var G__29990 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [children], null);
+children = G__29990;
 continue;
 }
 break;

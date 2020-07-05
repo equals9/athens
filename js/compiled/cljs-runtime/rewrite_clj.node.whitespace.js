@@ -179,11 +179,11 @@ return (new rewrite_clj.node.whitespace.WhitespaceNode(self__.whitespace,self__.
 (rewrite_clj.node.whitespace.WhitespaceNode.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__4446__auto__,k__4447__auto__,G__29955){
 var self__ = this;
 var this__4446__auto____$1 = this;
-var pred__29973 = cljs.core.keyword_identical_QMARK_;
-var expr__29974 = k__4447__auto__;
-if(cljs.core.truth_((function (){var G__29976 = new cljs.core.Keyword(null,"whitespace","whitespace",-1340035483);
-var G__29977 = expr__29974;
-return (pred__29973.cljs$core$IFn$_invoke$arity$2 ? pred__29973.cljs$core$IFn$_invoke$arity$2(G__29976,G__29977) : pred__29973.call(null,G__29976,G__29977));
+var pred__29974 = cljs.core.keyword_identical_QMARK_;
+var expr__29975 = k__4447__auto__;
+if(cljs.core.truth_((function (){var G__29977 = new cljs.core.Keyword(null,"whitespace","whitespace",-1340035483);
+var G__29978 = expr__29975;
+return (pred__29974.cljs$core$IFn$_invoke$arity$2 ? pred__29974.cljs$core$IFn$_invoke$arity$2(G__29977,G__29978) : pred__29974.call(null,G__29977,G__29978));
 })())){
 return (new rewrite_clj.node.whitespace.WhitespaceNode(G__29955,self__.__meta,self__.__extmap,null));
 } else {
@@ -237,15 +237,15 @@ return (new rewrite_clj.node.whitespace.WhitespaceNode(whitespace,null,null,null
 /**
  * Factory function for rewrite-clj.node.whitespace/WhitespaceNode, taking a map of keywords to field values.
  */
-rewrite_clj.node.whitespace.map__GT_WhitespaceNode = (function rewrite_clj$node$whitespace$map__GT_WhitespaceNode(G__29959){
-var extmap__4478__auto__ = (function (){var G__29979 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(G__29959,new cljs.core.Keyword(null,"whitespace","whitespace",-1340035483));
-if(cljs.core.record_QMARK_(G__29959)){
+rewrite_clj.node.whitespace.map__GT_WhitespaceNode = (function rewrite_clj$node$whitespace$map__GT_WhitespaceNode(G__29960){
+var extmap__4478__auto__ = (function (){var G__29979 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(G__29960,new cljs.core.Keyword(null,"whitespace","whitespace",-1340035483));
+if(cljs.core.record_QMARK_(G__29960)){
 return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__29979);
 } else {
 return G__29979;
 }
 })();
-return (new rewrite_clj.node.whitespace.WhitespaceNode(new cljs.core.Keyword(null,"whitespace","whitespace",-1340035483).cljs$core$IFn$_invoke$arity$1(G__29959),null,cljs.core.not_empty(extmap__4478__auto__),null));
+return (new rewrite_clj.node.whitespace.WhitespaceNode(new cljs.core.Keyword(null,"whitespace","whitespace",-1340035483).cljs$core$IFn$_invoke$arity$1(G__29960),null,cljs.core.not_empty(extmap__4478__auto__),null));
 });
 
 
@@ -355,10 +355,10 @@ var h__4297__auto__ = self__.__hash;
 if((!((h__4297__auto__ == null)))){
 return h__4297__auto__;
 } else {
-var h__4297__auto____$1 = (function (){var fexpr__29990 = (function (coll__4436__auto__){
+var h__4297__auto____$1 = (function (){var fexpr__29991 = (function (coll__4436__auto__){
 return (979711303 ^ cljs.core.hash_unordered_coll(coll__4436__auto__));
 });
-return fexpr__29990(this__4435__auto____$1);
+return fexpr__29991(this__4435__auto____$1);
 })();
 (self__.__hash = h__4297__auto____$1);
 
@@ -543,12 +543,12 @@ var nl_30030 = rewrite_clj.node.whitespace.newline_node("\n");
 rewrite_clj.node.whitespace.line_separated = (function rewrite_clj$node$whitespace$line_separated(nodes){
 return cljs.core.butlast(cljs.core.interleave.cljs$core$IFn$_invoke$arity$2(nodes,cljs.core.repeat.cljs$core$IFn$_invoke$arity$1(nl_30030)));
 });
-var space_30031 = rewrite_clj.node.whitespace.whitespace_node(" ");
+var space_30032 = rewrite_clj.node.whitespace.whitespace_node(" ");
 /**
  * Interleave the given seq of nodes with `" "` nodes.
  */
 rewrite_clj.node.whitespace.space_separated = (function rewrite_clj$node$whitespace$space_separated(nodes){
-return cljs.core.butlast(cljs.core.interleave.cljs$core$IFn$_invoke$arity$2(nodes,cljs.core.repeat.cljs$core$IFn$_invoke$arity$1(space_30031)));
+return cljs.core.butlast(cljs.core.interleave.cljs$core$IFn$_invoke$arity$2(nodes,cljs.core.repeat.cljs$core$IFn$_invoke$arity$1(space_30032)));
 });
 /**
  * Check whether a node represents whitespace.

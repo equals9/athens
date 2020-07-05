@@ -215,11 +215,11 @@ return (new instaparse.line_col.Cursor(index,line,column,null,null,null));
  * Factory function for instaparse.line-col/Cursor, taking a map of keywords to field values.
  */
 instaparse.line_col.map__GT_Cursor = (function instaparse$line_col$map__GT_Cursor(G__65228){
-var extmap__4478__auto__ = (function (){var G__65244 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$variadic(G__65228,new cljs.core.Keyword(null,"index","index",-1531685915),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"column","column",2078222095)], 0));
+var extmap__4478__auto__ = (function (){var G__65245 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$variadic(G__65228,new cljs.core.Keyword(null,"index","index",-1531685915),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"line","line",212345235),new cljs.core.Keyword(null,"column","column",2078222095)], 0));
 if(cljs.core.record_QMARK_(G__65228)){
-return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__65244);
+return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__65245);
 } else {
-return G__65244;
+return G__65245;
 }
 })();
 return (new instaparse.line_col.Cursor(new cljs.core.Keyword(null,"index","index",-1531685915).cljs$core$IFn$_invoke$arity$1(G__65228),new cljs.core.Keyword(null,"line","line",212345235).cljs$core$IFn$_invoke$arity$1(G__65228),new cljs.core.Keyword(null,"column","column",2078222095).cljs$core$IFn$_invoke$arity$1(G__65228),null,cljs.core.not_empty(extmap__4478__auto__),null));
@@ -243,20 +243,20 @@ if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(index,new_index__$1)){
 return (new instaparse.line_col.Cursor(index,line,column,null,null,null));
 } else {
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(text.charAt(index),"\n")){
-var G__65275 = (index + (1));
-var G__65276 = (line + (1));
-var G__65277 = (1);
-index = G__65275;
-line = G__65276;
-column = G__65277;
+var G__65279 = (index + (1));
+var G__65280 = (line + (1));
+var G__65281 = (1);
+index = G__65279;
+line = G__65280;
+column = G__65281;
 continue;
 } else {
-var G__65278 = (index + (1));
-var G__65279 = line;
-var G__65280 = (column + (1));
-index = G__65278;
-line = G__65279;
-column = G__65280;
+var G__65282 = (index + (1));
+var G__65283 = line;
+var G__65284 = (column + (1));
+index = G__65282;
+line = G__65283;
+column = G__65284;
 continue;
 
 }
