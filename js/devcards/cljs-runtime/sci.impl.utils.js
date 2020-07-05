@@ -175,13 +175,13 @@ return obj;
 (sci.impl.utils.vary_meta_STAR_.cljs$lang$maxFixedArity = (2));
 
 /** @this {Function} */
-(sci.impl.utils.vary_meta_STAR_.cljs$lang$applyTo = (function (seq58410){
-var G__58411 = cljs.core.first(seq58410);
-var seq58410__$1 = cljs.core.next(seq58410);
-var G__58412 = cljs.core.first(seq58410__$1);
-var seq58410__$2 = cljs.core.next(seq58410__$1);
+(sci.impl.utils.vary_meta_STAR_.cljs$lang$applyTo = (function (seq58412){
+var G__58413 = cljs.core.first(seq58412);
+var seq58412__$1 = cljs.core.next(seq58412);
+var G__58414 = cljs.core.first(seq58412__$1);
+var seq58412__$2 = cljs.core.next(seq58412__$1);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__58411,G__58412,seq58410__$2);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__58413,G__58414,seq58412__$2);
 }));
 
 /**
@@ -239,8 +239,8 @@ return cljs.core.with_meta(cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.co
 if(cljs.core.map_entry_QMARK_(form)){
 return (new cljs.core.MapEntry((function (){var G__58420 = cljs.core.key(form);
 return (inner.cljs$core$IFn$_invoke$arity$1 ? inner.cljs$core$IFn$_invoke$arity$1(G__58420) : inner.call(null,G__58420));
-})(),(function (){var G__58421 = cljs.core.val(form);
-return (inner.cljs$core$IFn$_invoke$arity$1 ? inner.cljs$core$IFn$_invoke$arity$1(G__58421) : inner.call(null,G__58421));
+})(),(function (){var G__58422 = cljs.core.val(form);
+return (inner.cljs$core$IFn$_invoke$arity$1 ? inner.cljs$core$IFn$_invoke$arity$1(G__58422) : inner.call(null,G__58422));
 })(),null));
 } else {
 if(cljs.core.seq_QMARK_(form)){

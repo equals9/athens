@@ -13,14 +13,14 @@ return cljs.core.with_meta(value,new cljs.core.PersistentArrayMap(null, 1, [new 
 });
 devtools.formatters.printing.build_markup = (function devtools$formatters$printing$build_markup(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___23838 = arguments.length;
-var i__4790__auto___23839 = (0);
+var len__4789__auto___23836 = arguments.length;
+var i__4790__auto___23837 = (0);
 while(true){
-if((i__4790__auto___23839 < len__4789__auto___23838)){
-args__4795__auto__.push((arguments[i__4790__auto___23839]));
+if((i__4790__auto___23837 < len__4789__auto___23836)){
+args__4795__auto__.push((arguments[i__4790__auto___23837]));
 
-var G__23840 = (i__4790__auto___23839 + (1));
-i__4790__auto___23839 = G__23840;
+var G__23839 = (i__4790__auto___23837 + (1));
+i__4790__auto___23837 = G__23839;
 continue;
 } else {
 }
@@ -196,7 +196,7 @@ return false;
 } else {
 return cljs.core.native_satisfies_QMARK_(devtools.format.IDevtoolsFormat,obj);
 }
-}catch (e23821){var _e__20762__auto__ = e23821;
+}catch (e23821){var _e__20778__auto__ = e23821;
 return false;
 }})();
 if(cljs.core.truth_(or__4185__auto__)){
@@ -215,7 +215,7 @@ return false;
 } else {
 return cljs.core.native_satisfies_QMARK_(devtools.protocols.IFormat,obj);
 }
-}catch (e23823){var _e__20762__auto__ = e23823;
+}catch (e23823){var _e__20778__auto__ = e23823;
 return false;
 }}
 })())){
@@ -237,9 +237,9 @@ var _STAR_current_state_STAR__orig_val__23825 = devtools.formatters.state._STAR_
 var _STAR_current_state_STAR__temp_val__23826 = devtools.formatters.state.get_current_state();
 (devtools.formatters.state._STAR_current_state_STAR_ = _STAR_current_state_STAR__temp_val__23826);
 
-try{var map__23829 = opts;
-var map__23829__$1 = (((((!((map__23829 == null))))?(((((map__23829.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__23829.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__23829):map__23829);
-var markup_db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__23829__$1,new cljs.core.Keyword(null,"markup-db","markup-db",812838734));
+try{var map__23827 = opts;
+var map__23827__$1 = (((((!((map__23827 == null))))?(((((map__23827.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__23827.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__23827):map__23827);
+var markup_db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__23827__$1,new cljs.core.Keyword(null,"markup-db","markup-db",812838734));
 var circular_QMARK_ = devtools.formatters.state.is_circular_QMARK_(obj);
 var inner_writer = devtools.formatters.printing.make_template_writer(new cljs.core.Keyword(null,"markup-db","markup-db",812838734).cljs$core$IFn$_invoke$arity$1(opts));
 devtools.formatters.state.push_object_to_current_history_BANG_(obj);
@@ -258,16 +258,16 @@ return (printer.cljs$core$IFn$_invoke$arity$2 ? printer.cljs$core$IFn$_invoke$ar
 var temp__5733__auto___23852 = devtools.formatters.state.get_managed_print_level();
 if(cljs.core.truth_(temp__5733__auto___23852)){
 var managed_print_level_23853 = temp__5733__auto___23852;
-var _STAR_print_level_STAR__orig_val__23833_23854 = cljs.core._STAR_print_level_STAR_;
-var _STAR_print_level_STAR__temp_val__23835_23855 = managed_print_level_23853;
-(cljs.core._STAR_print_level_STAR_ = _STAR_print_level_STAR__temp_val__23835_23855);
+var _STAR_print_level_STAR__orig_val__23832_23854 = cljs.core._STAR_print_level_STAR_;
+var _STAR_print_level_STAR__temp_val__23833_23855 = managed_print_level_23853;
+(cljs.core._STAR_print_level_STAR_ = _STAR_print_level_STAR__temp_val__23833_23855);
 
 try{devtools.formatters.state.update_current_state_BANG_((function (p1__23831_SHARP_){
 return devtools.formatters.state.set_managed_print_level(p1__23831_SHARP_,null);
 }));
 
 job_fn();
-}finally {(cljs.core._STAR_print_level_STAR_ = _STAR_print_level_STAR__orig_val__23833_23854);
+}finally {(cljs.core._STAR_print_level_STAR_ = _STAR_print_level_STAR__orig_val__23832_23854);
 }} else {
 job_fn();
 }

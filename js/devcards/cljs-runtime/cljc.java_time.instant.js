@@ -93,8 +93,8 @@ cljc.java_time.instant.is_before = (function cljc$java_time$instant$is_before(th
 return this4007.isBefore(java_time_Instant4008);
 });
 cljc.java_time.instant.minus = (function cljc$java_time$instant$minus(var_args){
-var G__50578 = arguments.length;
-switch (G__50578) {
+var G__50579 = arguments.length;
+switch (G__50579) {
 case 3:
 return cljc.java_time.instant.minus.cljs$core$IFn$_invoke$arity$3((arguments[(0)]),(arguments[(1)]),(arguments[(2)]));
 
