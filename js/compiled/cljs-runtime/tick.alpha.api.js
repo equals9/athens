@@ -730,14 +730,14 @@ return tick.alpha.api._LT__EQ_.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(a
 break;
 default:
 var args_arr__4810__auto__ = [];
-var len__4789__auto___63423 = arguments.length;
-var i__4790__auto___63424 = (0);
+var len__4789__auto___63422 = arguments.length;
+var i__4790__auto___63423 = (0);
 while(true){
-if((i__4790__auto___63424 < len__4789__auto___63423)){
-args_arr__4810__auto__.push((arguments[i__4790__auto___63424]));
+if((i__4790__auto___63423 < len__4789__auto___63422)){
+args_arr__4810__auto__.push((arguments[i__4790__auto___63423]));
 
-var G__63425 = (i__4790__auto___63424 + (1));
-i__4790__auto___63424 = G__63425;
+var G__63424 = (i__4790__auto___63423 + (1));
+i__4790__auto___63423 = G__63424;
 continue;
 } else {
 }
@@ -762,12 +762,12 @@ return tick.core._LT__EQ_(x,y);
 while(true){
 if(cljs.core.truth_(tick.core._LT__EQ_(x,y))){
 if(cljs.core.next(more)){
-var G__63426 = y;
-var G__63427 = cljs.core.first(more);
-var G__63428 = cljs.core.next(more);
-x = G__63426;
-y = G__63427;
-more = G__63428;
+var G__63425 = y;
+var G__63426 = cljs.core.first(more);
+var G__63427 = cljs.core.next(more);
+x = G__63425;
+y = G__63426;
+more = G__63427;
 continue;
 } else {
 return tick.core._LT__EQ_(y,cljs.core.first(more));
@@ -804,14 +804,14 @@ return tick.alpha.api._GT_.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(argum
 break;
 default:
 var args_arr__4810__auto__ = [];
-var len__4789__auto___63430 = arguments.length;
-var i__4790__auto___63431 = (0);
+var len__4789__auto___63429 = arguments.length;
+var i__4790__auto___63430 = (0);
 while(true){
-if((i__4790__auto___63431 < len__4789__auto___63430)){
-args_arr__4810__auto__.push((arguments[i__4790__auto___63431]));
+if((i__4790__auto___63430 < len__4789__auto___63429)){
+args_arr__4810__auto__.push((arguments[i__4790__auto___63430]));
 
-var G__63432 = (i__4790__auto___63431 + (1));
-i__4790__auto___63431 = G__63432;
+var G__63431 = (i__4790__auto___63430 + (1));
+i__4790__auto___63430 = G__63431;
 continue;
 } else {
 }
@@ -836,12 +836,12 @@ return tick.core._GT_(x,y);
 while(true){
 if(cljs.core.truth_(tick.core._GT_(x,y))){
 if(cljs.core.next(more)){
-var G__63433 = y;
-var G__63434 = cljs.core.first(more);
-var G__63435 = cljs.core.next(more);
-x = G__63433;
-y = G__63434;
-more = G__63435;
+var G__63432 = y;
+var G__63433 = cljs.core.first(more);
+var G__63434 = cljs.core.next(more);
+x = G__63432;
+y = G__63433;
+more = G__63434;
 continue;
 } else {
 return tick.core._GT_(y,cljs.core.first(more));

@@ -257,8 +257,8 @@ sb.append(ch_59106__$1);
 } else {
 }
 
-var G__59108 = reader.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
-ch = G__59108;
+var G__59107 = reader.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
+ch = G__59107;
 continue;
 }
 }

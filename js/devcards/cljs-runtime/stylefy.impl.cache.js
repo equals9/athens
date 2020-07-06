@@ -42,8 +42,8 @@ return null;
 }
 });
 stylefy.impl.cache.set_cache_created_time = (function stylefy$impl$cache$set_cache_created_time(var_args){
-var G__37072 = arguments.length;
-switch (G__37072) {
+var G__37073 = arguments.length;
+switch (G__37073) {
 case 1:
 return stylefy.impl.cache.set_cache_created_time.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -96,8 +96,8 @@ return window.localStorage.setItem(stylefy.impl.cache.cache_key_styles(instance_
 (stylefy.impl.cache.clear_styles.cljs$lang$maxFixedArity = 1);
 
 stylefy.impl.cache.use_caching_BANG_ = (function stylefy$impl$cache$use_caching_BANG_(var_args){
-var G__37077 = arguments.length;
-switch (G__37077) {
+var G__37080 = arguments.length;
+switch (G__37080) {
 case 1:
 return stylefy.impl.cache.use_caching_BANG_.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

@@ -18,8 +18,8 @@ throw (new Error("Assert failed: (re-frame.registrar/kinds kind)"));
  *   This function is 9/10 about giving good error messages.
  */
 day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.events.flatten_and_remove_nils = (function day8$re_frame_10x$inlined_deps$re_frame$v0v11v0$re_frame$events$flatten_and_remove_nils(id,interceptors){
-var make_chain = (function (p1__27975_SHARP_){
-return cljs.core.remove.cljs$core$IFn$_invoke$arity$2(cljs.core.nil_QMARK_,cljs.core.flatten(p1__27975_SHARP_));
+var make_chain = (function (p1__27978_SHARP_){
+return cljs.core.remove.cljs$core$IFn$_invoke$arity$2(cljs.core.nil_QMARK_,cljs.core.flatten(p1__27978_SHARP_));
 });
 if((!(day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.interop.debug_enabled_QMARK_))){
 return make_chain(interceptors);
@@ -35,13 +35,13 @@ day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.loggers.console.cljs$co
 } else {
 }
 
-var temp__5735__auto___27989 = cljs.core.first(cljs.core.remove.cljs$core$IFn$_invoke$arity$2(day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.interceptor.interceptor_QMARK_,chain));
-if(cljs.core.truth_(temp__5735__auto___27989)){
-var not_i_27990 = temp__5735__auto___27989;
-if(cljs.core.fn_QMARK_(not_i_27990)){
-day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"error","error",-978969032),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["re-frame: when registering",id,", got a function instead of an interceptor. Did you provide old style middleware by mistake? Got:",not_i_27990], 0));
+var temp__5735__auto___27990 = cljs.core.first(cljs.core.remove.cljs$core$IFn$_invoke$arity$2(day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.interceptor.interceptor_QMARK_,chain));
+if(cljs.core.truth_(temp__5735__auto___27990)){
+var not_i_27991 = temp__5735__auto___27990;
+if(cljs.core.fn_QMARK_(not_i_27991)){
+day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"error","error",-978969032),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["re-frame: when registering",id,", got a function instead of an interceptor. Did you provide old style middleware by mistake? Got:",not_i_27991], 0));
 } else {
-day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"error","error",-978969032),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["re-frame: when registering",id,", expected interceptors, but got:",not_i_27990], 0));
+day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"error","error",-978969032),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["re-frame: when registering",id,", expected interceptors, but got:",not_i_27991], 0));
 }
 } else {
 }
@@ -74,7 +74,7 @@ var interceptors = temp__5733__auto__;
 if(cljs.core.truth_(day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.events._STAR_handling_STAR_)){
 return day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"error","error",-978969032),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["re-frame: while handling",day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.events._STAR_handling_STAR_,", dispatch-sync was called for",event_v,". You can't call dispatch-sync within an event handler."], 0));
 } else {
-var _STAR_handling_STAR__orig_val__27982 = day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.events._STAR_handling_STAR_;
+var _STAR_handling_STAR__orig_val__27983 = day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.events._STAR_handling_STAR_;
 var _STAR_handling_STAR__temp_val__27984 = event_v;
 (day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.events._STAR_handling_STAR_ = _STAR_handling_STAR__temp_val__27984);
 
@@ -128,7 +128,7 @@ return null;
 return null;
 }
 }
-}finally {(day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.events._STAR_handling_STAR_ = _STAR_handling_STAR__orig_val__27982);
+}finally {(day8.re_frame_10x.inlined_deps.re_frame.v0v11v0.re_frame.events._STAR_handling_STAR_ = _STAR_handling_STAR__orig_val__27983);
 }}
 } else {
 return null;
