@@ -165,9 +165,9 @@ if(((cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2("",selection)) && (cljs.cor
 var surround_selection = ["[",cljs.core.str.cljs$core$IFn$_invoke$arity$1(selection),"]"].join('');
 var new_str = [head,surround_selection,tail].join('');
 setTimeout((function (){
-var G__58042_58091 = target;
-var G__58043_58092 = (start + (1));
-goog.dom.selection.setStart(G__58042_58091,G__58043_58092);
+var G__58042_58092 = target;
+var G__58043_58093 = (start + (1));
+goog.dom.selection.setStart(G__58042_58092,G__58043_58093);
 
 var G__58044 = target;
 var G__58045 = (end + (1));

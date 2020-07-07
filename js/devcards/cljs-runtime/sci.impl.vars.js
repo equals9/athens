@@ -285,19 +285,19 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$5(f,x,y,z,args);
 var G__58465 = function (x,y,z,var_args){
 var args = null;
 if (arguments.length > 3) {
-var G__58467__i = 0, G__58467__a = new Array(arguments.length -  3);
-while (G__58467__i < G__58467__a.length) {G__58467__a[G__58467__i] = arguments[G__58467__i + 3]; ++G__58467__i;}
-  args = new cljs.core.IndexedSeq(G__58467__a,0,null);
+var G__58466__i = 0, G__58466__a = new Array(arguments.length -  3);
+while (G__58466__i < G__58466__a.length) {G__58466__a[G__58466__i] = arguments[G__58466__i + 3]; ++G__58466__i;}
+  args = new cljs.core.IndexedSeq(G__58466__a,0,null);
 } 
 return G__58465__delegate.call(this,x,y,z,args);};
 G__58465.cljs$lang$maxFixedArity = 3;
-G__58465.cljs$lang$applyTo = (function (arglist__58469){
-var x = cljs.core.first(arglist__58469);
-arglist__58469 = cljs.core.next(arglist__58469);
-var y = cljs.core.first(arglist__58469);
-arglist__58469 = cljs.core.next(arglist__58469);
-var z = cljs.core.first(arglist__58469);
-var args = cljs.core.rest(arglist__58469);
+G__58465.cljs$lang$applyTo = (function (arglist__58467){
+var x = cljs.core.first(arglist__58467);
+arglist__58467 = cljs.core.next(arglist__58467);
+var y = cljs.core.first(arglist__58467);
+arglist__58467 = cljs.core.next(arglist__58467);
+var z = cljs.core.first(arglist__58467);
+var args = cljs.core.rest(arglist__58467);
 return G__58465__delegate(x,y,z,args);
 });
 G__58465.cljs$core$IFn$_invoke$arity$variadic = G__58465__delegate;
@@ -316,13 +316,13 @@ return G__58464__2.call(this,x,y);
 case 3:
 return G__58464__3.call(this,x,y,z);
 default:
-var G__58470 = null;
+var G__58469 = null;
 if (arguments.length > 3) {
-var G__58471__i = 0, G__58471__a = new Array(arguments.length -  3);
-while (G__58471__i < G__58471__a.length) {G__58471__a[G__58471__i] = arguments[G__58471__i + 3]; ++G__58471__i;}
-G__58470 = new cljs.core.IndexedSeq(G__58471__a,0,null);
+var G__58470__i = 0, G__58470__a = new Array(arguments.length -  3);
+while (G__58470__i < G__58470__a.length) {G__58470__a[G__58470__i] = arguments[G__58470__i + 3]; ++G__58470__i;}
+G__58469 = new cljs.core.IndexedSeq(G__58470__a,0,null);
 }
-return G__58464__4.cljs$core$IFn$_invoke$arity$variadic(x,y,z, G__58470);
+return G__58464__4.cljs$core$IFn$_invoke$arity$variadic(x,y,z, G__58469);
 }
 throw(new Error('Invalid arity: ' + arguments.length));
 };

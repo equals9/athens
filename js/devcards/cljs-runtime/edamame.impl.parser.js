@@ -257,8 +257,8 @@ sb.append(ch_59166__$1);
 } else {
 }
 
-var G__59168 = reader.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
-ch = G__59168;
+var G__59167 = reader.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
+ch = G__59167;
 continue;
 }
 }
@@ -287,12 +287,12 @@ var freq = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59043,(1),null);
 if((freq > (1))){
 cljs.core.chunk_append(b__59042,id);
 
-var G__59169 = (i__59041 + (1));
-i__59041 = G__59169;
+var G__59168 = (i__59041 + (1));
+i__59041 = G__59168;
 continue;
 } else {
-var G__59170 = (i__59041 + (1));
-i__59041 = G__59170;
+var G__59169 = (i__59041 + (1));
+i__59041 = G__59169;
 continue;
 }
 } else {
