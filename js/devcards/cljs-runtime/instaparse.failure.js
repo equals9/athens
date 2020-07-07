@@ -45,16 +45,16 @@ if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(n__$1,(1))){
 return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.str,cljs.core.take_while.cljs$core$IFn$_invoke$arity$2(cljs.core.complement(new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 1, ["\n",null], null), null)),chars));
 } else {
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("\n",cljs.core.first(chars))){
-var G__55890 = cljs.core.next(chars);
-var G__55891 = (n__$1 - (1));
-chars = G__55890;
-n__$1 = G__55891;
+var G__55889 = cljs.core.next(chars);
+var G__55890 = (n__$1 - (1));
+chars = G__55889;
+n__$1 = G__55890;
 continue;
 } else {
-var G__55892 = cljs.core.next(chars);
-var G__55893 = n__$1;
-chars = G__55892;
-n__$1 = G__55893;
+var G__55891 = cljs.core.next(chars);
+var G__55892 = n__$1;
+chars = G__55891;
+n__$1 = G__55892;
 continue;
 
 }

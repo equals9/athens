@@ -154,10 +154,10 @@ return k;
 });
 reagent.impl.template.custom_kv_conv = (function reagent$impl$template$custom_kv_conv(o,k,v){
 var G__31685 = o;
-var G__31686_31731 = G__31685;
-var G__31687_31732 = reagent.impl.template.cached_custom_prop_name(k);
-var G__31688_31733 = reagent.impl.template.convert_prop_value(v);
-goog.object.set(G__31686_31731,G__31687_31732,G__31688_31733);
+var G__31686_31728 = G__31685;
+var G__31687_31729 = reagent.impl.template.cached_custom_prop_name(k);
+var G__31688_31730 = reagent.impl.template.convert_prop_value(v);
+goog.object.set(G__31686_31728,G__31687_31729,G__31688_31730);
 
 return G__31685;
 });
@@ -447,11 +447,11 @@ var c = reagent.impl.component.as_class(tag);
 var jsprops = ({});
 (jsprops.argv = v);
 
-var temp__5739__auto___31757 = reagent.impl.template.key_from_vec(v);
-if((temp__5739__auto___31757 == null)){
+var temp__5739__auto___31752 = reagent.impl.template.key_from_vec(v);
+if((temp__5739__auto___31752 == null)){
 } else {
-var key_31759 = temp__5739__auto___31757;
-(jsprops.key = key_31759);
+var key_31757 = temp__5739__auto___31752;
+(jsprops.key = key_31757);
 }
 
 return module$node_modules$react$index.createElement(c,jsprops);

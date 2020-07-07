@@ -155,19 +155,19 @@ var temp__5735__auto___50242 = cljs.core.seq(seq__50221_50233);
 if(temp__5735__auto___50242){
 var seq__50221_50243__$1 = temp__5735__auto___50242;
 if(cljs.core.chunked_seq_QMARK_(seq__50221_50243__$1)){
-var c__4609__auto___50245 = cljs.core.chunk_first(seq__50221_50243__$1);
-var G__50246 = cljs.core.chunk_rest(seq__50221_50243__$1);
-var G__50247 = c__4609__auto___50245;
-var G__50248 = cljs.core.count(c__4609__auto___50245);
-var G__50249 = (0);
-seq__50221_50233 = G__50246;
-chunk__50222_50234 = G__50247;
-count__50223_50235 = G__50248;
-i__50224_50236 = G__50249;
+var c__4609__auto___50244 = cljs.core.chunk_first(seq__50221_50243__$1);
+var G__50245 = cljs.core.chunk_rest(seq__50221_50243__$1);
+var G__50246 = c__4609__auto___50244;
+var G__50247 = cljs.core.count(c__4609__auto___50244);
+var G__50248 = (0);
+seq__50221_50233 = G__50245;
+chunk__50222_50234 = G__50246;
+count__50223_50235 = G__50247;
+i__50224_50236 = G__50248;
 continue;
 } else {
-var controller_50250 = cljs.core.first(seq__50221_50243__$1);
-reitit.frontend.controllers.apply_controller(controller_50250,new cljs.core.Keyword(null,"stop","stop",-2140911342));
+var controller_50249 = cljs.core.first(seq__50221_50243__$1);
+reitit.frontend.controllers.apply_controller(controller_50249,new cljs.core.Keyword(null,"stop","stop",-2140911342));
 
 
 var G__50251 = cljs.core.next(seq__50221_50243__$1);

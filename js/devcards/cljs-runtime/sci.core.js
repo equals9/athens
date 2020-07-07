@@ -9,8 +9,8 @@ goog.require('sci.impl.vars');
  * Alpha! Returns a new sci var. API subject to change.
  */
 sci.core.new_var = (function sci$core$new_var(var_args){
-var G__60263 = arguments.length;
-switch (G__60263) {
+var G__60275 = arguments.length;
+switch (G__60275) {
 case 1:
 return sci.core.new_var.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -30,10 +30,10 @@ throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(
 });
 
 (sci.core.new_var.cljs$core$IFn$_invoke$arity$1 = (function (name){
-var G__60264 = sci.core.new_var.cljs$core$IFn$_invoke$arity$3(name,null,null);
-sci.impl.vars.unbind(G__60264);
+var G__60276 = sci.core.new_var.cljs$core$IFn$_invoke$arity$3(name,null,null);
+sci.impl.vars.unbind(G__60276);
 
-return G__60264;
+return G__60276;
 }));
 
 (sci.core.new_var.cljs$core$IFn$_invoke$arity$2 = (function (name,init_val){
@@ -51,8 +51,8 @@ return (new sci.impl.vars.SciVar(init_val,name,meta));
  *   change.
  */
 sci.core.new_dynamic_var = (function sci$core$new_dynamic_var(var_args){
-var G__60266 = arguments.length;
-switch (G__60266) {
+var G__60278 = arguments.length;
+switch (G__60278) {
 case 1:
 return sci.core.new_dynamic_var.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -72,10 +72,10 @@ throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(
 });
 
 (sci.core.new_dynamic_var.cljs$core$IFn$_invoke$arity$1 = (function (name){
-var G__60267 = sci.core.new_dynamic_var.cljs$core$IFn$_invoke$arity$3(name,null,null);
-sci.impl.vars.unbind(G__60267);
+var G__60279 = sci.core.new_dynamic_var.cljs$core$IFn$_invoke$arity$3(name,null,null);
+sci.impl.vars.unbind(G__60279);
 
-return G__60267;
+return G__60279;
 }));
 
 (sci.core.new_dynamic_var.cljs$core$IFn$_invoke$arity$2 = (function (name,init_val){
@@ -93,8 +93,8 @@ return (new sci.impl.vars.SciVar(init_val,name,cljs.core.assoc.cljs$core$IFn$_in
  *   as :sci/macro true to meta of the fn itself. API subject to change.
  */
 sci.core.new_macro_var = (function sci$core$new_macro_var(var_args){
-var G__60269 = arguments.length;
-switch (G__60269) {
+var G__60281 = arguments.length;
+switch (G__60281) {
 case 2:
 return sci.core.new_macro_var.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -149,14 +149,14 @@ sci.core.print_length = sci.impl.io.print_length;
  */
 sci.core.alter_var_root = (function sci$core$alter_var_root(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___60294 = arguments.length;
-var i__4790__auto___60295 = (0);
+var len__4789__auto___60306 = arguments.length;
+var i__4790__auto___60307 = (0);
 while(true){
-if((i__4790__auto___60295 < len__4789__auto___60294)){
-args__4795__auto__.push((arguments[i__4790__auto___60295]));
+if((i__4790__auto___60307 < len__4789__auto___60306)){
+args__4795__auto__.push((arguments[i__4790__auto___60307]));
 
-var G__60296 = (i__4790__auto___60295 + (1));
-i__4790__auto___60295 = G__60296;
+var G__60308 = (i__4790__auto___60307 + (1));
+i__4790__auto___60307 = G__60308;
 continue;
 } else {
 }
@@ -174,13 +174,13 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$4(sci.impl.vars.alter_var_roo
 (sci.core.alter_var_root.cljs$lang$maxFixedArity = (2));
 
 /** @this {Function} */
-(sci.core.alter_var_root.cljs$lang$applyTo = (function (seq60284){
-var G__60285 = cljs.core.first(seq60284);
-var seq60284__$1 = cljs.core.next(seq60284);
-var G__60286 = cljs.core.first(seq60284__$1);
-var seq60284__$2 = cljs.core.next(seq60284__$1);
+(sci.core.alter_var_root.cljs$lang$applyTo = (function (seq60296){
+var G__60297 = cljs.core.first(seq60296);
+var seq60296__$1 = cljs.core.next(seq60296);
+var G__60298 = cljs.core.first(seq60296__$1);
+var seq60296__$2 = cljs.core.next(seq60296__$1);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__60285,G__60286,seq60284__$2);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__60297,G__60298,seq60296__$2);
 }));
 
 /**
@@ -220,8 +220,8 @@ return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__60285,G__60286
  *   
  */
 sci.core.eval_string = (function sci$core$eval_string(var_args){
-var G__60288 = arguments.length;
-switch (G__60288) {
+var G__60300 = arguments.length;
+switch (G__60300) {
 case 1:
 return sci.core.eval_string.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -266,8 +266,8 @@ return sci.impl.interpreter.eval_string_STAR_(ctx,s);
  * Creates namespace object. Can be used in var metadata.
  */
 sci.core.create_ns = (function sci$core$create_ns(var_args){
-var G__60290 = arguments.length;
-switch (G__60290) {
+var G__60302 = arguments.length;
+switch (G__60302) {
 case 1:
 return sci.core.create_ns.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
