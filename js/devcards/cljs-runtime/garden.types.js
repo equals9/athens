@@ -105,10 +105,10 @@ var h__4297__auto__ = self__.__hash;
 if((!((h__4297__auto__ == null)))){
 return h__4297__auto__;
 } else {
-var h__4297__auto____$1 = (function (){var fexpr__32874 = (function (coll__4436__auto__){
+var h__4297__auto____$1 = (function (){var fexpr__32872 = (function (coll__4436__auto__){
 return (70281654 ^ cljs.core.hash_unordered_coll(coll__4436__auto__));
 });
-return fexpr__32874(this__4435__auto____$1);
+return fexpr__32872(this__4435__auto____$1);
 })();
 (self__.__hash = h__4297__auto____$1);
 
@@ -143,9 +143,9 @@ return (pred__32875.cljs$core$IFn$_invoke$arity$2 ? pred__32875.cljs$core$IFn$_i
 })())){
 return (new garden.types.CSSUnit(G__32862,self__.magnitude,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((function (){var G__32881 = new cljs.core.Keyword(null,"magnitude","magnitude",1924274222);
-var G__32882 = expr__32876;
-return (pred__32875.cljs$core$IFn$_invoke$arity$2 ? pred__32875.cljs$core$IFn$_invoke$arity$2(G__32881,G__32882) : pred__32875.call(null,G__32881,G__32882));
+if(cljs.core.truth_((function (){var G__32880 = new cljs.core.Keyword(null,"magnitude","magnitude",1924274222);
+var G__32881 = expr__32876;
+return (pred__32875.cljs$core$IFn$_invoke$arity$2 ? pred__32875.cljs$core$IFn$_invoke$arity$2(G__32880,G__32881) : pred__32875.call(null,G__32880,G__32881));
 })())){
 return (new garden.types.CSSUnit(self__.unit,G__32862,self__.__meta,self__.__extmap,null));
 } else {

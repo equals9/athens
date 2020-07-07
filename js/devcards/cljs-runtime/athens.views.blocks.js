@@ -47,10 +47,13 @@ var key = e.keyCode;
 var shift = e.shiftKey;
 var value = e.target.value;
 var index = e.target.selectionStart;
+var end = e.target.selectionEnd;
 var block_start_QMARK_ = (index === (0));
 var block_end_QMARK_ = cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(index,cljs.core.count(value));
 var top_row_QMARK_ = true;
 var bottom_row_QMARK_ = true;
+cljs.core.prn.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([index,end], 0));
+
 if(((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(key,goog.events.KeyCodes.UP)) && (top_row_QMARK_))){
 var G__57995 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"up","up",-269712113),uid], null);
 return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__57995) : re_frame.core.dispatch.call(null,G__57995));
@@ -67,7 +70,13 @@ if(((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(key,goog.events.KeyCodes.RIGHT
 var G__57998 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"right","right",-452581833),uid], null);
 return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__57998) : re_frame.core.dispatch.call(null,G__57998));
 } else {
-if(cljs.core.truth_(((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(key,goog.events.KeyCodes.TAB))?shift:false))){
+if(cljs.core.truth_((function (){var and__4174__auto__ = shift;
+if(cljs.core.truth_(and__4174__auto__)){
+return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(key,goog.events.KeyCodes.TAB);
+} else {
+return and__4174__auto__;
+}
+})())){
 var G__57999 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"unindent","unindent",-1291301718),uid], null);
 return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__57999) : re_frame.core.dispatch.call(null,G__57999));
 } else {
@@ -75,17 +84,31 @@ if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(key,goog.events.KeyCodes.TAB)){
 var G__58000 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"indent","indent",-148200125),uid], null);
 return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__58000) : re_frame.core.dispatch.call(null,G__58000));
 } else {
+if(cljs.core.truth_((function (){var and__4174__auto__ = shift;
+if(cljs.core.truth_(and__4174__auto__)){
+return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(key,goog.events.KeyCodes.ENTER);
+} else {
+return and__4174__auto__;
+}
+})())){
+return null;
+} else {
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(key,goog.events.KeyCodes.ENTER)){
 e.preventDefault();
 
 var G__58001 = new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"enter","enter",1792452624),uid,value,index,state], null);
 return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__58001) : re_frame.core.dispatch.call(null,G__58001));
 } else {
-if(((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(key,goog.events.KeyCodes.BACKSPACE)) && (block_start_QMARK_))){
+if(((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(key,goog.events.KeyCodes.BACKSPACE)) && (block_start_QMARK_) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(index,end)))){
 var G__58002 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"backspace","backspace",-696007848),uid,value], null);
 return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__58002) : re_frame.core.dispatch.call(null,G__58002));
 } else {
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(key,goog.events.KeyCodes.SLASH)){
+return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(state,cljs.core.update,new cljs.core.Keyword(null,"slash?","slash?",810223916),cljs.core.not);
+} else {
 return null;
+}
+}
 }
 }
 }
@@ -132,7 +155,7 @@ var closest_uid = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__58004__$1,new
 var closest_kind = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__58004__$1,new cljs.core.Keyword("closest","kind","closest/kind",429209294));
 var x = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__58004__$1,new cljs.core.Keyword(null,"x","x",2099068185));
 var y = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__58004__$1,new cljs.core.Keyword(null,"y","y",-1757859776));
-if((cljs.core.count(new cljs.core.Keyword(null,"atom-string","atom-string",-1067323204).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(state))) < cljs.core.count(string))){
+if((((!(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(editing_uid,uid)))) && ((cljs.core.count(new cljs.core.Keyword(null,"atom-string","atom-string",-1067323204).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(state))) < cljs.core.count(string))))){
 cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(state,cljs.core.assoc,new cljs.core.Keyword(null,"atom-string","atom-string",-1067323204),string);
 } else {
 }
@@ -171,8 +194,8 @@ if((i__58012 < size__4581__auto__)){
 var child = cljs.core._nth.cljs$core$IFn$_invoke$arity$2(c__4580__auto__,i__58012);
 cljs.core.chunk_append(b__58013,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"style","style",-496642736),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"margin-left","margin-left",2015598377),"32px"], null),new cljs.core.Keyword(null,"key","key",-1516042587),new cljs.core.Keyword("db","id","db/id",-1388397098).cljs$core$IFn$_invoke$arity$1(child)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [athens.views.blocks.block_el,child], null)], null));
 
-var G__58038 = (i__58012 + (1));
-i__58012 = G__58038;
+var G__58037 = (i__58012 + (1));
+i__58012 = G__58037;
 continue;
 } else {
 return true;
