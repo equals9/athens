@@ -27,10 +27,10 @@ throw (new Error(["Could not find instance method: ",cljs.core.str.cljs$core$IFn
 }
 }
 });
-sci.impl.interop.get_static_field = (function sci$impl$interop$get_static_field(p__58583){
-var vec__58585 = p__58583;
-var class$ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__58585,(0),null);
-var field_name_sym = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__58585,(1),null);
+sci.impl.interop.get_static_field = (function sci$impl$interop$get_static_field(p__58585){
+var vec__58586 = p__58585;
+var class$ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__58586,(0),null);
+var field_name_sym = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__58586,(1),null);
 return goog.object.get(class$,field_name_sym);
 });
 sci.impl.interop.invoke_js_constructor = (function sci$impl$interop$invoke_js_constructor(constructor$,args){

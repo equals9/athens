@@ -39,14 +39,14 @@ throw (new Error(cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.str,msg
 var G__58582 = function (var_args){
 var msg = null;
 if (arguments.length > 0) {
-var G__58584__i = 0, G__58584__a = new Array(arguments.length -  0);
-while (G__58584__i < G__58584__a.length) {G__58584__a[G__58584__i] = arguments[G__58584__i + 0]; ++G__58584__i;}
-  msg = new cljs.core.IndexedSeq(G__58584__a,0,null);
+var G__58583__i = 0, G__58583__a = new Array(arguments.length -  0);
+while (G__58583__i < G__58583__a.length) {G__58583__a[G__58583__i] = arguments[G__58583__i + 0]; ++G__58583__i;}
+  msg = new cljs.core.IndexedSeq(G__58583__a,0,null);
 } 
 return G__58582__delegate.call(this,msg);};
 G__58582.cljs$lang$maxFixedArity = 0;
-G__58582.cljs$lang$applyTo = (function (arglist__58588){
-var msg = cljs.core.seq(arglist__58588);
+G__58582.cljs$lang$applyTo = (function (arglist__58584){
+var msg = cljs.core.seq(arglist__58584);
 return G__58582__delegate(msg);
 });
 G__58582.cljs$core$IFn$_invoke$arity$variadic = G__58582__delegate;

@@ -145,27 +145,27 @@ var G__33923 = (m1 + m2);
 return (u.cljs$core$IFn$_invoke$arity$1 ? u.cljs$core$IFn$_invoke$arity$1(G__33923) : u.call(null,G__33923));
 });
 var garden$units$make_unit_adder_$_u_PLUS___3 = (function() { 
-var G__33960__delegate = function (x,y,more){
+var G__33963__delegate = function (x,y,more){
 return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3(garden$units$make_unit_adder_$_u_PLUS_,garden$units$make_unit_adder_$_u_PLUS_.cljs$core$IFn$_invoke$arity$2(x,y),more);
 };
-var G__33960 = function (x,y,var_args){
+var G__33963 = function (x,y,var_args){
 var more = null;
 if (arguments.length > 2) {
 var G__33964__i = 0, G__33964__a = new Array(arguments.length -  2);
 while (G__33964__i < G__33964__a.length) {G__33964__a[G__33964__i] = arguments[G__33964__i + 2]; ++G__33964__i;}
   more = new cljs.core.IndexedSeq(G__33964__a,0,null);
 } 
-return G__33960__delegate.call(this,x,y,more);};
-G__33960.cljs$lang$maxFixedArity = 2;
-G__33960.cljs$lang$applyTo = (function (arglist__33965){
+return G__33963__delegate.call(this,x,y,more);};
+G__33963.cljs$lang$maxFixedArity = 2;
+G__33963.cljs$lang$applyTo = (function (arglist__33965){
 var x = cljs.core.first(arglist__33965);
 arglist__33965 = cljs.core.next(arglist__33965);
 var y = cljs.core.first(arglist__33965);
 var more = cljs.core.rest(arglist__33965);
-return G__33960__delegate(x,y,more);
+return G__33963__delegate(x,y,more);
 });
-G__33960.cljs$core$IFn$_invoke$arity$variadic = G__33960__delegate;
-return G__33960;
+G__33963.cljs$core$IFn$_invoke$arity$variadic = G__33963__delegate;
+return G__33963;
 })()
 ;
 garden$units$make_unit_adder_$_u_PLUS_ = function(x,y,var_args){

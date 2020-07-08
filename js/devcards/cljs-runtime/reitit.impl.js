@@ -158,8 +158,8 @@ var p = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__49816,(0),null);
 var pc = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__49816,(1),null);
 cljs.core.chunk_append(b__49815,cljs.core.conj.cljs$core$IFn$_invoke$arity$2(cljs.core.map.cljs$core$IFn$_invoke$arity$2(cljs.core.first,pc),cljs.core.first(p)));
 
-var G__49862 = (i__49814 + (1));
-i__49814 = G__49862;
+var G__49858 = (i__49814 + (1));
+i__49814 = G__49858;
 continue;
 } else {
 return true;
@@ -346,12 +346,12 @@ throw cljs.core.missing_protocol("IntoString.into-string",_);
 
 goog.object.set(reitit.impl.IntoString,"string",true);
 
-var G__49838_49874 = reitit.impl.into_string;
-var G__49839_49875 = "string";
-var G__49840_49876 = (function (this$){
+var G__49838_49869 = reitit.impl.into_string;
+var G__49839_49870 = "string";
+var G__49840_49871 = (function (this$){
 return this$;
 });
-goog.object.set(G__49838_49874,G__49839_49875,G__49840_49876);
+goog.object.set(G__49838_49869,G__49839_49870,G__49840_49871);
 
 (cljs.core.Keyword.prototype.reitit$impl$IntoString$ = cljs.core.PROTOCOL_SENTINEL);
 
@@ -363,39 +363,39 @@ return [ns,(cljs.core.truth_(ns)?"/":null),cljs.core.name(this$__$1)].join('');
 
 goog.object.set(reitit.impl.IntoString,"boolean",true);
 
-var G__49841_49877 = reitit.impl.into_string;
-var G__49842_49878 = "boolean";
-var G__49843_49879 = (function (this$){
+var G__49841_49872 = reitit.impl.into_string;
+var G__49842_49873 = "boolean";
+var G__49843_49874 = (function (this$){
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(this$);
 });
-goog.object.set(G__49841_49877,G__49842_49878,G__49843_49879);
+goog.object.set(G__49841_49872,G__49842_49873,G__49843_49874);
 
 goog.object.set(reitit.impl.IntoString,"number",true);
 
-var G__49844_49884 = reitit.impl.into_string;
-var G__49845_49885 = "number";
-var G__49846_49886 = (function (this$){
+var G__49844_49875 = reitit.impl.into_string;
+var G__49845_49876 = "number";
+var G__49846_49877 = (function (this$){
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(this$);
 });
-goog.object.set(G__49844_49884,G__49845_49885,G__49846_49886);
+goog.object.set(G__49844_49875,G__49845_49876,G__49846_49877);
 
 goog.object.set(reitit.impl.IntoString,"object",true);
 
-var G__49847_49888 = reitit.impl.into_string;
-var G__49848_49889 = "object";
-var G__49849_49890 = (function (this$){
+var G__49847_49878 = reitit.impl.into_string;
+var G__49848_49879 = "object";
+var G__49849_49880 = (function (this$){
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(this$);
 });
-goog.object.set(G__49847_49888,G__49848_49889,G__49849_49890);
+goog.object.set(G__49847_49878,G__49848_49879,G__49849_49880);
 
 goog.object.set(reitit.impl.IntoString,"null",true);
 
-var G__49850_49891 = reitit.impl.into_string;
-var G__49851_49892 = "null";
-var G__49852_49893 = (function (_){
+var G__49850_49881 = reitit.impl.into_string;
+var G__49851_49882 = "null";
+var G__49852_49883 = (function (_){
 return null;
 });
-goog.object.set(G__49850_49891,G__49851_49892,G__49852_49893);
+goog.object.set(G__49850_49881,G__49851_49882,G__49852_49883);
 /**
  * Convert parameters' values into URL-encoded strings, suitable for URL paths
  */

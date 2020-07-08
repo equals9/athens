@@ -8,10 +8,10 @@ goog.require('sablono.util');
  */
 sablono.normalize.compact_map = (function sablono$normalize$compact_map(m){
 if(cljs.core.truth_(m)){
-return cljs.core.into.cljs$core$IFn$_invoke$arity$3(cljs.core.PersistentArrayMap.EMPTY,cljs.core.remove.cljs$core$IFn$_invoke$arity$1((function (p__39608){
-var vec__39609 = p__39608;
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39609,(0),null);
-var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39609,(1),null);
+return cljs.core.into.cljs$core$IFn$_invoke$arity$3(cljs.core.PersistentArrayMap.EMPTY,cljs.core.remove.cljs$core$IFn$_invoke$arity$1((function (p__39605){
+var vec__39606 = p__39605;
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39606,(0),null);
+var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39606,(1),null);
 return cljs.core.empty_QMARK_(v);
 })),m);
 } else {
@@ -62,8 +62,8 @@ return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMP
 if((class$ instanceof cljs.core.Keyword)){
 return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [sablono.normalize.class_name(class$)], null);
 } else {
-if(((((cljs.core.set_QMARK_(class$)) || (cljs.core.sequential_QMARK_(class$)))) && (cljs.core.every_QMARK_((function (p1__39615_SHARP_){
-return (((p1__39615_SHARP_ instanceof cljs.core.Keyword)) || (typeof p1__39615_SHARP_ === 'string'));
+if(((((cljs.core.set_QMARK_(class$)) || (cljs.core.sequential_QMARK_(class$)))) && (cljs.core.every_QMARK_((function (p1__39612_SHARP_){
+return (((p1__39612_SHARP_ instanceof cljs.core.Keyword)) || (typeof p1__39612_SHARP_ === 'string'));
 }),class$)))){
 return cljs.core.mapv.cljs$core$IFn$_invoke$arity$2(sablono.normalize.class_name,class$);
 } else {
@@ -190,22 +190,22 @@ return cljs.core.map_QMARK_(x);
 /**
  * Ensure an element vector is of the form [tag-name attrs content].
  */
-sablono.normalize.element = (function sablono$normalize$element(p__39634){
-var vec__39636 = p__39634;
-var seq__39639 = cljs.core.seq(vec__39636);
-var first__39641 = cljs.core.first(seq__39639);
-var seq__39639__$1 = cljs.core.next(seq__39639);
-var tag = first__39641;
-var content = seq__39639__$1;
+sablono.normalize.element = (function sablono$normalize$element(p__39645){
+var vec__39649 = p__39645;
+var seq__39650 = cljs.core.seq(vec__39649);
+var first__39651 = cljs.core.first(seq__39650);
+var seq__39650__$1 = cljs.core.next(seq__39650);
+var tag = first__39651;
+var content = seq__39650__$1;
 if((((tag instanceof cljs.core.Keyword)) || ((tag instanceof cljs.core.Symbol)) || (typeof tag === 'string'))){
 } else {
 throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2([cljs.core.str.cljs$core$IFn$_invoke$arity$1(tag)," is not a valid element name."].join(''),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"tag","tag",-1290361223),tag,new cljs.core.Keyword(null,"content","content",15833224),content], null));
 }
 
-var vec__39649 = sablono.normalize.match_tag(tag);
-var tag__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39649,(0),null);
-var id = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39649,(1),null);
-var class$ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39649,(2),null);
+var vec__39656 = sablono.normalize.match_tag(tag);
+var tag__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39656,(0),null);
+var id = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39656,(1),null);
+var class$ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__39656,(2),null);
 var tag_attrs = sablono.normalize.compact_map(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"id","id",-1388402092),id,new cljs.core.Keyword(null,"class","class",-2030961996),class$], null));
 var map_attrs = cljs.core.first(content);
 if(sablono.normalize.attrs_QMARK_(map_attrs)){
