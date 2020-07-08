@@ -138,10 +138,10 @@ if(reagent.impl.util.named_QMARK_(k)){
 var temp__5737__auto__ = reagent.impl.template.cache_get(reagent.impl.template.custom_prop_name_cache,cljs.core.name(k));
 if((temp__5737__auto__ == null)){
 var v = reagent.impl.util.dash_to_prop_name(k);
-var G__31682_31725 = reagent.impl.template.custom_prop_name_cache;
-var G__31683_31726 = cljs.core.name(k);
-var G__31684_31727 = v;
-goog.object.set(G__31682_31725,G__31683_31726,G__31684_31727);
+var G__31682_31723 = reagent.impl.template.custom_prop_name_cache;
+var G__31683_31724 = cljs.core.name(k);
+var G__31684_31725 = v;
+goog.object.set(G__31682_31723,G__31683_31724,G__31684_31725);
 
 return v;
 } else {
@@ -447,11 +447,11 @@ var c = reagent.impl.component.as_class(tag);
 var jsprops = ({});
 (jsprops.argv = v);
 
-var temp__5739__auto___31756 = reagent.impl.template.key_from_vec(v);
-if((temp__5739__auto___31756 == null)){
+var temp__5739__auto___31752 = reagent.impl.template.key_from_vec(v);
+if((temp__5739__auto___31752 == null)){
 } else {
-var key_31758 = temp__5739__auto___31756;
-(jsprops.key = key_31758);
+var key_31757 = temp__5739__auto___31752;
+(jsprops.key = key_31757);
 }
 
 return module$node_modules$react$index.createElement(c,jsprops);
@@ -467,10 +467,10 @@ return ({});
 }
 })();
 var first_child = ((1) + ((hasprops)?(1):(0)));
-var temp__5739__auto___31770 = reagent.impl.template.key_from_vec(argv);
-if((temp__5739__auto___31770 == null)){
+var temp__5739__auto___31766 = reagent.impl.template.key_from_vec(argv);
+if((temp__5739__auto___31766 == null)){
 } else {
-var key_31771 = temp__5739__auto___31770;
+var key_31771 = temp__5739__auto___31766;
 (jsprops.key = key_31771);
 }
 
