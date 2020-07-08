@@ -22,95 +22,95 @@ return cljs.core.conj.cljs$core$IFn$_invoke$arity$2(elements_so_far,elmt);
  * Transforms the Instaparse output tree to an abstract syntax tree for Athens markup.
  */
 athens.parser.transform_to_ast = (function athens$parser$transform_to_ast(tree){
-var G__57923 = new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"block","block",664686210),(function() { 
-var G__57950__delegate = function (raw_contents){
+var G__57913 = new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"block","block",664686210),(function() { 
+var G__57940__delegate = function (raw_contents){
 return cljs.core.into.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"block","block",664686210)], null),athens.parser.combine_adjacent_strings(raw_contents));
 };
-var G__57950 = function (var_args){
+var G__57940 = function (var_args){
 var raw_contents = null;
 if (arguments.length > 0) {
-var G__57951__i = 0, G__57951__a = new Array(arguments.length -  0);
-while (G__57951__i < G__57951__a.length) {G__57951__a[G__57951__i] = arguments[G__57951__i + 0]; ++G__57951__i;}
-  raw_contents = new cljs.core.IndexedSeq(G__57951__a,0,null);
+var G__57941__i = 0, G__57941__a = new Array(arguments.length -  0);
+while (G__57941__i < G__57941__a.length) {G__57941__a[G__57941__i] = arguments[G__57941__i + 0]; ++G__57941__i;}
+  raw_contents = new cljs.core.IndexedSeq(G__57941__a,0,null);
 } 
-return G__57950__delegate.call(this,raw_contents);};
-G__57950.cljs$lang$maxFixedArity = 0;
-G__57950.cljs$lang$applyTo = (function (arglist__57952){
-var raw_contents = cljs.core.seq(arglist__57952);
-return G__57950__delegate(raw_contents);
+return G__57940__delegate.call(this,raw_contents);};
+G__57940.cljs$lang$maxFixedArity = 0;
+G__57940.cljs$lang$applyTo = (function (arglist__57942){
+var raw_contents = cljs.core.seq(arglist__57942);
+return G__57940__delegate(raw_contents);
 });
-G__57950.cljs$core$IFn$_invoke$arity$variadic = G__57950__delegate;
-return G__57950;
+G__57940.cljs$core$IFn$_invoke$arity$variadic = G__57940__delegate;
+return G__57940;
 })()
-,new cljs.core.Keyword(null,"url-image","url-image",535142411),(function (p__57925,url){
-var vec__57926 = p__57925;
-var text_contents = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__57926,(0),null);
+,new cljs.core.Keyword(null,"url-image","url-image",535142411),(function (p__57915,url){
+var vec__57916 = p__57915;
+var text_contents = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__57916,(0),null);
 return cljs.core.into.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"url-image","url-image",535142411),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"url","url",276297046),url,new cljs.core.Keyword(null,"alt","alt",-3214426),text_contents], null)], null));
 }),new cljs.core.Keyword(null,"url-link","url-link",1615670141),(function (text_contents,url){
 return cljs.core.into.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"url-link","url-link",1615670141),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"url","url",276297046),url], null)], null),text_contents);
 }),new cljs.core.Keyword(null,"url-link-text-contents","url-link-text-contents",1624765749),(function() { 
-var G__57953__delegate = function (raw_contents){
+var G__57943__delegate = function (raw_contents){
 return athens.parser.combine_adjacent_strings(raw_contents);
 };
-var G__57953 = function (var_args){
+var G__57943 = function (var_args){
 var raw_contents = null;
 if (arguments.length > 0) {
-var G__57954__i = 0, G__57954__a = new Array(arguments.length -  0);
-while (G__57954__i < G__57954__a.length) {G__57954__a[G__57954__i] = arguments[G__57954__i + 0]; ++G__57954__i;}
-  raw_contents = new cljs.core.IndexedSeq(G__57954__a,0,null);
+var G__57944__i = 0, G__57944__a = new Array(arguments.length -  0);
+while (G__57944__i < G__57944__a.length) {G__57944__a[G__57944__i] = arguments[G__57944__i + 0]; ++G__57944__i;}
+  raw_contents = new cljs.core.IndexedSeq(G__57944__a,0,null);
 } 
-return G__57953__delegate.call(this,raw_contents);};
-G__57953.cljs$lang$maxFixedArity = 0;
-G__57953.cljs$lang$applyTo = (function (arglist__57955){
-var raw_contents = cljs.core.seq(arglist__57955);
-return G__57953__delegate(raw_contents);
+return G__57943__delegate.call(this,raw_contents);};
+G__57943.cljs$lang$maxFixedArity = 0;
+G__57943.cljs$lang$applyTo = (function (arglist__57945){
+var raw_contents = cljs.core.seq(arglist__57945);
+return G__57943__delegate(raw_contents);
 });
-G__57953.cljs$core$IFn$_invoke$arity$variadic = G__57953__delegate;
-return G__57953;
+G__57943.cljs$core$IFn$_invoke$arity$variadic = G__57943__delegate;
+return G__57943;
 })()
 ,new cljs.core.Keyword(null,"url-link-url-parts","url-link-url-parts",-2147102656),(function() { 
-var G__57956__delegate = function (chars){
+var G__57946__delegate = function (chars){
 return clojure.string.join.cljs$core$IFn$_invoke$arity$1(chars);
 };
-var G__57956 = function (var_args){
+var G__57946 = function (var_args){
 var chars = null;
 if (arguments.length > 0) {
-var G__57957__i = 0, G__57957__a = new Array(arguments.length -  0);
-while (G__57957__i < G__57957__a.length) {G__57957__a[G__57957__i] = arguments[G__57957__i + 0]; ++G__57957__i;}
-  chars = new cljs.core.IndexedSeq(G__57957__a,0,null);
+var G__57947__i = 0, G__57947__a = new Array(arguments.length -  0);
+while (G__57947__i < G__57947__a.length) {G__57947__a[G__57947__i] = arguments[G__57947__i + 0]; ++G__57947__i;}
+  chars = new cljs.core.IndexedSeq(G__57947__a,0,null);
 } 
-return G__57956__delegate.call(this,chars);};
-G__57956.cljs$lang$maxFixedArity = 0;
-G__57956.cljs$lang$applyTo = (function (arglist__57958){
-var chars = cljs.core.seq(arglist__57958);
-return G__57956__delegate(chars);
+return G__57946__delegate.call(this,chars);};
+G__57946.cljs$lang$maxFixedArity = 0;
+G__57946.cljs$lang$applyTo = (function (arglist__57948){
+var chars = cljs.core.seq(arglist__57948);
+return G__57946__delegate(chars);
 });
-G__57956.cljs$core$IFn$_invoke$arity$variadic = G__57956__delegate;
-return G__57956;
+G__57946.cljs$core$IFn$_invoke$arity$variadic = G__57946__delegate;
+return G__57946;
 })()
 ,new cljs.core.Keyword(null,"any-chars","any-chars",1675129711),(function() { 
-var G__57959__delegate = function (chars){
+var G__57949__delegate = function (chars){
 return clojure.string.join.cljs$core$IFn$_invoke$arity$1(chars);
 };
-var G__57959 = function (var_args){
+var G__57949 = function (var_args){
 var chars = null;
 if (arguments.length > 0) {
-var G__57960__i = 0, G__57960__a = new Array(arguments.length -  0);
-while (G__57960__i < G__57960__a.length) {G__57960__a[G__57960__i] = arguments[G__57960__i + 0]; ++G__57960__i;}
-  chars = new cljs.core.IndexedSeq(G__57960__a,0,null);
+var G__57950__i = 0, G__57950__a = new Array(arguments.length -  0);
+while (G__57950__i < G__57950__a.length) {G__57950__a[G__57950__i] = arguments[G__57950__i + 0]; ++G__57950__i;}
+  chars = new cljs.core.IndexedSeq(G__57950__a,0,null);
 } 
-return G__57959__delegate.call(this,chars);};
-G__57959.cljs$lang$maxFixedArity = 0;
-G__57959.cljs$lang$applyTo = (function (arglist__57961){
-var chars = cljs.core.seq(arglist__57961);
-return G__57959__delegate(chars);
+return G__57949__delegate.call(this,chars);};
+G__57949.cljs$lang$maxFixedArity = 0;
+G__57949.cljs$lang$applyTo = (function (arglist__57951){
+var chars = cljs.core.seq(arglist__57951);
+return G__57949__delegate(chars);
 });
-G__57959.cljs$core$IFn$_invoke$arity$variadic = G__57959__delegate;
-return G__57959;
+G__57949.cljs$core$IFn$_invoke$arity$variadic = G__57949__delegate;
+return G__57949;
 })()
 ], null);
-var G__57924 = tree;
-return (instaparse.core.transform.cljs$core$IFn$_invoke$arity$2 ? instaparse.core.transform.cljs$core$IFn$_invoke$arity$2(G__57923,G__57924) : instaparse.core.transform.call(null,G__57923,G__57924));
+var G__57914 = tree;
+return (instaparse.core.transform.cljs$core$IFn$_invoke$arity$2 ? instaparse.core.transform.cljs$core$IFn$_invoke$arity$2(G__57913,G__57914) : instaparse.core.transform.call(null,G__57913,G__57914));
 });
 /**
  * Converts a string of block syntax to an abstract syntax tree for Athens markup.

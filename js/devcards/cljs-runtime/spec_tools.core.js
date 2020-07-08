@@ -244,8 +244,8 @@ while(true){
 if((i__4790__auto___48213 < len__4789__auto___48212)){
 args__4795__auto__.push((arguments[i__4790__auto___48213]));
 
-var G__48215 = (i__4790__auto___48213 + (1));
-i__4790__auto___48213 = G__48215;
+var G__48214 = (i__4790__auto___48213 + (1));
+i__4790__auto___48213 = G__48214;
 continue;
 } else {
 }
@@ -1463,8 +1463,8 @@ if(cljs.core.truth_(spec_tools.core.spec_QMARK_(x))){
 return x;
 } else {
 if((x instanceof cljs.core.Keyword)){
-var G__48317 = cljs.spec.alpha.get_spec(x);
-x = G__48317;
+var G__48303 = cljs.spec.alpha.get_spec(x);
+x = G__48303;
 continue;
 } else {
 return spec_tools.core.create_spec(new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"spec","spec",347520401),x], null));
