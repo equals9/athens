@@ -29,14 +29,14 @@ x = G__47385;
 continue;
 } else {
 if((x instanceof cljs.core.Symbol)){
-var G__47358 = spec_tools.impl.normalize_symbol(x);
-var G__47359 = null;
-return (spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2 ? spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2(G__47358,G__47359) : spec_tools.parse.parse_form.call(null,G__47358,G__47359));
+var G__47359 = spec_tools.impl.normalize_symbol(x);
+var G__47360 = null;
+return (spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2 ? spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2(G__47359,G__47360) : spec_tools.parse.parse_form.call(null,G__47359,G__47360));
 } else {
 if(cljs.core.seq_QMARK_(x)){
-var G__47360 = spec_tools.impl.normalize_symbol(cljs.core.first(x));
-var G__47361 = x;
-return (spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2 ? spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2(G__47360,G__47361) : spec_tools.parse.parse_form.call(null,G__47360,G__47361));
+var G__47361 = spec_tools.impl.normalize_symbol(cljs.core.first(x));
+var G__47362 = x;
+return (spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2 ? spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2(G__47361,G__47362) : spec_tools.parse.parse_form.call(null,G__47361,G__47362));
 } else {
 if(cljs.core.truth_(cljs.spec.alpha.spec_QMARK_(x))){
 var G__47386 = cljs.spec.alpha.form(x);
@@ -44,9 +44,9 @@ x = G__47386;
 continue;
 } else {
 if(cljs.core.ifn_QMARK_(x)){
-var G__47362 = (spec_tools.form.resolve_form.cljs$core$IFn$_invoke$arity$1 ? spec_tools.form.resolve_form.cljs$core$IFn$_invoke$arity$1(x) : spec_tools.form.resolve_form.call(null,x));
-var G__47363 = null;
-return (spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2 ? spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2(G__47362,G__47363) : spec_tools.parse.parse_form.call(null,G__47362,G__47363));
+var G__47363 = (spec_tools.form.resolve_form.cljs$core$IFn$_invoke$arity$1 ? spec_tools.form.resolve_form.cljs$core$IFn$_invoke$arity$1(x) : spec_tools.form.resolve_form.call(null,x));
+var G__47364 = null;
+return (spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2 ? spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2(G__47363,G__47364) : spec_tools.parse.parse_form.call(null,G__47363,G__47364));
 } else {
 return (spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2 ? spec_tools.parse.parse_form.cljs$core$IFn$_invoke$arity$2(x,null) : spec_tools.parse.parse_form.call(null,x,null));
 
@@ -67,15 +67,15 @@ var or__4185__auto__ = new cljs.core.Keyword("spec-tools.parse","keys","spec-too
 if(cljs.core.truth_(or__4185__auto__)){
 return or__4185__auto__;
 } else {
-var G__47364 = parse_data;
-var G__47364__$1 = (((G__47364 == null))?null:new cljs.core.Keyword("spec-tools.parse","items","spec-tools.parse/items",1255627600).cljs$core$IFn$_invoke$arity$1(G__47364));
-var G__47364__$2 = (((G__47364__$1 == null))?null:cljs.core.keep.cljs$core$IFn$_invoke$arity$2(spec_tools.parse.get_keys,G__47364__$1));
-var G__47364__$3 = (((G__47364__$2 == null))?null:cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.concat,G__47364__$2));
-var G__47364__$4 = (((G__47364__$3 == null))?null:cljs.core.seq(G__47364__$3));
-if((G__47364__$4 == null)){
+var G__47365 = parse_data;
+var G__47365__$1 = (((G__47365 == null))?null:new cljs.core.Keyword("spec-tools.parse","items","spec-tools.parse/items",1255627600).cljs$core$IFn$_invoke$arity$1(G__47365));
+var G__47365__$2 = (((G__47365__$1 == null))?null:cljs.core.keep.cljs$core$IFn$_invoke$arity$2(spec_tools.parse.get_keys,G__47365__$1));
+var G__47365__$3 = (((G__47365__$2 == null))?null:cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.concat,G__47365__$2));
+var G__47365__$4 = (((G__47365__$3 == null))?null:cljs.core.seq(G__47365__$3));
+if((G__47365__$4 == null)){
 return null;
 } else {
-return cljs.core.set(G__47364__$4);
+return cljs.core.set(G__47365__$4);
 }
 }
 });

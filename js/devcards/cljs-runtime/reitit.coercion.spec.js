@@ -150,21 +150,21 @@ return this$__$1;
 
 goog.object.set(reitit.coercion.spec.IntoSpec,"_",true);
 
-var G__49962_50007 = reitit.coercion.spec.into_spec;
-var G__49963_50008 = "_";
-var G__49964_50009 = (function (this$,_){
+var G__49963_50011 = reitit.coercion.spec.into_spec;
+var G__49964_50012 = "_";
+var G__49965_50013 = (function (this$,_){
 return spec_tools.core.create_spec(new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"spec","spec",347520401),this$], null));
 });
-goog.object.set(G__49962_50007,G__49963_50008,G__49964_50009);
+goog.object.set(G__49963_50011,G__49964_50012,G__49965_50013);
 
 goog.object.set(reitit.coercion.spec.IntoSpec,"null",true);
 
-var G__49966_50010 = reitit.coercion.spec.into_spec;
-var G__49967_50011 = "null";
-var G__49968_50012 = (function (this$,_){
+var G__49966_50014 = reitit.coercion.spec.into_spec;
+var G__49967_50015 = "null";
+var G__49968_50016 = (function (this$,_){
 return null;
 });
-goog.object.set(G__49966_50010,G__49967_50011,G__49968_50012);
+goog.object.set(G__49966_50014,G__49967_50015,G__49968_50016);
 reitit.coercion.spec.stringify_pred = (function reitit$coercion$spec$stringify_pred(pred){
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(((cljs.core.seq_QMARK_(pred))?cljs.core.seq(pred):pred));
 });
@@ -394,10 +394,10 @@ return cljs.core.update.cljs$core$IFn$_invoke$arity$3(p1__49971_SHARP_,new cljs.
 var self__ = this;
 var this$__$1 = this;
 var spec__$1 = this$__$1.reitit$coercion$Coercion$_compile_model$arity$3(null,spec,null);
-var map__50002 = (self__.transformers.cljs$core$IFn$_invoke$arity$1 ? self__.transformers.cljs$core$IFn$_invoke$arity$1(type) : self__.transformers.call(null,type));
-var map__50002__$1 = (((((!((map__50002 == null))))?(((((map__50002.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__50002.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__50002):map__50002);
-var formats = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50002__$1,new cljs.core.Keyword(null,"formats","formats",-1397890976));
-var default$ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50002__$1,new cljs.core.Keyword(null,"default","default",-1987822328));
+var map__50005 = (self__.transformers.cljs$core$IFn$_invoke$arity$1 ? self__.transformers.cljs$core$IFn$_invoke$arity$1(type) : self__.transformers.call(null,type));
+var map__50005__$1 = (((((!((map__50005 == null))))?(((((map__50005.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__50005.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__50005):map__50005);
+var formats = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50005__$1,new cljs.core.Keyword(null,"formats","formats",-1397890976));
+var default$ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50005__$1,new cljs.core.Keyword(null,"default","default",-1987822328));
 return (function (value,format){
 var temp__5733__auto__ = (function (){var or__4185__auto__ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(formats,format);
 if(cljs.core.truth_(or__4185__auto__)){

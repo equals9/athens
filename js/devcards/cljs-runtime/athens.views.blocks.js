@@ -9,8 +9,8 @@ goog.require('athens.views.dropdown');
 goog.require('cljsjs.react');
 goog.require('cljsjs.react.dom');
 goog.require('garden.selectors');
-goog.require('goog.dom.classlist');
 goog.require('goog.dom');
+goog.require('goog.dom.classlist');
 goog.require('goog.dom.selection');
 goog.require('goog.events.KeyCodes');
 goog.require('goog.functions');
@@ -176,9 +176,9 @@ if(((cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2("",selection)) && (cljs.cor
 var surround_selection = ["[",cljs.core.str.cljs$core$IFn$_invoke$arity$1(selection),"]"].join('');
 var new_str = [head,surround_selection,tail].join('');
 setTimeout((function (){
-var G__58040_58119 = target;
-var G__58041_58120 = (start + (1));
-goog.dom.selection.setStart(G__58040_58119,G__58041_58120);
+var G__58040_58118 = target;
+var G__58041_58119 = (start + (1));
+goog.dom.selection.setStart(G__58040_58118,G__58041_58119);
 
 var G__58042 = target;
 var G__58043 = (end + (1));
@@ -382,6 +382,7 @@ var map__58060 = p__58059;
 var map__58060__$1 = (((((!((map__58060 == null))))?(((((map__58060.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__58060.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__58060):map__58060);
 var string = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__58060__$1,new cljs.core.Keyword("block","string","block/string",-2066596447));
 var uid = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__58060__$1,new cljs.core.Keyword("block","uid","block/uid",-1623585167));
+var children = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__58060__$1,new cljs.core.Keyword("block","children","block/children",-1040716209));
 var editing_uid = cljs.core.deref((function (){var G__58062 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("editing","uid","editing/uid",974963040)], null);
 return (re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(G__58062) : re_frame.core.subscribe.call(null,G__58062));
 })());
@@ -438,7 +439,7 @@ var G__58071 = uid;
 return (athens.views.blocks.db_on_change.cljs$core$IFn$_invoke$arity$2 ? athens.views.blocks.db_on_change.cljs$core$IFn$_invoke$arity$2(G__58070,G__58071) : athens.views.blocks.db_on_change.call(null,G__58070,G__58071));
 }),new cljs.core.Keyword(null,"on-key-down","on-key-down",-1374733765),(function (e){
 return athens.views.blocks.on_key_down(e,uid,state);
-})], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [athens.parse_renderer.parse_and_render,string], null),((cljs.core.not(new cljs.core.Keyword(null,"dragging","dragging",1185097613).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(state))))?new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div.drag-n-drop","div.drag-n-drop",-955423411),stylefy.core.use_style.cljs$core$IFn$_invoke$arity$1(cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"height","height",1025178622),"2px"], null),((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"drag-target","drag-target",2017061919).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(state)),new cljs.core.Keyword(null,"child","child",623967545)))?new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"background-color","background-color",570434026),"red"], null):null)], 0)))], null):null)], null);
+})], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [athens.parse_renderer.parse_and_render,string], null),((((cljs.core.empty_QMARK_(children)) && (cljs.core.not(new cljs.core.Keyword(null,"dragging","dragging",1185097613).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(state))))))?new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div.drag-n-drop","div.drag-n-drop",-955423411),stylefy.core.use_style.cljs$core$IFn$_invoke$arity$1(cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"height","height",1025178622),"2px"], null),((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"drag-target","drag-target",2017061919).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(state)),new cljs.core.Keyword(null,"child","child",623967545)))?new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"background-color","background-color",570434026),"red"], null):null)], 0)))], null):null)], null);
 });
 athens.views.blocks.page_search_el = (function athens$views$blocks$page_search_el(_block,state){
 if(cljs.core.truth_(new cljs.core.Keyword("search","page","search/page",1822499573).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(state)))){
@@ -517,6 +518,7 @@ var uid = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__58080__$1,new cljs.co
 var string = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__58080__$1,new cljs.core.Keyword("block","string","block/string",-2066596447));
 var open = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__58080__$1,new cljs.core.Keyword("block","open","block/open",-1875254829));
 var children = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__58080__$1,new cljs.core.Keyword("block","children","block/children",-1040716209));
+var order = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__58080__$1,new cljs.core.Keyword("block","order","block/order",-1429282437));
 var editing_uid = cljs.core.deref((function (){var G__58083 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("editing","uid","editing/uid",974963040)], null);
 return (re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(G__58083) : re_frame.core.subscribe.call(null,G__58083));
 })());
@@ -524,12 +526,14 @@ var map__58081 = cljs.core.deref(state);
 var map__58081__$1 = (((((!((map__58081 == null))))?(((((map__58081.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__58081.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__58081):map__58081);
 var dragging = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__58081__$1,new cljs.core.Keyword(null,"dragging","dragging",1185097613));
 var drag_target = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__58081__$1,new cljs.core.Keyword(null,"drag-target","drag-target",2017061919));
+var parent = athens.db.get_parent(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("block","uid","block/uid",-1623585167),uid], null));
+var last_child_QMARK_ = cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(order,(cljs.core.count(new cljs.core.Keyword("block","children","block/children",-1040716209).cljs$core$IFn$_invoke$arity$1(parent)) - (1)));
 if((((!(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(editing_uid,uid)))) && ((cljs.core.count(new cljs.core.Keyword(null,"atom-string","atom-string",-1067323204).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(state))) < cljs.core.count(string))))){
 cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(state,cljs.core.assoc,new cljs.core.Keyword(null,"atom-string","atom-string",-1067323204),string);
 } else {
 }
 
-return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"<>","<>",1280186386),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div.drag-n-drop","div.drag-n-drop",-955423411),stylefy.core.use_style.cljs$core$IFn$_invoke$arity$1(cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"height","height",1025178622),"2px"], null),((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(drag_target,new cljs.core.Keyword(null,"container","container",-1736937707)))?new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"background-color","background-color",570434026),"blue"], null):null)], 0)))], null)
+return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"<>","<>",1280186386),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div.drag-n-drop","div.drag-n-drop",-955423411),stylefy.core.use_style.cljs$core$IFn$_invoke$arity$1(cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"height","height",1025178622),"2px"], null),((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(drag_target,new cljs.core.Keyword(null,"container","container",-1736937707)))?new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"background-color","background-color",570434026),"blue"], null):null)], 0)))], null)
 ,new cljs.core.PersistentVector(null, 6, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div.block-container","div.block-container",1334645108),stylefy.core.use_style.cljs$core$IFn$_invoke$arity$2(cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([athens.views.blocks.block_style,(cljs.core.truth_(dragging)?athens.views.blocks.dragging_style:null)], 0)),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"class","class",-2030961996),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(cljs.core.truth_(dragging)?"dragging":null),(cljs.core.truth_((function (){var and__4174__auto__ = cljs.core.seq(children);
 if(and__4174__auto__){
 return open;
@@ -559,7 +563,6 @@ if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(related_container,source_contain
 return null;
 } else {
 return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(state,cljs.core.assoc,new cljs.core.Keyword(null,"drag-target","drag-target",2017061919),null);
-
 }
 }),new cljs.core.Keyword(null,"on-drop","on-drop",1867868491),(function (e){
 var source_uid = e.dataTransfer.getData("text/plain");
@@ -629,7 +632,7 @@ break;
 }),null,null));
 });
 return iter__4582__auto__(children);
-})():null)], null)], null);
+})():null)], null),((last_child_QMARK_)?new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div.drag-n-drop","div.drag-n-drop",-955423411),stylefy.core.use_style.cljs$core$IFn$_invoke$arity$1(cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"height","height",1025178622),"2px"], null),((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(drag_target,new cljs.core.Keyword(null,"container","container",-1736937707)))?new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"background-color","background-color",570434026),"green"], null):null)], 0)))], null):null)], null);
 });
 });
 athens.views.blocks.block_component = (function athens$views$blocks$block_component(ident){
