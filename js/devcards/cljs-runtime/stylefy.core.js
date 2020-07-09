@@ -61,8 +61,8 @@ goog.require('stylefy.impl.styles');
  * Options is an optional map, which contains HTML attributes (:class, :href, :src etc.).
  */
 stylefy.core.use_style = (function stylefy$core$use_style(var_args){
-var G__38929 = arguments.length;
-switch (G__38929) {
+var G__38928 = arguments.length;
+switch (G__38928) {
 case 1:
 return stylefy.core.use_style.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -148,14 +148,14 @@ return stylefy.impl.styles.use_sub_style_BANG_(style,sub_style,options,stylefy.i
  */
 stylefy.core.sub_style = (function stylefy$core$sub_style(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___38985 = arguments.length;
-var i__4790__auto___38986 = (0);
+var len__4789__auto___38980 = arguments.length;
+var i__4790__auto___38981 = (0);
 while(true){
-if((i__4790__auto___38986 < len__4789__auto___38985)){
-args__4795__auto__.push((arguments[i__4790__auto___38986]));
+if((i__4790__auto___38981 < len__4789__auto___38980)){
+args__4795__auto__.push((arguments[i__4790__auto___38981]));
 
-var G__38987 = (i__4790__auto___38986 + (1));
-i__4790__auto___38986 = G__38987;
+var G__38984 = (i__4790__auto___38981 + (1));
+i__4790__auto___38981 = G__38984;
 continue;
 } else {
 }
@@ -276,14 +276,14 @@ return null;
  */
 stylefy.core.keyframes = (function stylefy$core$keyframes(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___38992 = arguments.length;
-var i__4790__auto___38993 = (0);
+var len__4789__auto___38990 = arguments.length;
+var i__4790__auto___38991 = (0);
 while(true){
-if((i__4790__auto___38993 < len__4789__auto___38992)){
-args__4795__auto__.push((arguments[i__4790__auto___38993]));
+if((i__4790__auto___38991 < len__4789__auto___38990)){
+args__4795__auto__.push((arguments[i__4790__auto___38991]));
 
-var G__38994 = (i__4790__auto___38993 + (1));
-i__4790__auto___38993 = G__38994;
+var G__38992 = (i__4790__auto___38991 + (1));
+i__4790__auto___38991 = G__38992;
 continue;
 } else {
 }

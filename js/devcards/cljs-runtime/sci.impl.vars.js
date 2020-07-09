@@ -211,10 +211,10 @@ var vec__58461 = cljs.core.first(kvs);
 var var_STAR_ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__58461,(0),null);
 var tbox = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__58461,(1),null);
 var tbox_val = tbox.sci$impl$types$IBox$getVal$arity$1(null);
-var G__58487 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(ret,var_STAR_,tbox_val);
-var G__58488 = cljs.core.next(kvs);
-ret = G__58487;
-kvs = G__58488;
+var G__58489 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(ret,var_STAR_,tbox_val);
+var G__58490 = cljs.core.next(kvs);
+ret = G__58489;
+kvs = G__58490;
 continue;
 } else {
 return ret;
@@ -285,9 +285,9 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$5(f,x,y,z,args);
 var G__58492 = function (x,y,z,var_args){
 var args = null;
 if (arguments.length > 3) {
-var G__58494__i = 0, G__58494__a = new Array(arguments.length -  3);
-while (G__58494__i < G__58494__a.length) {G__58494__a[G__58494__i] = arguments[G__58494__i + 3]; ++G__58494__i;}
-  args = new cljs.core.IndexedSeq(G__58494__a,0,null);
+var G__58495__i = 0, G__58495__a = new Array(arguments.length -  3);
+while (G__58495__i < G__58495__a.length) {G__58495__a[G__58495__i] = arguments[G__58495__i + 3]; ++G__58495__i;}
+  args = new cljs.core.IndexedSeq(G__58495__a,0,null);
 } 
 return G__58492__delegate.call(this,x,y,z,args);};
 G__58492.cljs$lang$maxFixedArity = 3;
@@ -1212,14 +1212,14 @@ return (new sci.impl.vars.SciVar(init_val,name,meta__$1));
 
 sci.impl.vars.binding = (function sci$impl$vars$binding(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___58525 = arguments.length;
-var i__4790__auto___58526 = (0);
+var len__4789__auto___58526 = arguments.length;
+var i__4790__auto___58527 = (0);
 while(true){
-if((i__4790__auto___58526 < len__4789__auto___58525)){
-args__4795__auto__.push((arguments[i__4790__auto___58526]));
+if((i__4790__auto___58527 < len__4789__auto___58526)){
+args__4795__auto__.push((arguments[i__4790__auto___58527]));
 
-var G__58528 = (i__4790__auto___58526 + (1));
-i__4790__auto___58526 = G__58528;
+var G__58529 = (i__4790__auto___58527 + (1));
+i__4790__auto___58527 = G__58529;
 continue;
 } else {
 }
