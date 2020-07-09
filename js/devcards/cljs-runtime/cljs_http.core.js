@@ -258,8 +258,8 @@ break;
 }
 }catch (e39381){if((e39381 instanceof Object)){
 var ex__36951__auto__ = e39381;
-var statearr_39382_39423 = state_39373;
-(statearr_39382_39423[(5)] = ex__36951__auto__);
+var statearr_39382_39419 = state_39373;
+(statearr_39382_39419[(5)] = ex__36951__auto__);
 
 
 cljs.core.async.impl.ioc_helpers.process_exception(state_39373);
@@ -271,8 +271,8 @@ throw e39381;
 }
 }})();
 if(cljs.core.keyword_identical_QMARK_(ret_value__36949__auto__,new cljs.core.Keyword(null,"recur","recur",-437573268))){
-var G__39424 = state_39373;
-state_39373 = G__39424;
+var G__39420 = state_39373;
+state_39373 = G__39420;
 continue;
 } else {
 return ret_value__36949__auto__;
@@ -323,7 +323,7 @@ var channel = cljs.core.async.chan.cljs$core$IFn$_invoke$arity$0();
 var jsonp = (new goog.net.Jsonp(cljs_http.util.build_url(request),callback_name));
 jsonp.setRequestTimeout(timeout);
 
-var req_39430 = jsonp.send(null,(function cljs_http$core$jsonp_$_success_callback(data){
+var req_39423 = jsonp.send(null,(function cljs_http$core$jsonp_$_success_callback(data){
 var response = new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"status","status",-1997798413),(200),new cljs.core.Keyword(null,"success","success",1890645906),true,new cljs.core.Keyword(null,"body","body",-2049205669),cljs.core.js__GT_clj.cljs$core$IFn$_invoke$arity$variadic(data,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"keywordize-keys","keywordize-keys",1310784252),keywordize_keys_QMARK_], 0))], null);
 cljs.core.async.put_BANG_.cljs$core$IFn$_invoke$arity$2(channel,response);
 
@@ -345,10 +345,10 @@ cljs.core.async.close_BANG_(cancel);
 
 return cljs.core.async.close_BANG_(channel);
 }));
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(cljs_http.core.pending_requests,cljs.core.assoc,channel,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"jsonp","jsonp",226119588),jsonp,new cljs.core.Keyword(null,"request","request",1772954723),req_39430], null));
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(cljs_http.core.pending_requests,cljs.core.assoc,channel,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"jsonp","jsonp",226119588),jsonp,new cljs.core.Keyword(null,"request","request",1772954723),req_39423], null));
 
 if(cljs.core.truth_(cancel)){
-var c__37014__auto___39434 = cljs.core.async.chan.cljs$core$IFn$_invoke$arity$1((1));
+var c__37014__auto___39426 = cljs.core.async.chan.cljs$core$IFn$_invoke$arity$1((1));
 cljs.core.async.impl.dispatch.run((function (){
 var f__37015__auto__ = (function (){var switch__36947__auto__ = (function (state_39391){
 var state_val_39392 = (state_39391[(1)]);
@@ -358,7 +358,7 @@ return cljs.core.async.impl.ioc_helpers.take_BANG_(state_39391__$1,(2),cancel);
 } else {
 if((state_val_39392 === (2))){
 var inst_39388 = (state_39391[(2)]);
-var inst_39389 = jsonp.cancel(req_39430);
+var inst_39389 = jsonp.cancel(req_39423);
 var state_39391__$1 = (function (){var statearr_39393 = state_39391;
 (statearr_39393[(7)] = inst_39388);
 
@@ -393,8 +393,8 @@ break;
 }
 }catch (e39395){if((e39395 instanceof Object)){
 var ex__36951__auto__ = e39395;
-var statearr_39396_39441 = state_39391;
-(statearr_39396_39441[(5)] = ex__36951__auto__);
+var statearr_39396_39432 = state_39391;
+(statearr_39396_39432[(5)] = ex__36951__auto__);
 
 
 cljs.core.async.impl.ioc_helpers.process_exception(state_39391);
@@ -406,8 +406,8 @@ throw e39395;
 }
 }})();
 if(cljs.core.keyword_identical_QMARK_(ret_value__36949__auto__,new cljs.core.Keyword(null,"recur","recur",-437573268))){
-var G__39442 = state_39391;
-state_39391 = G__39442;
+var G__39433 = state_39391;
+state_39391 = G__39433;
 continue;
 } else {
 return ret_value__36949__auto__;
@@ -430,7 +430,7 @@ return cljs_http$core$jsonp_$_state_machine__36948__auto__;
 })()
 })();
 var state__37016__auto__ = (function (){var statearr_39397 = (f__37015__auto__.cljs$core$IFn$_invoke$arity$0 ? f__37015__auto__.cljs$core$IFn$_invoke$arity$0() : f__37015__auto__.call(null));
-(statearr_39397[(6)] = c__37014__auto___39434);
+(statearr_39397[(6)] = c__37014__auto___39426);
 
 return statearr_39397;
 })();
