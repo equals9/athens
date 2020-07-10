@@ -11,9 +11,9 @@ goog.require('devcards.core');
 goog.require('posh.reagent');
 goog.require('reagent.core');
 athens.devcards.db.load_real_db_BANG_ = (function athens$devcards$db$load_real_db_BANG_(){
-var c__37014__auto__ = cljs.core.async.chan.cljs$core$IFn$_invoke$arity$1((1));
+var c__37015__auto__ = cljs.core.async.chan.cljs$core$IFn$_invoke$arity$1((1));
 cljs.core.async.impl.dispatch.run((function (){
-var f__37015__auto__ = (function (){var switch__36947__auto__ = (function (state_42744){
+var f__37016__auto__ = (function (){var switch__36947__auto__ = (function (state_42744){
 var state_val_42745 = (state_42744[(1)]);
 if((state_val_42745 === (7))){
 var state_42744__$1 = state_42744;
@@ -129,12 +129,12 @@ var state_42744__$1 = (function (){var statearr_42757 = state_42744;
 return statearr_42757;
 })();
 if(cljs.core.truth_(inst_42734)){
-var statearr_42760_42790 = state_42744__$1;
-(statearr_42760_42790[(1)] = (12));
+var statearr_42758_42790 = state_42744__$1;
+(statearr_42758_42790[(1)] = (12));
 
 } else {
-var statearr_42761_42791 = state_42744__$1;
-(statearr_42761_42791[(1)] = (13));
+var statearr_42760_42791 = state_42744__$1;
+(statearr_42760_42791[(1)] = (13));
 
 }
 
@@ -269,15 +269,15 @@ athens$devcards$db$load_real_db_BANG__$_state_machine__36948__auto__.cljs$core$I
 return athens$devcards$db$load_real_db_BANG__$_state_machine__36948__auto__;
 })()
 })();
-var state__37016__auto__ = (function (){var statearr_42772 = (f__37015__auto__.cljs$core$IFn$_invoke$arity$0 ? f__37015__auto__.cljs$core$IFn$_invoke$arity$0() : f__37015__auto__.call(null));
-(statearr_42772[(6)] = c__37014__auto__);
+var state__37017__auto__ = (function (){var statearr_42772 = (f__37016__auto__.cljs$core$IFn$_invoke$arity$0 ? f__37016__auto__.cljs$core$IFn$_invoke$arity$0() : f__37016__auto__.call(null));
+(statearr_42772[(6)] = c__37015__auto__);
 
 return statearr_42772;
 })();
-return cljs.core.async.impl.ioc_helpers.run_state_machine_wrapped(state__37016__auto__);
+return cljs.core.async.impl.ioc_helpers.run_state_machine_wrapped(state__37017__auto__);
 }));
 
-return c__37014__auto__;
+return c__37015__auto__;
 });
 athens.devcards.db.load_real_db_button = (function athens$devcards$db$load_real_db_button(){
 var pressed_QMARK_ = reagent.core.atom.cljs$core$IFn$_invoke$arity$1(false);

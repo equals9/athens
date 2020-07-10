@@ -160,15 +160,15 @@ return null;
 return null;
 }
 });
-devcards.core.CodeHighlight = (function (){var ctor__41567__auto__ = (function (props__41564__auto__){
-var this__41565__auto__ = this;
-React.Component.call(this__41565__auto__,props__41564__auto__);
+devcards.core.CodeHighlight = (function (){var ctor__41571__auto__ = (function (props__41568__auto__){
+var this__41569__auto__ = this;
+React.Component.call(this__41569__auto__,props__41568__auto__);
 
-return this__41565__auto__;
+return this__41569__auto__;
 });
-goog.inherits(ctor__41567__auto__,React.Component);
+goog.inherits(ctor__41571__auto__,React.Component);
 
-var x42351_42746 = ctor__41567__auto__.prototype;
+var x42351_42746 = ctor__41571__auto__.prototype;
 (x42351_42746.componentDidMount = (function (){
 var this$ = this;
 return devcards.core.highlight_node(this$);
@@ -200,7 +200,7 @@ return (devcards.core.get_props.cljs$core$IFn$_invoke$arity$2 ? devcards.core.ge
 }));
 
 
-return ctor__41567__auto__;
+return ctor__41571__auto__;
 })();
 
 (devcards.core.CodeHighlight.displayName = cljs.core.name(new cljs.core.Symbol(null,"CodeHighlight","CodeHighlight",-2140212327,null)));
@@ -234,14 +234,14 @@ return React.createElement(devcards.core.CodeHighlight,({"code": new cljs.core.K
 }));
 devcards.core.markdown__GT_react = (function devcards$core$markdown__GT_react(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___42758 = arguments.length;
-var i__4790__auto___42759 = (0);
+var len__4789__auto___42759 = arguments.length;
+var i__4790__auto___42761 = (0);
 while(true){
-if((i__4790__auto___42759 < len__4789__auto___42758)){
-args__4795__auto__.push((arguments[i__4790__auto___42759]));
+if((i__4790__auto___42761 < len__4789__auto___42759)){
+args__4795__auto__.push((arguments[i__4790__auto___42761]));
 
-var G__42762 = (i__4790__auto___42759 + (1));
-i__4790__auto___42759 = G__42762;
+var G__42762 = (i__4790__auto___42761 + (1));
+i__4790__auto___42761 = G__42762;
 continue;
 } else {
 }
@@ -416,15 +416,15 @@ return goog.object.get(G__42380,G__42381);
 return null;
 }
 });
-devcards.core.DontUpdate = (function (){var ctor__41567__auto__ = (function (props__41564__auto__){
-var this__41565__auto__ = this;
-React.Component.call(this__41565__auto__,props__41564__auto__);
+devcards.core.DontUpdate = (function (){var ctor__41571__auto__ = (function (props__41568__auto__){
+var this__41569__auto__ = this;
+React.Component.call(this__41569__auto__,props__41568__auto__);
 
-return this__41565__auto__;
+return this__41569__auto__;
 });
-goog.inherits(ctor__41567__auto__,React.Component);
+goog.inherits(ctor__41571__auto__,React.Component);
 
-var x42382_42776 = ctor__41567__auto__.prototype;
+var x42382_42776 = ctor__41571__auto__.prototype;
 (x42382_42776.shouldComponentUpdate = (function (next_props,b){
 var this$ = this;
 var update_QMARK_ = cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(goog.object.get(next_props,"change_count"),devcards.core.get_props(this$,new cljs.core.Keyword(null,"change_count","change_count",-533812109)));
@@ -438,7 +438,7 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$4(React.createElement,"div",(
 }));
 
 
-return ctor__41567__auto__;
+return ctor__41571__auto__;
 })();
 
 (devcards.core.DontUpdate.displayName = cljs.core.name(new cljs.core.Symbol(null,"DontUpdate","DontUpdate",-547080925,null)));
@@ -510,20 +510,20 @@ return devcards.core.frame.cljs$core$IFn$_invoke$arity$2(children,card__$1);
 return React.createElement("div",({"className": "com-rigsomelight-devcards-frameless"}),sablono.interpreter.interpret(children));
 }
 });
-devcards.core.DevcardBase = (function (){var ctor__41567__auto__ = (function (props__41562__auto__){
-var this__41563__auto__ = this;
-React.Component.call(this__41563__auto__,props__41562__auto__);
+devcards.core.DevcardBase = (function (){var ctor__41571__auto__ = (function (props__41566__auto__){
+var this__41567__auto__ = this;
+React.Component.call(this__41567__auto__,props__41566__auto__);
 
 (function (props){
 var this$ = this;
 return (this$.state = ({"unique_id": cljs.core.gensym.cljs$core$IFn$_invoke$arity$1(new cljs.core.Symbol(null,"devcards-base-","devcards-base-",-1457268595,null)), "state_change_count": (0)}));
-}).call(this__41563__auto__,props__41562__auto__);
+}).call(this__41567__auto__,props__41566__auto__);
 
-return this__41563__auto__;
+return this__41567__auto__;
 });
-goog.inherits(ctor__41567__auto__,React.Component);
+goog.inherits(ctor__41571__auto__,React.Component);
 
-var x42386_42784 = ctor__41567__auto__.prototype;
+var x42386_42784 = ctor__41571__auto__.prototype;
 (x42386_42784.componentDidUpdate = (function (_,___$1){
 var this$ = this;
 var atom = devcards.core.get_state(this$,new cljs.core.Keyword(null,"data_atom","data_atom",257894504));
@@ -613,7 +613,7 @@ return devcards.core.render_all_card_elements(main,data_atom,card);
 }));
 
 
-return ctor__41567__auto__;
+return ctor__41571__auto__;
 })();
 
 (devcards.core.DevcardBase.displayName = cljs.core.name(new cljs.core.Symbol(null,"DevcardBase","DevcardBase",-1441442980,null)));
@@ -634,20 +634,20 @@ return null;
 return null;
 }
 }):cljs.core.identity);
-devcards.core.DomComponent = (function (){var ctor__41567__auto__ = (function (props__41562__auto__){
-var this__41563__auto__ = this;
-React.Component.call(this__41563__auto__,props__41562__auto__);
+devcards.core.DomComponent = (function (){var ctor__41571__auto__ = (function (props__41566__auto__){
+var this__41567__auto__ = this;
+React.Component.call(this__41567__auto__,props__41566__auto__);
 
 (function (props){
 var this$ = this;
 return (this$.state = ({"unique_id": cljs.core.str.cljs$core$IFn$_invoke$arity$1(cljs.core.gensym.cljs$core$IFn$_invoke$arity$1(new cljs.core.Symbol(null,"devcards-dom-component-","devcards-dom-component-",-730322144,null)))}));
-}).call(this__41563__auto__,props__41562__auto__);
+}).call(this__41567__auto__,props__41566__auto__);
 
-return this__41563__auto__;
+return this__41567__auto__;
 });
-goog.inherits(ctor__41567__auto__,React.Component);
+goog.inherits(ctor__41571__auto__,React.Component);
 
-var x42389_42799 = ctor__41567__auto__.prototype;
+var x42389_42799 = ctor__41571__auto__.prototype;
 (x42389_42799.componentDidUpdate = (function (prevP,prevS){
 var this$ = this;
 if(cljs.core.truth_((function (){var and__4174__auto__ = devcards.core.get_props(this$,new cljs.core.Keyword(null,"node_fn","node_fn",1182818791));
@@ -689,7 +689,7 @@ return React.createElement("div",null,"Card has not mounted DOM node.");
 }));
 
 
-return ctor__41567__auto__;
+return ctor__41571__auto__;
 })();
 
 (devcards.core.DomComponent.displayName = cljs.core.name(new cljs.core.Symbol(null,"DomComponent","DomComponent",-1557765022,null)));
@@ -1641,20 +1641,20 @@ return this$.forceUpdate();
 return null;
 }
 });
-devcards.core.HistoryComponent = (function (){var ctor__41567__auto__ = (function (props__41562__auto__){
-var this__41563__auto__ = this;
-React.Component.call(this__41563__auto__,props__41562__auto__);
+devcards.core.HistoryComponent = (function (){var ctor__41571__auto__ = (function (props__41566__auto__){
+var this__41567__auto__ = this;
+React.Component.call(this__41567__auto__,props__41566__auto__);
 
 (function (props){
 var this$ = this;
 return (this$.state = ({"unique_id": cljs.core.str.cljs$core$IFn$_invoke$arity$1(cljs.core.gensym.cljs$core$IFn$_invoke$arity$1(new cljs.core.Symbol(null,"devcards-history-runner-","devcards-history-runner-",-1709703043,null))), "history_atom": cljs.core.atom.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"history","history",-247395220),cljs.core.List.EMPTY,new cljs.core.Keyword(null,"pointer","pointer",85071187),(0)], null))}));
-}).call(this__41563__auto__,props__41562__auto__);
+}).call(this__41567__auto__,props__41566__auto__);
 
-return this__41563__auto__;
+return this__41567__auto__;
 });
-goog.inherits(ctor__41567__auto__,React.Component);
+goog.inherits(ctor__41571__auto__,React.Component);
 
-var x42477_42806 = ctor__41567__auto__.prototype;
+var x42477_42806 = ctor__41571__auto__.prototype;
 (x42477_42806.componentWillMount = (function (){
 var this$ = this;
 return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(devcards.core.get_state(this$,new cljs.core.Keyword(null,"history_atom","history_atom",-533227013)),cljs.core.assoc_in,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"history","history",-247395220)], null),(new cljs.core.List(null,cljs.core.deref(devcards.core.get_props(this$,new cljs.core.Keyword(null,"data_atom","data_atom",257894504))),null,(1),null)));
@@ -1743,7 +1743,7 @@ return null;
 }));
 
 
-return ctor__41567__auto__;
+return ctor__41571__auto__;
 })();
 
 (devcards.core.HistoryComponent.displayName = cljs.core.name(new cljs.core.Symbol(null,"HistoryComponent","HistoryComponent",-932269385,null)));
@@ -1941,9 +1941,9 @@ return out;
 });
 if((typeof devcards !== 'undefined') && (typeof devcards.core !== 'undefined') && (typeof devcards.core.test_loop !== 'undefined')){
 } else {
-devcards.core.test_loop = (function (){var c__37014__auto__ = cljs.core.async.chan.cljs$core$IFn$_invoke$arity$1((1));
+devcards.core.test_loop = (function (){var c__37015__auto__ = cljs.core.async.chan.cljs$core$IFn$_invoke$arity$1((1));
 cljs.core.async.impl.dispatch.run((function (){
-var f__37015__auto__ = (function (){var switch__36947__auto__ = (function (state_42628){
+var f__37016__auto__ = (function (){var switch__36947__auto__ = (function (state_42628){
 var state_val_42629 = (state_42628[(1)]);
 if((state_val_42629 === (7))){
 var state_42628__$1 = state_42628;
@@ -2101,20 +2101,20 @@ return new cljs.core.Keyword(null,"recur","recur",-437573268);
 if((state_val_42629 === (25))){
 var inst_42624 = (state_42628[(2)]);
 var state_42628__$1 = state_42628;
-var statearr_42644_42878 = state_42628__$1;
-(statearr_42644_42878[(2)] = inst_42624);
+var statearr_42644_42873 = state_42628__$1;
+(statearr_42644_42873[(2)] = inst_42624);
 
-(statearr_42644_42878[(1)] = (13));
+(statearr_42644_42873[(1)] = (13));
 
 
 return new cljs.core.Keyword(null,"recur","recur",-437573268);
 } else {
 if((state_val_42629 === (17))){
 var state_42628__$1 = state_42628;
-var statearr_42645_42879 = state_42628__$1;
-(statearr_42645_42879[(2)] = true);
+var statearr_42645_42874 = state_42628__$1;
+(statearr_42645_42874[(2)] = true);
 
-(statearr_42645_42879[(1)] = (19));
+(statearr_42645_42874[(1)] = (19));
 
 
 return new cljs.core.Keyword(null,"recur","recur",-437573268);
@@ -2128,12 +2128,12 @@ var inst_42550 = (cljs.core.PROTOCOL_SENTINEL === inst_42549);
 var inst_42551 = ((inst_42548) || (inst_42550));
 var state_42628__$1 = state_42628;
 if(cljs.core.truth_(inst_42551)){
-var statearr_42646_42880 = state_42628__$1;
-(statearr_42646_42880[(1)] = (6));
+var statearr_42646_42875 = state_42628__$1;
+(statearr_42646_42875[(1)] = (6));
 
 } else {
-var statearr_42647_42881 = state_42628__$1;
-(statearr_42647_42881[(1)] = (7));
+var statearr_42647_42876 = state_42628__$1;
+(statearr_42647_42876[(1)] = (7));
 
 }
 
@@ -2145,12 +2145,12 @@ var inst_42570 = (inst_42566 == null);
 var inst_42571 = cljs.core.not(inst_42570);
 var state_42628__$1 = state_42628;
 if(inst_42571){
-var statearr_42648_42882 = state_42628__$1;
-(statearr_42648_42882[(1)] = (14));
+var statearr_42648_42877 = state_42628__$1;
+(statearr_42648_42877[(1)] = (14));
 
 } else {
-var statearr_42649_42883 = state_42628__$1;
-(statearr_42649_42883[(1)] = (15));
+var statearr_42649_42878 = state_42628__$1;
+(statearr_42649_42878[(1)] = (15));
 
 }
 
@@ -2451,15 +2451,15 @@ devcards$core$state_machine__36948__auto__.cljs$core$IFn$_invoke$arity$1 = devca
 return devcards$core$state_machine__36948__auto__;
 })()
 })();
-var state__37016__auto__ = (function (){var statearr_42675 = (f__37015__auto__.cljs$core$IFn$_invoke$arity$0 ? f__37015__auto__.cljs$core$IFn$_invoke$arity$0() : f__37015__auto__.call(null));
-(statearr_42675[(6)] = c__37014__auto__);
+var state__37017__auto__ = (function (){var statearr_42675 = (f__37016__auto__.cljs$core$IFn$_invoke$arity$0 ? f__37016__auto__.cljs$core$IFn$_invoke$arity$0() : f__37016__auto__.call(null));
+(statearr_42675[(6)] = c__37015__auto__);
 
 return statearr_42675;
 })();
-return cljs.core.async.impl.ioc_helpers.run_state_machine_wrapped(state__37016__auto__);
+return cljs.core.async.impl.ioc_helpers.run_state_machine_wrapped(state__37017__auto__);
 }));
 
-return c__37014__auto__;
+return c__37015__auto__;
 })();
 }
 devcards.core.test_card_test_run = (function devcards$core$test_card_test_run(this$,tests){
@@ -2467,15 +2467,15 @@ return cljs.core.async.put_BANG_.cljs$core$IFn$_invoke$arity$2(devcards.core.tes
 return this$.setState(({"test_results": results}));
 })], null));
 });
-devcards.core.TestDevcard = (function (){var ctor__41567__auto__ = (function (props__41564__auto__){
-var this__41565__auto__ = this;
-React.Component.call(this__41565__auto__,props__41564__auto__);
+devcards.core.TestDevcard = (function (){var ctor__41571__auto__ = (function (props__41568__auto__){
+var this__41569__auto__ = this;
+React.Component.call(this__41569__auto__,props__41568__auto__);
 
-return this__41565__auto__;
+return this__41569__auto__;
 });
-goog.inherits(ctor__41567__auto__,React.Component);
+goog.inherits(ctor__41571__auto__,React.Component);
 
-var x42676_42903 = ctor__41567__auto__.prototype;
+var x42676_42903 = ctor__41571__auto__.prototype;
 (x42676_42903.componentWillMount = (function (){
 var this$ = this;
 var temp__5735__auto__ = devcards.core.get_props(this$,new cljs.core.Keyword(null,"test_thunks","test_thunks",304669805));
@@ -2509,7 +2509,7 @@ return devcards.core.render_tests(this$,path,test_summary);
 }));
 
 
-return ctor__41567__auto__;
+return ctor__41571__auto__;
 })();
 
 (devcards.core.TestDevcard.displayName = cljs.core.name(new cljs.core.Symbol(null,"TestDevcard","TestDevcard",-506859910,null)));
@@ -2521,8 +2521,8 @@ while(true){
 if((i__4790__auto___42905 < len__4789__auto___42904)){
 args__4795__auto__.push((arguments[i__4790__auto___42905]));
 
-var G__42907 = (i__4790__auto___42905 + (1));
-i__4790__auto___42905 = G__42907;
+var G__42906 = (i__4790__auto___42905 + (1));
+i__4790__auto___42905 = G__42906;
 continue;
 } else {
 }
@@ -2668,9 +2668,9 @@ return null;
 devcards.core.mount_namespace = (function devcards$core$mount_namespace(ns_symbol){
 devcards.core.merge_front_matter_options_BANG_(ns_symbol);
 
-var c__37014__auto__ = cljs.core.async.chan.cljs$core$IFn$_invoke$arity$1((1));
+var c__37015__auto__ = cljs.core.async.chan.cljs$core$IFn$_invoke$arity$1((1));
 cljs.core.async.impl.dispatch.run((function (){
-var f__37015__auto__ = (function (){var switch__36947__auto__ = (function (state_42697){
+var f__37016__auto__ = (function (){var switch__36947__auto__ = (function (state_42697){
 var state_val_42698 = (state_42697[(1)]);
 if((state_val_42698 === (1))){
 var inst_42688 = devcards.core.load_data_from_channel_BANG_();
@@ -2742,8 +2742,8 @@ throw e42702;
 }
 }})();
 if(cljs.core.keyword_identical_QMARK_(ret_value__36949__auto__,new cljs.core.Keyword(null,"recur","recur",-437573268))){
-var G__42912 = state_42697;
-state_42697 = G__42912;
+var G__42909 = state_42697;
+state_42697 = G__42909;
 continue;
 } else {
 return ret_value__36949__auto__;
@@ -2765,15 +2765,15 @@ devcards$core$mount_namespace_$_state_machine__36948__auto__.cljs$core$IFn$_invo
 return devcards$core$mount_namespace_$_state_machine__36948__auto__;
 })()
 })();
-var state__37016__auto__ = (function (){var statearr_42704 = (f__37015__auto__.cljs$core$IFn$_invoke$arity$0 ? f__37015__auto__.cljs$core$IFn$_invoke$arity$0() : f__37015__auto__.call(null));
-(statearr_42704[(6)] = c__37014__auto__);
+var state__37017__auto__ = (function (){var statearr_42704 = (f__37016__auto__.cljs$core$IFn$_invoke$arity$0 ? f__37016__auto__.cljs$core$IFn$_invoke$arity$0() : f__37016__auto__.call(null));
+(statearr_42704[(6)] = c__37015__auto__);
 
 return statearr_42704;
 })();
-return cljs.core.async.impl.ioc_helpers.run_state_machine_wrapped(state__37016__auto__);
+return cljs.core.async.impl.ioc_helpers.run_state_machine_wrapped(state__37017__auto__);
 }));
 
-return c__37014__auto__;
+return c__37015__auto__;
 });
 goog.exportSymbol('devcards.core.mount_namespace', devcards.core.mount_namespace);
 devcards.core.mount_namespace_live = (function devcards$core$mount_namespace_live(ns_symbol){
