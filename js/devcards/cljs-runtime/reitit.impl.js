@@ -346,12 +346,12 @@ throw cljs.core.missing_protocol("IntoString.into-string",_);
 
 goog.object.set(reitit.impl.IntoString,"string",true);
 
-var G__49838_49864 = reitit.impl.into_string;
-var G__49839_49865 = "string";
-var G__49840_49866 = (function (this$){
+var G__49838_49869 = reitit.impl.into_string;
+var G__49839_49870 = "string";
+var G__49840_49871 = (function (this$){
 return this$;
 });
-goog.object.set(G__49838_49864,G__49839_49865,G__49840_49866);
+goog.object.set(G__49838_49869,G__49839_49870,G__49840_49871);
 
 (cljs.core.Keyword.prototype.reitit$impl$IntoString$ = cljs.core.PROTOCOL_SENTINEL);
 
@@ -363,21 +363,21 @@ return [ns,(cljs.core.truth_(ns)?"/":null),cljs.core.name(this$__$1)].join('');
 
 goog.object.set(reitit.impl.IntoString,"boolean",true);
 
-var G__49841_49868 = reitit.impl.into_string;
-var G__49842_49869 = "boolean";
-var G__49843_49870 = (function (this$){
+var G__49841_49872 = reitit.impl.into_string;
+var G__49842_49873 = "boolean";
+var G__49843_49874 = (function (this$){
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(this$);
 });
-goog.object.set(G__49841_49868,G__49842_49869,G__49843_49870);
+goog.object.set(G__49841_49872,G__49842_49873,G__49843_49874);
 
 goog.object.set(reitit.impl.IntoString,"number",true);
 
-var G__49844_49871 = reitit.impl.into_string;
-var G__49845_49872 = "number";
-var G__49846_49873 = (function (this$){
+var G__49844_49875 = reitit.impl.into_string;
+var G__49845_49876 = "number";
+var G__49846_49877 = (function (this$){
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(this$);
 });
-goog.object.set(G__49844_49871,G__49845_49872,G__49846_49873);
+goog.object.set(G__49844_49875,G__49845_49876,G__49846_49877);
 
 goog.object.set(reitit.impl.IntoString,"object",true);
 

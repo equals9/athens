@@ -915,12 +915,12 @@ return null;
 }));
 goog.object.set(garden.compiler.CSSRenderer,"null",true);
 
-var G__34522_34603 = garden.compiler.render_css;
-var G__34523_34604 = "null";
-var G__34524_34605 = (function (this$){
+var G__34522_34600 = garden.compiler.render_css;
+var G__34523_34601 = "null";
+var G__34524_34602 = (function (this$){
 return "";
 });
-goog.object.set(G__34522_34603,G__34523_34604,G__34524_34605);
+goog.object.set(G__34522_34600,G__34523_34601,G__34524_34602);
 
 (garden.color.CSSColor.prototype.garden$compiler$CSSRenderer$ = cljs.core.PROTOCOL_SENTINEL);
 

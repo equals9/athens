@@ -211,10 +211,10 @@ var vec__58461 = cljs.core.first(kvs);
 var var_STAR_ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__58461,(0),null);
 var tbox = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__58461,(1),null);
 var tbox_val = tbox.sci$impl$types$IBox$getVal$arity$1(null);
-var G__58489 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(ret,var_STAR_,tbox_val);
-var G__58490 = cljs.core.next(kvs);
-ret = G__58489;
-kvs = G__58490;
+var G__58488 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(ret,var_STAR_,tbox_val);
+var G__58489 = cljs.core.next(kvs);
+ret = G__58488;
+kvs = G__58489;
 continue;
 } else {
 return ret;
@@ -285,19 +285,19 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$5(f,x,y,z,args);
 var G__58492 = function (x,y,z,var_args){
 var args = null;
 if (arguments.length > 3) {
-var G__58495__i = 0, G__58495__a = new Array(arguments.length -  3);
-while (G__58495__i < G__58495__a.length) {G__58495__a[G__58495__i] = arguments[G__58495__i + 3]; ++G__58495__i;}
-  args = new cljs.core.IndexedSeq(G__58495__a,0,null);
+var G__58493__i = 0, G__58493__a = new Array(arguments.length -  3);
+while (G__58493__i < G__58493__a.length) {G__58493__a[G__58493__i] = arguments[G__58493__i + 3]; ++G__58493__i;}
+  args = new cljs.core.IndexedSeq(G__58493__a,0,null);
 } 
 return G__58492__delegate.call(this,x,y,z,args);};
 G__58492.cljs$lang$maxFixedArity = 3;
-G__58492.cljs$lang$applyTo = (function (arglist__58496){
-var x = cljs.core.first(arglist__58496);
-arglist__58496 = cljs.core.next(arglist__58496);
-var y = cljs.core.first(arglist__58496);
-arglist__58496 = cljs.core.next(arglist__58496);
-var z = cljs.core.first(arglist__58496);
-var args = cljs.core.rest(arglist__58496);
+G__58492.cljs$lang$applyTo = (function (arglist__58494){
+var x = cljs.core.first(arglist__58494);
+arglist__58494 = cljs.core.next(arglist__58494);
+var y = cljs.core.first(arglist__58494);
+arglist__58494 = cljs.core.next(arglist__58494);
+var z = cljs.core.first(arglist__58494);
+var args = cljs.core.rest(arglist__58494);
 return G__58492__delegate(x,y,z,args);
 });
 G__58492.cljs$core$IFn$_invoke$arity$variadic = G__58492__delegate;
@@ -1212,14 +1212,14 @@ return (new sci.impl.vars.SciVar(init_val,name,meta__$1));
 
 sci.impl.vars.binding = (function sci$impl$vars$binding(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___58526 = arguments.length;
-var i__4790__auto___58527 = (0);
+var len__4789__auto___58525 = arguments.length;
+var i__4790__auto___58526 = (0);
 while(true){
-if((i__4790__auto___58527 < len__4789__auto___58526)){
-args__4795__auto__.push((arguments[i__4790__auto___58527]));
+if((i__4790__auto___58526 < len__4789__auto___58525)){
+args__4795__auto__.push((arguments[i__4790__auto___58526]));
 
-var G__58529 = (i__4790__auto___58527 + (1));
-i__4790__auto___58527 = G__58529;
+var G__58527 = (i__4790__auto___58526 + (1));
+i__4790__auto___58526 = G__58527;
 continue;
 } else {
 }
@@ -1236,10 +1236,10 @@ var ret = cljs.core.PersistentVector.EMPTY;
 var vvs = cljs.core.seq(var_vals);
 while(true){
 if(vvs){
-var G__58531 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(cljs.core.conj.cljs$core$IFn$_invoke$arity$2(ret,cljs.core.sequence.cljs$core$IFn$_invoke$arity$1(cljs.core.seq(cljs.core.concat.cljs$core$IFn$_invoke$arity$2((new cljs.core.List(null,new cljs.core.Symbol(null,"var","var",870848730,null),null,(1),null)),(new cljs.core.List(null,cljs.core.first(vvs),null,(1),null)))))),cljs.core.second(vvs));
-var G__58532 = cljs.core.next(cljs.core.next(vvs));
-ret = G__58531;
-vvs = G__58532;
+var G__58528 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(cljs.core.conj.cljs$core$IFn$_invoke$arity$2(ret,cljs.core.sequence.cljs$core$IFn$_invoke$arity$1(cljs.core.seq(cljs.core.concat.cljs$core$IFn$_invoke$arity$2((new cljs.core.List(null,new cljs.core.Symbol(null,"var","var",870848730,null),null,(1),null)),(new cljs.core.List(null,cljs.core.first(vvs),null,(1),null)))))),cljs.core.second(vvs));
+var G__58529 = cljs.core.next(cljs.core.next(vvs));
+ret = G__58528;
+vvs = G__58529;
 continue;
 } else {
 return cljs.core.seq(ret);
