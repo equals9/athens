@@ -17,24 +17,24 @@ athens.parse_renderer.block_ref = new cljs.core.PersistentArrayMap(null, 4, [new
  */
 athens.parse_renderer.transform = (function athens$parse_renderer$transform(tree){
 var G__57927 = new cljs.core.PersistentArrayMap(null, 7, [new cljs.core.Keyword(null,"block","block",664686210),(function() { 
-var G__57945__delegate = function (contents){
+var G__57957__delegate = function (contents){
 return cljs.core.concat.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"span","span",1394872991),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"class","class",-2030961996),"block",new cljs.core.Keyword(null,"style","style",-496642736),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"white-space","white-space",-707351930),"pre-line"], null)], null)], null),contents);
 };
-var G__57945 = function (var_args){
+var G__57957 = function (var_args){
 var contents = null;
 if (arguments.length > 0) {
-var G__57946__i = 0, G__57946__a = new Array(arguments.length -  0);
-while (G__57946__i < G__57946__a.length) {G__57946__a[G__57946__i] = arguments[G__57946__i + 0]; ++G__57946__i;}
-  contents = new cljs.core.IndexedSeq(G__57946__a,0,null);
+var G__57958__i = 0, G__57958__a = new Array(arguments.length -  0);
+while (G__57958__i < G__57958__a.length) {G__57958__a[G__57958__i] = arguments[G__57958__i + 0]; ++G__57958__i;}
+  contents = new cljs.core.IndexedSeq(G__57958__a,0,null);
 } 
-return G__57945__delegate.call(this,contents);};
-G__57945.cljs$lang$maxFixedArity = 0;
-G__57945.cljs$lang$applyTo = (function (arglist__57947){
-var contents = cljs.core.seq(arglist__57947);
-return G__57945__delegate(contents);
+return G__57957__delegate.call(this,contents);};
+G__57957.cljs$lang$maxFixedArity = 0;
+G__57957.cljs$lang$applyTo = (function (arglist__57959){
+var contents = cljs.core.seq(arglist__57959);
+return G__57957__delegate(contents);
 });
-G__57945.cljs$core$IFn$_invoke$arity$variadic = G__57945__delegate;
-return G__57945;
+G__57957.cljs$core$IFn$_invoke$arity$variadic = G__57957__delegate;
+return G__57957;
 })()
 ,new cljs.core.Keyword(null,"page-link","page-link",-169621200),(function (title){
 var node = (function (){var G__57929 = athens.db.dsdb;

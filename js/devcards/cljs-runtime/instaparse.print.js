@@ -2,10 +2,10 @@ goog.provide('instaparse.print');
 goog.require('cljs.core');
 goog.require('clojure.string');
 instaparse.print.paren_for_tags = (function instaparse$print$paren_for_tags(tag_set,hidden_QMARK_,parser){
-if(cljs.core.truth_(((cljs.core.not(hidden_QMARK_))?(function (){var G__55803 = (function (){var G__55804 = new cljs.core.Keyword(null,"tag","tag",-1290361223);
-return (parser.cljs$core$IFn$_invoke$arity$1 ? parser.cljs$core$IFn$_invoke$arity$1(G__55804) : parser.call(null,G__55804));
+if(cljs.core.truth_(((cljs.core.not(hidden_QMARK_))?(function (){var G__55806 = (function (){var G__55807 = new cljs.core.Keyword(null,"tag","tag",-1290361223);
+return (parser.cljs$core$IFn$_invoke$arity$1 ? parser.cljs$core$IFn$_invoke$arity$1(G__55807) : parser.call(null,G__55807));
 })();
-return (tag_set.cljs$core$IFn$_invoke$arity$1 ? tag_set.cljs$core$IFn$_invoke$arity$1(G__55803) : tag_set.call(null,G__55803));
+return (tag_set.cljs$core$IFn$_invoke$arity$1 ? tag_set.cljs$core$IFn$_invoke$arity$1(G__55806) : tag_set.call(null,G__55806));
 })():false))){
 return ["(",cljs.core.str.cljs$core$IFn$_invoke$arity$1((instaparse.print.combinators__GT_str.cljs$core$IFn$_invoke$arity$2 ? instaparse.print.combinators__GT_str.cljs$core$IFn$_invoke$arity$2(parser,false) : instaparse.print.combinators__GT_str.call(null,parser,false))),")"].join('');
 } else {
@@ -17,8 +17,8 @@ instaparse.print.paren_for_compound = cljs.core.partial.cljs$core$IFn$_invoke$ar
  * Replaces whitespace characters with escape sequences for better printing
  */
 instaparse.print.regexp_replace = (function instaparse$print$regexp_replace(s){
-var G__55805 = s;
-switch (G__55805) {
+var G__55808 = s;
+switch (G__55808) {
 case "\n":
 return "\\n";
 
@@ -250,12 +250,12 @@ var parser = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__55833,(1),null);
 if(cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(non_terminal,start)){
 cljs.core.chunk_append(b__55832,instaparse.print.rule__GT_str(non_terminal,parser));
 
-var G__55852 = (i__55831 + (1));
-i__55831 = G__55852;
-continue;
-} else {
 var G__55853 = (i__55831 + (1));
 i__55831 = G__55853;
+continue;
+} else {
+var G__55854 = (i__55831 + (1));
+i__55831 = G__55854;
 continue;
 }
 } else {
@@ -269,14 +269,14 @@ return cljs.core.chunk_cons(cljs.core.chunk(b__55832),instaparse$print$Parser__G
 return cljs.core.chunk_cons(cljs.core.chunk(b__55832),null);
 }
 } else {
-var vec__55836 = cljs.core.first(s__55830__$2);
-var non_terminal = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__55836,(0),null);
-var parser = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__55836,(1),null);
+var vec__55837 = cljs.core.first(s__55830__$2);
+var non_terminal = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__55837,(0),null);
+var parser = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__55837,(1),null);
 if(cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(non_terminal,start)){
 return cljs.core.cons(instaparse.print.rule__GT_str(non_terminal,parser),instaparse$print$Parser__GT_str_$_iter__55829(cljs.core.rest(s__55830__$2)));
 } else {
-var G__55854 = cljs.core.rest(s__55830__$2);
-s__55830__$1 = G__55854;
+var G__55855 = cljs.core.rest(s__55830__$2);
+s__55830__$1 = G__55855;
 continue;
 }
 }

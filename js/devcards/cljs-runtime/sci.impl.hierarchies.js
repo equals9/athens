@@ -95,8 +95,8 @@ return cljs.core.isa_QMARK_.cljs$core$IFn$_invoke$arity$3(h,child,parent);
 (sci.impl.hierarchies.isa_QMARK__STAR_.cljs$lang$maxFixedArity = 4);
 
 sci.impl.hierarchies.ancestors_STAR_ = (function sci$impl$hierarchies$ancestors_STAR_(var_args){
-var G__58833 = arguments.length;
-switch (G__58833) {
+var G__58840 = arguments.length;
+switch (G__58840) {
 case 2:
 return sci.impl.hierarchies.ancestors_STAR_.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -151,8 +151,8 @@ return cljs.core.descendants.cljs$core$IFn$_invoke$arity$2(h,tag);
 (sci.impl.hierarchies.descendants_STAR_.cljs$lang$maxFixedArity = 3);
 
 sci.impl.hierarchies.parents_STAR_ = (function sci$impl$hierarchies$parents_STAR_(var_args){
-var G__58844 = arguments.length;
-switch (G__58844) {
+var G__58848 = arguments.length;
+switch (G__58848) {
 case 2:
 return sci.impl.hierarchies.parents_STAR_.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 

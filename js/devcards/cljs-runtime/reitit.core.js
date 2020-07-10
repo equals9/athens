@@ -1989,11 +1989,11 @@ var router__$1 = (cljs.core.truth_(router)?router:((((cljs.core._EQ_.cljs$core$I
 )))));
 var temp__5735__auto___50318 = new cljs.core.Keyword(null,"conflicts","conflicts",-1219561816).cljs$core$IFn$_invoke$arity$1(opts__$1);
 if(cljs.core.truth_(temp__5735__auto___50318)){
-var conflicts_50319 = temp__5735__auto___50318;
+var conflicts_50321 = temp__5735__auto___50318;
 var temp__5735__auto___50322__$1 = reitit.impl.unresolved_conflicts(path_conflicting);
 if(cljs.core.truth_(temp__5735__auto___50322__$1)){
 var conflict_report_50323 = temp__5735__auto___50322__$1;
-(conflicts_50319.cljs$core$IFn$_invoke$arity$1 ? conflicts_50319.cljs$core$IFn$_invoke$arity$1(conflict_report_50323) : conflicts_50319.call(null,conflict_report_50323));
+(conflicts_50321.cljs$core$IFn$_invoke$arity$1 ? conflicts_50321.cljs$core$IFn$_invoke$arity$1(conflict_report_50323) : conflicts_50321.call(null,conflict_report_50323));
 } else {
 }
 } else {
