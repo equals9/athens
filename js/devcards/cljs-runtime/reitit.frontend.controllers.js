@@ -18,8 +18,8 @@ return console.warn("Reitit-frontend controller :params is deprecated. Replace w
  * 
  *   Default value is nil, i.e. controller identity doesn't depend on Match.
  */
-reitit.frontend.controllers.get_identity = (function reitit$frontend$controllers$get_identity(p__50218,match){
-var map__50220 = p__50218;
+reitit.frontend.controllers.get_identity = (function reitit$frontend$controllers$get_identity(p__50219,match){
+var map__50220 = p__50219;
 var map__50220__$1 = (((((!((map__50220 == null))))?(((((map__50220.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__50220.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__50220):map__50220);
 var identity = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50220__$1,new cljs.core.Keyword(null,"identity","identity",1647396035));
 var parameters = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__50220__$1,new cljs.core.Keyword(null,"parameters","parameters",-1229919748));
@@ -131,27 +131,27 @@ return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"ol
 return null;
 }
 }),reitit.frontend.controllers.pad_same_length(old_controllers,new_controllers),reitit.frontend.controllers.pad_same_length(new_controllers,old_controllers))));
-var seq__50233_50245 = cljs.core.seq(cljs.core.reverse(cljs.core.map.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"old","old",-1825222690),changed_controllers)));
-var chunk__50234_50246 = null;
-var count__50235_50247 = (0);
-var i__50236_50248 = (0);
+var seq__50233_50246 = cljs.core.seq(cljs.core.reverse(cljs.core.map.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"old","old",-1825222690),changed_controllers)));
+var chunk__50234_50247 = null;
+var count__50235_50248 = (0);
+var i__50236_50249 = (0);
 while(true){
-if((i__50236_50248 < count__50235_50247)){
-var controller_50249 = chunk__50234_50246.cljs$core$IIndexed$_nth$arity$2(null,i__50236_50248);
-reitit.frontend.controllers.apply_controller(controller_50249,new cljs.core.Keyword(null,"stop","stop",-2140911342));
+if((i__50236_50249 < count__50235_50248)){
+var controller_50250 = chunk__50234_50247.cljs$core$IIndexed$_nth$arity$2(null,i__50236_50249);
+reitit.frontend.controllers.apply_controller(controller_50250,new cljs.core.Keyword(null,"stop","stop",-2140911342));
 
 
-var G__50250 = seq__50233_50245;
-var G__50251 = chunk__50234_50246;
-var G__50252 = count__50235_50247;
-var G__50253 = (i__50236_50248 + (1));
-seq__50233_50245 = G__50250;
-chunk__50234_50246 = G__50251;
-count__50235_50247 = G__50252;
-i__50236_50248 = G__50253;
+var G__50251 = seq__50233_50246;
+var G__50252 = chunk__50234_50247;
+var G__50253 = count__50235_50248;
+var G__50254 = (i__50236_50249 + (1));
+seq__50233_50246 = G__50251;
+chunk__50234_50247 = G__50252;
+count__50235_50248 = G__50253;
+i__50236_50249 = G__50254;
 continue;
 } else {
-var temp__5735__auto___50255 = cljs.core.seq(seq__50233_50245);
+var temp__5735__auto___50255 = cljs.core.seq(seq__50233_50246);
 if(temp__5735__auto___50255){
 var seq__50233_50256__$1 = temp__5735__auto___50255;
 if(cljs.core.chunked_seq_QMARK_(seq__50233_50256__$1)){
@@ -160,10 +160,10 @@ var G__50258 = cljs.core.chunk_rest(seq__50233_50256__$1);
 var G__50259 = c__4609__auto___50257;
 var G__50260 = cljs.core.count(c__4609__auto___50257);
 var G__50261 = (0);
-seq__50233_50245 = G__50258;
-chunk__50234_50246 = G__50259;
-count__50235_50247 = G__50260;
-i__50236_50248 = G__50261;
+seq__50233_50246 = G__50258;
+chunk__50234_50247 = G__50259;
+count__50235_50248 = G__50260;
+i__50236_50249 = G__50261;
 continue;
 } else {
 var controller_50262 = cljs.core.first(seq__50233_50256__$1);
@@ -174,10 +174,10 @@ var G__50263 = cljs.core.next(seq__50233_50256__$1);
 var G__50264 = null;
 var G__50265 = (0);
 var G__50266 = (0);
-seq__50233_50245 = G__50263;
-chunk__50234_50246 = G__50264;
-count__50235_50247 = G__50265;
-i__50236_50248 = G__50266;
+seq__50233_50246 = G__50263;
+chunk__50234_50247 = G__50264;
+count__50235_50248 = G__50265;
+i__50236_50249 = G__50266;
 continue;
 }
 } else {

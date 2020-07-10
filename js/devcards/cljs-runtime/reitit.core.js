@@ -1992,8 +1992,8 @@ if(cljs.core.truth_(temp__5735__auto___50303)){
 var conflicts_50304 = temp__5735__auto___50303;
 var temp__5735__auto___50305__$1 = reitit.impl.unresolved_conflicts(path_conflicting);
 if(cljs.core.truth_(temp__5735__auto___50305__$1)){
-var conflict_report_50308 = temp__5735__auto___50305__$1;
-(conflicts_50304.cljs$core$IFn$_invoke$arity$1 ? conflicts_50304.cljs$core$IFn$_invoke$arity$1(conflict_report_50308) : conflicts_50304.call(null,conflict_report_50308));
+var conflict_report_50306 = temp__5735__auto___50305__$1;
+(conflicts_50304.cljs$core$IFn$_invoke$arity$1 ? conflicts_50304.cljs$core$IFn$_invoke$arity$1(conflict_report_50306) : conflicts_50304.call(null,conflict_report_50306));
 } else {
 }
 } else {

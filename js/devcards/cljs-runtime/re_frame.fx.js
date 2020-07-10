@@ -271,18 +271,18 @@ count__46809 = G__46870;
 i__46810 = G__46871;
 continue;
 } else {
-var map__46817 = cljs.core.first(seq__46807__$1);
-var map__46817__$1 = (((((!((map__46817 == null))))?(((((map__46817.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__46817.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__46817):map__46817);
-var effect = map__46817__$1;
-var ms = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__46817__$1,new cljs.core.Keyword(null,"ms","ms",-1152709733));
-var dispatch = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__46817__$1,new cljs.core.Keyword(null,"dispatch","dispatch",1319337009));
+var map__46819 = cljs.core.first(seq__46807__$1);
+var map__46819__$1 = (((((!((map__46819 == null))))?(((((map__46819.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__46819.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__46819):map__46819);
+var effect = map__46819__$1;
+var ms = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__46819__$1,new cljs.core.Keyword(null,"ms","ms",-1152709733));
+var dispatch = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__46819__$1,new cljs.core.Keyword(null,"dispatch","dispatch",1319337009));
 if(((cljs.core.empty_QMARK_(dispatch)) || ((!(typeof ms === 'number'))))){
 re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"error","error",-978969032),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["re-frame: ignoring bad :dispatch-later value:",effect], 0));
 } else {
-re_frame.interop.set_timeout_BANG_(((function (seq__46807,chunk__46808,count__46809,i__46810,map__46817,map__46817__$1,effect,ms,dispatch,seq__46807__$1,temp__5735__auto__){
+re_frame.interop.set_timeout_BANG_(((function (seq__46807,chunk__46808,count__46809,i__46810,map__46819,map__46819__$1,effect,ms,dispatch,seq__46807__$1,temp__5735__auto__){
 return (function (){
 return re_frame.router.dispatch(dispatch);
-});})(seq__46807,chunk__46808,count__46809,i__46810,map__46817,map__46817__$1,effect,ms,dispatch,seq__46807__$1,temp__5735__auto__))
+});})(seq__46807,chunk__46808,count__46809,i__46810,map__46819,map__46819__$1,effect,ms,dispatch,seq__46807__$1,temp__5735__auto__))
 ,ms);
 }
 
