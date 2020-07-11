@@ -64,8 +64,8 @@ break;
  *   optional parameter.
  */
 edamame.impl.parser.throw_reader = (function edamame$impl$parser$throw_reader(var_args){
-var G__59100 = arguments.length;
-switch (G__59100) {
+var G__59057 = arguments.length;
+switch (G__59057) {
 case 2:
 return edamame.impl.parser.throw_reader.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -105,8 +105,8 @@ edamame.impl.parser.non_match_QMARK_ = (function edamame$impl$parser$non_match_Q
 return edamame.impl.parser.kw_identical_QMARK_(v,edamame.impl.parser.non_match);
 });
 edamame.impl.parser.parse_to_delimiter = (function edamame$impl$parser$parse_to_delimiter(var_args){
-var G__59102 = arguments.length;
-switch (G__59102) {
+var G__59059 = arguments.length;
+switch (G__59059) {
 case 3:
 return edamame.impl.parser.parse_to_delimiter.cljs$core$IFn$_invoke$arity$3((arguments[(0)]),(arguments[(1)]),(arguments[(2)]));
 
@@ -133,12 +133,12 @@ var ctx__$1 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$variadic(ctx,new cljs.
 var vals = cljs.core.transient$(into);
 while(true){
 var next_val = (edamame.impl.parser.parse_next.cljs$core$IFn$_invoke$arity$2 ? edamame.impl.parser.parse_next.cljs$core$IFn$_invoke$arity$2(ctx__$1,reader) : edamame.impl.parser.parse_next.call(null,ctx__$1,reader));
-var cond_splice_QMARK_ = (function (){var G__59108 = next_val;
-var G__59108__$1 = (((G__59108 == null))?null:cljs.core.meta(G__59108));
-if((G__59108__$1 == null)){
+var cond_splice_QMARK_ = (function (){var G__59065 = next_val;
+var G__59065__$1 = (((G__59065 == null))?null:cljs.core.meta(G__59065));
+if((G__59065__$1 == null)){
 return null;
 } else {
-return new cljs.core.Keyword("edamame.impl.parser","cond-splice","edamame.impl.parser/cond-splice",1534599765).cljs$core$IFn$_invoke$arity$1(G__59108__$1);
+return new cljs.core.Keyword("edamame.impl.parser","cond-splice","edamame.impl.parser/cond-splice",1534599765).cljs$core$IFn$_invoke$arity$1(G__59065__$1);
 }
 })();
 if(edamame.impl.parser.kw_identical_QMARK_(new cljs.core.Keyword("edamame.impl.parser","eof","edamame.impl.parser/eof",720552006),next_val)){
@@ -148,53 +148,53 @@ if(edamame.impl.parser.kw_identical_QMARK_(new cljs.core.Keyword("edamame.impl.p
 return cljs.core.persistent_BANG_(vals);
 } else {
 if(cljs.core.truth_(cond_splice_QMARK_)){
-var seq__59109_59226 = cljs.core.seq(next_val);
-var chunk__59110_59227 = null;
-var count__59111_59228 = (0);
-var i__59112_59229 = (0);
+var seq__59066_59182 = cljs.core.seq(next_val);
+var chunk__59067_59183 = null;
+var count__59068_59184 = (0);
+var i__59069_59185 = (0);
 while(true){
-if((i__59112_59229 < count__59111_59228)){
-var v_59230 = chunk__59110_59227.cljs$core$IIndexed$_nth$arity$2(null,i__59112_59229);
-cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(vals,v_59230);
+if((i__59069_59185 < count__59068_59184)){
+var v_59187 = chunk__59067_59183.cljs$core$IIndexed$_nth$arity$2(null,i__59069_59185);
+cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(vals,v_59187);
 
 
-var G__59231 = seq__59109_59226;
-var G__59232 = chunk__59110_59227;
-var G__59233 = count__59111_59228;
-var G__59234 = (i__59112_59229 + (1));
-seq__59109_59226 = G__59231;
-chunk__59110_59227 = G__59232;
-count__59111_59228 = G__59233;
-i__59112_59229 = G__59234;
+var G__59188 = seq__59066_59182;
+var G__59189 = chunk__59067_59183;
+var G__59190 = count__59068_59184;
+var G__59191 = (i__59069_59185 + (1));
+seq__59066_59182 = G__59188;
+chunk__59067_59183 = G__59189;
+count__59068_59184 = G__59190;
+i__59069_59185 = G__59191;
 continue;
 } else {
-var temp__5735__auto___59235 = cljs.core.seq(seq__59109_59226);
-if(temp__5735__auto___59235){
-var seq__59109_59236__$1 = temp__5735__auto___59235;
-if(cljs.core.chunked_seq_QMARK_(seq__59109_59236__$1)){
-var c__4609__auto___59237 = cljs.core.chunk_first(seq__59109_59236__$1);
-var G__59238 = cljs.core.chunk_rest(seq__59109_59236__$1);
-var G__59239 = c__4609__auto___59237;
-var G__59240 = cljs.core.count(c__4609__auto___59237);
-var G__59241 = (0);
-seq__59109_59226 = G__59238;
-chunk__59110_59227 = G__59239;
-count__59111_59228 = G__59240;
-i__59112_59229 = G__59241;
+var temp__5735__auto___59192 = cljs.core.seq(seq__59066_59182);
+if(temp__5735__auto___59192){
+var seq__59066_59193__$1 = temp__5735__auto___59192;
+if(cljs.core.chunked_seq_QMARK_(seq__59066_59193__$1)){
+var c__4609__auto___59194 = cljs.core.chunk_first(seq__59066_59193__$1);
+var G__59195 = cljs.core.chunk_rest(seq__59066_59193__$1);
+var G__59196 = c__4609__auto___59194;
+var G__59197 = cljs.core.count(c__4609__auto___59194);
+var G__59198 = (0);
+seq__59066_59182 = G__59195;
+chunk__59067_59183 = G__59196;
+count__59068_59184 = G__59197;
+i__59069_59185 = G__59198;
 continue;
 } else {
-var v_59242 = cljs.core.first(seq__59109_59236__$1);
-cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(vals,v_59242);
+var v_59199 = cljs.core.first(seq__59066_59193__$1);
+cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(vals,v_59199);
 
 
-var G__59243 = cljs.core.next(seq__59109_59236__$1);
-var G__59244 = null;
-var G__59245 = (0);
-var G__59246 = (0);
-seq__59109_59226 = G__59243;
-chunk__59110_59227 = G__59244;
-count__59111_59228 = G__59245;
-i__59112_59229 = G__59246;
+var G__59200 = cljs.core.next(seq__59066_59193__$1);
+var G__59201 = null;
+var G__59202 = (0);
+var G__59203 = (0);
+seq__59066_59182 = G__59200;
+chunk__59067_59183 = G__59201;
+count__59068_59184 = G__59202;
+i__59069_59185 = G__59203;
 continue;
 }
 } else {
@@ -203,17 +203,17 @@ continue;
 break;
 }
 
-var G__59248 = vals;
-vals = G__59248;
+var G__59204 = vals;
+vals = G__59204;
 continue;
 } else {
 if(edamame.impl.parser.non_match_QMARK_(next_val)){
-var G__59249 = vals;
-vals = G__59249;
+var G__59205 = vals;
+vals = G__59205;
 continue;
 } else {
-var G__59250 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(vals,next_val);
-vals = G__59250;
+var G__59206 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(vals,next_val);
+vals = G__59206;
 continue;
 
 }
@@ -247,18 +247,18 @@ return edamame.impl.parser.throw_reader.cljs$core$IFn$_invoke$arity$2(reader,"Er
 sb.append(ch);
 
 if(("\\" === ch)){
-var ch_59251__$1 = reader.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
-if((ch_59251__$1 == null)){
+var ch_59207__$1 = reader.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
+if((ch_59207__$1 == null)){
 edamame.impl.parser.throw_reader.cljs$core$IFn$_invoke$arity$2(reader,"Error while parsing regex");
 } else {
 }
 
-sb.append(ch_59251__$1);
+sb.append(ch_59207__$1);
 } else {
 }
 
-var G__59252 = reader.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
-ch = G__59252;
+var G__59208 = reader.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
+ch = G__59208;
 continue;
 }
 }
@@ -267,32 +267,32 @@ break;
 });
 edamame.impl.parser.duplicate_keys_error = (function edamame$impl$parser$duplicate_keys_error(msg,coll){
 var duplicates = (function edamame$impl$parser$duplicate_keys_error_$_duplicates(seq){
-var iter__4582__auto__ = (function edamame$impl$parser$duplicate_keys_error_$_duplicates_$_iter__59123(s__59124){
+var iter__4582__auto__ = (function edamame$impl$parser$duplicate_keys_error_$_duplicates_$_iter__59080(s__59081){
 return (new cljs.core.LazySeq(null,(function (){
-var s__59124__$1 = s__59124;
+var s__59081__$1 = s__59081;
 while(true){
-var temp__5735__auto__ = cljs.core.seq(s__59124__$1);
+var temp__5735__auto__ = cljs.core.seq(s__59081__$1);
 if(temp__5735__auto__){
-var s__59124__$2 = temp__5735__auto__;
-if(cljs.core.chunked_seq_QMARK_(s__59124__$2)){
-var c__4580__auto__ = cljs.core.chunk_first(s__59124__$2);
+var s__59081__$2 = temp__5735__auto__;
+if(cljs.core.chunked_seq_QMARK_(s__59081__$2)){
+var c__4580__auto__ = cljs.core.chunk_first(s__59081__$2);
 var size__4581__auto__ = cljs.core.count(c__4580__auto__);
-var b__59126 = cljs.core.chunk_buffer(size__4581__auto__);
-if((function (){var i__59125 = (0);
+var b__59083 = cljs.core.chunk_buffer(size__4581__auto__);
+if((function (){var i__59082 = (0);
 while(true){
-if((i__59125 < size__4581__auto__)){
-var vec__59127 = cljs.core._nth.cljs$core$IFn$_invoke$arity$2(c__4580__auto__,i__59125);
-var id = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59127,(0),null);
-var freq = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59127,(1),null);
+if((i__59082 < size__4581__auto__)){
+var vec__59084 = cljs.core._nth.cljs$core$IFn$_invoke$arity$2(c__4580__auto__,i__59082);
+var id = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59084,(0),null);
+var freq = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59084,(1),null);
 if((freq > (1))){
-cljs.core.chunk_append(b__59126,id);
+cljs.core.chunk_append(b__59083,id);
 
-var G__59253 = (i__59125 + (1));
-i__59125 = G__59253;
+var G__59209 = (i__59082 + (1));
+i__59082 = G__59209;
 continue;
 } else {
-var G__59254 = (i__59125 + (1));
-i__59125 = G__59254;
+var G__59210 = (i__59082 + (1));
+i__59082 = G__59210;
 continue;
 }
 } else {
@@ -301,19 +301,19 @@ return true;
 break;
 }
 })()){
-return cljs.core.chunk_cons(cljs.core.chunk(b__59126),edamame$impl$parser$duplicate_keys_error_$_duplicates_$_iter__59123(cljs.core.chunk_rest(s__59124__$2)));
+return cljs.core.chunk_cons(cljs.core.chunk(b__59083),edamame$impl$parser$duplicate_keys_error_$_duplicates_$_iter__59080(cljs.core.chunk_rest(s__59081__$2)));
 } else {
-return cljs.core.chunk_cons(cljs.core.chunk(b__59126),null);
+return cljs.core.chunk_cons(cljs.core.chunk(b__59083),null);
 }
 } else {
-var vec__59130 = cljs.core.first(s__59124__$2);
-var id = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59130,(0),null);
-var freq = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59130,(1),null);
+var vec__59087 = cljs.core.first(s__59081__$2);
+var id = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59087,(0),null);
+var freq = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59087,(1),null);
 if((freq > (1))){
-return cljs.core.cons(id,edamame$impl$parser$duplicate_keys_error_$_duplicates_$_iter__59123(cljs.core.rest(s__59124__$2)));
+return cljs.core.cons(id,edamame$impl$parser$duplicate_keys_error_$_duplicates_$_iter__59080(cljs.core.rest(s__59081__$2)));
 } else {
-var G__59255 = cljs.core.rest(s__59124__$2);
-s__59124__$1 = G__59255;
+var G__59212 = cljs.core.rest(s__59081__$2);
+s__59081__$1 = G__59212;
 continue;
 }
 }
@@ -358,16 +358,16 @@ return match;
 var k = (edamame.impl.parser.parse_next.cljs$core$IFn$_invoke$arity$2 ? edamame.impl.parser.parse_next.cljs$core$IFn$_invoke$arity$2(ctx,reader) : edamame.impl.parser.parse_next.call(null,ctx,reader));
 var match_QMARK_ = ((edamame.impl.parser.non_match_QMARK_(match)) && (((cljs.core.contains_QMARK_(features,k)) || (edamame.impl.parser.kw_identical_QMARK_(k,new cljs.core.Keyword(null,"default","default",-1987822328))))));
 if(match_QMARK_){
-var G__59256 = (edamame.impl.parser.parse_next.cljs$core$IFn$_invoke$arity$2 ? edamame.impl.parser.parse_next.cljs$core$IFn$_invoke$arity$2(ctx,reader) : edamame.impl.parser.parse_next.call(null,ctx,reader));
-match = G__59256;
+var G__59213 = (edamame.impl.parser.parse_next.cljs$core$IFn$_invoke$arity$2 ? edamame.impl.parser.parse_next.cljs$core$IFn$_invoke$arity$2(ctx,reader) : edamame.impl.parser.parse_next.call(null,ctx,reader));
+match = G__59213;
 continue;
 } else {
-var G__59135_59257 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(ctx,new cljs.core.Keyword("edamame.impl.parser","suppress","edamame.impl.parser/suppress",1718484755),true);
-var G__59136_59258 = reader;
-(edamame.impl.parser.parse_next.cljs$core$IFn$_invoke$arity$2 ? edamame.impl.parser.parse_next.cljs$core$IFn$_invoke$arity$2(G__59135_59257,G__59136_59258) : edamame.impl.parser.parse_next.call(null,G__59135_59257,G__59136_59258));
+var G__59092_59214 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(ctx,new cljs.core.Keyword("edamame.impl.parser","suppress","edamame.impl.parser/suppress",1718484755),true);
+var G__59093_59215 = reader;
+(edamame.impl.parser.parse_next.cljs$core$IFn$_invoke$arity$2 ? edamame.impl.parser.parse_next.cljs$core$IFn$_invoke$arity$2(G__59092_59214,G__59093_59215) : edamame.impl.parser.parse_next.call(null,G__59092_59214,G__59093_59215));
 
-var G__59259 = match;
-match = G__59259;
+var G__59216 = match;
+match = G__59216;
 continue;
 }
 }
@@ -388,8 +388,8 @@ if(edamame.impl.parser.kw_identical_QMARK_(new cljs.core.Keyword(null,"preserve"
 return cljs.tools.reader.impl.utils.reader_conditional((edamame.impl.parser.parse_next.cljs$core$IFn$_invoke$arity$2 ? edamame.impl.parser.parse_next.cljs$core$IFn$_invoke$arity$2(ctx,reader) : edamame.impl.parser.parse_next.call(null,ctx,reader)),splice_QMARK_);
 } else {
 if(cljs.core.fn_QMARK_(opt)){
-var G__59138 = cljs.core.vary_meta.cljs$core$IFn$_invoke$arity$4((edamame.impl.parser.parse_next.cljs$core$IFn$_invoke$arity$2 ? edamame.impl.parser.parse_next.cljs$core$IFn$_invoke$arity$2(ctx,reader) : edamame.impl.parser.parse_next.call(null,ctx,reader)),cljs.core.assoc,new cljs.core.Keyword("edamame","read-cond-splicing","edamame/read-cond-splicing",-1992728777),splice_QMARK_);
-return (opt.cljs$core$IFn$_invoke$arity$1 ? opt.cljs$core$IFn$_invoke$arity$1(G__59138) : opt.call(null,G__59138));
+var G__59095 = cljs.core.vary_meta.cljs$core$IFn$_invoke$arity$4((edamame.impl.parser.parse_next.cljs$core$IFn$_invoke$arity$2 ? edamame.impl.parser.parse_next.cljs$core$IFn$_invoke$arity$2(ctx,reader) : edamame.impl.parser.parse_next.call(null,ctx,reader)),cljs.core.assoc,new cljs.core.Keyword("edamame","read-cond-splicing","edamame/read-cond-splicing",-1992728777),splice_QMARK_);
+return (opt.cljs$core$IFn$_invoke$arity$1 ? opt.cljs$core$IFn$_invoke$arity$1(G__59095) : opt.call(null,G__59095));
 } else {
 reader.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
 
@@ -398,8 +398,8 @@ if(edamame.impl.parser.non_match_QMARK_(match)){
 return reader;
 } else {
 if(splice_QMARK_){
-return cljs.core.vary_meta.cljs$core$IFn$_invoke$arity$2(match,(function (p1__59137_SHARP_){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__59137_SHARP_,new cljs.core.Keyword("edamame.impl.parser","cond-splice","edamame.impl.parser/cond-splice",1534599765),true);
+return cljs.core.vary_meta.cljs$core$IFn$_invoke$arity$2(match,(function (p1__59094_SHARP_){
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__59094_SHARP_,new cljs.core.Keyword("edamame.impl.parser","cond-splice","edamame.impl.parser/cond-splice",1534599765),true);
 }));
 } else {
 return match;
@@ -411,8 +411,8 @@ return match;
 }
 });
 edamame.impl.parser.get_auto_resolve = (function edamame$impl$parser$get_auto_resolve(var_args){
-var G__59140 = arguments.length;
-switch (G__59140) {
+var G__59097 = arguments.length;
+switch (G__59097) {
 case 3:
 return edamame.impl.parser.get_auto_resolve.cljs$core$IFn$_invoke$arity$3((arguments[(0)]),(arguments[(1)]),(arguments[(2)]));
 
@@ -453,8 +453,8 @@ return "Use `:auto-resolve` to resolve aliases.";
  * Returns namespace for given alias.
  */
 edamame.impl.parser.auto_resolve = (function edamame$impl$parser$auto_resolve(var_args){
-var G__59142 = arguments.length;
-switch (G__59142) {
+var G__59099 = arguments.length;
+switch (G__59099) {
 case 4:
 return edamame.impl.parser.auto_resolve.cljs$core$IFn$_invoke$arity$4((arguments[(0)]),(arguments[(1)]),(arguments[(2)]),(arguments[(3)]));
 
@@ -506,11 +506,11 @@ return cljs.core.zipmap(cljs.tools.reader.impl.utils.namespace_keys(resolved_ns,
 });
 edamame.impl.parser.parse_sharp = (function edamame$impl$parser$parse_sharp(ctx,reader){
 var c = reader.cljs$tools$reader$reader_types$Reader$peek_char$arity$1(null);
-var G__59143 = c;
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(null,G__59143)){
+var G__59100 = c;
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(null,G__59100)){
 return edamame.impl.parser.throw_reader.cljs$core$IFn$_invoke$arity$2(reader,"Unexpected EOF.");
 } else {
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("\"",G__59143)){
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("\"",G__59100)){
 var temp__5733__auto__ = new cljs.core.Keyword(null,"regex","regex",939488856).cljs$core$IFn$_invoke$arity$1(ctx);
 if(cljs.core.truth_(temp__5733__auto__)){
 var v = temp__5733__auto__;
@@ -524,7 +524,7 @@ return cljs.core.re_pattern(pat);
 return edamame.impl.parser.throw_reader.cljs$core$IFn$_invoke$arity$2(reader,"Regex not allowed. Use the `:regex` option");
 }
 } else {
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("'",G__59143)){
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("'",G__59100)){
 var temp__5733__auto__ = new cljs.core.Keyword(null,"var","var",-769682797).cljs$core$IFn$_invoke$arity$1(ctx);
 if(cljs.core.truth_(temp__5733__auto__)){
 var v = temp__5733__auto__;
@@ -540,7 +540,7 @@ return (new cljs.core.List(null,new cljs.core.Symbol(null,"var","var",870848730,
 return edamame.impl.parser.throw_reader.cljs$core$IFn$_invoke$arity$2(reader,"Var literal not allowed. Use the `:var` option");
 }
 } else {
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("(",G__59143)){
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("(",G__59100)){
 var temp__5733__auto__ = new cljs.core.Keyword(null,"fn","fn",-1175266204).cljs$core$IFn$_invoke$arity$1(ctx);
 if(cljs.core.truth_(temp__5733__auto__)){
 var v = temp__5733__auto__;
@@ -554,15 +554,15 @@ return edamame.impl.read_fn.read_fn(fn_expr);
 return edamame.impl.parser.throw_reader.cljs$core$IFn$_invoke$arity$2(reader,"Function literal not allowed. Use the `:fn` option");
 }
 } else {
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(":",G__59143)){
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(":",G__59100)){
 reader.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
 
 return edamame.impl.parser.parse_namespaced_map(ctx,reader);
 } else {
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("{",G__59143)){
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("{",G__59100)){
 return edamame.impl.parser.parse_set(ctx,reader);
 } else {
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("=",G__59143)){
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("=",G__59100)){
 var temp__5733__auto__ = new cljs.core.Keyword(null,"read-eval","read-eval",1788733932).cljs$core$IFn$_invoke$arity$1(ctx);
 if(cljs.core.truth_(temp__5733__auto__)){
 var v = temp__5733__auto__;
@@ -578,7 +578,7 @@ return (new cljs.core.List(null,new cljs.core.Symbol(null,"read-eval","read-eval
 return edamame.impl.parser.throw_reader.cljs$core$IFn$_invoke$arity$2(reader,"Read-eval not allowed. Use the `:read-eval` option");
 }
 } else {
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("?",G__59143)){
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("?",G__59100)){
 if(cljs.core.truth_(new cljs.core.Keyword(null,"read-cond","read-cond",1056899244).cljs$core$IFn$_invoke$arity$1(ctx))){
 } else {
 edamame.impl.parser.throw_reader.cljs$core$IFn$_invoke$arity$2(reader,"Conditional read not allowed.");
@@ -588,7 +588,7 @@ reader.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
 
 return edamame.impl.parser.parse_reader_conditional(ctx,reader);
 } else {
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("_",G__59143)){
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("_",G__59100)){
 reader.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
 
 (edamame.impl.parser.parse_next.cljs$core$IFn$_invoke$arity$2 ? edamame.impl.parser.parse_next.cljs$core$IFn$_invoke$arity$2(ctx,reader) : edamame.impl.parser.parse_next.call(null,ctx,reader));
@@ -635,10 +635,10 @@ edamame.impl.parser.throw_odd_map(reader,start_loc,elements);
 } else {
 }
 
-var ks_59262 = cljs.core.take_nth.cljs$core$IFn$_invoke$arity$2((2),elements);
-if(cljs.core.truth_(cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.distinct_QMARK_,ks_59262))){
+var ks_59219 = cljs.core.take_nth.cljs$core$IFn$_invoke$arity$2((2),elements);
+if(cljs.core.truth_(cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.distinct_QMARK_,ks_59219))){
 } else {
-edamame.impl.parser.throw_dup_keys(reader,start_loc,new cljs.core.Keyword(null,"map","map",1371690461),ks_59262);
+edamame.impl.parser.throw_dup_keys(reader,start_loc,new cljs.core.Keyword(null,"map","map",1371690461),ks_59219);
 }
 } else {
 }
@@ -654,17 +654,17 @@ edamame.impl.parser.throw_reader.cljs$core$IFn$_invoke$arity$2(reader,"Invalid t
 } else {
 }
 
-var token = (function (){var G__59144 = reader;
-var G__59145 = new cljs.core.Keyword(null,"keyword","keyword",811389747);
-var G__59146 = init_c;
-return (edamame.impl.parser.read_token.cljs$core$IFn$_invoke$arity$3 ? edamame.impl.parser.read_token.cljs$core$IFn$_invoke$arity$3(G__59144,G__59145,G__59146) : edamame.impl.parser.read_token.call(null,G__59144,G__59145,G__59146));
+var token = (function (){var G__59101 = reader;
+var G__59102 = new cljs.core.Keyword(null,"keyword","keyword",811389747);
+var G__59103 = init_c;
+return (edamame.impl.parser.read_token.cljs$core$IFn$_invoke$arity$3 ? edamame.impl.parser.read_token.cljs$core$IFn$_invoke$arity$3(G__59101,G__59102,G__59103) : edamame.impl.parser.read_token.call(null,G__59101,G__59102,G__59103));
 })();
 var auto_resolve_QMARK_ = (":" === token.charAt((0)));
 if(auto_resolve_QMARK_){
 var token__$1 = ((auto_resolve_QMARK_)?cljs.core.subs.cljs$core$IFn$_invoke$arity$2(token,(1)):token);
-var vec__59147 = (edamame.impl.parser.parse_symbol.cljs$core$IFn$_invoke$arity$1 ? edamame.impl.parser.parse_symbol.cljs$core$IFn$_invoke$arity$1(token__$1) : edamame.impl.parser.parse_symbol.call(null,token__$1));
-var token_ns = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59147,(0),null);
-var token_name = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59147,(1),null);
+var vec__59104 = (edamame.impl.parser.parse_symbol.cljs$core$IFn$_invoke$arity$1 ? edamame.impl.parser.parse_symbol.cljs$core$IFn$_invoke$arity$1(token__$1) : edamame.impl.parser.parse_symbol.call(null,token__$1));
+var token_ns = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59104,(0),null);
+var token_name = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59104,(1),null);
 if(cljs.core.truth_(token_ns)){
 var f = edamame.impl.parser.get_auto_resolve.cljs$core$IFn$_invoke$arity$3(ctx,reader,token__$1);
 var kns = edamame.impl.parser.auto_resolve.cljs$core$IFn$_invoke$arity$4(f,cljs.core.symbol.cljs$core$IFn$_invoke$arity$1(token_ns),reader,token_ns);
@@ -685,11 +685,11 @@ reader.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
 
 return edamame.impl.parser.parse_sharp(ctx,reader);
 } else {
-var G__59150 = c;
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(null,G__59150)){
+var G__59107 = c;
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(null,G__59107)){
 return new cljs.core.Keyword("edamame.impl.parser","eof","edamame.impl.parser/eof",720552006);
 } else {
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("@",G__59150)){
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("@",G__59107)){
 var temp__5733__auto__ = new cljs.core.Keyword(null,"deref","deref",-145586795).cljs$core$IFn$_invoke$arity$1(ctx);
 if(cljs.core.truth_(temp__5733__auto__)){
 var v = temp__5733__auto__;
@@ -705,7 +705,7 @@ return (new cljs.core.List(null,new cljs.core.Symbol(null,"deref","deref",149494
 return edamame.impl.parser.throw_reader.cljs$core$IFn$_invoke$arity$2(reader,"Deref not allowed. Use the `:deref` option");
 }
 } else {
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("`",G__59150)){
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("`",G__59107)){
 var temp__5733__auto__ = new cljs.core.Keyword(null,"syntax-quote","syntax-quote",-1233164847).cljs$core$IFn$_invoke$arity$1(ctx);
 if(cljs.core.truth_(temp__5733__auto__)){
 var v = temp__5733__auto__;
@@ -724,7 +724,7 @@ return ret;
 return edamame.impl.parser.throw_reader.cljs$core$IFn$_invoke$arity$2(reader,"Syntax quote not allowed. Use the `:syntax-quote` option");
 }
 } else {
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("'",G__59150)){
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("'",G__59107)){
 var temp__5733__auto__ = new cljs.core.Keyword(null,"quote","quote",-262615245).cljs$core$IFn$_invoke$arity$1(ctx);
 if(cljs.core.truth_(temp__5733__auto__)){
 var v = temp__5733__auto__;
@@ -740,10 +740,10 @@ return (new cljs.core.List(null,new cljs.core.Symbol(null,"quote","quote",137791
 return edamame.impl.parser.edn_read(ctx,reader);
 }
 } else {
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("(",G__59150)){
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("(",G__59107)){
 return edamame.impl.parser.parse_list(ctx,reader);
 } else {
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(")",G__59150)){
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(")",G__59107)){
 var expected = new cljs.core.Keyword("edamame.impl.parser","expected-delimiter","edamame.impl.parser/expected-delimiter",2057965803).cljs$core$IFn$_invoke$arity$1(ctx);
 if(cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(expected,c)){
 var loc = edamame.impl.parser.location(reader);
@@ -751,11 +751,11 @@ reader.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
 
 return edamame.impl.parser.throw_reader.cljs$core$IFn$_invoke$arity$4(reader,["Unmatched delimiter: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(c),(cljs.core.truth_(expected)?[", expected: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(expected),(function (){var temp__5735__auto__ = new cljs.core.Keyword("edamame.impl.parser","opened-delimiter","edamame.impl.parser/opened-delimiter",1199661648).cljs$core$IFn$_invoke$arity$1(ctx);
 if(cljs.core.truth_(temp__5735__auto__)){
-var map__59157 = temp__5735__auto__;
-var map__59157__$1 = (((((!((map__59157 == null))))?(((((map__59157.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__59157.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__59157):map__59157);
-var row = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59157__$1,new cljs.core.Keyword(null,"row","row",-570139521));
-var col = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59157__$1,new cljs.core.Keyword(null,"col","col",-1959363084));
-var char$ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59157__$1,new cljs.core.Keyword(null,"char","char",-641587586));
+var map__59114 = temp__5735__auto__;
+var map__59114__$1 = (((((!((map__59114 == null))))?(((((map__59114.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__59114.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__59114):map__59114);
+var row = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59114__$1,new cljs.core.Keyword(null,"row","row",-570139521));
+var col = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59114__$1,new cljs.core.Keyword(null,"col","col",-1959363084));
+var char$ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59114__$1,new cljs.core.Keyword(null,"char","char",-641587586));
 return [" to match ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(char$)," at ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [row,col], null))].join('');
 } else {
 return null;
@@ -767,19 +767,19 @@ reader.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
 return new cljs.core.Keyword("edamame.impl.parser","expected-delimiter","edamame.impl.parser/expected-delimiter",2057965803);
 }
 } else {
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(":",G__59150)){
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(":",G__59107)){
 return edamame.impl.parser.parse_keyword(ctx,reader);
 } else {
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(";",G__59150)){
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(";",G__59107)){
 return edamame.impl.parser.parse_comment(reader);
 } else {
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("[",G__59150)){
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("[",G__59107)){
 return edamame.impl.parser.parse_to_delimiter.cljs$core$IFn$_invoke$arity$3(ctx,reader,"]");
 } else {
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("{",G__59150)){
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("{",G__59107)){
 return edamame.impl.parser.parse_map(ctx,reader);
 } else {
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("]",G__59150)){
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("]",G__59107)){
 var expected = new cljs.core.Keyword("edamame.impl.parser","expected-delimiter","edamame.impl.parser/expected-delimiter",2057965803).cljs$core$IFn$_invoke$arity$1(ctx);
 if(cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(expected,c)){
 var loc = edamame.impl.parser.location(reader);
@@ -787,11 +787,11 @@ reader.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
 
 return edamame.impl.parser.throw_reader.cljs$core$IFn$_invoke$arity$4(reader,["Unmatched delimiter: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(c),(cljs.core.truth_(expected)?[", expected: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(expected),(function (){var temp__5735__auto__ = new cljs.core.Keyword("edamame.impl.parser","opened-delimiter","edamame.impl.parser/opened-delimiter",1199661648).cljs$core$IFn$_invoke$arity$1(ctx);
 if(cljs.core.truth_(temp__5735__auto__)){
-var map__59165 = temp__5735__auto__;
-var map__59165__$1 = (((((!((map__59165 == null))))?(((((map__59165.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__59165.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__59165):map__59165);
-var row = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59165__$1,new cljs.core.Keyword(null,"row","row",-570139521));
-var col = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59165__$1,new cljs.core.Keyword(null,"col","col",-1959363084));
-var char$ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59165__$1,new cljs.core.Keyword(null,"char","char",-641587586));
+var map__59122 = temp__5735__auto__;
+var map__59122__$1 = (((((!((map__59122 == null))))?(((((map__59122.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__59122.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__59122):map__59122);
+var row = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59122__$1,new cljs.core.Keyword(null,"row","row",-570139521));
+var col = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59122__$1,new cljs.core.Keyword(null,"col","col",-1959363084));
+var char$ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59122__$1,new cljs.core.Keyword(null,"char","char",-641587586));
 return [" to match ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(char$)," at ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [row,col], null))].join('');
 } else {
 return null;
@@ -803,7 +803,7 @@ reader.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
 return new cljs.core.Keyword("edamame.impl.parser","expected-delimiter","edamame.impl.parser/expected-delimiter",2057965803);
 }
 } else {
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("}",G__59150)){
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("}",G__59107)){
 var expected = new cljs.core.Keyword("edamame.impl.parser","expected-delimiter","edamame.impl.parser/expected-delimiter",2057965803).cljs$core$IFn$_invoke$arity$1(ctx);
 if(cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(expected,c)){
 var loc = edamame.impl.parser.location(reader);
@@ -811,11 +811,11 @@ reader.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
 
 return edamame.impl.parser.throw_reader.cljs$core$IFn$_invoke$arity$4(reader,["Unmatched delimiter: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(c),(cljs.core.truth_(expected)?[", expected: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(expected),(function (){var temp__5735__auto__ = new cljs.core.Keyword("edamame.impl.parser","opened-delimiter","edamame.impl.parser/opened-delimiter",1199661648).cljs$core$IFn$_invoke$arity$1(ctx);
 if(cljs.core.truth_(temp__5735__auto__)){
-var map__59173 = temp__5735__auto__;
-var map__59173__$1 = (((((!((map__59173 == null))))?(((((map__59173.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__59173.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__59173):map__59173);
-var row = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59173__$1,new cljs.core.Keyword(null,"row","row",-570139521));
-var col = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59173__$1,new cljs.core.Keyword(null,"col","col",-1959363084));
-var char$ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59173__$1,new cljs.core.Keyword(null,"char","char",-641587586));
+var map__59130 = temp__5735__auto__;
+var map__59130__$1 = (((((!((map__59130 == null))))?(((((map__59130.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__59130.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__59130):map__59130);
+var row = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59130__$1,new cljs.core.Keyword(null,"row","row",-570139521));
+var col = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59130__$1,new cljs.core.Keyword(null,"col","col",-1959363084));
+var char$ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59130__$1,new cljs.core.Keyword(null,"char","char",-641587586));
 return [" to match ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(char$)," at ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [row,col], null))].join('');
 } else {
 return null;
@@ -827,7 +827,7 @@ reader.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
 return new cljs.core.Keyword("edamame.impl.parser","expected-delimiter","edamame.impl.parser/expected-delimiter",2057965803);
 }
 } else {
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("^",G__59150)){
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("^",G__59107)){
 reader.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
 
 var meta_val = (edamame.impl.parser.parse_next.cljs$core$IFn$_invoke$arity$2 ? edamame.impl.parser.parse_next.cljs$core$IFn$_invoke$arity$2(ctx,reader) : edamame.impl.parser.parse_next.call(null,ctx,reader));
@@ -835,7 +835,7 @@ var meta_val__$1 = cljs.tools.reader.impl.utils.desugar_meta(meta_val);
 var val_val = cljs.core.vary_meta.cljs$core$IFn$_invoke$arity$3((edamame.impl.parser.parse_next.cljs$core$IFn$_invoke$arity$2 ? edamame.impl.parser.parse_next.cljs$core$IFn$_invoke$arity$2(ctx,reader) : edamame.impl.parser.parse_next.call(null,ctx,reader)),cljs.core.merge,meta_val__$1);
 return val_val;
 } else {
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("~",G__59150)){
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("~",G__59107)){
 var temp__5733__auto__ = (function (){var and__4174__auto__ = new cljs.core.Keyword(null,"syntax-quote","syntax-quote",-1233164847).cljs$core$IFn$_invoke$arity$1(ctx);
 if(cljs.core.truth_(and__4174__auto__)){
 var or__4185__auto__ = new cljs.core.Keyword(null,"unquote","unquote",1649741032).cljs$core$IFn$_invoke$arity$1(ctx);
@@ -926,8 +926,8 @@ return (edamame.impl.parser.parse_next.cljs$core$IFn$_invoke$arity$2 ? edamame.i
 } else {
 if((((!((obj == null))))?(((((obj.cljs$lang$protocol_mask$partition0$ & (262144))) || ((cljs.core.PROTOCOL_SENTINEL === obj.cljs$core$IWithMeta$))))?true:(((!obj.cljs$lang$protocol_mask$partition0$))?cljs.core.native_satisfies_QMARK_(cljs.core.IWithMeta,obj):false)):cljs.core.native_satisfies_QMARK_(cljs.core.IWithMeta,obj))){
 var end_loc = edamame.impl.parser.location(reader);
-return cljs.core.vary_meta.cljs$core$IFn$_invoke$arity$2(obj,(function (p1__59175_SHARP_){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$variadic(p1__59175_SHARP_,new cljs.core.Keyword(null,"row-key","row-key",-1189010712).cljs$core$IFn$_invoke$arity$1(ctx),new cljs.core.Keyword(null,"row","row",-570139521).cljs$core$IFn$_invoke$arity$1(loc),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"col-key","col-key",-2009675766).cljs$core$IFn$_invoke$arity$1(ctx),new cljs.core.Keyword(null,"col","col",-1959363084).cljs$core$IFn$_invoke$arity$1(loc),new cljs.core.Keyword(null,"end-row-key","end-row-key",-1126662680).cljs$core$IFn$_invoke$arity$1(ctx),new cljs.core.Keyword(null,"row","row",-570139521).cljs$core$IFn$_invoke$arity$1(end_loc),new cljs.core.Keyword(null,"end-col-key","end-col-key",81813304).cljs$core$IFn$_invoke$arity$1(ctx),new cljs.core.Keyword(null,"col","col",-1959363084).cljs$core$IFn$_invoke$arity$1(end_loc)], 0));
+return cljs.core.vary_meta.cljs$core$IFn$_invoke$arity$2(obj,(function (p1__59132_SHARP_){
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$variadic(p1__59132_SHARP_,new cljs.core.Keyword(null,"row-key","row-key",-1189010712).cljs$core$IFn$_invoke$arity$1(ctx),new cljs.core.Keyword(null,"row","row",-570139521).cljs$core$IFn$_invoke$arity$1(loc),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"col-key","col-key",-2009675766).cljs$core$IFn$_invoke$arity$1(ctx),new cljs.core.Keyword(null,"col","col",-1959363084).cljs$core$IFn$_invoke$arity$1(loc),new cljs.core.Keyword(null,"end-row-key","end-row-key",-1126662680).cljs$core$IFn$_invoke$arity$1(ctx),new cljs.core.Keyword(null,"row","row",-570139521).cljs$core$IFn$_invoke$arity$1(end_loc),new cljs.core.Keyword(null,"end-col-key","end-col-key",81813304).cljs$core$IFn$_invoke$arity$1(ctx),new cljs.core.Keyword(null,"col","col",-1959363084).cljs$core$IFn$_invoke$arity$1(end_loc)], 0));
 }));
 } else {
 return obj;
@@ -989,12 +989,12 @@ var this__4439__auto____$1 = this;
 return this__4439__auto____$1.cljs$core$ILookup$_lookup$arity$3(null,k__4440__auto__,null);
 }));
 
-(edamame.impl.parser.Options.prototype.cljs$core$ILookup$_lookup$arity$3 = (function (this__4441__auto__,k59178,else__4442__auto__){
+(edamame.impl.parser.Options.prototype.cljs$core$ILookup$_lookup$arity$3 = (function (this__4441__auto__,k59135,else__4442__auto__){
 var self__ = this;
 var this__4441__auto____$1 = this;
-var G__59182 = k59178;
-var G__59182__$1 = (((G__59182 instanceof cljs.core.Keyword))?G__59182.fqn:null);
-switch (G__59182__$1) {
+var G__59139 = k59135;
+var G__59139__$1 = (((G__59139 instanceof cljs.core.Keyword))?G__59139.fqn:null);
+switch (G__59139__$1) {
 case "dispatch":
 return self__.dispatch;
 
@@ -1052,7 +1052,7 @@ return self__.end_col_key;
 
 break;
 default:
-return cljs.core.get.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k59178,else__4442__auto__);
+return cljs.core.get.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k59135,else__4442__auto__);
 
 }
 }));
@@ -1060,10 +1060,10 @@ return cljs.core.get.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k59178,else__
 (edamame.impl.parser.Options.prototype.cljs$core$IKVReduce$_kv_reduce$arity$3 = (function (this__4458__auto__,f__4459__auto__,init__4460__auto__){
 var self__ = this;
 var this__4458__auto____$1 = this;
-return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (ret__4461__auto__,p__59183){
-var vec__59184 = p__59183;
-var k__4462__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59184,(0),null);
-var v__4463__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59184,(1),null);
+return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (ret__4461__auto__,p__59140){
+var vec__59141 = p__59140;
+var k__4462__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59141,(0),null);
+var v__4463__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59141,(1),null);
 return (f__4459__auto__.cljs$core$IFn$_invoke$arity$3 ? f__4459__auto__.cljs$core$IFn$_invoke$arity$3(ret__4461__auto__,k__4462__auto__,v__4463__auto__) : f__4459__auto__.call(null,ret__4461__auto__,k__4462__auto__,v__4463__auto__));
 }),init__4460__auto__,this__4458__auto____$1);
 }));
@@ -1077,10 +1077,10 @@ return cljs.core.pr_sequential_writer(writer__4454__auto__,cljs.core.pr_writer,"
 return cljs.core.pr_sequential_writer(writer__4454__auto__,pr_pair__4456__auto__,"#edamame.impl.parser.Options{",", ","}",opts__4455__auto__,cljs.core.concat.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 14, 5, cljs.core.PersistentVector.EMPTY_NODE, [(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"dispatch","dispatch",1319337009),self__.dispatch],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"deref","deref",-145586795),self__.deref],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"syntax-quote","syntax-quote",-1233164847),self__.syntax_quote],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"unquote","unquote",1649741032),self__.unquote],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"unquote-splicing","unquote-splicing",1295267556),self__.unquote_splicing],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"quote","quote",-262615245),self__.quote],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"fn","fn",-1175266204),self__.fn],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"var","var",-769682797),self__.var$],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"read-eval","read-eval",1788733932),self__.read_eval],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"regex","regex",939488856),self__.regex],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"row-key","row-key",-1189010712),self__.row_key],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"col-key","col-key",-2009675766),self__.col_key],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"end-row-key","end-row-key",-1126662680),self__.end_row_key],null)),(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"end-col-key","end-col-key",81813304),self__.end_col_key],null))], null),self__.__extmap));
 }));
 
-(edamame.impl.parser.Options.prototype.cljs$core$IIterable$_iterator$arity$1 = (function (G__59177){
+(edamame.impl.parser.Options.prototype.cljs$core$IIterable$_iterator$arity$1 = (function (G__59134){
 var self__ = this;
-var G__59177__$1 = this;
-return (new cljs.core.RecordIter((0),G__59177__$1,14,new cljs.core.PersistentVector(null, 14, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"dispatch","dispatch",1319337009),new cljs.core.Keyword(null,"deref","deref",-145586795),new cljs.core.Keyword(null,"syntax-quote","syntax-quote",-1233164847),new cljs.core.Keyword(null,"unquote","unquote",1649741032),new cljs.core.Keyword(null,"unquote-splicing","unquote-splicing",1295267556),new cljs.core.Keyword(null,"quote","quote",-262615245),new cljs.core.Keyword(null,"fn","fn",-1175266204),new cljs.core.Keyword(null,"var","var",-769682797),new cljs.core.Keyword(null,"read-eval","read-eval",1788733932),new cljs.core.Keyword(null,"regex","regex",939488856),new cljs.core.Keyword(null,"row-key","row-key",-1189010712),new cljs.core.Keyword(null,"col-key","col-key",-2009675766),new cljs.core.Keyword(null,"end-row-key","end-row-key",-1126662680),new cljs.core.Keyword(null,"end-col-key","end-col-key",81813304)], null),(cljs.core.truth_(self__.__extmap)?cljs.core._iterator(self__.__extmap):cljs.core.nil_iter())));
+var G__59134__$1 = this;
+return (new cljs.core.RecordIter((0),G__59134__$1,14,new cljs.core.PersistentVector(null, 14, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"dispatch","dispatch",1319337009),new cljs.core.Keyword(null,"deref","deref",-145586795),new cljs.core.Keyword(null,"syntax-quote","syntax-quote",-1233164847),new cljs.core.Keyword(null,"unquote","unquote",1649741032),new cljs.core.Keyword(null,"unquote-splicing","unquote-splicing",1295267556),new cljs.core.Keyword(null,"quote","quote",-262615245),new cljs.core.Keyword(null,"fn","fn",-1175266204),new cljs.core.Keyword(null,"var","var",-769682797),new cljs.core.Keyword(null,"read-eval","read-eval",1788733932),new cljs.core.Keyword(null,"regex","regex",939488856),new cljs.core.Keyword(null,"row-key","row-key",-1189010712),new cljs.core.Keyword(null,"col-key","col-key",-2009675766),new cljs.core.Keyword(null,"end-row-key","end-row-key",-1126662680),new cljs.core.Keyword(null,"end-col-key","end-col-key",81813304)], null),(cljs.core.truth_(self__.__extmap)?cljs.core._iterator(self__.__extmap):cljs.core.nil_iter())));
 }));
 
 (edamame.impl.parser.Options.prototype.cljs$core$IMeta$_meta$arity$1 = (function (this__4437__auto__){
@@ -1108,10 +1108,10 @@ var h__4297__auto__ = self__.__hash;
 if((!((h__4297__auto__ == null)))){
 return h__4297__auto__;
 } else {
-var h__4297__auto____$1 = (function (){var fexpr__59187 = (function (coll__4436__auto__){
+var h__4297__auto____$1 = (function (){var fexpr__59144 = (function (coll__4436__auto__){
 return (-1037796634 ^ cljs.core.hash_unordered_coll(coll__4436__auto__));
 });
-return fexpr__59187(this__4435__auto____$1);
+return fexpr__59144(this__4435__auto____$1);
 })();
 (self__.__hash = h__4297__auto____$1);
 
@@ -1119,10 +1119,10 @@ return h__4297__auto____$1;
 }
 }));
 
-(edamame.impl.parser.Options.prototype.cljs$core$IEquiv$_equiv$arity$2 = (function (this59179,other59180){
+(edamame.impl.parser.Options.prototype.cljs$core$IEquiv$_equiv$arity$2 = (function (this59136,other59137){
 var self__ = this;
-var this59179__$1 = this;
-return (((!((other59180 == null)))) && ((this59179__$1.constructor === other59180.constructor)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this59179__$1.dispatch,other59180.dispatch)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this59179__$1.deref,other59180.deref)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this59179__$1.syntax_quote,other59180.syntax_quote)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this59179__$1.unquote,other59180.unquote)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this59179__$1.unquote_splicing,other59180.unquote_splicing)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this59179__$1.quote,other59180.quote)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this59179__$1.fn,other59180.fn)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this59179__$1.var,other59180.var)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this59179__$1.read_eval,other59180.read_eval)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this59179__$1.regex,other59180.regex)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this59179__$1.row_key,other59180.row_key)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this59179__$1.col_key,other59180.col_key)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this59179__$1.end_row_key,other59180.end_row_key)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this59179__$1.end_col_key,other59180.end_col_key)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this59179__$1.__extmap,other59180.__extmap)));
+var this59136__$1 = this;
+return (((!((other59137 == null)))) && ((this59136__$1.constructor === other59137.constructor)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this59136__$1.dispatch,other59137.dispatch)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this59136__$1.deref,other59137.deref)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this59136__$1.syntax_quote,other59137.syntax_quote)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this59136__$1.unquote,other59137.unquote)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this59136__$1.unquote_splicing,other59137.unquote_splicing)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this59136__$1.quote,other59137.quote)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this59136__$1.fn,other59137.fn)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this59136__$1.var,other59137.var)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this59136__$1.read_eval,other59137.read_eval)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this59136__$1.regex,other59137.regex)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this59136__$1.row_key,other59137.row_key)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this59136__$1.col_key,other59137.col_key)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this59136__$1.end_row_key,other59137.end_row_key)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this59136__$1.end_col_key,other59137.end_col_key)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this59136__$1.__extmap,other59137.__extmap)));
 }));
 
 (edamame.impl.parser.Options.prototype.cljs$core$IMap$_dissoc$arity$2 = (function (this__4448__auto__,k__4449__auto__){
@@ -1135,96 +1135,96 @@ return (new edamame.impl.parser.Options(self__.dispatch,self__.deref,self__.synt
 }
 }));
 
-(edamame.impl.parser.Options.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__4446__auto__,k__4447__auto__,G__59177){
+(edamame.impl.parser.Options.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__4446__auto__,k__4447__auto__,G__59134){
 var self__ = this;
 var this__4446__auto____$1 = this;
-var pred__59188 = cljs.core.keyword_identical_QMARK_;
-var expr__59189 = k__4447__auto__;
-if(cljs.core.truth_((function (){var G__59191 = new cljs.core.Keyword(null,"dispatch","dispatch",1319337009);
-var G__59192 = expr__59189;
-return (pred__59188.cljs$core$IFn$_invoke$arity$2 ? pred__59188.cljs$core$IFn$_invoke$arity$2(G__59191,G__59192) : pred__59188.call(null,G__59191,G__59192));
+var pred__59145 = cljs.core.keyword_identical_QMARK_;
+var expr__59146 = k__4447__auto__;
+if(cljs.core.truth_((function (){var G__59148 = new cljs.core.Keyword(null,"dispatch","dispatch",1319337009);
+var G__59149 = expr__59146;
+return (pred__59145.cljs$core$IFn$_invoke$arity$2 ? pred__59145.cljs$core$IFn$_invoke$arity$2(G__59148,G__59149) : pred__59145.call(null,G__59148,G__59149));
 })())){
-return (new edamame.impl.parser.Options(G__59177,self__.deref,self__.syntax_quote,self__.unquote,self__.unquote_splicing,self__.quote,self__.fn,self__.var$,self__.read_eval,self__.regex,self__.row_key,self__.col_key,self__.end_row_key,self__.end_col_key,self__.__meta,self__.__extmap,null));
+return (new edamame.impl.parser.Options(G__59134,self__.deref,self__.syntax_quote,self__.unquote,self__.unquote_splicing,self__.quote,self__.fn,self__.var$,self__.read_eval,self__.regex,self__.row_key,self__.col_key,self__.end_row_key,self__.end_col_key,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((function (){var G__59193 = new cljs.core.Keyword(null,"deref","deref",-145586795);
-var G__59194 = expr__59189;
-return (pred__59188.cljs$core$IFn$_invoke$arity$2 ? pred__59188.cljs$core$IFn$_invoke$arity$2(G__59193,G__59194) : pred__59188.call(null,G__59193,G__59194));
+if(cljs.core.truth_((function (){var G__59150 = new cljs.core.Keyword(null,"deref","deref",-145586795);
+var G__59151 = expr__59146;
+return (pred__59145.cljs$core$IFn$_invoke$arity$2 ? pred__59145.cljs$core$IFn$_invoke$arity$2(G__59150,G__59151) : pred__59145.call(null,G__59150,G__59151));
 })())){
-return (new edamame.impl.parser.Options(self__.dispatch,G__59177,self__.syntax_quote,self__.unquote,self__.unquote_splicing,self__.quote,self__.fn,self__.var$,self__.read_eval,self__.regex,self__.row_key,self__.col_key,self__.end_row_key,self__.end_col_key,self__.__meta,self__.__extmap,null));
+return (new edamame.impl.parser.Options(self__.dispatch,G__59134,self__.syntax_quote,self__.unquote,self__.unquote_splicing,self__.quote,self__.fn,self__.var$,self__.read_eval,self__.regex,self__.row_key,self__.col_key,self__.end_row_key,self__.end_col_key,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((function (){var G__59195 = new cljs.core.Keyword(null,"syntax-quote","syntax-quote",-1233164847);
-var G__59196 = expr__59189;
-return (pred__59188.cljs$core$IFn$_invoke$arity$2 ? pred__59188.cljs$core$IFn$_invoke$arity$2(G__59195,G__59196) : pred__59188.call(null,G__59195,G__59196));
+if(cljs.core.truth_((function (){var G__59152 = new cljs.core.Keyword(null,"syntax-quote","syntax-quote",-1233164847);
+var G__59153 = expr__59146;
+return (pred__59145.cljs$core$IFn$_invoke$arity$2 ? pred__59145.cljs$core$IFn$_invoke$arity$2(G__59152,G__59153) : pred__59145.call(null,G__59152,G__59153));
 })())){
-return (new edamame.impl.parser.Options(self__.dispatch,self__.deref,G__59177,self__.unquote,self__.unquote_splicing,self__.quote,self__.fn,self__.var$,self__.read_eval,self__.regex,self__.row_key,self__.col_key,self__.end_row_key,self__.end_col_key,self__.__meta,self__.__extmap,null));
+return (new edamame.impl.parser.Options(self__.dispatch,self__.deref,G__59134,self__.unquote,self__.unquote_splicing,self__.quote,self__.fn,self__.var$,self__.read_eval,self__.regex,self__.row_key,self__.col_key,self__.end_row_key,self__.end_col_key,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((function (){var G__59197 = new cljs.core.Keyword(null,"unquote","unquote",1649741032);
-var G__59198 = expr__59189;
-return (pred__59188.cljs$core$IFn$_invoke$arity$2 ? pred__59188.cljs$core$IFn$_invoke$arity$2(G__59197,G__59198) : pred__59188.call(null,G__59197,G__59198));
+if(cljs.core.truth_((function (){var G__59154 = new cljs.core.Keyword(null,"unquote","unquote",1649741032);
+var G__59155 = expr__59146;
+return (pred__59145.cljs$core$IFn$_invoke$arity$2 ? pred__59145.cljs$core$IFn$_invoke$arity$2(G__59154,G__59155) : pred__59145.call(null,G__59154,G__59155));
 })())){
-return (new edamame.impl.parser.Options(self__.dispatch,self__.deref,self__.syntax_quote,G__59177,self__.unquote_splicing,self__.quote,self__.fn,self__.var$,self__.read_eval,self__.regex,self__.row_key,self__.col_key,self__.end_row_key,self__.end_col_key,self__.__meta,self__.__extmap,null));
+return (new edamame.impl.parser.Options(self__.dispatch,self__.deref,self__.syntax_quote,G__59134,self__.unquote_splicing,self__.quote,self__.fn,self__.var$,self__.read_eval,self__.regex,self__.row_key,self__.col_key,self__.end_row_key,self__.end_col_key,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((function (){var G__59199 = new cljs.core.Keyword(null,"unquote-splicing","unquote-splicing",1295267556);
-var G__59200 = expr__59189;
-return (pred__59188.cljs$core$IFn$_invoke$arity$2 ? pred__59188.cljs$core$IFn$_invoke$arity$2(G__59199,G__59200) : pred__59188.call(null,G__59199,G__59200));
+if(cljs.core.truth_((function (){var G__59156 = new cljs.core.Keyword(null,"unquote-splicing","unquote-splicing",1295267556);
+var G__59157 = expr__59146;
+return (pred__59145.cljs$core$IFn$_invoke$arity$2 ? pred__59145.cljs$core$IFn$_invoke$arity$2(G__59156,G__59157) : pred__59145.call(null,G__59156,G__59157));
 })())){
-return (new edamame.impl.parser.Options(self__.dispatch,self__.deref,self__.syntax_quote,self__.unquote,G__59177,self__.quote,self__.fn,self__.var$,self__.read_eval,self__.regex,self__.row_key,self__.col_key,self__.end_row_key,self__.end_col_key,self__.__meta,self__.__extmap,null));
+return (new edamame.impl.parser.Options(self__.dispatch,self__.deref,self__.syntax_quote,self__.unquote,G__59134,self__.quote,self__.fn,self__.var$,self__.read_eval,self__.regex,self__.row_key,self__.col_key,self__.end_row_key,self__.end_col_key,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((function (){var G__59201 = new cljs.core.Keyword(null,"quote","quote",-262615245);
-var G__59202 = expr__59189;
-return (pred__59188.cljs$core$IFn$_invoke$arity$2 ? pred__59188.cljs$core$IFn$_invoke$arity$2(G__59201,G__59202) : pred__59188.call(null,G__59201,G__59202));
+if(cljs.core.truth_((function (){var G__59158 = new cljs.core.Keyword(null,"quote","quote",-262615245);
+var G__59159 = expr__59146;
+return (pred__59145.cljs$core$IFn$_invoke$arity$2 ? pred__59145.cljs$core$IFn$_invoke$arity$2(G__59158,G__59159) : pred__59145.call(null,G__59158,G__59159));
 })())){
-return (new edamame.impl.parser.Options(self__.dispatch,self__.deref,self__.syntax_quote,self__.unquote,self__.unquote_splicing,G__59177,self__.fn,self__.var$,self__.read_eval,self__.regex,self__.row_key,self__.col_key,self__.end_row_key,self__.end_col_key,self__.__meta,self__.__extmap,null));
+return (new edamame.impl.parser.Options(self__.dispatch,self__.deref,self__.syntax_quote,self__.unquote,self__.unquote_splicing,G__59134,self__.fn,self__.var$,self__.read_eval,self__.regex,self__.row_key,self__.col_key,self__.end_row_key,self__.end_col_key,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((function (){var G__59203 = new cljs.core.Keyword(null,"fn","fn",-1175266204);
-var G__59204 = expr__59189;
-return (pred__59188.cljs$core$IFn$_invoke$arity$2 ? pred__59188.cljs$core$IFn$_invoke$arity$2(G__59203,G__59204) : pred__59188.call(null,G__59203,G__59204));
+if(cljs.core.truth_((function (){var G__59160 = new cljs.core.Keyword(null,"fn","fn",-1175266204);
+var G__59161 = expr__59146;
+return (pred__59145.cljs$core$IFn$_invoke$arity$2 ? pred__59145.cljs$core$IFn$_invoke$arity$2(G__59160,G__59161) : pred__59145.call(null,G__59160,G__59161));
 })())){
-return (new edamame.impl.parser.Options(self__.dispatch,self__.deref,self__.syntax_quote,self__.unquote,self__.unquote_splicing,self__.quote,G__59177,self__.var$,self__.read_eval,self__.regex,self__.row_key,self__.col_key,self__.end_row_key,self__.end_col_key,self__.__meta,self__.__extmap,null));
+return (new edamame.impl.parser.Options(self__.dispatch,self__.deref,self__.syntax_quote,self__.unquote,self__.unquote_splicing,self__.quote,G__59134,self__.var$,self__.read_eval,self__.regex,self__.row_key,self__.col_key,self__.end_row_key,self__.end_col_key,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((function (){var G__59205 = new cljs.core.Keyword(null,"var","var",-769682797);
-var G__59206 = expr__59189;
-return (pred__59188.cljs$core$IFn$_invoke$arity$2 ? pred__59188.cljs$core$IFn$_invoke$arity$2(G__59205,G__59206) : pred__59188.call(null,G__59205,G__59206));
+if(cljs.core.truth_((function (){var G__59162 = new cljs.core.Keyword(null,"var","var",-769682797);
+var G__59163 = expr__59146;
+return (pred__59145.cljs$core$IFn$_invoke$arity$2 ? pred__59145.cljs$core$IFn$_invoke$arity$2(G__59162,G__59163) : pred__59145.call(null,G__59162,G__59163));
 })())){
-return (new edamame.impl.parser.Options(self__.dispatch,self__.deref,self__.syntax_quote,self__.unquote,self__.unquote_splicing,self__.quote,self__.fn,G__59177,self__.read_eval,self__.regex,self__.row_key,self__.col_key,self__.end_row_key,self__.end_col_key,self__.__meta,self__.__extmap,null));
+return (new edamame.impl.parser.Options(self__.dispatch,self__.deref,self__.syntax_quote,self__.unquote,self__.unquote_splicing,self__.quote,self__.fn,G__59134,self__.read_eval,self__.regex,self__.row_key,self__.col_key,self__.end_row_key,self__.end_col_key,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((function (){var G__59207 = new cljs.core.Keyword(null,"read-eval","read-eval",1788733932);
-var G__59208 = expr__59189;
-return (pred__59188.cljs$core$IFn$_invoke$arity$2 ? pred__59188.cljs$core$IFn$_invoke$arity$2(G__59207,G__59208) : pred__59188.call(null,G__59207,G__59208));
+if(cljs.core.truth_((function (){var G__59164 = new cljs.core.Keyword(null,"read-eval","read-eval",1788733932);
+var G__59165 = expr__59146;
+return (pred__59145.cljs$core$IFn$_invoke$arity$2 ? pred__59145.cljs$core$IFn$_invoke$arity$2(G__59164,G__59165) : pred__59145.call(null,G__59164,G__59165));
 })())){
-return (new edamame.impl.parser.Options(self__.dispatch,self__.deref,self__.syntax_quote,self__.unquote,self__.unquote_splicing,self__.quote,self__.fn,self__.var$,G__59177,self__.regex,self__.row_key,self__.col_key,self__.end_row_key,self__.end_col_key,self__.__meta,self__.__extmap,null));
+return (new edamame.impl.parser.Options(self__.dispatch,self__.deref,self__.syntax_quote,self__.unquote,self__.unquote_splicing,self__.quote,self__.fn,self__.var$,G__59134,self__.regex,self__.row_key,self__.col_key,self__.end_row_key,self__.end_col_key,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((function (){var G__59209 = new cljs.core.Keyword(null,"regex","regex",939488856);
-var G__59210 = expr__59189;
-return (pred__59188.cljs$core$IFn$_invoke$arity$2 ? pred__59188.cljs$core$IFn$_invoke$arity$2(G__59209,G__59210) : pred__59188.call(null,G__59209,G__59210));
+if(cljs.core.truth_((function (){var G__59166 = new cljs.core.Keyword(null,"regex","regex",939488856);
+var G__59167 = expr__59146;
+return (pred__59145.cljs$core$IFn$_invoke$arity$2 ? pred__59145.cljs$core$IFn$_invoke$arity$2(G__59166,G__59167) : pred__59145.call(null,G__59166,G__59167));
 })())){
-return (new edamame.impl.parser.Options(self__.dispatch,self__.deref,self__.syntax_quote,self__.unquote,self__.unquote_splicing,self__.quote,self__.fn,self__.var$,self__.read_eval,G__59177,self__.row_key,self__.col_key,self__.end_row_key,self__.end_col_key,self__.__meta,self__.__extmap,null));
+return (new edamame.impl.parser.Options(self__.dispatch,self__.deref,self__.syntax_quote,self__.unquote,self__.unquote_splicing,self__.quote,self__.fn,self__.var$,self__.read_eval,G__59134,self__.row_key,self__.col_key,self__.end_row_key,self__.end_col_key,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((function (){var G__59211 = new cljs.core.Keyword(null,"row-key","row-key",-1189010712);
-var G__59212 = expr__59189;
-return (pred__59188.cljs$core$IFn$_invoke$arity$2 ? pred__59188.cljs$core$IFn$_invoke$arity$2(G__59211,G__59212) : pred__59188.call(null,G__59211,G__59212));
+if(cljs.core.truth_((function (){var G__59168 = new cljs.core.Keyword(null,"row-key","row-key",-1189010712);
+var G__59169 = expr__59146;
+return (pred__59145.cljs$core$IFn$_invoke$arity$2 ? pred__59145.cljs$core$IFn$_invoke$arity$2(G__59168,G__59169) : pred__59145.call(null,G__59168,G__59169));
 })())){
-return (new edamame.impl.parser.Options(self__.dispatch,self__.deref,self__.syntax_quote,self__.unquote,self__.unquote_splicing,self__.quote,self__.fn,self__.var$,self__.read_eval,self__.regex,G__59177,self__.col_key,self__.end_row_key,self__.end_col_key,self__.__meta,self__.__extmap,null));
+return (new edamame.impl.parser.Options(self__.dispatch,self__.deref,self__.syntax_quote,self__.unquote,self__.unquote_splicing,self__.quote,self__.fn,self__.var$,self__.read_eval,self__.regex,G__59134,self__.col_key,self__.end_row_key,self__.end_col_key,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((function (){var G__59213 = new cljs.core.Keyword(null,"col-key","col-key",-2009675766);
-var G__59214 = expr__59189;
-return (pred__59188.cljs$core$IFn$_invoke$arity$2 ? pred__59188.cljs$core$IFn$_invoke$arity$2(G__59213,G__59214) : pred__59188.call(null,G__59213,G__59214));
+if(cljs.core.truth_((function (){var G__59170 = new cljs.core.Keyword(null,"col-key","col-key",-2009675766);
+var G__59171 = expr__59146;
+return (pred__59145.cljs$core$IFn$_invoke$arity$2 ? pred__59145.cljs$core$IFn$_invoke$arity$2(G__59170,G__59171) : pred__59145.call(null,G__59170,G__59171));
 })())){
-return (new edamame.impl.parser.Options(self__.dispatch,self__.deref,self__.syntax_quote,self__.unquote,self__.unquote_splicing,self__.quote,self__.fn,self__.var$,self__.read_eval,self__.regex,self__.row_key,G__59177,self__.end_row_key,self__.end_col_key,self__.__meta,self__.__extmap,null));
+return (new edamame.impl.parser.Options(self__.dispatch,self__.deref,self__.syntax_quote,self__.unquote,self__.unquote_splicing,self__.quote,self__.fn,self__.var$,self__.read_eval,self__.regex,self__.row_key,G__59134,self__.end_row_key,self__.end_col_key,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((function (){var G__59215 = new cljs.core.Keyword(null,"end-row-key","end-row-key",-1126662680);
-var G__59216 = expr__59189;
-return (pred__59188.cljs$core$IFn$_invoke$arity$2 ? pred__59188.cljs$core$IFn$_invoke$arity$2(G__59215,G__59216) : pred__59188.call(null,G__59215,G__59216));
+if(cljs.core.truth_((function (){var G__59172 = new cljs.core.Keyword(null,"end-row-key","end-row-key",-1126662680);
+var G__59173 = expr__59146;
+return (pred__59145.cljs$core$IFn$_invoke$arity$2 ? pred__59145.cljs$core$IFn$_invoke$arity$2(G__59172,G__59173) : pred__59145.call(null,G__59172,G__59173));
 })())){
-return (new edamame.impl.parser.Options(self__.dispatch,self__.deref,self__.syntax_quote,self__.unquote,self__.unquote_splicing,self__.quote,self__.fn,self__.var$,self__.read_eval,self__.regex,self__.row_key,self__.col_key,G__59177,self__.end_col_key,self__.__meta,self__.__extmap,null));
+return (new edamame.impl.parser.Options(self__.dispatch,self__.deref,self__.syntax_quote,self__.unquote,self__.unquote_splicing,self__.quote,self__.fn,self__.var$,self__.read_eval,self__.regex,self__.row_key,self__.col_key,G__59134,self__.end_col_key,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((function (){var G__59217 = new cljs.core.Keyword(null,"end-col-key","end-col-key",81813304);
-var G__59218 = expr__59189;
-return (pred__59188.cljs$core$IFn$_invoke$arity$2 ? pred__59188.cljs$core$IFn$_invoke$arity$2(G__59217,G__59218) : pred__59188.call(null,G__59217,G__59218));
+if(cljs.core.truth_((function (){var G__59174 = new cljs.core.Keyword(null,"end-col-key","end-col-key",81813304);
+var G__59175 = expr__59146;
+return (pred__59145.cljs$core$IFn$_invoke$arity$2 ? pred__59145.cljs$core$IFn$_invoke$arity$2(G__59174,G__59175) : pred__59145.call(null,G__59174,G__59175));
 })())){
-return (new edamame.impl.parser.Options(self__.dispatch,self__.deref,self__.syntax_quote,self__.unquote,self__.unquote_splicing,self__.quote,self__.fn,self__.var$,self__.read_eval,self__.regex,self__.row_key,self__.col_key,self__.end_row_key,G__59177,self__.__meta,self__.__extmap,null));
+return (new edamame.impl.parser.Options(self__.dispatch,self__.deref,self__.syntax_quote,self__.unquote,self__.unquote_splicing,self__.quote,self__.fn,self__.var$,self__.read_eval,self__.regex,self__.row_key,self__.col_key,self__.end_row_key,G__59134,self__.__meta,self__.__extmap,null));
 } else {
-return (new edamame.impl.parser.Options(self__.dispatch,self__.deref,self__.syntax_quote,self__.unquote,self__.unquote_splicing,self__.quote,self__.fn,self__.var$,self__.read_eval,self__.regex,self__.row_key,self__.col_key,self__.end_row_key,self__.end_col_key,self__.__meta,cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k__4447__auto__,G__59177),null));
+return (new edamame.impl.parser.Options(self__.dispatch,self__.deref,self__.syntax_quote,self__.unquote,self__.unquote_splicing,self__.quote,self__.fn,self__.var$,self__.read_eval,self__.regex,self__.row_key,self__.col_key,self__.end_row_key,self__.end_col_key,self__.__meta,cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k__4447__auto__,G__59134),null));
 }
 }
 }
@@ -1247,10 +1247,10 @@ var this__4451__auto____$1 = this;
 return cljs.core.seq(cljs.core.concat.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 14, 5, cljs.core.PersistentVector.EMPTY_NODE, [(new cljs.core.MapEntry(new cljs.core.Keyword(null,"dispatch","dispatch",1319337009),self__.dispatch,null)),(new cljs.core.MapEntry(new cljs.core.Keyword(null,"deref","deref",-145586795),self__.deref,null)),(new cljs.core.MapEntry(new cljs.core.Keyword(null,"syntax-quote","syntax-quote",-1233164847),self__.syntax_quote,null)),(new cljs.core.MapEntry(new cljs.core.Keyword(null,"unquote","unquote",1649741032),self__.unquote,null)),(new cljs.core.MapEntry(new cljs.core.Keyword(null,"unquote-splicing","unquote-splicing",1295267556),self__.unquote_splicing,null)),(new cljs.core.MapEntry(new cljs.core.Keyword(null,"quote","quote",-262615245),self__.quote,null)),(new cljs.core.MapEntry(new cljs.core.Keyword(null,"fn","fn",-1175266204),self__.fn,null)),(new cljs.core.MapEntry(new cljs.core.Keyword(null,"var","var",-769682797),self__.var$,null)),(new cljs.core.MapEntry(new cljs.core.Keyword(null,"read-eval","read-eval",1788733932),self__.read_eval,null)),(new cljs.core.MapEntry(new cljs.core.Keyword(null,"regex","regex",939488856),self__.regex,null)),(new cljs.core.MapEntry(new cljs.core.Keyword(null,"row-key","row-key",-1189010712),self__.row_key,null)),(new cljs.core.MapEntry(new cljs.core.Keyword(null,"col-key","col-key",-2009675766),self__.col_key,null)),(new cljs.core.MapEntry(new cljs.core.Keyword(null,"end-row-key","end-row-key",-1126662680),self__.end_row_key,null)),(new cljs.core.MapEntry(new cljs.core.Keyword(null,"end-col-key","end-col-key",81813304),self__.end_col_key,null))], null),self__.__extmap));
 }));
 
-(edamame.impl.parser.Options.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = (function (this__4438__auto__,G__59177){
+(edamame.impl.parser.Options.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = (function (this__4438__auto__,G__59134){
 var self__ = this;
 var this__4438__auto____$1 = this;
-return (new edamame.impl.parser.Options(self__.dispatch,self__.deref,self__.syntax_quote,self__.unquote,self__.unquote_splicing,self__.quote,self__.fn,self__.var$,self__.read_eval,self__.regex,self__.row_key,self__.col_key,self__.end_row_key,self__.end_col_key,G__59177,self__.__extmap,self__.__hash));
+return (new edamame.impl.parser.Options(self__.dispatch,self__.deref,self__.syntax_quote,self__.unquote,self__.unquote_splicing,self__.quote,self__.fn,self__.var$,self__.read_eval,self__.regex,self__.row_key,self__.col_key,self__.end_row_key,self__.end_col_key,G__59134,self__.__extmap,self__.__hash));
 }));
 
 (edamame.impl.parser.Options.prototype.cljs$core$ICollection$_conj$arity$2 = (function (this__4444__auto__,entry__4445__auto__){
@@ -1287,15 +1287,15 @@ return (new edamame.impl.parser.Options(dispatch,deref,syntax_quote,unquote,unqu
 /**
  * Factory function for edamame.impl.parser/Options, taking a map of keywords to field values.
  */
-edamame.impl.parser.map__GT_Options = (function edamame$impl$parser$map__GT_Options(G__59181){
-var extmap__4478__auto__ = (function (){var G__59219 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$variadic(G__59181,new cljs.core.Keyword(null,"dispatch","dispatch",1319337009),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"deref","deref",-145586795),new cljs.core.Keyword(null,"syntax-quote","syntax-quote",-1233164847),new cljs.core.Keyword(null,"unquote","unquote",1649741032),new cljs.core.Keyword(null,"unquote-splicing","unquote-splicing",1295267556),new cljs.core.Keyword(null,"quote","quote",-262615245),new cljs.core.Keyword(null,"fn","fn",-1175266204),new cljs.core.Keyword(null,"var","var",-769682797),new cljs.core.Keyword(null,"read-eval","read-eval",1788733932),new cljs.core.Keyword(null,"regex","regex",939488856),new cljs.core.Keyword(null,"row-key","row-key",-1189010712),new cljs.core.Keyword(null,"col-key","col-key",-2009675766),new cljs.core.Keyword(null,"end-row-key","end-row-key",-1126662680),new cljs.core.Keyword(null,"end-col-key","end-col-key",81813304)], 0));
-if(cljs.core.record_QMARK_(G__59181)){
-return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__59219);
+edamame.impl.parser.map__GT_Options = (function edamame$impl$parser$map__GT_Options(G__59138){
+var extmap__4478__auto__ = (function (){var G__59176 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$variadic(G__59138,new cljs.core.Keyword(null,"dispatch","dispatch",1319337009),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"deref","deref",-145586795),new cljs.core.Keyword(null,"syntax-quote","syntax-quote",-1233164847),new cljs.core.Keyword(null,"unquote","unquote",1649741032),new cljs.core.Keyword(null,"unquote-splicing","unquote-splicing",1295267556),new cljs.core.Keyword(null,"quote","quote",-262615245),new cljs.core.Keyword(null,"fn","fn",-1175266204),new cljs.core.Keyword(null,"var","var",-769682797),new cljs.core.Keyword(null,"read-eval","read-eval",1788733932),new cljs.core.Keyword(null,"regex","regex",939488856),new cljs.core.Keyword(null,"row-key","row-key",-1189010712),new cljs.core.Keyword(null,"col-key","col-key",-2009675766),new cljs.core.Keyword(null,"end-row-key","end-row-key",-1126662680),new cljs.core.Keyword(null,"end-col-key","end-col-key",81813304)], 0));
+if(cljs.core.record_QMARK_(G__59138)){
+return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__59176);
 } else {
-return G__59219;
+return G__59176;
 }
 })();
-return (new edamame.impl.parser.Options(new cljs.core.Keyword(null,"dispatch","dispatch",1319337009).cljs$core$IFn$_invoke$arity$1(G__59181),new cljs.core.Keyword(null,"deref","deref",-145586795).cljs$core$IFn$_invoke$arity$1(G__59181),new cljs.core.Keyword(null,"syntax-quote","syntax-quote",-1233164847).cljs$core$IFn$_invoke$arity$1(G__59181),new cljs.core.Keyword(null,"unquote","unquote",1649741032).cljs$core$IFn$_invoke$arity$1(G__59181),new cljs.core.Keyword(null,"unquote-splicing","unquote-splicing",1295267556).cljs$core$IFn$_invoke$arity$1(G__59181),new cljs.core.Keyword(null,"quote","quote",-262615245).cljs$core$IFn$_invoke$arity$1(G__59181),new cljs.core.Keyword(null,"fn","fn",-1175266204).cljs$core$IFn$_invoke$arity$1(G__59181),new cljs.core.Keyword(null,"var","var",-769682797).cljs$core$IFn$_invoke$arity$1(G__59181),new cljs.core.Keyword(null,"read-eval","read-eval",1788733932).cljs$core$IFn$_invoke$arity$1(G__59181),new cljs.core.Keyword(null,"regex","regex",939488856).cljs$core$IFn$_invoke$arity$1(G__59181),new cljs.core.Keyword(null,"row-key","row-key",-1189010712).cljs$core$IFn$_invoke$arity$1(G__59181),new cljs.core.Keyword(null,"col-key","col-key",-2009675766).cljs$core$IFn$_invoke$arity$1(G__59181),new cljs.core.Keyword(null,"end-row-key","end-row-key",-1126662680).cljs$core$IFn$_invoke$arity$1(G__59181),new cljs.core.Keyword(null,"end-col-key","end-col-key",81813304).cljs$core$IFn$_invoke$arity$1(G__59181),null,cljs.core.not_empty(extmap__4478__auto__),null));
+return (new edamame.impl.parser.Options(new cljs.core.Keyword(null,"dispatch","dispatch",1319337009).cljs$core$IFn$_invoke$arity$1(G__59138),new cljs.core.Keyword(null,"deref","deref",-145586795).cljs$core$IFn$_invoke$arity$1(G__59138),new cljs.core.Keyword(null,"syntax-quote","syntax-quote",-1233164847).cljs$core$IFn$_invoke$arity$1(G__59138),new cljs.core.Keyword(null,"unquote","unquote",1649741032).cljs$core$IFn$_invoke$arity$1(G__59138),new cljs.core.Keyword(null,"unquote-splicing","unquote-splicing",1295267556).cljs$core$IFn$_invoke$arity$1(G__59138),new cljs.core.Keyword(null,"quote","quote",-262615245).cljs$core$IFn$_invoke$arity$1(G__59138),new cljs.core.Keyword(null,"fn","fn",-1175266204).cljs$core$IFn$_invoke$arity$1(G__59138),new cljs.core.Keyword(null,"var","var",-769682797).cljs$core$IFn$_invoke$arity$1(G__59138),new cljs.core.Keyword(null,"read-eval","read-eval",1788733932).cljs$core$IFn$_invoke$arity$1(G__59138),new cljs.core.Keyword(null,"regex","regex",939488856).cljs$core$IFn$_invoke$arity$1(G__59138),new cljs.core.Keyword(null,"row-key","row-key",-1189010712).cljs$core$IFn$_invoke$arity$1(G__59138),new cljs.core.Keyword(null,"col-key","col-key",-2009675766).cljs$core$IFn$_invoke$arity$1(G__59138),new cljs.core.Keyword(null,"end-row-key","end-row-key",-1126662680).cljs$core$IFn$_invoke$arity$1(G__59138),new cljs.core.Keyword(null,"end-col-key","end-col-key",81813304).cljs$core$IFn$_invoke$arity$1(G__59138),null,cljs.core.not_empty(extmap__4478__auto__),null));
 });
 
 edamame.impl.parser.normalize_opts = (function edamame$impl$parser$normalize_opts(opts){
@@ -1381,14 +1381,14 @@ return opts;
 }
 })();
 var opts__$2 = (cljs.core.truth_(new cljs.core.Keyword(null,"all","all",892129742).cljs$core$IFn$_invoke$arity$1(opts__$1))?cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.PersistentArrayMap(null, 7, [new cljs.core.Keyword(null,"deref","deref",-145586795),true,new cljs.core.Keyword(null,"fn","fn",-1175266204),true,new cljs.core.Keyword(null,"quote","quote",-262615245),true,new cljs.core.Keyword(null,"read-eval","read-eval",1788733932),true,new cljs.core.Keyword(null,"regex","regex",939488856),true,new cljs.core.Keyword(null,"syntax-quote","syntax-quote",-1233164847),true,new cljs.core.Keyword(null,"var","var",-769682797),true], null),opts__$1], 0)):opts__$1);
-var opts__$3 = (function (){var G__59220 = opts__$2;
-var G__59220__$1 = ((cljs.core.not(new cljs.core.Keyword(null,"row-key","row-key",-1189010712).cljs$core$IFn$_invoke$arity$1(opts__$2)))?cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(G__59220,new cljs.core.Keyword(null,"row-key","row-key",-1189010712),new cljs.core.Keyword(null,"row","row",-570139521)):G__59220);
-var G__59220__$2 = ((cljs.core.not(new cljs.core.Keyword(null,"end-row-key","end-row-key",-1126662680).cljs$core$IFn$_invoke$arity$1(opts__$2)))?cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(G__59220__$1,new cljs.core.Keyword(null,"end-row-key","end-row-key",-1126662680),new cljs.core.Keyword(null,"end-row","end-row",-545103581)):G__59220__$1);
-var G__59220__$3 = ((cljs.core.not(new cljs.core.Keyword(null,"col-key","col-key",-2009675766).cljs$core$IFn$_invoke$arity$1(opts__$2)))?cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(G__59220__$2,new cljs.core.Keyword(null,"col-key","col-key",-2009675766),new cljs.core.Keyword(null,"col","col",-1959363084)):G__59220__$2);
+var opts__$3 = (function (){var G__59177 = opts__$2;
+var G__59177__$1 = ((cljs.core.not(new cljs.core.Keyword(null,"row-key","row-key",-1189010712).cljs$core$IFn$_invoke$arity$1(opts__$2)))?cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(G__59177,new cljs.core.Keyword(null,"row-key","row-key",-1189010712),new cljs.core.Keyword(null,"row","row",-570139521)):G__59177);
+var G__59177__$2 = ((cljs.core.not(new cljs.core.Keyword(null,"end-row-key","end-row-key",-1126662680).cljs$core$IFn$_invoke$arity$1(opts__$2)))?cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(G__59177__$1,new cljs.core.Keyword(null,"end-row-key","end-row-key",-1126662680),new cljs.core.Keyword(null,"end-row","end-row",-545103581)):G__59177__$1);
+var G__59177__$3 = ((cljs.core.not(new cljs.core.Keyword(null,"col-key","col-key",-2009675766).cljs$core$IFn$_invoke$arity$1(opts__$2)))?cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(G__59177__$2,new cljs.core.Keyword(null,"col-key","col-key",-2009675766),new cljs.core.Keyword(null,"col","col",-1959363084)):G__59177__$2);
 if(cljs.core.not(new cljs.core.Keyword(null,"end-col-key","end-col-key",81813304).cljs$core$IFn$_invoke$arity$1(opts__$2))){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(G__59220__$3,new cljs.core.Keyword(null,"end-col-key","end-col-key",81813304),new cljs.core.Keyword(null,"end-col","end-col",-724155879));
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(G__59177__$3,new cljs.core.Keyword(null,"end-col-key","end-col-key",81813304),new cljs.core.Keyword(null,"end-col","end-col",-724155879));
 } else {
-return G__59220__$3;
+return G__59177__$3;
 }
 })();
 var opts__$4 = (function (){var temp__5733__auto__ = new cljs.core.Keyword(null,"readers","readers",-2118263030).cljs$core$IFn$_invoke$arity$1(opts__$3);
@@ -1422,8 +1422,8 @@ var next_val = edamame.impl.parser.parse_next(ctx,r);
 if(edamame.impl.parser.kw_identical_QMARK_(new cljs.core.Keyword("edamame.impl.parser","eof","edamame.impl.parser/eof",720552006),next_val)){
 return cljs.core.persistent_BANG_(ret);
 } else {
-var G__59264 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(ret,next_val);
-ret = G__59264;
+var G__59221 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(ret,next_val);
+ret = G__59221;
 continue;
 }
 break;

@@ -27,9 +27,9 @@ var _STAR_always_update_STAR__temp_val__31730 = true;
 try{var G__31731 = (comp.cljs$core$IFn$_invoke$arity$0 ? comp.cljs$core$IFn$_invoke$arity$0() : comp.call(null));
 var G__31732 = container;
 var G__31733 = (function (){
-var _STAR_always_update_STAR__orig_val__31736 = reagent.impl.util._STAR_always_update_STAR_;
-var _STAR_always_update_STAR__temp_val__31737 = false;
-(reagent.impl.util._STAR_always_update_STAR_ = _STAR_always_update_STAR__temp_val__31737);
+var _STAR_always_update_STAR__orig_val__31735 = reagent.impl.util._STAR_always_update_STAR_;
+var _STAR_always_update_STAR__temp_val__31736 = false;
+(reagent.impl.util._STAR_always_update_STAR_ = _STAR_always_update_STAR__temp_val__31736);
 
 try{cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(reagent.dom.roots,cljs.core.assoc,container,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [comp,container], null));
 
@@ -40,7 +40,7 @@ return (callback.cljs$core$IFn$_invoke$arity$0 ? callback.cljs$core$IFn$_invoke$
 } else {
 return null;
 }
-}finally {(reagent.impl.util._STAR_always_update_STAR_ = _STAR_always_update_STAR__orig_val__31736);
+}finally {(reagent.impl.util._STAR_always_update_STAR_ = _STAR_always_update_STAR__orig_val__31735);
 }});
 return module$node_modules$react_dom$index.render(G__31731,G__31732,G__31733);
 }finally {(reagent.impl.util._STAR_always_update_STAR_ = _STAR_always_update_STAR__orig_val__31729);
@@ -136,10 +136,10 @@ var temp__5735__auto___31758 = cljs.core.seq(seq__31741_31749);
 if(temp__5735__auto___31758){
 var seq__31741_31760__$1 = temp__5735__auto___31758;
 if(cljs.core.chunked_seq_QMARK_(seq__31741_31760__$1)){
-var c__4609__auto___31762 = cljs.core.chunk_first(seq__31741_31760__$1);
+var c__4609__auto___31761 = cljs.core.chunk_first(seq__31741_31760__$1);
 var G__31763 = cljs.core.chunk_rest(seq__31741_31760__$1);
-var G__31764 = c__4609__auto___31762;
-var G__31765 = cljs.core.count(c__4609__auto___31762);
+var G__31764 = c__4609__auto___31761;
+var G__31765 = cljs.core.count(c__4609__auto___31761);
 var G__31766 = (0);
 seq__31741_31749 = G__31763;
 chunk__31742_31750 = G__31764;

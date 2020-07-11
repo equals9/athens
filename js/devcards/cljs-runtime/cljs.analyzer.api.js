@@ -110,7 +110,7 @@ var _STAR_private_var_access_nowarn_STAR__temp_val__43997 = true;
 
 try{return cljs.analyzer.resolve_var.cljs$core$IFn$_invoke$arity$3(env,sym,cljs.analyzer.confirm_var_exists_throw());
 }finally {(cljs.analyzer._STAR_private_var_access_nowarn_STAR_ = _STAR_private_var_access_nowarn_STAR__orig_val__43996);
-}}catch (e43995){var e = e43995;
+}}catch (e43994){var e = e43994;
 return cljs.analyzer.resolve_macro_var(env,sym);
 }});
 /**
