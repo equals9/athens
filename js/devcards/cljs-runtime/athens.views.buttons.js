@@ -42,31 +42,70 @@ return (fexpr__39122.cljs$core$IFn$_invoke$arity$0 ? fexpr__39122.cljs$core$IFn$
 return (garden.selectors._AMPERSAND_.cljs$core$IFn$_invoke$arity$1 ? garden.selectors._AMPERSAND_.cljs$core$IFn$_invoke$arity$1(G__39120) : garden.selectors._AMPERSAND_.call(null,G__39120));
 })(),athens.views.buttons.button_icons_only_child_style], null)], null)], null)], null)], 0));
 /**
+ * Keep button interface as close to vanilla hiccup as possible.
+ *   Dissoc :style :active and :class because we don't want to merge them in directly.
+ *   Can pass in a :key prop to make react happy, as a :key or ^{:key}. Just works
+ */
+athens.views.buttons.new_button = (function athens$views$buttons$new_button(var_args){
+var G__39125 = arguments.length;
+switch (G__39125) {
+case 1:
+return athens.views.buttons.new_button.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
+
+break;
+case 2:
+return athens.views.buttons.new_button.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
+
+break;
+default:
+throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(arguments.length)].join('')));
+
+}
+});
+
+(athens.views.buttons.new_button.cljs$core$IFn$_invoke$arity$1 = (function (children){
+return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [athens.views.buttons.new_button,cljs.core.PersistentArrayMap.EMPTY,children], null);
+}));
+
+(athens.views.buttons.new_button.cljs$core$IFn$_invoke$arity$2 = (function (p__39126,children){
+var map__39127 = p__39126;
+var map__39127__$1 = (((((!((map__39127 == null))))?(((((map__39127.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__39127.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__39127):map__39127);
+var props = map__39127__$1;
+var style = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39127__$1,new cljs.core.Keyword(null,"style","style",-496642736));
+var active = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39127__$1,new cljs.core.Keyword(null,"active","active",1895962068));
+var class$ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39127__$1,new cljs.core.Keyword(null,"class","class",-2030961996));
+var props_ = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$variadic(props,new cljs.core.Keyword(null,"style","style",-496642736),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"active","active",1895962068),new cljs.core.Keyword(null,"class","class",-2030961996)], 0));
+return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"button","button",1456579943),stylefy.core.use_style.cljs$core$IFn$_invoke$arity$2(cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([athens.views.buttons.buttons_style,style], 0)),cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([props_,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"class","class",-2030961996),cljs.core.vec(cljs.core.flatten(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [(cljs.core.truth_(active)?"is-active":null),class$], null)))], null)], 0))),children], null);
+}));
+
+(athens.views.buttons.new_button.cljs$lang$maxFixedArity = 2);
+
+/**
  * Creates a button control
  */
-athens.views.buttons.button = (function athens$views$buttons$button(p__39124){
-var map__39125 = p__39124;
-var map__39125__$1 = (((((!((map__39125 == null))))?(((((map__39125.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__39125.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__39125):map__39125);
-var disabled = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39125__$1,new cljs.core.Keyword(null,"disabled","disabled",-1529784218));
-var label = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39125__$1,new cljs.core.Keyword(null,"label","label",1718410804));
-var on_click_fn = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39125__$1,new cljs.core.Keyword(null,"on-click-fn","on-click-fn",739785852));
-var style = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39125__$1,new cljs.core.Keyword(null,"style","style",-496642736));
-var active = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39125__$1,new cljs.core.Keyword(null,"active","active",1895962068));
-var class$ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39125__$1,new cljs.core.Keyword(null,"class","class",-2030961996));
+athens.views.buttons.button = (function athens$views$buttons$button(p__39129){
+var map__39130 = p__39129;
+var map__39130__$1 = (((((!((map__39130 == null))))?(((((map__39130.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__39130.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__39130):map__39130);
+var disabled = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39130__$1,new cljs.core.Keyword(null,"disabled","disabled",-1529784218));
+var label = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39130__$1,new cljs.core.Keyword(null,"label","label",1718410804));
+var on_click_fn = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39130__$1,new cljs.core.Keyword(null,"on-click-fn","on-click-fn",739785852));
+var style = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39130__$1,new cljs.core.Keyword(null,"style","style",-496642736));
+var active = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39130__$1,new cljs.core.Keyword(null,"active","active",1895962068));
+var class$ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39130__$1,new cljs.core.Keyword(null,"class","class",-2030961996));
 return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"button","button",1456579943),stylefy.core.use_style.cljs$core$IFn$_invoke$arity$2(cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([athens.views.buttons.buttons_style,style], 0)),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"disabled","disabled",-1529784218),disabled,new cljs.core.Keyword(null,"on-click","on-click",1632826543),on_click_fn,new cljs.core.Keyword(null,"class","class",-2030961996),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [class$,(cljs.core.truth_(active)?"is-active":null)], null)], null)),label], null);
 });
 /**
  * Creates a button control
  */
-athens.views.buttons.button_primary = (function athens$views$buttons$button_primary(p__39127){
-var map__39128 = p__39127;
-var map__39128__$1 = (((((!((map__39128 == null))))?(((((map__39128.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__39128.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__39128):map__39128);
-var disabled = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39128__$1,new cljs.core.Keyword(null,"disabled","disabled",-1529784218));
-var label = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39128__$1,new cljs.core.Keyword(null,"label","label",1718410804));
-var on_click_fn = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39128__$1,new cljs.core.Keyword(null,"on-click-fn","on-click-fn",739785852));
-var style = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39128__$1,new cljs.core.Keyword(null,"style","style",-496642736));
-var active = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39128__$1,new cljs.core.Keyword(null,"active","active",1895962068));
-var class$ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39128__$1,new cljs.core.Keyword(null,"class","class",-2030961996));
+athens.views.buttons.button_primary = (function athens$views$buttons$button_primary(p__39132){
+var map__39133 = p__39132;
+var map__39133__$1 = (((((!((map__39133 == null))))?(((((map__39133.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__39133.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__39133):map__39133);
+var disabled = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39133__$1,new cljs.core.Keyword(null,"disabled","disabled",-1529784218));
+var label = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39133__$1,new cljs.core.Keyword(null,"label","label",1718410804));
+var on_click_fn = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39133__$1,new cljs.core.Keyword(null,"on-click-fn","on-click-fn",739785852));
+var style = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39133__$1,new cljs.core.Keyword(null,"style","style",-496642736));
+var active = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39133__$1,new cljs.core.Keyword(null,"active","active",1895962068));
+var class$ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39133__$1,new cljs.core.Keyword(null,"class","class",-2030961996));
 return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"button","button",1456579943),stylefy.core.use_style.cljs$core$IFn$_invoke$arity$2(cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([athens.views.buttons.buttons_primary_style,style], 0)),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"disabled","disabled",-1529784218),disabled,new cljs.core.Keyword(null,"on-click","on-click",1632826543),on_click_fn,new cljs.core.Keyword(null,"class","class",-2030961996),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [class$,(cljs.core.truth_(active)?"is-active":null)], null)], null)),label], null);
 });
 

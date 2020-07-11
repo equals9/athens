@@ -1175,9 +1175,9 @@ if(cljs.core.truth_((datascript.db.indexing_QMARK_.cljs$core$IFn$_invoke$arity$2
 throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2(["Attribute ",cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([attr], 0))," should be marked as :db/index true"].join(''),cljs.core.PersistentArrayMap.EMPTY);
 }
 
-var G__25737_25993 = attr;
-var G__25738_25994 = (new cljs.core.List(null,new cljs.core.Symbol(null,"-index-range","-index-range",898114142,null),(new cljs.core.List(null,new cljs.core.Symbol(null,"db","db",-1661185010,null),(new cljs.core.List(null,attr,(new cljs.core.List(null,start,(new cljs.core.List(null,end,null,(1),null)),(2),null)),(3),null)),(4),null)),(5),null));
-(datascript.db.validate_attr.cljs$core$IFn$_invoke$arity$2 ? datascript.db.validate_attr.cljs$core$IFn$_invoke$arity$2(G__25737_25993,G__25738_25994) : datascript.db.validate_attr.call(null,G__25737_25993,G__25738_25994));
+var G__25737_25990 = attr;
+var G__25738_25991 = (new cljs.core.List(null,new cljs.core.Symbol(null,"-index-range","-index-range",898114142,null),(new cljs.core.List(null,new cljs.core.Symbol(null,"db","db",-1661185010,null),(new cljs.core.List(null,attr,(new cljs.core.List(null,start,(new cljs.core.List(null,end,null,(1),null)),(2),null)),(3),null)),(4),null)),(5),null));
+(datascript.db.validate_attr.cljs$core$IFn$_invoke$arity$2 ? datascript.db.validate_attr.cljs$core$IFn$_invoke$arity$2(G__25737_25990,G__25738_25991) : datascript.db.validate_attr.call(null,G__25737_25990,G__25738_25991));
 
 return me.tonsky.persistent_sorted_set.slice.cljs$core$IFn$_invoke$arity$3(db__$1.avet,(datascript.db.resolve_datom.cljs$core$IFn$_invoke$arity$7 ? datascript.db.resolve_datom.cljs$core$IFn$_invoke$arity$7(db__$1,null,attr,start,null,(0),(536870912)) : datascript.db.resolve_datom.call(null,db__$1,null,attr,start,null,(0),(536870912))),(datascript.db.resolve_datom.cljs$core$IFn$_invoke$arity$7 ? datascript.db.resolve_datom.cljs$core$IFn$_invoke$arity$7(db__$1,null,attr,end,null,(2147483647),(2147483647)) : datascript.db.resolve_datom.call(null,db__$1,null,attr,end,null,(2147483647),(2147483647))));
 }));
@@ -1742,14 +1742,14 @@ datascript.db.validate_schema_key(a,new cljs.core.Keyword("db","valueType","db/v
 datascript.db.validate_schema_key(a,new cljs.core.Keyword("db","cardinality","db/cardinality",-104975659),new cljs.core.Keyword("db","cardinality","db/cardinality",-104975659).cljs$core$IFn$_invoke$arity$1(kv),new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword("db.cardinality","many","db.cardinality/many",772806234),null,new cljs.core.Keyword("db.cardinality","one","db.cardinality/one",1428352190),null], null), null));
 
 
-var G__26048 = seq__25776;
-var G__26049 = chunk__25777;
-var G__26050 = count__25778;
-var G__26051 = (i__25779 + (1));
-seq__25776 = G__26048;
-chunk__25777 = G__26049;
-count__25778 = G__26050;
-i__25779 = G__26051;
+var G__26044 = seq__25776;
+var G__26045 = chunk__25777;
+var G__26046 = count__25778;
+var G__26047 = (i__25779 + (1));
+seq__25776 = G__26044;
+chunk__25777 = G__26045;
+count__25778 = G__26046;
+i__25779 = G__26047;
 continue;
 } else {
 var temp__5735__auto__ = cljs.core.seq(seq__25776);
@@ -1910,10 +1910,10 @@ if((xs == null)){
 return (ys == null);
 } else {
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.first(xs),cljs.core.first(ys))){
-var G__26070 = cljs.core.next(xs);
-var G__26071 = cljs.core.next(ys);
-xs = G__26070;
-ys = G__26071;
+var G__26069 = cljs.core.next(xs);
+var G__26070 = cljs.core.next(ys);
+xs = G__26069;
+ys = G__26070;
 continue;
 } else {
 return false;
@@ -3047,10 +3047,10 @@ continue;
 if(((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(op,new cljs.core.Keyword("db.fn","retractEntity","db.fn/retractEntity",-1423535441))) || (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(op,new cljs.core.Keyword("db","retractEntity","db/retractEntity",-1452737935))))){
 var temp__5737__auto__ = datascript.db.entid(db,e);
 if((temp__5737__auto__ == null)){
-var G__26194 = report;
-var G__26195 = entities;
-report = G__26194;
-es = G__26195;
+var G__26195 = report;
+var G__26196 = entities;
+report = G__26195;
+es = G__26196;
 continue;
 } else {
 var e__$1 = temp__5737__auto__;
