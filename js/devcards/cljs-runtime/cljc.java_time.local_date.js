@@ -236,8 +236,8 @@ return this3548.with(G__3549);
 (cljc.java_time.local_date.with$.cljs$lang$maxFixedArity = 3);
 
 cljc.java_time.local_date.now = (function cljc$java_time$local_date$now(var_args){
-var G__50542 = arguments.length;
-switch (G__50542) {
+var G__50543 = arguments.length;
+switch (G__50543) {
 case 1:
 return cljc.java_time.local_date.now.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

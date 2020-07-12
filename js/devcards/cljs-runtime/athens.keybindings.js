@@ -101,14 +101,14 @@ return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dis
 }
 });
 athens.keybindings.handle_enter = (function athens$keybindings$handle_enter(e,uid,state){
-var map__55822 = athens.keybindings.destruct_event(e);
-var map__55822__$1 = (((((!((map__55822 == null))))?(((((map__55822.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__55822.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__55822):map__55822);
-var shift = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55822__$1,new cljs.core.Keyword(null,"shift","shift",997140064));
-var meta = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55822__$1,new cljs.core.Keyword(null,"meta","meta",1499536964));
-var start = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55822__$1,new cljs.core.Keyword(null,"start","start",-355208981));
-var head = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55822__$1,new cljs.core.Keyword(null,"head","head",-771383919));
-var tail = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55822__$1,new cljs.core.Keyword(null,"tail","tail",-1146023564));
-var value = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55822__$1,new cljs.core.Keyword(null,"value","value",305978217));
+var map__55823 = athens.keybindings.destruct_event(e);
+var map__55823__$1 = (((((!((map__55823 == null))))?(((((map__55823.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__55823.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__55823):map__55823);
+var shift = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55823__$1,new cljs.core.Keyword(null,"shift","shift",997140064));
+var meta = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55823__$1,new cljs.core.Keyword(null,"meta","meta",1499536964));
+var start = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55823__$1,new cljs.core.Keyword(null,"start","start",-355208981));
+var head = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55823__$1,new cljs.core.Keyword(null,"head","head",-771383919));
+var tail = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55823__$1,new cljs.core.Keyword(null,"tail","tail",-1146023564));
+var value = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55823__$1,new cljs.core.Keyword(null,"value","value",305978217));
 if(cljs.core.truth_(shift)){
 return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(state,cljs.core.assoc,new cljs.core.Keyword(null,"atom-string","atom-string",-1067323204),[cljs.core.str.cljs$core$IFn$_invoke$arity$1(head),"\n",cljs.core.str.cljs$core$IFn$_invoke$arity$1(tail)].join(''));
 } else {
@@ -122,8 +122,8 @@ return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(state,cljs.core.assoc,
 } else {
 e.preventDefault();
 
-var G__55824 = new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"enter","enter",1792452624),uid,value,start,state], null);
-return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__55824) : re_frame.core.dispatch.call(null,G__55824));
+var G__55827 = new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"enter","enter",1792452624),uid,value,start,state], null);
+return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__55827) : re_frame.core.dispatch.call(null,G__55827));
 
 }
 }
@@ -145,12 +145,12 @@ return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(around),cljs.core.str.cljs$c
  * Assumes meta is selected
  */
 athens.keybindings.handle_system_shortcuts = (function athens$keybindings$handle_system_shortcuts(e,_,state){
-var map__55825 = athens.keybindings.destruct_event(e);
-var map__55825__$1 = (((((!((map__55825 == null))))?(((((map__55825.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__55825.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__55825):map__55825);
-var key_code = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55825__$1,new cljs.core.Keyword(null,"key-code","key-code",-1732114304));
-var target = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55825__$1,new cljs.core.Keyword(null,"target","target",253001721));
-var end = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55825__$1,new cljs.core.Keyword(null,"end","end",-268185958));
-var selection = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55825__$1,new cljs.core.Keyword(null,"selection","selection",975998651));
+var map__55828 = athens.keybindings.destruct_event(e);
+var map__55828__$1 = (((((!((map__55828 == null))))?(((((map__55828.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__55828.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__55828):map__55828);
+var key_code = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55828__$1,new cljs.core.Keyword(null,"key-code","key-code",-1732114304));
+var target = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55828__$1,new cljs.core.Keyword(null,"target","target",253001721));
+var end = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55828__$1,new cljs.core.Keyword(null,"end","end",-268185958));
+var selection = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55828__$1,new cljs.core.Keyword(null,"selection","selection",975998651));
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(key_code,goog.events.KeyCodes.A)){
 goog.dom.selection.setStart(target,(0));
 
@@ -182,32 +182,32 @@ return null;
 }
 });
 athens.keybindings.pair_char_QMARK_ = (function athens$keybindings$pair_char_QMARK_(e){
-var map__55827 = athens.keybindings.destruct_event(e);
-var map__55827__$1 = (((((!((map__55827 == null))))?(((((map__55827.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__55827.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__55827):map__55827);
-var key = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55827__$1,new cljs.core.Keyword(null,"key","key",-1516042587));
+var map__55830 = athens.keybindings.destruct_event(e);
+var map__55830__$1 = (((((!((map__55830 == null))))?(((((map__55830.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__55830.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__55830):map__55830);
+var key = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55830__$1,new cljs.core.Keyword(null,"key","key",-1516042587));
 var pair_char_set = cljs.core.set(cljs.core.flatten(cljs.core.seq(athens.keybindings.PAIR_CHARS)));
 return (pair_char_set.cljs$core$IFn$_invoke$arity$1 ? pair_char_set.cljs$core$IFn$_invoke$arity$1(key) : pair_char_set.call(null,key));
 });
 athens.keybindings.handle_pair_char = (function athens$keybindings$handle_pair_char(e,_,state){
-var map__55829 = athens.keybindings.destruct_event(e);
-var map__55829__$1 = (((((!((map__55829 == null))))?(((((map__55829.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__55829.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__55829):map__55829);
-var key = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55829__$1,new cljs.core.Keyword(null,"key","key",-1516042587));
-var head = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55829__$1,new cljs.core.Keyword(null,"head","head",-771383919));
-var tail = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55829__$1,new cljs.core.Keyword(null,"tail","tail",-1146023564));
-var target = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55829__$1,new cljs.core.Keyword(null,"target","target",253001721));
-var start = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55829__$1,new cljs.core.Keyword(null,"start","start",-355208981));
-var end = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55829__$1,new cljs.core.Keyword(null,"end","end",-268185958));
-var selection = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55829__$1,new cljs.core.Keyword(null,"selection","selection",975998651));
+var map__55832 = athens.keybindings.destruct_event(e);
+var map__55832__$1 = (((((!((map__55832 == null))))?(((((map__55832.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__55832.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__55832):map__55832);
+var key = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55832__$1,new cljs.core.Keyword(null,"key","key",-1516042587));
+var head = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55832__$1,new cljs.core.Keyword(null,"head","head",-771383919));
+var tail = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55832__$1,new cljs.core.Keyword(null,"tail","tail",-1146023564));
+var target = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55832__$1,new cljs.core.Keyword(null,"target","target",253001721));
+var start = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55832__$1,new cljs.core.Keyword(null,"start","start",-355208981));
+var end = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55832__$1,new cljs.core.Keyword(null,"end","end",-268185958));
+var selection = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__55832__$1,new cljs.core.Keyword(null,"selection","selection",975998651));
 var close_pair = cljs.core.get.cljs$core$IFn$_invoke$arity$2(athens.keybindings.PAIR_CHARS,key);
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(start,end)){
-var new_str_55852 = [cljs.core.str.cljs$core$IFn$_invoke$arity$1(head),cljs.core.str.cljs$core$IFn$_invoke$arity$1(key),cljs.core.str.cljs$core$IFn$_invoke$arity$1(close_pair),cljs.core.str.cljs$core$IFn$_invoke$arity$1(tail)].join('');
+var new_str_55853 = [cljs.core.str.cljs$core$IFn$_invoke$arity$1(head),cljs.core.str.cljs$core$IFn$_invoke$arity$1(key),cljs.core.str.cljs$core$IFn$_invoke$arity$1(close_pair),cljs.core.str.cljs$core$IFn$_invoke$arity$1(tail)].join('');
 setTimeout((function (){
-var G__55831 = target;
-var G__55832 = (start + (1));
-return goog.dom.selection.setCursorPosition(G__55831,G__55832);
+var G__55834 = target;
+var G__55835 = (start + (1));
+return goog.dom.selection.setCursorPosition(G__55834,G__55835);
 }),(10));
 
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(state,cljs.core.assoc,new cljs.core.Keyword(null,"atom-string","atom-string",-1067323204),new_str_55852);
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(state,cljs.core.assoc,new cljs.core.Keyword(null,"atom-string","atom-string",-1067323204),new_str_55853);
 } else {
 if(cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(start,end)){
 var surround_selection_55854 = athens.keybindings.surround(selection,key);
@@ -215,13 +215,13 @@ var new_str_55855 = [cljs.core.str.cljs$core$IFn$_invoke$arity$1(head),surround_
 cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(state,cljs.core.assoc,new cljs.core.Keyword(null,"atom-string","atom-string",-1067323204),new_str_55855);
 
 setTimeout((function (){
-var G__55833_55856 = target;
-var G__55834_55857 = (start + (1));
-goog.dom.selection.setStart(G__55833_55856,G__55834_55857);
+var G__55836_55856 = target;
+var G__55837_55857 = (start + (1));
+goog.dom.selection.setStart(G__55836_55856,G__55837_55857);
 
-var G__55835 = target;
-var G__55836 = (end + (1));
-return goog.dom.selection.setEnd(G__55835,G__55836);
+var G__55838 = target;
+var G__55839 = (end + (1));
+return goog.dom.selection.setEnd(G__55838,G__55839);
 }),(10));
 } else {
 }
@@ -263,8 +263,8 @@ if(athens.keybindings.block_start_QMARK_(e)){
 var G__55843 = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"backspace","backspace",-696007848),uid,value], null);
 return (re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.dispatch.cljs$core$IFn$_invoke$arity$1(G__55843) : re_frame.core.dispatch.call(null,G__55843));
 } else {
-if(cljs.core.truth_(cljs.core.some((function (p1__55838_SHARP_){
-return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(possible_pair,p1__55838_SHARP_);
+if(cljs.core.truth_(cljs.core.some((function (p1__55840_SHARP_){
+return cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(possible_pair,p1__55840_SHARP_);
 }),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, ["[]","{}","()"], null)))){
 var head__$1 = cljs.core.subs.cljs$core$IFn$_invoke$arity$3(value,(0),(start - (1)));
 var tail__$1 = cljs.core.subs.cljs$core$IFn$_invoke$arity$2(value,(start + (1)));
