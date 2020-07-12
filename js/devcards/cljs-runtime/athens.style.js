@@ -2,38 +2,11 @@ goog.provide('athens.style');
 goog.require('cljs.core');
 goog.require('garden.color');
 goog.require('stylefy.core');
-athens.style.cssv = (function athens$style$cssv(var_args){
-var G__39022 = arguments.length;
-switch (G__39022) {
-case 1:
-return athens.style.cssv.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
-
-break;
-case 2:
-return athens.style.cssv.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
-
-break;
-default:
-throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(arguments.length)].join('')));
-
-}
-});
-
-(athens.style.cssv.cljs$core$IFn$_invoke$arity$1 = (function (variable){
-return ["var(--",cljs.core.str.cljs$core$IFn$_invoke$arity$1(variable),")"].join('');
-}));
-
-(athens.style.cssv.cljs$core$IFn$_invoke$arity$2 = (function (variable,alpha){
-return ["var(--",cljs.core.str.cljs$core$IFn$_invoke$arity$1(variable),"-",cljs.core.str.cljs$core$IFn$_invoke$arity$1(alpha),")"].join('');
-}));
-
-(athens.style.cssv.cljs$lang$maxFixedArity = 2);
-
 athens.style.COLORS = cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"background-plus-2","background-plus-2",-2111504159),new cljs.core.Keyword(null,"body-text-color","body-text-color",-349110936),new cljs.core.Keyword(null,"link-color","link-color",1347118056),new cljs.core.Keyword(null,"background-minus-2","background-minus-2",-1711017591),new cljs.core.Keyword(null,"background-color","background-color",570434026),new cljs.core.Keyword(null,"background-plus-1","background-plus-1",-1065812304),new cljs.core.Keyword(null,"warning-color","warning-color",924289810),new cljs.core.Keyword(null,"border-color","border-color",-2059162761),new cljs.core.Keyword(null,"confirmation-color","confirmation-color",346216600),new cljs.core.Keyword(null,"header-text-color","header-text-color",-2100972680),new cljs.core.Keyword(null,"highlight-color","highlight-color",-1394121540),new cljs.core.Keyword(null,"background-minus-1","background-minus-1",-955162179)],["#333","#AAA","#2399E7","#111","#1A1A1A","#222","#DE3C21","hsla(32, 81%, 90%, 0.08)","#189E36","#BABABA","#FBBE63","#151515"]);
 athens.style.THEME_LIGHT = cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"background-plus-2","background-plus-2",-2111504159),new cljs.core.Keyword(null,"body-text-color","body-text-color",-349110936),new cljs.core.Keyword(null,"link-color","link-color",1347118056),new cljs.core.Keyword(null,"background-minus-2","background-minus-2",-1711017591),new cljs.core.Keyword(null,"background-color","background-color",570434026),new cljs.core.Keyword(null,"background-plus-1","background-plus-1",-1065812304),new cljs.core.Keyword(null,"warning-color","warning-color",924289810),new cljs.core.Keyword(null,"border-color","border-color",-2059162761),new cljs.core.Keyword(null,"confirmation-color","confirmation-color",346216600),new cljs.core.Keyword(null,"header-text-color","header-text-color",-2100972680),new cljs.core.Keyword(null,"highlight-color","highlight-color",-1394121540),new cljs.core.Keyword(null,"background-minus-1","background-minus-1",-955162179)],["#FFFFFF","#433F38","#0075E1","#EFEDEB","#FFFFFF","#FFFFFF","#D20000","hsla(32, 81%, 10%, 0.08)","#009E23","#322F38","#F9A132","#FAF8F6"]);
 athens.style.THEME_DARK = cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"background-plus-2","background-plus-2",-2111504159),new cljs.core.Keyword(null,"body-text-color","body-text-color",-349110936),new cljs.core.Keyword(null,"link-color","link-color",1347118056),new cljs.core.Keyword(null,"background-minus-2","background-minus-2",-1711017591),new cljs.core.Keyword(null,"background-color","background-color",570434026),new cljs.core.Keyword(null,"background-plus-1","background-plus-1",-1065812304),new cljs.core.Keyword(null,"warning-color","warning-color",924289810),new cljs.core.Keyword(null,"border-color","border-color",-2059162761),new cljs.core.Keyword(null,"confirmation-color","confirmation-color",346216600),new cljs.core.Keyword(null,"header-text-color","header-text-color",-2100972680),new cljs.core.Keyword(null,"highlight-color","highlight-color",-1394121540),new cljs.core.Keyword(null,"background-minus-1","background-minus-1",-955162179)],["#333","#AAA","#2399E7","#111","#1A1A1A","#222","#DE3C21","hsla(32, 81%, 90%, 0.08)","#189E36","#BABABA","#FBBE63","#151515"]);
-athens.style.HSL_COLORS = cljs.core.reduce_kv((function (p1__39025_SHARP_,p2__39026_SHARP_,p3__39027_SHARP_){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__39025_SHARP_,p2__39026_SHARP_,garden.color.hex__GT_hsl(p3__39027_SHARP_));
+athens.style.HSL_COLORS = cljs.core.reduce_kv((function (p1__38976_SHARP_,p2__38977_SHARP_,p3__38978_SHARP_){
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__38976_SHARP_,p2__38977_SHARP_,garden.color.hex__GT_hsl(p3__38978_SHARP_));
 }),cljs.core.PersistentArrayMap.EMPTY,athens.style.COLORS);
 athens.style.DEPTH_SHADOWS = new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"4","4",-1197948085),"0px 1.6px 3.6px rgba(0, 0, 0, 0.13), 0px 0.3px 0.9px rgba(0, 0, 0, 0.1)",new cljs.core.Keyword(null,"8","8",1405994928),"0px 3.2px 7.2px rgba(0, 0, 0, 0.13), 0px 0.6px 1.8px rgba(0, 0, 0, 0.1)",new cljs.core.Keyword(null,"16","16",1354114028),"0px 6.4px 14.4px rgba(0, 0, 0, 0.13), 0px 1.2px 3.6px rgba(0, 0, 0, 0.1)",new cljs.core.Keyword(null,"64","64",977820579),"0px 24px 60px rgba(0, 0, 0, 0.15), 0px 5px 12px rgba(0, 0, 0, 0.1)"], null);
 athens.style.OPACITIES = new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"opacity-lower","opacity-lower",-521611975),0.1,new cljs.core.Keyword(null,"opacity-low","opacity-low",-761003971),0.25,new cljs.core.Keyword(null,"opacity-med","opacity-med",1700530190),0.5,new cljs.core.Keyword(null,"opacity-high","opacity-high",1902226703),0.75,new cljs.core.Keyword(null,"opacity-higher","opacity-higher",413124730),0.85], null);
@@ -49,8 +22,8 @@ return garden.color.opacify((c.cljs$core$IFn$_invoke$arity$1 ? c.cljs$core$IFn$_
 }
 });
 athens.style.color = (function athens$style$color(var_args){
-var G__39031 = arguments.length;
-switch (G__39031) {
+var G__38983 = arguments.length;
+switch (G__38983) {
 case 1:
 return athens.style.color.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -75,72 +48,10 @@ return athens.style.return_color_with_alpha(c,a);
 
 (athens.style.color.cljs$lang$maxFixedArity = 2);
 
-athens.style.base_styles = new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"background-color","background-color",570434026),athens.style.cssv.cljs$core$IFn$_invoke$arity$1("background-color"),new cljs.core.Keyword(null,"font-family","font-family",-667419874),"IBM Plex Sans, Sans-Serif",new cljs.core.Keyword(null,"color","color",1011675173),athens.style.cssv.cljs$core$IFn$_invoke$arity$1("body-text-color"),new cljs.core.Keyword(null,"font-size","font-size",-1847940346),"16px",new cljs.core.Keyword(null,"line-height","line-height",1870784992),"1.5",new cljs.core.Keyword("stylefy.core","manual","stylefy.core/manual",-1053755369),new cljs.core.PersistentVector(null, 10, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"a","a",-2123407586),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"color","color",1011675173),athens.style.cssv.cljs$core$IFn$_invoke$arity$1("link-color")], null)], null),new cljs.core.PersistentVector(null, 7, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"h1","h1",-1896887462),new cljs.core.Keyword(null,"h2","h2",-372662728),new cljs.core.Keyword(null,"h3","h3",2067611163),new cljs.core.Keyword(null,"h4","h4",2004862993),new cljs.core.Keyword(null,"h5","h5",-1829156625),new cljs.core.Keyword(null,"h6","h6",557293780),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"margin","margin",-995903681),"0.2em 0",new cljs.core.Keyword(null,"line-height","line-height",1870784992),"1.3",new cljs.core.Keyword(null,"color","color",1011675173),athens.style.cssv.cljs$core$IFn$_invoke$arity$1("header-text-color")], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"h1","h1",-1896887462),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"font-size","font-size",-1847940346),"3.125em",new cljs.core.Keyword(null,"font-weight","font-weight",2085804583),(600),new cljs.core.Keyword(null,"letter-spacing","letter-spacing",-948993767),"-0.03em"], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"h2","h2",-372662728),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"font-size","font-size",-1847940346),"2.375em",new cljs.core.Keyword(null,"font-weight","font-weight",2085804583),(500),new cljs.core.Keyword(null,"letter-spacing","letter-spacing",-948993767),"-0.03em"], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"h3","h3",2067611163),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"font-size","font-size",-1847940346),"1.75em",new cljs.core.Keyword(null,"font-weight","font-weight",2085804583),(500),new cljs.core.Keyword(null,"letter-spacing","letter-spacing",-948993767),"-0.02em"], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"h4","h4",2004862993),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"font-size","font-size",-1847940346),"1.3125em"], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"h5","h5",-1829156625),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"font-size","font-size",-1847940346),"0.75em",new cljs.core.Keyword(null,"font-weight","font-weight",2085804583),(500),new cljs.core.Keyword(null,"line-height","line-height",1870784992),"1rem",new cljs.core.Keyword(null,"letter-spacing","letter-spacing",-948993767),"0.08em",new cljs.core.Keyword(null,"text-transform","text-transform",1685000676),"uppercase"], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,".MuiSvgIcon-root",".MuiSvgIcon-root",2093876191),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"font-size","font-size",-1847940346),"24px"], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"input","input",556931961),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"font-family","font-family",-667419874),"inherit"], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"img","img",1442687358),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"max-width","max-width",-1939924051),"100%",new cljs.core.Keyword(null,"height","height",1025178622),"auto"], null)], null)], null)], null);
+athens.style.base_styles = new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"background-color","background-color",570434026),athens.style.color.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"background-color","background-color",570434026)),new cljs.core.Keyword(null,"font-family","font-family",-667419874),"IBM Plex Sans, Sans-Serif",new cljs.core.Keyword(null,"color","color",1011675173),athens.style.color.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"body-text-color","body-text-color",-349110936)),new cljs.core.Keyword(null,"font-size","font-size",-1847940346),"16px",new cljs.core.Keyword(null,"line-height","line-height",1870784992),"1.5",new cljs.core.Keyword("stylefy.core","manual","stylefy.core/manual",-1053755369),new cljs.core.PersistentVector(null, 10, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"a","a",-2123407586),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"color","color",1011675173),athens.style.color.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"link-color","link-color",1347118056))], null)], null),new cljs.core.PersistentVector(null, 7, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"h1","h1",-1896887462),new cljs.core.Keyword(null,"h2","h2",-372662728),new cljs.core.Keyword(null,"h3","h3",2067611163),new cljs.core.Keyword(null,"h4","h4",2004862993),new cljs.core.Keyword(null,"h5","h5",-1829156625),new cljs.core.Keyword(null,"h6","h6",557293780),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"margin","margin",-995903681),"0.2em 0",new cljs.core.Keyword(null,"line-height","line-height",1870784992),"1.3",new cljs.core.Keyword(null,"color","color",1011675173),athens.style.color.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"header-text-color","header-text-color",-2100972680))], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"h1","h1",-1896887462),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"font-size","font-size",-1847940346),"3.125em",new cljs.core.Keyword(null,"font-weight","font-weight",2085804583),(600),new cljs.core.Keyword(null,"letter-spacing","letter-spacing",-948993767),"-0.03em"], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"h2","h2",-372662728),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"font-size","font-size",-1847940346),"2.375em",new cljs.core.Keyword(null,"font-weight","font-weight",2085804583),(500),new cljs.core.Keyword(null,"letter-spacing","letter-spacing",-948993767),"-0.03em"], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"h3","h3",2067611163),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"font-size","font-size",-1847940346),"1.75em",new cljs.core.Keyword(null,"font-weight","font-weight",2085804583),(500),new cljs.core.Keyword(null,"letter-spacing","letter-spacing",-948993767),"-0.02em"], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"h4","h4",2004862993),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"font-size","font-size",-1847940346),"1.3125em"], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"h5","h5",-1829156625),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"font-size","font-size",-1847940346),"0.75em",new cljs.core.Keyword(null,"font-weight","font-weight",2085804583),(500),new cljs.core.Keyword(null,"line-height","line-height",1870784992),"1rem",new cljs.core.Keyword(null,"letter-spacing","letter-spacing",-948993767),"0.08em",new cljs.core.Keyword(null,"text-transform","text-transform",1685000676),"uppercase"], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,".MuiSvgIcon-root",".MuiSvgIcon-root",2093876191),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"font-size","font-size",-1847940346),"24px"], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"input","input",556931961),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"font-family","font-family",-667419874),"inherit"], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"img","img",1442687358),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"max-width","max-width",-1939924051),"100%",new cljs.core.Keyword(null,"height","height",1025178622),"auto"], null)], null)], null)], null);
 athens.style.app_styles = new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"overflow","overflow",2058931880),"hidden",new cljs.core.Keyword(null,"height","height",1025178622),"100vh",new cljs.core.Keyword(null,"width","width",-384071477),"100vw"], null);
 stylefy.core.tag("html",athens.style.base_styles);
-athens.style.THEME = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(athens.style.THEME_LIGHT);
-athens.style.THEME_DARK_QMARK_ = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(false);
-athens.style.kw_to_str = (function athens$style$kw_to_str(kw){
-return cljs.core.subs.cljs$core$IFn$_invoke$arity$2(cljs.core.str.cljs$core$IFn$_invoke$arity$1(kw),(1));
-});
-athens.style.css_theme_map = (function athens$style$css_theme_map(theme){
-return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,cljs.core.flatten(cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (k){
-var css_k = cljs.core.keyword.cljs$core$IFn$_invoke$arity$1(["--",athens.style.kw_to_str(k)].join(''));
-var val = (k.cljs$core$IFn$_invoke$arity$1 ? k.cljs$core$IFn$_invoke$arity$1(theme) : k.call(null,theme));
-return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [css_k,val], null);
-}),cljs.core.keys(theme))));
-});
-athens.style.switch_theme_BANG_ = (function athens$style$switch_theme_BANG_(new_theme){
-cljs.core.reset_BANG_(athens.style.THEME,new_theme);
-
-return stylefy.core.tag(":root",athens.style.css_theme_map(cljs.core.deref(athens.style.THEME)));
-});
-athens.style.toggle_theme_BANG_ = (function athens$style$toggle_theme_BANG_(){
-if(cljs.core.truth_(cljs.core.deref(athens.style.THEME_DARK_QMARK_))){
-athens.style.switch_theme_BANG_(athens.style.THEME_LIGHT);
-} else {
-athens.style.switch_theme_BANG_(athens.style.THEME_DARK);
-}
-
-return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$2(athens.style.THEME_DARK_QMARK_,cljs.core.not);
-});
-stylefy.core.tag(":root",athens.style.css_theme_map(cljs.core.deref(athens.style.THEME)));
-athens.style.cssv_BANG_ = (function athens$style$cssv_BANG_(var_args){
-var G__39043 = arguments.length;
-switch (G__39043) {
-case 1:
-return athens.style.cssv_BANG_.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
-
-break;
-case 2:
-return athens.style.cssv_BANG_.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
-
-break;
-default:
-throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(arguments.length)].join('')));
-
-}
-});
-
-(athens.style.cssv_BANG_.cljs$core$IFn$_invoke$arity$1 = (function (kw){
-return ["var(--",athens.style.kw_to_str(kw),")"].join('');
-}));
-
-(athens.style.cssv_BANG_.cljs$core$IFn$_invoke$arity$2 = (function (kw,alpha){
-var core_kw = athens.style.kw_to_str(kw);
-var core_kw_a = [core_kw,"-",cljs.core.str.cljs$core$IFn$_invoke$arity$1(((100) * alpha))].join('');
-var theme_kw = cljs.core.keyword.cljs$core$IFn$_invoke$arity$1(core_kw_a);
-var css_key = ["var(--",core_kw_a,")"].join('');
-var new_val = athens.style.color.cljs$core$IFn$_invoke$arity$2(kw,alpha);
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(athens.style.THEME,cljs.core.assoc,theme_kw,new_val);
-
-athens.style.switch_theme_BANG_(cljs.core.deref(athens.style.THEME));
-
-return css_key;
-}));
-
-(athens.style.cssv_BANG_.cljs$lang$maxFixedArity = 2);
-
+stylefy.core.tag(":root",cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"--highlight-color","--highlight-color",1947384416),new cljs.core.Keyword(null,"--body-text-color","--body-text-color",-1502718590),new cljs.core.Keyword(null,"--warning-color","--warning-color",-45877756),new cljs.core.Keyword(null,"--header-text-color","--header-text-color",1851032837),new cljs.core.Keyword(null,"--border-color","--border-color",319627302),new cljs.core.Keyword(null,"--background-minus-2","--background-minus-2",-903665369),new cljs.core.Keyword(null,"--confirmation-color","--confirmation-color",963823721),new cljs.core.Keyword(null,"--link-color","--link-color",-709479796),new cljs.core.Keyword("stylefy.core","media","stylefy.core/media",-1323617834),new cljs.core.Keyword(null,"--background-plus-1","--background-plus-1",912666233),new cljs.core.Keyword(null,"--background-color","--background-color",-1515223009),new cljs.core.Keyword(null,"--background-plus-2","--background-plus-2",-1656323809),new cljs.core.Keyword(null,"--background-minus-1","--background-minus-1",-594806177)],[new cljs.core.Keyword(null,"highlight-color","highlight-color",-1394121540).cljs$core$IFn$_invoke$arity$1(athens.style.THEME_LIGHT),new cljs.core.Keyword(null,"body-text-color","body-text-color",-349110936).cljs$core$IFn$_invoke$arity$1(athens.style.THEME_LIGHT),new cljs.core.Keyword(null,"warning-color","warning-color",924289810).cljs$core$IFn$_invoke$arity$1(athens.style.THEME_LIGHT),new cljs.core.Keyword(null,"header-text-color","header-text-color",-2100972680).cljs$core$IFn$_invoke$arity$1(athens.style.THEME_LIGHT),new cljs.core.Keyword(null,"border-color","border-color",-2059162761).cljs$core$IFn$_invoke$arity$1(athens.style.THEME_LIGHT),new cljs.core.Keyword(null,"background-minus-2","background-minus-2",-1711017591).cljs$core$IFn$_invoke$arity$1(athens.style.THEME_LIGHT),new cljs.core.Keyword(null,"confirmation-color","confirmation-color",346216600).cljs$core$IFn$_invoke$arity$1(athens.style.THEME_LIGHT),new cljs.core.Keyword(null,"link-color","link-color",1347118056).cljs$core$IFn$_invoke$arity$1(athens.style.THEME_LIGHT),cljs.core.PersistentArrayMap.createAsIfByAssoc([new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"prefers-color-scheme","prefers-color-scheme",-1885369990),"dark"], null),cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"--highlight-color","--highlight-color",1947384416),new cljs.core.Keyword(null,"--body-text-color","--body-text-color",-1502718590),new cljs.core.Keyword(null,"--warning-color","--warning-color",-45877756),new cljs.core.Keyword(null,"--header-text-color","--header-text-color",1851032837),new cljs.core.Keyword(null,"--border-color","--border-color",319627302),new cljs.core.Keyword(null,"--background-minus-2","--background-minus-2",-903665369),new cljs.core.Keyword(null,"--confirmation-color","--confirmation-color",963823721),new cljs.core.Keyword(null,"--link-color","--link-color",-709479796),new cljs.core.Keyword(null,"--background-plus-1","--background-plus-1",912666233),new cljs.core.Keyword(null,"--background-color","--background-color",-1515223009),new cljs.core.Keyword(null,"--background-plus-2","--background-plus-2",-1656323809),new cljs.core.Keyword(null,"--background-minus-1","--background-minus-1",-594806177)],[new cljs.core.Keyword(null,"highlight-color","highlight-color",-1394121540).cljs$core$IFn$_invoke$arity$1(athens.style.THEME_DARK),new cljs.core.Keyword(null,"body-text-color","body-text-color",-349110936).cljs$core$IFn$_invoke$arity$1(athens.style.THEME_DARK),new cljs.core.Keyword(null,"warning-color","warning-color",924289810).cljs$core$IFn$_invoke$arity$1(athens.style.THEME_DARK),new cljs.core.Keyword(null,"header-text-color","header-text-color",-2100972680).cljs$core$IFn$_invoke$arity$1(athens.style.THEME_DARK),new cljs.core.Keyword(null,"border-color","border-color",-2059162761).cljs$core$IFn$_invoke$arity$1(athens.style.THEME_DARK),new cljs.core.Keyword(null,"background-minus-2","background-minus-2",-1711017591).cljs$core$IFn$_invoke$arity$1(athens.style.THEME_DARK),new cljs.core.Keyword(null,"confirmation-color","confirmation-color",346216600).cljs$core$IFn$_invoke$arity$1(athens.style.THEME_DARK),new cljs.core.Keyword(null,"link-color","link-color",1347118056).cljs$core$IFn$_invoke$arity$1(athens.style.THEME_DARK),new cljs.core.Keyword(null,"background-plus-1","background-plus-1",-1065812304).cljs$core$IFn$_invoke$arity$1(athens.style.THEME_DARK),new cljs.core.Keyword(null,"background-color","background-color",570434026).cljs$core$IFn$_invoke$arity$1(athens.style.THEME_DARK),new cljs.core.Keyword(null,"background-plus-2","background-plus-2",-2111504159).cljs$core$IFn$_invoke$arity$1(athens.style.THEME_DARK),new cljs.core.Keyword(null,"background-minus-1","background-minus-1",-955162179).cljs$core$IFn$_invoke$arity$1(athens.style.THEME_DARK)])]),new cljs.core.Keyword(null,"background-plus-1","background-plus-1",-1065812304).cljs$core$IFn$_invoke$arity$1(athens.style.THEME_LIGHT),new cljs.core.Keyword(null,"background-color","background-color",570434026).cljs$core$IFn$_invoke$arity$1(athens.style.THEME_LIGHT),new cljs.core.Keyword(null,"background-plus-2","background-plus-2",-2111504159).cljs$core$IFn$_invoke$arity$1(athens.style.THEME_LIGHT),new cljs.core.Keyword(null,"background-minus-1","background-minus-1",-955162179).cljs$core$IFn$_invoke$arity$1(athens.style.THEME_LIGHT)]));
 stylefy.core.tag("*",new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"box-sizing","box-sizing",-1956090239),"border-box"], null));
 
 //# sourceMappingURL=athens.style.js.map
