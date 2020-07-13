@@ -151,14 +151,14 @@ var v_31767 = cljs.core.first(seq__31741_31761__$1);
 cljs.core.apply.cljs$core$IFn$_invoke$arity$2(reagent.dom.re_render_component,v_31767);
 
 
-var G__31768 = cljs.core.next(seq__31741_31761__$1);
-var G__31769 = null;
-var G__31770 = (0);
+var G__31769 = cljs.core.next(seq__31741_31761__$1);
+var G__31770 = null;
 var G__31771 = (0);
-seq__31741_31751 = G__31768;
-chunk__31742_31752 = G__31769;
-count__31743_31753 = G__31770;
-i__31744_31754 = G__31771;
+var G__31772 = (0);
+seq__31741_31751 = G__31769;
+chunk__31742_31752 = G__31770;
+count__31743_31753 = G__31771;
+i__31744_31754 = G__31772;
 continue;
 }
 } else {
