@@ -346,17 +346,17 @@ return (new garden.types.CSSFunction(self__.f,self__.args,self__.__meta,cljs.cor
 (garden.types.CSSFunction.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__4446__auto__,k__4447__auto__,G__32898){
 var self__ = this;
 var this__4446__auto____$1 = this;
-var pred__32912 = cljs.core.keyword_identical_QMARK_;
-var expr__32913 = k__4447__auto__;
-if(cljs.core.truth_((function (){var G__32916 = new cljs.core.Keyword(null,"f","f",-1597136552);
-var G__32917 = expr__32913;
-return (pred__32912.cljs$core$IFn$_invoke$arity$2 ? pred__32912.cljs$core$IFn$_invoke$arity$2(G__32916,G__32917) : pred__32912.call(null,G__32916,G__32917));
+var pred__32911 = cljs.core.keyword_identical_QMARK_;
+var expr__32912 = k__4447__auto__;
+if(cljs.core.truth_((function (){var G__32914 = new cljs.core.Keyword(null,"f","f",-1597136552);
+var G__32915 = expr__32912;
+return (pred__32911.cljs$core$IFn$_invoke$arity$2 ? pred__32911.cljs$core$IFn$_invoke$arity$2(G__32914,G__32915) : pred__32911.call(null,G__32914,G__32915));
 })())){
 return (new garden.types.CSSFunction(G__32898,self__.args,self__.__meta,self__.__extmap,null));
 } else {
-if(cljs.core.truth_((function (){var G__32918 = new cljs.core.Keyword(null,"args","args",1315556576);
-var G__32919 = expr__32913;
-return (pred__32912.cljs$core$IFn$_invoke$arity$2 ? pred__32912.cljs$core$IFn$_invoke$arity$2(G__32918,G__32919) : pred__32912.call(null,G__32918,G__32919));
+if(cljs.core.truth_((function (){var G__32917 = new cljs.core.Keyword(null,"args","args",1315556576);
+var G__32918 = expr__32912;
+return (pred__32911.cljs$core$IFn$_invoke$arity$2 ? pred__32911.cljs$core$IFn$_invoke$arity$2(G__32917,G__32918) : pred__32911.call(null,G__32917,G__32918));
 })())){
 return (new garden.types.CSSFunction(self__.f,G__32898,self__.__meta,self__.__extmap,null));
 } else {
@@ -459,9 +459,9 @@ return this__4439__auto____$1.cljs$core$ILookup$_lookup$arity$3(null,k__4440__au
 (garden.types.CSSAtRule.prototype.cljs$core$ILookup$_lookup$arity$3 = (function (this__4441__auto__,k32922,else__4442__auto__){
 var self__ = this;
 var this__4441__auto____$1 = this;
-var G__32927 = k32922;
-var G__32927__$1 = (((G__32927 instanceof cljs.core.Keyword))?G__32927.fqn:null);
-switch (G__32927__$1) {
+var G__32926 = k32922;
+var G__32926__$1 = (((G__32926 instanceof cljs.core.Keyword))?G__32926.fqn:null);
+switch (G__32926__$1) {
 case "identifier":
 return self__.identifier;
 
@@ -479,10 +479,10 @@ return cljs.core.get.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k32922,else__
 (garden.types.CSSAtRule.prototype.cljs$core$IKVReduce$_kv_reduce$arity$3 = (function (this__4458__auto__,f__4459__auto__,init__4460__auto__){
 var self__ = this;
 var this__4458__auto____$1 = this;
-return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (ret__4461__auto__,p__32928){
-var vec__32929 = p__32928;
-var k__4462__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32929,(0),null);
-var v__4463__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32929,(1),null);
+return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (ret__4461__auto__,p__32927){
+var vec__32928 = p__32927;
+var k__4462__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32928,(0),null);
+var v__4463__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32928,(1),null);
 return (f__4459__auto__.cljs$core$IFn$_invoke$arity$3 ? f__4459__auto__.cljs$core$IFn$_invoke$arity$3(ret__4461__auto__,k__4462__auto__,v__4463__auto__) : f__4459__auto__.call(null,ret__4461__auto__,k__4462__auto__,v__4463__auto__));
 }),init__4460__auto__,this__4458__auto____$1);
 }));
@@ -527,10 +527,10 @@ var h__4297__auto__ = self__.__hash;
 if((!((h__4297__auto__ == null)))){
 return h__4297__auto__;
 } else {
-var h__4297__auto____$1 = (function (){var fexpr__32934 = (function (coll__4436__auto__){
+var h__4297__auto____$1 = (function (){var fexpr__32932 = (function (coll__4436__auto__){
 return (-1632374092 ^ cljs.core.hash_unordered_coll(coll__4436__auto__));
 });
-return fexpr__32934(this__4435__auto____$1);
+return fexpr__32932(this__4435__auto____$1);
 })();
 (self__.__hash = h__4297__auto____$1);
 

@@ -23,24 +23,24 @@ return cljs.core.conj.cljs$core$IFn$_invoke$arity$2(elements_so_far,elmt);
  */
 athens.parser.transform_to_ast = (function athens$parser$transform_to_ast(tree){
 var G__58041 = new cljs.core.PersistentArrayMap(null, 6, [new cljs.core.Keyword(null,"block","block",664686210),(function() { 
-var G__58069__delegate = function (raw_contents){
+var G__58068__delegate = function (raw_contents){
 return cljs.core.into.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"block","block",664686210)], null),athens.parser.combine_adjacent_strings(raw_contents));
 };
-var G__58069 = function (var_args){
+var G__58068 = function (var_args){
 var raw_contents = null;
 if (arguments.length > 0) {
-var G__58072__i = 0, G__58072__a = new Array(arguments.length -  0);
-while (G__58072__i < G__58072__a.length) {G__58072__a[G__58072__i] = arguments[G__58072__i + 0]; ++G__58072__i;}
-  raw_contents = new cljs.core.IndexedSeq(G__58072__a,0,null);
+var G__58070__i = 0, G__58070__a = new Array(arguments.length -  0);
+while (G__58070__i < G__58070__a.length) {G__58070__a[G__58070__i] = arguments[G__58070__i + 0]; ++G__58070__i;}
+  raw_contents = new cljs.core.IndexedSeq(G__58070__a,0,null);
 } 
-return G__58069__delegate.call(this,raw_contents);};
-G__58069.cljs$lang$maxFixedArity = 0;
-G__58069.cljs$lang$applyTo = (function (arglist__58073){
-var raw_contents = cljs.core.seq(arglist__58073);
-return G__58069__delegate(raw_contents);
+return G__58068__delegate.call(this,raw_contents);};
+G__58068.cljs$lang$maxFixedArity = 0;
+G__58068.cljs$lang$applyTo = (function (arglist__58072){
+var raw_contents = cljs.core.seq(arglist__58072);
+return G__58068__delegate(raw_contents);
 });
-G__58069.cljs$core$IFn$_invoke$arity$variadic = G__58069__delegate;
-return G__58069;
+G__58068.cljs$core$IFn$_invoke$arity$variadic = G__58068__delegate;
+return G__58068;
 })()
 ,new cljs.core.Keyword(null,"url-image","url-image",535142411),(function (p__58043,url){
 var vec__58044 = p__58043;

@@ -56,9 +56,9 @@ return (p1__33419_SHARP_.cljs$core$IFn$_invoke$arity$1 ? p1__33419_SHARP_.cljs$c
 (garden.compression.tokenizer.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(garden.compression.tokenizer.cljs$lang$applyTo = (function (seq33421){
+(garden.compression.tokenizer.cljs$lang$applyTo = (function (seq33420){
 var self__4777__auto__ = this;
-return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq33421));
+return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq33420));
 }));
 
 /**

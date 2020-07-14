@@ -297,12 +297,12 @@ return sablono.interpreter.interpret_seq(this$__$1);
 
 goog.object.set(sablono.interpreter.IInterpreter,"_",true);
 
-var G__39732_39751 = sablono.interpreter.interpret;
-var G__39733_39752 = "_";
-var G__39734_39753 = (function (this$){
+var G__39732_39753 = sablono.interpreter.interpret;
+var G__39733_39754 = "_";
+var G__39734_39755 = (function (this$){
 return this$;
 });
-goog.object.set(G__39732_39751,G__39733_39752,G__39734_39753);
+goog.object.set(G__39732_39753,G__39733_39754,G__39734_39755);
 
 (cljs.core.Cons.prototype.sablono$interpreter$IInterpreter$ = cljs.core.PROTOCOL_SENTINEL);
 

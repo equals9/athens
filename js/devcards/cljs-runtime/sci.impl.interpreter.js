@@ -175,8 +175,8 @@ return (sci.impl.interpreter.interpret.cljs$core$IFn$_invoke$arity$2 ? sci.impl.
 return (sci.impl.interpreter.interpret.cljs$core$IFn$_invoke$arity$2 ? sci.impl.interpreter.interpret.cljs$core$IFn$_invoke$arity$2(ctx,else$) : sci.impl.interpreter.interpret.call(null,ctx,else$));
 }
 });
-sci.impl.interpreter.eval_def = (function sci$impl$interpreter$eval_def(ctx,p__59642){
-var vec__59644 = p__59642;
+sci.impl.interpreter.eval_def = (function sci$impl$interpreter$eval_def(ctx,p__59643){
+var vec__59644 = p__59643;
 var _def = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59644,(0),null);
 var var_name = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59644,(1),null);
 var _QMARK_docstring = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59644,(2),null);
@@ -379,11 +379,11 @@ var env__$1 = cljs.core.assoc_in(env,new cljs.core.PersistentVector(null, 2, 5, 
 return env__$1;
 });
 sci.impl.interpreter.handle_require_libspec = (function sci$impl$interpreter$handle_require_libspec(ctx,libspec){
-var map__59683 = sci.impl.interpreter.parse_libspec(libspec);
-var map__59683__$1 = (((((!((map__59683 == null))))?(((((map__59683.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__59683.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__59683):map__59683);
-var parsed_libspec = map__59683__$1;
-var lib_name = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59683__$1,new cljs.core.Keyword(null,"lib-name","lib-name",1158024282));
-var reload = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59683__$1,new cljs.core.Keyword(null,"reload","reload",863702807));
+var map__59684 = sci.impl.interpreter.parse_libspec(libspec);
+var map__59684__$1 = (((((!((map__59684 == null))))?(((((map__59684.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__59684.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__59684):map__59684);
+var parsed_libspec = map__59684__$1;
+var lib_name = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59684__$1,new cljs.core.Keyword(null,"lib-name","lib-name",1158024282));
+var reload = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59684__$1,new cljs.core.Keyword(null,"reload","reload",863702807));
 var env_STAR_ = new cljs.core.Keyword(null,"env","env",-1815813235).cljs$core$IFn$_invoke$arity$1(ctx);
 var env = cljs.core.deref(env_STAR_);
 var cnn = sci.impl.vars.current_ns_name();
