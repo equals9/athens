@@ -323,56 +323,56 @@ if(cljs.core.empty_QMARK_(opts__$1)){
 return acc;
 } else {
 if(typeof f === 'number'){
-var G__46092 = cljs.core.next(opts__$1);
-var G__46093 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(acc,new cljs.core.Keyword(null,"n","n",562130025),f);
-opts__$1 = G__46092;
-acc = G__46093;
+var G__46087 = cljs.core.next(opts__$1);
+var G__46088 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(acc,new cljs.core.Keyword(null,"n","n",562130025),f);
+opts__$1 = G__46087;
+acc = G__46088;
 continue;
 } else {
 if(typeof f === 'string'){
+var G__46089 = cljs.core.next(opts__$1);
+var G__46090 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(acc,new cljs.core.Keyword(null,"msg","msg",-1386103444),f);
+opts__$1 = G__46089;
+acc = G__46090;
+continue;
+} else {
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(f,new cljs.core.Keyword(null,"if","if",-458814265))){
+var G__46091 = cljs.core.nnext(opts__$1);
+var G__46092 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(acc,new cljs.core.Keyword(null,"condition","condition",1668437652),s);
+opts__$1 = G__46091;
+acc = G__46092;
+continue;
+} else {
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(f,new cljs.core.Keyword(null,"js","js",1768080579))){
+var G__46093 = cljs.core.next(opts__$1);
+var G__46094 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(acc,new cljs.core.Keyword(null,"js","js",1768080579),true);
+opts__$1 = G__46093;
+acc = G__46094;
+continue;
+} else {
+if(cljs.core.truth_((function (){var fexpr__46058 = new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"o","o",-1350007228),null,new cljs.core.Keyword(null,"once","once",-262568523),null], null), null);
+return (fexpr__46058.cljs$core$IFn$_invoke$arity$1 ? fexpr__46058.cljs$core$IFn$_invoke$arity$1(f) : fexpr__46058.call(null,f));
+})())){
 var G__46095 = cljs.core.next(opts__$1);
-var G__46096 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(acc,new cljs.core.Keyword(null,"msg","msg",-1386103444),f);
+var G__46096 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(acc,new cljs.core.Keyword(null,"once","once",-262568523),true);
 opts__$1 = G__46095;
 acc = G__46096;
 continue;
 } else {
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(f,new cljs.core.Keyword(null,"if","if",-458814265))){
+if(cljs.core.truth_((function (){var fexpr__46059 = new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"s","s",1705939918),null,new cljs.core.Keyword(null,"style","style",-496642736),null], null), null);
+return (fexpr__46059.cljs$core$IFn$_invoke$arity$1 ? fexpr__46059.cljs$core$IFn$_invoke$arity$1(f) : fexpr__46059.call(null,f));
+})())){
 var G__46097 = cljs.core.nnext(opts__$1);
-var G__46098 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(acc,new cljs.core.Keyword(null,"condition","condition",1668437652),s);
+var G__46098 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(acc,new cljs.core.Keyword(null,"style","style",-496642736),s);
 opts__$1 = G__46097;
 acc = G__46098;
 continue;
 } else {
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(f,new cljs.core.Keyword(null,"js","js",1768080579))){
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(f,new cljs.core.Keyword(null,"clog","clog",954273629))){
 var G__46099 = cljs.core.next(opts__$1);
-var G__46100 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(acc,new cljs.core.Keyword(null,"js","js",1768080579),true);
+var G__46100 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(acc,new cljs.core.Keyword(null,"clog","clog",954273629),true);
 opts__$1 = G__46099;
 acc = G__46100;
-continue;
-} else {
-if(cljs.core.truth_((function (){var fexpr__46056 = new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"o","o",-1350007228),null,new cljs.core.Keyword(null,"once","once",-262568523),null], null), null);
-return (fexpr__46056.cljs$core$IFn$_invoke$arity$1 ? fexpr__46056.cljs$core$IFn$_invoke$arity$1(f) : fexpr__46056.call(null,f));
-})())){
-var G__46101 = cljs.core.next(opts__$1);
-var G__46102 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(acc,new cljs.core.Keyword(null,"once","once",-262568523),true);
-opts__$1 = G__46101;
-acc = G__46102;
-continue;
-} else {
-if(cljs.core.truth_((function (){var fexpr__46057 = new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"s","s",1705939918),null,new cljs.core.Keyword(null,"style","style",-496642736),null], null), null);
-return (fexpr__46057.cljs$core$IFn$_invoke$arity$1 ? fexpr__46057.cljs$core$IFn$_invoke$arity$1(f) : fexpr__46057.call(null,f));
-})())){
-var G__46103 = cljs.core.nnext(opts__$1);
-var G__46104 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(acc,new cljs.core.Keyword(null,"style","style",-496642736),s);
-opts__$1 = G__46103;
-acc = G__46104;
-continue;
-} else {
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(f,new cljs.core.Keyword(null,"clog","clog",954273629))){
-var G__46105 = cljs.core.next(opts__$1);
-var G__46106 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(acc,new cljs.core.Keyword(null,"clog","clog",954273629),true);
-opts__$1 = G__46105;
-acc = G__46106;
 continue;
 } else {
 return null;
