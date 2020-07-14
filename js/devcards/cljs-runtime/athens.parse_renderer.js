@@ -23,14 +23,14 @@ return cljs.core.concat.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVe
 var G__58012 = function (var_args){
 var contents = null;
 if (arguments.length > 0) {
-var G__58013__i = 0, G__58013__a = new Array(arguments.length -  0);
-while (G__58013__i < G__58013__a.length) {G__58013__a[G__58013__i] = arguments[G__58013__i + 0]; ++G__58013__i;}
-  contents = new cljs.core.IndexedSeq(G__58013__a,0,null);
+var G__58014__i = 0, G__58014__a = new Array(arguments.length -  0);
+while (G__58014__i < G__58014__a.length) {G__58014__a[G__58014__i] = arguments[G__58014__i + 0]; ++G__58014__i;}
+  contents = new cljs.core.IndexedSeq(G__58014__a,0,null);
 } 
 return G__58012__delegate.call(this,contents);};
 G__58012.cljs$lang$maxFixedArity = 0;
-G__58012.cljs$lang$applyTo = (function (arglist__58014){
-var contents = cljs.core.seq(arglist__58014);
+G__58012.cljs$lang$applyTo = (function (arglist__58015){
+var contents = cljs.core.seq(arglist__58015);
 return G__58012__delegate(contents);
 });
 G__58012.cljs$core$IFn$_invoke$arity$variadic = G__58012__delegate;

@@ -363,12 +363,12 @@ return [ns,(cljs.core.truth_(ns)?"/":null),cljs.core.name(this$__$1)].join('');
 
 goog.object.set(reitit.impl.IntoString,"boolean",true);
 
-var G__49849_49880 = reitit.impl.into_string;
-var G__49850_49881 = "boolean";
-var G__49851_49882 = (function (this$){
+var G__49849_49881 = reitit.impl.into_string;
+var G__49850_49882 = "boolean";
+var G__49851_49883 = (function (this$){
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(this$);
 });
-goog.object.set(G__49849_49880,G__49850_49881,G__49851_49882);
+goog.object.set(G__49849_49881,G__49850_49882,G__49851_49883);
 
 goog.object.set(reitit.impl.IntoString,"number",true);
 

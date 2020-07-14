@@ -461,8 +461,8 @@ return posh.plugin_base.q_info.cljs$core$IFn$_invoke$arity$variadic((arguments[(
 
 (posh.plugin_base.q_info.cljs$core$IFn$_invoke$arity$variadic = (function (dcfg,query,args){
 var true_poshdb_args = cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__31287_SHARP_){
-if(cljs.core.truth_((function (){var fexpr__31297 = new cljs.core.Keyword(null,"conn?","conn?",167224275).cljs$core$IFn$_invoke$arity$1(dcfg);
-return (fexpr__31297.cljs$core$IFn$_invoke$arity$1 ? fexpr__31297.cljs$core$IFn$_invoke$arity$1(p1__31287_SHARP_) : fexpr__31297.call(null,p1__31287_SHARP_));
+if(cljs.core.truth_((function (){var fexpr__31299 = new cljs.core.Keyword(null,"conn?","conn?",167224275).cljs$core$IFn$_invoke$arity$1(dcfg);
+return (fexpr__31299.cljs$core$IFn$_invoke$arity$1 ? fexpr__31299.cljs$core$IFn$_invoke$arity$1(p1__31287_SHARP_) : fexpr__31299.call(null,p1__31287_SHARP_));
 })())){
 return posh.plugin_base.get_db(dcfg,p1__31287_SHARP_);
 } else {
@@ -482,10 +482,10 @@ return cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(posh.lib.update.update_q(c
 (posh.plugin_base.q_info.cljs$lang$applyTo = (function (seq31289){
 var G__31290 = cljs.core.first(seq31289);
 var seq31289__$1 = cljs.core.next(seq31289);
-var G__31291 = cljs.core.first(seq31289__$1);
+var G__31292 = cljs.core.first(seq31289__$1);
 var seq31289__$2 = cljs.core.next(seq31289__$1);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__31290,G__31291,seq31289__$2);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__31290,G__31292,seq31289__$2);
 }));
 
 posh.plugin_base.q_tx = (function posh$plugin_base$q_tx(var_args){
@@ -517,15 +517,15 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$4(posh.plugin_base.q,dcfg,que
 (posh.plugin_base.q_tx.cljs$lang$maxFixedArity = (3));
 
 /** @this {Function} */
-(posh.plugin_base.q_tx.cljs$lang$applyTo = (function (seq31305){
-var G__31306 = cljs.core.first(seq31305);
-var seq31305__$1 = cljs.core.next(seq31305);
-var G__31307 = cljs.core.first(seq31305__$1);
-var seq31305__$2 = cljs.core.next(seq31305__$1);
-var G__31308 = cljs.core.first(seq31305__$2);
-var seq31305__$3 = cljs.core.next(seq31305__$2);
+(posh.plugin_base.q_tx.cljs$lang$applyTo = (function (seq31307){
+var G__31308 = cljs.core.first(seq31307);
+var seq31307__$1 = cljs.core.next(seq31307);
+var G__31309 = cljs.core.first(seq31307__$1);
+var seq31307__$2 = cljs.core.next(seq31307__$1);
+var G__31310 = cljs.core.first(seq31307__$2);
+var seq31307__$3 = cljs.core.next(seq31307__$2);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__31306,G__31307,G__31308,seq31305__$3);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__31308,G__31309,G__31310,seq31307__$3);
 }));
 
 posh.plugin_base.filter_tx = (function posh$plugin_base$filter_tx(dcfg,poshdb,tx_patterns){
@@ -555,13 +555,13 @@ return posh.plugin_base.filter_q.cljs$core$IFn$_invoke$arity$variadic((arguments
 });
 
 (posh.plugin_base.filter_q.cljs$core$IFn$_invoke$arity$variadic = (function (dcfg,query,args){
-var true_poshdb_args = cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__31321_SHARP_){
+var true_poshdb_args = cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__31322_SHARP_){
 if(cljs.core.truth_((function (){var fexpr__31330 = new cljs.core.Keyword(null,"conn?","conn?",167224275).cljs$core$IFn$_invoke$arity$1(dcfg);
-return (fexpr__31330.cljs$core$IFn$_invoke$arity$1 ? fexpr__31330.cljs$core$IFn$_invoke$arity$1(p1__31321_SHARP_) : fexpr__31330.call(null,p1__31321_SHARP_));
+return (fexpr__31330.cljs$core$IFn$_invoke$arity$1 ? fexpr__31330.cljs$core$IFn$_invoke$arity$1(p1__31322_SHARP_) : fexpr__31330.call(null,p1__31322_SHARP_));
 })())){
-return posh.plugin_base.get_db(dcfg,p1__31321_SHARP_);
+return posh.plugin_base.get_db(dcfg,p1__31322_SHARP_);
 } else {
-return p1__31321_SHARP_;
+return p1__31322_SHARP_;
 }
 }),args);
 return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(posh.stateful.add_filter_q,query,true_poshdb_args);
@@ -570,13 +570,13 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(posh.stateful.add_filter_q,
 (posh.plugin_base.filter_q.cljs$lang$maxFixedArity = (2));
 
 /** @this {Function} */
-(posh.plugin_base.filter_q.cljs$lang$applyTo = (function (seq31322){
-var G__31323 = cljs.core.first(seq31322);
-var seq31322__$1 = cljs.core.next(seq31322);
-var G__31325 = cljs.core.first(seq31322__$1);
-var seq31322__$2 = cljs.core.next(seq31322__$1);
+(posh.plugin_base.filter_q.cljs$lang$applyTo = (function (seq31326){
+var G__31327 = cljs.core.first(seq31326);
+var seq31326__$1 = cljs.core.next(seq31326);
+var G__31329 = cljs.core.first(seq31326__$1);
+var seq31326__$2 = cljs.core.next(seq31326__$1);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__31323,G__31325,seq31322__$2);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__31327,G__31329,seq31326__$2);
 }));
 
 posh.plugin_base.transact_BANG_ = (function posh$plugin_base$transact_BANG_(dcfg,poshdb_or_conn,txs){

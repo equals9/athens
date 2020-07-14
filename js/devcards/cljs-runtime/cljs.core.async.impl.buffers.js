@@ -111,9 +111,9 @@ var n__4666__auto__ = self__.length;
 var x = (0);
 while(true){
 if((x < n__4666__auto__)){
-var v_34862 = this$.pop();
-if((keep_QMARK_.cljs$core$IFn$_invoke$arity$1 ? keep_QMARK_.cljs$core$IFn$_invoke$arity$1(v_34862) : keep_QMARK_.call(null,v_34862))){
-this$.unshift(v_34862);
+var v_34858 = this$.pop();
+if((keep_QMARK_.cljs$core$IFn$_invoke$arity$1 ? keep_QMARK_.cljs$core$IFn$_invoke$arity$1(v_34858) : keep_QMARK_.call(null,v_34858))){
+this$.unshift(v_34858);
 } else {
 }
 
