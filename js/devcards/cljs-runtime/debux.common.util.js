@@ -284,20 +284,20 @@ return ["  ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(p1__46048_SHARP_)].join
 debux.common.util.pprint_result_with_indent = (function debux$common$util$pprint_result_with_indent(result,indent_level){
 var res = result;
 var result__$1 = (function (){var sb__4720__auto__ = (new goog.string.StringBuffer());
-var _STAR_print_newline_STAR__orig_val__46050_46089 = cljs.core._STAR_print_newline_STAR_;
-var _STAR_print_fn_STAR__orig_val__46051_46090 = cljs.core._STAR_print_fn_STAR_;
-var _STAR_print_newline_STAR__temp_val__46052_46091 = true;
-var _STAR_print_fn_STAR__temp_val__46053_46092 = (function (x__4721__auto__){
+var _STAR_print_newline_STAR__orig_val__46050_46083 = cljs.core._STAR_print_newline_STAR_;
+var _STAR_print_fn_STAR__orig_val__46051_46084 = cljs.core._STAR_print_fn_STAR_;
+var _STAR_print_newline_STAR__temp_val__46052_46085 = true;
+var _STAR_print_fn_STAR__temp_val__46053_46086 = (function (x__4721__auto__){
 return sb__4720__auto__.append(x__4721__auto__);
 });
-(cljs.core._STAR_print_newline_STAR_ = _STAR_print_newline_STAR__temp_val__46052_46091);
+(cljs.core._STAR_print_newline_STAR_ = _STAR_print_newline_STAR__temp_val__46052_46085);
 
-(cljs.core._STAR_print_fn_STAR_ = _STAR_print_fn_STAR__temp_val__46053_46092);
+(cljs.core._STAR_print_fn_STAR_ = _STAR_print_fn_STAR__temp_val__46053_46086);
 
 try{cljs.pprint.pprint.cljs$core$IFn$_invoke$arity$1(res);
-}finally {(cljs.core._STAR_print_fn_STAR_ = _STAR_print_fn_STAR__orig_val__46051_46090);
+}finally {(cljs.core._STAR_print_fn_STAR_ = _STAR_print_fn_STAR__orig_val__46051_46084);
 
-(cljs.core._STAR_print_newline_STAR_ = _STAR_print_newline_STAR__orig_val__46050_46089);
+(cljs.core._STAR_print_newline_STAR_ = _STAR_print_newline_STAR__orig_val__46050_46083);
 }
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(sb__4720__auto__);
 })();
@@ -323,10 +323,10 @@ if(cljs.core.empty_QMARK_(opts__$1)){
 return acc;
 } else {
 if(typeof f === 'number'){
-var G__46093 = cljs.core.next(opts__$1);
-var G__46094 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(acc,new cljs.core.Keyword(null,"n","n",562130025),f);
-opts__$1 = G__46093;
-acc = G__46094;
+var G__46092 = cljs.core.next(opts__$1);
+var G__46093 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(acc,new cljs.core.Keyword(null,"n","n",562130025),f);
+opts__$1 = G__46092;
+acc = G__46093;
 continue;
 } else {
 if(typeof f === 'string'){
@@ -350,8 +350,8 @@ opts__$1 = G__46099;
 acc = G__46100;
 continue;
 } else {
-if(cljs.core.truth_((function (){var fexpr__46058 = new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"o","o",-1350007228),null,new cljs.core.Keyword(null,"once","once",-262568523),null], null), null);
-return (fexpr__46058.cljs$core$IFn$_invoke$arity$1 ? fexpr__46058.cljs$core$IFn$_invoke$arity$1(f) : fexpr__46058.call(null,f));
+if(cljs.core.truth_((function (){var fexpr__46056 = new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"o","o",-1350007228),null,new cljs.core.Keyword(null,"once","once",-262568523),null], null), null);
+return (fexpr__46056.cljs$core$IFn$_invoke$arity$1 ? fexpr__46056.cljs$core$IFn$_invoke$arity$1(f) : fexpr__46056.call(null,f));
 })())){
 var G__46101 = cljs.core.next(opts__$1);
 var G__46102 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(acc,new cljs.core.Keyword(null,"once","once",-262568523),true);
@@ -359,8 +359,8 @@ opts__$1 = G__46101;
 acc = G__46102;
 continue;
 } else {
-if(cljs.core.truth_((function (){var fexpr__46059 = new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"s","s",1705939918),null,new cljs.core.Keyword(null,"style","style",-496642736),null], null), null);
-return (fexpr__46059.cljs$core$IFn$_invoke$arity$1 ? fexpr__46059.cljs$core$IFn$_invoke$arity$1(f) : fexpr__46059.call(null,f));
+if(cljs.core.truth_((function (){var fexpr__46057 = new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"s","s",1705939918),null,new cljs.core.Keyword(null,"style","style",-496642736),null], null), null);
+return (fexpr__46057.cljs$core$IFn$_invoke$arity$1 ? fexpr__46057.cljs$core$IFn$_invoke$arity$1(f) : fexpr__46057.call(null,f));
 })())){
 var G__46103 = cljs.core.nnext(opts__$1);
 var G__46104 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(acc,new cljs.core.Keyword(null,"style","style",-496642736),s);
