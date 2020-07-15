@@ -804,10 +804,10 @@ return tick.alpha.api._GT_.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(argum
 break;
 default:
 var args_arr__4810__auto__ = [];
-var len__4789__auto___55879 = arguments.length;
+var len__4789__auto___55880 = arguments.length;
 var i__4790__auto___55881 = (0);
 while(true){
-if((i__4790__auto___55881 < len__4789__auto___55879)){
+if((i__4790__auto___55881 < len__4789__auto___55880)){
 args_arr__4810__auto__.push((arguments[i__4790__auto___55881]));
 
 var G__55882 = (i__4790__auto___55881 + (1));

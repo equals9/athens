@@ -79,7 +79,7 @@ return result__46799__auto__;
 debux.common.util.send_trace_BANG_(new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"result","result",1415092211),result__46799__auto__,new cljs.core.Keyword(null,"form","form",-1624062471),cljs.core.list(new cljs.core.Keyword("left-sidebar","open","left-sidebar/open",-686633270),new cljs.core.Symbol(null,"db","db",-1661185010,null)),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),(0)], null));
 
 return result__46799__auto__;
-}catch (e55931){var e = e55931;
+}catch (e55934){var e = e55934;
 throw e;
 }}):(function (db,_){
 return new cljs.core.Keyword("left-sidebar","open","left-sidebar/open",-686633270).cljs$core$IFn$_invoke$arity$1(db);

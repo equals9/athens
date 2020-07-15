@@ -139,16 +139,16 @@ if(clojure.zip.end_QMARK_(loc)){
 return clojure.zip.root(loc);
 } else {
 if((clojure.zip.node(loc) instanceof cljs.core.Symbol)){
-var G__46330 = clojure.zip.next(clojure.zip.edit(loc,((function (loc,mapping){
+var G__46324 = clojure.zip.next(clojure.zip.edit(loc,((function (loc,mapping){
 return (function (sym){
 return cljs.core.symbol.cljs$core$IFn$_invoke$arity$1(cljs.core.get.cljs$core$IFn$_invoke$arity$3(mapping,cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([sym], 0)),sym));
 });})(loc,mapping))
 ));
-loc = G__46330;
+loc = G__46324;
 continue;
 } else {
-var G__46331 = clojure.zip.next(loc);
-loc = G__46331;
+var G__46325 = clojure.zip.next(loc);
+loc = G__46325;
 continue;
 }
 }
@@ -157,8 +157,8 @@ break;
 });
 debux.common.util.send_form_BANG_ = (function debux$common$util$send_form_BANG_(form){
 if(re_frame.trace.is_trace_enabled_QMARK_()){
-var new_trace__46204__auto___46332 = cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([cljs.core.update.cljs$core$IFn$_invoke$arity$4(re_frame.trace._STAR_current_trace_STAR_,new cljs.core.Keyword(null,"tags","tags",1771418977),cljs.core.merge,new cljs.core.Keyword(null,"tags","tags",1771418977).cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"tags","tags",1771418977),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"form","form",-1624062471),form], null)], null))),cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"tags","tags",1771418977),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"form","form",-1624062471),form], null)], null),new cljs.core.Keyword(null,"tags","tags",1771418977))], 0));
-(re_frame.trace._STAR_current_trace_STAR_ = new_trace__46204__auto___46332);
+var new_trace__46204__auto___46326 = cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([cljs.core.update.cljs$core$IFn$_invoke$arity$4(re_frame.trace._STAR_current_trace_STAR_,new cljs.core.Keyword(null,"tags","tags",1771418977),cljs.core.merge,new cljs.core.Keyword(null,"tags","tags",1771418977).cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"tags","tags",1771418977),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"form","form",-1624062471),form], null)], null))),cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"tags","tags",1771418977),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"form","form",-1624062471),form], null)], null),new cljs.core.Keyword(null,"tags","tags",1771418977))], 0));
+(re_frame.trace._STAR_current_trace_STAR_ = new_trace__46204__auto___46326);
 
 return null;
 } else {
@@ -168,8 +168,8 @@ return null;
 debux.common.util.send_trace_BANG_ = (function debux$common$util$send_trace_BANG_(code_trace){
 var code = cljs.core.get_in.cljs$core$IFn$_invoke$arity$3(re_frame.trace._STAR_current_trace_STAR_,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"tags","tags",1771418977),new cljs.core.Keyword(null,"code","code",1586293142)], null),cljs.core.PersistentVector.EMPTY);
 if(re_frame.trace.is_trace_enabled_QMARK_()){
-var new_trace__46204__auto___46333 = cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([cljs.core.update.cljs$core$IFn$_invoke$arity$4(re_frame.trace._STAR_current_trace_STAR_,new cljs.core.Keyword(null,"tags","tags",1771418977),cljs.core.merge,new cljs.core.Keyword(null,"tags","tags",1771418977).cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"tags","tags",1771418977),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"code","code",1586293142),cljs.core.conj.cljs$core$IFn$_invoke$arity$2(code,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"form","form",-1624062471),debux.common.util.tidy_macroexpanded_form(new cljs.core.Keyword(null,"form","form",-1624062471).cljs$core$IFn$_invoke$arity$1(code_trace),cljs.core.PersistentArrayMap.EMPTY),new cljs.core.Keyword(null,"result","result",1415092211),new cljs.core.Keyword(null,"result","result",1415092211).cljs$core$IFn$_invoke$arity$1(code_trace),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684).cljs$core$IFn$_invoke$arity$1(code_trace)], null))], null)], null))),cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"tags","tags",1771418977),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"code","code",1586293142),cljs.core.conj.cljs$core$IFn$_invoke$arity$2(code,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"form","form",-1624062471),debux.common.util.tidy_macroexpanded_form(new cljs.core.Keyword(null,"form","form",-1624062471).cljs$core$IFn$_invoke$arity$1(code_trace),cljs.core.PersistentArrayMap.EMPTY),new cljs.core.Keyword(null,"result","result",1415092211),new cljs.core.Keyword(null,"result","result",1415092211).cljs$core$IFn$_invoke$arity$1(code_trace),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684).cljs$core$IFn$_invoke$arity$1(code_trace)], null))], null)], null),new cljs.core.Keyword(null,"tags","tags",1771418977))], 0));
-(re_frame.trace._STAR_current_trace_STAR_ = new_trace__46204__auto___46333);
+var new_trace__46204__auto___46330 = cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([cljs.core.update.cljs$core$IFn$_invoke$arity$4(re_frame.trace._STAR_current_trace_STAR_,new cljs.core.Keyword(null,"tags","tags",1771418977),cljs.core.merge,new cljs.core.Keyword(null,"tags","tags",1771418977).cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"tags","tags",1771418977),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"code","code",1586293142),cljs.core.conj.cljs$core$IFn$_invoke$arity$2(code,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"form","form",-1624062471),debux.common.util.tidy_macroexpanded_form(new cljs.core.Keyword(null,"form","form",-1624062471).cljs$core$IFn$_invoke$arity$1(code_trace),cljs.core.PersistentArrayMap.EMPTY),new cljs.core.Keyword(null,"result","result",1415092211),new cljs.core.Keyword(null,"result","result",1415092211).cljs$core$IFn$_invoke$arity$1(code_trace),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684).cljs$core$IFn$_invoke$arity$1(code_trace)], null))], null)], null))),cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"tags","tags",1771418977),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"code","code",1586293142),cljs.core.conj.cljs$core$IFn$_invoke$arity$2(code,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"form","form",-1624062471),debux.common.util.tidy_macroexpanded_form(new cljs.core.Keyword(null,"form","form",-1624062471).cljs$core$IFn$_invoke$arity$1(code_trace),cljs.core.PersistentArrayMap.EMPTY),new cljs.core.Keyword(null,"result","result",1415092211),new cljs.core.Keyword(null,"result","result",1415092211).cljs$core$IFn$_invoke$arity$1(code_trace),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684),new cljs.core.Keyword(null,"indent-level","indent-level",-258835684).cljs$core$IFn$_invoke$arity$1(code_trace)], null))], null)], null),new cljs.core.Keyword(null,"tags","tags",1771418977))], 0));
+(re_frame.trace._STAR_current_trace_STAR_ = new_trace__46204__auto___46330);
 
 return null;
 } else {
@@ -269,11 +269,11 @@ return and__4174__auto__;
 (debux.common.util.form_header.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(debux.common.util.form_header.cljs$lang$applyTo = (function (seq46292){
-var G__46293 = cljs.core.first(seq46292);
-var seq46292__$1 = cljs.core.next(seq46292);
+(debux.common.util.form_header.cljs$lang$applyTo = (function (seq46290){
+var G__46291 = cljs.core.first(seq46290);
+var seq46290__$1 = cljs.core.next(seq46290);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__46293,seq46292__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__46291,seq46290__$1);
 }));
 
 debux.common.util.prepend_blanks = (function debux$common$util$prepend_blanks(lines){
@@ -362,17 +362,17 @@ continue;
 if(cljs.core.truth_((function (){var fexpr__46307 = new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"s","s",1705939918),null,new cljs.core.Keyword(null,"style","style",-496642736),null], null), null);
 return (fexpr__46307.cljs$core$IFn$_invoke$arity$1 ? fexpr__46307.cljs$core$IFn$_invoke$arity$1(f) : fexpr__46307.call(null,f));
 })())){
-var G__46353 = cljs.core.nnext(opts__$1);
-var G__46354 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(acc,new cljs.core.Keyword(null,"style","style",-496642736),s);
-opts__$1 = G__46353;
-acc = G__46354;
+var G__46351 = cljs.core.nnext(opts__$1);
+var G__46352 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(acc,new cljs.core.Keyword(null,"style","style",-496642736),s);
+opts__$1 = G__46351;
+acc = G__46352;
 continue;
 } else {
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(f,new cljs.core.Keyword(null,"clog","clog",954273629))){
-var G__46356 = cljs.core.next(opts__$1);
-var G__46357 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(acc,new cljs.core.Keyword(null,"clog","clog",954273629),true);
-opts__$1 = G__46356;
-acc = G__46357;
+var G__46353 = cljs.core.next(opts__$1);
+var G__46354 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(acc,new cljs.core.Keyword(null,"clog","clog",954273629),true);
+opts__$1 = G__46353;
+acc = G__46354;
 continue;
 } else {
 return null;
@@ -434,7 +434,7 @@ return result;
 });
 debux.common.util.spy_comp = (function debux$common$util$spy_comp(quoted_form,indent,form){
 return (function() { 
-var G__46368__delegate = function (arg){
+var G__46357__delegate = function (arg){
 var result = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(form,arg);
 if(cljs.core.integer_QMARK_(indent)){
 } else {
@@ -448,21 +448,21 @@ return (debux.common.util.remove_d.cljs$core$IFn$_invoke$arity$2 ? debux.common.
 
 return result;
 };
-var G__46368 = function (var_args){
+var G__46357 = function (var_args){
 var arg = null;
 if (arguments.length > 0) {
-var G__46370__i = 0, G__46370__a = new Array(arguments.length -  0);
-while (G__46370__i < G__46370__a.length) {G__46370__a[G__46370__i] = arguments[G__46370__i + 0]; ++G__46370__i;}
-  arg = new cljs.core.IndexedSeq(G__46370__a,0,null);
+var G__46362__i = 0, G__46362__a = new Array(arguments.length -  0);
+while (G__46362__i < G__46362__a.length) {G__46362__a[G__46362__i] = arguments[G__46362__i + 0]; ++G__46362__i;}
+  arg = new cljs.core.IndexedSeq(G__46362__a,0,null);
 } 
-return G__46368__delegate.call(this,arg);};
-G__46368.cljs$lang$maxFixedArity = 0;
-G__46368.cljs$lang$applyTo = (function (arglist__46371){
-var arg = cljs.core.seq(arglist__46371);
-return G__46368__delegate(arg);
+return G__46357__delegate.call(this,arg);};
+G__46357.cljs$lang$maxFixedArity = 0;
+G__46357.cljs$lang$applyTo = (function (arglist__46363){
+var arg = cljs.core.seq(arglist__46363);
+return G__46357__delegate(arg);
 });
-G__46368.cljs$core$IFn$_invoke$arity$variadic = G__46368__delegate;
-return G__46368;
+G__46357.cljs$core$IFn$_invoke$arity$variadic = G__46357__delegate;
+return G__46357;
 })()
 ;
 });
@@ -483,17 +483,17 @@ if(clojure.zip.end_QMARK_(loc)){
 return clojure.zip.root(loc);
 } else {
 if(((cljs.core.seq_QMARK_(node)) && (((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(d_sym,cljs.core.first(node))) || (debux.common.util.debux_skip_symbol_QMARK_(cljs.core.first(node))) || (debux.common.util.spy_first_QMARK_(cljs.core.first(node))))))){
-var G__46374 = clojure.zip.replace(loc,debux.common.util.third(node));
-loc = G__46374;
+var G__46366 = clojure.zip.replace(loc,debux.common.util.third(node));
+loc = G__46366;
 continue;
 } else {
 if(((cljs.core.seq_QMARK_(node)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(new cljs.core.Symbol("debux.common.util","spy-last","debux.common.util/spy-last",321778494,null),cljs.core.first(node))))){
-var G__46375 = clojure.zip.replace(loc,cljs.core.last(node));
-loc = G__46375;
+var G__46368 = clojure.zip.replace(loc,cljs.core.last(node));
+loc = G__46368;
 continue;
 } else {
-var G__46376 = clojure.zip.next(loc);
-loc = G__46376;
+var G__46371 = clojure.zip.next(loc);
+loc = G__46371;
 continue;
 
 }

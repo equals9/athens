@@ -36,19 +36,19 @@ if(cljs.core.contains_QMARK_(cljs.core.deref(re_frame.loggers.loggers),level)){
 throw (new Error(["Assert failed: ",["re-frame: log called with unknown level: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(level)].join(''),"\n","(contains? (clojure.core/deref loggers) level)"].join('')));
 }
 
-return cljs.core.apply.cljs$core$IFn$_invoke$arity$2((function (){var G__45712 = cljs.core.deref(re_frame.loggers.loggers);
-return (level.cljs$core$IFn$_invoke$arity$1 ? level.cljs$core$IFn$_invoke$arity$1(G__45712) : level.call(null,G__45712));
+return cljs.core.apply.cljs$core$IFn$_invoke$arity$2((function (){var G__45717 = cljs.core.deref(re_frame.loggers.loggers);
+return (level.cljs$core$IFn$_invoke$arity$1 ? level.cljs$core$IFn$_invoke$arity$1(G__45717) : level.call(null,G__45717));
 })(),args);
 }));
 
 (re_frame.loggers.console.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(re_frame.loggers.console.cljs$lang$applyTo = (function (seq45709){
-var G__45710 = cljs.core.first(seq45709);
-var seq45709__$1 = cljs.core.next(seq45709);
+(re_frame.loggers.console.cljs$lang$applyTo = (function (seq45715){
+var G__45716 = cljs.core.first(seq45715);
+var seq45715__$1 = cljs.core.next(seq45715);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__45710,seq45709__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__45716,seq45715__$1);
 }));
 
 /**

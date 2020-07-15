@@ -283,8 +283,8 @@ athens.db.trim_head = (function athens$db$trim_head(xs,n){
 return cljs.core.vec(cljs.core.drop.cljs$core$IFn$_invoke$arity$2((cljs.core.count(xs) - n),xs));
 });
 athens.db.find_prev = (function athens$db$find_prev(xs,pred){
-return cljs.core.last(cljs.core.take_while.cljs$core$IFn$_invoke$arity$2((function (p1__33128_SHARP_){
-return cljs.core.not((pred.cljs$core$IFn$_invoke$arity$1 ? pred.cljs$core$IFn$_invoke$arity$1(p1__33128_SHARP_) : pred.call(null,p1__33128_SHARP_)));
+return cljs.core.last(cljs.core.take_while.cljs$core$IFn$_invoke$arity$2((function (p1__33132_SHARP_){
+return cljs.core.not((pred.cljs$core$IFn$_invoke$arity$1 ? pred.cljs$core$IFn$_invoke$arity$1(p1__33132_SHARP_) : pred.call(null,p1__33132_SHARP_)));
 }),xs));
 });
 athens.db.find_next = (function athens$db$find_next(xs,pred){
