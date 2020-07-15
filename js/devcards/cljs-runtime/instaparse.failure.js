@@ -109,12 +109,12 @@ return cljs.core.pr.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs
  * Takes an augmented failure object and prints the error message
  */
 instaparse.failure.pprint_failure = (function instaparse$failure$pprint_failure(p__56237){
-var map__56242 = p__56237;
-var map__56242__$1 = (((((!((map__56242 == null))))?(((((map__56242.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__56242.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__56242):map__56242);
-var line = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__56242__$1,new cljs.core.Keyword(null,"line","line",212345235));
-var column = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__56242__$1,new cljs.core.Keyword(null,"column","column",2078222095));
-var text = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__56242__$1,new cljs.core.Keyword(null,"text","text",-1790561697));
-var reason = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__56242__$1,new cljs.core.Keyword(null,"reason","reason",-2070751759));
+var map__56238 = p__56237;
+var map__56238__$1 = (((((!((map__56238 == null))))?(((((map__56238.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__56238.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__56238):map__56238);
+var line = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__56238__$1,new cljs.core.Keyword(null,"line","line",212345235));
+var column = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__56238__$1,new cljs.core.Keyword(null,"column","column",2078222095));
+var text = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__56238__$1,new cljs.core.Keyword(null,"text","text",-1790561697));
+var reason = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__56238__$1,new cljs.core.Keyword(null,"reason","reason",-2070751759));
 cljs.core.println.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([["Parse error at line ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(line),", column ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(column),":"].join('')], 0));
 
 cljs.core.println.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([text], 0));

@@ -323,56 +323,56 @@ if(cljs.core.empty_QMARK_(opts__$1)){
 return acc;
 } else {
 if(typeof f === 'number'){
-var G__46335 = cljs.core.next(opts__$1);
-var G__46336 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(acc,new cljs.core.Keyword(null,"n","n",562130025),f);
-opts__$1 = G__46335;
-acc = G__46336;
-continue;
-} else {
-if(typeof f === 'string'){
 var G__46337 = cljs.core.next(opts__$1);
-var G__46338 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(acc,new cljs.core.Keyword(null,"msg","msg",-1386103444),f);
+var G__46338 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(acc,new cljs.core.Keyword(null,"n","n",562130025),f);
 opts__$1 = G__46337;
 acc = G__46338;
 continue;
 } else {
+if(typeof f === 'string'){
+var G__46341 = cljs.core.next(opts__$1);
+var G__46342 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(acc,new cljs.core.Keyword(null,"msg","msg",-1386103444),f);
+opts__$1 = G__46341;
+acc = G__46342;
+continue;
+} else {
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(f,new cljs.core.Keyword(null,"if","if",-458814265))){
-var G__46339 = cljs.core.nnext(opts__$1);
-var G__46340 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(acc,new cljs.core.Keyword(null,"condition","condition",1668437652),s);
-opts__$1 = G__46339;
-acc = G__46340;
+var G__46344 = cljs.core.nnext(opts__$1);
+var G__46345 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(acc,new cljs.core.Keyword(null,"condition","condition",1668437652),s);
+opts__$1 = G__46344;
+acc = G__46345;
 continue;
 } else {
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(f,new cljs.core.Keyword(null,"js","js",1768080579))){
-var G__46341 = cljs.core.next(opts__$1);
-var G__46342 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(acc,new cljs.core.Keyword(null,"js","js",1768080579),true);
-opts__$1 = G__46341;
-acc = G__46342;
+var G__46347 = cljs.core.next(opts__$1);
+var G__46348 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(acc,new cljs.core.Keyword(null,"js","js",1768080579),true);
+opts__$1 = G__46347;
+acc = G__46348;
 continue;
 } else {
 if(cljs.core.truth_((function (){var fexpr__46304 = new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"o","o",-1350007228),null,new cljs.core.Keyword(null,"once","once",-262568523),null], null), null);
 return (fexpr__46304.cljs$core$IFn$_invoke$arity$1 ? fexpr__46304.cljs$core$IFn$_invoke$arity$1(f) : fexpr__46304.call(null,f));
 })())){
-var G__46345 = cljs.core.next(opts__$1);
-var G__46346 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(acc,new cljs.core.Keyword(null,"once","once",-262568523),true);
-opts__$1 = G__46345;
-acc = G__46346;
+var G__46349 = cljs.core.next(opts__$1);
+var G__46350 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(acc,new cljs.core.Keyword(null,"once","once",-262568523),true);
+opts__$1 = G__46349;
+acc = G__46350;
 continue;
 } else {
 if(cljs.core.truth_((function (){var fexpr__46305 = new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"s","s",1705939918),null,new cljs.core.Keyword(null,"style","style",-496642736),null], null), null);
 return (fexpr__46305.cljs$core$IFn$_invoke$arity$1 ? fexpr__46305.cljs$core$IFn$_invoke$arity$1(f) : fexpr__46305.call(null,f));
 })())){
-var G__46348 = cljs.core.nnext(opts__$1);
-var G__46349 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(acc,new cljs.core.Keyword(null,"style","style",-496642736),s);
-opts__$1 = G__46348;
-acc = G__46349;
+var G__46351 = cljs.core.nnext(opts__$1);
+var G__46352 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(acc,new cljs.core.Keyword(null,"style","style",-496642736),s);
+opts__$1 = G__46351;
+acc = G__46352;
 continue;
 } else {
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(f,new cljs.core.Keyword(null,"clog","clog",954273629))){
-var G__46351 = cljs.core.next(opts__$1);
-var G__46352 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(acc,new cljs.core.Keyword(null,"clog","clog",954273629),true);
-opts__$1 = G__46351;
-acc = G__46352;
+var G__46353 = cljs.core.next(opts__$1);
+var G__46354 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(acc,new cljs.core.Keyword(null,"clog","clog",954273629),true);
+opts__$1 = G__46353;
+acc = G__46354;
 continue;
 } else {
 return null;

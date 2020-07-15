@@ -48,32 +48,32 @@ while (G__58314__i < G__58314__a.length) {G__58314__a[G__58314__i] = arguments[G
 } 
 return G__58313__delegate.call(this,contents);};
 G__58313.cljs$lang$maxFixedArity = 0;
-G__58313.cljs$lang$applyTo = (function (arglist__58316){
-var contents = cljs.core.seq(arglist__58316);
+G__58313.cljs$lang$applyTo = (function (arglist__58315){
+var contents = cljs.core.seq(arglist__58315);
 return G__58313__delegate(contents);
 });
 G__58313.cljs$core$IFn$_invoke$arity$variadic = G__58313__delegate;
 return G__58313;
 })()
 ,new cljs.core.Keyword(null,"page-link","page-link",-169621200),(function() { 
-var G__58317__delegate = function (title){
+var G__58316__delegate = function (title){
 return athens.parse_renderer.render_page_link(title);
 };
-var G__58317 = function (var_args){
+var G__58316 = function (var_args){
 var title = null;
 if (arguments.length > 0) {
-var G__58320__i = 0, G__58320__a = new Array(arguments.length -  0);
-while (G__58320__i < G__58320__a.length) {G__58320__a[G__58320__i] = arguments[G__58320__i + 0]; ++G__58320__i;}
-  title = new cljs.core.IndexedSeq(G__58320__a,0,null);
+var G__58317__i = 0, G__58317__a = new Array(arguments.length -  0);
+while (G__58317__i < G__58317__a.length) {G__58317__a[G__58317__i] = arguments[G__58317__i + 0]; ++G__58317__i;}
+  title = new cljs.core.IndexedSeq(G__58317__a,0,null);
 } 
-return G__58317__delegate.call(this,title);};
-G__58317.cljs$lang$maxFixedArity = 0;
-G__58317.cljs$lang$applyTo = (function (arglist__58321){
-var title = cljs.core.seq(arglist__58321);
-return G__58317__delegate(title);
+return G__58316__delegate.call(this,title);};
+G__58316.cljs$lang$maxFixedArity = 0;
+G__58316.cljs$lang$applyTo = (function (arglist__58318){
+var title = cljs.core.seq(arglist__58318);
+return G__58316__delegate(title);
 });
-G__58317.cljs$core$IFn$_invoke$arity$variadic = G__58317__delegate;
-return G__58317;
+G__58316.cljs$core$IFn$_invoke$arity$variadic = G__58316__delegate;
+return G__58316;
 })()
 ,new cljs.core.Keyword(null,"block-ref","block-ref",362929756),(function (uid){
 var block = (function (){var G__58300 = athens.db.dsdb;
