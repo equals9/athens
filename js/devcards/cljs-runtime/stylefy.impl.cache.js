@@ -42,8 +42,8 @@ return null;
 }
 });
 stylefy.impl.cache.set_cache_created_time = (function stylefy$impl$cache$set_cache_created_time(var_args){
-var G__37344 = arguments.length;
-switch (G__37344) {
+var G__37347 = arguments.length;
+switch (G__37347) {
 case 1:
 return stylefy.impl.cache.set_cache_created_time.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -146,8 +146,8 @@ return null;
  *   Throws QUOTA_EXCEEDED_ERR if the storage is full.
  */
 stylefy.impl.cache.cache_styles = (function stylefy$impl$cache$cache_styles(var_args){
-var G__37356 = arguments.length;
-switch (G__37356) {
+var G__37353 = arguments.length;
+switch (G__37353) {
 case 1:
 return stylefy.impl.cache.cache_styles.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

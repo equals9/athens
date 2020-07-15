@@ -115,9 +115,9 @@ if((function (){var i__58501 = (0);
 while(true){
 if((i__58501 < size__4581__auto__)){
 var child = cljs.core._nth.cljs$core$IFn$_invoke$arity$2(c__4580__auto__,i__58501);
-cljs.core.chunk_append(b__58502,(function (){var map__58504 = child;
-var map__58504__$1 = (((((!((map__58504 == null))))?(((((map__58504.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__58504.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__58504):map__58504);
-var id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__58504__$1,new cljs.core.Keyword("db","id","db/id",-1388397098));
+cljs.core.chunk_append(b__58502,(function (){var map__58503 = child;
+var map__58503__$1 = (((((!((map__58503 == null))))?(((((map__58503.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__58503.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__58503):map__58503);
+var id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__58503__$1,new cljs.core.Keyword("db","id","db/id",-1388397098));
 return cljs.core.with_meta(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [athens.views.blocks.block_el,child], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),id], null));
 })());
 
@@ -136,9 +136,9 @@ return cljs.core.chunk_cons(cljs.core.chunk(b__58502),null);
 }
 } else {
 var child = cljs.core.first(s__58500__$2);
-return cljs.core.cons((function (){var map__58510 = child;
-var map__58510__$1 = (((((!((map__58510 == null))))?(((((map__58510.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__58510.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__58510):map__58510);
-var id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__58510__$1,new cljs.core.Keyword("db","id","db/id",-1388397098));
+return cljs.core.cons((function (){var map__58505 = child;
+var map__58505__$1 = (((((!((map__58505 == null))))?(((((map__58505.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__58505.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__58505):map__58505);
+var id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__58505__$1,new cljs.core.Keyword("db","id","db/id",-1388397098));
 return cljs.core.with_meta(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [athens.views.blocks.block_el,child], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),id], null));
 })(),athens$views$block_page$block_page_el_$_iter__58499(cljs.core.rest(s__58500__$2)));
 }
@@ -155,8 +155,8 @@ return iter__4582__auto__(children);
 athens.views.block_page.block_page_component = (function athens$views$block_page$block_page_component(ident){
 var block = athens.db.get_block_document(ident);
 var parents = athens.db.get_parents_recursively(ident);
-var editing_uid = cljs.core.deref((function (){var G__58514 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("editing","uid","editing/uid",974963040)], null);
-return (re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(G__58514) : re_frame.core.subscribe.call(null,G__58514));
+var editing_uid = cljs.core.deref((function (){var G__58512 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("editing","uid","editing/uid",974963040)], null);
+return (re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1 ? re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(G__58512) : re_frame.core.subscribe.call(null,G__58512));
 })());
 return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [athens.views.block_page.block_page_el,block,parents,editing_uid], null);
 });

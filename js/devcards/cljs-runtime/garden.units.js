@@ -250,13 +250,13 @@ return garden$units$make_unit_subtractor_$_u___1.call(this,x);
 case 2:
 return garden$units$make_unit_subtractor_$_u___2.call(this,x,y);
 default:
-var G__34222 = null;
+var G__34223 = null;
 if (arguments.length > 2) {
-var G__34223__i = 0, G__34223__a = new Array(arguments.length -  2);
-while (G__34223__i < G__34223__a.length) {G__34223__a[G__34223__i] = arguments[G__34223__i + 2]; ++G__34223__i;}
-G__34222 = new cljs.core.IndexedSeq(G__34223__a,0,null);
+var G__34224__i = 0, G__34224__a = new Array(arguments.length -  2);
+while (G__34224__i < G__34224__a.length) {G__34224__a[G__34224__i] = arguments[G__34224__i + 2]; ++G__34224__i;}
+G__34223 = new cljs.core.IndexedSeq(G__34224__a,0,null);
 }
-return garden$units$make_unit_subtractor_$_u___3.cljs$core$IFn$_invoke$arity$variadic(x,y, G__34222);
+return garden$units$make_unit_subtractor_$_u___3.cljs$core$IFn$_invoke$arity$variadic(x,y, G__34223);
 }
 throw(new Error('Invalid arity: ' + arguments.length));
 };
