@@ -40,9 +40,9 @@ return cljs.core.not_empty(cljs.core.into.cljs$core$IFn$_invoke$arity$3(cljs.cor
 (sci.impl.opts.process_permissions.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(sci.impl.opts.process_permissions.cljs$lang$applyTo = (function (seq59821){
+(sci.impl.opts.process_permissions.cljs$lang$applyTo = (function (seq59818){
 var self__4777__auto__ = this;
-return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq59821));
+return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq59818));
 }));
 
 sci.impl.opts.default_classes = new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Symbol(null,"Error","Error",-1692662047,null),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"class","class",-2030961996),Error,new cljs.core.Keyword(null,"constructor","constructor",-1953928811),(function() {
@@ -72,10 +72,10 @@ G__59849.cljs$core$IFn$_invoke$arity$2 = G__59849__2;
 G__59849.cljs$core$IFn$_invoke$arity$3 = G__59849__3;
 return G__59849;
 })()
-], null),new cljs.core.Symbol(null,"cljs.core.Delay","cljs.core.Delay",-1917476777,null),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"class","class",-2030961996),cljs.core.Delay,new cljs.core.Keyword(null,"constructor","constructor",-1953928811),(function (p1__59826_SHARP_){
-return (new cljs.core.Delay(p1__59826_SHARP_,null));
-})], null),new cljs.core.Symbol(null,"goog.string.StringBuffer","goog.string.StringBuffer",-1220229842,null),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"class","class",-2030961996),goog.string.StringBuffer,new cljs.core.Keyword(null,"constructor","constructor",-1953928811),(function (p1__59827_SHARP_){
-return (new goog.string.StringBuffer(p1__59827_SHARP_));
+], null),new cljs.core.Symbol(null,"cljs.core.Delay","cljs.core.Delay",-1917476777,null),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"class","class",-2030961996),cljs.core.Delay,new cljs.core.Keyword(null,"constructor","constructor",-1953928811),(function (p1__59822_SHARP_){
+return (new cljs.core.Delay(p1__59822_SHARP_,null));
+})], null),new cljs.core.Symbol(null,"goog.string.StringBuffer","goog.string.StringBuffer",-1220229842,null),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"class","class",-2030961996),goog.string.StringBuffer,new cljs.core.Keyword(null,"constructor","constructor",-1953928811),(function (p1__59823_SHARP_){
+return (new goog.string.StringBuffer(p1__59823_SHARP_));
 })], null)], null);
 sci.impl.opts.default_imports = cljs.core.PersistentArrayMap.EMPTY;
 sci.impl.opts.normalize_classes = (function sci$impl$opts$normalize_classes(classes){

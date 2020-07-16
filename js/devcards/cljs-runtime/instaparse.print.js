@@ -250,12 +250,12 @@ var parser = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56229,(1),null);
 if(cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(non_terminal,start)){
 cljs.core.chunk_append(b__56228,instaparse.print.rule__GT_str(non_terminal,parser));
 
-var G__56248 = (i__56227 + (1));
-i__56227 = G__56248;
-continue;
-} else {
 var G__56249 = (i__56227 + (1));
 i__56227 = G__56249;
+continue;
+} else {
+var G__56250 = (i__56227 + (1));
+i__56227 = G__56250;
 continue;
 }
 } else {
@@ -269,14 +269,14 @@ return cljs.core.chunk_cons(cljs.core.chunk(b__56228),instaparse$print$Parser__G
 return cljs.core.chunk_cons(cljs.core.chunk(b__56228),null);
 }
 } else {
-var vec__56232 = cljs.core.first(s__56226__$2);
-var non_terminal = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56232,(0),null);
-var parser = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56232,(1),null);
+var vec__56234 = cljs.core.first(s__56226__$2);
+var non_terminal = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56234,(0),null);
+var parser = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56234,(1),null);
 if(cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(non_terminal,start)){
 return cljs.core.cons(instaparse.print.rule__GT_str(non_terminal,parser),instaparse$print$Parser__GT_str_$_iter__56225(cljs.core.rest(s__56226__$2)));
 } else {
-var G__56250 = cljs.core.rest(s__56226__$2);
-s__56226__$1 = G__56250;
+var G__56251 = cljs.core.rest(s__56226__$2);
+s__56226__$1 = G__56251;
 continue;
 }
 }
