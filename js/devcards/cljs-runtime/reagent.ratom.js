@@ -1383,27 +1383,27 @@ return null;
 (reagent.ratom.Reaction.prototype.cljs$core$IDeref$_deref$arity$1 = (function (this$){
 var self__ = this;
 var this$__$1 = this;
-var temp__5739__auto___31885 = self__.caught;
-if((temp__5739__auto___31885 == null)){
+var temp__5739__auto___31886 = self__.caught;
+if((temp__5739__auto___31886 == null)){
 } else {
-var e_31886 = temp__5739__auto___31885;
-throw e_31886;
+var e_31887 = temp__5739__auto___31886;
+throw e_31887;
 }
 
-var non_reactive_31888 = (reagent.ratom._STAR_ratom_context_STAR_ == null);
-if(non_reactive_31888){
+var non_reactive_31889 = (reagent.ratom._STAR_ratom_context_STAR_ == null);
+if(non_reactive_31889){
 reagent.ratom.flush_BANG_();
 } else {
 }
 
-if(((non_reactive_31888) && ((self__.auto_run == null)))){
+if(((non_reactive_31889) && ((self__.auto_run == null)))){
 if(self__.dirty_QMARK_){
-var oldstate_31889 = self__.state;
+var oldstate_31891 = self__.state;
 (self__.state = (self__.f.cljs$core$IFn$_invoke$arity$0 ? self__.f.cljs$core$IFn$_invoke$arity$0() : self__.f.call(null)));
 
-if((((self__.watches == null)) || (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(oldstate_31889,self__.state)))){
+if((((self__.watches == null)) || (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(oldstate_31891,self__.state)))){
 } else {
-reagent.ratom.notify_w(this$__$1,oldstate_31889,self__.state);
+reagent.ratom.notify_w(this$__$1,oldstate_31891,self__.state);
 }
 } else {
 }
@@ -1440,14 +1440,14 @@ return (new reagent.ratom.Reaction(f,state,dirty_QMARK_,nocache_QMARK_,watching,
 
 reagent.ratom.make_reaction = (function reagent$ratom$make_reaction(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___31898 = arguments.length;
-var i__4790__auto___31899 = (0);
+var len__4789__auto___31899 = arguments.length;
+var i__4790__auto___31900 = (0);
 while(true){
-if((i__4790__auto___31899 < len__4789__auto___31898)){
-args__4795__auto__.push((arguments[i__4790__auto___31899]));
+if((i__4790__auto___31900 < len__4789__auto___31899)){
+args__4795__auto__.push((arguments[i__4790__auto___31900]));
 
-var G__31901 = (i__4790__auto___31899 + (1));
-i__4790__auto___31899 = G__31901;
+var G__31902 = (i__4790__auto___31900 + (1));
+i__4790__auto___31900 = G__31902;
 continue;
 } else {
 }

@@ -4,19 +4,19 @@ goog.require('cljs.core');
  * Dissociate this keyseq from m, removing any empty maps created as a result
  * (including at the top-level).
  */
-dommy.utils.dissoc_in = (function dommy$utils$dissoc_in(m,p__34876){
-var vec__34877 = p__34876;
-var seq__34878 = cljs.core.seq(vec__34877);
-var first__34879 = cljs.core.first(seq__34878);
-var seq__34878__$1 = cljs.core.next(seq__34878);
-var k = first__34879;
-var ks = seq__34878__$1;
+dommy.utils.dissoc_in = (function dommy$utils$dissoc_in(m,p__34886){
+var vec__34887 = p__34886;
+var seq__34888 = cljs.core.seq(vec__34887);
+var first__34889 = cljs.core.first(seq__34888);
+var seq__34888__$1 = cljs.core.next(seq__34888);
+var k = first__34889;
+var ks = seq__34888__$1;
 if(cljs.core.truth_(m)){
 var temp__5733__auto__ = (function (){var and__4174__auto__ = ks;
 if(and__4174__auto__){
-var G__34884 = (m.cljs$core$IFn$_invoke$arity$1 ? m.cljs$core$IFn$_invoke$arity$1(k) : m.call(null,k));
-var G__34885 = ks;
-return (dommy.utils.dissoc_in.cljs$core$IFn$_invoke$arity$2 ? dommy.utils.dissoc_in.cljs$core$IFn$_invoke$arity$2(G__34884,G__34885) : dommy.utils.dissoc_in.call(null,G__34884,G__34885));
+var G__34892 = (m.cljs$core$IFn$_invoke$arity$1 ? m.cljs$core$IFn$_invoke$arity$1(k) : m.call(null,k));
+var G__34893 = ks;
+return (dommy.utils.dissoc_in.cljs$core$IFn$_invoke$arity$2 ? dommy.utils.dissoc_in.cljs$core$IFn$_invoke$arity$2(G__34892,G__34893) : dommy.utils.dissoc_in.call(null,G__34892,G__34893));
 } else {
 return and__4174__auto__;
 }
@@ -45,11 +45,11 @@ return Array.prototype.slice.call(array_like);
  */
 dommy.utils.as_str = (function dommy$utils$as_str(s){
 if((s instanceof cljs.core.Keyword)){
-return [(function (){var G__34888 = cljs.core.namespace(s);
-if((G__34888 == null)){
+return [(function (){var G__34897 = cljs.core.namespace(s);
+if((G__34897 == null)){
 return null;
 } else {
-return [G__34888,"/"].join('');
+return [G__34897,"/"].join('');
 }
 })(),cljs.core.name(s)].join('');
 } else {
