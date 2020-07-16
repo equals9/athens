@@ -251,11 +251,11 @@ return garden.stylesheet.at_rule(new cljs.core.Keyword(null,"feature","feature",
 (garden.stylesheet.at_supports.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(garden.stylesheet.at_supports.cljs$lang$applyTo = (function (seq34829){
-var G__34830 = cljs.core.first(seq34829);
-var seq34829__$1 = cljs.core.next(seq34829);
+(garden.stylesheet.at_supports.cljs$lang$applyTo = (function (seq34828){
+var G__34829 = cljs.core.first(seq34828);
+var seq34828__$1 = cljs.core.next(seq34828);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__34830,seq34829__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__34829,seq34828__$1);
 }));
 
 /**
