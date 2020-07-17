@@ -236,14 +236,14 @@ instaparse.failure.print_reason(r);
 cljs.core.println();
 
 
-var G__56323 = cljs.core.next(seq__56273__$1);
-var G__56324 = null;
+var G__56322 = cljs.core.next(seq__56273__$1);
+var G__56323 = null;
+var G__56324 = (0);
 var G__56325 = (0);
-var G__56326 = (0);
-seq__56273 = G__56323;
-chunk__56274 = G__56324;
-count__56275 = G__56325;
-i__56276 = G__56326;
+seq__56273 = G__56322;
+chunk__56274 = G__56323;
+count__56275 = G__56324;
+i__56276 = G__56325;
 continue;
 }
 } else {

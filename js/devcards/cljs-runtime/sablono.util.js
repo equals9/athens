@@ -90,9 +90,9 @@ return clojure.string.join.cljs$core$IFn$_invoke$arity$1(cljs.core.map.cljs$core
 (sablono.util.as_str.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(sablono.util.as_str.cljs$lang$applyTo = (function (seq39764){
+(sablono.util.as_str.cljs$lang$applyTo = (function (seq39765){
 var self__4777__auto__ = this;
-return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq39764));
+return self__4777__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq39765));
 }));
 
 /**
@@ -201,12 +201,12 @@ goog.object.set(G__39796_39841,G__39797_39842,G__39798_39843);
 
 goog.object.set(sablono.util.ToString,"number",true);
 
-var G__39799_39845 = sablono.util.to_str;
-var G__39800_39846 = "number";
-var G__39801_39847 = (function (x){
+var G__39799_39849 = sablono.util.to_str;
+var G__39800_39850 = "number";
+var G__39801_39851 = (function (x){
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(x);
 });
-goog.object.set(G__39799_39845,G__39800_39846,G__39801_39847);
+goog.object.set(G__39799_39849,G__39800_39850,G__39801_39851);
 
 goog.object.set(sablono.util.ToString,"_",true);
 
