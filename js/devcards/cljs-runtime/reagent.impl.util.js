@@ -114,8 +114,8 @@ this.cljs$lang$protocol_mask$partition1$ = 0;
 (reagent.impl.util.PartialFn.prototype.call = (function (unused__10555__auto__){
 var self__ = this;
 var self__ = this;
-var G__31634 = (arguments.length - (1));
-switch (G__31634) {
+var G__31636 = (arguments.length - (1));
+switch (G__31636) {
 case (0):
 return self__.cljs$core$IFn$_invoke$arity$0();
 

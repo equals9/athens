@@ -11,16 +11,16 @@ goog.require('devcards.core');
 goog.require('posh.reagent');
 goog.require('reagent.core');
 athens.devcards.db.load_real_db_BANG_ = (function athens$devcards$db$load_real_db_BANG_(){
-var c__37269__auto__ = cljs.core.async.chan.cljs$core$IFn$_invoke$arity$1((1));
+var c__37270__auto__ = cljs.core.async.chan.cljs$core$IFn$_invoke$arity$1((1));
 cljs.core.async.impl.dispatch.run((function (){
-var f__37270__auto__ = (function (){var switch__37202__auto__ = (function (state_42999){
+var f__37271__auto__ = (function (){var switch__37202__auto__ = (function (state_42999){
 var state_val_43000 = (state_42999[(1)]);
 if((state_val_43000 === (7))){
 var state_42999__$1 = state_42999;
-var statearr_43002_43035 = state_42999__$1;
-(statearr_43002_43035[(2)] = false);
+var statearr_43001_43035 = state_42999__$1;
+(statearr_43001_43035[(2)] = false);
 
-(statearr_43002_43035[(1)] = (8));
+(statearr_43001_43035[(1)] = (8));
 
 
 return new cljs.core.Keyword(null,"recur","recur",-437573268);
@@ -35,10 +35,10 @@ return cljs.core.async.impl.ioc_helpers.take_BANG_(state_42999__$1,(2),inst_4296
 } else {
 if((state_val_43000 === (4))){
 var state_42999__$1 = state_42999;
-var statearr_43003_43036 = state_42999__$1;
-(statearr_43003_43036[(2)] = false);
+var statearr_43002_43036 = state_42999__$1;
+(statearr_43002_43036[(2)] = false);
 
-(statearr_43003_43036[(1)] = (5));
+(statearr_43002_43036[(1)] = (5));
 
 
 return new cljs.core.Keyword(null,"recur","recur",-437573268);
@@ -46,10 +46,10 @@ return new cljs.core.Keyword(null,"recur","recur",-437573268);
 if((state_val_43000 === (13))){
 var inst_42995 = alert("Failed to retrieve data from GitHub");
 var state_42999__$1 = state_42999;
-var statearr_43004_43037 = state_42999__$1;
-(statearr_43004_43037[(2)] = inst_42995);
+var statearr_43003_43037 = state_42999__$1;
+(statearr_43003_43037[(2)] = inst_42995);
 
-(statearr_43004_43037[(1)] = (14));
+(statearr_43003_43037[(1)] = (14));
 
 
 return new cljs.core.Keyword(null,"recur","recur",-437573268);
@@ -129,12 +129,12 @@ var state_42999__$1 = (function (){var statearr_43012 = state_42999;
 return statearr_43012;
 })();
 if(cljs.core.truth_(inst_42989)){
-var statearr_43015_43045 = state_42999__$1;
-(statearr_43015_43045[(1)] = (12));
+var statearr_43013_43045 = state_42999__$1;
+(statearr_43013_43045[(1)] = (12));
 
 } else {
-var statearr_43017_43046 = state_42999__$1;
-(statearr_43017_43046[(1)] = (13));
+var statearr_43014_43046 = state_42999__$1;
+(statearr_43014_43046[(1)] = (13));
 
 }
 
@@ -144,10 +144,10 @@ if((state_val_43000 === (9))){
 var inst_42967 = (state_42999[(7)]);
 var inst_42985 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,inst_42967);
 var state_42999__$1 = state_42999;
-var statearr_43018_43047 = state_42999__$1;
-(statearr_43018_43047[(2)] = inst_42985);
+var statearr_43015_43047 = state_42999__$1;
+(statearr_43015_43047[(2)] = inst_42985);
 
-(statearr_43018_43047[(1)] = (11));
+(statearr_43015_43047[(1)] = (11));
 
 
 return new cljs.core.Keyword(null,"recur","recur",-437573268);
@@ -269,15 +269,15 @@ athens$devcards$db$load_real_db_BANG__$_state_machine__37203__auto__.cljs$core$I
 return athens$devcards$db$load_real_db_BANG__$_state_machine__37203__auto__;
 })()
 })();
-var state__37271__auto__ = (function (){var statearr_43027 = (f__37270__auto__.cljs$core$IFn$_invoke$arity$0 ? f__37270__auto__.cljs$core$IFn$_invoke$arity$0() : f__37270__auto__.call(null));
-(statearr_43027[(6)] = c__37269__auto__);
+var state__37272__auto__ = (function (){var statearr_43026 = (f__37271__auto__.cljs$core$IFn$_invoke$arity$0 ? f__37271__auto__.cljs$core$IFn$_invoke$arity$0() : f__37271__auto__.call(null));
+(statearr_43026[(6)] = c__37270__auto__);
 
-return statearr_43027;
+return statearr_43026;
 })();
-return cljs.core.async.impl.ioc_helpers.run_state_machine_wrapped(state__37271__auto__);
+return cljs.core.async.impl.ioc_helpers.run_state_machine_wrapped(state__37272__auto__);
 }));
 
-return c__37269__auto__;
+return c__37270__auto__;
 });
 athens.devcards.db.load_real_db_button = (function athens$devcards$db$load_real_db_button(){
 var pressed_QMARK_ = reagent.core.atom.cljs$core$IFn$_invoke$arity$1(false);

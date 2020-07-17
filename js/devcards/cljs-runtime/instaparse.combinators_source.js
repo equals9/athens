@@ -155,14 +155,14 @@ return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__56355,seq56354
  */
 instaparse.combinators_source.cat = (function instaparse$combinators_source$cat(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___56418 = arguments.length;
-var i__4790__auto___56419 = (0);
+var len__4789__auto___56420 = arguments.length;
+var i__4790__auto___56421 = (0);
 while(true){
-if((i__4790__auto___56419 < len__4789__auto___56418)){
-args__4795__auto__.push((arguments[i__4790__auto___56419]));
+if((i__4790__auto___56421 < len__4789__auto___56420)){
+args__4795__auto__.push((arguments[i__4790__auto___56421]));
 
-var G__56420 = (i__4790__auto___56419 + (1));
-i__4790__auto___56419 = G__56420;
+var G__56422 = (i__4790__auto___56421 + (1));
+i__4790__auto___56421 = G__56422;
 continue;
 } else {
 }
@@ -411,8 +411,8 @@ var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56377,(0),null);
 var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56377,(1),null);
 cljs.core.chunk_append(b__56376,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [k,cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(v,new cljs.core.Keyword(null,"red","red",-969428204),(reduction.cljs$core$IFn$_invoke$arity$1 ? reduction.cljs$core$IFn$_invoke$arity$1(k) : reduction.call(null,k)))], null));
 
-var G__56460 = (i__56375 + (1));
-i__56375 = G__56460;
+var G__56464 = (i__56375 + (1));
+i__56375 = G__56464;
 continue;
 } else {
 return true;
