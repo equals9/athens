@@ -5,9 +5,9 @@ goog.require('cljs.core');
  *   containing the chunk of text matched by re, it's size, and tag.
  */
 garden.compression.token_fn = (function garden$compression$token_fn(p__33661){
-var vec__33663 = p__33661;
-var tag = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33663,(0),null);
-var re = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33663,(1),null);
+var vec__33662 = p__33661;
+var tag = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33662,(0),null);
+var re = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33662,(1),null);
 return (function (s){
 var temp__5735__auto__ = cljs.core.re_find(re,s);
 if(cljs.core.truth_(temp__5735__auto__)){
