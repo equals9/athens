@@ -492,8 +492,8 @@ var G__46359 = clojure.zip.replace(loc,cljs.core.last(node));
 loc = G__46359;
 continue;
 } else {
-var G__46362 = clojure.zip.next(loc);
-loc = G__46362;
+var G__46360 = clojure.zip.next(loc);
+loc = G__46360;
 continue;
 
 }

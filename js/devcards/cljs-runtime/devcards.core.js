@@ -168,18 +168,18 @@ return this__41824__auto__;
 });
 goog.inherits(ctor__41826__auto__,React.Component);
 
-var x42606_43004 = ctor__41826__auto__.prototype;
-(x42606_43004.componentDidMount = (function (){
+var x42606_43002 = ctor__41826__auto__.prototype;
+(x42606_43002.componentDidMount = (function (){
 var this$ = this;
 return devcards.core.highlight_node(this$);
 }));
 
-(x42606_43004.componentDidUpdate = (function (){
+(x42606_43002.componentDidUpdate = (function (){
 var this$ = this;
 return devcards.core.highlight_node(this$);
 }));
 
-(x42606_43004.render = (function (){
+(x42606_43002.render = (function (){
 var this$ = this;
 return React.createElement("pre",({"className": (cljs.core.truth_(devcards.core.get_hljs())?"com-rigsomelight-devcards-code-highlighting":""), "key": cljs.core.hash((function (){var G__42607 = this$;
 var G__42608 = new cljs.core.Keyword(null,"code","code",1586293142);
@@ -234,14 +234,14 @@ return React.createElement(devcards.core.CodeHighlight,({"code": new cljs.core.K
 }));
 devcards.core.markdown__GT_react = (function devcards$core$markdown__GT_react(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___43016 = arguments.length;
-var i__4790__auto___43017 = (0);
+var len__4789__auto___43011 = arguments.length;
+var i__4790__auto___43013 = (0);
 while(true){
-if((i__4790__auto___43017 < len__4789__auto___43016)){
-args__4795__auto__.push((arguments[i__4790__auto___43017]));
+if((i__4790__auto___43013 < len__4789__auto___43011)){
+args__4795__auto__.push((arguments[i__4790__auto___43013]));
 
-var G__43018 = (i__4790__auto___43017 + (1));
-i__4790__auto___43017 = G__43018;
+var G__43014 = (i__4790__auto___43013 + (1));
+i__4790__auto___43013 = G__43014;
 continue;
 } else {
 }
@@ -523,8 +523,8 @@ return this__41822__auto__;
 });
 goog.inherits(ctor__41826__auto__,React.Component);
 
-var x42641_43039 = ctor__41826__auto__.prototype;
-(x42641_43039.componentDidUpdate = (function (_,___$1){
+var x42641_43038 = ctor__41826__auto__.prototype;
+(x42641_43038.componentDidUpdate = (function (_,___$1){
 var this$ = this;
 var atom = devcards.core.get_state(this$,new cljs.core.Keyword(null,"data_atom","data_atom",257894504));
 var card = devcards.core.get_props(this$,new cljs.core.Keyword(null,"card","card",-1430355152));
@@ -542,7 +542,7 @@ return null;
 }
 }));
 
-(x42641_43039.componentWillMount = (function (){
+(x42641_43038.componentWillMount = (function (){
 var this$ = this;
 if(cljs.core.truth_(devcards.util.utils.html_env_QMARK_())){
 return this$.setState((function (){var or__4185__auto__ = (function (){var and__4174__auto__ = devcards.core.get_state(this$,new cljs.core.Keyword(null,"data_atom","data_atom",257894504));
@@ -563,7 +563,7 @@ return null;
 }
 }));
 
-(x42641_43039.componentWillUnmount = (function (){
+(x42641_43038.componentWillUnmount = (function (){
 var this$ = this;
 var data_atom = devcards.core.get_state(this$,new cljs.core.Keyword(null,"data_atom","data_atom",257894504));
 var id = devcards.core.get_state(this$,new cljs.core.Keyword(null,"unique_id","unique_id",-796578329));
@@ -580,7 +580,7 @@ return null;
 }
 }));
 
-(x42641_43039.componentDidMount = (function (){
+(x42641_43038.componentDidMount = (function (){
 var this$ = this;
 if(cljs.core.truth_(devcards.util.utils.html_env_QMARK_())){
 var temp__5735__auto__ = devcards.core.get_state(this$,new cljs.core.Keyword(null,"data_atom","data_atom",257894504));
@@ -603,7 +603,7 @@ return null;
 }
 }));
 
-(x42641_43039.render = (function (){
+(x42641_43038.render = (function (){
 var this$ = this;
 var data_atom = (devcards.core.get_data_atom.cljs$core$IFn$_invoke$arity$1 ? devcards.core.get_data_atom.cljs$core$IFn$_invoke$arity$1(this$) : devcards.core.get_data_atom.call(null,this$));
 var card = devcards.core.get_props(this$,new cljs.core.Keyword(null,"card","card",-1430355152));
@@ -647,8 +647,8 @@ return this__41822__auto__;
 });
 goog.inherits(ctor__41826__auto__,React.Component);
 
-var x42644_43054 = ctor__41826__auto__.prototype;
-(x42644_43054.componentDidUpdate = (function (prevP,prevS){
+var x42644_43053 = ctor__41826__auto__.prototype;
+(x42644_43053.componentDidUpdate = (function (prevP,prevS){
 var this$ = this;
 if(cljs.core.truth_((function (){var and__4174__auto__ = devcards.core.get_props(this$,new cljs.core.Keyword(null,"node_fn","node_fn",1182818791));
 if(cljs.core.truth_(and__4174__auto__)){
@@ -663,7 +663,7 @@ return null;
 }
 }));
 
-(x42644_43054.componentWillUnmount = (function (){
+(x42644_43053.componentWillUnmount = (function (){
 var this$ = this;
 var temp__5735__auto__ = devcards.core.ref__GT_node(this$,devcards.core.get_state(this$,new cljs.core.Keyword(null,"unique_id","unique_id",-796578329)));
 if(cljs.core.truth_(temp__5735__auto__)){
@@ -674,12 +674,12 @@ return null;
 }
 }));
 
-(x42644_43054.componentDidMount = (function (){
+(x42644_43053.componentDidMount = (function (){
 var this$ = this;
 return (devcards.core.render_into_dom.cljs$core$IFn$_invoke$arity$1 ? devcards.core.render_into_dom.cljs$core$IFn$_invoke$arity$1(this$) : devcards.core.render_into_dom.call(null,this$));
 }));
 
-(x42644_43054.render = (function (){
+(x42644_43053.render = (function (){
 var this$ = this;
 if(cljs.core.truth_(devcards.util.utils.html_env_QMARK_())){
 return React.createElement("div",({"className": "com-rigsomelight-devcards-dom-node", "ref": devcards.core.get_state(this$,new cljs.core.Keyword(null,"unique_id","unique_id",-796578329))}),"Card has not mounted DOM node.");
@@ -1947,10 +1947,10 @@ var f__37271__auto__ = (function (){var switch__37202__auto__ = (function (state
 var state_val_42884 = (state_42883[(1)]);
 if((state_val_42884 === (7))){
 var state_42883__$1 = state_42883;
-var statearr_42885_43114 = state_42883__$1;
-(statearr_42885_43114[(2)] = false);
+var statearr_42885_43111 = state_42883__$1;
+(statearr_42885_43111[(2)] = false);
 
-(statearr_42885_43114[(1)] = (8));
+(statearr_42885_43111[(1)] = (8));
 
 
 return new cljs.core.Keyword(null,"recur","recur",-437573268);
@@ -1959,10 +1959,10 @@ if((state_val_42884 === (20))){
 var inst_42821 = (state_42883[(7)]);
 var inst_42841 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,inst_42821);
 var state_42883__$1 = state_42883;
-var statearr_42886_43118 = state_42883__$1;
-(statearr_42886_43118[(2)] = inst_42841);
+var statearr_42886_43115 = state_42883__$1;
+(statearr_42886_43115[(2)] = inst_42841);
 
-(statearr_42886_43118[(1)] = (22));
+(statearr_42886_43115[(1)] = (22));
 
 
 return new cljs.core.Keyword(null,"recur","recur",-437573268);
@@ -2196,10 +2196,10 @@ return cljs.core.async.ioc_alts_BANG_(state_42883__$1,(26),inst_42855);
 if((state_val_42884 === (19))){
 var inst_42836 = (state_42883[(2)]);
 var state_42883__$1 = state_42883;
-var statearr_42909_43141 = state_42883__$1;
-(statearr_42909_43141[(2)] = inst_42836);
+var statearr_42909_43136 = state_42883__$1;
+(statearr_42909_43136[(2)] = inst_42836);
 
-(statearr_42909_43141[(1)] = (16));
+(statearr_42909_43136[(1)] = (16));
 
 
 return new cljs.core.Keyword(null,"recur","recur",-437573268);

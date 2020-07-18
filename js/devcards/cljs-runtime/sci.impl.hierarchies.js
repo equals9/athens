@@ -67,8 +67,8 @@ return cljs.core.underive.cljs$core$IFn$_invoke$arity$3(h,tag,parent);
 (sci.impl.hierarchies.underive_STAR_.cljs$lang$maxFixedArity = 4);
 
 sci.impl.hierarchies.isa_QMARK__STAR_ = (function sci$impl$hierarchies$isa_QMARK__STAR_(var_args){
-var G__59230 = arguments.length;
-switch (G__59230) {
+var G__59231 = arguments.length;
+switch (G__59231) {
 case 3:
 return sci.impl.hierarchies.isa_QMARK__STAR_.cljs$core$IFn$_invoke$arity$3((arguments[(0)]),(arguments[(1)]),(arguments[(2)]));
 
@@ -95,8 +95,8 @@ return cljs.core.isa_QMARK_.cljs$core$IFn$_invoke$arity$3(h,child,parent);
 (sci.impl.hierarchies.isa_QMARK__STAR_.cljs$lang$maxFixedArity = 4);
 
 sci.impl.hierarchies.ancestors_STAR_ = (function sci$impl$hierarchies$ancestors_STAR_(var_args){
-var G__59233 = arguments.length;
-switch (G__59233) {
+var G__59239 = arguments.length;
+switch (G__59239) {
 case 2:
 return sci.impl.hierarchies.ancestors_STAR_.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -123,8 +123,8 @@ return cljs.core.ancestors.cljs$core$IFn$_invoke$arity$2(h,tag);
 (sci.impl.hierarchies.ancestors_STAR_.cljs$lang$maxFixedArity = 3);
 
 sci.impl.hierarchies.descendants_STAR_ = (function sci$impl$hierarchies$descendants_STAR_(var_args){
-var G__59241 = arguments.length;
-switch (G__59241) {
+var G__59242 = arguments.length;
+switch (G__59242) {
 case 2:
 return sci.impl.hierarchies.descendants_STAR_.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -151,8 +151,8 @@ return cljs.core.descendants.cljs$core$IFn$_invoke$arity$2(h,tag);
 (sci.impl.hierarchies.descendants_STAR_.cljs$lang$maxFixedArity = 3);
 
 sci.impl.hierarchies.parents_STAR_ = (function sci$impl$hierarchies$parents_STAR_(var_args){
-var G__59243 = arguments.length;
-switch (G__59243) {
+var G__59251 = arguments.length;
+switch (G__59251) {
 case 2:
 return sci.impl.hierarchies.parents_STAR_.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
