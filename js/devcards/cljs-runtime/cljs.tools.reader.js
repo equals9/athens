@@ -908,18 +908,18 @@ var match = cljs.tools.reader.match_feature(first_line,rdr,opts,pending_forms);
 if((match === cljs.tools.reader.READ_FINISHED)){
 return cljs.tools.reader.READ_FINISHED;
 } else {
-var G__24575 = match;
-var G__24576 = null;
-matched = G__24575;
-finished = G__24576;
+var G__24574 = match;
+var G__24575 = null;
+matched = G__24574;
+finished = G__24575;
 continue;
 }
 } else {
 if((!((finished === cljs.tools.reader.READ_FINISHED)))){
-var G__24577 = matched;
-var G__24578 = cljs.tools.reader.read_suppress(first_line,rdr,opts,pending_forms);
-matched = G__24577;
-finished = G__24578;
+var G__24576 = matched;
+var G__24577 = cljs.tools.reader.read_suppress(first_line,rdr,opts,pending_forms);
+matched = G__24576;
+finished = G__24577;
 continue;
 } else {
 return matched;

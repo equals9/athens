@@ -314,22 +314,22 @@ var temp__5733__auto__ = (cljs.tools.reader.edn.macros.cljs$core$IFn$_invoke$ari
 if(cljs.core.truth_(temp__5733__auto__)){
 var macrofn = temp__5733__auto__;
 var mret = (macrofn.cljs$core$IFn$_invoke$arity$3 ? macrofn.cljs$core$IFn$_invoke$arity$3(rdr,ch,opts) : macrofn.call(null,rdr,ch,opts));
-var G__24604 = (((!((mret === rdr))))?cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(a,mret):a);
-a = G__24604;
+var G__24605 = (((!((mret === rdr))))?cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(a,mret):a);
+a = G__24605;
 continue;
 } else {
-var o = (function (){var G__24548 = (function (){var G__24552 = rdr;
-cljs.tools.reader.reader_types.unread(G__24552,ch);
+var o = (function (){var G__24547 = (function (){var G__24551 = rdr;
+cljs.tools.reader.reader_types.unread(G__24551,ch);
 
-return G__24552;
+return G__24551;
 })();
-var G__24549 = true;
-var G__24550 = null;
-var G__24551 = opts;
-return (cljs.tools.reader.edn.read.cljs$core$IFn$_invoke$arity$4 ? cljs.tools.reader.edn.read.cljs$core$IFn$_invoke$arity$4(G__24548,G__24549,G__24550,G__24551) : cljs.tools.reader.edn.read.call(null,G__24548,G__24549,G__24550,G__24551));
+var G__24548 = true;
+var G__24549 = null;
+var G__24550 = opts;
+return (cljs.tools.reader.edn.read.cljs$core$IFn$_invoke$arity$4 ? cljs.tools.reader.edn.read.cljs$core$IFn$_invoke$arity$4(G__24547,G__24548,G__24549,G__24550) : cljs.tools.reader.edn.read.call(null,G__24547,G__24548,G__24549,G__24550));
 })();
-var G__24605 = (((!((o === rdr))))?cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(a,o):a);
-a = G__24605;
+var G__24607 = (((!((o === rdr))))?cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(a,o):a);
+a = G__24607;
 continue;
 }
 }
@@ -720,8 +720,8 @@ return null;
 }
 });
 cljs.tools.reader.edn.dispatch_macros = (function cljs$tools$reader$edn$dispatch_macros(ch){
-var G__24574 = ch;
-switch (G__24574) {
+var G__24578 = ch;
+switch (G__24578) {
 case "^":
 return cljs.tools.reader.edn.read_meta;
 
