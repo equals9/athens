@@ -38,10 +38,10 @@ throw cljs.core.missing_protocol("IInterpreter.interpret",this$);
 sablono.interpreter.update_state = (function sablono$interpreter$update_state(component,next_props,property,value){
 var on_change = goog.object.getValueByKeys(component,"state","onChange");
 var next_state = ({});
-var G__39947_39975 = next_state;
-var G__39948_39976 = next_props;
-var G__39949_39977 = ({"onChange": on_change});
-goog.object.extend(G__39947_39975,G__39948_39976,G__39949_39977);
+var G__39941_39975 = next_state;
+var G__39942_39976 = next_props;
+var G__39943_39977 = ({"onChange": on_change});
+goog.object.extend(G__39941_39975,G__39942_39976,G__39943_39977);
 
 goog.object.set(next_state,property,value);
 
@@ -51,13 +51,13 @@ sablono.interpreter.wrap_form_element = (function sablono$interpreter$wrap_form_
 var ctor = (function (props){
 var this$ = this;
 (this$.state = (function (){var state = ({});
-var G__39950_39978 = state;
-var G__39951_39979 = props;
-var G__39952_39980 = ({"onChange": (function (){var G__39953 = goog.object.get(this$,"onChange");
-var G__39954 = this$;
-return goog.bind(G__39953,G__39954);
+var G__39947_39978 = state;
+var G__39948_39979 = props;
+var G__39949_39980 = ({"onChange": (function (){var G__39950 = goog.object.get(this$,"onChange");
+var G__39951 = this$;
+return goog.bind(G__39950,G__39951);
 })()});
-goog.object.extend(G__39950_39978,G__39951_39979,G__39952_39980);
+goog.object.extend(G__39947_39978,G__39948_39979,G__39949_39980);
 
 return state;
 })());
@@ -68,8 +68,8 @@ return React.Component.call(this$,props);
 
 goog.inherits(ctor,React.Component);
 
-var x39955_39981 = ctor.prototype;
-(x39955_39981.onChange = (function (event){
+var x39954_39981 = ctor.prototype;
+(x39954_39981.onChange = (function (event){
 var this$ = this;
 var temp__5735__auto__ = this$.props.onChange;
 if(cljs.core.truth_(temp__5735__auto__)){
@@ -82,7 +82,7 @@ return null;
 }
 }));
 
-(x39955_39981.componentWillReceiveProps = (function (new_props){
+(x39954_39981.componentWillReceiveProps = (function (new_props){
 var this$ = this;
 var state_value = goog.object.getValueByKeys(this$,"state",property);
 var element_value = (function (){var G__39956 = ReactDOM.findDOMNode(this$);
@@ -96,7 +96,7 @@ return sablono.interpreter.update_state(this$,new_props,property,goog.object.get
 }
 }));
 
-(x39955_39981.render = (function (){
+(x39954_39981.render = (function (){
 var this$ = this;
 return React.createElement(element,this$.state);
 }));
@@ -274,12 +274,12 @@ return sablono.interpreter.interpret_seq(x);
 });
 goog.object.set(sablono.interpreter.IInterpreter,"null",true);
 
-var G__39969_39994 = sablono.interpreter.interpret;
-var G__39970_39995 = "null";
-var G__39971_39996 = (function (this$){
+var G__39969_39988 = sablono.interpreter.interpret;
+var G__39970_39989 = "null";
+var G__39971_39990 = (function (this$){
 return null;
 });
-goog.object.set(G__39969_39994,G__39970_39995,G__39971_39996);
+goog.object.set(G__39969_39988,G__39970_39989,G__39971_39990);
 
 (cljs.core.PersistentVector.prototype.sablono$interpreter$IInterpreter$ = cljs.core.PROTOCOL_SENTINEL);
 
@@ -297,12 +297,12 @@ return sablono.interpreter.interpret_seq(this$__$1);
 
 goog.object.set(sablono.interpreter.IInterpreter,"_",true);
 
-var G__39972_39997 = sablono.interpreter.interpret;
-var G__39973_39998 = "_";
-var G__39974_39999 = (function (this$){
+var G__39972_39991 = sablono.interpreter.interpret;
+var G__39973_39992 = "_";
+var G__39974_39993 = (function (this$){
 return this$;
 });
-goog.object.set(G__39972_39997,G__39973_39998,G__39974_39999);
+goog.object.set(G__39972_39991,G__39973_39992,G__39974_39993);
 
 (cljs.core.Cons.prototype.sablono$interpreter$IInterpreter$ = cljs.core.PROTOCOL_SENTINEL);
 
