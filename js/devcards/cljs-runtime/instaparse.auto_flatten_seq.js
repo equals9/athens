@@ -387,10 +387,10 @@ var unmixed_hash = existing_unmixed_hash;
 var coll__$1 = cljs.core.seq(coll);
 while(true){
 if((!((coll__$1 == null)))){
-var G__56272 = ((cljs.core.imul((31),unmixed_hash) + cljs.core.hash(cljs.core.first(coll__$1))) | (0));
-var G__56273 = cljs.core.next(coll__$1);
-unmixed_hash = G__56272;
-coll__$1 = G__56273;
+var G__56268 = ((cljs.core.imul((31),unmixed_hash) + cljs.core.hash(cljs.core.first(coll__$1))) | (0));
+var G__56269 = cljs.core.next(coll__$1);
+unmixed_hash = G__56268;
+coll__$1 = G__56269;
 continue;
 } else {
 return unmixed_hash;
@@ -663,8 +663,8 @@ return cljs.core.conj.cljs$core$IFn$_invoke$arity$2(self__$1.instaparse$auto_fla
 (instaparse.auto_flatten_seq.FlattenOnDemandVector.prototype.call = (function (unused__10555__auto__){
 var self__ = this;
 var self__ = this;
-var G__56245 = (arguments.length - (1));
-switch (G__56245) {
+var G__56246 = (arguments.length - (1));
+switch (G__56246) {
 case (1):
 return self__.cljs$core$IFn$_invoke$arity$1((arguments[(1)]));
 

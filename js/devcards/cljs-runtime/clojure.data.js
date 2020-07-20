@@ -17,10 +17,10 @@ return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMP
  */
 clojure.data.vectorize = (function clojure$data$vectorize(m){
 if(cljs.core.seq(m)){
-return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (result,p__20898){
-var vec__20899 = p__20898;
-var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__20899,(0),null);
-var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__20899,(1),null);
+return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (result,p__21064){
+var vec__21066 = p__21064;
+var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__21066,(0),null);
+var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__21066,(1),null);
 return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(result,k,v);
 }),cljs.core.vec(cljs.core.repeat.cljs$core$IFn$_invoke$arity$2(cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.max,cljs.core.keys(m)),null)),m);
 } else {
@@ -33,10 +33,10 @@ return null;
 clojure.data.diff_associative_key = (function clojure$data$diff_associative_key(a,b,k){
 var va = cljs.core.get.cljs$core$IFn$_invoke$arity$2(a,k);
 var vb = cljs.core.get.cljs$core$IFn$_invoke$arity$2(b,k);
-var vec__20902 = clojure.data.diff(va,vb);
-var a_STAR_ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__20902,(0),null);
-var b_STAR_ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__20902,(1),null);
-var ab = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__20902,(2),null);
+var vec__21072 = clojure.data.diff(va,vb);
+var a_STAR_ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__21072,(0),null);
+var b_STAR_ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__21072,(1),null);
+var ab = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__21072,(2),null);
 var in_a = cljs.core.contains_QMARK_(a,k);
 var in_b = cljs.core.contains_QMARK_(b,k);
 var same = ((in_a) && (in_b) && ((((!((ab == null)))) || ((((va == null)) && ((vb == null)))))));
@@ -46,8 +46,8 @@ return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMP
  * Diff associative things a and b, comparing only keys in ks (if supplied).
  */
 clojure.data.diff_associative = (function clojure$data$diff_associative(var_args){
-var G__20910 = arguments.length;
-switch (G__20910) {
+var G__21085 = arguments.length;
+switch (G__21085) {
 case 2:
 return clojure.data.diff_associative.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -143,63 +143,63 @@ throw cljs.core.missing_protocol("Diff.diff-similar",a);
 
 goog.object.set(clojure.data.EqualityPartition,"null",true);
 
-var G__20913_21001 = clojure.data.equality_partition;
-var G__20914_21002 = "null";
-var G__20915_21003 = (function (x){
+var G__21098_21175 = clojure.data.equality_partition;
+var G__21099_21176 = "null";
+var G__21100_21177 = (function (x){
 return new cljs.core.Keyword(null,"atom","atom",-397043653);
 });
-goog.object.set(G__20913_21001,G__20914_21002,G__20915_21003);
+goog.object.set(G__21098_21175,G__21099_21176,G__21100_21177);
 
 goog.object.set(clojure.data.EqualityPartition,"string",true);
 
-var G__20917_21004 = clojure.data.equality_partition;
-var G__20918_21005 = "string";
-var G__20919_21006 = (function (x){
+var G__21101_21178 = clojure.data.equality_partition;
+var G__21102_21179 = "string";
+var G__21103_21180 = (function (x){
 return new cljs.core.Keyword(null,"atom","atom",-397043653);
 });
-goog.object.set(G__20917_21004,G__20918_21005,G__20919_21006);
+goog.object.set(G__21101_21178,G__21102_21179,G__21103_21180);
 
 goog.object.set(clojure.data.EqualityPartition,"number",true);
 
-var G__20920_21007 = clojure.data.equality_partition;
-var G__20921_21008 = "number";
-var G__20922_21009 = (function (x){
+var G__21104_21181 = clojure.data.equality_partition;
+var G__21105_21182 = "number";
+var G__21106_21183 = (function (x){
 return new cljs.core.Keyword(null,"atom","atom",-397043653);
 });
-goog.object.set(G__20920_21007,G__20921_21008,G__20922_21009);
+goog.object.set(G__21104_21181,G__21105_21182,G__21106_21183);
 
 goog.object.set(clojure.data.EqualityPartition,"array",true);
 
-var G__20923_21010 = clojure.data.equality_partition;
-var G__20924_21011 = "array";
-var G__20925_21012 = (function (x){
+var G__21109_21184 = clojure.data.equality_partition;
+var G__21110_21185 = "array";
+var G__21111_21186 = (function (x){
 return new cljs.core.Keyword(null,"sequential","sequential",-1082983960);
 });
-goog.object.set(G__20923_21010,G__20924_21011,G__20925_21012);
+goog.object.set(G__21109_21184,G__21110_21185,G__21111_21186);
 
 goog.object.set(clojure.data.EqualityPartition,"function",true);
 
-var G__20926_21013 = clojure.data.equality_partition;
-var G__20927_21014 = "function";
-var G__20928_21015 = (function (x){
+var G__21114_21187 = clojure.data.equality_partition;
+var G__21115_21188 = "function";
+var G__21116_21189 = (function (x){
 return new cljs.core.Keyword(null,"atom","atom",-397043653);
 });
-goog.object.set(G__20926_21013,G__20927_21014,G__20928_21015);
+goog.object.set(G__21114_21187,G__21115_21188,G__21116_21189);
 
 goog.object.set(clojure.data.EqualityPartition,"boolean",true);
 
-var G__20929_21016 = clojure.data.equality_partition;
-var G__20930_21017 = "boolean";
-var G__20931_21018 = (function (x){
+var G__21117_21190 = clojure.data.equality_partition;
+var G__21118_21191 = "boolean";
+var G__21119_21192 = (function (x){
 return new cljs.core.Keyword(null,"atom","atom",-397043653);
 });
-goog.object.set(G__20929_21016,G__20930_21017,G__20931_21018);
+goog.object.set(G__21117_21190,G__21118_21191,G__21119_21192);
 
 goog.object.set(clojure.data.EqualityPartition,"_",true);
 
-var G__20932_21019 = clojure.data.equality_partition;
-var G__20933_21020 = "_";
-var G__20934_21021 = (function (x){
+var G__21120_21193 = clojure.data.equality_partition;
+var G__21121_21194 = "_";
+var G__21122_21195 = (function (x){
 if((((!((x == null))))?(((((x.cljs$lang$protocol_mask$partition0$ & (1024))) || ((cljs.core.PROTOCOL_SENTINEL === x.cljs$core$IMap$))))?true:(((!x.cljs$lang$protocol_mask$partition0$))?cljs.core.native_satisfies_QMARK_(cljs.core.IMap,x):false)):cljs.core.native_satisfies_QMARK_(cljs.core.IMap,x))){
 return new cljs.core.Keyword(null,"map","map",1371690461);
 } else {
@@ -215,69 +215,69 @@ return new cljs.core.Keyword(null,"atom","atom",-397043653);
 }
 }
 });
-goog.object.set(G__20932_21019,G__20933_21020,G__20934_21021);
+goog.object.set(G__21120_21193,G__21121_21194,G__21122_21195);
 goog.object.set(clojure.data.Diff,"null",true);
 
-var G__20939_21022 = clojure.data.diff_similar;
-var G__20941_21023 = "null";
-var G__20943_21024 = (function (a,b){
+var G__21134_21196 = clojure.data.diff_similar;
+var G__21135_21197 = "null";
+var G__21136_21198 = (function (a,b){
 return clojure.data.atom_diff(a,b);
 });
-goog.object.set(G__20939_21022,G__20941_21023,G__20943_21024);
+goog.object.set(G__21134_21196,G__21135_21197,G__21136_21198);
 
 goog.object.set(clojure.data.Diff,"string",true);
 
-var G__20944_21026 = clojure.data.diff_similar;
-var G__20945_21027 = "string";
-var G__20946_21028 = (function (a,b){
+var G__21137_21199 = clojure.data.diff_similar;
+var G__21138_21200 = "string";
+var G__21139_21201 = (function (a,b){
 return clojure.data.atom_diff(a,b);
 });
-goog.object.set(G__20944_21026,G__20945_21027,G__20946_21028);
+goog.object.set(G__21137_21199,G__21138_21200,G__21139_21201);
 
 goog.object.set(clojure.data.Diff,"number",true);
 
-var G__20947_21031 = clojure.data.diff_similar;
-var G__20948_21032 = "number";
-var G__20949_21033 = (function (a,b){
+var G__21144_21202 = clojure.data.diff_similar;
+var G__21145_21203 = "number";
+var G__21146_21204 = (function (a,b){
 return clojure.data.atom_diff(a,b);
 });
-goog.object.set(G__20947_21031,G__20948_21032,G__20949_21033);
+goog.object.set(G__21144_21202,G__21145_21203,G__21146_21204);
 
 goog.object.set(clojure.data.Diff,"array",true);
 
-var G__20950_21035 = clojure.data.diff_similar;
-var G__20951_21036 = "array";
-var G__20952_21037 = (function (a,b){
+var G__21147_21205 = clojure.data.diff_similar;
+var G__21148_21206 = "array";
+var G__21149_21207 = (function (a,b){
 return clojure.data.diff_sequential(a,b);
 });
-goog.object.set(G__20950_21035,G__20951_21036,G__20952_21037);
+goog.object.set(G__21147_21205,G__21148_21206,G__21149_21207);
 
 goog.object.set(clojure.data.Diff,"function",true);
 
-var G__20954_21038 = clojure.data.diff_similar;
-var G__20955_21039 = "function";
-var G__20956_21040 = (function (a,b){
+var G__21150_21208 = clojure.data.diff_similar;
+var G__21151_21209 = "function";
+var G__21152_21210 = (function (a,b){
 return clojure.data.atom_diff(a,b);
 });
-goog.object.set(G__20954_21038,G__20955_21039,G__20956_21040);
+goog.object.set(G__21150_21208,G__21151_21209,G__21152_21210);
 
 goog.object.set(clojure.data.Diff,"boolean",true);
 
-var G__20961_21041 = clojure.data.diff_similar;
-var G__20962_21042 = "boolean";
-var G__20963_21043 = (function (a,b){
+var G__21153_21211 = clojure.data.diff_similar;
+var G__21154_21212 = "boolean";
+var G__21155_21213 = (function (a,b){
 return clojure.data.atom_diff(a,b);
 });
-goog.object.set(G__20961_21041,G__20962_21042,G__20963_21043);
+goog.object.set(G__21153_21211,G__21154_21212,G__21155_21213);
 
 goog.object.set(clojure.data.Diff,"_",true);
 
-var G__20965_21044 = clojure.data.diff_similar;
-var G__20966_21045 = "_";
-var G__20967_21046 = (function (a,b){
-var fexpr__20969 = (function (){var G__20970 = clojure.data.equality_partition(a);
-var G__20970__$1 = (((G__20970 instanceof cljs.core.Keyword))?G__20970.fqn:null);
-switch (G__20970__$1) {
+var G__21159_21215 = clojure.data.diff_similar;
+var G__21160_21216 = "_";
+var G__21161_21217 = (function (a,b){
+var fexpr__21164 = (function (){var G__21165 = clojure.data.equality_partition(a);
+var G__21165__$1 = (((G__21165 instanceof cljs.core.Keyword))?G__21165.fqn:null);
+switch (G__21165__$1) {
 case "atom":
 return clojure.data.atom_diff;
 
@@ -295,13 +295,13 @@ return clojure.data.diff_associative;
 
 break;
 default:
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__20970__$1)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__21165__$1)].join('')));
 
 }
 })();
-return (fexpr__20969.cljs$core$IFn$_invoke$arity$2 ? fexpr__20969.cljs$core$IFn$_invoke$arity$2(a,b) : fexpr__20969.call(null,a,b));
+return (fexpr__21164.cljs$core$IFn$_invoke$arity$2 ? fexpr__21164.cljs$core$IFn$_invoke$arity$2(a,b) : fexpr__21164.call(null,a,b));
 });
-goog.object.set(G__20965_21044,G__20966_21045,G__20967_21046);
+goog.object.set(G__21159_21215,G__21160_21216,G__21161_21217);
 /**
  * Recursively compares a and b, returning a tuple of
  *   [things-only-in-a things-only-in-b things-in-both].
