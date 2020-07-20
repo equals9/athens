@@ -53,14 +53,14 @@ var style_hash = chunk__38807.cljs$core$IIndexed$_nth$arity$2(null,i__38809);
 cljs.core.reset_BANG_(cljs.core.get.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(stylefy.impl.dom.styles_in_dom),style_hash),true);
 
 
-var G__38869 = seq__38806;
-var G__38870 = chunk__38807;
-var G__38871 = count__38808;
-var G__38872 = (i__38809 + (1));
-seq__38806 = G__38869;
-chunk__38807 = G__38870;
-count__38808 = G__38871;
-i__38809 = G__38872;
+var G__38867 = seq__38806;
+var G__38868 = chunk__38807;
+var G__38869 = count__38808;
+var G__38870 = (i__38809 + (1));
+seq__38806 = G__38867;
+chunk__38807 = G__38868;
+count__38808 = G__38869;
+i__38809 = G__38870;
 continue;
 } else {
 var temp__5735__auto__ = cljs.core.seq(seq__38806);
@@ -68,28 +68,28 @@ if(temp__5735__auto__){
 var seq__38806__$1 = temp__5735__auto__;
 if(cljs.core.chunked_seq_QMARK_(seq__38806__$1)){
 var c__4609__auto__ = cljs.core.chunk_first(seq__38806__$1);
-var G__38875 = cljs.core.chunk_rest(seq__38806__$1);
-var G__38876 = c__4609__auto__;
-var G__38877 = cljs.core.count(c__4609__auto__);
-var G__38878 = (0);
-seq__38806 = G__38875;
-chunk__38807 = G__38876;
-count__38808 = G__38877;
-i__38809 = G__38878;
+var G__38873 = cljs.core.chunk_rest(seq__38806__$1);
+var G__38874 = c__4609__auto__;
+var G__38875 = cljs.core.count(c__4609__auto__);
+var G__38876 = (0);
+seq__38806 = G__38873;
+chunk__38807 = G__38874;
+count__38808 = G__38875;
+i__38809 = G__38876;
 continue;
 } else {
 var style_hash = cljs.core.first(seq__38806__$1);
 cljs.core.reset_BANG_(cljs.core.get.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(stylefy.impl.dom.styles_in_dom),style_hash),true);
 
 
-var G__38880 = cljs.core.next(seq__38806__$1);
-var G__38881 = null;
-var G__38882 = (0);
-var G__38883 = (0);
-seq__38806 = G__38880;
-chunk__38807 = G__38881;
-count__38808 = G__38882;
-i__38809 = G__38883;
+var G__38878 = cljs.core.next(seq__38806__$1);
+var G__38879 = null;
+var G__38880 = (0);
+var G__38881 = (0);
+seq__38806 = G__38878;
+chunk__38807 = G__38879;
+count__38808 = G__38880;
+i__38809 = G__38881;
 continue;
 }
 } else {
@@ -122,8 +122,8 @@ stylefy.impl.dom.update_style_tags_BANG_(node_stylefy,node_stylefy_constant);
 cljs.core.reset_BANG_(stylefy.impl.dom.dom_update_requested_QMARK_,false);
 
 try{stylefy.impl.cache.cache_styles.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(stylefy.impl.dom.styles_as_css),cljs.core.deref(stylefy.impl.dom.stylefy_instance_id));
-}catch (e38817){var e_38886 = e38817;
-stylefy.impl.log.warn(["Unable to cache styles, error: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(e_38886)].join(''));
+}catch (e38814){var e_38884 = e38814;
+stylefy.impl.log.warn(["Unable to cache styles, error: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(e_38884)].join(''));
 
 stylefy.impl.cache.clear_styles.cljs$core$IFn$_invoke$arity$1(cljs.core.deref(stylefy.impl.dom.stylefy_instance_id));
 
@@ -147,14 +147,14 @@ return null;
 } else {
 cljs.core.reset_BANG_(stylefy.impl.dom.dom_update_requested_QMARK_,true);
 
-var c__37270__auto___38889 = cljs.core.async.chan.cljs$core$IFn$_invoke$arity$1((1));
+var c__37269__auto___38887 = cljs.core.async.chan.cljs$core$IFn$_invoke$arity$1((1));
 cljs.core.async.impl.dispatch.run((function (){
-var f__37271__auto__ = (function (){var switch__37202__auto__ = (function (state_38825){
-var state_val_38826 = (state_38825[(1)]);
-if((state_val_38826 === (1))){
-var inst_38823 = stylefy.impl.dom.update_dom();
-var state_38825__$1 = state_38825;
-return cljs.core.async.impl.ioc_helpers.return_chan(state_38825__$1,inst_38823);
+var f__37270__auto__ = (function (){var switch__37202__auto__ = (function (state_38822){
+var state_val_38823 = (state_38822[(1)]);
+if((state_val_38823 === (1))){
+var inst_38819 = stylefy.impl.dom.update_dom();
+var state_38822__$1 = state_38822;
+return cljs.core.async.impl.ioc_helpers.return_chan(state_38822__$1,inst_38819);
 } else {
 return null;
 }
@@ -162,17 +162,17 @@ return null;
 return (function() {
 var stylefy$impl$dom$request_asynchronous_dom_update_$_state_machine__37203__auto__ = null;
 var stylefy$impl$dom$request_asynchronous_dom_update_$_state_machine__37203__auto____0 = (function (){
-var statearr_38831 = [null,null,null,null,null,null,null];
-(statearr_38831[(0)] = stylefy$impl$dom$request_asynchronous_dom_update_$_state_machine__37203__auto__);
+var statearr_38827 = [null,null,null,null,null,null,null];
+(statearr_38827[(0)] = stylefy$impl$dom$request_asynchronous_dom_update_$_state_machine__37203__auto__);
 
-(statearr_38831[(1)] = (1));
+(statearr_38827[(1)] = (1));
 
-return statearr_38831;
+return statearr_38827;
 });
-var stylefy$impl$dom$request_asynchronous_dom_update_$_state_machine__37203__auto____1 = (function (state_38825){
+var stylefy$impl$dom$request_asynchronous_dom_update_$_state_machine__37203__auto____1 = (function (state_38822){
 while(true){
 var ret_value__37204__auto__ = (function (){try{while(true){
-var result__37205__auto__ = switch__37202__auto__(state_38825);
+var result__37205__auto__ = switch__37202__auto__(state_38822);
 if(cljs.core.keyword_identical_QMARK_(result__37205__auto__,new cljs.core.Keyword(null,"recur","recur",-437573268))){
 continue;
 } else {
@@ -180,23 +180,23 @@ return result__37205__auto__;
 }
 break;
 }
-}catch (e38833){if((e38833 instanceof Object)){
-var ex__37206__auto__ = e38833;
-var statearr_38835_38894 = state_38825;
-(statearr_38835_38894[(5)] = ex__37206__auto__);
+}catch (e38829){if((e38829 instanceof Object)){
+var ex__37206__auto__ = e38829;
+var statearr_38831_38891 = state_38822;
+(statearr_38831_38891[(5)] = ex__37206__auto__);
 
 
-cljs.core.async.impl.ioc_helpers.process_exception(state_38825);
+cljs.core.async.impl.ioc_helpers.process_exception(state_38822);
 
 return new cljs.core.Keyword(null,"recur","recur",-437573268);
 } else {
-throw e38833;
+throw e38829;
 
 }
 }})();
 if(cljs.core.keyword_identical_QMARK_(ret_value__37204__auto__,new cljs.core.Keyword(null,"recur","recur",-437573268))){
-var G__38895 = state_38825;
-state_38825 = G__38895;
+var G__38892 = state_38822;
+state_38822 = G__38892;
 continue;
 } else {
 return ret_value__37204__auto__;
@@ -204,12 +204,12 @@ return ret_value__37204__auto__;
 break;
 }
 });
-stylefy$impl$dom$request_asynchronous_dom_update_$_state_machine__37203__auto__ = function(state_38825){
+stylefy$impl$dom$request_asynchronous_dom_update_$_state_machine__37203__auto__ = function(state_38822){
 switch(arguments.length){
 case 0:
 return stylefy$impl$dom$request_asynchronous_dom_update_$_state_machine__37203__auto____0.call(this);
 case 1:
-return stylefy$impl$dom$request_asynchronous_dom_update_$_state_machine__37203__auto____1.call(this,state_38825);
+return stylefy$impl$dom$request_asynchronous_dom_update_$_state_machine__37203__auto____1.call(this,state_38822);
 }
 throw(new Error('Invalid arity: ' + arguments.length));
 };
@@ -218,12 +218,12 @@ stylefy$impl$dom$request_asynchronous_dom_update_$_state_machine__37203__auto__.
 return stylefy$impl$dom$request_asynchronous_dom_update_$_state_machine__37203__auto__;
 })()
 })();
-var state__37272__auto__ = (function (){var statearr_38837 = (f__37271__auto__.cljs$core$IFn$_invoke$arity$0 ? f__37271__auto__.cljs$core$IFn$_invoke$arity$0() : f__37271__auto__.call(null));
-(statearr_38837[(6)] = c__37270__auto___38889);
+var state__37271__auto__ = (function (){var statearr_38835 = (f__37270__auto__.cljs$core$IFn$_invoke$arity$0 ? f__37270__auto__.cljs$core$IFn$_invoke$arity$0() : f__37270__auto__.call(null));
+(statearr_38835[(6)] = c__37269__auto___38887);
 
-return statearr_38837;
+return statearr_38835;
 })();
-return cljs.core.async.impl.ioc_helpers.run_state_machine_wrapped(state__37272__auto__);
+return cljs.core.async.impl.ioc_helpers.run_state_machine_wrapped(state__37271__auto__);
 }));
 
 
@@ -234,10 +234,10 @@ return null;
 }
 });
 stylefy.impl.dom.init_multi_instance = (function stylefy$impl$dom$init_multi_instance(p__38839){
-var map__38841 = p__38839;
-var map__38841__$1 = (((((!((map__38841 == null))))?(((((map__38841.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__38841.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__38841):map__38841);
-var options = map__38841__$1;
-var multi_instance = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__38841__$1,new cljs.core.Keyword(null,"multi-instance","multi-instance",-1525956512));
+var map__38840 = p__38839;
+var map__38840__$1 = (((((!((map__38840 == null))))?(((((map__38840.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__38840.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__38840):map__38840);
+var options = map__38840__$1;
+var multi_instance = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__38840__$1,new cljs.core.Keyword(null,"multi-instance","multi-instance",-1525956512));
 var base_node = new cljs.core.Keyword(null,"base-node","base-node",-275497090).cljs$core$IFn$_invoke$arity$1(multi_instance);
 var instance_id = new cljs.core.Keyword(null,"instance-id","instance-id",951361263).cljs$core$IFn$_invoke$arity$1(multi_instance);
 if((((instance_id == null)) || (typeof instance_id === 'string'))){
@@ -277,12 +277,12 @@ return null;
 /**
  * Stores the style in an atom. The style is going to be added into the DOM soon.
  */
-stylefy.impl.dom.save_style_BANG_ = (function stylefy$impl$dom$save_style_BANG_(p__38847){
-var map__38848 = p__38847;
-var map__38848__$1 = (((((!((map__38848 == null))))?(((((map__38848.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__38848.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__38848):map__38848);
-var style = map__38848__$1;
-var css = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__38848__$1,new cljs.core.Keyword(null,"css","css",1135045163));
-var hash = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__38848__$1,new cljs.core.Keyword(null,"hash","hash",-13781596));
+stylefy.impl.dom.save_style_BANG_ = (function stylefy$impl$dom$save_style_BANG_(p__38846){
+var map__38847 = p__38846;
+var map__38847__$1 = (((((!((map__38847 == null))))?(((((map__38847.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__38847.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__38847):map__38847);
+var style = map__38847__$1;
+var css = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__38847__$1,new cljs.core.Keyword(null,"css","css",1135045163));
+var hash = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__38847__$1,new cljs.core.Keyword(null,"hash","hash",-13781596));
 if(cljs.core.truth_(css)){
 } else {
 throw (new Error(["Assert failed: ","Unable to save empty style!","\n","css"].join('')));

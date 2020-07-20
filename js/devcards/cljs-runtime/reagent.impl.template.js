@@ -447,11 +447,11 @@ var c = reagent.impl.component.as_class(tag);
 var jsprops = ({});
 (jsprops.argv = v);
 
-var temp__5739__auto___32004 = reagent.impl.template.key_from_vec(v);
-if((temp__5739__auto___32004 == null)){
+var temp__5739__auto___31995 = reagent.impl.template.key_from_vec(v);
+if((temp__5739__auto___31995 == null)){
 } else {
-var key_32005 = temp__5739__auto___32004;
-(jsprops.key = key_32005);
+var key_31996 = temp__5739__auto___31995;
+(jsprops.key = key_31996);
 }
 
 return module$node_modules$react$index.createElement(c,jsprops);
@@ -467,11 +467,11 @@ return ({});
 }
 })();
 var first_child = ((1) + ((hasprops)?(1):(0)));
-var temp__5739__auto___32018 = reagent.impl.template.key_from_vec(argv);
-if((temp__5739__auto___32018 == null)){
+var temp__5739__auto___31997 = reagent.impl.template.key_from_vec(argv);
+if((temp__5739__auto___31997 == null)){
 } else {
-var key_32019 = temp__5739__auto___32018;
-(jsprops.key = key_32019);
+var key_31998 = temp__5739__auto___31997;
+(jsprops.key = key_31998);
 }
 
 return (reagent.impl.template.make_element.cljs$core$IFn$_invoke$arity$4 ? reagent.impl.template.make_element.cljs$core$IFn$_invoke$arity$4(argv,module$node_modules$react$index.Fragment,jsprops,first_child) : reagent.impl.template.make_element.call(null,argv,module$node_modules$react$index.Fragment,jsprops,first_child));
@@ -508,11 +508,11 @@ if(reagent.impl.template.input_component_QMARK_(component)){
 var G__31948 = cljs.core.with_meta(new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [reagent.impl.template.reagent_input(),argv,component,jsprops,first_child], null),cljs.core.meta(argv));
 return (reagent.impl.template.as_element.cljs$core$IFn$_invoke$arity$1 ? reagent.impl.template.as_element.cljs$core$IFn$_invoke$arity$1(G__31948) : reagent.impl.template.as_element.call(null,G__31948));
 } else {
-var temp__5739__auto___32020 = reagent.impl.template.get_key(cljs.core.meta(argv));
-if((temp__5739__auto___32020 == null)){
+var temp__5739__auto___32015 = reagent.impl.template.get_key(cljs.core.meta(argv));
+if((temp__5739__auto___32015 == null)){
 } else {
-var key_32021 = temp__5739__auto___32020;
-(jsprops.key = key_32021);
+var key_32017 = temp__5739__auto___32015;
+(jsprops.key = key_32017);
 }
 
 return (reagent.impl.template.make_element.cljs$core$IFn$_invoke$arity$4 ? reagent.impl.template.make_element.cljs$core$IFn$_invoke$arity$4(argv,component,jsprops,first_child) : reagent.impl.template.make_element.call(null,argv,component,jsprops,first_child));
