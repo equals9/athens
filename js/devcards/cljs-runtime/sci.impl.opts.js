@@ -87,10 +87,10 @@ if(cljs.core.truth_(temp__5733__auto__)){
 var vec__59829 = temp__5733__auto__;
 var sym = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59829,(0),null);
 var class_opts = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59829,(1),null);
-var G__59853 = cljs.core.assoc_BANG_.cljs$core$IFn$_invoke$arity$3(class__GT_opts,sym,((cljs.core.map_QMARK_(class_opts))?class_opts:new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"class","class",-2030961996),class_opts], null)));
-var G__59854 = cljs.core.rest(kvs);
-class__GT_opts = G__59853;
-kvs = G__59854;
+var G__59851 = cljs.core.assoc_BANG_.cljs$core$IFn$_invoke$arity$3(class__GT_opts,sym,((cljs.core.map_QMARK_(class_opts))?class_opts:new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"class","class",-2030961996),class_opts], null)));
+var G__59852 = cljs.core.rest(kvs);
+class__GT_opts = G__59851;
+kvs = G__59852;
 continue;
 } else {
 return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"public-class","public-class",1127293019),new cljs.core.Keyword(null,"public-class","public-class",1127293019).cljs$core$IFn$_invoke$arity$1(classes),new cljs.core.Keyword(null,"class->opts","class->opts",2061906477),cljs.core.persistent_BANG_(class__GT_opts)], null);
@@ -101,8 +101,8 @@ break;
 /**
  * Initializes options
  */
-sci.impl.opts.init = (function sci$impl$opts$init(p__59834){
-var map__59836 = p__59834;
+sci.impl.opts.init = (function sci$impl$opts$init(p__59835){
+var map__59836 = p__59835;
 var map__59836__$1 = (((((!((map__59836 == null))))?(((((map__59836.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__59836.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__59836):map__59836);
 var features = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59836__$1,new cljs.core.Keyword(null,"features","features",-1146962336));
 var namespaces = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59836__$1,new cljs.core.Keyword(null,"namespaces","namespaces",-1444157469));

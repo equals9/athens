@@ -41,14 +41,14 @@ sci.impl.fns.__GT_Recur = (function sci$impl$fns$__GT_Recur(val){
 return (new sci.impl.fns.Recur(val));
 });
 
-sci.impl.fns.parse_fn_args_PLUS_body = (function sci$impl$fns$parse_fn_args_PLUS_body(ctx,interpret,eval_do_STAR_,p__59038,fn_name,macro_QMARK_,with_meta_QMARK_){
-var map__59039 = p__59038;
-var map__59039__$1 = (((((!((map__59039 == null))))?(((((map__59039.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__59039.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__59039):map__59039);
-var _m = map__59039__$1;
-var fixed_arity = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59039__$1,new cljs.core.Keyword("sci.impl","fixed-arity","sci.impl/fixed-arity",-1251617052));
-var var_arg_name = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59039__$1,new cljs.core.Keyword("sci.impl","var-arg-name","sci.impl/var-arg-name",1800498100));
-var params = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59039__$1,new cljs.core.Keyword("sci.impl","params","sci.impl/params",-175360738));
-var body = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59039__$1,new cljs.core.Keyword("sci.impl","body","sci.impl/body",-1493886648));
+sci.impl.fns.parse_fn_args_PLUS_body = (function sci$impl$fns$parse_fn_args_PLUS_body(ctx,interpret,eval_do_STAR_,p__59035,fn_name,macro_QMARK_,with_meta_QMARK_){
+var map__59036 = p__59035;
+var map__59036__$1 = (((((!((map__59036 == null))))?(((((map__59036.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__59036.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__59036):map__59036);
+var _m = map__59036__$1;
+var fixed_arity = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59036__$1,new cljs.core.Keyword("sci.impl","fixed-arity","sci.impl/fixed-arity",-1251617052));
+var var_arg_name = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59036__$1,new cljs.core.Keyword("sci.impl","var-arg-name","sci.impl/var-arg-name",1800498100));
+var params = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59036__$1,new cljs.core.Keyword("sci.impl","params","sci.impl/params",-175360738));
+var body = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59036__$1,new cljs.core.Keyword("sci.impl","body","sci.impl/body",-1493886648));
 var min_var_args_arity = (cljs.core.truth_(var_arg_name)?fixed_arity:null);
 var f = (function() { 
 var sci$impl$fns$parse_fn_args_PLUS_body_$_run_fn__delegate = function (args){
@@ -88,24 +88,24 @@ break;
 }
 })();
 var ctx__$1 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(ctx,new cljs.core.Keyword(null,"bindings","bindings",1271397192),bindings__$1);
-var ret = ((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2((1),cljs.core.count(body)))?(function (){var G__59050 = ctx__$1;
-var G__59051 = cljs.core.first(body);
-return (interpret.cljs$core$IFn$_invoke$arity$2 ? interpret.cljs$core$IFn$_invoke$arity$2(G__59050,G__59051) : interpret.call(null,G__59050,G__59051));
+var ret = ((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2((1),cljs.core.count(body)))?(function (){var G__59044 = ctx__$1;
+var G__59045 = cljs.core.first(body);
+return (interpret.cljs$core$IFn$_invoke$arity$2 ? interpret.cljs$core$IFn$_invoke$arity$2(G__59044,G__59045) : interpret.call(null,G__59044,G__59045));
 })():(eval_do_STAR_.cljs$core$IFn$_invoke$arity$2 ? eval_do_STAR_.cljs$core$IFn$_invoke$arity$2(ctx__$1,body) : eval_do_STAR_.call(null,ctx__$1,body)));
 var recur_QMARK_ = (ret instanceof sci.impl.fns.Recur);
 if(recur_QMARK_){
 var recur_val = sci.impl.types.getVal(ret);
 if(cljs.core.truth_(min_var_args_arity)){
-var vec__59055 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.subvec.cljs$core$IFn$_invoke$arity$3(recur_val,(0),min_var_args_arity),cljs.core.subvec.cljs$core$IFn$_invoke$arity$2(recur_val,min_var_args_arity)], null);
-var fixed_args = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59055,(0),null);
-var vec__59058 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59055,(1),null);
-var rest_args = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59058,(0),null);
-var G__59083 = cljs.core.into.cljs$core$IFn$_invoke$arity$2(fixed_args,rest_args);
-args = G__59083;
+var vec__59049 = new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.subvec.cljs$core$IFn$_invoke$arity$3(recur_val,(0),min_var_args_arity),cljs.core.subvec.cljs$core$IFn$_invoke$arity$2(recur_val,min_var_args_arity)], null);
+var fixed_args = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59049,(0),null);
+var vec__59052 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59049,(1),null);
+var rest_args = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__59052,(0),null);
+var G__59076 = cljs.core.into.cljs$core$IFn$_invoke$arity$2(fixed_args,rest_args);
+args = G__59076;
 continue;
 } else {
-var G__59085 = recur_val;
-args = G__59085;
+var G__59077 = recur_val;
+args = G__59077;
 continue;
 }
 } else {
@@ -117,14 +117,14 @@ break;
 var sci$impl$fns$parse_fn_args_PLUS_body_$_run_fn = function (var_args){
 var args = null;
 if (arguments.length > 0) {
-var G__59086__i = 0, G__59086__a = new Array(arguments.length -  0);
-while (G__59086__i < G__59086__a.length) {G__59086__a[G__59086__i] = arguments[G__59086__i + 0]; ++G__59086__i;}
-  args = new cljs.core.IndexedSeq(G__59086__a,0,null);
+var G__59078__i = 0, G__59078__a = new Array(arguments.length -  0);
+while (G__59078__i < G__59078__a.length) {G__59078__a[G__59078__i] = arguments[G__59078__i + 0]; ++G__59078__i;}
+  args = new cljs.core.IndexedSeq(G__59078__a,0,null);
 } 
 return sci$impl$fns$parse_fn_args_PLUS_body_$_run_fn__delegate.call(this,args);};
 sci$impl$fns$parse_fn_args_PLUS_body_$_run_fn.cljs$lang$maxFixedArity = 0;
-sci$impl$fns$parse_fn_args_PLUS_body_$_run_fn.cljs$lang$applyTo = (function (arglist__59087){
-var args = cljs.core.seq(arglist__59087);
+sci$impl$fns$parse_fn_args_PLUS_body_$_run_fn.cljs$lang$applyTo = (function (arglist__59081){
+var args = cljs.core.seq(arglist__59081);
 return sci$impl$fns$parse_fn_args_PLUS_body_$_run_fn__delegate(args);
 });
 sci$impl$fns$parse_fn_args_PLUS_body_$_run_fn.cljs$core$IFn$_invoke$arity$variadic = sci$impl$fns$parse_fn_args_PLUS_body_$_run_fn__delegate;
@@ -170,33 +170,33 @@ var fn_name = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59068__$1,new clj
 var macro_QMARK_ = new cljs.core.Keyword("sci","macro","sci/macro",-868536151).cljs$core$IFn$_invoke$arity$1(f);
 var self_ref = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(null);
 var call_self = (function() { 
-var G__59089__delegate = function (args){
+var G__59088__delegate = function (args){
 return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(self_ref),args);
 };
-var G__59089 = function (var_args){
+var G__59088 = function (var_args){
 var args = null;
 if (arguments.length > 0) {
-var G__59090__i = 0, G__59090__a = new Array(arguments.length -  0);
-while (G__59090__i < G__59090__a.length) {G__59090__a[G__59090__i] = arguments[G__59090__i + 0]; ++G__59090__i;}
-  args = new cljs.core.IndexedSeq(G__59090__a,0,null);
+var G__59089__i = 0, G__59089__a = new Array(arguments.length -  0);
+while (G__59089__i < G__59089__a.length) {G__59089__a[G__59089__i] = arguments[G__59089__i + 0]; ++G__59089__i;}
+  args = new cljs.core.IndexedSeq(G__59089__a,0,null);
 } 
-return G__59089__delegate.call(this,args);};
-G__59089.cljs$lang$maxFixedArity = 0;
-G__59089.cljs$lang$applyTo = (function (arglist__59091){
+return G__59088__delegate.call(this,args);};
+G__59088.cljs$lang$maxFixedArity = 0;
+G__59088.cljs$lang$applyTo = (function (arglist__59091){
 var args = cljs.core.seq(arglist__59091);
-return G__59089__delegate(args);
+return G__59088__delegate(args);
 });
-G__59089.cljs$core$IFn$_invoke$arity$variadic = G__59089__delegate;
-return G__59089;
+G__59088.cljs$core$IFn$_invoke$arity$variadic = G__59088__delegate;
+return G__59088;
 })()
 ;
 var ctx__$1 = (cljs.core.truth_(fn_name)?cljs.core.assoc_in(ctx,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"bindings","bindings",1271397192),fn_name], null),call_self):ctx);
 var single_arity_QMARK_ = cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2((1),cljs.core.count(fn_bodies));
-var f__$1 = ((single_arity_QMARK_)?sci.impl.fns.parse_fn_args_PLUS_body(ctx__$1,interpret,eval_do_STAR_,cljs.core.first(fn_bodies),fn_name,macro_QMARK_,false):(function (){var arities = cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__59065_SHARP_){
-return sci.impl.fns.parse_fn_args_PLUS_body(ctx__$1,interpret,eval_do_STAR_,p1__59065_SHARP_,fn_name,macro_QMARK_,true);
+var f__$1 = ((single_arity_QMARK_)?sci.impl.fns.parse_fn_args_PLUS_body(ctx__$1,interpret,eval_do_STAR_,cljs.core.first(fn_bodies),fn_name,macro_QMARK_,false):(function (){var arities = cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__59063_SHARP_){
+return sci.impl.fns.parse_fn_args_PLUS_body(ctx__$1,interpret,eval_do_STAR_,p1__59063_SHARP_,fn_name,macro_QMARK_,true);
 }),fn_bodies);
 return (function() { 
-var G__59096__delegate = function (args){
+var G__59092__delegate = function (args){
 var arg_count = cljs.core.count(args);
 var temp__5733__auto__ = sci.impl.fns.lookup_by_arity(arities,arg_count);
 if(cljs.core.truth_(temp__5733__auto__)){
@@ -208,26 +208,26 @@ return ["Cannot call ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(fn_name)," wi
 })()));
 }
 };
-var G__59096 = function (var_args){
+var G__59092 = function (var_args){
 var args = null;
 if (arguments.length > 0) {
-var G__59097__i = 0, G__59097__a = new Array(arguments.length -  0);
-while (G__59097__i < G__59097__a.length) {G__59097__a[G__59097__i] = arguments[G__59097__i + 0]; ++G__59097__i;}
-  args = new cljs.core.IndexedSeq(G__59097__a,0,null);
+var G__59093__i = 0, G__59093__a = new Array(arguments.length -  0);
+while (G__59093__i < G__59093__a.length) {G__59093__a[G__59093__i] = arguments[G__59093__i + 0]; ++G__59093__i;}
+  args = new cljs.core.IndexedSeq(G__59093__a,0,null);
 } 
-return G__59096__delegate.call(this,args);};
-G__59096.cljs$lang$maxFixedArity = 0;
-G__59096.cljs$lang$applyTo = (function (arglist__59098){
-var args = cljs.core.seq(arglist__59098);
-return G__59096__delegate(args);
+return G__59092__delegate.call(this,args);};
+G__59092.cljs$lang$maxFixedArity = 0;
+G__59092.cljs$lang$applyTo = (function (arglist__59094){
+var args = cljs.core.seq(arglist__59094);
+return G__59092__delegate(args);
 });
-G__59096.cljs$core$IFn$_invoke$arity$variadic = G__59096__delegate;
-return G__59096;
+G__59092.cljs$core$IFn$_invoke$arity$variadic = G__59092__delegate;
+return G__59092;
 })()
 ;
 })());
-var f__$2 = (cljs.core.truth_(macro_QMARK_)?cljs.core.vary_meta.cljs$core$IFn$_invoke$arity$2(f__$1,(function (p1__59066_SHARP_){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__59066_SHARP_,new cljs.core.Keyword("sci","macro","sci/macro",-868536151),macro_QMARK_);
+var f__$2 = (cljs.core.truth_(macro_QMARK_)?cljs.core.vary_meta.cljs$core$IFn$_invoke$arity$2(f__$1,(function (p1__59065_SHARP_){
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__59065_SHARP_,new cljs.core.Keyword("sci","macro","sci/macro",-868536151),macro_QMARK_);
 })):f__$1);
 cljs.core.reset_BANG_(self_ref,f__$2);
 
