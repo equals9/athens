@@ -31,12 +31,12 @@ if(typeof dashed === 'string'){
 return dashed;
 } else {
 var name_str = cljs.core.name(dashed);
-var vec__31623 = clojure.string.split.cljs$core$IFn$_invoke$arity$2(name_str,/-/);
-var seq__31624 = cljs.core.seq(vec__31623);
-var first__31625 = cljs.core.first(seq__31624);
-var seq__31624__$1 = cljs.core.next(seq__31624);
-var start = first__31625;
-var parts = seq__31624__$1;
+var vec__31621 = clojure.string.split.cljs$core$IFn$_invoke$arity$2(name_str,/-/);
+var seq__31622 = cljs.core.seq(vec__31621);
+var first__31623 = cljs.core.first(seq__31622);
+var seq__31622__$1 = cljs.core.next(seq__31622);
+var start = first__31623;
+var parts = seq__31622__$1;
 if(cljs.core.truth_((reagent.impl.util.dont_camel_case.cljs$core$IFn$_invoke$arity$1 ? reagent.impl.util.dont_camel_case.cljs$core$IFn$_invoke$arity$1(start) : reagent.impl.util.dont_camel_case.call(null,start)))){
 return name_str;
 } else {

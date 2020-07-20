@@ -132,8 +132,8 @@ var G__55934_55996 = (function (db,_){
 return new cljs.core.Keyword(null,"merge-prompt","merge-prompt",1428758084).cljs$core$IFn$_invoke$arity$1(db);
 });
 (re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__55933_55995,G__55934_55996) : re_frame.core.reg_sub.call(null,G__55933_55995,G__55934_55996));
-var G__55935_55997 = new cljs.core.Keyword("editing","uid","editing/uid",974963040);
-var G__55936_55998 = ((day8.re_frame.tracing.is_trace_enabled_QMARK_())?(function (db,_){
+var G__55938_55997 = new cljs.core.Keyword("editing","uid","editing/uid",974963040);
+var G__55939_55998 = ((day8.re_frame.tracing.is_trace_enabled_QMARK_())?(function (db,_){
 var _PLUS_debux_dbg_opts_PLUS_ = cljs.core.PersistentArrayMap.EMPTY;
 try{debux.common.util.send_form_BANG_(cljs.core.list(new cljs.core.Keyword("editing","uid","editing/uid",974963040),new cljs.core.Symbol(null,"db","db",-1661185010,null)));
 
@@ -152,7 +152,7 @@ throw e;
 }}):(function (db,_){
 return new cljs.core.Keyword("editing","uid","editing/uid",974963040).cljs$core$IFn$_invoke$arity$1(db);
 }));
-(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__55935_55997,G__55936_55998) : re_frame.core.reg_sub.call(null,G__55935_55997,G__55936_55998));
+(re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2 ? re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$2(G__55938_55997,G__55939_55998) : re_frame.core.reg_sub.call(null,G__55938_55997,G__55939_55998));
 var G__55941_55999 = new cljs.core.Keyword("editing","is-editing","editing/is-editing",-1509220484);
 var G__55942_56000 = (function (_){
 return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [(function (){var G__55944 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("editing","uid","editing/uid",974963040)], null);
