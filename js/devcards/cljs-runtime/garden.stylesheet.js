@@ -177,11 +177,11 @@ return garden.stylesheet.at_rule(new cljs.core.Keyword(null,"import","import",-1
 }));
 
 /** @this {Function} */
-(garden.stylesheet.at_import.cljs$lang$applyTo = (function (seq34823){
-var G__34824 = cljs.core.first(seq34823);
-var seq34823__$1 = cljs.core.next(seq34823);
+(garden.stylesheet.at_import.cljs$lang$applyTo = (function (seq34822){
+var G__34823 = cljs.core.first(seq34822);
+var seq34822__$1 = cljs.core.next(seq34822);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__34824,seq34823__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__34823,seq34822__$1);
 }));
 
 (garden.stylesheet.at_import.cljs$lang$maxFixedArity = (1));
