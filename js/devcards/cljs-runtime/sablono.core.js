@@ -226,7 +226,7 @@ sablono.core.link_to = sablono.core.wrap_attrs(sablono.core.link_to41833);
  * Wraps some content in a HTML hyperlink with the supplied e-mail
  *   address. If no content provided use the e-mail address as content.
  */
-sablono.core.mail_to41843 = (function sablono$core$mail_to41843(var_args){
+sablono.core.mail_to41841 = (function sablono$core$mail_to41841(var_args){
 var args__4795__auto__ = [];
 var len__4789__auto___41982 = arguments.length;
 var i__4790__auto___41983 = (0);
@@ -243,10 +243,10 @@ break;
 }
 
 var argseq__4796__auto__ = ((((1) < args__4795__auto__.length))?(new cljs.core.IndexedSeq(args__4795__auto__.slice((1)),(0),null)):null);
-return sablono.core.mail_to41843.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)]),argseq__4796__auto__);
+return sablono.core.mail_to41841.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)]),argseq__4796__auto__);
 });
 
-(sablono.core.mail_to41843.cljs$core$IFn$_invoke$arity$variadic = (function (e_mail,p__41848){
+(sablono.core.mail_to41841.cljs$core$IFn$_invoke$arity$variadic = (function (e_mail,p__41848){
 var vec__41849 = p__41848;
 var content = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41849,(0),null);
 return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"a","a",-2123407586),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"href","href",-793805698),["mailto:",cljs.core.str.cljs$core$IFn$_invoke$arity$1(e_mail)].join('')], null),(function (){var or__4185__auto__ = content;
@@ -258,18 +258,18 @@ return e_mail;
 })()], null);
 }));
 
-(sablono.core.mail_to41843.cljs$lang$maxFixedArity = (1));
+(sablono.core.mail_to41841.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(sablono.core.mail_to41843.cljs$lang$applyTo = (function (seq41846){
-var G__41847 = cljs.core.first(seq41846);
-var seq41846__$1 = cljs.core.next(seq41846);
+(sablono.core.mail_to41841.cljs$lang$applyTo = (function (seq41845){
+var G__41847 = cljs.core.first(seq41845);
+var seq41845__$1 = cljs.core.next(seq41845);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__41847,seq41846__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__41847,seq41845__$1);
 }));
 
 
-sablono.core.mail_to = sablono.core.wrap_attrs(sablono.core.mail_to41843);
+sablono.core.mail_to = sablono.core.wrap_attrs(sablono.core.mail_to41841);
 /**
  * Wrap a collection in an unordered list.
  */
@@ -341,8 +341,8 @@ if((i__41868 < size__4581__auto__)){
 var x = cljs.core._nth.cljs$core$IFn$_invoke$arity$2(c__4580__auto__,i__41868);
 cljs.core.chunk_append(b__41869,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"li","li",723558921),x], null));
 
-var G__41988 = (i__41868 + (1));
-i__41868 = G__41988;
+var G__41986 = (i__41868 + (1));
+i__41868 = G__41986;
 continue;
 } else {
 return true;

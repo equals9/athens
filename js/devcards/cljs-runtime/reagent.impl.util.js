@@ -31,12 +31,12 @@ if(typeof dashed === 'string'){
 return dashed;
 } else {
 var name_str = cljs.core.name(dashed);
-var vec__31619 = clojure.string.split.cljs$core$IFn$_invoke$arity$2(name_str,/-/);
-var seq__31620 = cljs.core.seq(vec__31619);
-var first__31621 = cljs.core.first(seq__31620);
-var seq__31620__$1 = cljs.core.next(seq__31620);
-var start = first__31621;
-var parts = seq__31620__$1;
+var vec__31618 = clojure.string.split.cljs$core$IFn$_invoke$arity$2(name_str,/-/);
+var seq__31619 = cljs.core.seq(vec__31618);
+var first__31620 = cljs.core.first(seq__31619);
+var seq__31619__$1 = cljs.core.next(seq__31619);
+var start = first__31620;
+var parts = seq__31619__$1;
 if(cljs.core.truth_((reagent.impl.util.dont_camel_case.cljs$core$IFn$_invoke$arity$1 ? reagent.impl.util.dont_camel_case.cljs$core$IFn$_invoke$arity$1(start) : reagent.impl.util.dont_camel_case.call(null,start)))){
 return name_str;
 } else {
@@ -402,14 +402,14 @@ return reagent.impl.util.class_names.cljs$core$IFn$_invoke$arity$2((arguments[(0
 break;
 default:
 var args_arr__4810__auto__ = [];
-var len__4789__auto___31664 = arguments.length;
-var i__4790__auto___31665 = (0);
+var len__4789__auto___31660 = arguments.length;
+var i__4790__auto___31661 = (0);
 while(true){
-if((i__4790__auto___31665 < len__4789__auto___31664)){
-args_arr__4810__auto__.push((arguments[i__4790__auto___31665]));
+if((i__4790__auto___31661 < len__4789__auto___31660)){
+args_arr__4810__auto__.push((arguments[i__4790__auto___31661]));
 
-var G__31666 = (i__4790__auto___31665 + (1));
-i__4790__auto___31665 = G__31666;
+var G__31662 = (i__4790__auto___31661 + (1));
+i__4790__auto___31661 = G__31662;
 continue;
 } else {
 }
