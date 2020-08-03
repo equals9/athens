@@ -155,10 +155,10 @@ return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__55078,seq55077
  */
 instaparse.combinators_source.cat = (function instaparse$combinators_source$cat(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___55142 = arguments.length;
+var len__4736__auto___55143 = arguments.length;
 var i__4737__auto___55144 = (0);
 while(true){
-if((i__4737__auto___55144 < len__4736__auto___55142)){
+if((i__4737__auto___55144 < len__4736__auto___55143)){
 args__4742__auto__.push((arguments[i__4737__auto___55144]));
 
 var G__55145 = (i__4737__auto___55144 + (1));
@@ -411,8 +411,8 @@ var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__55100,(0),null);
 var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__55100,(1),null);
 cljs.core.chunk_append(b__55099,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [k,cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(v,new cljs.core.Keyword(null,"red","red",-969428204),(reduction.cljs$core$IFn$_invoke$arity$1 ? reduction.cljs$core$IFn$_invoke$arity$1(k) : reduction.call(null,k)))], null));
 
-var G__55181 = (i__55098 + (1));
-i__55098 = G__55181;
+var G__55182 = (i__55098 + (1));
+i__55098 = G__55182;
 continue;
 } else {
 return true;

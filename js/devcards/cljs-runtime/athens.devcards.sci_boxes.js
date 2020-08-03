@@ -351,8 +351,8 @@ if((i__60224 < size__4528__auto__)){
 var id__$1 = cljs.core._nth(c__4527__auto__,i__60224);
 cljs.core.chunk_append(b__60225,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [athens.devcards.sci_boxes.box_component,id__$1], null));
 
-var G__60237 = (i__60224 + (1));
-i__60224 = G__60237;
+var G__60234 = (i__60224 + (1));
+i__60224 = G__60234;
 continue;
 } else {
 return true;
