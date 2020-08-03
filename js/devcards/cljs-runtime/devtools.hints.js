@@ -42,9 +42,9 @@ xhr.send();
 return devtools.hints.empty_as_nil(xhr.responseText);
 });
 devtools.hints.retrieve_javascript_source = (function devtools$hints$retrieve_javascript_source(where){
-var reader = (function (){var or__4185__auto__ = devtools.prefs.pref(new cljs.core.Keyword(null,"file-reader","file-reader",-450847664));
-if(cljs.core.truth_(or__4185__auto__)){
-return or__4185__auto__;
+var reader = (function (){var or__4126__auto__ = devtools.prefs.pref(new cljs.core.Keyword(null,"file-reader","file-reader",-450847664));
+if(cljs.core.truth_(or__4126__auto__)){
+return or__4126__auto__;
 } else {
 return devtools.hints.ajax_reader;
 }
@@ -75,9 +75,9 @@ var content = devtools.hints.retrieve_javascript_source(file);
 var lines = content.split("\n");
 var line = devtools.hints.get_line(lines,line_number);
 var marked_line = devtools.hints.mark_call_closed_at_column(line,column);
-var min_length = (function (){var or__4185__auto__ = devtools.prefs.pref(new cljs.core.Keyword(null,"sanity-hint-min-length","sanity-hint-min-length",104958154));
-if(cljs.core.truth_(or__4185__auto__)){
-return or__4185__auto__;
+var min_length = (function (){var or__4126__auto__ = devtools.prefs.pref(new cljs.core.Keyword(null,"sanity-hint-min-length","sanity-hint-min-length",104958154));
+if(cljs.core.truth_(or__4126__auto__)){
+return or__4126__auto__;
 } else {
 return (128);
 }
@@ -93,37 +93,33 @@ return null;
 }
 });
 devtools.hints.parse_stacktrace = (function devtools$hints$parse_stacktrace(native_stack_trace){
-var G__20907 = cljs.core.PersistentArrayMap.EMPTY;
-var G__20908 = native_stack_trace;
-var G__20909 = new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"ua-product","ua-product",938384227),new cljs.core.Keyword(null,"chrome","chrome",1718738387)], null);
-var G__20910 = new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"asset-root","asset-root",1771735072),""], null);
-return (cljs.stacktrace.parse_stacktrace.cljs$core$IFn$_invoke$arity$4 ? cljs.stacktrace.parse_stacktrace.cljs$core$IFn$_invoke$arity$4(G__20907,G__20908,G__20909,G__20910) : cljs.stacktrace.parse_stacktrace.call(null,G__20907,G__20908,G__20909,G__20910));
+return cljs.stacktrace.parse_stacktrace.cljs$core$IFn$_invoke$arity$4(cljs.core.PersistentArrayMap.EMPTY,native_stack_trace,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"ua-product","ua-product",938384227),new cljs.core.Keyword(null,"chrome","chrome",1718738387)], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"asset-root","asset-root",1771735072),""], null));
 });
 devtools.hints.error_object_sense = (function devtools$hints$error_object_sense(error){
 try{var native_stack_trace = error.stack;
 var stack_trace = devtools.hints.parse_stacktrace(native_stack_trace);
 var top_item = cljs.core.second(stack_trace);
-var map__20912 = top_item;
-var map__20912__$1 = (((((!((map__20912 == null))))?(((((map__20912.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__20912.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__20912):map__20912);
-var file = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__20912__$1,new cljs.core.Keyword(null,"file","file",-1269645878));
-var line = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__20912__$1,new cljs.core.Keyword(null,"line","line",212345235));
-var column = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__20912__$1,new cljs.core.Keyword(null,"column","column",2078222095));
+var map__20782 = top_item;
+var map__20782__$1 = (((((!((map__20782 == null))))?(((((map__20782.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__20782.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__20782):map__20782);
+var file = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__20782__$1,new cljs.core.Keyword(null,"file","file",-1269645878));
+var line = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__20782__$1,new cljs.core.Keyword(null,"line","line",212345235));
+var column = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__20782__$1,new cljs.core.Keyword(null,"column","column",2078222095));
 return devtools.hints.make_sense_of_the_error(error.message,file,line,column);
-}catch (e20911){var _e = e20911;
+}catch (e20780){var _e = e20780;
 return false;
 }});
 devtools.hints.type_error_to_string = (function devtools$hints$type_error_to_string(self){
-var temp__5733__auto___20915 = devtools.hints.get_processed_errors_BANG_();
-if(cljs.core.truth_(temp__5733__auto___20915)){
-var seen_errors_20916 = temp__5733__auto___20915;
-if(cljs.core.truth_(seen_errors_20916.has(self))){
+var temp__5733__auto___20836 = devtools.hints.get_processed_errors_BANG_();
+if(cljs.core.truth_(temp__5733__auto___20836)){
+var seen_errors_20837 = temp__5733__auto___20836;
+if(cljs.core.truth_(seen_errors_20837.has(self))){
 } else {
-seen_errors_20916.add(self);
+seen_errors_20837.add(self);
 
-var temp__5735__auto___20917 = devtools.hints.error_object_sense(self);
-if(cljs.core.truth_(temp__5735__auto___20917)){
-var sense_20918 = temp__5735__auto___20917;
-(self.message = [cljs.core.str.cljs$core$IFn$_invoke$arity$1(self.message),", a sanity hint:\n",cljs.core.str.cljs$core$IFn$_invoke$arity$1(sense_20918)].join(''));
+var temp__5735__auto___20838 = devtools.hints.error_object_sense(self);
+if(cljs.core.truth_(temp__5735__auto___20838)){
+var sense_20839 = temp__5735__auto___20838;
+(self.message = [cljs.core.str.cljs$core$IFn$_invoke$arity$1(self.message),", a sanity hint:\n",cljs.core.str.cljs$core$IFn$_invoke$arity$1(sense_20839)].join(''));
 } else {
 }
 }
@@ -133,12 +129,12 @@ var sense_20918 = temp__5735__auto___20917;
 return devtools.hints._STAR_original_type_error_prototype_to_string_STAR_.call(self);
 });
 devtools.hints.global_error_handler = (function devtools$hints$global_error_handler(message,url,line,column,error){
-var res = (cljs.core.truth_(devtools.hints._STAR_original_global_error_handler_STAR_)?(devtools.hints._STAR_original_global_error_handler_STAR_.cljs$core$IFn$_invoke$arity$5 ? devtools.hints._STAR_original_global_error_handler_STAR_.cljs$core$IFn$_invoke$arity$5(message,url,line,column,error) : devtools.hints._STAR_original_global_error_handler_STAR_.call(null,message,url,line,column,error)):null);
+var res = (cljs.core.truth_(devtools.hints._STAR_original_global_error_handler_STAR_)?devtools.hints._STAR_original_global_error_handler_STAR_.call(null,message,url,line,column,error):null);
 if(cljs.core.not(res)){
 var temp__5735__auto__ = devtools.hints.error_object_sense(error);
 if(cljs.core.truth_(temp__5735__auto__)){
 var sense = temp__5735__auto__;
-(devtools.context.get_console.cljs$core$IFn$_invoke$arity$0 ? devtools.context.get_console.cljs$core$IFn$_invoke$arity$0() : devtools.context.get_console.call(null)).info("A sanity hint for incoming uncaught error:\n",sense);
+devtools.context.get_console.call(null).info("A sanity hint for incoming uncaught error:\n",sense);
 
 return false;
 } else {
@@ -149,9 +145,9 @@ return true;
 }
 });
 devtools.hints.install_type_error_enhancer = (function devtools$hints$install_type_error_enhancer(){
-(devtools.hints._STAR_original_global_error_handler_STAR_ = (devtools.context.get_root.cljs$core$IFn$_invoke$arity$0 ? devtools.context.get_root.cljs$core$IFn$_invoke$arity$0() : devtools.context.get_root.call(null)).onerror);
+(devtools.hints._STAR_original_global_error_handler_STAR_ = devtools.context.get_root.call(null).onerror);
 
-((devtools.context.get_root.cljs$core$IFn$_invoke$arity$0 ? devtools.context.get_root.cljs$core$IFn$_invoke$arity$0() : devtools.context.get_root.call(null)).onerror = devtools.hints.global_error_handler);
+(devtools.context.get_root.call(null).onerror = devtools.hints.global_error_handler);
 
 var prototype = TypeError.prototype;
 (devtools.hints._STAR_original_type_error_prototype_to_string_STAR_ = prototype.toString);
@@ -184,7 +180,7 @@ if(cljs.core.truth_(devtools.hints._STAR_original_type_error_prototype_to_string
 throw (new Error("Assert failed: *original-type-error-prototype-to-string*"));
 }
 
-((devtools.context.get_root.cljs$core$IFn$_invoke$arity$0 ? devtools.context.get_root.cljs$core$IFn$_invoke$arity$0() : devtools.context.get_root.call(null)).onerror = devtools.hints._STAR_original_global_error_handler_STAR_);
+(devtools.context.get_root.call(null).onerror = devtools.hints._STAR_original_global_error_handler_STAR_);
 
 var prototype = TypeError.prototype;
 return (prototype.toString = devtools.hints._STAR_original_type_error_prototype_to_string_STAR_);
