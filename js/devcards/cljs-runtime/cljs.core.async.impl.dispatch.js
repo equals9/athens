@@ -19,8 +19,8 @@ if((m_40316 == null)){
 (m_40316.cljs$core$IFn$_invoke$arity$0 ? m_40316.cljs$core$IFn$_invoke$arity$0() : m_40316.call(null));
 
 if((count_40315 < cljs.core.async.impl.dispatch.TASK_BATCH_SIZE)){
-var G__40317 = (count_40315 + (1));
-count_40315 = G__40317;
+var G__40320 = (count_40315 + (1));
+count_40315 = G__40320;
 continue;
 } else {
 }

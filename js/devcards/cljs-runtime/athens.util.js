@@ -7,18 +7,21 @@ goog.require('tick.locale_en_us');
 athens.util.gen_block_uid = (function athens$util$gen_block_uid(){
 return cljs.core.subs.cljs$core$IFn$_invoke$arity$2(cljs.core.str.cljs$core$IFn$_invoke$arity$1(cljs.core.random_uuid()),(27));
 });
-athens.util.scroll_if_needed = (function athens$util$scroll_if_needed(element,container){
-if((element.offsetTop < container.scrollTop)){
-return (container.scrollTop = element.offsetTop);
-} else {
-var offsetBottom = (element.offsetTop + element.offsetHeight);
-var scrollBottom = (container.scrollTop + container.offsetHeight);
-if((scrollBottom < offsetBottom)){
-return (container.scrollTop = (offsetBottom - container.offsetHeight));
+athens.util.scroll_top_BANG_ = (function athens$util$scroll_top_BANG_(element,pos){
+if(cljs.core.truth_(pos)){
+return (element.scrollTop = pos);
 } else {
 return null;
 }
-}
+});
+athens.util.scroll_if_needed = (function athens$util$scroll_if_needed(element,container){
+var e_top = element.offsetTop;
+var e_height = element.offsetHeight;
+var e_bottom = (e_top + e_height);
+var cs_top = container.scrollTop;
+var c_height = container.offsetHeight;
+var cs_bottom = (cs_top + c_height);
+return athens.util.scroll_top_BANG_(container,(((e_top < cs_top))?e_top:(((cs_bottom < e_bottom))?(e_bottom - c_height):null)));
 });
 athens.util.mouse_offset = (function athens$util$mouse_offset(e){
 var rect = e.target.getBoundingClientRect();
@@ -38,6 +41,13 @@ var el_box = element.getBoundingClientRect();
 var cont_box = container.getBoundingClientRect();
 return (((el_box.bottom > cont_box.bottom)) || ((el_box.top < cont_box.top)));
 });
+athens.util.scroll_into_view = (function athens$util$scroll_into_view(element,container,align_top_QMARK_){
+if(athens.util.is_beyond_rect_QMARK_(element,container)){
+return element.scrollIntoView(align_top_QMARK_,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"behavior","behavior",1202392908),"auto"], null));
+} else {
+return null;
+}
+});
 athens.util.date_col_format = tick.alpha.api.formatter.cljs$core$IFn$_invoke$arity$1("LLLL dd, yyyy h':'mma");
 athens.util.US_format = tick.alpha.api.formatter.cljs$core$IFn$_invoke$arity$1("MM-dd-yyyy");
 athens.util.title_format = tick.alpha.api.formatter.cljs$core$IFn$_invoke$arity$1("LLLL dd, yyyy");
@@ -48,8 +58,8 @@ return (new Date()).getTime();
  * Returns today's date or a date OFFSET days before today
  */
 athens.util.get_day = (function athens$util$get_day(var_args){
-var G__38245 = arguments.length;
-switch (G__38245) {
+var G__38250 = arguments.length;
+switch (G__38250) {
 case 0:
 return athens.util.get_day.cljs$core$IFn$_invoke$arity$0();
 
@@ -87,8 +97,8 @@ return clojure.string.replace(x__$3,/PM/,"pm");
 }
 });
 athens.util.regex_esc_char_map = (function (){var esc_chars = "()*&^%$#![]";
-return cljs.core.zipmap(esc_chars,cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__38250_SHARP_){
-return ["\\",cljs.core.str.cljs$core$IFn$_invoke$arity$1(p1__38250_SHARP_)].join('');
+return cljs.core.zipmap(esc_chars,cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__38251_SHARP_){
+return ["\\",cljs.core.str.cljs$core$IFn$_invoke$arity$1(p1__38251_SHARP_)].join('');
 }),esc_chars));
 })();
 /**
