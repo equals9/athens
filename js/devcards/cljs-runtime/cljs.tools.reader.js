@@ -916,10 +916,10 @@ continue;
 }
 } else {
 if((!((finished === cljs.tools.reader.READ_FINISHED)))){
-var G__26403 = matched;
-var G__26404 = cljs.tools.reader.read_suppress(first_line,rdr,opts,pending_forms);
-matched = G__26403;
-finished = G__26404;
+var G__26404 = matched;
+var G__26405 = cljs.tools.reader.read_suppress(first_line,rdr,opts,pending_forms);
+matched = G__26404;
+finished = G__26405;
 continue;
 } else {
 return matched;
@@ -1137,10 +1137,10 @@ if(s__$1){
 var item = cljs.core.first(s__$1);
 var ret = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(r,((cljs.tools.reader.unquote_QMARK_(item))?(new cljs.core.List(null,new cljs.core.Symbol("clojure.core","list","clojure.core/list",-1119203325,null),(new cljs.core.List(null,cljs.core.second(item),null,(1),null)),(2),null)):((cljs.tools.reader.unquote_splicing_QMARK_(item))?cljs.core.second(item):(new cljs.core.List(null,new cljs.core.Symbol("clojure.core","list","clojure.core/list",-1119203325,null),(new cljs.core.List(null,(cljs.tools.reader.syntax_quote_STAR_.cljs$core$IFn$_invoke$arity$1 ? cljs.tools.reader.syntax_quote_STAR_.cljs$core$IFn$_invoke$arity$1(item) : cljs.tools.reader.syntax_quote_STAR_.call(null,item)),null,(1),null)),(2),null))
 )));
-var G__26413 = cljs.core.next(s__$1);
-var G__26414 = ret;
-s__$1 = G__26413;
-r = G__26414;
+var G__26414 = cljs.core.next(s__$1);
+var G__26415 = ret;
+s__$1 = G__26414;
+r = G__26415;
 continue;
 } else {
 return cljs.core.seq(cljs.core.persistent_BANG_(r));
