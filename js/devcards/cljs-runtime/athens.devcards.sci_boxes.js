@@ -196,12 +196,12 @@ var id_SINGLEQUOTE_ = athens.devcards.sci_boxes.next_box_id(boxes__$1,visited_SI
 if(cljs.core.not(id_SINGLEQUOTE_)){
 return boxes_SINGLEQUOTE_;
 } else {
-var G__60239 = boxes_SINGLEQUOTE_;
-var G__60240 = visited_SINGLEQUOTE_;
-var G__60241 = id_SINGLEQUOTE_;
-boxes__$1 = G__60239;
-visited = G__60240;
-id = G__60241;
+var G__60236 = boxes_SINGLEQUOTE_;
+var G__60237 = visited_SINGLEQUOTE_;
+var G__60238 = id_SINGLEQUOTE_;
+boxes__$1 = G__60236;
+visited = G__60237;
+id = G__60238;
 continue;
 }
 break;

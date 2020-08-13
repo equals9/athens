@@ -336,13 +336,15 @@ athens.keybindings.handle_shortcuts = (function athens$keybindings$handle_shortc
 var map__54896 = athens.keybindings.destruct_event(e);
 var map__54896__$1 = (((((!((map__54896 == null))))?(((((map__54896.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__54896.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__54896):map__54896);
 var key_code = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54896__$1,new cljs.core.Keyword(null,"key-code","key-code",-1732114304));
+var head = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54896__$1,new cljs.core.Keyword(null,"head","head",-771383919));
+var tail = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54896__$1,new cljs.core.Keyword(null,"tail","tail",-1146023564));
 var selection = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54896__$1,new cljs.core.Keyword(null,"selection","selection",975998651));
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(key_code,goog.events.KeyCodes.B)){
-var new_str = athens.keybindings.surround(selection,"**");
+var new_str = [cljs.core.str.cljs$core$IFn$_invoke$arity$1(head),athens.keybindings.surround(selection,"**"),cljs.core.str.cljs$core$IFn$_invoke$arity$1(tail)].join('');
 return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(state,cljs.core.assoc,new cljs.core.Keyword(null,"atom-string","atom-string",-1067323204),new_str);
 } else {
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(key_code,goog.events.KeyCodes.I)){
-var new_str = athens.keybindings.surround(selection,"__");
+var new_str = [cljs.core.str.cljs$core$IFn$_invoke$arity$1(head),athens.keybindings.surround(selection,"__"),cljs.core.str.cljs$core$IFn$_invoke$arity$1(tail)].join('');
 return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(state,cljs.core.assoc,new cljs.core.Keyword(null,"atom-string","atom-string",-1067323204),new_str);
 } else {
 return null;
