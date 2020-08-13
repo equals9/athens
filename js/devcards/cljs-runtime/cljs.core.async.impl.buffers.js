@@ -7,8 +7,8 @@ while(true){
 if((cnt < len)){
 (dest[(dest_start + cnt)] = (src[(src_start + cnt)]));
 
-var G__40247 = (cnt + (1));
-cnt = G__40247;
+var G__40248 = (cnt + (1));
+cnt = G__40248;
 continue;
 } else {
 return null;
