@@ -196,12 +196,12 @@ var id_SINGLEQUOTE_ = athens.devcards.sci_boxes.next_box_id(boxes__$1,visited_SI
 if(cljs.core.not(id_SINGLEQUOTE_)){
 return boxes_SINGLEQUOTE_;
 } else {
-var G__60236 = boxes_SINGLEQUOTE_;
-var G__60237 = visited_SINGLEQUOTE_;
-var G__60238 = id_SINGLEQUOTE_;
-boxes__$1 = G__60236;
-visited = G__60237;
-id = G__60238;
+var G__60239 = boxes_SINGLEQUOTE_;
+var G__60240 = visited_SINGLEQUOTE_;
+var G__60241 = id_SINGLEQUOTE_;
+boxes__$1 = G__60239;
+visited = G__60240;
+id = G__60241;
 continue;
 }
 break;
@@ -351,8 +351,8 @@ if((i__60230 < size__4528__auto__)){
 var id__$1 = cljs.core._nth(c__4527__auto__,i__60230);
 cljs.core.chunk_append(b__60231,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [athens.devcards.sci_boxes.box_component,id__$1], null));
 
-var G__60240 = (i__60230 + (1));
-i__60230 = G__60240;
+var G__60243 = (i__60230 + (1));
+i__60230 = G__60243;
 continue;
 } else {
 return true;

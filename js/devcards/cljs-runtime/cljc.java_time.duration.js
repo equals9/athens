@@ -88,8 +88,8 @@ cljc.java_time.duration.to_string = (function cljc$java_time$duration$to_string(
 return this4456.toString();
 });
 cljc.java_time.duration.minus = (function cljc$java_time$duration$minus(var_args){
-var G__33690 = arguments.length;
-switch (G__33690) {
+var G__33692 = arguments.length;
+switch (G__33692) {
 case 2:
 return cljc.java_time.duration.minus.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
