@@ -466,8 +466,8 @@ return re_frame.cofx.reg_cofx(id,handler);
  * to the event handler at call time.
  */
 re_frame.core.inject_cofx = (function re_frame$core$inject_cofx(var_args){
-var G__51367 = arguments.length;
-switch (G__51367) {
+var G__51364 = arguments.length;
+switch (G__51364) {
 case 1:
 return re_frame.core.inject_cofx.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

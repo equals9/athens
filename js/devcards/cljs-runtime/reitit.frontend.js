@@ -51,8 +51,8 @@ return null;
  *   or `nil` (no match).
  */
 reitit.frontend.match_by_name = (function reitit$frontend$match_by_name(var_args){
-var G__54543 = arguments.length;
-switch (G__54543) {
+var G__54544 = arguments.length;
+switch (G__54544) {
 case 2:
 return reitit.frontend.match_by_name.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -137,8 +137,8 @@ var temp__5733__auto__ = reitit.frontend.match_by_name.cljs$core$IFn$_invoke$ari
 if(cljs.core.truth_(temp__5733__auto__)){
 var match = temp__5733__auto__;
 if(reitit.core.partial_match_QMARK_(match)){
-if(cljs.core.every_QMARK_((function (p1__54551_SHARP_){
-return cljs.core.contains_QMARK_(path_params,p1__54551_SHARP_);
+if(cljs.core.every_QMARK_((function (p1__54550_SHARP_){
+return cljs.core.contains_QMARK_(path_params,p1__54550_SHARP_);
 }),new cljs.core.Keyword(null,"required","required",1807647006).cljs$core$IFn$_invoke$arity$1(match))){
 return match;
 } else {
