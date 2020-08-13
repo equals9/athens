@@ -122,8 +122,8 @@ stylefy.impl.dom.update_style_tags_BANG_(node_stylefy,node_stylefy_constant);
 cljs.core.reset_BANG_(stylefy.impl.dom.dom_update_requested_QMARK_,false);
 
 try{stylefy.impl.cache.cache_styles.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(stylefy.impl.dom.styles_as_css),cljs.core.deref(stylefy.impl.dom.stylefy_instance_id));
-}catch (e44089){var e_44161 = e44089;
-stylefy.impl.log.warn(["Unable to cache styles, error: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(e_44161)].join(''));
+}catch (e44089){var e_44162 = e44089;
+stylefy.impl.log.warn(["Unable to cache styles, error: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(e_44162)].join(''));
 
 stylefy.impl.cache.clear_styles.cljs$core$IFn$_invoke$arity$1(cljs.core.deref(stylefy.impl.dom.stylefy_instance_id));
 
@@ -162,12 +162,12 @@ return null;
 return (function() {
 var stylefy$impl$dom$request_asynchronous_dom_update_$_state_machine__42484__auto__ = null;
 var stylefy$impl$dom$request_asynchronous_dom_update_$_state_machine__42484__auto____0 = (function (){
-var statearr_44099 = [null,null,null,null,null,null,null];
-(statearr_44099[(0)] = stylefy$impl$dom$request_asynchronous_dom_update_$_state_machine__42484__auto__);
+var statearr_44100 = [null,null,null,null,null,null,null];
+(statearr_44100[(0)] = stylefy$impl$dom$request_asynchronous_dom_update_$_state_machine__42484__auto__);
 
-(statearr_44099[(1)] = (1));
+(statearr_44100[(1)] = (1));
 
-return statearr_44099;
+return statearr_44100;
 });
 var stylefy$impl$dom$request_asynchronous_dom_update_$_state_machine__42484__auto____1 = (function (state_44094){
 while(true){

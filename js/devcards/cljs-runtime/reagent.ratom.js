@@ -376,14 +376,14 @@ return reagent.ratom.atom.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 break;
 default:
 var args_arr__4757__auto__ = [];
-var len__4736__auto___31272 = arguments.length;
-var i__4737__auto___31273 = (0);
+var len__4736__auto___31273 = arguments.length;
+var i__4737__auto___31274 = (0);
 while(true){
-if((i__4737__auto___31273 < len__4736__auto___31272)){
-args_arr__4757__auto__.push((arguments[i__4737__auto___31273]));
+if((i__4737__auto___31274 < len__4736__auto___31273)){
+args_arr__4757__auto__.push((arguments[i__4737__auto___31274]));
 
-var G__31274 = (i__4737__auto___31273 + (1));
-i__4737__auto___31273 = G__31274;
+var G__31276 = (i__4737__auto___31274 + (1));
+i__4737__auto___31274 = G__31276;
 continue;
 } else {
 }
@@ -597,14 +597,14 @@ return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__31217,seq31216
 
 reagent.ratom.track_BANG_ = (function reagent$ratom$track_BANG_(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___31284 = arguments.length;
-var i__4737__auto___31285 = (0);
+var len__4736__auto___31285 = arguments.length;
+var i__4737__auto___31286 = (0);
 while(true){
-if((i__4737__auto___31285 < len__4736__auto___31284)){
-args__4742__auto__.push((arguments[i__4737__auto___31285]));
+if((i__4737__auto___31286 < len__4736__auto___31285)){
+args__4742__auto__.push((arguments[i__4737__auto___31286]));
 
-var G__31286 = (i__4737__auto___31285 + (1));
-i__4737__auto___31285 = G__31286;
+var G__31287 = (i__4737__auto___31286 + (1));
+i__4737__auto___31286 = G__31287;
 continue;
 } else {
 }

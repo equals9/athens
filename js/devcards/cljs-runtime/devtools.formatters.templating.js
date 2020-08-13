@@ -51,8 +51,8 @@ return cljs.core.native_satisfies_QMARK_(devtools.protocols.ITemplate,value);
 }
 });
 devtools.formatters.templating.mark_as_surrogate_BANG_ = (function devtools$formatters$templating$mark_as_surrogate_BANG_(value){
-var x23505_23571 = value;
-(x23505_23571.devtools$protocols$ISurrogate$ = cljs.core.PROTOCOL_SENTINEL);
+var x23502_23571 = value;
+(x23502_23571.devtools$protocols$ISurrogate$ = cljs.core.PROTOCOL_SENTINEL);
 
 
 return value;
@@ -401,14 +401,14 @@ return devtools.formatters.templating.make_surrogate.cljs$core$IFn$_invoke$arity
 }));
 
 (devtools.formatters.templating.make_surrogate.cljs$core$IFn$_invoke$arity$4 = (function (object,header,body,start_index){
-return devtools.formatters.templating.mark_as_surrogate_BANG_((function (){var obj23540 = ({"target":object,"header":header,"body":body,"startIndex":(function (){var or__4126__auto__ = start_index;
+return devtools.formatters.templating.mark_as_surrogate_BANG_((function (){var obj23539 = ({"target":object,"header":header,"body":body,"startIndex":(function (){var or__4126__auto__ = start_index;
 if(cljs.core.truth_(or__4126__auto__)){
 return or__4126__auto__;
 } else {
 return (0);
 }
 })()});
-return obj23540;
+return obj23539;
 })());
 }));
 
@@ -448,14 +448,14 @@ return (surrogate["startIndex"]);
 });
 devtools.formatters.templating.make_reference = (function devtools$formatters$templating$make_reference(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___23631 = arguments.length;
-var i__4737__auto___23632 = (0);
+var len__4736__auto___23636 = arguments.length;
+var i__4737__auto___23638 = (0);
 while(true){
-if((i__4737__auto___23632 < len__4736__auto___23631)){
-args__4742__auto__.push((arguments[i__4737__auto___23632]));
+if((i__4737__auto___23638 < len__4736__auto___23636)){
+args__4742__auto__.push((arguments[i__4737__auto___23638]));
 
-var G__23633 = (i__4737__auto___23632 + (1));
-i__4737__auto___23632 = G__23633;
+var G__23639 = (i__4737__auto___23638 + (1));
+i__4737__auto___23638 = G__23639;
 continue;
 } else {
 }
@@ -466,9 +466,9 @@ var argseq__4743__auto__ = ((((1) < args__4742__auto__.length))?(new cljs.core.I
 return devtools.formatters.templating.make_reference.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)]),argseq__4743__auto__);
 });
 
-(devtools.formatters.templating.make_reference.cljs$core$IFn$_invoke$arity$variadic = (function (object,p__23547){
-var vec__23549 = p__23547;
-var state_override_fn = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__23549,(0),null);
+(devtools.formatters.templating.make_reference.cljs$core$IFn$_invoke$arity$variadic = (function (object,p__23545){
+var vec__23546 = p__23545;
+var state_override_fn = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__23546,(0),null);
 if((((state_override_fn == null)) || (cljs.core.fn_QMARK_(state_override_fn)))){
 } else {
 throw (new Error("Assert failed: (or (nil? state-override-fn) (fn? state-override-fn))"));
@@ -609,24 +609,24 @@ throw (new Error(["Assert failed: ",["result of markup rendering must be a templ
 devtools.formatters.templating.render_markup_STAR_ = (function devtools$formatters$templating$render_markup_STAR_(initial_value,value){
 while(true){
 if(cljs.core.fn_QMARK_(value)){
-var G__23659 = initial_value;
-var G__23660 = (value.cljs$core$IFn$_invoke$arity$0 ? value.cljs$core$IFn$_invoke$arity$0() : value.call(null));
-initial_value = G__23659;
-value = G__23660;
+var G__23663 = initial_value;
+var G__23664 = (value.cljs$core$IFn$_invoke$arity$0 ? value.cljs$core$IFn$_invoke$arity$0() : value.call(null));
+initial_value = G__23663;
+value = G__23664;
 continue;
 } else {
 if((value instanceof cljs.core.Keyword)){
-var G__23661 = initial_value;
-var G__23662 = devtools.formatters.helpers.pref(value);
-initial_value = G__23661;
-value = G__23662;
+var G__23665 = initial_value;
+var G__23666 = devtools.formatters.helpers.pref(value);
+initial_value = G__23665;
+value = G__23666;
 continue;
 } else {
 if(cljs.core.sequential_QMARK_(value)){
-var G__23663 = initial_value;
-var G__23664 = devtools.formatters.templating.render_json_ml(value);
-initial_value = G__23663;
-value = G__23664;
+var G__23667 = initial_value;
+var G__23668 = devtools.formatters.templating.render_json_ml(value);
+initial_value = G__23667;
+value = G__23668;
 continue;
 } else {
 if(devtools.formatters.templating.template_QMARK_(value)){

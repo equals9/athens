@@ -57,8 +57,8 @@ return title;
 }
 })()], null));
 
-var G__57159 = (i__57133 + (1));
-i__57133 = G__57159;
+var G__57149 = (i__57133 + (1));
+i__57133 = G__57149;
 continue;
 } else {
 return true;
@@ -121,8 +121,8 @@ var id = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__57145__$1,new cljs.cor
 return cljs.core.with_meta(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [athens.views.blocks.block_el,child], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),id], null));
 })());
 
-var G__57160 = (i__57143 + (1));
-i__57143 = G__57160;
+var G__57154 = (i__57143 + (1));
+i__57143 = G__57154;
 continue;
 } else {
 return true;

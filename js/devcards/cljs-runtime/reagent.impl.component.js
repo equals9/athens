@@ -75,12 +75,12 @@ return reagent.impl.component.extract_children(v);
 }
 });
 reagent.impl.component.reagent_class_QMARK_ = (function reagent$impl$component$reagent_class_QMARK_(c){
-return ((cljs.core.fn_QMARK_(c)) && ((!(((function (){var G__31276 = c;
-var G__31276__$1 = (((G__31276 == null))?null:G__31276.prototype);
-if((G__31276__$1 == null)){
+return ((cljs.core.fn_QMARK_(c)) && ((!(((function (){var G__31275 = c;
+var G__31275__$1 = (((G__31275 == null))?null:G__31275.prototype);
+if((G__31275__$1 == null)){
 return null;
 } else {
-return G__31276__$1.reagentRender;
+return G__31275__$1.reagentRender;
 }
 })() == null)))));
 });
@@ -129,8 +129,8 @@ var f = c.reagentRender;
 var _ = ((cljs.core.ifn_QMARK_(f))?null:(function(){throw (new Error(["Assert failed: ",["Expected something callable, not ",cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([f], 0))].join(''),"\n","(clojure.core/ifn? f)"].join('')))})());
 var res = ((c.cljsLegacyRender === true)?f.call(c,c):(function (){var v = reagent.impl.component.get_argv(c);
 var n = cljs.core.count(v);
-var G__31287 = n;
-switch (G__31287) {
+var G__31284 = n;
+switch (G__31284) {
 case (1):
 return f.call(c);
 

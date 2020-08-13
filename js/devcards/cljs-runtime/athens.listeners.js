@@ -176,7 +176,7 @@ return null;
 }
 });
 athens.listeners.to_markdown_list = (function athens$listeners$to_markdown_list(blocks){
-return cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__54915_SHARP_){
+return clojure.string.join.cljs$core$IFn$_invoke$arity$2("",cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__54915_SHARP_){
 return ["- ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword("block","string","block/string",-2066596447).cljs$core$IFn$_invoke$arity$1(p1__54915_SHARP_)),"\n"].join('');
 }),(function (){var G__54916 = cljs.core.deref(athens.db.dsdb);
 var G__54917 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("block","string","block/string",-2066596447)], null);
@@ -184,7 +184,7 @@ var G__54918 = cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (x){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("block","uid","block/uid",-1623585167),x], null);
 }),blocks);
 return (datascript.core.pull_many.cljs$core$IFn$_invoke$arity$3 ? datascript.core.pull_many.cljs$core$IFn$_invoke$arity$3(G__54916,G__54917,G__54918) : datascript.core.pull_many.call(null,G__54916,G__54917,G__54918));
-})());
+})()));
 });
 /**
  * If blocks are selected, copy blocks as markdown list.
@@ -218,7 +218,11 @@ goog.events.listen(window,goog.events.EventType.MOUSEDOWN,athens.listeners.mouse
 
 goog.events.listen(window,goog.events.EventType.KEYDOWN,athens.listeners.multi_block_selection);
 
-return goog.events.listen(window,goog.events.EventType.KEYDOWN,athens.listeners.key_down);
+goog.events.listen(window,goog.events.EventType.KEYDOWN,athens.listeners.key_down);
+
+goog.events.listen(window,goog.events.EventType.COPY,athens.listeners.copy);
+
+return goog.events.listen(window,goog.events.EventType.CUT,athens.listeners.cut);
 });
 
 //# sourceMappingURL=athens.listeners.js.map
