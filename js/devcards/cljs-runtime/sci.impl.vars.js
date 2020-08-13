@@ -214,10 +214,10 @@ var vec__57486 = cljs.core.first(kvs);
 var var_STAR_ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__57486,(0),null);
 var tbox = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__57486,(1),null);
 var tbox_val = tbox.sci$impl$types$IBox$getVal$arity$1(null);
-var G__57513 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(ret,var_STAR_,tbox_val);
-var G__57514 = cljs.core.next(kvs);
-ret = G__57513;
-kvs = G__57514;
+var G__57515 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(ret,var_STAR_,tbox_val);
+var G__57516 = cljs.core.next(kvs);
+ret = G__57515;
+kvs = G__57516;
 continue;
 } else {
 return ret;
@@ -294,13 +294,13 @@ while (G__57519__i < G__57519__a.length) {G__57519__a[G__57519__i] = arguments[G
 } 
 return G__57518__delegate.call(this,x,y,z,args);};
 G__57518.cljs$lang$maxFixedArity = 3;
-G__57518.cljs$lang$applyTo = (function (arglist__57520){
-var x = cljs.core.first(arglist__57520);
-arglist__57520 = cljs.core.next(arglist__57520);
-var y = cljs.core.first(arglist__57520);
-arglist__57520 = cljs.core.next(arglist__57520);
-var z = cljs.core.first(arglist__57520);
-var args = cljs.core.rest(arglist__57520);
+G__57518.cljs$lang$applyTo = (function (arglist__57522){
+var x = cljs.core.first(arglist__57522);
+arglist__57522 = cljs.core.next(arglist__57522);
+var y = cljs.core.first(arglist__57522);
+arglist__57522 = cljs.core.next(arglist__57522);
+var z = cljs.core.first(arglist__57522);
+var args = cljs.core.rest(arglist__57522);
 return G__57518__delegate(x,y,z,args);
 });
 G__57518.cljs$core$IFn$_invoke$arity$variadic = G__57518__delegate;
@@ -319,13 +319,13 @@ return G__57517__2.call(this,x,y);
 case 3:
 return G__57517__3.call(this,x,y,z);
 default:
-var G__57521 = null;
+var G__57523 = null;
 if (arguments.length > 3) {
-var G__57522__i = 0, G__57522__a = new Array(arguments.length -  3);
-while (G__57522__i < G__57522__a.length) {G__57522__a[G__57522__i] = arguments[G__57522__i + 3]; ++G__57522__i;}
-G__57521 = new cljs.core.IndexedSeq(G__57522__a,0,null);
+var G__57524__i = 0, G__57524__a = new Array(arguments.length -  3);
+while (G__57524__i < G__57524__a.length) {G__57524__a[G__57524__i] = arguments[G__57524__i + 3]; ++G__57524__i;}
+G__57523 = new cljs.core.IndexedSeq(G__57524__a,0,null);
 }
-return G__57517__4.cljs$core$IFn$_invoke$arity$variadic(x,y,z, G__57521);
+return G__57517__4.cljs$core$IFn$_invoke$arity$variadic(x,y,z, G__57523);
 }
 throw(new Error('Invalid arity: ' + arguments.length));
 };
@@ -389,7 +389,7 @@ return sci$impl$vars$IVar$getRawRoot$dyn_57526(this$);
 }
 });
 
-var sci$impl$vars$IVar$toSymbol$dyn_57527 = (function (this$){
+var sci$impl$vars$IVar$toSymbol$dyn_57530 = (function (this$){
 var x__4428__auto__ = (((this$ == null))?null:this$);
 var m__4429__auto__ = (sci.impl.vars.toSymbol[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -407,11 +407,11 @@ sci.impl.vars.toSymbol = (function sci$impl$vars$toSymbol(this$){
 if((((!((this$ == null)))) && ((!((this$.sci$impl$vars$IVar$toSymbol$arity$1 == null)))))){
 return this$.sci$impl$vars$IVar$toSymbol$arity$1(this$);
 } else {
-return sci$impl$vars$IVar$toSymbol$dyn_57527(this$);
+return sci$impl$vars$IVar$toSymbol$dyn_57530(this$);
 }
 });
 
-var sci$impl$vars$IVar$isMacro$dyn_57531 = (function (this$){
+var sci$impl$vars$IVar$isMacro$dyn_57532 = (function (this$){
 var x__4428__auto__ = (((this$ == null))?null:this$);
 var m__4429__auto__ = (sci.impl.vars.isMacro[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -429,11 +429,11 @@ sci.impl.vars.isMacro = (function sci$impl$vars$isMacro(this$){
 if((((!((this$ == null)))) && ((!((this$.sci$impl$vars$IVar$isMacro$arity$1 == null)))))){
 return this$.sci$impl$vars$IVar$isMacro$arity$1(this$);
 } else {
-return sci$impl$vars$IVar$isMacro$dyn_57531(this$);
+return sci$impl$vars$IVar$isMacro$dyn_57532(this$);
 }
 });
 
-var sci$impl$vars$IVar$hasRoot$dyn_57534 = (function (this$){
+var sci$impl$vars$IVar$hasRoot$dyn_57535 = (function (this$){
 var x__4428__auto__ = (((this$ == null))?null:this$);
 var m__4429__auto__ = (sci.impl.vars.hasRoot[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -451,7 +451,7 @@ sci.impl.vars.hasRoot = (function sci$impl$vars$hasRoot(this$){
 if((((!((this$ == null)))) && ((!((this$.sci$impl$vars$IVar$hasRoot$arity$1 == null)))))){
 return this$.sci$impl$vars$IVar$hasRoot$arity$1(this$);
 } else {
-return sci$impl$vars$IVar$hasRoot$dyn_57534(this$);
+return sci$impl$vars$IVar$hasRoot$dyn_57535(this$);
 }
 });
 
