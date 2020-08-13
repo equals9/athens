@@ -146,8 +146,8 @@ cljc.java_time.year.adjust_into = (function cljc$java_time$year$adjust_into(this
 return this4546.adjustInto(java_time_temporal_Temporal4547);
 });
 cljc.java_time.year.with$ = (function cljc$java_time$year$with(var_args){
-var G__33730 = arguments.length;
-switch (G__33730) {
+var G__33729 = arguments.length;
+switch (G__33729) {
 case 2:
 return cljc.java_time.year.with$.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 

@@ -104,7 +104,7 @@ return reitit$frontend$history$History$_get_path$dyn_54690(this$);
 }
 });
 
-var reitit$frontend$history$History$_href$dyn_54692 = (function (this$,path){
+var reitit$frontend$history$History$_href$dyn_54691 = (function (this$,path){
 var x__4428__auto__ = (((this$ == null))?null:this$);
 var m__4429__auto__ = (reitit.frontend.history._href[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -122,7 +122,7 @@ reitit.frontend.history._href = (function reitit$frontend$history$_href(this$,pa
 if((((!((this$ == null)))) && ((!((this$.reitit$frontend$history$History$_href$arity$2 == null)))))){
 return this$.reitit$frontend$history$History$_href$arity$2(this$,path);
 } else {
-return reitit$frontend$history$History$_href$dyn_54692(this$,path);
+return reitit$frontend$history$History$_href$dyn_54691(this$,path);
 }
 });
 

@@ -28,8 +28,8 @@ cljs.tools.reader.edn.not_constituent_QMARK_ = (function cljs$tools$reader$edn$n
 return ((("@" === ch)) || (("`" === ch)) || (("~" === ch)));
 });
 cljs.tools.reader.edn.read_token = (function cljs$tools$reader$edn$read_token(var_args){
-var G__26369 = arguments.length;
-switch (G__26369) {
+var G__26370 = arguments.length;
+switch (G__26370) {
 case 3:
 return cljs.tools.reader.edn.read_token.cljs$core$IFn$_invoke$arity$3((arguments[(0)]),(arguments[(1)]),(arguments[(2)]));
 
@@ -75,10 +75,10 @@ return cljs.core.str.cljs$core$IFn$_invoke$arity$1(sb);
 if(cljs.tools.reader.edn.not_constituent_QMARK_(ch)){
 return cljs.tools.reader.impl.errors.throw_bad_char(rdr,kind,ch);
 } else {
-var G__26434 = (function (){var G__26370 = sb;
-G__26370.append(cljs.tools.reader.reader_types.read_char(rdr));
+var G__26434 = (function (){var G__26371 = sb;
+G__26371.append(cljs.tools.reader.reader_types.read_char(rdr));
 
-return G__26370;
+return G__26371;
 })();
 var G__26435 = cljs.tools.reader.reader_types.peek_char(rdr);
 sb = G__26434;
@@ -128,8 +128,8 @@ cljs.tools.reader.edn.read_unmatched_delimiter = (function cljs$tools$reader$edn
 return cljs.tools.reader.impl.errors.throw_unmatch_delimiter(rdr,ch);
 });
 cljs.tools.reader.edn.read_unicode_char = (function cljs$tools$reader$edn$read_unicode_char(var_args){
-var G__26377 = arguments.length;
-switch (G__26377) {
+var G__26380 = arguments.length;
+switch (G__26380) {
 case 4:
 return cljs.tools.reader.edn.read_unicode_char.cljs$core$IFn$_invoke$arity$4((arguments[(0)]),(arguments[(1)]),(arguments[(2)]),(arguments[(3)]));
 
@@ -416,8 +416,8 @@ break;
 });
 cljs.tools.reader.edn.escape_char = (function cljs$tools$reader$edn$escape_char(sb,rdr){
 var ch = cljs.tools.reader.reader_types.read_char(rdr);
-var G__26400 = ch;
-switch (G__26400) {
+var G__26404 = ch;
+switch (G__26404) {
 case "t":
 return "\t";
 

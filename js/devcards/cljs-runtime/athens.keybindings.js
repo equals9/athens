@@ -523,12 +523,13 @@ cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(state,cljs.core.assoc,new clj
 return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$3(state,cljs.core.merge,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"atom-string","atom-string",-1067323204),new_str], null));
 });
 athens.keybindings.block_key_down = (function athens$keybindings$block_key_down(e,uid,state){
-var map__54913 = athens.keybindings.destruct_event(e);
+var d_event = athens.keybindings.destruct_event(e);
+var map__54913 = d_event;
 var map__54913__$1 = (((((!((map__54913 == null))))?(((((map__54913.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__54913.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__54913):map__54913);
 var meta = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54913__$1,new cljs.core.Keyword(null,"meta","meta",1499536964));
 var ctrl = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54913__$1,new cljs.core.Keyword(null,"ctrl","ctrl",361402094));
 var key_code = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54913__$1,new cljs.core.Keyword(null,"key-code","key-code",-1732114304));
-cljs.core.prn.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["DOWN",athens.keybindings.destruct_event(e)], 0));
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(state,cljs.core.assoc,new cljs.core.Keyword(null,"last-keydown","last-keydown",348696018),d_event);
 
 if(cljs.core.truth_(athens.keybindings.arrow_key_direction(e))){
 return athens.keybindings.handle_arrow_key(e,uid,state);
