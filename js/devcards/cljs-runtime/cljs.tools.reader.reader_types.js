@@ -146,7 +146,7 @@ return cljs$tools$reader$reader_types$IndexingReader$get_column_number$dyn_26147
 }
 });
 
-var cljs$tools$reader$reader_types$IndexingReader$get_file_name$dyn_26148 = (function (reader){
+var cljs$tools$reader$reader_types$IndexingReader$get_file_name$dyn_26151 = (function (reader){
 var x__4428__auto__ = (((reader == null))?null:reader);
 var m__4429__auto__ = (cljs.tools.reader.reader_types.get_file_name[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -167,7 +167,7 @@ cljs.tools.reader.reader_types.get_file_name = (function cljs$tools$reader$reade
 if((((!((reader == null)))) && ((!((reader.cljs$tools$reader$reader_types$IndexingReader$get_file_name$arity$1 == null)))))){
 return reader.cljs$tools$reader$reader_types$IndexingReader$get_file_name$arity$1(reader);
 } else {
-return cljs$tools$reader$reader_types$IndexingReader$get_file_name$dyn_26148(reader);
+return cljs$tools$reader$reader_types$IndexingReader$get_file_name$dyn_26151(reader);
 }
 });
 
@@ -695,8 +695,8 @@ return (new cljs.tools.reader.reader_types.PushbackReader((new cljs.tools.reader
  * Creates an IndexingPushbackReader from a given string or PushbackReader
  */
 cljs.tools.reader.reader_types.indexing_push_back_reader = (function cljs$tools$reader$reader_types$indexing_push_back_reader(var_args){
-var G__26138 = arguments.length;
-switch (G__26138) {
+var G__26139 = arguments.length;
+switch (G__26139) {
 case 1:
 return cljs.tools.reader.reader_types.indexing_push_back_reader.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -777,10 +777,10 @@ while(true){
 if(cljs.tools.reader.impl.utils.newline_QMARK_(c)){
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(s);
 } else {
-var G__26167 = rdr.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
-var G__26168 = s.append(c);
-c = G__26167;
-s = G__26168;
+var G__26166 = rdr.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
+var G__26167 = s.append(c);
+c = G__26166;
+s = G__26167;
 continue;
 }
 break;

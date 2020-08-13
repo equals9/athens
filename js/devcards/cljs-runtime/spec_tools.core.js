@@ -99,7 +99,7 @@ spec_tools.core._STAR_encode_QMARK__STAR_ = null;
  */
 spec_tools.core.Coercion = function(){};
 
-var spec_tools$core$Coercion$_coerce$dyn_52640 = (function (this$,value,transformer,options){
+var spec_tools$core$Coercion$_coerce$dyn_52642 = (function (this$,value,transformer,options){
 var x__4428__auto__ = (((this$ == null))?null:this$);
 var m__4429__auto__ = (spec_tools.core._coerce[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -117,7 +117,7 @@ spec_tools.core._coerce = (function spec_tools$core$_coerce(this$,value,transfor
 if((((!((this$ == null)))) && ((!((this$.spec_tools$core$Coercion$_coerce$arity$4 == null)))))){
 return this$.spec_tools$core$Coercion$_coerce$arity$4(this$,value,transformer,options);
 } else {
-return spec_tools$core$Coercion$_coerce$dyn_52640(this$,value,transformer,options);
+return spec_tools$core$Coercion$_coerce$dyn_52642(this$,value,transformer,options);
 }
 });
 
@@ -253,14 +253,14 @@ return spec_tools$core$Transformer$_decoder$dyn_52649(this$,spec,value);
  */
 spec_tools.core.type_transformer = (function spec_tools$core$type_transformer(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___52650 = arguments.length;
-var i__4737__auto___52651 = (0);
+var len__4736__auto___52653 = arguments.length;
+var i__4737__auto___52654 = (0);
 while(true){
-if((i__4737__auto___52651 < len__4736__auto___52650)){
-args__4742__auto__.push((arguments[i__4737__auto___52651]));
+if((i__4737__auto___52654 < len__4736__auto___52653)){
+args__4742__auto__.push((arguments[i__4737__auto___52654]));
 
-var G__52652 = (i__4737__auto___52651 + (1));
-i__4737__auto___52651 = G__52652;
+var G__52655 = (i__4737__auto___52654 + (1));
+i__4737__auto___52654 = G__52655;
 continue;
 } else {
 }
@@ -1463,8 +1463,8 @@ if(cljs.core.truth_(spec_tools.core.spec_QMARK_(x))){
 return x;
 } else {
 if((x instanceof cljs.core.Keyword)){
-var G__52743 = cljs.spec.alpha.get_spec(x);
-x = G__52743;
+var G__52740 = cljs.spec.alpha.get_spec(x);
+x = G__52740;
 continue;
 } else {
 return spec_tools.core.create_spec(new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"spec","spec",347520401),x], null));

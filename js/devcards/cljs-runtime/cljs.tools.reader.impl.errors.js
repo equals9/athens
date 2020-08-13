@@ -55,13 +55,13 @@ throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2(full_msg,details);
 (cljs.tools.reader.impl.errors.throw_ex.cljs$lang$maxFixedArity = (2));
 
 /** @this {Function} */
-(cljs.tools.reader.impl.errors.throw_ex.cljs$lang$applyTo = (function (seq26149){
-var G__26150 = cljs.core.first(seq26149);
-var seq26149__$1 = cljs.core.next(seq26149);
-var G__26151 = cljs.core.first(seq26149__$1);
-var seq26149__$2 = cljs.core.next(seq26149__$1);
+(cljs.tools.reader.impl.errors.throw_ex.cljs$lang$applyTo = (function (seq26148){
+var G__26149 = cljs.core.first(seq26148);
+var seq26148__$1 = cljs.core.next(seq26148);
+var G__26150 = cljs.core.first(seq26148__$1);
+var seq26148__$2 = cljs.core.next(seq26148__$1);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__26150,G__26151,seq26149__$2);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__26149,G__26150,seq26148__$2);
 }));
 
 /**
@@ -256,9 +256,9 @@ return cljs.tools.reader.impl.errors.throw_eof_reading.cljs$core$IFn$_invoke$ari
 });
 
 (cljs.tools.reader.impl.errors.throw_eof_reading.cljs$core$IFn$_invoke$arity$variadic = (function (rdr,kind,start){
-var init = (function (){var G__26165 = kind;
-var G__26165__$1 = (((G__26165 instanceof cljs.core.Keyword))?G__26165.fqn:null);
-switch (G__26165__$1) {
+var init = (function (){var G__26168 = kind;
+var G__26168__$1 = (((G__26168 instanceof cljs.core.Keyword))?G__26168.fqn:null);
+switch (G__26168__$1) {
 case "regex":
 return "#\"";
 
@@ -268,7 +268,7 @@ return "\"";
 
 break;
 default:
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__26165__$1)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__26168__$1)].join('')));
 
 }
 })();
@@ -278,13 +278,13 @@ return cljs.tools.reader.impl.errors.eof_error.cljs$core$IFn$_invoke$arity$varia
 (cljs.tools.reader.impl.errors.throw_eof_reading.cljs$lang$maxFixedArity = (2));
 
 /** @this {Function} */
-(cljs.tools.reader.impl.errors.throw_eof_reading.cljs$lang$applyTo = (function (seq26161){
-var G__26162 = cljs.core.first(seq26161);
-var seq26161__$1 = cljs.core.next(seq26161);
-var G__26163 = cljs.core.first(seq26161__$1);
-var seq26161__$2 = cljs.core.next(seq26161__$1);
+(cljs.tools.reader.impl.errors.throw_eof_reading.cljs$lang$applyTo = (function (seq26163){
+var G__26164 = cljs.core.first(seq26163);
+var seq26163__$1 = cljs.core.next(seq26163);
+var G__26165 = cljs.core.first(seq26163__$1);
+var seq26163__$2 = cljs.core.next(seq26163__$1);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__26162,G__26163,seq26161__$2);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__26164,G__26165,seq26163__$2);
 }));
 
 cljs.tools.reader.impl.errors.throw_no_dispatch = (function cljs$tools$reader$impl$errors$throw_no_dispatch(rdr,ch){

@@ -49,9 +49,9 @@ return this__4380__auto____$1.cljs$core$ILookup$_lookup$arity$3(null,k__4381__au
 (cljs.tools.reader.impl.utils.ReaderConditional.prototype.cljs$core$ILookup$_lookup$arity$3 = (function (this__4382__auto__,k26025,else__4383__auto__){
 var self__ = this;
 var this__4382__auto____$1 = this;
-var G__26030 = k26025;
-var G__26030__$1 = (((G__26030 instanceof cljs.core.Keyword))?G__26030.fqn:null);
-switch (G__26030__$1) {
+var G__26032 = k26025;
+var G__26032__$1 = (((G__26032 instanceof cljs.core.Keyword))?G__26032.fqn:null);
+switch (G__26032__$1) {
 case "splicing?":
 return self__.splicing_QMARK_;
 
@@ -322,8 +322,8 @@ return key;
 }
 })():key));
 
-var G__26116 = (i__26071 + (1));
-i__26071 = G__26116;
+var G__26117 = (i__26071 + (1));
+i__26071 = G__26117;
 continue;
 } else {
 return true;
@@ -337,9 +337,9 @@ return cljs.core.chunk_cons(cljs.core.chunk(b__26072),null);
 }
 } else {
 var key = cljs.core.first(s__26070__$2);
-return cljs.core.cons((((((key instanceof cljs.core.Symbol)) || ((key instanceof cljs.core.Keyword))))?(function (){var vec__26080 = cljs.core.juxt.cljs$core$IFn$_invoke$arity$2(cljs.core.namespace,cljs.core.name)(key);
-var key_ns = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__26080,(0),null);
-var key_name = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__26080,(1),null);
+return cljs.core.cons((((((key instanceof cljs.core.Symbol)) || ((key instanceof cljs.core.Keyword))))?(function (){var vec__26081 = cljs.core.juxt.cljs$core$IFn$_invoke$arity$2(cljs.core.namespace,cljs.core.name)(key);
+var key_ns = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__26081,(0),null);
+var key_name = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__26081,(1),null);
 var __GT_key = (((key instanceof cljs.core.Symbol))?cljs.core.symbol:cljs.core.keyword);
 if((key_ns == null)){
 return (__GT_key.cljs$core$IFn$_invoke$arity$2 ? __GT_key.cljs$core$IFn$_invoke$arity$2(ns,key_name) : __GT_key.call(null,ns,key_name));
