@@ -45,14 +45,14 @@ return re_frame.loggers.console.cljs$core$IFn$_invoke$arity$variadic(new cljs.co
  */
 re_frame.utils.apply_kw = (function re_frame$utils$apply_kw(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___50963 = arguments.length;
-var i__4737__auto___50964 = (0);
+var len__4736__auto___50957 = arguments.length;
+var i__4737__auto___50958 = (0);
 while(true){
-if((i__4737__auto___50964 < len__4736__auto___50963)){
-args__4742__auto__.push((arguments[i__4737__auto___50964]));
+if((i__4737__auto___50958 < len__4736__auto___50957)){
+args__4742__auto__.push((arguments[i__4737__auto___50958]));
 
-var G__50965 = (i__4737__auto___50964 + (1));
-i__4737__auto___50964 = G__50965;
+var G__50959 = (i__4737__auto___50958 + (1));
+i__4737__auto___50958 = G__50959;
 continue;
 } else {
 }
@@ -75,11 +75,11 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(f,cljs.core.apply.cljs$core
 (re_frame.utils.apply_kw.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(re_frame.utils.apply_kw.cljs$lang$applyTo = (function (seq50956){
-var G__50957 = cljs.core.first(seq50956);
-var seq50956__$1 = cljs.core.next(seq50956);
+(re_frame.utils.apply_kw.cljs$lang$applyTo = (function (seq50955){
+var G__50956 = cljs.core.first(seq50955);
+var seq50955__$1 = cljs.core.next(seq50955);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__50957,seq50956__$1);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__50956,seq50955__$1);
 }));
 
 

@@ -97,14 +97,14 @@ return G__45145;
  */
 sablono.normalize.merge_with_class = (function sablono$normalize$merge_with_class(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___45187 = arguments.length;
-var i__4737__auto___45188 = (0);
+var len__4736__auto___45194 = arguments.length;
+var i__4737__auto___45195 = (0);
 while(true){
-if((i__4737__auto___45188 < len__4736__auto___45187)){
-args__4742__auto__.push((arguments[i__4737__auto___45188]));
+if((i__4737__auto___45195 < len__4736__auto___45194)){
+args__4742__auto__.push((arguments[i__4737__auto___45195]));
 
-var G__45192 = (i__4737__auto___45188 + (1));
-i__4737__auto___45188 = G__45192;
+var G__45196 = (i__4737__auto___45195 + (1));
+i__4737__auto___45195 = G__45196;
 continue;
 } else {
 }

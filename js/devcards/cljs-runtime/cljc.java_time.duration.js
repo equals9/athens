@@ -52,8 +52,8 @@ cljc.java_time.duration.plus_nanos = (function cljc$java_time$duration$plus_nano
 return this4445.plusNanos(long4446);
 });
 cljc.java_time.duration.plus = (function cljc$java_time$duration$plus(var_args){
-var G__33686 = arguments.length;
-switch (G__33686) {
+var G__33684 = arguments.length;
+switch (G__33684) {
 case 3:
 return cljc.java_time.duration.plus.cljs$core$IFn$_invoke$arity$3((arguments[(0)]),(arguments[(1)]),(arguments[(2)]));
 
