@@ -160,12 +160,12 @@ if(cljs.core.truth_(progress)){
 var listener_44970 = (function (direction,evt){
 return cljs.core.async.put_BANG_.cljs$core$IFn$_invoke$arity$2(progress,cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"direction","direction",-633359395),direction,new cljs.core.Keyword(null,"loaded","loaded",-1246482293),evt.loaded], null),(cljs.core.truth_(evt.lengthComputable)?new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"total","total",1916810418),evt.total], null):null)], 0)));
 });
-var G__44924_44972 = xhr;
-G__44924_44972.setProgressEventsEnabled(true);
+var G__44924_44971 = xhr;
+G__44924_44971.setProgressEventsEnabled(true);
 
-G__44924_44972.listen(goog.net.EventType.UPLOAD_PROGRESS,cljs.core.partial.cljs$core$IFn$_invoke$arity$2(listener_44970,new cljs.core.Keyword(null,"upload","upload",-255769218)));
+G__44924_44971.listen(goog.net.EventType.UPLOAD_PROGRESS,cljs.core.partial.cljs$core$IFn$_invoke$arity$2(listener_44970,new cljs.core.Keyword(null,"upload","upload",-255769218)));
 
-G__44924_44972.listen(goog.net.EventType.DOWNLOAD_PROGRESS,cljs.core.partial.cljs$core$IFn$_invoke$arity$2(listener_44970,new cljs.core.Keyword(null,"download","download",-300081668)));
+G__44924_44971.listen(goog.net.EventType.DOWNLOAD_PROGRESS,cljs.core.partial.cljs$core$IFn$_invoke$arity$2(listener_44970,new cljs.core.Keyword(null,"download","download",-300081668)));
 
 } else {
 }
@@ -205,20 +205,20 @@ return new cljs.core.Keyword(null,"recur","recur",-437573268);
 if((state_val_44936 === (3))){
 var inst_44930 = xhr.abort();
 var state_44935__$1 = state_44935;
-var statearr_44940_44977 = state_44935__$1;
-(statearr_44940_44977[(2)] = inst_44930);
+var statearr_44940_44976 = state_44935__$1;
+(statearr_44940_44976[(2)] = inst_44930);
 
-(statearr_44940_44977[(1)] = (5));
+(statearr_44940_44976[(1)] = (5));
 
 
 return new cljs.core.Keyword(null,"recur","recur",-437573268);
 } else {
 if((state_val_44936 === (4))){
 var state_44935__$1 = state_44935;
-var statearr_44941_44981 = state_44935__$1;
-(statearr_44941_44981[(2)] = null);
+var statearr_44941_44977 = state_44935__$1;
+(statearr_44941_44977[(2)] = null);
 
-(statearr_44941_44981[(1)] = (5));
+(statearr_44941_44977[(1)] = (5));
 
 
 return new cljs.core.Keyword(null,"recur","recur",-437573268);
@@ -408,8 +408,8 @@ throw ex__42487__auto__;
 return new cljs.core.Keyword(null,"recur","recur",-437573268);
 }})();
 if(cljs.core.keyword_identical_QMARK_(ret_value__42485__auto__,new cljs.core.Keyword(null,"recur","recur",-437573268))){
-var G__44992 = state_44954;
-state_44954 = G__44992;
+var G__44994 = state_44954;
+state_44954 = G__44994;
 continue;
 } else {
 return ret_value__42485__auto__;
