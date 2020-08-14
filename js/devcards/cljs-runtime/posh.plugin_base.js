@@ -13,8 +13,8 @@ return null;
 });
 posh.plugin_base.safe_pull = (function posh$plugin_base$safe_pull(dcfg,db,query,id){
 if(cljs.core.integer_QMARK_(id)){
-var fexpr__25980 = new cljs.core.Keyword(null,"pull*","pull*",413297819).cljs$core$IFn$_invoke$arity$1(dcfg);
-return (fexpr__25980.cljs$core$IFn$_invoke$arity$3 ? fexpr__25980.cljs$core$IFn$_invoke$arity$3(db,query,id) : fexpr__25980.call(null,db,query,id));
+var fexpr__25977 = new cljs.core.Keyword(null,"pull*","pull*",413297819).cljs$core$IFn$_invoke$arity$1(dcfg);
+return (fexpr__25977.cljs$core$IFn$_invoke$arity$3 ? fexpr__25977.cljs$core$IFn$_invoke$arity$3(db,query,id) : fexpr__25977.call(null,db,query,id));
 } else {
 if(cljs.core.vector_QMARK_(id)){
 var temp__5733__auto__ = (function (){var fexpr__25981 = new cljs.core.Keyword(null,"entid","entid",1720688982).cljs$core$IFn$_invoke$arity$1(dcfg);
@@ -297,8 +297,8 @@ throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(
 var true_poshdb = posh.plugin_base.get_db(dcfg,poshdb);
 var storage_key = new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"pull","pull",-860544805),true_poshdb,pull_pattern,eid], null);
 var posh_atom = posh.plugin_base.get_posh_atom(dcfg,poshdb);
-return posh.plugin_base.make_query_reaction.cljs$core$IFn$_invoke$arity$5(dcfg,posh_atom,storage_key,(function (p1__26021_SHARP_){
-return posh.core.add_pull(p1__26021_SHARP_,true_poshdb,pull_pattern,eid);
+return posh.plugin_base.make_query_reaction.cljs$core$IFn$_invoke$arity$5(dcfg,posh_atom,storage_key,(function (p1__26025_SHARP_){
+return posh.core.add_pull(p1__26025_SHARP_,true_poshdb,pull_pattern,eid);
 }),options);
 }));
 
@@ -405,13 +405,13 @@ return posh.plugin_base.q.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)]),
 
 (posh.plugin_base.q.cljs$core$IFn$_invoke$arity$variadic = (function (dcfg,query,args){
 var n_query_args = posh.plugin_base.q_args_count(dcfg,query);
-var vec__26050 = ((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(n_query_args,cljs.core.count(args)))?new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [args,cljs.core.PersistentArrayMap.EMPTY], null):((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2((n_query_args + (1)),cljs.core.count(args)))?new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.butlast(args),cljs.core.last(args)], null):(function(){throw "Incorrect number of args passed to posh query"})()
+var vec__26051 = ((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(n_query_args,cljs.core.count(args)))?new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [args,cljs.core.PersistentArrayMap.EMPTY], null):((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2((n_query_args + (1)),cljs.core.count(args)))?new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.butlast(args),cljs.core.last(args)], null):(function(){throw "Incorrect number of args passed to posh query"})()
 ));
-var args__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__26050,(0),null);
-var options = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__26050,(1),null);
+var args__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__26051,(0),null);
+var options = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__26051,(1),null);
 var true_poshdb_args = cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__26044_SHARP_){
-if(cljs.core.truth_((function (){var fexpr__26053 = new cljs.core.Keyword(null,"conn?","conn?",167224275).cljs$core$IFn$_invoke$arity$1(dcfg);
-return (fexpr__26053.cljs$core$IFn$_invoke$arity$1 ? fexpr__26053.cljs$core$IFn$_invoke$arity$1(p1__26044_SHARP_) : fexpr__26053.call(null,p1__26044_SHARP_));
+if(cljs.core.truth_((function (){var fexpr__26054 = new cljs.core.Keyword(null,"conn?","conn?",167224275).cljs$core$IFn$_invoke$arity$1(dcfg);
+return (fexpr__26054.cljs$core$IFn$_invoke$arity$1 ? fexpr__26054.cljs$core$IFn$_invoke$arity$1(p1__26044_SHARP_) : fexpr__26054.call(null,p1__26044_SHARP_));
 })())){
 return posh.plugin_base.get_db(dcfg,p1__26044_SHARP_);
 } else {

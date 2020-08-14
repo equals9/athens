@@ -13,14 +13,14 @@ return cljs.core.with_meta(value,new cljs.core.PersistentArrayMap(null, 1, [new 
 });
 devtools.formatters.printing.build_markup = (function devtools$formatters$printing$build_markup(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___23541 = arguments.length;
-var i__4737__auto___23542 = (0);
+var len__4736__auto___23539 = arguments.length;
+var i__4737__auto___23540 = (0);
 while(true){
-if((i__4737__auto___23542 < len__4736__auto___23541)){
-args__4742__auto__.push((arguments[i__4737__auto___23542]));
+if((i__4737__auto___23540 < len__4736__auto___23539)){
+args__4742__auto__.push((arguments[i__4737__auto___23540]));
 
-var G__23543 = (i__4737__auto___23542 + (1));
-i__4737__auto___23542 = G__23543;
+var G__23541 = (i__4737__auto___23540 + (1));
+i__4737__auto___23540 = G__23541;
 continue;
 } else {
 }
@@ -44,13 +44,13 @@ return devtools.formatters.printing.mark_as_markup(cljs.core.apply.cljs$core$IFn
 (devtools.formatters.printing.build_markup.cljs$lang$maxFixedArity = (2));
 
 /** @this {Function} */
-(devtools.formatters.printing.build_markup.cljs$lang$applyTo = (function (seq23500){
-var G__23501 = cljs.core.first(seq23500);
-var seq23500__$1 = cljs.core.next(seq23500);
-var G__23502 = cljs.core.first(seq23500__$1);
-var seq23500__$2 = cljs.core.next(seq23500__$1);
+(devtools.formatters.printing.build_markup.cljs$lang$applyTo = (function (seq23498){
+var G__23499 = cljs.core.first(seq23498);
+var seq23498__$1 = cljs.core.next(seq23498);
+var G__23500 = cljs.core.first(seq23498__$1);
+var seq23498__$2 = cljs.core.next(seq23498__$1);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__23501,G__23502,seq23500__$2);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__23499,G__23500,seq23498__$2);
 }));
 
 devtools.formatters.printing.wrap_value_as_reference_if_needed = (function devtools$formatters$printing$wrap_value_as_reference_if_needed(markup_db,value){
@@ -196,7 +196,7 @@ return false;
 } else {
 return cljs.core.native_satisfies_QMARK_(devtools.format.IDevtoolsFormat,obj);
 }
-}catch (e23524){var _e__20798__auto__ = e23524;
+}catch (e23524){var _e__20676__auto__ = e23524;
 return false;
 }})();
 if(cljs.core.truth_(or__4126__auto__)){
@@ -215,7 +215,7 @@ return false;
 } else {
 return cljs.core.native_satisfies_QMARK_(devtools.protocols.IFormat,obj);
 }
-}catch (e23526){var _e__20798__auto__ = e23526;
+}catch (e23526){var _e__20676__auto__ = e23526;
 return false;
 }}
 })())){
@@ -255,19 +255,19 @@ var opts = new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null
 var job_fn = (function (){
 return (printer.cljs$core$IFn$_invoke$arity$2 ? printer.cljs$core$IFn$_invoke$arity$2(writer,opts) : printer.call(null,writer,opts));
 });
-var temp__5733__auto___23555 = devtools.formatters.state.get_managed_print_level();
-if(cljs.core.truth_(temp__5733__auto___23555)){
-var managed_print_level_23556 = temp__5733__auto___23555;
-var _STAR_print_level_STAR__orig_val__23537_23557 = cljs.core._STAR_print_level_STAR_;
-var _STAR_print_level_STAR__temp_val__23538_23558 = managed_print_level_23556;
-(cljs.core._STAR_print_level_STAR_ = _STAR_print_level_STAR__temp_val__23538_23558);
+var temp__5733__auto___23548 = devtools.formatters.state.get_managed_print_level();
+if(cljs.core.truth_(temp__5733__auto___23548)){
+var managed_print_level_23549 = temp__5733__auto___23548;
+var _STAR_print_level_STAR__orig_val__23537_23550 = cljs.core._STAR_print_level_STAR_;
+var _STAR_print_level_STAR__temp_val__23538_23551 = managed_print_level_23549;
+(cljs.core._STAR_print_level_STAR_ = _STAR_print_level_STAR__temp_val__23538_23551);
 
 try{devtools.formatters.state.update_current_state_BANG_((function (p1__23534_SHARP_){
 return devtools.formatters.state.set_managed_print_level(p1__23534_SHARP_,null);
 }));
 
 job_fn();
-}finally {(cljs.core._STAR_print_level_STAR_ = _STAR_print_level_STAR__orig_val__23537_23557);
+}finally {(cljs.core._STAR_print_level_STAR_ = _STAR_print_level_STAR__orig_val__23537_23550);
 }} else {
 job_fn();
 }

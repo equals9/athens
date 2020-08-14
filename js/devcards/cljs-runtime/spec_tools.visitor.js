@@ -161,19 +161,19 @@ var G__52816 = options;
 return (accept.cljs$core$IFn$_invoke$arity$4 ? accept.cljs$core$IFn$_invoke$arity$4(G__52813,G__52814,G__52815,G__52816) : accept.call(null,G__52813,G__52814,G__52815,G__52816));
 }));
 spec_tools.visitor.visit_merge = (function spec_tools$visitor$visit_merge(spec,accept,options){
-var vec__52826 = spec_tools.impl.extract_form(spec);
-var seq__52827 = cljs.core.seq(vec__52826);
-var first__52828 = cljs.core.first(seq__52827);
-var seq__52827__$1 = cljs.core.next(seq__52827);
-var _ = first__52828;
-var inner_specs = seq__52827__$1;
-var G__52833 = new cljs.core.Symbol("clojure.spec.alpha","merge","clojure.spec.alpha/merge",472136035,null);
-var G__52834 = spec;
-var G__52835 = cljs.core.mapv.cljs$core$IFn$_invoke$arity$2((function (p1__52821_SHARP_){
-return spec_tools.visitor.visit.cljs$core$IFn$_invoke$arity$3(p1__52821_SHARP_,accept,options);
+var vec__52831 = spec_tools.impl.extract_form(spec);
+var seq__52832 = cljs.core.seq(vec__52831);
+var first__52833 = cljs.core.first(seq__52832);
+var seq__52832__$1 = cljs.core.next(seq__52832);
+var _ = first__52833;
+var inner_specs = seq__52832__$1;
+var G__52840 = new cljs.core.Symbol("clojure.spec.alpha","merge","clojure.spec.alpha/merge",472136035,null);
+var G__52841 = spec;
+var G__52842 = cljs.core.mapv.cljs$core$IFn$_invoke$arity$2((function (p1__52824_SHARP_){
+return spec_tools.visitor.visit.cljs$core$IFn$_invoke$arity$3(p1__52824_SHARP_,accept,options);
 }),inner_specs);
-var G__52836 = options;
-return (accept.cljs$core$IFn$_invoke$arity$4 ? accept.cljs$core$IFn$_invoke$arity$4(G__52833,G__52834,G__52835,G__52836) : accept.call(null,G__52833,G__52834,G__52835,G__52836));
+var G__52843 = options;
+return (accept.cljs$core$IFn$_invoke$arity$4 ? accept.cljs$core$IFn$_invoke$arity$4(G__52840,G__52841,G__52842,G__52843) : accept.call(null,G__52840,G__52841,G__52842,G__52843));
 });
 spec_tools.visitor.visit_spec.cljs$core$IMultiFn$_add_method$arity$3(null,new cljs.core.Symbol("clojure.spec.alpha","merge","clojure.spec.alpha/merge",472136035,null),(function (spec,accept,options){
 return spec_tools.visitor.visit_merge(spec,accept,options);
