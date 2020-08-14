@@ -10,7 +10,7 @@ sablono.util._STAR_base_url_STAR_ = null;
  */
 sablono.util.ToString = function(){};
 
-var sablono$util$ToString$to_str$dyn_45087 = (function (x){
+var sablono$util$ToString$to_str$dyn_45086 = (function (x){
 var x__4428__auto__ = (((x == null))?null:x);
 var m__4429__auto__ = (sablono.util.to_str[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -31,7 +31,7 @@ sablono.util.to_str = (function sablono$util$to_str(x){
 if((((!((x == null)))) && ((!((x.sablono$util$ToString$to_str$arity$1 == null)))))){
 return x.sablono$util$ToString$to_str$arity$1(x);
 } else {
-return sablono$util$ToString$to_str$dyn_45087(x);
+return sablono$util$ToString$to_str$dyn_45086(x);
 }
 });
 
@@ -77,8 +77,8 @@ while(true){
 if((i__4737__auto___45095 < len__4736__auto___45094)){
 args__4742__auto__.push((arguments[i__4737__auto___45095]));
 
-var G__45097 = (i__4737__auto___45095 + (1));
-i__4737__auto___45095 = G__45097;
+var G__45096 = (i__4737__auto___45095 + (1));
+i__4737__auto___45095 = G__45096;
 continue;
 } else {
 }
@@ -106,12 +106,12 @@ return self__4724__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq
  */
 sablono.util.camel_case = (function sablono$util$camel_case(k){
 if((((k instanceof cljs.core.Keyword)) || (typeof k === 'string') || ((k instanceof cljs.core.Symbol)))){
-var vec__45058 = cljs.core.name(k).split("-");
-var seq__45059 = cljs.core.seq(vec__45058);
-var first__45060 = cljs.core.first(seq__45059);
-var seq__45059__$1 = cljs.core.next(seq__45059);
-var first_word = first__45060;
-var words = seq__45059__$1;
+var vec__45061 = cljs.core.name(k).split("-");
+var seq__45062 = cljs.core.seq(vec__45061);
+var first__45063 = cljs.core.first(seq__45062);
+var seq__45062__$1 = cljs.core.next(seq__45062);
+var first_word = first__45063;
+var words = seq__45062__$1;
 if(((cljs.core.empty_QMARK_(words)) || (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("aria",first_word)) || (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("data",first_word)))){
 return k;
 } else {
@@ -127,9 +127,9 @@ return k;
 sablono.util.camel_case_keys = (function sablono$util$camel_case_keys(m){
 if(cljs.core.map_QMARK_(m)){
 var m__$1 = cljs.core.into.cljs$core$IFn$_invoke$arity$3(cljs.core.PersistentArrayMap.EMPTY,cljs.core.map.cljs$core$IFn$_invoke$arity$1((function (p__45065){
-var vec__45066 = p__45065;
-var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__45066,(0),null);
-var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__45066,(1),null);
+var vec__45068 = p__45065;
+var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__45068,(0),null);
+var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__45068,(1),null);
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [sablono.util.camel_case(k),v], null);
 })),m);
 var G__45071 = m__$1;

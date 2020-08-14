@@ -204,11 +204,11 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(re_frame.subs.reg_sub,cljs.
 (re_frame.core.reg_sub.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(re_frame.core.reg_sub.cljs$lang$applyTo = (function (seq51346){
-var G__51347 = cljs.core.first(seq51346);
-var seq51346__$1 = cljs.core.next(seq51346);
+(re_frame.core.reg_sub.cljs$lang$applyTo = (function (seq51348){
+var G__51349 = cljs.core.first(seq51348);
+var seq51348__$1 = cljs.core.next(seq51348);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__51347,seq51346__$1);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__51349,seq51348__$1);
 }));
 
 /**
@@ -256,8 +256,8 @@ return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__51347,seq51346
  *   
  */
 re_frame.core.subscribe = (function re_frame$core$subscribe(var_args){
-var G__51352 = arguments.length;
-switch (G__51352) {
+var G__51354 = arguments.length;
+switch (G__51354) {
 case 1:
 return re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -291,8 +291,8 @@ return re_frame.subs.subscribe.cljs$core$IFn$_invoke$arity$2(query,dynv);
  *       `clear-subscription-cache!`.
  */
 re_frame.core.clear_sub = (function re_frame$core$clear_sub(var_args){
-var G__51356 = arguments.length;
-switch (G__51356) {
+var G__51360 = arguments.length;
+switch (G__51360) {
 case 0:
 return re_frame.core.clear_sub.cljs$core$IFn$_invoke$arity$0();
 
@@ -466,8 +466,8 @@ return re_frame.cofx.reg_cofx(id,handler);
  * to the event handler at call time.
  */
 re_frame.core.inject_cofx = (function re_frame$core$inject_cofx(var_args){
-var G__51364 = arguments.length;
-switch (G__51364) {
+var G__51367 = arguments.length;
+switch (G__51367) {
 case 1:
 return re_frame.core.inject_cofx.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
