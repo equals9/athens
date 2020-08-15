@@ -23,7 +23,7 @@ cljs.pprint.pprint.cljs$core$IFn$_invoke$arity$1(outputs);
 
 athens.effects.r = athens.effects.stream.Readable.from(datascript.transit.write_transit_str(cljs.core.deref(athens.db.dsdb)));
 
-athens.effects.w = athens.effects.fs.createWriteStream("./data/tmp.transit");
+athens.effects.w = athens.effects.fs.createWriteStream("./data/my-db.transit");
 
 return athens.effects.r.pipe(athens.effects.w);
 }));

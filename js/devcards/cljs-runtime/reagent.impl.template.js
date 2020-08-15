@@ -455,11 +455,11 @@ return ({});
 }
 })();
 var first_child = ((1) + ((hasprops)?(1):(0)));
-var temp__5739__auto___31427 = reagent.impl.template.key_from_vec(argv);
-if((temp__5739__auto___31427 == null)){
+var temp__5739__auto___31418 = reagent.impl.template.key_from_vec(argv);
+if((temp__5739__auto___31418 == null)){
 } else {
-var key_31429 = temp__5739__auto___31427;
-(jsprops.key = key_31429);
+var key_31419 = temp__5739__auto___31418;
+(jsprops.key = key_31419);
 }
 
 return (reagent.impl.template.make_element.cljs$core$IFn$_invoke$arity$4 ? reagent.impl.template.make_element.cljs$core$IFn$_invoke$arity$4(argv,module$node_modules$react$index.Fragment,jsprops,first_child) : reagent.impl.template.make_element.call(null,argv,module$node_modules$react$index.Fragment,jsprops,first_child));

@@ -241,14 +241,14 @@ return self__4724__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq
 
 devtools.formatters.markup._LT_reference_GT_ = (function devtools$formatters$markup$_LT_reference_GT_(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___23799 = arguments.length;
-var i__4737__auto___23800 = (0);
+var len__4736__auto___23800 = arguments.length;
+var i__4737__auto___23801 = (0);
 while(true){
-if((i__4737__auto___23800 < len__4736__auto___23799)){
-args__4742__auto__.push((arguments[i__4737__auto___23800]));
+if((i__4737__auto___23801 < len__4736__auto___23800)){
+args__4742__auto__.push((arguments[i__4737__auto___23801]));
 
-var G__23801 = (i__4737__auto___23800 + (1));
-i__4737__auto___23800 = G__23801;
+var G__23802 = (i__4737__auto___23801 + (1));
+i__4737__auto___23801 = G__23802;
 continue;
 } else {
 }
@@ -505,12 +505,12 @@ while(true){
 if(cljs.core.empty_QMARK_(work)){
 return lines;
 } else {
-var G__23841 = cljs.core.rest(work);
-var G__23842 = (index + (1));
-var G__23843 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(lines,devtools.formatters.markup.body_line(index,cljs.core.first(work)));
-work = G__23841;
-index = G__23842;
-lines = G__23843;
+var G__23837 = cljs.core.rest(work);
+var G__23838 = (index + (1));
+var G__23839 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(lines,devtools.formatters.markup.body_line(index,cljs.core.first(work)));
+work = G__23837;
+index = G__23838;
+lines = G__23839;
 continue;
 }
 break;
@@ -959,8 +959,8 @@ while(true){
 if((i__4737__auto___23867 < len__4736__auto___23866)){
 args__4742__auto__.push((arguments[i__4737__auto___23867]));
 
-var G__23869 = (i__4737__auto___23867 + (1));
-i__4737__auto___23867 = G__23869;
+var G__23868 = (i__4737__auto___23867 + (1));
+i__4737__auto___23867 = G__23868;
 continue;
 } else {
 }

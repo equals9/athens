@@ -13,20 +13,20 @@ if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(index,counter)){
 return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"line","line",212345235),line,new cljs.core.Keyword(null,"column","column",2078222095),col], null);
 } else {
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("\n",cljs.core.get.cljs$core$IFn$_invoke$arity$2(text,counter))){
-var G__55013 = (line + (1));
-var G__55014 = (1);
-var G__55015 = (counter + (1));
-line = G__55013;
-col = G__55014;
-counter = G__55015;
-continue;
-} else {
-var G__55018 = line;
-var G__55019 = (col + (1));
+var G__55018 = (line + (1));
+var G__55019 = (1);
 var G__55020 = (counter + (1));
 line = G__55018;
 col = G__55019;
 counter = G__55020;
+continue;
+} else {
+var G__55021 = line;
+var G__55022 = (col + (1));
+var G__55023 = (counter + (1));
+line = G__55021;
+col = G__55022;
+counter = G__55023;
 continue;
 
 }
@@ -236,14 +236,14 @@ instaparse.failure.print_reason(r);
 cljs.core.println();
 
 
-var G__55057 = cljs.core.next(seq__55006__$1);
-var G__55058 = null;
-var G__55059 = (0);
+var G__55058 = cljs.core.next(seq__55006__$1);
+var G__55059 = null;
 var G__55060 = (0);
-seq__55006 = G__55057;
-chunk__55007 = G__55058;
-count__55008 = G__55059;
-i__55009 = G__55060;
+var G__55061 = (0);
+seq__55006 = G__55058;
+chunk__55007 = G__55059;
+count__55008 = G__55060;
+i__55009 = G__55061;
 continue;
 }
 } else {
