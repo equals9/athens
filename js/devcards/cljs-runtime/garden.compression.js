@@ -47,8 +47,8 @@ return garden.compression.tokenizer.cljs$core$IFn$_invoke$arity$variadic(argseq_
 (garden.compression.tokenizer.cljs$core$IFn$_invoke$arity$variadic = (function (tags_PLUS_regexes){
 var fs = cljs.core.map.cljs$core$IFn$_invoke$arity$2(garden.compression.token_fn,tags_PLUS_regexes);
 return (function (s){
-return cljs.core.some((function (p1__38863_SHARP_){
-return (p1__38863_SHARP_.cljs$core$IFn$_invoke$arity$1 ? p1__38863_SHARP_.cljs$core$IFn$_invoke$arity$1(s) : p1__38863_SHARP_.call(null,s));
+return cljs.core.some((function (p1__38862_SHARP_){
+return (p1__38862_SHARP_.cljs$core$IFn$_invoke$arity$1 ? p1__38862_SHARP_.cljs$core$IFn$_invoke$arity$1(s) : p1__38862_SHARP_.call(null,s));
 }),fs);
 });
 }));

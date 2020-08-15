@@ -9,6 +9,8 @@ goog.require('datascript.transit');
 goog.require('day8.re_frame.async_flow_fx');
 goog.require('posh.reagent');
 goog.require('re_frame.core');
+athens.effects.fs = require("fs");
+athens.effects.stream = require("stream");
 re_frame.core.reg_fx(new cljs.core.Keyword(null,"transact!","transact!",-822725810),(function (datoms){
 cljs.core.prn.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["TX INPUTS"], 0));
 
@@ -17,7 +19,13 @@ cljs.pprint.pprint.cljs$core$IFn$_invoke$arity$1(datoms);
 cljs.core.prn.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["TX OUTPUTS"], 0));
 
 var outputs = new cljs.core.Keyword(null,"tx-data","tx-data",934159761).cljs$core$IFn$_invoke$arity$1(posh.reagent.transact_BANG_(athens.db.dsdb,datoms));
-return cljs.pprint.pprint.cljs$core$IFn$_invoke$arity$1(outputs);
+cljs.pprint.pprint.cljs$core$IFn$_invoke$arity$1(outputs);
+
+athens.effects.r = athens.effects.stream.Readable.from(datascript.transit.write_transit_str(cljs.core.deref(athens.db.dsdb)));
+
+athens.effects.w = athens.effects.fs.createWriteStream("./data/tmp.transit");
+
+return athens.effects.r.pipe(athens.effects.w);
 }));
 re_frame.core.reg_fx(new cljs.core.Keyword(null,"reset-conn!","reset-conn!",-325354379),(function (new_db){
 return datascript.core.reset_conn_BANG_.cljs$core$IFn$_invoke$arity$2(athens.db.dsdb,new_db);
