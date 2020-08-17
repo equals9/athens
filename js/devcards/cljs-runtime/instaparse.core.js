@@ -18,8 +18,8 @@ instaparse.core._STAR_default_output_format_STAR_ = new cljs.core.Keyword(null,"
  * Changes the default output format.  Input should be :hiccup or :enlive
  */
 instaparse.core.set_default_output_format_BANG_ = (function instaparse$core$set_default_output_format_BANG_(type){
-if(cljs.core.truth_((function (){var fexpr__56652 = new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"hiccup","hiccup",1218876238),null,new cljs.core.Keyword(null,"enlive","enlive",1679023921),null], null), null);
-return (fexpr__56652.cljs$core$IFn$_invoke$arity$1 ? fexpr__56652.cljs$core$IFn$_invoke$arity$1(type) : fexpr__56652.call(null,type));
+if(cljs.core.truth_((function (){var fexpr__56660 = new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"hiccup","hiccup",1218876238),null,new cljs.core.Keyword(null,"enlive","enlive",1679023921),null], null), null);
+return (fexpr__56660.cljs$core$IFn$_invoke$arity$1 ? fexpr__56660.cljs$core$IFn$_invoke$arity$1(type) : fexpr__56660.call(null,type));
 })())){
 } else {
 throw (new Error("Assert failed: (#{:hiccup :enlive} type)"));
@@ -32,8 +32,8 @@ instaparse.core._STAR_default_input_format_STAR_ = new cljs.core.Keyword(null,"e
  * Changes the default input format.  Input should be :abnf or :ebnf
  */
 instaparse.core.set_default_input_format_BANG_ = (function instaparse$core$set_default_input_format_BANG_(type){
-if(cljs.core.truth_((function (){var fexpr__56657 = new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"ebnf","ebnf",31967825),null,new cljs.core.Keyword(null,"abnf","abnf",-152462052),null], null), null);
-return (fexpr__56657.cljs$core$IFn$_invoke$arity$1 ? fexpr__56657.cljs$core$IFn$_invoke$arity$1(type) : fexpr__56657.call(null,type));
+if(cljs.core.truth_((function (){var fexpr__56661 = new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"ebnf","ebnf",31967825),null,new cljs.core.Keyword(null,"abnf","abnf",-152462052),null], null), null);
+return (fexpr__56661.cljs$core$IFn$_invoke$arity$1 ? fexpr__56661.cljs$core$IFn$_invoke$arity$1(type) : fexpr__56661.call(null,type));
 })())){
 } else {
 throw (new Error("Assert failed: (#{:ebnf :abnf} type)"));
@@ -44,20 +44,20 @@ return (instaparse.core._STAR_default_input_format_STAR_ = type);
 
 
 instaparse.core.unhide_parser = (function instaparse$core$unhide_parser(parser,unhide){
-var G__56658 = unhide;
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(null,G__56658)){
+var G__56662 = unhide;
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(null,G__56662)){
 return parser;
 } else {
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"content","content",15833224),G__56658)){
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"content","content",15833224),G__56662)){
 return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(parser,new cljs.core.Keyword(null,"grammar","grammar",1881328267),instaparse.combinators_source.unhide_all_content(new cljs.core.Keyword(null,"grammar","grammar",1881328267).cljs$core$IFn$_invoke$arity$1(parser)));
 } else {
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"tags","tags",1771418977),G__56658)){
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"tags","tags",1771418977),G__56662)){
 return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(parser,new cljs.core.Keyword(null,"grammar","grammar",1881328267),instaparse.combinators_source.unhide_tags(new cljs.core.Keyword(null,"output-format","output-format",-1826382676).cljs$core$IFn$_invoke$arity$1(parser),new cljs.core.Keyword(null,"grammar","grammar",1881328267).cljs$core$IFn$_invoke$arity$1(parser)));
 } else {
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"all","all",892129742),G__56658)){
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"all","all",892129742),G__56662)){
 return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(parser,new cljs.core.Keyword(null,"grammar","grammar",1881328267),instaparse.combinators_source.unhide_all(new cljs.core.Keyword(null,"output-format","output-format",-1826382676).cljs$core$IFn$_invoke$arity$1(parser),new cljs.core.Keyword(null,"grammar","grammar",1881328267).cljs$core$IFn$_invoke$arity$1(parser)));
 } else {
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__56658)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__56662)].join('')));
 
 }
 }
@@ -81,14 +81,14 @@ throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$ari
  */
 instaparse.core.parse = (function instaparse$core$parse(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___56707 = arguments.length;
-var i__4737__auto___56708 = (0);
+var len__4736__auto___56705 = arguments.length;
+var i__4737__auto___56706 = (0);
 while(true){
-if((i__4737__auto___56708 < len__4736__auto___56707)){
-args__4742__auto__.push((arguments[i__4737__auto___56708]));
+if((i__4737__auto___56706 < len__4736__auto___56705)){
+args__4742__auto__.push((arguments[i__4737__auto___56706]));
 
-var G__56710 = (i__4737__auto___56708 + (1));
-i__4737__auto___56708 = G__56710;
+var G__56707 = (i__4737__auto___56706 + (1));
+i__4737__auto___56706 = G__56707;
 continue;
 } else {
 }
@@ -172,14 +172,14 @@ return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__56664,G__56665
  */
 instaparse.core.parses = (function instaparse$core$parses(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___56714 = arguments.length;
-var i__4737__auto___56715 = (0);
+var len__4736__auto___56712 = arguments.length;
+var i__4737__auto___56713 = (0);
 while(true){
-if((i__4737__auto___56715 < len__4736__auto___56714)){
-args__4742__auto__.push((arguments[i__4737__auto___56715]));
+if((i__4737__auto___56713 < len__4736__auto___56712)){
+args__4742__auto__.push((arguments[i__4737__auto___56713]));
 
-var G__56716 = (i__4737__auto___56715 + (1));
-i__4737__auto___56715 = G__56716;
+var G__56716 = (i__4737__auto___56713 + (1));
+i__4737__auto___56713 = G__56716;
 continue;
 } else {
 }
@@ -602,14 +602,14 @@ return cljs.core._write(writer,instaparse.print.Parser__GT_str(parser__$1));
  */
 instaparse.core.parser = (function instaparse$core$parser(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___56783 = arguments.length;
-var i__4737__auto___56784 = (0);
+var len__4736__auto___56776 = arguments.length;
+var i__4737__auto___56777 = (0);
 while(true){
-if((i__4737__auto___56784 < len__4736__auto___56783)){
-args__4742__auto__.push((arguments[i__4737__auto___56784]));
+if((i__4737__auto___56777 < len__4736__auto___56776)){
+args__4742__auto__.push((arguments[i__4737__auto___56777]));
 
-var G__56785 = (i__4737__auto___56784 + (1));
-i__4737__auto___56784 = G__56785;
+var G__56778 = (i__4737__auto___56777 + (1));
+i__4737__auto___56777 = G__56778;
 continue;
 } else {
 }
