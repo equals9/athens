@@ -129,14 +129,14 @@ return athens.router.navigate_uid.cljs$core$IFn$_invoke$arity$1(new cljs.core.Ke
 var G__57013 = function (var_args){
 var tag_name = null;
 if (arguments.length > 0) {
-var G__57014__i = 0, G__57014__a = new Array(arguments.length -  0);
-while (G__57014__i < G__57014__a.length) {G__57014__a[G__57014__i] = arguments[G__57014__i + 0]; ++G__57014__i;}
-  tag_name = new cljs.core.IndexedSeq(G__57014__a,0,null);
+var G__57017__i = 0, G__57017__a = new Array(arguments.length -  0);
+while (G__57017__i < G__57017__a.length) {G__57017__a[G__57017__i] = arguments[G__57017__i + 0]; ++G__57017__i;}
+  tag_name = new cljs.core.IndexedSeq(G__57017__a,0,null);
 } 
 return G__57013__delegate.call(this,tag_name);};
 G__57013.cljs$lang$maxFixedArity = 0;
-G__57013.cljs$lang$applyTo = (function (arglist__57015){
-var tag_name = cljs.core.seq(arglist__57015);
+G__57013.cljs$lang$applyTo = (function (arglist__57018){
+var tag_name = cljs.core.seq(arglist__57018);
 return G__57013__delegate(tag_name);
 });
 G__57013.cljs$core$IFn$_invoke$arity$variadic = G__57013__delegate;

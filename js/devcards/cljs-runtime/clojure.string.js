@@ -26,7 +26,7 @@ return s.replace(r,replacement);
 });
 clojure.string.replace_with = (function clojure$string$replace_with(f){
 return (function() { 
-var G__20345__delegate = function (args){
+var G__20348__delegate = function (args){
 var matches = cljs.core.drop_last.cljs$core$IFn$_invoke$arity$2((2),args);
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.count(matches),(1))){
 var G__20328 = cljs.core.first(matches);
@@ -36,21 +36,21 @@ var G__20329 = cljs.core.vec(matches);
 return (f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(G__20329) : f.call(null,G__20329));
 }
 };
-var G__20345 = function (var_args){
+var G__20348 = function (var_args){
 var args = null;
 if (arguments.length > 0) {
 var G__20349__i = 0, G__20349__a = new Array(arguments.length -  0);
 while (G__20349__i < G__20349__a.length) {G__20349__a[G__20349__i] = arguments[G__20349__i + 0]; ++G__20349__i;}
   args = new cljs.core.IndexedSeq(G__20349__a,0,null);
 } 
-return G__20345__delegate.call(this,args);};
-G__20345.cljs$lang$maxFixedArity = 0;
-G__20345.cljs$lang$applyTo = (function (arglist__20350){
+return G__20348__delegate.call(this,args);};
+G__20348.cljs$lang$maxFixedArity = 0;
+G__20348.cljs$lang$applyTo = (function (arglist__20350){
 var args = cljs.core.seq(arglist__20350);
-return G__20345__delegate(args);
+return G__20348__delegate(args);
 });
-G__20345.cljs$core$IFn$_invoke$arity$variadic = G__20345__delegate;
-return G__20345;
+G__20348.cljs$core$IFn$_invoke$arity$variadic = G__20348__delegate;
+return G__20348;
 })()
 ;
 });
@@ -204,8 +204,8 @@ clojure.string.pop_last_while_empty = (function clojure$string$pop_last_while_em
 var v__$1 = v;
 while(true){
 if(("" === cljs.core.peek(v__$1))){
-var G__20356 = cljs.core.pop(v__$1);
-v__$1 = G__20356;
+var G__20359 = cljs.core.pop(v__$1);
+v__$1 = G__20359;
 continue;
 } else {
 return v__$1;
@@ -420,8 +420,8 @@ return result;
  *   searching backward from from-index or nil if not found.
  */
 clojure.string.last_index_of = (function clojure$string$last_index_of(var_args){
-var G__20340 = arguments.length;
-switch (G__20340) {
+var G__20344 = arguments.length;
+switch (G__20344) {
 case 2:
 return clojure.string.last_index_of.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 

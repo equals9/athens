@@ -17,10 +17,10 @@ var f__42520__auto__ = (function (){var switch__42483__auto__ = (function (state
 var state_val_48198 = (state_48197[(1)]);
 if((state_val_48198 === (7))){
 var state_48197__$1 = state_48197;
-var statearr_48199_48237 = state_48197__$1;
-(statearr_48199_48237[(2)] = false);
+var statearr_48200_48237 = state_48197__$1;
+(statearr_48200_48237[(2)] = false);
 
-(statearr_48199_48237[(1)] = (8));
+(statearr_48200_48237[(1)] = (8));
 
 
 return new cljs.core.Keyword(null,"recur","recur",-437573268);
@@ -73,12 +73,12 @@ var inst_48173 = (cljs.core.PROTOCOL_SENTINEL === inst_48172);
 var inst_48174 = ((inst_48171) || (inst_48173));
 var state_48197__$1 = state_48197;
 if(cljs.core.truth_(inst_48174)){
-var statearr_48204_48242 = state_48197__$1;
-(statearr_48204_48242[(1)] = (6));
+var statearr_48204_48241 = state_48197__$1;
+(statearr_48204_48241[(1)] = (6));
 
 } else {
-var statearr_48205_48243 = state_48197__$1;
-(statearr_48205_48243[(1)] = (7));
+var statearr_48205_48242 = state_48197__$1;
+(statearr_48205_48242[(1)] = (7));
 
 }
 
@@ -89,10 +89,10 @@ var inst_48188 = (state_48197[(8)]);
 var inst_48190 = athens.db.str_to_db_tx(inst_48188);
 var inst_48191 = posh.reagent.transact_BANG_(athens.db.dsdb,inst_48190);
 var state_48197__$1 = state_48197;
-var statearr_48206_48244 = state_48197__$1;
-(statearr_48206_48244[(2)] = inst_48191);
+var statearr_48206_48243 = state_48197__$1;
+(statearr_48206_48243[(2)] = inst_48191);
 
-(statearr_48206_48244[(1)] = (14));
+(statearr_48206_48243[(1)] = (14));
 
 
 return new cljs.core.Keyword(null,"recur","recur",-437573268);
@@ -270,10 +270,10 @@ athens$devcards$db$load_real_db_BANG__$_state_machine__42484__auto__.cljs$core$I
 return athens$devcards$db$load_real_db_BANG__$_state_machine__42484__auto__;
 })()
 })();
-var state__42521__auto__ = (function (){var statearr_48224 = f__42520__auto__();
-(statearr_48224[(6)] = c__42519__auto__);
+var state__42521__auto__ = (function (){var statearr_48226 = f__42520__auto__();
+(statearr_48226[(6)] = c__42519__auto__);
 
-return statearr_48224;
+return statearr_48226;
 })();
 return cljs.core.async.impl.ioc_helpers.run_state_machine_wrapped(state__42521__auto__);
 }));

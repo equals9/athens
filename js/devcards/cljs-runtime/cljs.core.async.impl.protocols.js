@@ -276,7 +276,7 @@ return cljs$core$async$impl$protocols$Buffer$add_BANG__STAR_$dyn_40160(b,itm);
 }
 });
 
-var cljs$core$async$impl$protocols$Buffer$close_buf_BANG_$dyn_40165 = (function (b){
+var cljs$core$async$impl$protocols$Buffer$close_buf_BANG_$dyn_40161 = (function (b){
 var x__4428__auto__ = (((b == null))?null:b);
 var m__4429__auto__ = (cljs.core.async.impl.protocols.close_buf_BANG_[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -297,7 +297,7 @@ cljs.core.async.impl.protocols.close_buf_BANG_ = (function cljs$core$async$impl$
 if((((!((b == null)))) && ((!((b.cljs$core$async$impl$protocols$Buffer$close_buf_BANG_$arity$1 == null)))))){
 return b.cljs$core$async$impl$protocols$Buffer$close_buf_BANG_$arity$1(b);
 } else {
-return cljs$core$async$impl$protocols$Buffer$close_buf_BANG_$dyn_40165(b);
+return cljs$core$async$impl$protocols$Buffer$close_buf_BANG_$dyn_40161(b);
 }
 });
 

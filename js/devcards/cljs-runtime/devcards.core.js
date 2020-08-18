@@ -226,13 +226,13 @@ return React.createElement(devcards.core.CodeHighlight,({"code": new cljs.core.K
 devcards.core.markdown__GT_react = (function devcards$core$markdown__GT_react(var_args){
 var args__4742__auto__ = [];
 var len__4736__auto___48223 = arguments.length;
-var i__4737__auto___48225 = (0);
+var i__4737__auto___48224 = (0);
 while(true){
-if((i__4737__auto___48225 < len__4736__auto___48223)){
-args__4742__auto__.push((arguments[i__4737__auto___48225]));
+if((i__4737__auto___48224 < len__4736__auto___48223)){
+args__4742__auto__.push((arguments[i__4737__auto___48224]));
 
-var G__48226 = (i__4737__auto___48225 + (1));
-i__4737__auto___48225 = G__48226;
+var G__48225 = (i__4737__auto___48224 + (1));
+i__4737__auto___48224 = G__48225;
 continue;
 } else {
 }
@@ -513,8 +513,8 @@ return this__47067__auto__;
 });
 goog.inherits(ctor__47071__auto__,React.Component);
 
-var x47853_48241 = ctor__47071__auto__.prototype;
-(x47853_48241.componentDidUpdate = (function (_,___$1){
+var x47853_48244 = ctor__47071__auto__.prototype;
+(x47853_48244.componentDidUpdate = (function (_,___$1){
 var this$ = this;
 var atom = devcards.core.get_state(this$,new cljs.core.Keyword(null,"data_atom","data_atom",257894504));
 var card = devcards.core.get_props(this$,new cljs.core.Keyword(null,"card","card",-1430355152));
@@ -532,7 +532,7 @@ return null;
 }
 }));
 
-(x47853_48241.componentWillMount = (function (){
+(x47853_48244.componentWillMount = (function (){
 var this$ = this;
 if(cljs.core.truth_(devcards.util.utils.html_env_QMARK_())){
 return this$.setState((function (){var or__4126__auto__ = (function (){var and__4115__auto__ = devcards.core.get_state(this$,new cljs.core.Keyword(null,"data_atom","data_atom",257894504));
@@ -553,7 +553,7 @@ return null;
 }
 }));
 
-(x47853_48241.componentWillUnmount = (function (){
+(x47853_48244.componentWillUnmount = (function (){
 var this$ = this;
 var data_atom = devcards.core.get_state(this$,new cljs.core.Keyword(null,"data_atom","data_atom",257894504));
 var id = devcards.core.get_state(this$,new cljs.core.Keyword(null,"unique_id","unique_id",-796578329));
@@ -570,7 +570,7 @@ return null;
 }
 }));
 
-(x47853_48241.componentDidMount = (function (){
+(x47853_48244.componentDidMount = (function (){
 var this$ = this;
 if(cljs.core.truth_(devcards.util.utils.html_env_QMARK_())){
 var temp__5735__auto__ = devcards.core.get_state(this$,new cljs.core.Keyword(null,"data_atom","data_atom",257894504));
@@ -593,7 +593,7 @@ return null;
 }
 }));
 
-(x47853_48241.render = (function (){
+(x47853_48244.render = (function (){
 var this$ = this;
 var data_atom = devcards.core.get_data_atom(this$);
 var card = devcards.core.get_props(this$,new cljs.core.Keyword(null,"card","card",-1430355152));
@@ -2202,10 +2202,10 @@ if((state_val_48083 === (9))){
 var inst_47996 = (state_48082[(14)]);
 var inst_48014 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,inst_47996);
 var state_48082__$1 = state_48082;
-var statearr_48111_48316 = state_48082__$1;
-(statearr_48111_48316[(2)] = inst_48014);
+var statearr_48111_48317 = state_48082__$1;
+(statearr_48111_48317[(2)] = inst_48014);
 
-(statearr_48111_48316[(1)] = (11));
+(statearr_48111_48317[(1)] = (11));
 
 
 return new cljs.core.Keyword(null,"recur","recur",-437573268);
@@ -2312,10 +2312,10 @@ return new cljs.core.Keyword(null,"recur","recur",-437573268);
 } else {
 if((state_val_48083 === (18))){
 var state_48082__$1 = state_48082;
-var statearr_48124_48333 = state_48082__$1;
-(statearr_48124_48333[(2)] = false);
+var statearr_48124_48337 = state_48082__$1;
+(statearr_48124_48337[(2)] = false);
 
-(statearr_48124_48333[(1)] = (19));
+(statearr_48124_48337[(1)] = (19));
 
 
 return new cljs.core.Keyword(null,"recur","recur",-437573268);
@@ -2400,8 +2400,8 @@ throw ex__42487__auto__;
 return new cljs.core.Keyword(null,"recur","recur",-437573268);
 }})();
 if(cljs.core.keyword_identical_QMARK_(ret_value__42485__auto__,new cljs.core.Keyword(null,"recur","recur",-437573268))){
-var G__48346 = state_48082;
-state_48082 = G__48346;
+var G__48347 = state_48082;
+state_48082 = G__48347;
 continue;
 } else {
 return ret_value__42485__auto__;
