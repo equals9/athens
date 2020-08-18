@@ -81,10 +81,10 @@ return x;
  * Recursively transforms all map keys from keywords to strings.
  */
 clojure.walk.stringify_keys = (function clojure$walk$stringify_keys(m){
-var f = (function (p__23332){
-var vec__23333 = p__23332;
-var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__23333,(0),null);
-var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__23333,(1),null);
+var f = (function (p__23326){
+var vec__23327 = p__23326;
+var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__23327,(0),null);
+var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__23327,(1),null);
 if((k instanceof cljs.core.Keyword)){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.name(k),v], null);
 } else {

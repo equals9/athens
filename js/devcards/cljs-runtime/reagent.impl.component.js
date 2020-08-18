@@ -75,22 +75,22 @@ return reagent.impl.component.extract_children(v);
 }
 });
 reagent.impl.component.reagent_class_QMARK_ = (function reagent$impl$component$reagent_class_QMARK_(c){
-return ((cljs.core.fn_QMARK_(c)) && ((!(((function (){var G__31276 = c;
-var G__31276__$1 = (((G__31276 == null))?null:G__31276.prototype);
-if((G__31276__$1 == null)){
+return ((cljs.core.fn_QMARK_(c)) && ((!(((function (){var G__31272 = c;
+var G__31272__$1 = (((G__31272 == null))?null:G__31272.prototype);
+if((G__31272__$1 == null)){
 return null;
 } else {
-return G__31276__$1.reagentRender;
+return G__31272__$1.reagentRender;
 }
 })() == null)))));
 });
 reagent.impl.component.react_class_QMARK_ = (function reagent$impl$component$react_class_QMARK_(c){
-return ((cljs.core.fn_QMARK_(c)) && ((!(((function (){var G__31280 = c;
-var G__31280__$1 = (((G__31280 == null))?null:G__31280.prototype);
-if((G__31280__$1 == null)){
+return ((cljs.core.fn_QMARK_(c)) && ((!(((function (){var G__31278 = c;
+var G__31278__$1 = (((G__31278 == null))?null:G__31278.prototype);
+if((G__31278__$1 == null)){
 return null;
 } else {
-return G__31280__$1.render;
+return G__31278__$1.render;
 }
 })() == null)))));
 });
@@ -129,8 +129,8 @@ var f = c.reagentRender;
 var _ = ((cljs.core.ifn_QMARK_(f))?null:(function(){throw (new Error(["Assert failed: ",["Expected something callable, not ",cljs.core.pr_str.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([f], 0))].join(''),"\n","(clojure.core/ifn? f)"].join('')))})());
 var res = ((c.cljsLegacyRender === true)?f.call(c,c):(function (){var v = reagent.impl.component.get_argv(c);
 var n = cljs.core.count(v);
-var G__31287 = n;
-switch (G__31287) {
+var G__31284 = n;
+switch (G__31284) {
 case (1):
 return f.call(c);
 
@@ -255,9 +255,9 @@ return rat._run(false);
 }
 })], null);
 reagent.impl.component.custom_wrapper = (function reagent$impl$component$custom_wrapper(key,f){
-var G__31293 = key;
-var G__31293__$1 = (((G__31293 instanceof cljs.core.Keyword))?G__31293.fqn:null);
-switch (G__31293__$1) {
+var G__31292 = key;
+var G__31292__$1 = (((G__31292 instanceof cljs.core.Keyword))?G__31292.fqn:null);
+switch (G__31292__$1) {
 case "getDefaultProps":
 throw (new Error("getDefaultProps not supported"));
 
@@ -383,10 +383,10 @@ break;
 case "componentWillUnmount":
 return (function reagent$impl$component$custom_wrapper_$_componentWillUnmount(){
 var c = this;
-var G__31331_31371 = goog.object.get(c,"cljsRatom");
-if((G__31331_31371 == null)){
+var G__31315_31371 = goog.object.get(c,"cljsRatom");
+if((G__31315_31371 == null)){
 } else {
-reagent.ratom.dispose_BANG_(G__31331_31371);
+reagent.ratom.dispose_BANG_(G__31315_31371);
 }
 
 reagent.impl.batching.mark_rendered(c);

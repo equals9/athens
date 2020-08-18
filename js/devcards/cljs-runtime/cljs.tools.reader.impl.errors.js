@@ -55,13 +55,13 @@ throw cljs.core.ex_info.cljs$core$IFn$_invoke$arity$2(full_msg,details);
 (cljs.tools.reader.impl.errors.throw_ex.cljs$lang$maxFixedArity = (2));
 
 /** @this {Function} */
-(cljs.tools.reader.impl.errors.throw_ex.cljs$lang$applyTo = (function (seq26145){
-var G__26146 = cljs.core.first(seq26145);
-var seq26145__$1 = cljs.core.next(seq26145);
-var G__26147 = cljs.core.first(seq26145__$1);
-var seq26145__$2 = cljs.core.next(seq26145__$1);
+(cljs.tools.reader.impl.errors.throw_ex.cljs$lang$applyTo = (function (seq26147){
+var G__26148 = cljs.core.first(seq26147);
+var seq26147__$1 = cljs.core.next(seq26147);
+var G__26149 = cljs.core.first(seq26147__$1);
+var seq26147__$2 = cljs.core.next(seq26147__$1);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__26146,G__26147,seq26145__$2);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__26148,G__26149,seq26147__$2);
 }));
 
 /**
@@ -95,11 +95,11 @@ return cljs.tools.reader.impl.errors.throw_ex.cljs$core$IFn$_invoke$arity$variad
 (cljs.tools.reader.impl.errors.reader_error.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(cljs.tools.reader.impl.errors.reader_error.cljs$lang$applyTo = (function (seq26151){
-var G__26152 = cljs.core.first(seq26151);
-var seq26151__$1 = cljs.core.next(seq26151);
+(cljs.tools.reader.impl.errors.reader_error.cljs$lang$applyTo = (function (seq26152){
+var G__26153 = cljs.core.first(seq26152);
+var seq26152__$1 = cljs.core.next(seq26152);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__26152,seq26151__$1);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__26153,seq26152__$1);
 }));
 
 /**
@@ -256,9 +256,9 @@ return cljs.tools.reader.impl.errors.throw_eof_reading.cljs$core$IFn$_invoke$ari
 });
 
 (cljs.tools.reader.impl.errors.throw_eof_reading.cljs$core$IFn$_invoke$arity$variadic = (function (rdr,kind,start){
-var init = (function (){var G__26163 = kind;
-var G__26163__$1 = (((G__26163 instanceof cljs.core.Keyword))?G__26163.fqn:null);
-switch (G__26163__$1) {
+var init = (function (){var G__26165 = kind;
+var G__26165__$1 = (((G__26165 instanceof cljs.core.Keyword))?G__26165.fqn:null);
+switch (G__26165__$1) {
 case "regex":
 return "#\"";
 
@@ -268,7 +268,7 @@ return "\"";
 
 break;
 default:
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__26163__$1)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__26165__$1)].join('')));
 
 }
 })();
@@ -278,13 +278,13 @@ return cljs.tools.reader.impl.errors.eof_error.cljs$core$IFn$_invoke$arity$varia
 (cljs.tools.reader.impl.errors.throw_eof_reading.cljs$lang$maxFixedArity = (2));
 
 /** @this {Function} */
-(cljs.tools.reader.impl.errors.throw_eof_reading.cljs$lang$applyTo = (function (seq26160){
-var G__26161 = cljs.core.first(seq26160);
-var seq26160__$1 = cljs.core.next(seq26160);
-var G__26162 = cljs.core.first(seq26160__$1);
-var seq26160__$2 = cljs.core.next(seq26160__$1);
+(cljs.tools.reader.impl.errors.throw_eof_reading.cljs$lang$applyTo = (function (seq26161){
+var G__26162 = cljs.core.first(seq26161);
+var seq26161__$1 = cljs.core.next(seq26161);
+var G__26163 = cljs.core.first(seq26161__$1);
+var seq26161__$2 = cljs.core.next(seq26161__$1);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__26161,G__26162,seq26160__$2);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__26162,G__26163,seq26161__$2);
 }));
 
 cljs.tools.reader.impl.errors.throw_no_dispatch = (function cljs$tools$reader$impl$errors$throw_no_dispatch(rdr,ch){
@@ -391,8 +391,8 @@ var freq = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__26186,(1),null);
 if((freq > (1))){
 return cljs.core.cons(id,cljs$tools$reader$impl$errors$duplicate_keys_error_$_duplicates_$_iter__26179(cljs.core.rest(s__26180__$2)));
 } else {
-var G__26211 = cljs.core.rest(s__26180__$2);
-s__26180__$1 = G__26211;
+var G__26213 = cljs.core.rest(s__26180__$2);
+s__26180__$1 = G__26213;
 continue;
 }
 }
