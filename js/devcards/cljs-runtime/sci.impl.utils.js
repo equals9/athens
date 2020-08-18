@@ -175,13 +175,13 @@ return obj;
 (sci.impl.utils.vary_meta_STAR_.cljs$lang$maxFixedArity = (2));
 
 /** @this {Function} */
-(sci.impl.utils.vary_meta_STAR_.cljs$lang$applyTo = (function (seq57533){
-var G__57534 = cljs.core.first(seq57533);
-var seq57533__$1 = cljs.core.next(seq57533);
-var G__57535 = cljs.core.first(seq57533__$1);
-var seq57533__$2 = cljs.core.next(seq57533__$1);
+(sci.impl.utils.vary_meta_STAR_.cljs$lang$applyTo = (function (seq57527){
+var G__57528 = cljs.core.first(seq57527);
+var seq57527__$1 = cljs.core.next(seq57527);
+var G__57529 = cljs.core.first(seq57527__$1);
+var seq57527__$2 = cljs.core.next(seq57527__$1);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__57534,G__57535,seq57533__$2);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__57528,G__57529,seq57527__$2);
 }));
 
 /**
@@ -215,8 +215,8 @@ return obj;
 }
 });
 sci.impl.utils.strip_core_ns = (function sci$impl$utils$strip_core_ns(sym){
-var G__57545 = cljs.core.namespace(sym);
-switch (G__57545) {
+var G__57543 = cljs.core.namespace(sym);
+switch (G__57543) {
 case "clojure.core":
 case "cljs.core":
 return cljs.core.symbol.cljs$core$IFn$_invoke$arity$1(cljs.core.name(sym));
@@ -237,10 +237,10 @@ if(cljs.core.list_QMARK_(form)){
 return cljs.core.with_meta(cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.list,cljs.core.map.cljs$core$IFn$_invoke$arity$2(inner,form)),cljs.core.meta(form));
 } else {
 if(cljs.core.map_entry_QMARK_(form)){
-return (new cljs.core.MapEntry((function (){var G__57548 = cljs.core.key(form);
-return (inner.cljs$core$IFn$_invoke$arity$1 ? inner.cljs$core$IFn$_invoke$arity$1(G__57548) : inner.call(null,G__57548));
-})(),(function (){var G__57549 = cljs.core.val(form);
-return (inner.cljs$core$IFn$_invoke$arity$1 ? inner.cljs$core$IFn$_invoke$arity$1(G__57549) : inner.call(null,G__57549));
+return (new cljs.core.MapEntry((function (){var G__57545 = cljs.core.key(form);
+return (inner.cljs$core$IFn$_invoke$arity$1 ? inner.cljs$core$IFn$_invoke$arity$1(G__57545) : inner.call(null,G__57545));
+})(),(function (){var G__57546 = cljs.core.val(form);
+return (inner.cljs$core$IFn$_invoke$arity$1 ? inner.cljs$core$IFn$_invoke$arity$1(G__57546) : inner.call(null,G__57546));
 })(),null));
 } else {
 if(cljs.core.seq_QMARK_(form)){

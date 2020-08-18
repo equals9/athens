@@ -704,7 +704,7 @@ return new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"tr
 }));
 re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"save","save",1850079149),(function (_,___$1){
 var db_filepath = re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("db","filepath","db/filepath",1097485287)], null));
-return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword("fs","write!","fs/write!",-1029545496),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [db_filepath,cljs.core.deref(athens.db.dsdb)], null),new cljs.core.Keyword(null,"dispatch","dispatch",1319337009),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("db","sync","db/sync",-624147024)], null)], null);
+return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword("fs","write!","fs/write!",-1029545496),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.deref(db_filepath),datascript.transit.write_transit_str(cljs.core.deref(athens.db.dsdb))], null),new cljs.core.Keyword(null,"dispatch","dispatch",1319337009),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("db","sync","db/sync",-624147024)], null)], null);
 }));
 re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"undo","undo",-1818036302),(function (_,___$1){
 var temp__5735__auto__ = athens.db.find_prev(cljs.core.deref(athens.db.history),(function (p1__60604_SHARP_){

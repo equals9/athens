@@ -68,11 +68,11 @@ return G__39981;
 (garden.stylesheet.rule.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(garden.stylesheet.rule.cljs$lang$applyTo = (function (seq39960){
-var G__39961 = cljs.core.first(seq39960);
-var seq39960__$1 = cljs.core.next(seq39960);
+(garden.stylesheet.rule.cljs$lang$applyTo = (function (seq39961){
+var G__39962 = cljs.core.first(seq39961);
+var seq39961__$1 = cljs.core.next(seq39961);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__39961,seq39960__$1);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__39962,seq39961__$1);
 }));
 
 garden.stylesheet.cssfn = (function garden$stylesheet$cssfn(fn_name){
