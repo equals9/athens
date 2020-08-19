@@ -75,14 +75,14 @@ return cljs.core.str.cljs$core$IFn$_invoke$arity$1(sb);
 if(cljs.tools.reader.edn.not_constituent_QMARK_(ch)){
 return cljs.tools.reader.impl.errors.throw_bad_char(rdr,kind,ch);
 } else {
-var G__26435 = (function (){var G__26371 = sb;
+var G__26434 = (function (){var G__26371 = sb;
 G__26371.append(cljs.tools.reader.reader_types.read_char(rdr));
 
 return G__26371;
 })();
-var G__26436 = cljs.tools.reader.reader_types.peek_char(rdr);
-sb = G__26435;
-ch = G__26436;
+var G__26435 = cljs.tools.reader.reader_types.peek_char(rdr);
+sb = G__26434;
+ch = G__26435;
 continue;
 }
 }
@@ -161,10 +161,10 @@ var d = cljs.tools.reader.impl.utils.char_code(cljs.core.nth.cljs$core$IFn$_invo
 if((d === (-1))){
 return cljs.tools.reader.impl.errors.throw_invalid_unicode_digit_in_token(null,cljs.core.nth.cljs$core$IFn$_invoke$arity$2(token,i),token);
 } else {
-var G__26439 = (i + (1));
-var G__26440 = (d + (uc * base));
-i = G__26439;
-uc = G__26440;
+var G__26438 = (i + (1));
+var G__26439 = (d + (uc * base));
+i = G__26438;
+uc = G__26439;
 continue;
 }
 }
@@ -898,8 +898,8 @@ throw e26428;
  * opts is a map as per clojure.tools.reader.edn/read
  */
 cljs.tools.reader.edn.read_string = (function cljs$tools$reader$edn$read_string(var_args){
-var G__26431 = arguments.length;
-switch (G__26431) {
+var G__26430 = arguments.length;
+switch (G__26430) {
 case 1:
 return cljs.tools.reader.edn.read_string.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

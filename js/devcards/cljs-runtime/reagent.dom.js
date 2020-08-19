@@ -114,8 +114,8 @@ var count__31412_31420 = (0);
 var i__31413_31421 = (0);
 while(true){
 if((i__31413_31421 < count__31412_31420)){
-var v_31423 = chunk__31411_31419.cljs$core$IIndexed$_nth$arity$2(null,i__31413_31421);
-cljs.core.apply.cljs$core$IFn$_invoke$arity$2(reagent.dom.re_render_component,v_31423);
+var v_31422 = chunk__31411_31419.cljs$core$IIndexed$_nth$arity$2(null,i__31413_31421);
+cljs.core.apply.cljs$core$IFn$_invoke$arity$2(reagent.dom.re_render_component,v_31422);
 
 
 var G__31425 = seq__31410_31418;

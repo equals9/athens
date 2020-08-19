@@ -455,10 +455,10 @@ return ({});
 }
 })();
 var first_child = ((1) + ((hasprops)?(1):(0)));
-var temp__5739__auto___31422 = reagent.impl.template.key_from_vec(argv);
-if((temp__5739__auto___31422 == null)){
+var temp__5739__auto___31423 = reagent.impl.template.key_from_vec(argv);
+if((temp__5739__auto___31423 == null)){
 } else {
-var key_31424 = temp__5739__auto___31422;
+var key_31424 = temp__5739__auto___31423;
 (jsprops.key = key_31424);
 }
 
