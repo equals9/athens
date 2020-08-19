@@ -254,9 +254,9 @@ var rst_opts__$1 = seq__58512__$2;
 if(cljs.core.not(opt_name__$1)){
 return ret__$2;
 } else {
-var G__58514 = opt_name__$1;
-var G__58514__$1 = (((G__58514 instanceof cljs.core.Keyword))?G__58514.fqn:null);
-switch (G__58514__$1) {
+var G__58516 = opt_name__$1;
+var G__58516__$1 = (((G__58516 instanceof cljs.core.Keyword))?G__58516.fqn:null);
+switch (G__58516__$1) {
 case "as":
 var G__59252 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(ret__$2,new cljs.core.Keyword(null,"as","as",1148689641),fst_opt__$1);
 var G__59253 = rst_opts__$1;
@@ -287,7 +287,7 @@ continue;
 
 break;
 default:
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__58514__$1)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__58516__$1)].join('')));
 
 }
 }
@@ -467,15 +467,15 @@ var args__$1 = args;
 while(true){
 if(cljs.core.truth_(args__$1)){
 var ret = (function (){var G__58553 = ctx;
-var G__58554 = cljs.core.first(args__$1);
-return (sci.impl.interpreter.interpret.cljs$core$IFn$_invoke$arity$2 ? sci.impl.interpreter.interpret.cljs$core$IFn$_invoke$arity$2(G__58553,G__58554) : sci.impl.interpreter.interpret.call(null,G__58553,G__58554));
+var G__58555 = cljs.core.first(args__$1);
+return (sci.impl.interpreter.interpret.cljs$core$IFn$_invoke$arity$2 ? sci.impl.interpreter.interpret.cljs$core$IFn$_invoke$arity$2(G__58553,G__58555) : sci.impl.interpreter.interpret.call(null,G__58553,G__58555));
 })();
 if((ret instanceof cljs.core.Symbol)){
-var G__59264 = (function (){var G__58555 = libspecs;
+var G__59264 = (function (){var G__58558 = libspecs;
 if(cljs.core.truth_(current_libspec)){
-return cljs.core.conj.cljs$core$IFn$_invoke$arity$2(G__58555,current_libspec);
+return cljs.core.conj.cljs$core$IFn$_invoke$arity$2(G__58558,current_libspec);
 } else {
-return G__58555;
+return G__58558;
 }
 })();
 var G__59265 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [ret], null);
@@ -591,28 +591,28 @@ var found = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__58573,(1),null);
 return (sci.impl.interpreter.interpret.cljs$core$IFn$_invoke$arity$2 ? sci.impl.interpreter.interpret.cljs$core$IFn$_invoke$arity$2(ctx,found) : sci.impl.interpreter.interpret.call(null,ctx,found));
 } else {
 if(cljs.core.vector_QMARK_(case_default)){
-var G__58576 = ctx;
-var G__58577 = cljs.core.second(case_default);
-return (sci.impl.interpreter.interpret.cljs$core$IFn$_invoke$arity$2 ? sci.impl.interpreter.interpret.cljs$core$IFn$_invoke$arity$2(G__58576,G__58577) : sci.impl.interpreter.interpret.call(null,G__58576,G__58577));
+var G__58580 = ctx;
+var G__58581 = cljs.core.second(case_default);
+return (sci.impl.interpreter.interpret.cljs$core$IFn$_invoke$arity$2 ? sci.impl.interpreter.interpret.cljs$core$IFn$_invoke$arity$2(G__58580,G__58581) : sci.impl.interpreter.interpret.call(null,G__58580,G__58581));
 } else {
 throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(v)].join('')));
 }
 }
 });
 sci.impl.interpreter.eval_try = (function sci$impl$interpreter$eval_try(ctx,expr){
-var map__58586 = new cljs.core.Keyword("sci.impl","try","sci.impl/try",2142624741).cljs$core$IFn$_invoke$arity$1(expr);
-var map__58586__$1 = (((((!((map__58586 == null))))?(((((map__58586.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__58586.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__58586):map__58586);
-var body = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__58586__$1,new cljs.core.Keyword(null,"body","body",-2049205669));
-var catches = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__58586__$1,new cljs.core.Keyword(null,"catches","catches",-1478797617));
-var finally$ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__58586__$1,new cljs.core.Keyword(null,"finally","finally",1589088705));
+var map__58590 = new cljs.core.Keyword("sci.impl","try","sci.impl/try",2142624741).cljs$core$IFn$_invoke$arity$1(expr);
+var map__58590__$1 = (((((!((map__58590 == null))))?(((((map__58590.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__58590.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__58590):map__58590);
+var body = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__58590__$1,new cljs.core.Keyword(null,"body","body",-2049205669));
+var catches = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__58590__$1,new cljs.core.Keyword(null,"catches","catches",-1478797617));
+var finally$ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__58590__$1,new cljs.core.Keyword(null,"finally","finally",1589088705));
 try{var _STAR_in_try_STAR__orig_val__58601 = sci.impl.utils._STAR_in_try_STAR_;
 var _STAR_in_try_STAR__temp_val__58602 = true;
 (sci.impl.utils._STAR_in_try_STAR_ = _STAR_in_try_STAR__temp_val__58602);
 
 try{return (sci.impl.interpreter.interpret.cljs$core$IFn$_invoke$arity$2 ? sci.impl.interpreter.interpret.cljs$core$IFn$_invoke$arity$2(ctx,body) : sci.impl.interpreter.interpret.call(null,ctx,body));
 }finally {(sci.impl.utils._STAR_in_try_STAR_ = _STAR_in_try_STAR__orig_val__58601);
-}}catch (e58592){if((e58592 instanceof Error)){
-var e = e58592;
+}}catch (e58595){if((e58595 instanceof Error)){
+var e = e58595;
 var temp__5733__auto__ = cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (_,c){
 var clazz = new cljs.core.Keyword(null,"class","class",-2030961996).cljs$core$IFn$_invoke$arity$1(c);
 if((e instanceof clazz)){
@@ -633,7 +633,7 @@ return r;
 return sci.impl.utils.rethrow_with_location_of_node(ctx,e,body);
 }
 } else {
-throw e58592;
+throw e58595;
 
 }
 }finally {(sci.impl.interpreter.interpret.cljs$core$IFn$_invoke$arity$2 ? sci.impl.interpreter.interpret.cljs$core$IFn$_invoke$arity$2(ctx,finally$) : sci.impl.interpreter.interpret.call(null,ctx,finally$));
