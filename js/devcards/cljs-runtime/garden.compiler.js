@@ -66,7 +66,7 @@ return cljs.core.juxt.cljs$core$IFn$_invoke$arity$2(cljs.core.filter,cljs.core.r
  */
 garden.compiler.IExpandable = function(){};
 
-var garden$compiler$IExpandable$expand$dyn_39952 = (function (this$){
+var garden$compiler$IExpandable$expand$dyn_39953 = (function (this$){
 var x__4428__auto__ = (((this$ == null))?null:this$);
 var m__4429__auto__ = (garden.compiler.expand[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -87,7 +87,7 @@ garden.compiler.expand = (function garden$compiler$expand(this$){
 if((((!((this$ == null)))) && ((!((this$.garden$compiler$IExpandable$expand$arity$1 == null)))))){
 return this$.garden$compiler$IExpandable$expand$arity$1(this$);
 } else {
-return garden$compiler$IExpandable$expand$dyn_39952(this$);
+return garden$compiler$IExpandable$expand$dyn_39953(this$);
 }
 });
 
@@ -1145,14 +1145,14 @@ return stylesheet;
  */
 garden.compiler.compile_css = (function garden$compiler$compile_css(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___40003 = arguments.length;
-var i__4737__auto___40004 = (0);
+var len__4736__auto___40004 = arguments.length;
+var i__4737__auto___40005 = (0);
 while(true){
-if((i__4737__auto___40004 < len__4736__auto___40003)){
-args__4742__auto__.push((arguments[i__4737__auto___40004]));
+if((i__4737__auto___40005 < len__4736__auto___40004)){
+args__4742__auto__.push((arguments[i__4737__auto___40005]));
 
-var G__40005 = (i__4737__auto___40004 + (1));
-i__4737__auto___40004 = G__40005;
+var G__40006 = (i__4737__auto___40005 + (1));
+i__4737__auto___40005 = G__40006;
 continue;
 } else {
 }

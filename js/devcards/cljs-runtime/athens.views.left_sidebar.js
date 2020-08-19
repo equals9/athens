@@ -70,17 +70,17 @@ return null;
 }),new cljs.core.Keyword(null,"on-drag-leave","on-drag-leave",-373180078),(function (___$3){
 return cljs.core.reset_BANG_(drag,null);
 }),new cljs.core.Keyword(null,"on-drop","on-drop",1867868491),(function (e){
-var source_order_60150 = parseInt(e.dataTransfer.getData("text/plain"));
-cljs.core.prn.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([source_order_60150,order], 0));
+var source_order_60156 = parseInt(e.dataTransfer.getData("text/plain"));
+cljs.core.prn.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([source_order_60156,order], 0));
 
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(source_order_60150,order)){
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(source_order_60156,order)){
 } else {
-if(((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(source_order_60150,(order - (1)))) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(drag),new cljs.core.Keyword(null,"above","above",-1286866470))))){
+if(((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(source_order_60156,(order - (1)))) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(drag),new cljs.core.Keyword(null,"above","above",-1286866470))))){
 } else {
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.deref(drag),new cljs.core.Keyword(null,"below","below",-926774883))){
-re_frame.core.dispatch(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("left-sidebar","drop-below","left-sidebar/drop-below",1291292866),source_order_60150,order], null));
+re_frame.core.dispatch(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("left-sidebar","drop-below","left-sidebar/drop-below",1291292866),source_order_60156,order], null));
 } else {
-re_frame.core.dispatch(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("left-sidebar","drop-above","left-sidebar/drop-above",75584917),source_order_60150,order], null));
+re_frame.core.dispatch(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("left-sidebar","drop-above","left-sidebar/drop-above",75584917),source_order_60156,order], null));
 
 }
 }
@@ -110,8 +110,8 @@ if((i__60147 < size__4528__auto__)){
 var sh = cljs.core._nth(c__4527__auto__,i__60147);
 cljs.core.chunk_append(b__60148,cljs.core.with_meta(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [athens.views.left_sidebar.shortcut_component,sh], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),["left-sidebar-",cljs.core.str.cljs$core$IFn$_invoke$arity$1(cljs.core.second(sh))].join('')], null)));
 
-var G__60151 = (i__60147 + (1));
-i__60147 = G__60151;
+var G__60157 = (i__60147 + (1));
+i__60147 = G__60157;
 continue;
 } else {
 return true;

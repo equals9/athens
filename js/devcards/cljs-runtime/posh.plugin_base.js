@@ -13,17 +13,17 @@ return null;
 });
 posh.plugin_base.safe_pull = (function posh$plugin_base$safe_pull(dcfg,db,query,id){
 if(cljs.core.integer_QMARK_(id)){
-var fexpr__25977 = new cljs.core.Keyword(null,"pull*","pull*",413297819).cljs$core$IFn$_invoke$arity$1(dcfg);
-return (fexpr__25977.cljs$core$IFn$_invoke$arity$3 ? fexpr__25977.cljs$core$IFn$_invoke$arity$3(db,query,id) : fexpr__25977.call(null,db,query,id));
+var fexpr__25979 = new cljs.core.Keyword(null,"pull*","pull*",413297819).cljs$core$IFn$_invoke$arity$1(dcfg);
+return (fexpr__25979.cljs$core$IFn$_invoke$arity$3 ? fexpr__25979.cljs$core$IFn$_invoke$arity$3(db,query,id) : fexpr__25979.call(null,db,query,id));
 } else {
 if(cljs.core.vector_QMARK_(id)){
-var temp__5733__auto__ = (function (){var fexpr__25978 = new cljs.core.Keyword(null,"entid","entid",1720688982).cljs$core$IFn$_invoke$arity$1(dcfg);
-return (fexpr__25978.cljs$core$IFn$_invoke$arity$2 ? fexpr__25978.cljs$core$IFn$_invoke$arity$2(db,id) : fexpr__25978.call(null,db,id));
+var temp__5733__auto__ = (function (){var fexpr__25981 = new cljs.core.Keyword(null,"entid","entid",1720688982).cljs$core$IFn$_invoke$arity$1(dcfg);
+return (fexpr__25981.cljs$core$IFn$_invoke$arity$2 ? fexpr__25981.cljs$core$IFn$_invoke$arity$2(db,id) : fexpr__25981.call(null,db,id));
 })();
 if(cljs.core.truth_(temp__5733__auto__)){
 var eid = temp__5733__auto__;
-var fexpr__25979 = new cljs.core.Keyword(null,"pull*","pull*",413297819).cljs$core$IFn$_invoke$arity$1(dcfg);
-return (fexpr__25979.cljs$core$IFn$_invoke$arity$3 ? fexpr__25979.cljs$core$IFn$_invoke$arity$3(db,query,eid) : fexpr__25979.call(null,db,query,eid));
+var fexpr__25982 = new cljs.core.Keyword(null,"pull*","pull*",413297819).cljs$core$IFn$_invoke$arity$1(dcfg);
+return (fexpr__25982.cljs$core$IFn$_invoke$arity$3 ? fexpr__25982.cljs$core$IFn$_invoke$arity$3(db,query,eid) : fexpr__25982.call(null,db,query,eid));
 } else {
 return posh.plugin_base.missing_pull_result(dcfg,query);
 }
@@ -277,8 +277,8 @@ return posh.plugin_base.make_query_reaction.cljs$core$IFn$_invoke$arity$5(dcfg,p
  *   cached indefinitely, even if the reaction is disposed.
  */
 posh.plugin_base.pull = (function posh$plugin_base$pull(var_args){
-var G__26023 = arguments.length;
-switch (G__26023) {
+var G__26029 = arguments.length;
+switch (G__26029) {
 case 5:
 return posh.plugin_base.pull.cljs$core$IFn$_invoke$arity$5((arguments[(0)]),(arguments[(1)]),(arguments[(2)]),(arguments[(3)]),(arguments[(4)]));
 
@@ -297,8 +297,8 @@ throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(
 var true_poshdb = posh.plugin_base.get_db(dcfg,poshdb);
 var storage_key = new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"pull","pull",-860544805),true_poshdb,pull_pattern,eid], null);
 var posh_atom = posh.plugin_base.get_posh_atom(dcfg,poshdb);
-return posh.plugin_base.make_query_reaction.cljs$core$IFn$_invoke$arity$5(dcfg,posh_atom,storage_key,(function (p1__26021_SHARP_){
-return posh.core.add_pull(p1__26021_SHARP_,true_poshdb,pull_pattern,eid);
+return posh.plugin_base.make_query_reaction.cljs$core$IFn$_invoke$arity$5(dcfg,posh_atom,storage_key,(function (p1__26026_SHARP_){
+return posh.core.add_pull(p1__26026_SHARP_,true_poshdb,pull_pattern,eid);
 }),options);
 }));
 
@@ -315,8 +315,8 @@ var posh_atom = posh.plugin_base.get_posh_atom(dcfg,poshdb);
 return cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(posh.lib.update.update_pull(cljs.core.deref(posh_atom),storage_key),new cljs.core.Keyword(null,"reload-fn","reload-fn",-1150160860));
 });
 posh.plugin_base.pull_many = (function posh$plugin_base$pull_many(var_args){
-var G__26032 = arguments.length;
-switch (G__26032) {
+var G__26036 = arguments.length;
+switch (G__26036) {
 case 5:
 return posh.plugin_base.pull_many.cljs$core$IFn$_invoke$arity$5((arguments[(0)]),(arguments[(1)]),(arguments[(2)]),(arguments[(3)]),(arguments[(4)]));
 
@@ -335,8 +335,8 @@ throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(
 var true_poshdb = posh.plugin_base.get_db(dcfg,poshdb);
 var storage_key = new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"pull-many","pull-many",217148130),true_poshdb,pull_pattern,eids], null);
 var posh_atom = posh.plugin_base.get_posh_atom(dcfg,poshdb);
-return posh.plugin_base.make_query_reaction.cljs$core$IFn$_invoke$arity$5(dcfg,posh_atom,storage_key,(function (p1__26030_SHARP_){
-return posh.core.add_pull_many(p1__26030_SHARP_,true_poshdb,pull_pattern,eids);
+return posh.plugin_base.make_query_reaction.cljs$core$IFn$_invoke$arity$5(dcfg,posh_atom,storage_key,(function (p1__26034_SHARP_){
+return posh.core.add_pull_many(p1__26034_SHARP_,true_poshdb,pull_pattern,eids);
 }),options);
 }));
 
@@ -385,14 +385,14 @@ return (1);
  */
 posh.plugin_base.q = (function posh$plugin_base$q(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___26118 = arguments.length;
-var i__4737__auto___26119 = (0);
+var len__4736__auto___26119 = arguments.length;
+var i__4737__auto___26120 = (0);
 while(true){
-if((i__4737__auto___26119 < len__4736__auto___26118)){
-args__4742__auto__.push((arguments[i__4737__auto___26119]));
+if((i__4737__auto___26120 < len__4736__auto___26119)){
+args__4742__auto__.push((arguments[i__4737__auto___26120]));
 
-var G__26120 = (i__4737__auto___26119 + (1));
-i__4737__auto___26119 = G__26120;
+var G__26121 = (i__4737__auto___26120 + (1));
+i__4737__auto___26120 = G__26121;
 continue;
 } else {
 }
@@ -409,21 +409,21 @@ var vec__26050 = ((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(n_query_args,clj
 ));
 var args__$1 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__26050,(0),null);
 var options = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__26050,(1),null);
-var true_poshdb_args = cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__26041_SHARP_){
+var true_poshdb_args = cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__26044_SHARP_){
 if(cljs.core.truth_((function (){var fexpr__26053 = new cljs.core.Keyword(null,"conn?","conn?",167224275).cljs$core$IFn$_invoke$arity$1(dcfg);
-return (fexpr__26053.cljs$core$IFn$_invoke$arity$1 ? fexpr__26053.cljs$core$IFn$_invoke$arity$1(p1__26041_SHARP_) : fexpr__26053.call(null,p1__26041_SHARP_));
+return (fexpr__26053.cljs$core$IFn$_invoke$arity$1 ? fexpr__26053.cljs$core$IFn$_invoke$arity$1(p1__26044_SHARP_) : fexpr__26053.call(null,p1__26044_SHARP_));
 })())){
-return posh.plugin_base.get_db(dcfg,p1__26041_SHARP_);
+return posh.plugin_base.get_db(dcfg,p1__26044_SHARP_);
 } else {
-return p1__26041_SHARP_;
+return p1__26044_SHARP_;
 }
 }),args__$1);
-var posh_atom = cljs.core.first(cljs.core.remove.cljs$core$IFn$_invoke$arity$2(cljs.core.nil_QMARK_,cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__26042_SHARP_){
-return posh.plugin_base.get_posh_atom(dcfg,p1__26042_SHARP_);
+var posh_atom = cljs.core.first(cljs.core.remove.cljs$core$IFn$_invoke$arity$2(cljs.core.nil_QMARK_,cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__26045_SHARP_){
+return posh.plugin_base.get_posh_atom(dcfg,p1__26045_SHARP_);
 }),args__$1)));
 var storage_key = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"q","q",689001697),query,true_poshdb_args], null);
-return posh.plugin_base.make_query_reaction.cljs$core$IFn$_invoke$arity$5(dcfg,posh_atom,storage_key,(function (p1__26043_SHARP_){
-return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.partial.cljs$core$IFn$_invoke$arity$3(posh.core.add_q,p1__26043_SHARP_,query),true_poshdb_args);
+return posh.plugin_base.make_query_reaction.cljs$core$IFn$_invoke$arity$5(dcfg,posh_atom,storage_key,(function (p1__26046_SHARP_){
+return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.partial.cljs$core$IFn$_invoke$arity$3(posh.core.add_q,p1__26046_SHARP_,query),true_poshdb_args);
 }),options);
 }));
 
@@ -460,17 +460,17 @@ return posh.plugin_base.q_info.cljs$core$IFn$_invoke$arity$variadic((arguments[(
 });
 
 (posh.plugin_base.q_info.cljs$core$IFn$_invoke$arity$variadic = (function (dcfg,query,args){
-var true_poshdb_args = cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__26054_SHARP_){
+var true_poshdb_args = cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__26055_SHARP_){
 if(cljs.core.truth_((function (){var fexpr__26060 = new cljs.core.Keyword(null,"conn?","conn?",167224275).cljs$core$IFn$_invoke$arity$1(dcfg);
-return (fexpr__26060.cljs$core$IFn$_invoke$arity$1 ? fexpr__26060.cljs$core$IFn$_invoke$arity$1(p1__26054_SHARP_) : fexpr__26060.call(null,p1__26054_SHARP_));
+return (fexpr__26060.cljs$core$IFn$_invoke$arity$1 ? fexpr__26060.cljs$core$IFn$_invoke$arity$1(p1__26055_SHARP_) : fexpr__26060.call(null,p1__26055_SHARP_));
 })())){
-return posh.plugin_base.get_db(dcfg,p1__26054_SHARP_);
+return posh.plugin_base.get_db(dcfg,p1__26055_SHARP_);
 } else {
-return p1__26054_SHARP_;
+return p1__26055_SHARP_;
 }
 }),args);
-var posh_atom = cljs.core.first(cljs.core.remove.cljs$core$IFn$_invoke$arity$2(cljs.core.nil_QMARK_,cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__26055_SHARP_){
-return posh.plugin_base.get_posh_atom(dcfg,p1__26055_SHARP_);
+var posh_atom = cljs.core.first(cljs.core.remove.cljs$core$IFn$_invoke$arity$2(cljs.core.nil_QMARK_,cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__26056_SHARP_){
+return posh.plugin_base.get_posh_atom(dcfg,p1__26056_SHARP_);
 }),args)));
 var storage_key = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"q","q",689001697),query,true_poshdb_args], null);
 return cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(posh.lib.update.update_q(cljs.core.deref(posh_atom),storage_key),new cljs.core.Keyword(null,"reload-fn","reload-fn",-1150160860));
