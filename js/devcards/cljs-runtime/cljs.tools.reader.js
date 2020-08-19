@@ -451,14 +451,14 @@ return or__4126__auto__;
 return cljs.tools.reader.impl.errors.throw_invalid_number(rdr,s);
 }
 } else {
-var G__26378 = (function (){var G__26268 = sb;
+var G__26376 = (function (){var G__26268 = sb;
 G__26268.append(ch);
 
 return G__26268;
 })();
-var G__26379 = rdr.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
-sb = G__26378;
-ch = G__26379;
+var G__26377 = rdr.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
+sb = G__26376;
+ch = G__26377;
 continue;
 }
 break;
@@ -916,10 +916,10 @@ continue;
 }
 } else {
 if((!((finished === cljs.tools.reader.READ_FINISHED)))){
-var G__26402 = matched;
-var G__26403 = cljs.tools.reader.read_suppress(first_line,rdr,opts,pending_forms);
-matched = G__26402;
-finished = G__26403;
+var G__26403 = matched;
+var G__26404 = cljs.tools.reader.read_suppress(first_line,rdr,opts,pending_forms);
+matched = G__26403;
+finished = G__26404;
 continue;
 } else {
 return matched;
@@ -1157,10 +1157,10 @@ var key_vals = cljs.core.transient$(cljs.core.PersistentVector.EMPTY);
 while(true){
 if(s){
 var e = cljs.core.first(s);
-var G__26415 = cljs.core.next(s);
-var G__26416 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(key_vals,cljs.core.key(e)),cljs.core.val(e));
-s = G__26415;
-key_vals = G__26416;
+var G__26414 = cljs.core.next(s);
+var G__26415 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(key_vals,cljs.core.key(e)),cljs.core.val(e));
+s = G__26414;
+key_vals = G__26415;
 continue;
 } else {
 return cljs.core.seq(cljs.core.persistent_BANG_(key_vals));

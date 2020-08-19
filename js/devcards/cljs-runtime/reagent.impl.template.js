@@ -97,24 +97,24 @@ return cljs.core.clj__GT_js(x);
 } else {
 if(cljs.core.ifn_QMARK_(x)){
 return (function() { 
-var G__31400__delegate = function (args){
+var G__31398__delegate = function (args){
 return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(x,args);
 };
-var G__31400 = function (var_args){
+var G__31398 = function (var_args){
 var args = null;
 if (arguments.length > 0) {
-var G__31401__i = 0, G__31401__a = new Array(arguments.length -  0);
-while (G__31401__i < G__31401__a.length) {G__31401__a[G__31401__i] = arguments[G__31401__i + 0]; ++G__31401__i;}
-  args = new cljs.core.IndexedSeq(G__31401__a,0,null);
+var G__31399__i = 0, G__31399__a = new Array(arguments.length -  0);
+while (G__31399__i < G__31399__a.length) {G__31399__a[G__31399__i] = arguments[G__31399__i + 0]; ++G__31399__i;}
+  args = new cljs.core.IndexedSeq(G__31399__a,0,null);
 } 
-return G__31400__delegate.call(this,args);};
-G__31400.cljs$lang$maxFixedArity = 0;
-G__31400.cljs$lang$applyTo = (function (arglist__31404){
-var args = cljs.core.seq(arglist__31404);
-return G__31400__delegate(args);
+return G__31398__delegate.call(this,args);};
+G__31398.cljs$lang$maxFixedArity = 0;
+G__31398.cljs$lang$applyTo = (function (arglist__31400){
+var args = cljs.core.seq(arglist__31400);
+return G__31398__delegate(args);
 });
-G__31400.cljs$core$IFn$_invoke$arity$variadic = G__31400__delegate;
-return G__31400;
+G__31398.cljs$core$IFn$_invoke$arity$variadic = G__31398__delegate;
+return G__31398;
 })()
 ;
 } else {
@@ -176,8 +176,8 @@ while (G__31406__i < G__31406__a.length) {G__31406__a[G__31406__i] = arguments[G
 } 
 return G__31405__delegate.call(this,args);};
 G__31405.cljs$lang$maxFixedArity = 0;
-G__31405.cljs$lang$applyTo = (function (arglist__31408){
-var args = cljs.core.seq(arglist__31408);
+G__31405.cljs$lang$applyTo = (function (arglist__31407){
+var args = cljs.core.seq(arglist__31407);
 return G__31405__delegate(args);
 });
 G__31405.cljs$core$IFn$_invoke$arity$variadic = G__31405__delegate;
@@ -455,10 +455,10 @@ return ({});
 }
 })();
 var first_child = ((1) + ((hasprops)?(1):(0)));
-var temp__5739__auto___31422 = reagent.impl.template.key_from_vec(argv);
-if((temp__5739__auto___31422 == null)){
+var temp__5739__auto___31418 = reagent.impl.template.key_from_vec(argv);
+if((temp__5739__auto___31418 == null)){
 } else {
-var key_31423 = temp__5739__auto___31422;
+var key_31423 = temp__5739__auto___31418;
 (jsprops.key = key_31423);
 }
 
