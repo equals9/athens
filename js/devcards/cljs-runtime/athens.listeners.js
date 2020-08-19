@@ -143,7 +143,6 @@ return null;
 athens.listeners.key_down = (function athens$listeners$key_down(e){
 var key = e.keyCode;
 var ctrl = e.ctrlKey;
-var meta = e.metaKey;
 var shift = e.shiftKey;
 if(cljs.core.truth_(((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(key,goog.events.KeyCodes.S))?ctrl:false))){
 return re_frame.core.dispatch(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"save","save",1850079149)], null));

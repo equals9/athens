@@ -69,7 +69,7 @@ return null;
  */
 reitit.core.Router = function(){};
 
-var reitit$core$Router$router_name$dyn_54539 = (function (this$){
+var reitit$core$Router$router_name$dyn_54538 = (function (this$){
 var x__4428__auto__ = (((this$ == null))?null:this$);
 var m__4429__auto__ = (reitit.core.router_name[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -87,7 +87,7 @@ reitit.core.router_name = (function reitit$core$router_name(this$){
 if((((!((this$ == null)))) && ((!((this$.reitit$core$Router$router_name$arity$1 == null)))))){
 return this$.reitit$core$Router$router_name$arity$1(this$);
 } else {
-return reitit$core$Router$router_name$dyn_54539(this$);
+return reitit$core$Router$router_name$dyn_54538(this$);
 }
 });
 
@@ -135,7 +135,7 @@ return reitit$core$Router$compiled_routes$dyn_54541(this$);
 }
 });
 
-var reitit$core$Router$options$dyn_54543 = (function (this$){
+var reitit$core$Router$options$dyn_54542 = (function (this$){
 var x__4428__auto__ = (((this$ == null))?null:this$);
 var m__4429__auto__ = (reitit.core.options[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -153,11 +153,11 @@ reitit.core.options = (function reitit$core$options(this$){
 if((((!((this$ == null)))) && ((!((this$.reitit$core$Router$options$arity$1 == null)))))){
 return this$.reitit$core$Router$options$arity$1(this$);
 } else {
-return reitit$core$Router$options$dyn_54543(this$);
+return reitit$core$Router$options$dyn_54542(this$);
 }
 });
 
-var reitit$core$Router$route_names$dyn_54545 = (function (this$){
+var reitit$core$Router$route_names$dyn_54544 = (function (this$){
 var x__4428__auto__ = (((this$ == null))?null:this$);
 var m__4429__auto__ = (reitit.core.route_names[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -175,11 +175,11 @@ reitit.core.route_names = (function reitit$core$route_names(this$){
 if((((!((this$ == null)))) && ((!((this$.reitit$core$Router$route_names$arity$1 == null)))))){
 return this$.reitit$core$Router$route_names$arity$1(this$);
 } else {
-return reitit$core$Router$route_names$dyn_54545(this$);
+return reitit$core$Router$route_names$dyn_54544(this$);
 }
 });
 
-var reitit$core$Router$match_by_path$dyn_54547 = (function (this$,path){
+var reitit$core$Router$match_by_path$dyn_54546 = (function (this$,path){
 var x__4428__auto__ = (((this$ == null))?null:this$);
 var m__4429__auto__ = (reitit.core.match_by_path[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -197,13 +197,13 @@ reitit.core.match_by_path = (function reitit$core$match_by_path(this$,path){
 if((((!((this$ == null)))) && ((!((this$.reitit$core$Router$match_by_path$arity$2 == null)))))){
 return this$.reitit$core$Router$match_by_path$arity$2(this$,path);
 } else {
-return reitit$core$Router$match_by_path$dyn_54547(this$,path);
+return reitit$core$Router$match_by_path$dyn_54546(this$,path);
 }
 });
 
-var reitit$core$Router$match_by_name$dyn_54549 = (function() {
-var G__54550 = null;
-var G__54550__2 = (function (this$,name){
+var reitit$core$Router$match_by_name$dyn_54548 = (function() {
+var G__54549 = null;
+var G__54549__2 = (function (this$,name){
 var x__4428__auto__ = (((this$ == null))?null:this$);
 var m__4429__auto__ = (reitit.core.match_by_name[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -217,7 +217,7 @@ throw cljs.core.missing_protocol("Router.match-by-name",this$);
 }
 }
 });
-var G__54550__3 = (function (this$,name,path_params){
+var G__54549__3 = (function (this$,name,path_params){
 var x__4428__auto__ = (((this$ == null))?null:this$);
 var m__4429__auto__ = (reitit.core.match_by_name[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -231,18 +231,18 @@ throw cljs.core.missing_protocol("Router.match-by-name",this$);
 }
 }
 });
-G__54550 = function(this$,name,path_params){
+G__54549 = function(this$,name,path_params){
 switch(arguments.length){
 case 2:
-return G__54550__2.call(this,this$,name);
+return G__54549__2.call(this,this$,name);
 case 3:
-return G__54550__3.call(this,this$,name,path_params);
+return G__54549__3.call(this,this$,name,path_params);
 }
 throw(new Error('Invalid arity: ' + arguments.length));
 };
-G__54550.cljs$core$IFn$_invoke$arity$2 = G__54550__2;
-G__54550.cljs$core$IFn$_invoke$arity$3 = G__54550__3;
-return G__54550;
+G__54549.cljs$core$IFn$_invoke$arity$2 = G__54549__2;
+G__54549.cljs$core$IFn$_invoke$arity$3 = G__54549__3;
+return G__54549;
 })()
 ;
 reitit.core.match_by_name = (function reitit$core$match_by_name(var_args){
@@ -266,7 +266,7 @@ throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(
 if((((!((this$ == null)))) && ((!((this$.reitit$core$Router$match_by_name$arity$2 == null)))))){
 return this$.reitit$core$Router$match_by_name$arity$2(this$,name);
 } else {
-return reitit$core$Router$match_by_name$dyn_54549(this$,name);
+return reitit$core$Router$match_by_name$dyn_54548(this$,name);
 }
 }));
 
@@ -274,7 +274,7 @@ return reitit$core$Router$match_by_name$dyn_54549(this$,name);
 if((((!((this$ == null)))) && ((!((this$.reitit$core$Router$match_by_name$arity$3 == null)))))){
 return this$.reitit$core$Router$match_by_name$arity$3(this$,name,path_params);
 } else {
-return reitit$core$Router$match_by_name$dyn_54549(this$,name,path_params);
+return reitit$core$Router$match_by_name$dyn_54548(this$,name,path_params);
 }
 }));
 
@@ -1059,8 +1059,8 @@ return reitit.core.lookup_router.cljs$core$IFn$_invoke$arity$2(compiled_routes,c
 (reitit.core.lookup_router.cljs$core$IFn$_invoke$arity$2 = (function (compiled_routes,opts){
 var temp__5735__auto___54582 = cljs.core.seq(cljs.core.filter.cljs$core$IFn$_invoke$arity$2(reitit.impl.__GT_wild_route_QMARK_(opts),compiled_routes));
 if(temp__5735__auto___54582){
-var wilds_54587 = temp__5735__auto___54582;
-reitit.exception.fail_BANG_.cljs$core$IFn$_invoke$arity$2(["can't create :lookup-router with wildcard routes: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(wilds_54587)].join(''),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"wilds","wilds",132271223),wilds_54587,new cljs.core.Keyword(null,"routes","routes",457900162),compiled_routes], null));
+var wilds_54583 = temp__5735__auto___54582;
+reitit.exception.fail_BANG_.cljs$core$IFn$_invoke$arity$2(["can't create :lookup-router with wildcard routes: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(wilds_54583)].join(''),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"wilds","wilds",132271223),wilds_54583,new cljs.core.Keyword(null,"routes","routes",457900162),compiled_routes], null));
 } else {
 }
 

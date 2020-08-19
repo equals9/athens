@@ -4,7 +4,6 @@ goog.require('athens.db');
 goog.require('athens.router');
 goog.require('athens.style');
 goog.require('athens.util');
-goog.require('athens.views.buttons');
 goog.require('cljsjs.react');
 goog.require('cljsjs.react.dom');
 goog.require('posh.reagent');
