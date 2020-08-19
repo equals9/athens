@@ -196,14 +196,14 @@ var read_fn_33047 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__33013_33045
 cljs.reader.register_tag_parser_BANG_(tag_33046,read_fn_33047);
 
 
-var G__33049 = cljs.core.next(seq__33000_33039__$1);
-var G__33050 = null;
+var G__33048 = cljs.core.next(seq__33000_33039__$1);
+var G__33049 = null;
+var G__33050 = (0);
 var G__33051 = (0);
-var G__33052 = (0);
-seq__33000_33027 = G__33049;
-chunk__33001_33028 = G__33050;
-count__33002_33029 = G__33051;
-i__33003_33030 = G__33052;
+seq__33000_33027 = G__33048;
+chunk__33001_33028 = G__33049;
+count__33002_33029 = G__33050;
+i__33003_33030 = G__33051;
 continue;
 }
 } else {

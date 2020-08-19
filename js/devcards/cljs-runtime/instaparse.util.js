@@ -28,9 +28,9 @@ throw text;
 (instaparse.util.throw_runtime_exception.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(instaparse.util.throw_runtime_exception.cljs$lang$applyTo = (function (seq55061){
+(instaparse.util.throw_runtime_exception.cljs$lang$applyTo = (function (seq55062){
 var self__4724__auto__ = this;
-return self__4724__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq55061));
+return self__4724__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq55062));
 }));
 
 instaparse.util.throw_illegal_argument_exception = (function instaparse$util$throw_illegal_argument_exception(var_args){
@@ -61,19 +61,19 @@ throw text;
 (instaparse.util.throw_illegal_argument_exception.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(instaparse.util.throw_illegal_argument_exception.cljs$lang$applyTo = (function (seq55062){
+(instaparse.util.throw_illegal_argument_exception.cljs$lang$applyTo = (function (seq55063){
 var self__4724__auto__ = this;
-return self__4724__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq55062));
+return self__4724__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq55063));
 }));
 
 instaparse.util.regexp_flags = (function instaparse$util$regexp_flags(re){
-var G__55063 = "";
-var G__55063__$1 = (cljs.core.truth_(re.ignoreCase)?[G__55063,"i"].join(''):G__55063);
-var G__55063__$2 = (cljs.core.truth_(re.multiline)?[G__55063__$1,"m"].join(''):G__55063__$1);
+var G__55064 = "";
+var G__55064__$1 = (cljs.core.truth_(re.ignoreCase)?[G__55064,"i"].join(''):G__55064);
+var G__55064__$2 = (cljs.core.truth_(re.multiline)?[G__55064__$1,"m"].join(''):G__55064__$1);
 if(cljs.core.truth_(re.unicode)){
-return [G__55063__$2,"u"].join('');
+return [G__55064__$2,"u"].join('');
 } else {
-return G__55063__$2;
+return G__55064__$2;
 }
 });
 

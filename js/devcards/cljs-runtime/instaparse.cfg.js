@@ -25,21 +25,21 @@ instaparse.cfg._STAR_case_insensitive_literals_STAR_ = new cljs.core.Keyword(nul
  *   2) the supplied `ci-by-default?` parameter
  */
 instaparse.cfg.string_PLUS_ = (function instaparse$cfg$string_PLUS_(s,ci_by_default_QMARK_){
-var G__56064 = instaparse.cfg._STAR_case_insensitive_literals_STAR_;
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(true,G__56064)){
+var G__56063 = instaparse.cfg._STAR_case_insensitive_literals_STAR_;
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(true,G__56063)){
 return instaparse.combinators_source.string_ci(s);
 } else {
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(false,G__56064)){
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(false,G__56063)){
 return instaparse.combinators_source.string(s);
 } else {
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"default","default",-1987822328),G__56064)){
+if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"default","default",-1987822328),G__56063)){
 if(cljs.core.truth_(ci_by_default_QMARK_)){
 return instaparse.combinators_source.string_ci(s);
 } else {
 return instaparse.combinators_source.string(s);
 }
 } else {
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__56064)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__56063)].join('')));
 
 }
 }
@@ -79,10 +79,10 @@ var temp__5733__auto____$1 = cljs.core.second(sq);
 if(cljs.core.truth_(temp__5733__auto____$1)){
 var c2 = temp__5733__auto____$1;
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(c2,"'")){
-var G__56111 = cljs.core.drop.cljs$core$IFn$_invoke$arity$2((2),sq);
-var G__56112 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(v,c2);
-sq = G__56111;
-v = G__56112;
+var G__56112 = cljs.core.drop.cljs$core$IFn$_invoke$arity$2((2),sq);
+var G__56113 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(v,c2);
+sq = G__56112;
+v = G__56113;
 continue;
 } else {
 var G__56114 = cljs.core.drop.cljs$core$IFn$_invoke$arity$2((2),sq);
@@ -157,8 +157,8 @@ var vec__56078 = (instaparse.cfg.contents.cljs$core$IFn$_invoke$arity$1 ? instap
 var nt = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56078,(0),null);
 var alt_or_ord = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__56078,(1),null);
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2((instaparse.cfg.tag.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.tag.cljs$core$IFn$_invoke$arity$1(nt) : instaparse.cfg.tag.call(null,nt)),new cljs.core.Keyword(null,"hide-nt","hide-nt",-228813845))){
-return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.keyword.cljs$core$IFn$_invoke$arity$1((function (){var G__56081 = (instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1(nt) : instaparse.cfg.content.call(null,nt));
-return (instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1(G__56081) : instaparse.cfg.content.call(null,G__56081));
+return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.keyword.cljs$core$IFn$_invoke$arity$1((function (){var G__56082 = (instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1(nt) : instaparse.cfg.content.call(null,nt));
+return (instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1(G__56082) : instaparse.cfg.content.call(null,G__56082));
 })()),instaparse.combinators_source.hide_tag((instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1(alt_or_ord) : instaparse.cfg.build_rule.call(null,alt_or_ord)))], null);
 } else {
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.keyword.cljs$core$IFn$_invoke$arity$1((instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.content.cljs$core$IFn$_invoke$arity$1(nt) : instaparse.cfg.content.call(null,nt))),(instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1 ? instaparse.cfg.build_rule.cljs$core$IFn$_invoke$arity$1(alt_or_ord) : instaparse.cfg.build_rule.call(null,alt_or_ord))], null);
